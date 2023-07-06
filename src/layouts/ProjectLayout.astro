@@ -7,7 +7,7 @@ import FormattedDate from "../components/FormattedDate.astro";
 
 type Props = CollectionEntry<"projects">["data"];
 
-const { name, notes, categories, link, support } = Astro.props;
+const { name, notes, categories, link, support, icon } = Astro.props;
 const categoryPromises = categories.map(async (category) =>
 	getEntry("categories", category.id)
 );
@@ -23,7 +23,11 @@ const categoriesData = await Promise.all(categoryPromises);
 		<Header />
 		<main>
 			<article>
-				<h1 class="font-bold text-2xl">{name}</h1>
+				<div class="flex">
+					<h1 class="font-bold text-2xl">{name}</h1>
+					<img src={`/icons/${icon}`} width="50px" />
+				</div>
+
 				<ul class="px-10">
 					<li>
 						<b>Support</b>
@@ -42,7 +46,8 @@ const categoriesData = await Promise.all(categoryPromises);
 					<li>
 						<p>
 							<a class="underline text-blue-700" href={link}
-								>{link}</a>
+								>{link}</a
+							>
 						</p>
 					</li>
 					<li>

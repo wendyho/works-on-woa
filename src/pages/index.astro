@@ -3,6 +3,7 @@ import BaseHead from "../components/BaseHead.astro";
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
 import { getCollection } from "astro:content";
+import PageFind from "../components/PageFind.astro";
 
 const projects = await getCollection("projects");
 ---
@@ -17,10 +18,11 @@ const projects = await getCollection("projects");
 	</head>
 	<body>
 		<Header />
+		<PageFind />
 		<main>
 			<section class="flex flex-col items-center">
 				<h2 class="font-bold p-3 text-xl">Projects</h2>
-				<ul class="list-disc list-inside p-4">
+				<ul class="list-disc list-inside p-4" data-pagefind-ignore>
 					{
 						projects.map((project) => (
 							<li class="underline">
