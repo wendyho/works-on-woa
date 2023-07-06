@@ -1,0 +1,5 @@
+name: Python
+categories: [oss]
+link: https://python.org/
+support: native
+notes: Native support available from python 3.11
