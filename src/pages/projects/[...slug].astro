@@ -12,6 +12,7 @@ export async function getStaticPaths() {
 type Props = CollectionEntry<"projects">;
 
 const project = Astro.props;
+
 ---
 
 <ProjectLayout {...project.data} />

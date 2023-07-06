@@ -12,6 +12,7 @@ const projects = defineCollection({
   type: "data",
   schema: z.object({
     name: z.string(),
+    icon: z.string(),
     categories: z.array(reference("categories")),
     link: z.string().url(),
     support: z.enum(["native", "emulation", "no", "unknown"]),
