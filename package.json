@@ -7,7 +7,7 @@
     "preview": "astro preview",
     "postbuild": "pagefind --source dist/",
     "start": "astro dev",
-    "build": "astro build",
+    "build": "astro build && yarn postbuild",
     "astro": "astro"
   },
   "dependencies": {
