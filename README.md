@@ -1,68 +1,33 @@
-# Astro Starter Kit: Blog
+# "Works on Windows on Arm" website git repository
 
-```
-npm create astro@latest -- --template blog
-```
+This repository is used to build `staging.worksonwoa.com` and, from there, `www.worksonwoa.com`.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/blog)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/blog)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/blog/devcontainer.json)
+The websites are built automatically when the staging and main branches are updated, as appropriate.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+The staging branch is updated by:
 
-![blog](https://user-images.githubusercontent.com/4677417/186189140-4ef17aac-c3c9-4918-a8c2-ce86ba1bb394.png)
+* Forking this repository
+* Making the changes you want to make
+* Raising a pull request against the staging branch
+* Waiting for a repository maintainer to review and approve your changes
 
-Features:
+Once the pull request is approved, your changes will be merged to the staging branch and published to staging.worksonwoa.com.
 
-- ✅ Minimal styling (make it your own!)
-- ✅ 100/100 Lighthouse performance
-- ✅ SEO-friendly with canonical URLs and OpenGraph data
-- ✅ Sitemap support
-- ✅ RSS Feed support
-- ✅ Markdown & MDX support
+A repository maintainer can then merge all changes from staging to main in order to cause the main website to be updated and rebuilt.
 
-## 🚀 Project Structure
+## Contributing
 
-Inside of your Astro project, you'll see the following folders and files:
+Each project is represented by its own file, which is stored under `src/content/projects`. A project's file is named after the project and has a `.yaml` file extension.
 
-```
-├── public/
-├── src/
-│   ├── components/
-│   ├── content/
-│   ├── layouts/
-│   └── pages/
-├── astro.config.mjs
-├── README.md
-├── package.json
-└── tsconfig.json
-```
+Each project file contains the following information:
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+* `name`: string : The project's name
+* `icon`: path: A path to the project's icon, relative to `/public/icons`
+* `category`: list: A list of one or more categories that the project belongs to. A list of categories can be found in `/src/content/categories`
+* `support`: enum: `native`, `emulation`, `no`, `unknown`
+* `link`: URL: A link to the project's main website
+* `notes`: string: Any other general notes for the project
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+## Questions?
 
-The `src/content/` directory contains "collections" of related Markdown and MDX documents. Use `getCollection()` to retrieve posts from `src/content/blog/`, and type-check your frontmatter using an optional schema. See [Astro's Content Collections docs](https://docs.astro.build/en/guides/content-collections/) to learn more.
-
-Any static assets, like images, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:3000`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Check out [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
-
-## Credit
-
-This theme is based off of the lovely [Bear Blog](https://github.com/HermanMartinus/bearblog/).
+If you have any questions about updating or building this website, please contact Linaro IT Support at [it-support@linaro.org](mailto:it-support@linaro.org).
