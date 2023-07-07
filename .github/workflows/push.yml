@@ -51,14 +51,14 @@ jobs:
         sudo ./aws/install --update
         pipx run pipenv install
         echo "Getting AWS credentials ..."
-        pipx run pipenv run python ./get_aws_creds.py -i ${{ secrets.VAULT_ROLE_ID }} -s ${{ secrets.VAULT_SECRET_ID }} -r ${{ secrets.VAULT_ROLE }}
-        # cd dist
-        # ls -l
-        # echo "aws s3 sync --exclude \"*\" --include \"*.html\" --cache-control \"no-cache, max-age=86400\" ./ \"s3://$AWS_STATIC_SITE_URL\" --delete --no-progress"
-        # aws s3 sync --exclude "*" --include "*.html" --cache-control "no-cache, max-age=86400" ./ "s3://$AWS_STATIC_SITE_URL" --delete --no-progress
-        # echo "aws s3 sync --include \"*\" --exclude \"*.html\" --cache-control \"public, max-age=86400\" ./ \"s3://$AWS_STATIC_SITE_URL\" --delete --no-progress"
-        # aws s3 sync --include "*" --exclude "*.html" --cache-control "public, max-age=86400" ./ "s3://$AWS_STATIC_SITE_URL" --delete --no-progress
-        # cd ..
+        $(pipx run pipenv run python ./get_aws_creds.py -i ${{ secrets.VAULT_ROLE_ID }} -s ${{ secrets.VAULT_SECRET_ID }} -r ${{ secrets.VAULT_ROLE }})
+        cd dist
+        ls -l
+        echo "aws s3 sync --exclude \"*\" --include \"*.html\" --cache-control \"no-cache, max-age=86400\" ./ \"s3://$AWS_STATIC_SITE_URL\" --delete --no-progress"
+        aws s3 sync --exclude "*" --include "*.html" --cache-control "no-cache, max-age=86400" ./ "s3://$AWS_STATIC_SITE_URL" --delete --no-progress
+        echo "aws s3 sync --include \"*\" --exclude \"*.html\" --cache-control \"public, max-age=86400\" ./ \"s3://$AWS_STATIC_SITE_URL\" --delete --no-progress"
+        aws s3 sync --include "*" --exclude "*.html" --cache-control "public, max-age=86400" ./ "s3://$AWS_STATIC_SITE_URL" --delete --no-progress
+        cd ..
         # echo "======== CREATING INVALIDATION ========"
         # invID=$(aws cloudfront create-invalidation \
         #   --distribution-id "$CF_DIST_ID_STATIC_LO" --paths "/*" --query Invalidation.Id --output text)
