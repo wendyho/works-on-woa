@@ -3,6 +3,11 @@ on:
     branches: [ "main", "staging" ]
   workflow_dispatch:
 
+# Cancel in-progress jobs or runs for the current workflow
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 env:
   NODE_VERSION: '18.x'
 
@@ -39,9 +44,9 @@ jobs:
     - name: Deploy to AWS
       run: |
         sudo apt update && sudo apt upgrade -y && sudo apt install -y pipx
-        curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
-        unzip awscliv2.zip
-        ./aws/install
+        # curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+        # unzip awscliv2.zip
+        # ./aws/install
         pipx run pipenv install
         $(pipx run pipenv run python ./get_aws_creds.py -i ${{ secrets.VAULT_ROLE_ID }} -s ${{ secrets.VAULT_SECRET_ID }} -r ${{ secrets.VAULT_ROLE }})
         cd dist
