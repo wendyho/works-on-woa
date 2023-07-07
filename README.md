@@ -21,12 +21,15 @@ Each project is represented by its own file, which is stored under `src/content/
 
 Each project file contains the following information:
 
-* `name`: string : The project's name
-* `icon`: path: A path to the project's icon, relative to `/public/icons`
-* `category`: list: A list of one or more categories that the project belongs to. A list of categories can be found in `/src/content/categories`
-* `support`: enum: `native`, `emulation`, `no`, `unknown`
-* `link`: URL: A link to the project's main website
-* `notes`: string: Any other general notes for the project
+| Field | Type | Notes |
+|-------|------|-------|
+| `name` | string | The project's name |
+| `icon` | path | A path to the project's icon file, relative to `/public/icons`. 512x512 maximum. Use vector (SVG) if possible |
+| `category` | list | A list of one or more categories that the project belongs to. A list of categories can be found in `/src/content/categories` |
+| `support` | enum <ul><li>`native`<li>`emulation`<li>`no`<li>`unknown`</ul>| Windows on Arm support:<br>Native: WoA native support available<br>Emulation: Works with x86/x64 emulation<br>No: Not yet ported<br>Unknown: Status not known |
+| `versionFrom` | string | The version that the software is available to use from.<br><br>For software that can be compiled from one version, but is only publicly available from the other (ie, Python was able to be compiled way earlier than they started making WoA releases), the publicly available version is to be entered here, as that is typically what most end users would want.<br><br>The compilable from version (and any caveats associated with it) can be added freehand in the notes section. |
+| `link` | URL | A link to the project's main website |
+| `notes` | string | Any other general notes for the project |
 
 ## Questions?
 
