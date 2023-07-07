@@ -3,4 +3,5 @@ icon: python.svg
 categories: [oss]
 link: https://python.org/
 support: native
-notes: Native support available from python 3.11
+versionFrom: 3.11
+notes: No additional notes
