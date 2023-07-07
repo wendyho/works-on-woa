@@ -20,8 +20,8 @@ jobs:
         if [[ $GITHUB_REF == 'refs/heads/main' ]]; then
           echo "No support for main branch yet"
         else
-          echo "CF_DIST_ID_STATIC_LO=${{ vars.STAGING_CF_DIST }}" > "$GITHUB_ENV"
-          echo "AWS_STATIC_SITE_URL=${{ vars.STAGING_SITE_URL }}" > "$GITHUB_ENV"
+          echo "CF_DIST_ID_STATIC_LO=${{ vars.STAGING_CF_DIST }}" >> "$GITHUB_ENV"
+          echo "AWS_STATIC_SITE_URL=${{ vars.STAGING_SITE_URL }}" >> "$GITHUB_ENV"
 
     - name: Set up Node.js
       uses: actions/setup-node@v3
