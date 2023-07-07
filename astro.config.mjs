@@ -6,7 +6,7 @@ import tailwind from "@astrojs/tailwind";
 export default defineConfig({
   site: "https://example.com",
   build: {
-    format: "file",
+    format: "folder",
   },
   output: "static",
   integrations: [mdx(), sitemap(), tailwind()],
