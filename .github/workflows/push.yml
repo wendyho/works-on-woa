@@ -22,6 +22,7 @@ jobs:
         else
           echo "CF_DIST_ID_STATIC_LO=${{ vars.STAGING_CF_DIST }}" >> "$GITHUB_ENV"
           echo "AWS_STATIC_SITE_URL=${{ vars.STAGING_SITE_URL }}" >> "$GITHUB_ENV"
+        fi
 
     - name: Set up Node.js
       uses: actions/setup-node@v3
