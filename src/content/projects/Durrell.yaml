@@ -1,0 +1,9 @@
+name: Durrell
+icon: AliquamErat.xls
+link: http://dummyimage.com/230x100.png/dddddd/000000
+support: emulation
+versionFrom: 0.5.2
+categories:
+  - emulation
+  - dotnet
+  - visualstudio

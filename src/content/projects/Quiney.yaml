@@ -1,0 +1,9 @@
+name: Quiney
+icon: IdLigula.gif
+link: http://dummyimage.com/223x100.png/cc0000/ffffff
+support: native
+versionFrom: 6.9.8
+categories:
+  - oss
+  - tools
+  - dotnet

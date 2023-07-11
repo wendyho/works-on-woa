@@ -1,0 +1,9 @@
+name: Quinby
+icon: ParturientMontes.avi
+link: http://dummyimage.com/227x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: '4.71'
+categories:
+  - emulation
+  - embedded
+  - testing

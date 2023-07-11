@@ -1,0 +1,8 @@
+name: Eard
+icon: NullaNeque.pdf
+link: http://dummyimage.com/156x100.png/dddddd/000000
+support: native
+versionFrom: '6.42'
+categories:
+  - oss
+  - emulation

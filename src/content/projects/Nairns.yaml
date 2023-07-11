@@ -1,0 +1,9 @@
+name: Nairns
+icon: DuiVelNisl.mpeg
+link: http://dummyimage.com/174x100.png/5fa2dd/ffffff
+support: unknown
+versionFrom: '5.43'
+categories:
+  - linux
+  - dotnet
+  - emulation

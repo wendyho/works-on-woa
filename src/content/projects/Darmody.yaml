@@ -1,0 +1,9 @@
+name: Darmody
+icon: AliquamNonMauris.tiff
+link: http://dummyimage.com/207x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: '1.68'
+categories:
+  - tools
+  - web
+  - dotnet

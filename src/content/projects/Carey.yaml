@@ -1,0 +1,7 @@
+name: Carey
+icon: Metus.tiff
+link: http://dummyimage.com/178x100.png/ff4444/ffffff
+support: emulation
+versionFrom: '0.37'
+categories:
+  - embedded

@@ -1,0 +1,9 @@
+name: Adenet
+icon: UtOdioCras.tiff
+link: http://dummyimage.com/147x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: '5.56'
+categories:
+  - dotnet
+  - linux
+  - emulation

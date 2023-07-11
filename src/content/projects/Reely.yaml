@@ -1,0 +1,9 @@
+name: Reely
+icon: OdioPorttitorId.xls
+link: http://dummyimage.com/200x100.png/ff4444/ffffff
+support: emulation
+versionFrom: 4.6.5
+categories:
+  - kernel
+  - tools
+  - emulation

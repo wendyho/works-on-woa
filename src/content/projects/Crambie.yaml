@@ -1,0 +1,9 @@
+name: Crambie
+icon: Pretium.xls
+link: http://dummyimage.com/206x100.png/5fa2dd/ffffff
+support: native
+versionFrom: 0.9.1
+categories:
+  - web
+  - linux
+  - oss

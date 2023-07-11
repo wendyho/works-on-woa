@@ -1,0 +1,9 @@
+name: Tooze
+icon: Diam.txt
+link: http://dummyimage.com/140x100.png/ff4444/ffffff
+support: native
+versionFrom: '8.1'
+categories:
+  - kernel
+  - embedded
+  - oss

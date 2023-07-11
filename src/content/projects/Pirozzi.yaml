@@ -1,0 +1,9 @@
+name: Pirozzi
+icon: PortaVolutpatQuam.ppt
+link: http://dummyimage.com/122x100.png/dddddd/000000
+support: 'no'
+versionFrom: 0.3.0
+categories:
+  - dotnet
+  - testing
+  - visualstudio

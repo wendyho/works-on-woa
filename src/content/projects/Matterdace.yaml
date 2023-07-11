@@ -1,0 +1,9 @@
+name: Matterdace
+icon: Curabitur.mpeg
+link: http://dummyimage.com/196x100.png/dddddd/000000
+support: emulation
+versionFrom: 7.5.6
+categories:
+  - tools
+  - linux
+  - oss

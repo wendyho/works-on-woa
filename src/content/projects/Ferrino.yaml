@@ -1,0 +1,9 @@
+name: Ferrino
+icon: DiamNeque.avi
+link: http://dummyimage.com/104x100.png/cc0000/ffffff
+support: unknown
+versionFrom: '9.88'
+categories:
+  - emulation
+  - oss
+  - web

@@ -1,0 +1,9 @@
+name: Giovanizio
+icon: TortorRisusDapibus.ppt
+link: http://dummyimage.com/111x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: 0.2.6
+categories:
+  - embedded
+  - linux
+  - dotnet

@@ -1,0 +1,9 @@
+name: Nail
+icon: Luctus.png
+link: http://dummyimage.com/227x100.png/dddddd/000000
+support: native
+versionFrom: 4.0.4
+categories:
+  - testing
+  - visualstudio
+  - embedded

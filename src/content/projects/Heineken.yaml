@@ -1,0 +1,9 @@
+name: Heineken
+icon: In.pdf
+link: http://dummyimage.com/147x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: '5.5'
+categories:
+  - emulation
+  - embedded
+  - visualstudio

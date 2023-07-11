@@ -1,0 +1,9 @@
+name: Cridland
+icon: IdLobortisConvallis.tiff
+link: http://dummyimage.com/201x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: '5.2'
+categories:
+  - oss
+  - visualstudio
+  - dotnet

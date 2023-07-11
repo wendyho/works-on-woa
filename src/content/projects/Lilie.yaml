@@ -1,0 +1,8 @@
+name: Lilie
+icon: FermentumJusto.txt
+link: http://dummyimage.com/164x100.png/5fa2dd/ffffff
+support: native
+versionFrom: '0.13'
+categories:
+  - dotnet
+  - visualstudio

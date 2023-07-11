@@ -1,0 +1,9 @@
+name: Beveredge
+icon: CubiliaCurae.ppt
+link: http://dummyimage.com/213x100.png/5fa2dd/ffffff
+support: native
+versionFrom: '4.56'
+categories:
+  - dotnet
+  - tools
+  - linux

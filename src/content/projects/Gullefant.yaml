@@ -1,0 +1,9 @@
+name: Gullefant
+icon: VestibulumAnte.xls
+link: http://dummyimage.com/106x100.png/ff4444/ffffff
+support: native
+versionFrom: 2.3.8
+categories:
+  - linux
+  - emulation
+  - kernel

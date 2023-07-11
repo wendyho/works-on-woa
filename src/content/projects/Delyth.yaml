@@ -1,0 +1,9 @@
+name: Delyth
+icon: MorbiAIpsum.jpeg
+link: http://dummyimage.com/195x100.png/dddddd/000000
+support: 'no'
+versionFrom: '0.63'
+categories:
+  - web
+  - emulation
+  - oss

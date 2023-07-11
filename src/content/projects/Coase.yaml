@@ -1,0 +1,9 @@
+name: Coase
+icon: QuisLibero.avi
+link: http://dummyimage.com/172x100.png/cc0000/ffffff
+support: emulation
+versionFrom: '8.05'
+categories:
+  - linux
+  - tools
+  - embedded

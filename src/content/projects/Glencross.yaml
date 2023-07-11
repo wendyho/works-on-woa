@@ -1,0 +1,9 @@
+name: Glencross
+icon: Porta.mp3
+link: http://dummyimage.com/167x100.png/dddddd/000000
+support: emulation
+versionFrom: '4.44'
+categories:
+  - kernel
+  - testing
+  - emulation

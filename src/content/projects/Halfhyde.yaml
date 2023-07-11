@@ -1,0 +1,9 @@
+name: Halfhyde
+icon: RutrumNulla.txt
+link: http://dummyimage.com/210x100.png/ff4444/ffffff
+support: 'no'
+versionFrom: '0.35'
+categories:
+  - kernel
+  - dotnet
+  - visualstudio

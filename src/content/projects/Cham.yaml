@@ -1,0 +1,9 @@
+name: Cham
+icon: ANibh.jpeg
+link: http://dummyimage.com/150x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: '5.5'
+categories:
+  - oss
+  - visualstudio
+  - linux

@@ -1,0 +1,9 @@
+name: Copyn
+icon: IdOrnareImperdiet.mpeg
+link: http://dummyimage.com/185x100.png/dddddd/000000
+support: emulation
+versionFrom: '3.7'
+categories:
+  - emulation
+  - linux
+  - oss

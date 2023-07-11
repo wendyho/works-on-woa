@@ -1,0 +1,9 @@
+name: Fenna
+icon: SagittisDuiVel.tiff
+link: http://dummyimage.com/207x100.png/dddddd/000000
+support: 'no'
+versionFrom: '3.7'
+categories:
+  - dotnet
+  - visualstudio
+  - emulation

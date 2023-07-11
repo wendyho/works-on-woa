@@ -1,0 +1,9 @@
+name: Ferrand
+icon: Nam.mp3
+link: http://dummyimage.com/151x100.png/ff4444/ffffff
+support: emulation
+versionFrom: 6.8.1
+categories:
+  - tools
+  - oss
+  - dotnet

@@ -1,0 +1,8 @@
+name: Phillcock
+icon: Sem.avi
+link: http://dummyimage.com/133x100.png/5fa2dd/ffffff
+support: native
+versionFrom: '6.38'
+categories:
+  - linux
+  - visualstudio

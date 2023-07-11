@@ -1,0 +1,9 @@
+name: Cesconi
+icon: IaculisJusto.tiff
+link: http://dummyimage.com/211x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: '0.78'
+categories:
+  - testing
+  - web
+  - kernel

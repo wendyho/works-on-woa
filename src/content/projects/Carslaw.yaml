@@ -1,0 +1,8 @@
+name: Carslaw
+icon: Pede.avi
+link: http://dummyimage.com/161x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: '7.38'
+categories:
+  - web
+  - visualstudio

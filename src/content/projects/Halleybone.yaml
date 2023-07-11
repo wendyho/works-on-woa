@@ -1,0 +1,9 @@
+name: Halleybone
+icon: At.tiff
+link: http://dummyimage.com/229x100.png/cc0000/ffffff
+support: native
+versionFrom: '4.0'
+categories:
+  - emulation
+  - linux
+  - testing

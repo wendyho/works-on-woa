@@ -1,0 +1,9 @@
+name: Lockney
+icon: Amet.txt
+link: http://dummyimage.com/233x100.png/ff4444/ffffff
+support: emulation
+versionFrom: '7.5'
+categories:
+  - oss
+  - testing
+  - dotnet

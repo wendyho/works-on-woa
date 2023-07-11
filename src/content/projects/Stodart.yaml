@@ -1,0 +1,9 @@
+name: Stodart
+icon: VolutpatErat.tiff
+link: http://dummyimage.com/170x100.png/ff4444/ffffff
+support: unknown
+versionFrom: '0.76'
+categories:
+  - visualstudio
+  - kernel
+  - dotnet

@@ -1,0 +1,8 @@
+name: Gooders
+icon: EgetOrci.avi
+link: http://dummyimage.com/139x100.png/5fa2dd/ffffff
+support: native
+versionFrom: '7.25'
+categories:
+  - embedded
+  - testing

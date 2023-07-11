@@ -1,0 +1,9 @@
+name: Langran
+icon: NamTristiqueTortor.mp3
+link: http://dummyimage.com/142x100.png/dddddd/000000
+support: emulation
+versionFrom: '4.4'
+categories:
+  - emulation
+  - visualstudio
+  - oss

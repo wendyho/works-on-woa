@@ -1,0 +1,8 @@
+name: Brogini
+icon: EleifendLuctusUltricies.mp3
+link: http://dummyimage.com/170x100.png/ff4444/ffffff
+support: 'no'
+versionFrom: '0.75'
+categories:
+  - embedded
+  - linux

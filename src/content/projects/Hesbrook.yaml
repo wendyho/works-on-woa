@@ -1,0 +1,9 @@
+name: Hesbrook
+icon: Rhoncus.ppt
+link: http://dummyimage.com/129x100.png/ff4444/ffffff
+support: unknown
+versionFrom: '1.4'
+categories:
+  - linux
+  - visualstudio
+  - dotnet

@@ -1,0 +1,9 @@
+name: Frid
+icon: IpsumPrimisIn.ppt
+link: http://dummyimage.com/161x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: '1.22'
+categories:
+  - oss
+  - testing
+  - tools

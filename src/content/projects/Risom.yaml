@@ -1,0 +1,9 @@
+name: Risom
+icon: DuisAtVelit.mpeg
+link: http://dummyimage.com/114x100.png/cc0000/ffffff
+support: unknown
+versionFrom: '9.27'
+categories:
+  - web
+  - kernel
+  - linux

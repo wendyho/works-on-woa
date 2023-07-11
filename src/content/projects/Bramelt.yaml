@@ -1,0 +1,9 @@
+name: Bramelt
+icon: PulvinarSed.txt
+link: http://dummyimage.com/132x100.png/dddddd/000000
+support: emulation
+versionFrom: 3.6.2
+categories:
+  - web
+  - linux
+  - emulation

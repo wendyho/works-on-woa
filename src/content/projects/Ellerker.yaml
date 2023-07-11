@@ -1,0 +1,9 @@
+name: Ellerker
+icon: Dui.avi
+link: http://dummyimage.com/176x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: 0.2.7
+categories:
+  - visualstudio
+  - linux
+  - web

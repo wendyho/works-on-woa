@@ -1,0 +1,8 @@
+name: Bartholin
+icon: DonecSemperSapien.mov
+link: http://dummyimage.com/208x100.png/ff4444/ffffff
+support: emulation
+versionFrom: '0.45'
+categories:
+  - emulation
+  - visualstudio

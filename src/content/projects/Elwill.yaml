@@ -1,0 +1,9 @@
+name: Elwill
+icon: AnteIpsum.ppt
+link: http://dummyimage.com/210x100.png/cc0000/ffffff
+support: emulation
+versionFrom: 4.6.5
+categories:
+  - embedded
+  - visualstudio
+  - oss

@@ -1,0 +1,8 @@
+name: Tearney
+icon: CubiliaCurae.tiff
+link: http://dummyimage.com/153x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: '0.77'
+categories:
+  - linux
+  - oss

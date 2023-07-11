@@ -1,0 +1,9 @@
+name: Pigden
+icon: SedAugue.pdf
+link: http://dummyimage.com/112x100.png/dddddd/000000
+support: 'no'
+versionFrom: 0.2.8
+categories:
+  - oss
+  - emulation
+  - testing

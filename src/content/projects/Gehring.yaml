@@ -1,0 +1,9 @@
+name: Gehring
+icon: NislDuisAc.avi
+link: http://dummyimage.com/228x100.png/5fa2dd/ffffff
+support: native
+versionFrom: 0.2.6
+categories:
+  - kernel
+  - web
+  - dotnet

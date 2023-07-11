@@ -1,0 +1,9 @@
+name: Guiel
+icon: ElementumEu.mpeg
+link: http://dummyimage.com/135x100.png/5fa2dd/ffffff
+support: unknown
+versionFrom: '2.28'
+categories:
+  - testing
+  - visualstudio
+  - embedded

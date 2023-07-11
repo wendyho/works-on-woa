@@ -1,0 +1,8 @@
+name: Gooke
+icon: SemperSapien.xls
+link: http://dummyimage.com/178x100.png/cc0000/ffffff
+support: emulation
+versionFrom: '8.7'
+categories:
+  - testing
+  - emulation

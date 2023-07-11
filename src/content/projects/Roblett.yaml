@@ -1,0 +1,9 @@
+name: Roblett
+icon: QuisJustoMaecenas.ppt
+link: http://dummyimage.com/106x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: 0.7.1
+categories:
+  - tools
+  - oss
+  - dotnet

@@ -1,0 +1,9 @@
+name: Beneteau
+icon: Etiam.xls
+link: http://dummyimage.com/106x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: '2.40'
+categories:
+  - oss
+  - tools
+  - web

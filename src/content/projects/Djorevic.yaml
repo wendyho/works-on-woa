@@ -1,0 +1,8 @@
+name: Djorevic
+icon: NullamOrci.mp3
+link: http://dummyimage.com/103x100.png/dddddd/000000
+support: unknown
+versionFrom: '8.1'
+categories:
+  - dotnet
+  - tools

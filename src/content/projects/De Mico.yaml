@@ -1,0 +1,9 @@
+name: De Mico
+icon: AugueVelAccumsan.avi
+link: http://dummyimage.com/199x100.png/ff4444/ffffff
+support: unknown
+versionFrom: '9.5'
+categories:
+  - testing
+  - emulation
+  - dotnet

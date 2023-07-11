@@ -1,0 +1,8 @@
+name: Flinn
+icon: PedeUllamcorperAugue.mp3
+link: http://dummyimage.com/192x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: 0.8.4
+categories:
+  - visualstudio
+  - linux

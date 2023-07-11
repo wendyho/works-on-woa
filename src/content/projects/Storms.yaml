@@ -1,0 +1,9 @@
+name: Storms
+icon: Montes.png
+link: http://dummyimage.com/210x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: '2.9'
+categories:
+  - tools
+  - dotnet
+  - oss

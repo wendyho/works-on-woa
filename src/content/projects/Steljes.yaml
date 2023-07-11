@@ -1,0 +1,8 @@
+name: Steljes
+icon: VenenatisNon.mp3
+link: http://dummyimage.com/202x100.png/dddddd/000000
+support: emulation
+versionFrom: '0.23'
+categories:
+  - web
+  - oss

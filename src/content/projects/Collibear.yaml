@@ -1,0 +1,9 @@
+name: Collibear
+icon: Ultricies.mp3
+link: http://dummyimage.com/233x100.png/cc0000/ffffff
+support: native
+versionFrom: '5.61'
+categories:
+  - oss
+  - tools
+  - kernel

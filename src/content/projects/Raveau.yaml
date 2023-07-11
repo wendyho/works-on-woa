@@ -1,0 +1,9 @@
+name: Raveau
+icon: NamUltrices.tiff
+link: http://dummyimage.com/246x100.png/5fa2dd/ffffff
+support: unknown
+versionFrom: '5.25'
+categories:
+  - kernel
+  - emulation
+  - embedded

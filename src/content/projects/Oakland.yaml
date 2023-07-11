@@ -1,0 +1,9 @@
+name: Oakland
+icon: VulputateVitaeNisl.mp3
+link: http://dummyimage.com/100x100.png/ff4444/ffffff
+support: native
+versionFrom: 3.0.8
+categories:
+  - oss
+  - dotnet
+  - kernel

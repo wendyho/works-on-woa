@@ -1,0 +1,8 @@
+name: Pecha
+icon: RisusPraesentLectus.mp3
+link: http://dummyimage.com/194x100.png/dddddd/000000
+support: emulation
+versionFrom: 5.7.5
+categories:
+  - tools
+  - visualstudio

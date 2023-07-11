@@ -1,0 +1,9 @@
+name: Beadham
+icon: IntegerNonVelit.xls
+link: http://dummyimage.com/117x100.png/cc0000/ffffff
+support: native
+versionFrom: 0.2.2
+categories:
+  - dotnet
+  - emulation
+  - tools

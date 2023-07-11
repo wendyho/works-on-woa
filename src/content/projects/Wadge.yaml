@@ -1,0 +1,9 @@
+name: Wadge
+icon: NullaSed.xls
+link: http://dummyimage.com/206x100.png/5fa2dd/ffffff
+support: native
+versionFrom: '3.7'
+categories:
+  - visualstudio
+  - testing
+  - web

@@ -1,0 +1,9 @@
+name: Fardell
+icon: Nascetur.txt
+link: http://dummyimage.com/176x100.png/dddddd/000000
+support: emulation
+versionFrom: '0.98'
+categories:
+  - linux
+  - web
+  - tools

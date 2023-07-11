@@ -1,0 +1,9 @@
+name: Cameli
+icon: Sed.tiff
+link: http://dummyimage.com/232x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: 4.0.3
+categories:
+  - web
+  - dotnet
+  - testing

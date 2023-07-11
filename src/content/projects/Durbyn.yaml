@@ -1,0 +1,9 @@
+name: Durbyn
+icon: PortaVolutpat.ppt
+link: http://dummyimage.com/223x100.png/ff4444/ffffff
+support: native
+versionFrom: '3.8'
+categories:
+  - dotnet
+  - kernel
+  - emulation

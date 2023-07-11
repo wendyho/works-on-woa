@@ -1,0 +1,9 @@
+name: Rozier
+icon: OrciMauris.avi
+link: http://dummyimage.com/179x100.png/5fa2dd/ffffff
+support: unknown
+versionFrom: 9.6.4
+categories:
+  - linux
+  - emulation
+  - testing

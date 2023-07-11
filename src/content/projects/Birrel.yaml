@@ -1,0 +1,9 @@
+name: Birrel
+icon: Consequat.mp3
+link: http://dummyimage.com/114x100.png/dddddd/000000
+support: 'no'
+versionFrom: 1.5.6
+categories:
+  - embedded
+  - visualstudio
+  - dotnet

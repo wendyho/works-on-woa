@@ -1,0 +1,8 @@
+name: Emblin
+icon: VelEst.avi
+link: http://dummyimage.com/113x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: '9.32'
+categories:
+  - tools
+  - visualstudio

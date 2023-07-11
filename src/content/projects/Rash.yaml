@@ -1,0 +1,9 @@
+name: Rash
+icon: InSagittis.mp3
+link: http://dummyimage.com/240x100.png/5fa2dd/ffffff
+support: native
+versionFrom: 0.4.6
+categories:
+  - oss
+  - kernel
+  - tools

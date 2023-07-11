@@ -1,0 +1,9 @@
+name: M'Barron
+icon: Sit.avi
+link: http://dummyimage.com/204x100.png/dddddd/000000
+support: emulation
+versionFrom: '3.46'
+categories:
+  - web
+  - testing
+  - tools

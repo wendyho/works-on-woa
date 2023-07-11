@@ -1,0 +1,8 @@
+name: Clyant
+icon: Quis.xls
+link: http://dummyimage.com/244x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: 0.8.0
+categories:
+  - emulation
+  - web

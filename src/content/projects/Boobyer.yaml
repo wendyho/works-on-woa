@@ -1,0 +1,9 @@
+name: Boobyer
+icon: At.xls
+link: http://dummyimage.com/241x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: '0.42'
+categories:
+  - emulation
+  - linux
+  - web

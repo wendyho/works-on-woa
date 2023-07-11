@@ -1,0 +1,9 @@
+name: Wandrey
+icon: Duis.mov
+link: http://dummyimage.com/224x100.png/dddddd/000000
+support: emulation
+versionFrom: '1.78'
+categories:
+  - dotnet
+  - visualstudio
+  - embedded

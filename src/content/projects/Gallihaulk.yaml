@@ -1,0 +1,9 @@
+name: Gallihaulk
+icon: PrimisIn.mp3
+link: http://dummyimage.com/187x100.png/5fa2dd/ffffff
+support: unknown
+versionFrom: '0.50'
+categories:
+  - linux
+  - kernel
+  - testing

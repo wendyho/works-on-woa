@@ -1,0 +1,9 @@
+name: Coulthart
+icon: In.xls
+link: http://dummyimage.com/217x100.png/5fa2dd/ffffff
+support: unknown
+versionFrom: '1.70'
+categories:
+  - embedded
+  - linux
+  - emulation

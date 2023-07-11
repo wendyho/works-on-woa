@@ -1,0 +1,9 @@
+name: Flores
+icon: VestibulumAnte.mp3
+link: http://dummyimage.com/160x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: '0.31'
+categories:
+  - tools
+  - kernel
+  - embedded

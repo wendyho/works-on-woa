@@ -1,0 +1,9 @@
+name: Mc Ilory
+icon: Vestibulum.mpeg
+link: http://dummyimage.com/213x100.png/ff4444/ffffff
+support: emulation
+versionFrom: 2.4.6
+categories:
+  - emulation
+  - testing
+  - oss

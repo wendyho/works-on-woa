@@ -1,0 +1,9 @@
+name: Corton
+icon: UtDolorMorbi.mp3
+link: http://dummyimage.com/232x100.png/ff4444/ffffff
+support: native
+versionFrom: '8.81'
+categories:
+  - testing
+  - oss
+  - web

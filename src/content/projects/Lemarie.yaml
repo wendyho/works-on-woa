@@ -1,0 +1,9 @@
+name: Lemarie
+icon: HacHabitassePlatea.ppt
+link: http://dummyimage.com/133x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: 7.2.6
+categories:
+  - oss
+  - testing
+  - kernel

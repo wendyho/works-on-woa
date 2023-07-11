@@ -1,0 +1,9 @@
+name: Saulter
+icon: MattisPulvinarNulla.avi
+link: http://dummyimage.com/150x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: '3.4'
+categories:
+  - oss
+  - linux
+  - visualstudio

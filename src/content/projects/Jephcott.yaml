@@ -1,0 +1,9 @@
+name: Jephcott
+icon: Lacus.xls
+link: http://dummyimage.com/118x100.png/cc0000/ffffff
+support: emulation
+versionFrom: 8.5.3
+categories:
+  - testing
+  - embedded
+  - linux

@@ -1,0 +1,8 @@
+name: Roblou
+icon: PrimisIn.mp3
+link: http://dummyimage.com/244x100.png/cc0000/ffffff
+support: emulation
+versionFrom: '7.8'
+categories:
+  - tools
+  - web

@@ -1,0 +1,9 @@
+name: Conford
+icon: NullaTempusVivamus.tiff
+link: http://dummyimage.com/170x100.png/5fa2dd/ffffff
+support: native
+versionFrom: 5.0.8
+categories:
+  - dotnet
+  - visualstudio
+  - linux

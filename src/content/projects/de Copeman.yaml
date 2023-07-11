@@ -1,0 +1,9 @@
+name: de Copeman
+icon: Donec.mp3
+link: http://dummyimage.com/142x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: 0.4.5
+categories:
+  - embedded
+  - linux
+  - oss

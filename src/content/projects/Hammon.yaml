@@ -1,0 +1,9 @@
+name: Hammon
+icon: DolorMorbiVel.xls
+link: http://dummyimage.com/230x100.png/cc0000/ffffff
+support: emulation
+versionFrom: 5.6.6
+categories:
+  - kernel
+  - emulation
+  - testing

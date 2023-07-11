@@ -1,0 +1,9 @@
+name: Catenot
+icon: PrimisInFaucibus.jpeg
+link: http://dummyimage.com/155x100.png/dddddd/000000
+support: emulation
+versionFrom: '6.95'
+categories:
+  - embedded
+  - visualstudio
+  - tools

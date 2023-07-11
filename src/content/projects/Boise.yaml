@@ -1,0 +1,8 @@
+name: Boise
+icon: LacusMorbiQuis.ppt
+link: http://dummyimage.com/149x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: '2.76'
+categories:
+  - testing
+  - linux

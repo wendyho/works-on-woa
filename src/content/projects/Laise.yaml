@@ -1,0 +1,9 @@
+name: Laise
+icon: NullaSedVel.avi
+link: http://dummyimage.com/195x100.png/ff4444/ffffff
+support: 'no'
+versionFrom: '0.97'
+categories:
+  - kernel
+  - testing
+  - tools

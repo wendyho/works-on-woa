@@ -1,0 +1,9 @@
+name: Hedney
+icon: Sit.mp3
+link: http://dummyimage.com/202x100.png/ff4444/ffffff
+support: 'no'
+versionFrom: 0.1.3
+categories:
+  - linux
+  - testing
+  - kernel

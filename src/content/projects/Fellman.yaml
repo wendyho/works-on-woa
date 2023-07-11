@@ -1,0 +1,8 @@
+name: Fellman
+icon: EgetTempus.xls
+link: http://dummyimage.com/141x100.png/cc0000/ffffff
+support: native
+versionFrom: '0.93'
+categories:
+  - emulation
+  - linux

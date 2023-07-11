@@ -1,0 +1,9 @@
+name: Campaigne
+icon: MassaQuisAugue.tiff
+link: http://dummyimage.com/156x100.png/dddddd/000000
+support: native
+versionFrom: '6.49'
+categories:
+  - dotnet
+  - linux
+  - oss

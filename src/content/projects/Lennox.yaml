@@ -1,0 +1,9 @@
+name: Lennox
+icon: Nec.mp3
+link: http://dummyimage.com/129x100.png/dddddd/000000
+support: native
+versionFrom: '3.15'
+categories:
+  - oss
+  - testing
+  - web

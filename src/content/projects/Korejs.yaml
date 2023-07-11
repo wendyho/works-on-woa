@@ -1,0 +1,9 @@
+name: Korejs
+icon: Mauris.tiff
+link: http://dummyimage.com/218x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: '0.28'
+categories:
+  - visualstudio
+  - web
+  - kernel

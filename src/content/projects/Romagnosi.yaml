@@ -1,0 +1,9 @@
+name: Romagnosi
+icon: QuamAOdio.xls
+link: http://dummyimage.com/120x100.png/dddddd/000000
+support: native
+versionFrom: '8.54'
+categories:
+  - kernel
+  - visualstudio
+  - embedded

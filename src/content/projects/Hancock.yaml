@@ -1,0 +1,9 @@
+name: Hancock
+icon: In.avi
+link: http://dummyimage.com/243x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: 8.6.3
+categories:
+  - testing
+  - tools
+  - linux

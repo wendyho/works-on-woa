@@ -1,0 +1,9 @@
+name: Bursnoll
+icon: Interdum.txt
+link: http://dummyimage.com/191x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: '0.81'
+categories:
+  - kernel
+  - linux
+  - tools

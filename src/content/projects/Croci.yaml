@@ -1,0 +1,9 @@
+name: Croci
+icon: Dapibus.ppt
+link: http://dummyimage.com/234x100.png/5fa2dd/ffffff
+support: native
+versionFrom: '0.16'
+categories:
+  - testing
+  - linux
+  - tools

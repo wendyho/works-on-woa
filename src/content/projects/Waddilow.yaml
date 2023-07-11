@@ -1,0 +1,9 @@
+name: Waddilow
+icon: EtiamPretiumIaculis.pdf
+link: http://dummyimage.com/145x100.png/cc0000/ffffff
+support: unknown
+versionFrom: '0.37'
+categories:
+  - embedded
+  - testing
+  - kernel

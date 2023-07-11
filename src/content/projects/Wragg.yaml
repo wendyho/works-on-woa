@@ -1,0 +1,9 @@
+name: Wragg
+icon: PrimisInFaucibus.avi
+link: http://dummyimage.com/151x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: '3.60'
+categories:
+  - visualstudio
+  - testing
+  - tools

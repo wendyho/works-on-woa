@@ -1,0 +1,9 @@
+name: Vivians
+icon: SitAmet.xls
+link: http://dummyimage.com/223x100.png/5fa2dd/ffffff
+support: native
+versionFrom: '4.9'
+categories:
+  - web
+  - visualstudio
+  - emulation

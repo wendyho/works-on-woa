@@ -1,0 +1,9 @@
+name: Bultitude
+icon: VelitDonec.jpeg
+link: http://dummyimage.com/170x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: '2.9'
+categories:
+  - oss
+  - embedded
+  - linux

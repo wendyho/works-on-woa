@@ -1,0 +1,8 @@
+name: Frapwell
+icon: Mauris.jpeg
+link: http://dummyimage.com/137x100.png/ff4444/ffffff
+support: native
+versionFrom: '2.1'
+categories:
+  - oss
+  - dotnet

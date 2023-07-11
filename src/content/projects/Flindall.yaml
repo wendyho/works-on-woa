@@ -1,0 +1,9 @@
+name: Flindall
+icon: Cursus.pdf
+link: http://dummyimage.com/104x100.png/ff4444/ffffff
+support: unknown
+versionFrom: 9.1.2
+categories:
+  - kernel
+  - visualstudio
+  - embedded

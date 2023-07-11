@@ -1,0 +1,9 @@
+name: Cutmare
+icon: IpsumAliquam.ppt
+link: http://dummyimage.com/206x100.png/5fa2dd/ffffff
+support: native
+versionFrom: '0.15'
+categories:
+  - oss
+  - kernel
+  - testing

@@ -1,0 +1,9 @@
+name: Jervois
+icon: AtNullaSuspendisse.mp3
+link: http://dummyimage.com/225x100.png/dddddd/000000
+support: emulation
+versionFrom: 0.9.2
+categories:
+  - visualstudio
+  - kernel
+  - testing

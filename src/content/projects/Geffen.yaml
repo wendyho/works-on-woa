@@ -1,0 +1,9 @@
+name: Geffen
+icon: MusEtiamVel.xls
+link: http://dummyimage.com/177x100.png/cc0000/ffffff
+support: native
+versionFrom: '7.2'
+categories:
+  - oss
+  - dotnet
+  - kernel

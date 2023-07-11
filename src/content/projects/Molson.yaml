@@ -1,0 +1,9 @@
+name: Molson
+icon: Velit.tiff
+link: http://dummyimage.com/166x100.png/dddddd/000000
+support: unknown
+versionFrom: 0.2.4
+categories:
+  - visualstudio
+  - tools
+  - linux

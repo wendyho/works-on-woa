@@ -1,0 +1,8 @@
+name: Cordon
+icon: PrimisIn.mp3
+link: http://dummyimage.com/142x100.png/ff4444/ffffff
+support: emulation
+versionFrom: '1.0'
+categories:
+  - visualstudio
+  - oss

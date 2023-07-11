@@ -1,0 +1,9 @@
+name: Ginty
+icon: Phasellus.jpeg
+link: http://dummyimage.com/226x100.png/ff4444/ffffff
+support: emulation
+versionFrom: 0.8.1
+categories:
+  - embedded
+  - linux
+  - kernel

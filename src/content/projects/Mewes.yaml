@@ -1,0 +1,9 @@
+name: Mewes
+icon: EtiamFaucibus.mpeg
+link: http://dummyimage.com/142x100.png/ff4444/ffffff
+support: native
+versionFrom: 3.4.4
+categories:
+  - kernel
+  - emulation
+  - embedded

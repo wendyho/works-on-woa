@@ -1,0 +1,8 @@
+name: Bradshaw
+icon: ViverraPede.avi
+link: http://dummyimage.com/163x100.png/cc0000/ffffff
+support: emulation
+versionFrom: '2.0'
+categories:
+  - testing
+  - embedded

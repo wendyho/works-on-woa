@@ -1,0 +1,9 @@
+name: Airds
+icon: Tempus.mpeg
+link: http://dummyimage.com/109x100.png/dddddd/000000
+support: emulation
+versionFrom: '0.54'
+categories:
+  - dotnet
+  - visualstudio
+  - emulation

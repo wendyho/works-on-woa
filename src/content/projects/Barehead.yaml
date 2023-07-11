@@ -1,0 +1,9 @@
+name: Barehead
+icon: MaurisUllamcorper.doc
+link: http://dummyimage.com/134x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: '1.6'
+categories:
+  - testing
+  - tools
+  - linux

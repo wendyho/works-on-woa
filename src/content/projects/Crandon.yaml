@@ -1,0 +1,8 @@
+name: Crandon
+icon: NullamVariusNulla.mp3
+link: http://dummyimage.com/163x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: 4.1.8
+categories:
+  - web
+  - testing

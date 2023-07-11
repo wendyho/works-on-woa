@@ -1,0 +1,9 @@
+name: Snawdon
+icon: TristiqueFusce.ppt
+link: http://dummyimage.com/177x100.png/5fa2dd/ffffff
+support: native
+versionFrom: 0.9.7
+categories:
+  - emulation
+  - embedded
+  - linux

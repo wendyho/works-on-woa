@@ -1,0 +1,8 @@
+name: Brocks
+icon: DuisAliquam.pdf
+link: http://dummyimage.com/211x100.png/5fa2dd/ffffff
+support: native
+versionFrom: 5.3.9
+categories:
+  - testing
+  - kernel

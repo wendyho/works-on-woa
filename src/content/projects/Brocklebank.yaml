@@ -1,0 +1,9 @@
+name: Brocklebank
+icon: DapibusAt.xls
+link: http://dummyimage.com/231x100.png/5fa2dd/ffffff
+support: native
+versionFrom: '7.2'
+categories:
+  - visualstudio
+  - testing
+  - web

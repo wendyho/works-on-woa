@@ -1,0 +1,8 @@
+name: Moff
+icon: MaurisMorbiNon.avi
+link: http://dummyimage.com/168x100.png/ff4444/ffffff
+support: 'no'
+versionFrom: '0.19'
+categories:
+  - embedded
+  - linux

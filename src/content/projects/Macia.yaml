@@ -1,0 +1,8 @@
+name: Macia
+icon: SuscipitNulla.avi
+link: http://dummyimage.com/132x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: 2.8.3
+categories:
+  - dotnet
+  - web

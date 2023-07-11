@@ -1,0 +1,8 @@
+name: Bowering
+icon: Orci.ppt
+link: http://dummyimage.com/155x100.png/ff4444/ffffff
+support: native
+versionFrom: '4.9'
+categories:
+  - linux
+  - embedded

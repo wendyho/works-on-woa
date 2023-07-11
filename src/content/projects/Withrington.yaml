@@ -1,0 +1,9 @@
+name: Withrington
+icon: FermentumJusto.mp3
+link: http://dummyimage.com/234x100.png/dddddd/000000
+support: native
+versionFrom: 7.6.4
+categories:
+  - kernel
+  - emulation
+  - testing

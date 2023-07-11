@@ -1,0 +1,9 @@
+name: Blayney
+icon: Quisque.ppt
+link: http://dummyimage.com/112x100.png/cc0000/ffffff
+support: emulation
+versionFrom: 1.6.6
+categories:
+  - linux
+  - testing
+  - embedded

@@ -1,0 +1,9 @@
+name: Wolfendell
+icon: MaurisUllamcorperPurus.mp3
+link: http://dummyimage.com/215x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: 5.8.8
+categories:
+  - visualstudio
+  - emulation
+  - tools

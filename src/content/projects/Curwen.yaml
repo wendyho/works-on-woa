@@ -1,0 +1,9 @@
+name: Curwen
+icon: PorttitorId.txt
+link: http://dummyimage.com/222x100.png/ff4444/ffffff
+support: native
+versionFrom: '4.53'
+categories:
+  - oss
+  - kernel
+  - linux

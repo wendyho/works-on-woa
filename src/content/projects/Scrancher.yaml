@@ -1,0 +1,8 @@
+name: Scrancher
+icon: SitAmetDiam.ppt
+link: http://dummyimage.com/208x100.png/dddddd/000000
+support: emulation
+versionFrom: 0.2.8
+categories:
+  - visualstudio
+  - tools

@@ -1,0 +1,9 @@
+name: Lamond
+icon: PortaVolutpat.xls
+link: http://dummyimage.com/177x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: '0.38'
+categories:
+  - tools
+  - emulation
+  - dotnet

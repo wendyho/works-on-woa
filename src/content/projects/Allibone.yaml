@@ -1,0 +1,9 @@
+name: Allibone
+icon: JustoAliquam.tiff
+link: http://dummyimage.com/226x100.png/dddddd/000000
+support: native
+versionFrom: '8.8'
+categories:
+  - oss
+  - testing
+  - visualstudio

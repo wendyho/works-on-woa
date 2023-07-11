@@ -1,0 +1,9 @@
+name: Dinwoodie
+icon: NamCongueRisus.mp3
+link: http://dummyimage.com/217x100.png/cc0000/ffffff
+support: unknown
+versionFrom: '7.67'
+categories:
+  - oss
+  - linux
+  - dotnet

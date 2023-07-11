@@ -1,0 +1,9 @@
+name: Jaulme
+icon: SapienNon.jpeg
+link: http://dummyimage.com/226x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: '9.2'
+categories:
+  - embedded
+  - web
+  - testing

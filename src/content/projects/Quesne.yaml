@@ -1,0 +1,9 @@
+name: Quesne
+icon: Fermentum.mp3
+link: http://dummyimage.com/193x100.png/5fa2dd/ffffff
+support: native
+versionFrom: '0.95'
+categories:
+  - testing
+  - tools
+  - kernel

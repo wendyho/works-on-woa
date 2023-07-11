@@ -1,0 +1,8 @@
+name: Dwelly
+icon: Justo.mov
+link: http://dummyimage.com/234x100.png/cc0000/ffffff
+support: unknown
+versionFrom: '1.31'
+categories:
+  - dotnet
+  - testing

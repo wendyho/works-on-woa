@@ -1,0 +1,8 @@
+name: McHaffy
+icon: AnteVestibulum.png
+link: http://dummyimage.com/198x100.png/cc0000/ffffff
+support: native
+versionFrom: 0.9.7
+categories:
+  - emulation
+  - kernel

@@ -1,0 +1,9 @@
+name: Carrivick
+icon: FusceCongueDiam.xls
+link: http://dummyimage.com/102x100.png/dddddd/000000
+support: emulation
+versionFrom: 0.6.3
+categories:
+  - emulation
+  - web
+  - embedded

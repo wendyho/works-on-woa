@@ -1,0 +1,9 @@
+name: Whitby
+icon: Nec.avi
+link: http://dummyimage.com/201x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: 7.0.7
+categories:
+  - kernel
+  - testing
+  - linux

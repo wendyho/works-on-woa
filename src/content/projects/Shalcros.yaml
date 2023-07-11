@@ -1,0 +1,9 @@
+name: Shalcros
+icon: ScelerisqueQuamTurpis.pdf
+link: http://dummyimage.com/138x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: '6.6'
+categories:
+  - oss
+  - emulation
+  - linux

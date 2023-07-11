@@ -1,0 +1,9 @@
+name: McKeachie
+icon: MagnaAc.avi
+link: http://dummyimage.com/163x100.png/5fa2dd/ffffff
+support: native
+versionFrom: 8.7.5
+categories:
+  - tools
+  - oss
+  - linux

@@ -1,0 +1,8 @@
+name: Densumbe
+icon: ViverraPede.mpeg
+link: http://dummyimage.com/114x100.png/cc0000/ffffff
+support: native
+versionFrom: 0.5.4
+categories:
+  - oss
+  - kernel

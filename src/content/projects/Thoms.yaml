@@ -1,0 +1,9 @@
+name: Thoms
+icon: FacilisiCrasNon.mp3
+link: http://dummyimage.com/111x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: '1.6'
+categories:
+  - emulation
+  - visualstudio
+  - tools

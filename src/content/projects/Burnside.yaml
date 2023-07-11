@@ -1,0 +1,9 @@
+name: Burnside
+icon: ViverraPede.gif
+link: http://dummyimage.com/146x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: 5.7.5
+categories:
+  - tools
+  - oss
+  - web

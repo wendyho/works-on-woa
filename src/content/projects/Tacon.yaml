@@ -1,0 +1,9 @@
+name: Tacon
+icon: PharetraMagnaVestibulum.tiff
+link: http://dummyimage.com/223x100.png/ff4444/ffffff
+support: unknown
+versionFrom: '4.86'
+categories:
+  - oss
+  - testing
+  - kernel

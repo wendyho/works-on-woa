@@ -1,0 +1,9 @@
+name: Buttner
+icon: TortorRisusDapibus.tiff
+link: http://dummyimage.com/150x100.png/5fa2dd/ffffff
+support: native
+versionFrom: 9.2.4
+categories:
+  - web
+  - dotnet
+  - visualstudio

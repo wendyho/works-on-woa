@@ -1,0 +1,9 @@
+name: Gillman
+icon: JustoInHac.jpeg
+link: http://dummyimage.com/190x100.png/ff4444/ffffff
+support: native
+versionFrom: '0.55'
+categories:
+  - visualstudio
+  - dotnet
+  - web

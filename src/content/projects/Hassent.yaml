@@ -1,0 +1,9 @@
+name: Hassent
+icon: IntegerAliquet.avi
+link: http://dummyimage.com/233x100.png/dddddd/000000
+support: 'no'
+versionFrom: '4.6'
+categories:
+  - web
+  - dotnet
+  - visualstudio

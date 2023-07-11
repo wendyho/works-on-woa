@@ -1,0 +1,9 @@
+name: Perico
+icon: UltricesMattisOdio.tiff
+link: http://dummyimage.com/142x100.png/ff4444/ffffff
+support: unknown
+versionFrom: '0.75'
+categories:
+  - dotnet
+  - tools
+  - kernel

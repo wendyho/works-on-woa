@@ -1,0 +1,9 @@
+name: Clara
+icon: InQuisJusto.txt
+link: http://dummyimage.com/134x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: '5.84'
+categories:
+  - linux
+  - web
+  - testing

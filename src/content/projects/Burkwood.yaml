@@ -1,0 +1,9 @@
+name: Burkwood
+icon: VelPedeMorbi.tiff
+link: http://dummyimage.com/188x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: '2.8'
+categories:
+  - kernel
+  - tools
+  - visualstudio

@@ -1,0 +1,9 @@
+name: Feathersby
+icon: Nec.doc
+link: http://dummyimage.com/243x100.png/cc0000/ffffff
+support: native
+versionFrom: '5.7'
+categories:
+  - testing
+  - dotnet
+  - visualstudio

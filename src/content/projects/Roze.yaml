@@ -1,0 +1,9 @@
+name: Roze
+icon: UtVolutpatSapien.txt
+link: http://dummyimage.com/137x100.png/5fa2dd/ffffff
+support: native
+versionFrom: 0.8.7
+categories:
+  - linux
+  - dotnet
+  - testing

@@ -1,0 +1,9 @@
+name: Andrzejczak
+icon: Tristique.jpeg
+link: http://dummyimage.com/134x100.png/dddddd/000000
+support: 'no'
+versionFrom: 2.9.6
+categories:
+  - embedded
+  - tools
+  - web

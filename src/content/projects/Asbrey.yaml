@@ -1,0 +1,9 @@
+name: Asbrey
+icon: EuOrci.xls
+link: http://dummyimage.com/181x100.png/cc0000/ffffff
+support: emulation
+versionFrom: '4.02'
+categories:
+  - oss
+  - tools
+  - web

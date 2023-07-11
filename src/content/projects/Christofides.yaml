@@ -1,0 +1,8 @@
+name: Christofides
+icon: Varius.gif
+link: http://dummyimage.com/175x100.png/ff4444/ffffff
+support: emulation
+versionFrom: '0.55'
+categories:
+  - dotnet
+  - oss

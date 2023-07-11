@@ -1,0 +1,9 @@
+name: Mundford
+icon: EratEros.xls
+link: http://dummyimage.com/154x100.png/ff4444/ffffff
+support: emulation
+versionFrom: '7.1'
+categories:
+  - kernel
+  - linux
+  - oss

@@ -1,0 +1,9 @@
+name: Souley
+icon: Eget.tiff
+link: http://dummyimage.com/169x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: '4.48'
+categories:
+  - visualstudio
+  - testing
+  - linux

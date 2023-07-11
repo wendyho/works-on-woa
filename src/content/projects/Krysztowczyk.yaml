@@ -1,0 +1,9 @@
+name: Krysztowczyk
+icon: Varius.mp3
+link: http://dummyimage.com/189x100.png/cc0000/ffffff
+support: emulation
+versionFrom: '0.39'
+categories:
+  - linux
+  - kernel
+  - embedded

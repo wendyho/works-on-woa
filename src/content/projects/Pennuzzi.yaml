@@ -1,0 +1,9 @@
+name: Pennuzzi
+icon: EratVolutpatIn.tiff
+link: http://dummyimage.com/203x100.png/ff4444/ffffff
+support: 'no'
+versionFrom: '6.8'
+categories:
+  - linux
+  - web
+  - oss

@@ -1,0 +1,9 @@
+name: Zuan
+icon: QuamSapienVarius.xls
+link: http://dummyimage.com/124x100.png/dddddd/000000
+support: native
+versionFrom: 2.3.8
+categories:
+  - oss
+  - emulation
+  - dotnet

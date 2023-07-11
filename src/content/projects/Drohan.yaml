@@ -1,0 +1,9 @@
+name: Drohan
+icon: QuisqueErat.ppt
+link: http://dummyimage.com/218x100.png/ff4444/ffffff
+support: 'no'
+versionFrom: '0.75'
+categories:
+  - dotnet
+  - embedded
+  - testing

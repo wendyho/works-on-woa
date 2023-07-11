@@ -1,0 +1,8 @@
+name: Gerrad
+icon: Sagittis.tiff
+link: http://dummyimage.com/203x100.png/ff4444/ffffff
+support: emulation
+versionFrom: 0.5.0
+categories:
+  - dotnet
+  - testing

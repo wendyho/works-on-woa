@@ -1,0 +1,9 @@
+name: Algie
+icon: Praesent.ppt
+link: http://dummyimage.com/195x100.png/dddddd/000000
+support: native
+versionFrom: 0.8.2
+categories:
+  - visualstudio
+  - oss
+  - dotnet

@@ -1,0 +1,9 @@
+name: Yorke
+icon: Convallis.png
+link: http://dummyimage.com/246x100.png/cc0000/ffffff
+support: native
+versionFrom: '9.52'
+categories:
+  - linux
+  - web
+  - dotnet

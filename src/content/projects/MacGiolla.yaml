@@ -1,0 +1,9 @@
+name: MacGiolla
+icon: LigulaIn.pdf
+link: http://dummyimage.com/124x100.png/5fa2dd/ffffff
+support: native
+versionFrom: '0.62'
+categories:
+  - testing
+  - linux
+  - embedded

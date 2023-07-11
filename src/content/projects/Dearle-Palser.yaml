@@ -1,0 +1,9 @@
+name: Dearle-Palser
+icon: Lorem.doc
+link: http://dummyimage.com/103x100.png/5fa2dd/ffffff
+support: native
+versionFrom: 0.6.7
+categories:
+  - dotnet
+  - tools
+  - linux

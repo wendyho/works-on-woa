@@ -1,0 +1,8 @@
+name: Dyche
+icon: Aliquet.xls
+link: http://dummyimage.com/141x100.png/dddddd/000000
+support: emulation
+versionFrom: '0.11'
+categories:
+  - tools
+  - kernel

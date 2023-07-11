@@ -1,0 +1,9 @@
+name: Moreinu
+icon: VelNulla.ppt
+link: http://dummyimage.com/111x100.png/ff4444/ffffff
+support: 'no'
+versionFrom: '0.37'
+categories:
+  - tools
+  - web
+  - dotnet

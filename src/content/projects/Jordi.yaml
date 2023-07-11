@@ -1,0 +1,9 @@
+name: Jordi
+icon: UtEratId.xls
+link: http://dummyimage.com/198x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: '9.95'
+categories:
+  - visualstudio
+  - dotnet
+  - web

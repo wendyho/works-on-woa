@@ -1,0 +1,9 @@
+name: Ivashin
+icon: Aliquet.ppt
+link: http://dummyimage.com/166x100.png/5fa2dd/ffffff
+support: native
+versionFrom: '8.9'
+categories:
+  - oss
+  - kernel
+  - visualstudio

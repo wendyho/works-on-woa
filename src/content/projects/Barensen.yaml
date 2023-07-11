@@ -1,0 +1,9 @@
+name: Barensen
+icon: CumSociis.mov
+link: http://dummyimage.com/122x100.png/cc0000/ffffff
+support: native
+versionFrom: '6.95'
+categories:
+  - kernel
+  - dotnet
+  - tools

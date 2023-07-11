@@ -1,0 +1,9 @@
+name: Hartwright
+icon: Mauris.png
+link: http://dummyimage.com/240x100.png/5fa2dd/ffffff
+support: native
+versionFrom: 0.8.0
+categories:
+  - dotnet
+  - web
+  - tools

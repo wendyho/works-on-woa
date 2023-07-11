@@ -1,0 +1,9 @@
+name: Carik
+icon: Diam.tiff
+link: http://dummyimage.com/152x100.png/5fa2dd/ffffff
+support: native
+versionFrom: '0.36'
+categories:
+  - embedded
+  - visualstudio
+  - tools

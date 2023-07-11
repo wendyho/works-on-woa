@@ -1,0 +1,8 @@
+name: Gothup
+icon: Mus.pdf
+link: http://dummyimage.com/237x100.png/ff4444/ffffff
+support: 'no'
+versionFrom: '1.54'
+categories:
+  - tools
+  - dotnet

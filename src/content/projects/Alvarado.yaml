@@ -1,0 +1,9 @@
+name: Alvarado
+icon: Orci.mp3
+link: http://dummyimage.com/112x100.png/cc0000/ffffff
+support: emulation
+versionFrom: '0.81'
+categories:
+  - linux
+  - oss
+  - embedded

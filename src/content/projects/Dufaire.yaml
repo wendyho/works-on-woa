@@ -1,0 +1,9 @@
+name: Dufaire
+icon: Morbi.ppt
+link: http://dummyimage.com/143x100.png/ff4444/ffffff
+support: native
+versionFrom: '2.9'
+categories:
+  - testing
+  - kernel
+  - linux

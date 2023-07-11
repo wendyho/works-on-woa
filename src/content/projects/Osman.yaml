@@ -1,0 +1,9 @@
+name: Osman
+icon: BlanditMiIn.ppt
+link: http://dummyimage.com/142x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: '1.28'
+categories:
+  - embedded
+  - kernel
+  - emulation

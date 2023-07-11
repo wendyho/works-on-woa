@@ -1,0 +1,9 @@
+name: Struijs
+icon: LaciniaAeneanSit.mp3
+link: http://dummyimage.com/133x100.png/ff4444/ffffff
+support: unknown
+versionFrom: '0.16'
+categories:
+  - dotnet
+  - tools
+  - linux

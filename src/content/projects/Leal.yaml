@@ -1,0 +1,9 @@
+name: Leal
+icon: LuctusNec.gif
+link: http://dummyimage.com/185x100.png/dddddd/000000
+support: emulation
+versionFrom: '7.30'
+categories:
+  - embedded
+  - linux
+  - testing

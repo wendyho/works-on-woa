@@ -1,0 +1,9 @@
+name: Jankowski
+icon: AmetSem.txt
+link: http://dummyimage.com/102x100.png/dddddd/000000
+support: unknown
+versionFrom: '0.72'
+categories:
+  - dotnet
+  - web
+  - visualstudio

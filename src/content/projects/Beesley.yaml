@@ -1,0 +1,8 @@
+name: Beesley
+icon: Eros.tiff
+link: http://dummyimage.com/204x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: '9.36'
+categories:
+  - oss
+  - web

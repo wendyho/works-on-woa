@@ -1,0 +1,9 @@
+name: Sealy
+icon: VelAugueVestibulum.ppt
+link: http://dummyimage.com/184x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: '7.3'
+categories:
+  - web
+  - dotnet
+  - emulation

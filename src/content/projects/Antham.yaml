@@ -1,0 +1,9 @@
+name: Antham
+icon: NullaJusto.mp3
+link: http://dummyimage.com/238x100.png/5fa2dd/ffffff
+support: native
+versionFrom: 7.7.4
+categories:
+  - dotnet
+  - testing
+  - kernel

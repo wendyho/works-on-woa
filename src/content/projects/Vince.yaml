@@ -1,0 +1,9 @@
+name: Vince
+icon: Amet.xls
+link: http://dummyimage.com/218x100.png/dddddd/000000
+support: native
+versionFrom: 5.3.2
+categories:
+  - testing
+  - embedded
+  - emulation

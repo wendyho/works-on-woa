@@ -1,0 +1,9 @@
+name: Fetherston
+icon: Ipsum.txt
+link: http://dummyimage.com/192x100.png/dddddd/000000
+support: 'no'
+versionFrom: 0.3.7
+categories:
+  - kernel
+  - dotnet
+  - visualstudio

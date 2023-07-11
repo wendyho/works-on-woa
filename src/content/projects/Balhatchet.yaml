@@ -1,0 +1,8 @@
+name: Balhatchet
+icon: Eget.jpeg
+link: http://dummyimage.com/242x100.png/cc0000/ffffff
+support: emulation
+versionFrom: '4.5'
+categories:
+  - visualstudio
+  - testing

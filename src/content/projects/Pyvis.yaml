@@ -1,0 +1,9 @@
+name: Pyvis
+icon: TurpisSedAnte.ppt
+link: http://dummyimage.com/184x100.png/dddddd/000000
+support: native
+versionFrom: '1.00'
+categories:
+  - oss
+  - web
+  - emulation

@@ -1,0 +1,9 @@
+name: Aubri
+icon: LuctusEtUltrices.xls
+link: http://dummyimage.com/139x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: '5.4'
+categories:
+  - oss
+  - visualstudio
+  - web

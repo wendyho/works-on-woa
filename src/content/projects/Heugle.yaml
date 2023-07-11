@@ -1,0 +1,8 @@
+name: Heugle
+icon: DonecOdio.tiff
+link: http://dummyimage.com/247x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: 0.5.1
+categories:
+  - testing
+  - oss

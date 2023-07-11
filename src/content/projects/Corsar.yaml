@@ -1,0 +1,9 @@
+name: Corsar
+icon: Integer.jpeg
+link: http://dummyimage.com/216x100.png/dddddd/000000
+support: emulation
+versionFrom: '8.5'
+categories:
+  - embedded
+  - testing
+  - web

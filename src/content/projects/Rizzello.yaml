@@ -1,0 +1,9 @@
+name: Rizzello
+icon: EgetMassaTempor.ppt
+link: http://dummyimage.com/101x100.png/dddddd/000000
+support: native
+versionFrom: 0.9.0
+categories:
+  - dotnet
+  - web
+  - visualstudio

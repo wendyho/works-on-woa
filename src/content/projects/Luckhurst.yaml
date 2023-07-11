@@ -1,0 +1,9 @@
+name: Luckhurst
+icon: Parturient.jpeg
+link: http://dummyimage.com/100x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: '2.1'
+categories:
+  - dotnet
+  - web
+  - testing

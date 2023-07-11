@@ -1,0 +1,9 @@
+name: Rayson
+icon: OdioJusto.tiff
+link: http://dummyimage.com/106x100.png/ff4444/ffffff
+support: native
+versionFrom: '5.0'
+categories:
+  - tools
+  - linux
+  - embedded

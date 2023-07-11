@@ -1,0 +1,9 @@
+name: Lello
+icon: Eu.xls
+link: http://dummyimage.com/168x100.png/dddddd/000000
+support: 'no'
+versionFrom: '5.3'
+categories:
+  - dotnet
+  - linux
+  - emulation

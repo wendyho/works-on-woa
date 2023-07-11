@@ -1,0 +1,8 @@
+name: Nacey
+icon: DignissimVestibulumVestibulum.xls
+link: http://dummyimage.com/224x100.png/cc0000/ffffff
+support: native
+versionFrom: 5.0.1
+categories:
+  - emulation
+  - linux

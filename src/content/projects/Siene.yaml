@@ -1,0 +1,8 @@
+name: Siene
+icon: TinciduntInLeo.tiff
+link: http://dummyimage.com/115x100.png/dddddd/000000
+support: emulation
+versionFrom: '2.65'
+categories:
+  - visualstudio
+  - web

@@ -1,0 +1,9 @@
+name: Jupp
+icon: IaculisCongue.mp3
+link: http://dummyimage.com/107x100.png/dddddd/000000
+support: 'no'
+versionFrom: '4.8'
+categories:
+  - dotnet
+  - embedded
+  - tools

@@ -1,0 +1,9 @@
+name: Stallybrass
+icon: OdioCondimentum.ppt
+link: http://dummyimage.com/216x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: 0.4.0
+categories:
+  - kernel
+  - web
+  - emulation

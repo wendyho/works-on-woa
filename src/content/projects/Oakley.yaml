@@ -1,0 +1,8 @@
+name: Oakley
+icon: Rutrum.tiff
+link: http://dummyimage.com/134x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: 0.5.5
+categories:
+  - embedded
+  - linux

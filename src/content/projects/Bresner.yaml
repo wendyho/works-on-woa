@@ -1,0 +1,9 @@
+name: Bresner
+icon: LuctusRutrum.ppt
+link: http://dummyimage.com/106x100.png/ff4444/ffffff
+support: emulation
+versionFrom: '4.02'
+categories:
+  - embedded
+  - visualstudio
+  - testing

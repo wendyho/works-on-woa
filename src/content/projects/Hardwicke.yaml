@@ -1,0 +1,9 @@
+name: Hardwicke
+icon: NasceturRidiculusMus.xls
+link: http://dummyimage.com/232x100.png/cc0000/ffffff
+support: unknown
+versionFrom: '7.16'
+categories:
+  - linux
+  - web
+  - dotnet

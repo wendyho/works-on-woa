@@ -1,0 +1,9 @@
+name: Lindenbaum
+icon: LobortisConvallis.gif
+link: http://dummyimage.com/128x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: 4.2.9
+categories:
+  - embedded
+  - linux
+  - dotnet

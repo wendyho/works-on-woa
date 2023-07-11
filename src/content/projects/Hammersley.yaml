@@ -1,0 +1,9 @@
+name: Hammersley
+icon: OrciNullamMolestie.tiff
+link: http://dummyimage.com/108x100.png/ff4444/ffffff
+support: emulation
+versionFrom: '8.09'
+categories:
+  - emulation
+  - web
+  - linux

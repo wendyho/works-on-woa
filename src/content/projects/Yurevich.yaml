@@ -1,0 +1,9 @@
+name: Yurevich
+icon: LiberoUt.avi
+link: http://dummyimage.com/133x100.png/dddddd/000000
+support: emulation
+versionFrom: '0.50'
+categories:
+  - oss
+  - linux
+  - dotnet

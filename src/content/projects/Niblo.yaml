@@ -1,0 +1,9 @@
+name: Niblo
+icon: Ligula.avi
+link: http://dummyimage.com/108x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: '0.44'
+categories:
+  - kernel
+  - testing
+  - linux

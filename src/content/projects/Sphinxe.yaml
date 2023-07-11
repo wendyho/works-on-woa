@@ -1,0 +1,9 @@
+name: Sphinxe
+icon: Quis.mp3
+link: http://dummyimage.com/135x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: 7.0.0
+categories:
+  - testing
+  - emulation
+  - linux

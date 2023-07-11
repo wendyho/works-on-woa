@@ -1,0 +1,9 @@
+name: Elizabeth
+icon: Posuere.tiff
+link: http://dummyimage.com/242x100.png/5fa2dd/ffffff
+support: native
+versionFrom: '0.12'
+categories:
+  - testing
+  - embedded
+  - kernel

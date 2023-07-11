@@ -1,0 +1,9 @@
+name: Bigg
+icon: AuctorSedTristique.mp3
+link: http://dummyimage.com/133x100.png/cc0000/ffffff
+support: unknown
+versionFrom: '5.49'
+categories:
+  - tools
+  - dotnet
+  - emulation

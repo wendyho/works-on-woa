@@ -1,0 +1,9 @@
+name: Hornung
+icon: LuctusUltricies.jpeg
+link: http://dummyimage.com/237x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: 0.6.0
+categories:
+  - visualstudio
+  - web
+  - testing

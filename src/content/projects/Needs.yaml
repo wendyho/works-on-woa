@@ -1,0 +1,9 @@
+name: Needs
+icon: Vestibulum.jpeg
+link: http://dummyimage.com/221x100.png/ff4444/ffffff
+support: native
+versionFrom: 5.3.8
+categories:
+  - web
+  - linux
+  - embedded

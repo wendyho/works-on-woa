@@ -1,0 +1,9 @@
+name: Rosellini
+icon: Neque.ppt
+link: http://dummyimage.com/229x100.png/cc0000/ffffff
+support: native
+versionFrom: '2.1'
+categories:
+  - testing
+  - web
+  - embedded

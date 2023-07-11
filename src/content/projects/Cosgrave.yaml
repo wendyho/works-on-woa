@@ -1,0 +1,9 @@
+name: Cosgrave
+icon: UtSuscipit.avi
+link: http://dummyimage.com/172x100.png/cc0000/ffffff
+support: emulation
+versionFrom: '4.9'
+categories:
+  - oss
+  - kernel
+  - linux

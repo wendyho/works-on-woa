@@ -1,0 +1,9 @@
+name: Paulack
+icon: BibendumMorbiNon.avi
+link: http://dummyimage.com/242x100.png/cc0000/ffffff
+support: emulation
+versionFrom: '5.87'
+categories:
+  - emulation
+  - dotnet
+  - linux

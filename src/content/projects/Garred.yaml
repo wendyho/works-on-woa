@@ -1,0 +1,9 @@
+name: Garred
+icon: EgetSemperRutrum.tiff
+link: http://dummyimage.com/230x100.png/cc0000/ffffff
+support: native
+versionFrom: '7.02'
+categories:
+  - visualstudio
+  - oss
+  - web

@@ -1,0 +1,9 @@
+name: Gaven
+icon: TempusSitAmet.ppt
+link: http://dummyimage.com/189x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: 4.6.5
+categories:
+  - dotnet
+  - oss
+  - visualstudio

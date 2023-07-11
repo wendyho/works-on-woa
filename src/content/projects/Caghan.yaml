@@ -1,0 +1,9 @@
+name: Caghan
+icon: AdipiscingElitProin.avi
+link: http://dummyimage.com/119x100.png/ff4444/ffffff
+support: native
+versionFrom: 4.6.9
+categories:
+  - dotnet
+  - linux
+  - embedded

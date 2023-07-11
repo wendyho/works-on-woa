@@ -1,0 +1,9 @@
+name: Bridgnell
+icon: Montes.png
+link: http://dummyimage.com/198x100.png/cc0000/ffffff
+support: native
+versionFrom: '5.08'
+categories:
+  - dotnet
+  - emulation
+  - kernel

@@ -1,0 +1,9 @@
+name: Sollitt
+icon: EratVestibulum.mp3
+link: http://dummyimage.com/226x100.png/dddddd/000000
+support: 'no'
+versionFrom: '3.88'
+categories:
+  - dotnet
+  - testing
+  - embedded

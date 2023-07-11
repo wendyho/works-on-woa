@@ -1,0 +1,9 @@
+name: Mozzini
+icon: Metus.png
+link: http://dummyimage.com/179x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: '9.3'
+categories:
+  - emulation
+  - kernel
+  - tools

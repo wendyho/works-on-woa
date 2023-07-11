@@ -1,0 +1,9 @@
+name: Santore
+icon: Mauris.xls
+link: http://dummyimage.com/114x100.png/5fa2dd/ffffff
+support: unknown
+versionFrom: 0.8.6
+categories:
+  - dotnet
+  - emulation
+  - tools

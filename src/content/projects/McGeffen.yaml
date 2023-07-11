@@ -1,0 +1,9 @@
+name: McGeffen
+icon: ConvallisEgetEleifend.mp3
+link: http://dummyimage.com/116x100.png/ff4444/ffffff
+support: 'no'
+versionFrom: 4.9.7
+categories:
+  - web
+  - embedded
+  - kernel

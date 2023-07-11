@@ -1,0 +1,9 @@
+name: Bogue
+icon: PedeLiberoQuis.ppt
+link: http://dummyimage.com/106x100.png/cc0000/ffffff
+support: native
+versionFrom: '2.20'
+categories:
+  - embedded
+  - visualstudio
+  - tools

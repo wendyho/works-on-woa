@@ -1,0 +1,9 @@
+name: Kitteringham
+icon: ViverraDapibusNulla.tiff
+link: http://dummyimage.com/104x100.png/ff4444/ffffff
+support: emulation
+versionFrom: 0.4.4
+categories:
+  - testing
+  - tools
+  - linux

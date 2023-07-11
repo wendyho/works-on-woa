@@ -1,0 +1,9 @@
+name: Powers
+icon: Maecenas.xls
+link: http://dummyimage.com/241x100.png/5fa2dd/ffffff
+support: native
+versionFrom: 0.3.3
+categories:
+  - emulation
+  - oss
+  - testing

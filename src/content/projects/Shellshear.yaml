@@ -1,0 +1,9 @@
+name: Shellshear
+icon: Maecenas.xls
+link: http://dummyimage.com/109x100.png/5fa2dd/ffffff
+support: unknown
+versionFrom: 0.2.9
+categories:
+  - testing
+  - visualstudio
+  - embedded

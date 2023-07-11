@@ -1,0 +1,9 @@
+name: Callam
+icon: Nulla.ppt
+link: http://dummyimage.com/210x100.png/ff4444/ffffff
+support: emulation
+versionFrom: '3.07'
+categories:
+  - web
+  - kernel
+  - embedded

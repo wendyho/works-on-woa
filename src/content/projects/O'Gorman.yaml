@@ -1,0 +1,9 @@
+name: O'Gorman
+icon: Pede.xls
+link: http://dummyimage.com/105x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: 5.4.5
+categories:
+  - linux
+  - kernel
+  - testing

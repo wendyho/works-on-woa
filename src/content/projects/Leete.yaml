@@ -1,0 +1,7 @@
+name: Leete
+icon: IdTurpis.txt
+link: http://dummyimage.com/211x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: '2.00'
+categories:
+  - embedded

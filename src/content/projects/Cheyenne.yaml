@@ -1,0 +1,9 @@
+name: Cheyenne
+icon: QuisAugue.mov
+link: http://dummyimage.com/212x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: '6.3'
+categories:
+  - tools
+  - dotnet
+  - testing

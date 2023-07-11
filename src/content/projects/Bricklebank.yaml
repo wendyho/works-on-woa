@@ -1,0 +1,8 @@
+name: Bricklebank
+icon: PlateaDictumst.avi
+link: http://dummyimage.com/108x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: '2.69'
+categories:
+  - linux
+  - emulation

@@ -1,0 +1,9 @@
+name: Latch
+icon: Nullam.avi
+link: http://dummyimage.com/129x100.png/dddddd/000000
+support: 'no'
+versionFrom: '9.43'
+categories:
+  - oss
+  - emulation
+  - linux

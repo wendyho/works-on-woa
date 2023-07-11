@@ -1,0 +1,9 @@
+name: Densell
+icon: IpsumPraesentBlandit.tiff
+link: http://dummyimage.com/169x100.png/ff4444/ffffff
+support: 'no'
+versionFrom: '4.99'
+categories:
+  - emulation
+  - linux
+  - web

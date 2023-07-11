@@ -1,0 +1,9 @@
+name: Bratchell
+icon: TurpisA.mov
+link: http://dummyimage.com/129x100.png/ff4444/ffffff
+support: native
+versionFrom: '0.48'
+categories:
+  - linux
+  - oss
+  - emulation

@@ -1,0 +1,8 @@
+name: Silveston
+icon: AliquetMaecenas.tiff
+link: http://dummyimage.com/182x100.png/ff4444/ffffff
+support: 'no'
+versionFrom: 0.4.7
+categories:
+  - linux
+  - kernel

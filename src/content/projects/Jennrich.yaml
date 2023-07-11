@@ -1,0 +1,9 @@
+name: Jennrich
+icon: SemDuisAliquam.doc
+link: http://dummyimage.com/100x100.png/ff4444/ffffff
+support: emulation
+versionFrom: '7.29'
+categories:
+  - emulation
+  - visualstudio
+  - dotnet

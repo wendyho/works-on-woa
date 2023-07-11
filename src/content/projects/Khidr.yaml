@@ -1,0 +1,9 @@
+name: Khidr
+icon: IdPretiumIaculis.mpeg
+link: http://dummyimage.com/139x100.png/5fa2dd/ffffff
+support: native
+versionFrom: '3.38'
+categories:
+  - visualstudio
+  - oss
+  - kernel

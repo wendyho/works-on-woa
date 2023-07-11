@@ -1,0 +1,9 @@
+name: Goullee
+icon: AtVelitEu.tiff
+link: http://dummyimage.com/192x100.png/5fa2dd/ffffff
+support: unknown
+versionFrom: '0.89'
+categories:
+  - embedded
+  - dotnet
+  - oss

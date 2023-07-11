@@ -1,0 +1,9 @@
+name: Beauchamp
+icon: DonecDapibus.tiff
+link: http://dummyimage.com/230x100.png/ff4444/ffffff
+support: emulation
+versionFrom: 0.9.2
+categories:
+  - kernel
+  - emulation
+  - web

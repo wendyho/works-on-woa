@@ -1,0 +1,9 @@
+name: Cotterel
+icon: AmetLobortisSapien.avi
+link: http://dummyimage.com/165x100.png/dddddd/000000
+support: emulation
+versionFrom: '8.10'
+categories:
+  - web
+  - visualstudio
+  - emulation

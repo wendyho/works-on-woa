@@ -1,0 +1,9 @@
+name: Kitcherside
+icon: EgetCongueEget.mp3
+link: http://dummyimage.com/180x100.png/ff4444/ffffff
+support: emulation
+versionFrom: '0.44'
+categories:
+  - visualstudio
+  - oss
+  - tools

@@ -1,0 +1,9 @@
+name: Saph
+icon: AnteIpsumPrimis.png
+link: http://dummyimage.com/183x100.png/dddddd/000000
+support: unknown
+versionFrom: 0.8.6
+categories:
+  - linux
+  - emulation
+  - tools

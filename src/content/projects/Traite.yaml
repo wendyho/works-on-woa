@@ -1,0 +1,9 @@
+name: Traite
+icon: IntegerANibh.ppt
+link: http://dummyimage.com/105x100.png/dddddd/000000
+support: emulation
+versionFrom: 0.4.7
+categories:
+  - emulation
+  - linux
+  - tools

@@ -1,0 +1,9 @@
+name: Koppes
+icon: Justo.ppt
+link: http://dummyimage.com/232x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: '8.56'
+categories:
+  - oss
+  - embedded
+  - web

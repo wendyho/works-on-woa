@@ -1,0 +1,8 @@
+name: Scard
+icon: Rhoncus.ppt
+link: http://dummyimage.com/198x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: 2.1.4
+categories:
+  - oss
+  - testing

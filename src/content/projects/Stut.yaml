@@ -1,0 +1,9 @@
+name: Stut
+icon: Sem.ppt
+link: http://dummyimage.com/215x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: 7.8.5
+categories:
+  - testing
+  - linux
+  - emulation

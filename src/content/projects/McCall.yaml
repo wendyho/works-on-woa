@@ -1,0 +1,8 @@
+name: McCall
+icon: NullaSedVel.xls
+link: http://dummyimage.com/246x100.png/5fa2dd/ffffff
+support: native
+versionFrom: 2.7.6
+categories:
+  - kernel
+  - visualstudio

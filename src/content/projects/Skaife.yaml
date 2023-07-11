@@ -1,0 +1,9 @@
+name: Skaife
+icon: VivamusInFelis.ppt
+link: http://dummyimage.com/128x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: '0.17'
+categories:
+  - tools
+  - kernel
+  - embedded

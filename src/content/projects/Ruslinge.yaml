@@ -1,0 +1,9 @@
+name: Ruslinge
+icon: Quis.mov
+link: http://dummyimage.com/119x100.png/5fa2dd/ffffff
+support: native
+versionFrom: '4.9'
+categories:
+  - linux
+  - web
+  - oss

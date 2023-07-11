@@ -1,0 +1,8 @@
+name: Birtwistle
+icon: Consequat.tiff
+link: http://dummyimage.com/168x100.png/ff4444/ffffff
+support: emulation
+versionFrom: '6.44'
+categories:
+  - oss
+  - testing

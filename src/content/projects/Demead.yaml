@@ -1,0 +1,9 @@
+name: Demead
+icon: Velit.xls
+link: http://dummyimage.com/113x100.png/5fa2dd/ffffff
+support: unknown
+versionFrom: '7.7'
+categories:
+  - visualstudio
+  - embedded
+  - testing

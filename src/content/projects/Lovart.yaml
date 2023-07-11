@@ -1,0 +1,9 @@
+name: Lovart
+icon: BibendumImperdiet.xls
+link: http://dummyimage.com/128x100.png/dddddd/000000
+support: 'no'
+versionFrom: '8.9'
+categories:
+  - visualstudio
+  - oss
+  - embedded

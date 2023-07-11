@@ -1,0 +1,9 @@
+name: Groom
+icon: AcNequeDuis.ppt
+link: http://dummyimage.com/132x100.png/cc0000/ffffff
+support: unknown
+versionFrom: '0.78'
+categories:
+  - dotnet
+  - kernel
+  - visualstudio

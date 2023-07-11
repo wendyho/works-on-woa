@@ -1,0 +1,9 @@
+name: Ager
+icon: PorttitorLacusAt.avi
+link: http://dummyimage.com/211x100.png/ff4444/ffffff
+support: native
+versionFrom: 0.6.1
+categories:
+  - tools
+  - emulation
+  - dotnet

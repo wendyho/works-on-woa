@@ -1,0 +1,9 @@
+name: Gilmartin
+icon: Integer.xls
+link: http://dummyimage.com/215x100.png/5fa2dd/ffffff
+support: unknown
+versionFrom: '8.67'
+categories:
+  - kernel
+  - embedded
+  - tools

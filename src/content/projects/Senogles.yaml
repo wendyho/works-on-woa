@@ -1,0 +1,9 @@
+name: Senogles
+icon: NonVelit.avi
+link: http://dummyimage.com/197x100.png/cc0000/ffffff
+support: emulation
+versionFrom: '0.88'
+categories:
+  - visualstudio
+  - linux
+  - emulation

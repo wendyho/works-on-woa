@@ -1,0 +1,9 @@
+name: Witcher
+icon: NullamSit.xls
+link: http://dummyimage.com/224x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: 0.7.0
+categories:
+  - visualstudio
+  - web
+  - embedded

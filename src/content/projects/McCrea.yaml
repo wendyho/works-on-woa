@@ -1,0 +1,9 @@
+name: McCrea
+icon: Justo.xls
+link: http://dummyimage.com/110x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: 0.9.9
+categories:
+  - visualstudio
+  - testing
+  - web

@@ -1,0 +1,9 @@
+name: Culleford
+icon: AliquamEratVolutpat.gif
+link: http://dummyimage.com/199x100.png/ff4444/ffffff
+support: 'no'
+versionFrom: '5.54'
+categories:
+  - visualstudio
+  - oss
+  - embedded

@@ -1,0 +1,9 @@
+name: Cowles
+icon: NullaSedVel.ppt
+link: http://dummyimage.com/107x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: 4.0.9
+categories:
+  - kernel
+  - oss
+  - emulation

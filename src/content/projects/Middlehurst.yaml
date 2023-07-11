@@ -1,0 +1,9 @@
+name: Middlehurst
+icon: Nec.xls
+link: http://dummyimage.com/110x100.png/5fa2dd/ffffff
+support: unknown
+versionFrom: '2.37'
+categories:
+  - embedded
+  - emulation
+  - linux

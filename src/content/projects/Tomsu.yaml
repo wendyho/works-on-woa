@@ -1,0 +1,9 @@
+name: Tomsu
+icon: SitAmetJusto.ppt
+link: http://dummyimage.com/106x100.png/ff4444/ffffff
+support: emulation
+versionFrom: '0.77'
+categories:
+  - embedded
+  - tools
+  - oss

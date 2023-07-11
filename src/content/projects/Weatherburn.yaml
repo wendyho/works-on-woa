@@ -1,0 +1,8 @@
+name: Weatherburn
+icon: Aliquam.ppt
+link: http://dummyimage.com/136x100.png/dddddd/000000
+support: emulation
+versionFrom: '9.23'
+categories:
+  - dotnet
+  - web

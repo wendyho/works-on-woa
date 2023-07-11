@@ -1,0 +1,9 @@
+name: Aggio
+icon: LigulaSitAmet.avi
+link: http://dummyimage.com/138x100.png/5fa2dd/ffffff
+support: native
+versionFrom: '3.11'
+categories:
+  - linux
+  - dotnet
+  - testing

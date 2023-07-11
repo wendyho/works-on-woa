@@ -1,0 +1,9 @@
+name: Moyle
+icon: Donec.mp3
+link: http://dummyimage.com/113x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: '8.89'
+categories:
+  - web
+  - linux
+  - dotnet

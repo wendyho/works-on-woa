@@ -1,0 +1,9 @@
+name: Thebe
+icon: Praesent.ppt
+link: http://dummyimage.com/174x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: '0.35'
+categories:
+  - embedded
+  - linux
+  - kernel

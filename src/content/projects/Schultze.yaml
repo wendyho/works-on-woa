@@ -1,0 +1,9 @@
+name: Schultze
+icon: AnteIpsum.xls
+link: http://dummyimage.com/227x100.png/5fa2dd/ffffff
+support: unknown
+versionFrom: 5.4.8
+categories:
+  - kernel
+  - dotnet
+  - emulation

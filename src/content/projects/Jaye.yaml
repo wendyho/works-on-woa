@@ -1,0 +1,9 @@
+name: Jaye
+icon: AtNibhIn.txt
+link: http://dummyimage.com/151x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: 0.8.6
+categories:
+  - embedded
+  - web
+  - testing

@@ -1,0 +1,9 @@
+name: Mendez
+icon: OrciLuctus.png
+link: http://dummyimage.com/190x100.png/5fa2dd/ffffff
+support: native
+versionFrom: '2.19'
+categories:
+  - visualstudio
+  - dotnet
+  - testing

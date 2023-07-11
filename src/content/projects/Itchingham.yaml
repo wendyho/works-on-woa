@@ -1,0 +1,8 @@
+name: Itchingham
+icon: Tempus.mpeg
+link: http://dummyimage.com/213x100.png/ff4444/ffffff
+support: emulation
+versionFrom: '2.22'
+categories:
+  - emulation
+  - dotnet

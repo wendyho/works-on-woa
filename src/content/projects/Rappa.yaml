@@ -1,0 +1,9 @@
+name: Rappa
+icon: Erat.tiff
+link: http://dummyimage.com/187x100.png/dddddd/000000
+support: 'no'
+versionFrom: '3.81'
+categories:
+  - embedded
+  - emulation
+  - oss

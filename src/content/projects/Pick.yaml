@@ -1,0 +1,9 @@
+name: Pick
+icon: A.mp3
+link: http://dummyimage.com/221x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: 7.1.0
+categories:
+  - emulation
+  - tools
+  - oss

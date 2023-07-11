@@ -1,0 +1,9 @@
+name: Strowther
+icon: CongueEget.ppt
+link: http://dummyimage.com/201x100.png/ff4444/ffffff
+support: 'no'
+versionFrom: 1.3.9
+categories:
+  - linux
+  - kernel
+  - web

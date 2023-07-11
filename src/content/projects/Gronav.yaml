@@ -1,0 +1,9 @@
+name: Gronav
+icon: Aenean.txt
+link: http://dummyimage.com/230x100.png/ff4444/ffffff
+support: 'no'
+versionFrom: 9.8.0
+categories:
+  - embedded
+  - web
+  - dotnet

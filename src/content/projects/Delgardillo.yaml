@@ -1,0 +1,9 @@
+name: Delgardillo
+icon: VolutpatConvallisMorbi.jpeg
+link: http://dummyimage.com/173x100.png/cc0000/ffffff
+support: native
+versionFrom: '5.2'
+categories:
+  - kernel
+  - oss
+  - linux

@@ -1,0 +1,9 @@
+name: Shilvock
+icon: MaurisSitAmet.ppt
+link: http://dummyimage.com/174x100.png/dddddd/000000
+support: emulation
+versionFrom: '4.75'
+categories:
+  - web
+  - embedded
+  - linux

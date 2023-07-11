@@ -1,0 +1,9 @@
+name: Steptoe
+icon: Vel.mov
+link: http://dummyimage.com/111x100.png/cc0000/ffffff
+support: unknown
+versionFrom: 5.5.9
+categories:
+  - linux
+  - kernel
+  - web

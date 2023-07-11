@@ -1,0 +1,8 @@
+name: Kemmey
+icon: DiamId.mp3
+link: http://dummyimage.com/182x100.png/ff4444/ffffff
+support: 'no'
+versionFrom: '8.5'
+categories:
+  - visualstudio
+  - kernel

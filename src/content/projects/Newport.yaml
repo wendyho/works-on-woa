@@ -1,0 +1,9 @@
+name: Newport
+icon: Bibendum.xls
+link: http://dummyimage.com/190x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: '0.11'
+categories:
+  - embedded
+  - visualstudio
+  - linux

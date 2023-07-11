@@ -1,0 +1,9 @@
+name: Gilks
+icon: DuiNecNisi.ppt
+link: http://dummyimage.com/234x100.png/5fa2dd/ffffff
+support: native
+versionFrom: 9.6.4
+categories:
+  - embedded
+  - visualstudio
+  - emulation

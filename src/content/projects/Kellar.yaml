@@ -1,0 +1,9 @@
+name: Kellar
+icon: Magna.avi
+link: http://dummyimage.com/204x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: '2.67'
+categories:
+  - testing
+  - kernel
+  - web

@@ -1,0 +1,9 @@
+name: Pawle
+icon: OdioInHac.avi
+link: http://dummyimage.com/113x100.png/cc0000/ffffff
+support: emulation
+versionFrom: 5.3.9
+categories:
+  - web
+  - testing
+  - kernel

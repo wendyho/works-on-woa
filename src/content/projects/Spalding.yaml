@@ -1,0 +1,9 @@
+name: Spalding
+icon: Felis.ppt
+link: http://dummyimage.com/103x100.png/cc0000/ffffff
+support: unknown
+versionFrom: '7.80'
+categories:
+  - testing
+  - tools
+  - kernel

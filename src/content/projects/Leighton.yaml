@@ -1,0 +1,9 @@
+name: Leighton
+icon: Consequat.xls
+link: http://dummyimage.com/157x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: '3.5'
+categories:
+  - visualstudio
+  - embedded
+  - oss

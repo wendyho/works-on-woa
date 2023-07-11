@@ -1,0 +1,9 @@
+name: Treanor
+icon: Elit.gif
+link: http://dummyimage.com/243x100.png/cc0000/ffffff
+support: native
+versionFrom: '5.85'
+categories:
+  - emulation
+  - web
+  - dotnet

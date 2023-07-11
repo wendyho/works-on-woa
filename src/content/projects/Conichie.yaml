@@ -1,0 +1,9 @@
+name: Conichie
+icon: DonecQuisOrci.doc
+link: http://dummyimage.com/166x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: 2.2.7
+categories:
+  - tools
+  - kernel
+  - dotnet

@@ -1,0 +1,9 @@
+name: Burgiss
+icon: Curae.avi
+link: http://dummyimage.com/250x100.png/dddddd/000000
+support: native
+versionFrom: '0.18'
+categories:
+  - oss
+  - emulation
+  - linux

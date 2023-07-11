@@ -1,0 +1,9 @@
+name: Tillett
+icon: Justo.ppt
+link: http://dummyimage.com/210x100.png/cc0000/ffffff
+support: native
+versionFrom: '0.99'
+categories:
+  - embedded
+  - tools
+  - oss

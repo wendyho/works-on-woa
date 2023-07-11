@@ -1,0 +1,9 @@
+name: Romanski
+icon: Massa.mp3
+link: http://dummyimage.com/144x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: '7.6'
+categories:
+  - oss
+  - visualstudio
+  - linux

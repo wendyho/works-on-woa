@@ -1,0 +1,9 @@
+name: Plett
+icon: EstLacinia.jpeg
+link: http://dummyimage.com/215x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: '1.38'
+categories:
+  - web
+  - kernel
+  - dotnet

@@ -1,0 +1,9 @@
+name: Wallett
+icon: In.ppt
+link: http://dummyimage.com/187x100.png/ff4444/ffffff
+support: native
+versionFrom: '4.4'
+categories:
+  - tools
+  - dotnet
+  - oss

@@ -1,0 +1,9 @@
+name: Dobsons
+icon: PretiumIaculisDiam.avi
+link: http://dummyimage.com/175x100.png/5fa2dd/ffffff
+support: unknown
+versionFrom: '1.61'
+categories:
+  - visualstudio
+  - kernel
+  - emulation

@@ -1,0 +1,9 @@
+name: Eliez
+icon: AtNuncCommodo.ppt
+link: http://dummyimage.com/108x100.png/dddddd/000000
+support: 'no'
+versionFrom: '0.74'
+categories:
+  - visualstudio
+  - emulation
+  - web

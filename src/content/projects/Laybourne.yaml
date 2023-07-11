@@ -1,0 +1,9 @@
+name: Laybourne
+icon: VivamusVelNulla.mp3
+link: http://dummyimage.com/123x100.png/dddddd/000000
+support: native
+versionFrom: '0.53'
+categories:
+  - linux
+  - kernel
+  - emulation

@@ -1,0 +1,9 @@
+name: Dodd
+icon: Tellus.xls
+link: http://dummyimage.com/212x100.png/ff4444/ffffff
+support: native
+versionFrom: '5.0'
+categories:
+  - emulation
+  - dotnet
+  - oss

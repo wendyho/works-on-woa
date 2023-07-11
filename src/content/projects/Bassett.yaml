@@ -1,0 +1,9 @@
+name: Bassett
+icon: InSagittisDui.jpeg
+link: http://dummyimage.com/248x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: '9.91'
+categories:
+  - dotnet
+  - visualstudio
+  - linux

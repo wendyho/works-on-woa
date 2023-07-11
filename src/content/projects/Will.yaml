@@ -1,0 +1,9 @@
+name: Will
+icon: Vestibulum.avi
+link: http://dummyimage.com/177x100.png/ff4444/ffffff
+support: native
+versionFrom: 0.1.1
+categories:
+  - embedded
+  - testing
+  - visualstudio

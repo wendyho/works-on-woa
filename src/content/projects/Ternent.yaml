@@ -1,0 +1,9 @@
+name: Ternent
+icon: RisusSemper.mp3
+link: http://dummyimage.com/126x100.png/dddddd/000000
+support: unknown
+versionFrom: '0.69'
+categories:
+  - kernel
+  - oss
+  - linux

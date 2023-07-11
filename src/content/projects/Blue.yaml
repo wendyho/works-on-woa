@@ -1,0 +1,9 @@
+name: Blue
+icon: SuscipitAFeugiat.jpeg
+link: http://dummyimage.com/101x100.png/ff4444/ffffff
+support: unknown
+versionFrom: '5.50'
+categories:
+  - linux
+  - oss
+  - testing

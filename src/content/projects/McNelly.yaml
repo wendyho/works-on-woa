@@ -1,0 +1,9 @@
+name: McNelly
+icon: NibhLigulaNec.doc
+link: http://dummyimage.com/187x100.png/5fa2dd/ffffff
+support: native
+versionFrom: '5.3'
+categories:
+  - oss
+  - tools
+  - testing

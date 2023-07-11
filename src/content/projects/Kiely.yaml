@@ -1,0 +1,9 @@
+name: Kiely
+icon: Dapibus.xls
+link: http://dummyimage.com/207x100.png/cc0000/ffffff
+support: native
+versionFrom: '8.0'
+categories:
+  - oss
+  - kernel
+  - emulation

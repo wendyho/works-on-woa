@@ -1,0 +1,9 @@
+name: Paolo
+icon: Quisque.mp3
+link: http://dummyimage.com/250x100.png/cc0000/ffffff
+support: emulation
+versionFrom: '4.80'
+categories:
+  - emulation
+  - testing
+  - visualstudio

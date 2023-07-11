@@ -1,0 +1,9 @@
+name: Colvine
+icon: OrnareConsequatLectus.mp3
+link: http://dummyimage.com/147x100.png/5fa2dd/ffffff
+support: native
+versionFrom: '0.63'
+categories:
+  - oss
+  - embedded
+  - testing

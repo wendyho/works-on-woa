@@ -1,0 +1,9 @@
+name: Jerromes
+icon: PorttitorLorem.pdf
+link: http://dummyimage.com/248x100.png/5fa2dd/ffffff
+support: native
+versionFrom: '0.69'
+categories:
+  - visualstudio
+  - linux
+  - embedded

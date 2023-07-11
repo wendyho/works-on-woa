@@ -1,0 +1,9 @@
+name: Woolatt
+icon: PhasellusSitAmet.tiff
+link: http://dummyimage.com/113x100.png/cc0000/ffffff
+support: emulation
+versionFrom: '0.39'
+categories:
+  - emulation
+  - testing
+  - tools

@@ -1,0 +1,9 @@
+name: O'Currane
+icon: Vel.ppt
+link: http://dummyimage.com/102x100.png/dddddd/000000
+support: native
+versionFrom: '1.16'
+categories:
+  - web
+  - linux
+  - testing

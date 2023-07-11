@@ -1,0 +1,9 @@
+name: Barlie
+icon: PlaceratAnteNulla.xls
+link: http://dummyimage.com/249x100.png/dddddd/000000
+support: 'no'
+versionFrom: '9.03'
+categories:
+  - emulation
+  - linux
+  - kernel

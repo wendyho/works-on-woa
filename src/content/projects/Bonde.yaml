@@ -1,0 +1,9 @@
+name: Bonde
+icon: FeugiatEtEros.mpeg
+link: http://dummyimage.com/109x100.png/dddddd/000000
+support: emulation
+versionFrom: '1.6'
+categories:
+  - emulation
+  - kernel
+  - oss

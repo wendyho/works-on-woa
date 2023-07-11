@@ -1,0 +1,9 @@
+name: Athey
+icon: SitAmet.avi
+link: http://dummyimage.com/243x100.png/dddddd/000000
+support: native
+versionFrom: '2.0'
+categories:
+  - linux
+  - testing
+  - embedded

@@ -1,0 +1,9 @@
+name: Coburn
+icon: BlanditLacinia.ppt
+link: http://dummyimage.com/155x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: '3.26'
+categories:
+  - dotnet
+  - web
+  - embedded

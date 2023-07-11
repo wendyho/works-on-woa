@@ -1,0 +1,8 @@
+name: Hunn
+icon: Aliquam.jpeg
+link: http://dummyimage.com/218x100.png/ff4444/ffffff
+support: 'no'
+versionFrom: '2.1'
+categories:
+  - oss
+  - dotnet

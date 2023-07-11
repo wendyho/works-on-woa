@@ -1,0 +1,9 @@
+name: Tarry
+icon: In.mpeg
+link: http://dummyimage.com/110x100.png/ff4444/ffffff
+support: 'no'
+versionFrom: 8.4.1
+categories:
+  - linux
+  - oss
+  - testing

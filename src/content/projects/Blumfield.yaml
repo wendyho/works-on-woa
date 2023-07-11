@@ -1,0 +1,9 @@
+name: Blumfield
+icon: LuctusEt.mov
+link: http://dummyimage.com/193x100.png/dddddd/000000
+support: emulation
+versionFrom: '5.2'
+categories:
+  - testing
+  - web
+  - oss

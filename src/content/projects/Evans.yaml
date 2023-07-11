@@ -1,0 +1,8 @@
+name: Evans
+icon: In.mp3
+link: http://dummyimage.com/150x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: 2.7.4
+categories:
+  - emulation
+  - tools

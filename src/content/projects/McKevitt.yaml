@@ -1,0 +1,9 @@
+name: McKevitt
+icon: LigulaSuspendisseOrnare.ppt
+link: http://dummyimage.com/212x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: '9.92'
+categories:
+  - kernel
+  - embedded
+  - web

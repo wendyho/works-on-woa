@@ -1,0 +1,9 @@
+name: Ondrak
+icon: Porttitor.mpeg
+link: http://dummyimage.com/111x100.png/cc0000/ffffff
+support: native
+versionFrom: '7.2'
+categories:
+  - tools
+  - web
+  - visualstudio

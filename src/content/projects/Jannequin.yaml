@@ -1,0 +1,8 @@
+name: Jannequin
+icon: FaucibusOrci.gif
+link: http://dummyimage.com/138x100.png/cc0000/ffffff
+support: emulation
+versionFrom: '0.38'
+categories:
+  - dotnet
+  - kernel

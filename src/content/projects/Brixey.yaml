@@ -1,0 +1,8 @@
+name: Brixey
+icon: Diam.gif
+link: http://dummyimage.com/226x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: '0.71'
+categories:
+  - oss
+  - emulation

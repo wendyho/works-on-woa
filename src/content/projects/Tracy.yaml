@@ -1,0 +1,9 @@
+name: Tracy
+icon: Aenean.ppt
+link: http://dummyimage.com/149x100.png/cc0000/ffffff
+support: unknown
+versionFrom: '0.49'
+categories:
+  - linux
+  - embedded
+  - testing

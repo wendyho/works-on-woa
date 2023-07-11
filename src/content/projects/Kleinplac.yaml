@@ -1,0 +1,9 @@
+name: Kleinplac
+icon: CursusUrna.xls
+link: http://dummyimage.com/124x100.png/ff4444/ffffff
+support: native
+versionFrom: '8.27'
+categories:
+  - dotnet
+  - kernel
+  - oss

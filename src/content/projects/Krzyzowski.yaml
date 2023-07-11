@@ -1,0 +1,9 @@
+name: Krzyzowski
+icon: EgetNuncDonec.ppt
+link: http://dummyimage.com/101x100.png/ff4444/ffffff
+support: emulation
+versionFrom: '8.6'
+categories:
+  - tools
+  - visualstudio
+  - emulation

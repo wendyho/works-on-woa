@@ -1,0 +1,8 @@
+name: Benfield
+icon: Integer.doc
+link: http://dummyimage.com/217x100.png/cc0000/ffffff
+support: emulation
+versionFrom: 0.9.2
+categories:
+  - kernel
+  - embedded

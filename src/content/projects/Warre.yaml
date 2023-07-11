@@ -1,0 +1,9 @@
+name: Warre
+icon: FacilisiCrasNon.mpeg
+link: http://dummyimage.com/112x100.png/dddddd/000000
+support: unknown
+versionFrom: 4.0.4
+categories:
+  - testing
+  - dotnet
+  - visualstudio

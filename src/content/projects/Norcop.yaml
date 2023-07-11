@@ -1,0 +1,9 @@
+name: Norcop
+icon: Donec.doc
+link: http://dummyimage.com/223x100.png/5fa2dd/ffffff
+support: native
+versionFrom: 9.0.9
+categories:
+  - embedded
+  - oss
+  - kernel

@@ -1,0 +1,9 @@
+name: Anney
+icon: In.avi
+link: http://dummyimage.com/137x100.png/cc0000/ffffff
+support: emulation
+versionFrom: '6.6'
+categories:
+  - visualstudio
+  - tools
+  - kernel

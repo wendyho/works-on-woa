@@ -1,0 +1,9 @@
+name: Johnsee
+icon: Quis.jpeg
+link: http://dummyimage.com/187x100.png/ff4444/ffffff
+support: 'no'
+versionFrom: '0.30'
+categories:
+  - web
+  - kernel
+  - testing

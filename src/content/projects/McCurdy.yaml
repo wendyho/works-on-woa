@@ -1,0 +1,8 @@
+name: McCurdy
+icon: Tellus.mp3
+link: http://dummyimage.com/179x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: '7.9'
+categories:
+  - tools
+  - kernel

@@ -1,0 +1,8 @@
+name: Illingworth
+icon: TristiqueEst.avi
+link: http://dummyimage.com/230x100.png/cc0000/ffffff
+support: emulation
+versionFrom: 0.5.7
+categories:
+  - tools
+  - testing

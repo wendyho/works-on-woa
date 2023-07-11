@@ -1,0 +1,9 @@
+name: Doyley
+icon: Elit.tiff
+link: http://dummyimage.com/158x100.png/dddddd/000000
+support: native
+versionFrom: '9.42'
+categories:
+  - emulation
+  - dotnet
+  - testing

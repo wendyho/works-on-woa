@@ -1,0 +1,9 @@
+name: Gotcliff
+icon: ConsequatNulla.jpeg
+link: http://dummyimage.com/219x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: '0.82'
+categories:
+  - visualstudio
+  - oss
+  - dotnet

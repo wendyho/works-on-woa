@@ -1,0 +1,9 @@
+name: Pinkerton
+icon: Vel.gif
+link: http://dummyimage.com/242x100.png/dddddd/000000
+support: native
+versionFrom: '6.25'
+categories:
+  - dotnet
+  - linux
+  - embedded

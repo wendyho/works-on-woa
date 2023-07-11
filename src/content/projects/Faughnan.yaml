@@ -1,0 +1,9 @@
+name: Faughnan
+icon: Nunc.mp3
+link: http://dummyimage.com/171x100.png/ff4444/ffffff
+support: emulation
+versionFrom: '7.54'
+categories:
+  - tools
+  - dotnet
+  - oss

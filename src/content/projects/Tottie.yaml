@@ -1,0 +1,9 @@
+name: Tottie
+icon: Semper.jpeg
+link: http://dummyimage.com/215x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: 2.5.5
+categories:
+  - oss
+  - testing
+  - emulation

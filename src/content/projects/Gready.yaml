@@ -1,0 +1,8 @@
+name: Gready
+icon: OdioDonecVitae.avi
+link: http://dummyimage.com/137x100.png/dddddd/000000
+support: native
+versionFrom: '7.22'
+categories:
+  - web
+  - tools

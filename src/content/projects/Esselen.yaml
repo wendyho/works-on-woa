@@ -1,0 +1,9 @@
+name: Esselen
+icon: Sit.xls
+link: http://dummyimage.com/192x100.png/cc0000/ffffff
+support: native
+versionFrom: '6.41'
+categories:
+  - oss
+  - visualstudio
+  - embedded

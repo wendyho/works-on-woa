@@ -1,0 +1,8 @@
+name: Galsworthy
+icon: NonummyMaecenas.doc
+link: http://dummyimage.com/145x100.png/ff4444/ffffff
+support: emulation
+versionFrom: '0.31'
+categories:
+  - tools
+  - visualstudio

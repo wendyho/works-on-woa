@@ -1,0 +1,9 @@
+name: Malinowski
+icon: DiamNam.avi
+link: http://dummyimage.com/243x100.png/cc0000/ffffff
+support: native
+versionFrom: '6.9'
+categories:
+  - dotnet
+  - linux
+  - kernel

@@ -1,0 +1,9 @@
+name: Russan
+icon: In.xls
+link: http://dummyimage.com/123x100.png/cc0000/ffffff
+support: unknown
+versionFrom: 1.2.1
+categories:
+  - oss
+  - kernel
+  - linux

@@ -1,0 +1,8 @@
+name: Mildner
+icon: In.mov
+link: http://dummyimage.com/218x100.png/5fa2dd/ffffff
+support: native
+versionFrom: '1.7'
+categories:
+  - kernel
+  - emulation

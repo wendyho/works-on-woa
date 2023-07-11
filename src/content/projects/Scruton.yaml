@@ -1,0 +1,9 @@
+name: Scruton
+icon: Duis.avi
+link: http://dummyimage.com/150x100.png/cc0000/ffffff
+support: emulation
+versionFrom: '9.34'
+categories:
+  - kernel
+  - linux
+  - dotnet

@@ -1,0 +1,9 @@
+name: Velden
+icon: Quam.tiff
+link: http://dummyimage.com/212x100.png/dddddd/000000
+support: 'no'
+versionFrom: '4.53'
+categories:
+  - linux
+  - visualstudio
+  - oss

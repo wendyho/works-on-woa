@@ -1,0 +1,8 @@
+name: Zanolli
+icon: Nulla.mp3
+link: http://dummyimage.com/233x100.png/dddddd/000000
+support: native
+versionFrom: 0.2.8
+categories:
+  - dotnet
+  - kernel

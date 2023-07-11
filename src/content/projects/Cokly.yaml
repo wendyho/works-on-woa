@@ -1,0 +1,9 @@
+name: Cokly
+icon: EgetOrci.png
+link: http://dummyimage.com/175x100.png/cc0000/ffffff
+support: emulation
+versionFrom: 0.2.1
+categories:
+  - oss
+  - tools
+  - dotnet

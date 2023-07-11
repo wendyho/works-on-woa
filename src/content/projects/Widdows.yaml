@@ -1,0 +1,8 @@
+name: Widdows
+icon: LobortisSapien.ppt
+link: http://dummyimage.com/107x100.png/cc0000/ffffff
+support: native
+versionFrom: '9.92'
+categories:
+  - embedded
+  - dotnet

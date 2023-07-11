@@ -1,0 +1,8 @@
+name: Soaper
+icon: AmetNulla.jpeg
+link: http://dummyimage.com/211x100.png/ff4444/ffffff
+support: 'no'
+versionFrom: '7.64'
+categories:
+  - oss
+  - embedded

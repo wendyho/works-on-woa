@@ -1,0 +1,9 @@
+name: Menguy
+icon: NullamOrciPede.avi
+link: http://dummyimage.com/224x100.png/cc0000/ffffff
+support: emulation
+versionFrom: '0.60'
+categories:
+  - visualstudio
+  - dotnet
+  - emulation

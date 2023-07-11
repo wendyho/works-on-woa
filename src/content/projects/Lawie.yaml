@@ -1,0 +1,9 @@
+name: Lawie
+icon: Posuere.xls
+link: http://dummyimage.com/192x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: 3.5.1
+categories:
+  - web
+  - embedded
+  - visualstudio

@@ -1,0 +1,9 @@
+name: Terren
+icon: PraesentIdMassa.mp3
+link: http://dummyimage.com/189x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: '0.13'
+categories:
+  - testing
+  - kernel
+  - dotnet

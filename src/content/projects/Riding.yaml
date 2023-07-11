@@ -1,0 +1,8 @@
+name: Riding
+icon: QuamNecDui.mpeg
+link: http://dummyimage.com/202x100.png/dddddd/000000
+support: 'no'
+versionFrom: 3.5.2
+categories:
+  - emulation
+  - oss

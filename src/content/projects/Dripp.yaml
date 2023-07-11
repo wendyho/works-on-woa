@@ -1,0 +1,9 @@
+name: Dripp
+icon: PedeJustoLacinia.tiff
+link: http://dummyimage.com/171x100.png/5fa2dd/ffffff
+support: native
+versionFrom: '0.79'
+categories:
+  - emulation
+  - embedded
+  - web

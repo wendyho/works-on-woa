@@ -1,0 +1,9 @@
+name: Powton
+icon: FermentumJustoNec.png
+link: http://dummyimage.com/178x100.png/cc0000/ffffff
+support: native
+versionFrom: 0.2.1
+categories:
+  - testing
+  - emulation
+  - kernel

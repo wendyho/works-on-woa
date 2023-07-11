@@ -1,0 +1,9 @@
+name: Ingrey
+icon: Luctus.tiff
+link: http://dummyimage.com/200x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: '6.1'
+categories:
+  - embedded
+  - oss
+  - testing

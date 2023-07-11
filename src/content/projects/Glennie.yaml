@@ -1,0 +1,9 @@
+name: Glennie
+icon: AliquetAt.ppt
+link: http://dummyimage.com/225x100.png/5fa2dd/ffffff
+support: native
+versionFrom: '4.7'
+categories:
+  - web
+  - oss
+  - dotnet

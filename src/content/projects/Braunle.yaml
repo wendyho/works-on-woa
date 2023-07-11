@@ -1,0 +1,9 @@
+name: Braunle
+icon: ErosElementumPellentesque.ppt
+link: http://dummyimage.com/102x100.png/dddddd/000000
+support: native
+versionFrom: '7.45'
+categories:
+  - testing
+  - kernel
+  - oss

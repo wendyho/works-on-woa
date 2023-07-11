@@ -1,0 +1,9 @@
+name: L'Homme
+icon: InAnteVestibulum.doc
+link: http://dummyimage.com/139x100.png/5fa2dd/ffffff
+support: native
+versionFrom: 4.7.1
+categories:
+  - dotnet
+  - visualstudio
+  - web

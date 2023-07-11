@@ -1,0 +1,8 @@
+name: Bauldrey
+icon: CubiliaCurae.xls
+link: http://dummyimage.com/230x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: '2.61'
+categories:
+  - kernel
+  - linux

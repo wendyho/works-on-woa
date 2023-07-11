@@ -1,0 +1,9 @@
+name: Doody
+icon: NuncProinAt.xls
+link: http://dummyimage.com/123x100.png/dddddd/000000
+support: 'no'
+versionFrom: '9.64'
+categories:
+  - oss
+  - emulation
+  - kernel

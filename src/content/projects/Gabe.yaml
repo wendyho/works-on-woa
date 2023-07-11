@@ -1,0 +1,9 @@
+name: Gabe
+icon: Quis.pdf
+link: http://dummyimage.com/154x100.png/ff4444/ffffff
+support: unknown
+versionFrom: 2.5.2
+categories:
+  - kernel
+  - testing
+  - embedded

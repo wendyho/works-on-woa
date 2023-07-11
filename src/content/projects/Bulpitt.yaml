@@ -1,0 +1,9 @@
+name: Bulpitt
+icon: Est.xls
+link: http://dummyimage.com/170x100.png/dddddd/000000
+support: 'no'
+versionFrom: '5.6'
+categories:
+  - kernel
+  - linux
+  - testing

@@ -1,0 +1,9 @@
+name: Cainey
+icon: PotentiNullam.avi
+link: http://dummyimage.com/114x100.png/dddddd/000000
+support: 'no'
+versionFrom: '5.1'
+categories:
+  - linux
+  - testing
+  - dotnet

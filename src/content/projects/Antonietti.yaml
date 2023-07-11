@@ -1,0 +1,9 @@
+name: Antonietti
+icon: Justo.xls
+link: http://dummyimage.com/237x100.png/dddddd/000000
+support: native
+versionFrom: 5.6.1
+categories:
+  - linux
+  - kernel
+  - oss

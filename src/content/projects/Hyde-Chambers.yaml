@@ -1,0 +1,9 @@
+name: Hyde-Chambers
+icon: Diam.tiff
+link: http://dummyimage.com/230x100.png/cc0000/ffffff
+support: unknown
+versionFrom: '0.92'
+categories:
+  - visualstudio
+  - testing
+  - embedded

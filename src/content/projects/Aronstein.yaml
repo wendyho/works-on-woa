@@ -1,0 +1,9 @@
+name: Aronstein
+icon: Quis.ppt
+link: http://dummyimage.com/133x100.png/dddddd/000000
+support: native
+versionFrom: 0.9.8
+categories:
+  - web
+  - visualstudio
+  - testing

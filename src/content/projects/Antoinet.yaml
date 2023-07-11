@@ -1,0 +1,9 @@
+name: Antoinet
+icon: IpsumPrimis.xls
+link: http://dummyimage.com/165x100.png/cc0000/ffffff
+support: emulation
+versionFrom: '8.5'
+categories:
+  - kernel
+  - web
+  - dotnet

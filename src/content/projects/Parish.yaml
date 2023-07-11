@@ -1,0 +1,9 @@
+name: Parish
+icon: NamDuiProin.pdf
+link: http://dummyimage.com/199x100.png/cc0000/ffffff
+support: native
+versionFrom: 0.1.1
+categories:
+  - tools
+  - embedded
+  - oss

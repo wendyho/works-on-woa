@@ -1,0 +1,9 @@
+name: Stairmond
+icon: Nulla.mp3
+link: http://dummyimage.com/150x100.png/5fa2dd/ffffff
+support: unknown
+versionFrom: '0.19'
+categories:
+  - visualstudio
+  - emulation
+  - testing

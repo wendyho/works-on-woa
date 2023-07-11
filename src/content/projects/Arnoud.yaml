@@ -1,0 +1,9 @@
+name: Arnoud
+icon: Odio.png
+link: http://dummyimage.com/124x100.png/dddddd/000000
+support: unknown
+versionFrom: 8.5.1
+categories:
+  - dotnet
+  - oss
+  - testing

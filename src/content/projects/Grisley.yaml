@@ -1,0 +1,9 @@
+name: Grisley
+icon: AnteIpsum.txt
+link: http://dummyimage.com/197x100.png/dddddd/000000
+support: native
+versionFrom: 0.7.5
+categories:
+  - oss
+  - tools
+  - kernel

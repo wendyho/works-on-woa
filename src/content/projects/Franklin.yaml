@@ -1,0 +1,9 @@
+name: Franklin
+icon: Diam.png
+link: http://dummyimage.com/229x100.png/cc0000/ffffff
+support: native
+versionFrom: '9.72'
+categories:
+  - visualstudio
+  - emulation
+  - oss

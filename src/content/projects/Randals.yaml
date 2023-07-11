@@ -1,0 +1,9 @@
+name: Randals
+icon: Lacus.ppt
+link: http://dummyimage.com/175x100.png/dddddd/000000
+support: emulation
+versionFrom: '1.9'
+categories:
+  - testing
+  - tools
+  - embedded

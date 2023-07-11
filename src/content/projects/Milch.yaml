@@ -1,0 +1,9 @@
+name: Milch
+icon: VehiculaCondimentumCurabitur.png
+link: http://dummyimage.com/218x100.png/dddddd/000000
+support: emulation
+versionFrom: '0.50'
+categories:
+  - tools
+  - testing
+  - visualstudio

@@ -1,0 +1,9 @@
+name: Richmond
+icon: ConsectetuerAdipiscingElit.mp3
+link: http://dummyimage.com/152x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: '4.37'
+categories:
+  - visualstudio
+  - dotnet
+  - testing

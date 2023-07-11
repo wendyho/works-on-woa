@@ -1,0 +1,9 @@
+name: Fradgley
+icon: Tellus.tiff
+link: http://dummyimage.com/234x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: '3.26'
+categories:
+  - tools
+  - emulation
+  - embedded

@@ -1,0 +1,8 @@
+name: Gurry
+icon: AnteIpsum.xls
+link: http://dummyimage.com/217x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: '1.90'
+categories:
+  - oss
+  - kernel

@@ -1,0 +1,9 @@
+name: Ranner
+icon: NonQuam.mp3
+link: http://dummyimage.com/101x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: 1.7.9
+categories:
+  - embedded
+  - oss
+  - dotnet

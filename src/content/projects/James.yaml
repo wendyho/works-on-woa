@@ -1,0 +1,8 @@
+name: James
+icon: PellentesqueQuisquePorta.doc
+link: http://dummyimage.com/113x100.png/cc0000/ffffff
+support: native
+versionFrom: 9.4.2
+categories:
+  - embedded
+  - visualstudio

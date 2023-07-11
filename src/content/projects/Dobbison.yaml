@@ -1,0 +1,9 @@
+name: Dobbison
+icon: ConsequatDuiNec.png
+link: http://dummyimage.com/205x100.png/cc0000/ffffff
+support: native
+versionFrom: 1.9.2
+categories:
+  - kernel
+  - emulation
+  - testing

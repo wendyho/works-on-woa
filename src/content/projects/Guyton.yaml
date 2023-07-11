@@ -1,0 +1,9 @@
+name: Guyton
+icon: VolutpatEratQuisque.txt
+link: http://dummyimage.com/193x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: '8.60'
+categories:
+  - visualstudio
+  - embedded
+  - web

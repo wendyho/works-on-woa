@@ -1,0 +1,8 @@
+name: Pashe
+icon: MetusSapien.mpeg
+link: http://dummyimage.com/237x100.png/ff4444/ffffff
+support: emulation
+versionFrom: '8.4'
+categories:
+  - tools
+  - dotnet

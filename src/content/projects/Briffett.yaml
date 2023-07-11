@@ -1,0 +1,9 @@
+name: Briffett
+icon: SedAnteVivamus.tiff
+link: http://dummyimage.com/115x100.png/cc0000/ffffff
+support: native
+versionFrom: '1.42'
+categories:
+  - visualstudio
+  - linux
+  - emulation

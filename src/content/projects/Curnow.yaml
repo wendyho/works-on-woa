@@ -1,0 +1,9 @@
+name: Curnow
+icon: Orci.avi
+link: http://dummyimage.com/225x100.png/ff4444/ffffff
+support: unknown
+versionFrom: '7.54'
+categories:
+  - web
+  - testing
+  - linux

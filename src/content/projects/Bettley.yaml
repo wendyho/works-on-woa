@@ -1,0 +1,9 @@
+name: Bettley
+icon: Nunc.jpeg
+link: http://dummyimage.com/115x100.png/dddddd/000000
+support: native
+versionFrom: '2.72'
+categories:
+  - dotnet
+  - tools
+  - linux

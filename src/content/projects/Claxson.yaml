@@ -1,0 +1,9 @@
+name: Claxson
+icon: MagnisDis.xls
+link: http://dummyimage.com/244x100.png/ff4444/ffffff
+support: native
+versionFrom: 8.9.0
+categories:
+  - visualstudio
+  - emulation
+  - oss

@@ -1,0 +1,9 @@
+name: Bains
+icon: Odio.mov
+link: http://dummyimage.com/177x100.png/dddddd/000000
+support: emulation
+versionFrom: 6.0.5
+categories:
+  - web
+  - dotnet
+  - embedded

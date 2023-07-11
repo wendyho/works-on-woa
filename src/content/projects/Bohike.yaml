@@ -1,0 +1,9 @@
+name: Bohike
+icon: ConsectetuerAdipiscing.gif
+link: http://dummyimage.com/132x100.png/dddddd/000000
+support: emulation
+versionFrom: '4.5'
+categories:
+  - emulation
+  - visualstudio
+  - embedded

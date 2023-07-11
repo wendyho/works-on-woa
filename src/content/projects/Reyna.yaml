@@ -1,0 +1,9 @@
+name: Reyna
+icon: IdMassa.avi
+link: http://dummyimage.com/231x100.png/5fa2dd/ffffff
+support: native
+versionFrom: '8.13'
+categories:
+  - linux
+  - embedded
+  - oss

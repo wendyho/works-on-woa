@@ -1,0 +1,9 @@
+name: Hawket
+icon: NasceturRidiculus.png
+link: http://dummyimage.com/181x100.png/cc0000/ffffff
+support: native
+versionFrom: 0.9.5
+categories:
+  - embedded
+  - kernel
+  - dotnet

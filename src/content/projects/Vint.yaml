@@ -1,0 +1,9 @@
+name: Vint
+icon: In.tiff
+link: http://dummyimage.com/200x100.png/dddddd/000000
+support: emulation
+versionFrom: 0.8.9
+categories:
+  - emulation
+  - visualstudio
+  - embedded

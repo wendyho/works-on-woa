@@ -1,0 +1,9 @@
+name: Gooder
+icon: MattisPulvinar.avi
+link: http://dummyimage.com/122x100.png/dddddd/000000
+support: unknown
+versionFrom: '0.57'
+categories:
+  - embedded
+  - linux
+  - tools

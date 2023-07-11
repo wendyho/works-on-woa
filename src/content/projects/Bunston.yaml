@@ -1,0 +1,9 @@
+name: Bunston
+icon: PellentesqueVolutpatDui.tiff
+link: http://dummyimage.com/113x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: '2.46'
+categories:
+  - kernel
+  - tools
+  - embedded

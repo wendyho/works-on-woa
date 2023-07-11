@@ -1,0 +1,9 @@
+name: Allard
+icon: QuamSuspendissePotenti.xls
+link: http://dummyimage.com/134x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: '5.11'
+categories:
+  - embedded
+  - dotnet
+  - testing

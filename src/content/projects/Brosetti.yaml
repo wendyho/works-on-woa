@@ -1,0 +1,8 @@
+name: Brosetti
+icon: NequeDuisBibendum.mp3
+link: http://dummyimage.com/152x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: '0.76'
+categories:
+  - kernel
+  - testing

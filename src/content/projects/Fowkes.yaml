@@ -1,0 +1,8 @@
+name: Fowkes
+icon: Non.avi
+link: http://dummyimage.com/196x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: '0.69'
+categories:
+  - dotnet
+  - visualstudio

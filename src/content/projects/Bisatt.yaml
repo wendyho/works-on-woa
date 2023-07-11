@@ -1,0 +1,9 @@
+name: Bisatt
+icon: Donec.avi
+link: http://dummyimage.com/194x100.png/dddddd/000000
+support: 'no'
+versionFrom: 0.8.5
+categories:
+  - testing
+  - tools
+  - visualstudio

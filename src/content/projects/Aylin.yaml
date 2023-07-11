@@ -1,0 +1,9 @@
+name: Aylin
+icon: Duis.pdf
+link: http://dummyimage.com/133x100.png/ff4444/ffffff
+support: 'no'
+versionFrom: '1.1'
+categories:
+  - dotnet
+  - visualstudio
+  - emulation

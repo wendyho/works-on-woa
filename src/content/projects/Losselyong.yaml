@@ -1,0 +1,9 @@
+name: Losselyong
+icon: AuctorGravidaSem.jpeg
+link: http://dummyimage.com/195x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: '0.67'
+categories:
+  - embedded
+  - testing
+  - visualstudio

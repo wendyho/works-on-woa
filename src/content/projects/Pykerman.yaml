@@ -1,0 +1,8 @@
+name: Pykerman
+icon: FeugiatNonPretium.xls
+link: http://dummyimage.com/220x100.png/cc0000/ffffff
+support: emulation
+versionFrom: '2.21'
+categories:
+  - embedded
+  - emulation

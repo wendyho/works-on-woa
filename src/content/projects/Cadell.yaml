@@ -1,0 +1,8 @@
+name: Cadell
+icon: JustoMaecenas.png
+link: http://dummyimage.com/188x100.png/cc0000/ffffff
+support: native
+versionFrom: 0.7.1
+categories:
+  - web
+  - embedded

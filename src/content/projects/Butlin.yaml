@@ -1,0 +1,8 @@
+name: Butlin
+icon: Cum.ppt
+link: http://dummyimage.com/237x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: '5.40'
+categories:
+  - linux
+  - kernel

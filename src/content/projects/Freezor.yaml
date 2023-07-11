@@ -1,0 +1,9 @@
+name: Freezor
+icon: Dui.mp3
+link: http://dummyimage.com/122x100.png/cc0000/ffffff
+support: emulation
+versionFrom: '0.21'
+categories:
+  - linux
+  - testing
+  - embedded

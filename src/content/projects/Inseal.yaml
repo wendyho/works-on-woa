@@ -1,0 +1,9 @@
+name: Inseal
+icon: Luctus.ppt
+link: http://dummyimage.com/154x100.png/ff4444/ffffff
+support: native
+versionFrom: '9.29'
+categories:
+  - dotnet
+  - testing
+  - embedded

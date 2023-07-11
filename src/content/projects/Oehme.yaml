@@ -1,0 +1,9 @@
+name: Oehme
+icon: Felis.gif
+link: http://dummyimage.com/240x100.png/ff4444/ffffff
+support: unknown
+versionFrom: 0.9.1
+categories:
+  - kernel
+  - testing
+  - linux

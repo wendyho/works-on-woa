@@ -1,0 +1,9 @@
+name: Wittier
+icon: NonLectusAliquam.jpeg
+link: http://dummyimage.com/118x100.png/dddddd/000000
+support: emulation
+versionFrom: '4.8'
+categories:
+  - linux
+  - testing
+  - visualstudio

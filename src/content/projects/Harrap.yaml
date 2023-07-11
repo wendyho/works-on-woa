@@ -1,0 +1,9 @@
+name: Harrap
+icon: PhasellusSit.ppt
+link: http://dummyimage.com/176x100.png/ff4444/ffffff
+support: emulation
+versionFrom: 7.5.2
+categories:
+  - kernel
+  - testing
+  - dotnet

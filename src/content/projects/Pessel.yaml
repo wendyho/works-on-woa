@@ -1,0 +1,9 @@
+name: Pessel
+icon: ConsequatUtNulla.mpeg
+link: http://dummyimage.com/140x100.png/dddddd/000000
+support: native
+versionFrom: '0.71'
+categories:
+  - kernel
+  - visualstudio
+  - linux

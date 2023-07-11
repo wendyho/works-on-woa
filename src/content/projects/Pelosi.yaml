@@ -1,0 +1,9 @@
+name: Pelosi
+icon: Faucibus.tiff
+link: http://dummyimage.com/185x100.png/ff4444/ffffff
+support: unknown
+versionFrom: '2.8'
+categories:
+  - kernel
+  - linux
+  - oss

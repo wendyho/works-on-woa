@@ -1,0 +1,9 @@
+name: Redmond
+icon: SitAmet.gif
+link: http://dummyimage.com/101x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: 0.1.6
+categories:
+  - web
+  - dotnet
+  - linux

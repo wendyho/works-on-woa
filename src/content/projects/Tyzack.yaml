@@ -1,0 +1,9 @@
+name: Tyzack
+icon: Id.mp3
+link: http://dummyimage.com/149x100.png/dddddd/000000
+support: 'no'
+versionFrom: 7.2.8
+categories:
+  - kernel
+  - web
+  - linux

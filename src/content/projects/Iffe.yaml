@@ -1,0 +1,9 @@
+name: Iffe
+icon: AliquamQuisTurpis.ppt
+link: http://dummyimage.com/240x100.png/cc0000/ffffff
+support: unknown
+versionFrom: '6.5'
+categories:
+  - web
+  - embedded
+  - testing

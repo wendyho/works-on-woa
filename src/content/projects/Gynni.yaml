@@ -1,0 +1,9 @@
+name: Gynni
+icon: SemperSapienA.gif
+link: http://dummyimage.com/183x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: 1.6.3
+categories:
+  - emulation
+  - kernel
+  - tools

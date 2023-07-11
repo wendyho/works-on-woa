@@ -1,0 +1,9 @@
+name: Baumer
+icon: DuisAliquam.mp3
+link: http://dummyimage.com/100x100.png/cc0000/ffffff
+support: unknown
+versionFrom: '0.98'
+categories:
+  - embedded
+  - web
+  - dotnet

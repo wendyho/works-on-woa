@@ -1,0 +1,9 @@
+name: Wardell
+icon: SedAccumsan.mov
+link: http://dummyimage.com/101x100.png/ff4444/ffffff
+support: native
+versionFrom: '0.11'
+categories:
+  - oss
+  - embedded
+  - visualstudio

@@ -1,0 +1,9 @@
+name: Adelberg
+icon: EnimBlandit.mpeg
+link: http://dummyimage.com/207x100.png/dddddd/000000
+support: native
+versionFrom: '1.0'
+categories:
+  - embedded
+  - oss
+  - linux

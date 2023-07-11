@@ -1,0 +1,8 @@
+name: Dorran
+icon: Eleifend.xls
+link: http://dummyimage.com/230x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: 8.0.0
+categories:
+  - emulation
+  - web

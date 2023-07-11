@@ -1,0 +1,9 @@
+name: Christer
+icon: Volutpat.mov
+link: http://dummyimage.com/190x100.png/cc0000/ffffff
+support: emulation
+versionFrom: 8.0.2
+categories:
+  - kernel
+  - web
+  - dotnet

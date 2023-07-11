@@ -1,0 +1,9 @@
+name: Reder
+icon: Diam.png
+link: http://dummyimage.com/157x100.png/cc0000/ffffff
+support: unknown
+versionFrom: '0.80'
+categories:
+  - kernel
+  - emulation
+  - dotnet

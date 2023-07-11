@@ -1,0 +1,9 @@
+name: Bampkin
+icon: VelitIdPretium.tiff
+link: http://dummyimage.com/116x100.png/5fa2dd/ffffff
+support: unknown
+versionFrom: '0.25'
+categories:
+  - dotnet
+  - embedded
+  - testing

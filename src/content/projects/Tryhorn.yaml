@@ -1,0 +1,9 @@
+name: Tryhorn
+icon: DictumstAliquamAugue.mpeg
+link: http://dummyimage.com/153x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: '1.26'
+categories:
+  - dotnet
+  - oss
+  - tools

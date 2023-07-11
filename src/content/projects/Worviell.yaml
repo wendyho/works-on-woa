@@ -1,0 +1,9 @@
+name: Worviell
+icon: AccumsanFelis.avi
+link: http://dummyimage.com/158x100.png/cc0000/ffffff
+support: emulation
+versionFrom: '1.9'
+categories:
+  - testing
+  - embedded
+  - tools

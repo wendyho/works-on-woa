@@ -1,0 +1,8 @@
+name: Labeuil
+icon: Odio.xls
+link: http://dummyimage.com/118x100.png/5fa2dd/ffffff
+support: native
+versionFrom: 3.3.8
+categories:
+  - linux
+  - kernel

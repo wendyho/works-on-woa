@@ -1,0 +1,9 @@
+name: Yalden
+icon: PedePosuere.gif
+link: http://dummyimage.com/175x100.png/cc0000/ffffff
+support: emulation
+versionFrom: '0.11'
+categories:
+  - tools
+  - emulation
+  - dotnet

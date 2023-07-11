@@ -1,0 +1,9 @@
+name: Wolstenholme
+icon: RutrumRutrumNeque.xls
+link: http://dummyimage.com/119x100.png/5fa2dd/ffffff
+support: native
+versionFrom: '6.7'
+categories:
+  - emulation
+  - linux
+  - dotnet

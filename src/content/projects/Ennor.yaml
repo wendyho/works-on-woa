@@ -1,0 +1,9 @@
+name: Ennor
+icon: RhoncusAliquamLacus.ppt
+link: http://dummyimage.com/139x100.png/ff4444/ffffff
+support: native
+versionFrom: 8.3.7
+categories:
+  - oss
+  - emulation
+  - embedded

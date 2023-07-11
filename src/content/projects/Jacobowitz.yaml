@@ -1,0 +1,9 @@
+name: Jacobowitz
+icon: DuiVelNisl.pdf
+link: http://dummyimage.com/161x100.png/ff4444/ffffff
+support: native
+versionFrom: '2.3'
+categories:
+  - emulation
+  - visualstudio
+  - dotnet

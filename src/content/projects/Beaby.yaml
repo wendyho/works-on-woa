@@ -1,0 +1,9 @@
+name: Beaby
+icon: Amet.ppt
+link: http://dummyimage.com/236x100.png/5fa2dd/ffffff
+support: native
+versionFrom: 0.3.7
+categories:
+  - dotnet
+  - kernel
+  - linux

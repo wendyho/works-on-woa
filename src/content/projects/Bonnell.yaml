@@ -1,0 +1,9 @@
+name: Bonnell
+icon: MagnaAtNunc.mov
+link: http://dummyimage.com/101x100.png/5fa2dd/ffffff
+support: native
+versionFrom: '7.0'
+categories:
+  - web
+  - embedded
+  - testing

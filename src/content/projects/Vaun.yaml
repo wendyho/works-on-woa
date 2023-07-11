@@ -1,0 +1,9 @@
+name: Vaun
+icon: VelEst.xls
+link: http://dummyimage.com/250x100.png/5fa2dd/ffffff
+support: unknown
+versionFrom: 0.8.6
+categories:
+  - web
+  - testing
+  - emulation

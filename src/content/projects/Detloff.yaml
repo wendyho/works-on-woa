@@ -1,0 +1,8 @@
+name: Detloff
+icon: EleifendPede.mp3
+link: http://dummyimage.com/205x100.png/5fa2dd/ffffff
+support: native
+versionFrom: 0.7.7
+categories:
+  - embedded
+  - web

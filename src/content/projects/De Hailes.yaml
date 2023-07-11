@@ -1,0 +1,8 @@
+name: De Hailes
+icon: UtMassa.ppt
+link: http://dummyimage.com/166x100.png/dddddd/000000
+support: native
+versionFrom: '5.97'
+categories:
+  - visualstudio
+  - testing

@@ -1,0 +1,9 @@
+name: Kondratenya
+icon: EuFelis.tiff
+link: http://dummyimage.com/231x100.png/dddddd/000000
+support: native
+versionFrom: '8.91'
+categories:
+  - kernel
+  - embedded
+  - emulation

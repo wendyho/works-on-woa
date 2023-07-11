@@ -1,0 +1,9 @@
+name: Armor
+icon: Volutpat.gif
+link: http://dummyimage.com/217x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: '0.66'
+categories:
+  - embedded
+  - linux
+  - tools

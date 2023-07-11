@@ -1,0 +1,9 @@
+name: Boog
+icon: Non.jpeg
+link: http://dummyimage.com/211x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: 0.1.0
+categories:
+  - linux
+  - oss
+  - kernel

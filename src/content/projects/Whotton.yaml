@@ -1,0 +1,9 @@
+name: Whotton
+icon: Lacinia.avi
+link: http://dummyimage.com/172x100.png/dddddd/000000
+support: emulation
+versionFrom: '3.80'
+categories:
+  - testing
+  - dotnet
+  - oss

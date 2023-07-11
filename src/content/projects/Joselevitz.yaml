@@ -1,0 +1,9 @@
+name: Joselevitz
+icon: Nisi.ppt
+link: http://dummyimage.com/244x100.png/cc0000/ffffff
+support: native
+versionFrom: '8.79'
+categories:
+  - tools
+  - emulation
+  - kernel

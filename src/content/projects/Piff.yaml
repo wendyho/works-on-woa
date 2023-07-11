@@ -1,0 +1,9 @@
+name: Piff
+icon: Lorem.mpeg
+link: http://dummyimage.com/138x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: '0.11'
+categories:
+  - dotnet
+  - tools
+  - web

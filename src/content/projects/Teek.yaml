@@ -1,0 +1,9 @@
+name: Teek
+icon: Mauris.mpeg
+link: http://dummyimage.com/133x100.png/cc0000/ffffff
+support: native
+versionFrom: '4.91'
+categories:
+  - dotnet
+  - tools
+  - emulation

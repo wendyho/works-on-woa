@@ -1,0 +1,9 @@
+name: Ciraldo
+icon: FermentumDonecUt.ppt
+link: http://dummyimage.com/145x100.png/5fa2dd/ffffff
+support: native
+versionFrom: '0.87'
+categories:
+  - embedded
+  - kernel
+  - visualstudio

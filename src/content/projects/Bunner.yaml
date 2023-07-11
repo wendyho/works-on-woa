@@ -1,0 +1,9 @@
+name: Bunner
+icon: OrciPede.ppt
+link: http://dummyimage.com/132x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: 8.4.6
+categories:
+  - web
+  - emulation
+  - dotnet

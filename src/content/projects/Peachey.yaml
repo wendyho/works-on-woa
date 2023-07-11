@@ -1,0 +1,9 @@
+name: Peachey
+icon: MorbiVestibulum.ppt
+link: http://dummyimage.com/246x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: '9.95'
+categories:
+  - testing
+  - linux
+  - kernel

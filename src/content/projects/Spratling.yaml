@@ -1,0 +1,9 @@
+name: Spratling
+icon: NullaNequeLibero.jpeg
+link: http://dummyimage.com/130x100.png/ff4444/ffffff
+support: 'no'
+versionFrom: '0.23'
+categories:
+  - oss
+  - testing
+  - linux

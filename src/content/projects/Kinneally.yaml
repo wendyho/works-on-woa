@@ -1,0 +1,9 @@
+name: Kinneally
+icon: Eget.png
+link: http://dummyimage.com/220x100.png/dddddd/000000
+support: emulation
+versionFrom: 1.1.8
+categories:
+  - oss
+  - emulation
+  - visualstudio

@@ -1,0 +1,9 @@
+name: Treacy
+icon: Nibh.tiff
+link: http://dummyimage.com/211x100.png/cc0000/ffffff
+support: native
+versionFrom: '1.8'
+categories:
+  - web
+  - dotnet
+  - visualstudio

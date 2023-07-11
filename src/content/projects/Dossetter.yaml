@@ -1,0 +1,9 @@
+name: Dossetter
+icon: Non.xls
+link: http://dummyimage.com/208x100.png/cc0000/ffffff
+support: emulation
+versionFrom: '8.78'
+categories:
+  - oss
+  - kernel
+  - tools

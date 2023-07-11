@@ -1,0 +1,9 @@
+name: Matyashev
+icon: AcLeo.jpeg
+link: http://dummyimage.com/213x100.png/cc0000/ffffff
+support: emulation
+versionFrom: '0.31'
+categories:
+  - visualstudio
+  - oss
+  - testing

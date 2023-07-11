@@ -1,0 +1,9 @@
+name: Emett
+icon: TemporTurpisNec.jpeg
+link: http://dummyimage.com/199x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: '0.43'
+categories:
+  - kernel
+  - web
+  - emulation

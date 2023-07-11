@@ -1,0 +1,8 @@
+name: Kilgallon
+icon: Vestibulum.jpeg
+link: http://dummyimage.com/220x100.png/ff4444/ffffff
+support: emulation
+versionFrom: '3.7'
+categories:
+  - tools
+  - dotnet

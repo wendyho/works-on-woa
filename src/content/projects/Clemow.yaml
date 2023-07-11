@@ -1,0 +1,9 @@
+name: Clemow
+icon: AeneanAuctor.xls
+link: http://dummyimage.com/204x100.png/cc0000/ffffff
+support: emulation
+versionFrom: '6.2'
+categories:
+  - visualstudio
+  - dotnet
+  - linux

@@ -1,0 +1,8 @@
+name: Yetts
+icon: SapienPlaceratAnte.txt
+link: http://dummyimage.com/182x100.png/dddddd/000000
+support: native
+versionFrom: '8.75'
+categories:
+  - linux
+  - oss

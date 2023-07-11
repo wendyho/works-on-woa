@@ -1,0 +1,8 @@
+name: Brecon
+icon: Nulla.ppt
+link: http://dummyimage.com/200x100.png/dddddd/000000
+support: 'no'
+versionFrom: '6.3'
+categories:
+  - linux
+  - testing

@@ -1,0 +1,9 @@
+name: Heinrich
+icon: At.avi
+link: http://dummyimage.com/113x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: 0.7.5
+categories:
+  - visualstudio
+  - web
+  - kernel

@@ -1,0 +1,9 @@
+name: Niesing
+icon: TurpisEgetElit.mpeg
+link: http://dummyimage.com/119x100.png/cc0000/ffffff
+support: native
+versionFrom: 5.9.3
+categories:
+  - emulation
+  - kernel
+  - web

@@ -1,0 +1,9 @@
+name: Hardman
+icon: MolestieSedJusto.jpeg
+link: http://dummyimage.com/187x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: '4.60'
+categories:
+  - embedded
+  - web
+  - tools

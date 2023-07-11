@@ -1,0 +1,9 @@
+name: Steer
+icon: Curae.xls
+link: http://dummyimage.com/173x100.png/dddddd/000000
+support: emulation
+versionFrom: '0.81'
+categories:
+  - embedded
+  - emulation
+  - tools

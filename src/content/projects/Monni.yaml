@@ -1,0 +1,9 @@
+name: Monni
+icon: NonPretiumQuis.xls
+link: http://dummyimage.com/185x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: '2.9'
+categories:
+  - oss
+  - linux
+  - visualstudio

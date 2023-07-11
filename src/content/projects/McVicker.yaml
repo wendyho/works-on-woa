@@ -1,0 +1,9 @@
+name: McVicker
+icon: MaecenasTincidunt.xls
+link: http://dummyimage.com/209x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: '7.69'
+categories:
+  - testing
+  - emulation
+  - linux

@@ -1,0 +1,9 @@
+name: Sutherland
+icon: CongueRisus.mp3
+link: http://dummyimage.com/118x100.png/ff4444/ffffff
+support: emulation
+versionFrom: '0.63'
+categories:
+  - embedded
+  - kernel
+  - web

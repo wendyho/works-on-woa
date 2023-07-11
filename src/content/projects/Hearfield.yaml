@@ -1,0 +1,9 @@
+name: Hearfield
+icon: SedNisl.xls
+link: http://dummyimage.com/211x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: '0.99'
+categories:
+  - emulation
+  - embedded
+  - dotnet

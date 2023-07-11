@@ -1,0 +1,9 @@
+name: Larvor
+icon: LuctusEtUltrices.ppt
+link: http://dummyimage.com/216x100.png/dddddd/000000
+support: native
+versionFrom: '5.76'
+categories:
+  - visualstudio
+  - dotnet
+  - oss

@@ -1,0 +1,8 @@
+name: Wollacott
+icon: NecEuismod.xls
+link: http://dummyimage.com/165x100.png/cc0000/ffffff
+support: emulation
+versionFrom: '0.21'
+categories:
+  - dotnet
+  - embedded

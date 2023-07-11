@@ -1,0 +1,9 @@
+name: Condy
+icon: TellusInSagittis.avi
+link: http://dummyimage.com/217x100.png/ff4444/ffffff
+support: unknown
+versionFrom: '5.20'
+categories:
+  - tools
+  - embedded
+  - kernel

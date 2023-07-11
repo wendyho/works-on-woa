@@ -1,0 +1,9 @@
+name: Piatkowski
+icon: Lectus.xls
+link: http://dummyimage.com/118x100.png/dddddd/000000
+support: emulation
+versionFrom: '3.1'
+categories:
+  - embedded
+  - linux
+  - web

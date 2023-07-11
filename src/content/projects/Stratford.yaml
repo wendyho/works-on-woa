@@ -1,0 +1,9 @@
+name: Stratford
+icon: UtAtDolor.pdf
+link: http://dummyimage.com/195x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: 8.7.6
+categories:
+  - testing
+  - web
+  - linux

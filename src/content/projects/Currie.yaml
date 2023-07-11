@@ -1,0 +1,9 @@
+name: Currie
+icon: FelisDonec.ppt
+link: http://dummyimage.com/245x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: 1.0.6
+categories:
+  - visualstudio
+  - oss
+  - embedded

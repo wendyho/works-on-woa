@@ -1,0 +1,9 @@
+name: Rankmore
+icon: A.doc
+link: http://dummyimage.com/103x100.png/dddddd/000000
+support: 'no'
+versionFrom: '6.92'
+categories:
+  - kernel
+  - oss
+  - tools

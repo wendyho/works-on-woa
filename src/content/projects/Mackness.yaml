@@ -1,0 +1,9 @@
+name: Mackness
+icon: InConsequat.jpeg
+link: http://dummyimage.com/223x100.png/ff4444/ffffff
+support: emulation
+versionFrom: '0.47'
+categories:
+  - web
+  - kernel
+  - visualstudio

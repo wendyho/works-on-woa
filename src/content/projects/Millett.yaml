@@ -1,0 +1,9 @@
+name: Millett
+icon: InterdumMauris.pdf
+link: http://dummyimage.com/125x100.png/dddddd/000000
+support: 'no'
+versionFrom: 3.3.5
+categories:
+  - kernel
+  - embedded
+  - oss

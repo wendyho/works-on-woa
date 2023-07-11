@@ -1,0 +1,9 @@
+name: Busher
+icon: Lorem.gif
+link: http://dummyimage.com/225x100.png/dddddd/000000
+support: emulation
+versionFrom: '1.26'
+categories:
+  - linux
+  - web
+  - kernel

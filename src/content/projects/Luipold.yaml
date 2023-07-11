@@ -1,0 +1,9 @@
+name: Luipold
+icon: EuTinciduntIn.avi
+link: http://dummyimage.com/199x100.png/ff4444/ffffff
+support: emulation
+versionFrom: '3.5'
+categories:
+  - emulation
+  - visualstudio
+  - dotnet

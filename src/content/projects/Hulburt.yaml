@@ -1,0 +1,9 @@
+name: Hulburt
+icon: ViverraPede.xls
+link: http://dummyimage.com/127x100.png/dddddd/000000
+support: 'no'
+versionFrom: 4.8.7
+categories:
+  - oss
+  - visualstudio
+  - web

@@ -1,0 +1,9 @@
+name: Mesias
+icon: AOdio.pdf
+link: http://dummyimage.com/167x100.png/cc0000/ffffff
+support: native
+versionFrom: '6.24'
+categories:
+  - tools
+  - linux
+  - embedded

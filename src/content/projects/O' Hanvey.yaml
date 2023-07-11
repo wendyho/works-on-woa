@@ -1,0 +1,9 @@
+name: O' Hanvey
+icon: In.ppt
+link: http://dummyimage.com/209x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: 0.2.9
+categories:
+  - visualstudio
+  - linux
+  - embedded

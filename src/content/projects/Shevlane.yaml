@@ -1,0 +1,9 @@
+name: Shevlane
+icon: Consequat.xls
+link: http://dummyimage.com/131x100.png/cc0000/ffffff
+support: emulation
+versionFrom: 3.0.0
+categories:
+  - embedded
+  - tools
+  - web

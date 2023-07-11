@@ -1,0 +1,9 @@
+name: Talman
+icon: ViverraDapibusNulla.mpeg
+link: http://dummyimage.com/240x100.png/ff4444/ffffff
+support: emulation
+versionFrom: 8.1.8
+categories:
+  - testing
+  - tools
+  - embedded

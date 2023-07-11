@@ -1,0 +1,9 @@
+name: Pashler
+icon: InAnteVestibulum.mp3
+link: http://dummyimage.com/144x100.png/dddddd/000000
+support: emulation
+versionFrom: 7.3.1
+categories:
+  - dotnet
+  - web
+  - visualstudio

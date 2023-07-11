@@ -1,0 +1,9 @@
+name: Linkin
+icon: AdipiscingLoremVitae.ppt
+link: http://dummyimage.com/203x100.png/ff4444/ffffff
+support: 'no'
+versionFrom: 6.7.8
+categories:
+  - web
+  - testing
+  - linux

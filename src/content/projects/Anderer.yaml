@@ -1,0 +1,9 @@
+name: Anderer
+icon: Est.avi
+link: http://dummyimage.com/236x100.png/ff4444/ffffff
+support: emulation
+versionFrom: 0.7.6
+categories:
+  - kernel
+  - dotnet
+  - linux

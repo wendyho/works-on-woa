@@ -1,0 +1,9 @@
+name: Sheldrake
+icon: EtMagnis.xls
+link: http://dummyimage.com/189x100.png/cc0000/ffffff
+support: unknown
+versionFrom: 7.4.3
+categories:
+  - dotnet
+  - visualstudio
+  - kernel

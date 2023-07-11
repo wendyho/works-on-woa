@@ -1,0 +1,8 @@
+name: Battlestone
+icon: AugueVestibulum.mov
+link: http://dummyimage.com/235x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: 8.0.1
+categories:
+  - linux
+  - testing

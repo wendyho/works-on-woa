@@ -1,0 +1,9 @@
+name: Leverette
+icon: Parturient.mp3
+link: http://dummyimage.com/213x100.png/5fa2dd/ffffff
+support: native
+versionFrom: '0.88'
+categories:
+  - emulation
+  - oss
+  - embedded

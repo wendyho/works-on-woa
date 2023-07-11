@@ -1,0 +1,9 @@
+name: Flaune
+icon: Urna.mov
+link: http://dummyimage.com/141x100.png/5fa2dd/ffffff
+support: unknown
+versionFrom: '4.96'
+categories:
+  - emulation
+  - testing
+  - linux

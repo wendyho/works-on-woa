@@ -1,0 +1,9 @@
+name: Tesh
+icon: PlateaDictumstAliquam.tiff
+link: http://dummyimage.com/242x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: '3.00'
+categories:
+  - emulation
+  - kernel
+  - tools

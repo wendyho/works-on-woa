@@ -1,0 +1,9 @@
+name: Briscow
+icon: BlanditMi.ppt
+link: http://dummyimage.com/193x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: 5.8.2
+categories:
+  - dotnet
+  - web
+  - tools

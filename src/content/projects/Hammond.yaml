@@ -1,0 +1,9 @@
+name: Hammond
+icon: IntegerANibh.jpeg
+link: http://dummyimage.com/230x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: '7.47'
+categories:
+  - oss
+  - web
+  - visualstudio

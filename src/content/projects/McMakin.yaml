@@ -1,0 +1,9 @@
+name: McMakin
+icon: Nec.doc
+link: http://dummyimage.com/197x100.png/ff4444/ffffff
+support: emulation
+versionFrom: '0.66'
+categories:
+  - emulation
+  - embedded
+  - oss

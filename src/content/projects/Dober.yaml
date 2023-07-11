@@ -1,0 +1,9 @@
+name: Dober
+icon: LaciniaSapien.mp3
+link: http://dummyimage.com/239x100.png/cc0000/ffffff
+support: emulation
+versionFrom: 0.5.3
+categories:
+  - testing
+  - web
+  - oss

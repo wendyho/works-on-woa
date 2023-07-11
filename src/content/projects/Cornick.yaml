@@ -1,0 +1,9 @@
+name: Cornick
+icon: LoremIpsumDolor.doc
+link: http://dummyimage.com/114x100.png/dddddd/000000
+support: native
+versionFrom: '2.2'
+categories:
+  - emulation
+  - tools
+  - kernel

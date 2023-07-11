@@ -1,0 +1,8 @@
+name: Caldaro
+icon: Nisl.avi
+link: http://dummyimage.com/155x100.png/ff4444/ffffff
+support: emulation
+versionFrom: '1.42'
+categories:
+  - dotnet
+  - visualstudio

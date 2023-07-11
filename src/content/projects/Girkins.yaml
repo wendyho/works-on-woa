@@ -1,0 +1,8 @@
+name: Girkins
+icon: VestibulumVelit.mpeg
+link: http://dummyimage.com/181x100.png/5fa2dd/ffffff
+support: unknown
+versionFrom: 8.1.7
+categories:
+  - dotnet
+  - embedded

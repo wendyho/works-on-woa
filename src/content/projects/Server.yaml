@@ -1,0 +1,9 @@
+name: Server
+icon: NullaEget.ppt
+link: http://dummyimage.com/215x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: '3.04'
+categories:
+  - testing
+  - linux
+  - embedded

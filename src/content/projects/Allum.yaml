@@ -1,0 +1,9 @@
+name: Allum
+icon: VolutpatSapienArcu.xls
+link: http://dummyimage.com/128x100.png/cc0000/ffffff
+support: native
+versionFrom: 7.5.4
+categories:
+  - oss
+  - tools
+  - testing

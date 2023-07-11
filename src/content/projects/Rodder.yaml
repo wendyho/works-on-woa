@@ -1,0 +1,9 @@
+name: Rodder
+icon: IpsumPrimisIn.xls
+link: http://dummyimage.com/173x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: '9.35'
+categories:
+  - dotnet
+  - linux
+  - emulation

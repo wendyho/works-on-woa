@@ -1,0 +1,9 @@
+name: Briers
+icon: TortorEu.mp3
+link: http://dummyimage.com/197x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: '0.54'
+categories:
+  - kernel
+  - testing
+  - visualstudio

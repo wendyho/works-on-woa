@@ -1,0 +1,9 @@
+name: Merrisson
+icon: VestibulumEget.xls
+link: http://dummyimage.com/225x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: '9.8'
+categories:
+  - visualstudio
+  - testing
+  - web

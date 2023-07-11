@@ -1,0 +1,9 @@
+name: Giuroni
+icon: FaucibusOrci.mov
+link: http://dummyimage.com/187x100.png/5fa2dd/ffffff
+support: unknown
+versionFrom: 7.2.8
+categories:
+  - emulation
+  - dotnet
+  - tools

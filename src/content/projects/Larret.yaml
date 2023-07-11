@@ -1,0 +1,9 @@
+name: Larret
+icon: VitaeNisi.jpeg
+link: http://dummyimage.com/154x100.png/cc0000/ffffff
+support: emulation
+versionFrom: 1.2.3
+categories:
+  - kernel
+  - embedded
+  - oss

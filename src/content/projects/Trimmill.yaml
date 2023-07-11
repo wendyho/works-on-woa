@@ -1,0 +1,8 @@
+name: Trimmill
+icon: Curae.txt
+link: http://dummyimage.com/168x100.png/dddddd/000000
+support: emulation
+versionFrom: '2.4'
+categories:
+  - kernel
+  - oss

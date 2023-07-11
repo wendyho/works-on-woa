@@ -1,0 +1,9 @@
+name: Menlow
+icon: RutrumAt.avi
+link: http://dummyimage.com/139x100.png/ff4444/ffffff
+support: native
+versionFrom: 7.5.0
+categories:
+  - web
+  - embedded
+  - kernel

@@ -1,0 +1,9 @@
+name: Woodward
+icon: Sed.mp3
+link: http://dummyimage.com/220x100.png/cc0000/ffffff
+support: native
+versionFrom: '4.5'
+categories:
+  - testing
+  - web
+  - dotnet

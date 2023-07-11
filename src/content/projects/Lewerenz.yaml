@@ -1,0 +1,9 @@
+name: Lewerenz
+icon: Sem.mpeg
+link: http://dummyimage.com/136x100.png/dddddd/000000
+support: native
+versionFrom: 0.2.1
+categories:
+  - testing
+  - dotnet
+  - kernel

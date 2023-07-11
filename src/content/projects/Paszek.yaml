@@ -1,0 +1,8 @@
+name: Paszek
+icon: TellusIn.ppt
+link: http://dummyimage.com/180x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: '0.41'
+categories:
+  - kernel
+  - dotnet

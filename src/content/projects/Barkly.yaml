@@ -1,0 +1,8 @@
+name: Barkly
+icon: PellentesqueVolutpat.jpeg
+link: http://dummyimage.com/130x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: '3.14'
+categories:
+  - embedded
+  - dotnet

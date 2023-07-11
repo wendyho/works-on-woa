@@ -1,0 +1,9 @@
+name: Hackworth
+icon: MorbiAIpsum.mpeg
+link: http://dummyimage.com/149x100.png/ff4444/ffffff
+support: emulation
+versionFrom: '4.8'
+categories:
+  - testing
+  - visualstudio
+  - emulation

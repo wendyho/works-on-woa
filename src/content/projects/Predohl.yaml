@@ -1,0 +1,9 @@
+name: Predohl
+icon: PretiumQuisLectus.txt
+link: http://dummyimage.com/198x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: '7.3'
+categories:
+  - embedded
+  - tools
+  - linux

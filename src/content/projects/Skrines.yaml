@@ -1,0 +1,9 @@
+name: Skrines
+icon: Quam.pdf
+link: http://dummyimage.com/199x100.png/5fa2dd/ffffff
+support: unknown
+versionFrom: '0.30'
+categories:
+  - linux
+  - kernel
+  - dotnet

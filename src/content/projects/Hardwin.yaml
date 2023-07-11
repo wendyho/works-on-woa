@@ -1,0 +1,9 @@
+name: Hardwin
+icon: OrciEgetOrci.xls
+link: http://dummyimage.com/158x100.png/cc0000/ffffff
+support: emulation
+versionFrom: 0.1.1
+categories:
+  - kernel
+  - web
+  - emulation

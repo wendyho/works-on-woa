@@ -1,0 +1,9 @@
+name: Fairbanks
+icon: PosuereCubiliaCurae.jpeg
+link: http://dummyimage.com/146x100.png/ff4444/ffffff
+support: unknown
+versionFrom: '0.69'
+categories:
+  - web
+  - embedded
+  - linux

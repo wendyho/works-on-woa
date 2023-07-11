@@ -1,0 +1,9 @@
+name: Nemchinov
+icon: QuisqueUtErat.avi
+link: http://dummyimage.com/172x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: 2.4.5
+categories:
+  - linux
+  - visualstudio
+  - kernel

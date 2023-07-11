@@ -1,0 +1,8 @@
+name: Ferber
+icon: SapienQuis.xls
+link: http://dummyimage.com/219x100.png/ff4444/ffffff
+support: emulation
+versionFrom: '2.1'
+categories:
+  - kernel
+  - dotnet

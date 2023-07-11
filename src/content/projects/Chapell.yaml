@@ -1,0 +1,9 @@
+name: Chapell
+icon: TortorIdNulla.mp3
+link: http://dummyimage.com/110x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: '9.5'
+categories:
+  - kernel
+  - tools
+  - dotnet

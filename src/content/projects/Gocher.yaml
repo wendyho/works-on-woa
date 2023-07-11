@@ -1,0 +1,9 @@
+name: Gocher
+icon: ConsequatMetus.avi
+link: http://dummyimage.com/131x100.png/dddddd/000000
+support: 'no'
+versionFrom: '8.87'
+categories:
+  - embedded
+  - testing
+  - visualstudio

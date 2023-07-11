@@ -1,0 +1,9 @@
+name: Vinas
+icon: Est.txt
+link: http://dummyimage.com/199x100.png/cc0000/ffffff
+support: emulation
+versionFrom: 0.1.2
+categories:
+  - linux
+  - kernel
+  - tools

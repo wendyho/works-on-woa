@@ -1,0 +1,8 @@
+name: Boutcher
+icon: FeugiatNonPretium.gif
+link: http://dummyimage.com/238x100.png/5fa2dd/ffffff
+support: native
+versionFrom: 0.8.4
+categories:
+  - embedded
+  - linux

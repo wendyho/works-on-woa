@@ -1,0 +1,9 @@
+name: Hargie
+icon: MontesNasceturRidiculus.tiff
+link: http://dummyimage.com/227x100.png/dddddd/000000
+support: native
+versionFrom: 2.2.9
+categories:
+  - visualstudio
+  - kernel
+  - embedded

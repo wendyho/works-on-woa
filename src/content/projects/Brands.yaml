@@ -1,0 +1,9 @@
+name: Brands
+icon: PotentiNullamPorttitor.mpeg
+link: http://dummyimage.com/223x100.png/cc0000/ffffff
+support: emulation
+versionFrom: 0.6.3
+categories:
+  - kernel
+  - oss
+  - emulation

@@ -1,0 +1,9 @@
+name: Aveyard
+icon: PedeMorbi.avi
+link: http://dummyimage.com/128x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: 7.0.0
+categories:
+  - linux
+  - emulation
+  - web

@@ -1,0 +1,9 @@
+name: Worwood
+icon: CursusId.jpeg
+link: http://dummyimage.com/127x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: '6.2'
+categories:
+  - oss
+  - emulation
+  - tools

@@ -1,0 +1,9 @@
+name: Cappell
+icon: EnimIn.txt
+link: http://dummyimage.com/200x100.png/cc0000/ffffff
+support: emulation
+versionFrom: '0.72'
+categories:
+  - visualstudio
+  - embedded
+  - web

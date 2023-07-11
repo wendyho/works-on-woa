@@ -1,0 +1,9 @@
+name: Medlin
+icon: IdNulla.xls
+link: http://dummyimage.com/120x100.png/dddddd/000000
+support: native
+versionFrom: '0.59'
+categories:
+  - linux
+  - oss
+  - dotnet

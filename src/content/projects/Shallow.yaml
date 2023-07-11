@@ -1,0 +1,9 @@
+name: Shallow
+icon: SapienNon.avi
+link: http://dummyimage.com/249x100.png/ff4444/ffffff
+support: 'no'
+versionFrom: 1.4.8
+categories:
+  - web
+  - kernel
+  - linux

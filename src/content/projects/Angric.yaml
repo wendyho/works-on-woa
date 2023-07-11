@@ -1,0 +1,9 @@
+name: Angric
+icon: NuncPurus.mov
+link: http://dummyimage.com/186x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: 0.9.6
+categories:
+  - linux
+  - embedded
+  - dotnet

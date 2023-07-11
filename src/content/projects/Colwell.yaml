@@ -1,0 +1,9 @@
+name: Colwell
+icon: VestibulumProin.ppt
+link: http://dummyimage.com/112x100.png/5fa2dd/ffffff
+support: native
+versionFrom: '7.6'
+categories:
+  - emulation
+  - embedded
+  - dotnet

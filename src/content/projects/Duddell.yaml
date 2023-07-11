@@ -1,0 +1,9 @@
+name: Duddell
+icon: Tortor.ppt
+link: http://dummyimage.com/173x100.png/cc0000/ffffff
+support: native
+versionFrom: '0.58'
+categories:
+  - oss
+  - web
+  - visualstudio

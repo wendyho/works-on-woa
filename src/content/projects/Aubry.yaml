@@ -1,0 +1,8 @@
+name: Aubry
+icon: BlanditMiIn.jpeg
+link: http://dummyimage.com/239x100.png/ff4444/ffffff
+support: emulation
+versionFrom: '9.46'
+categories:
+  - testing
+  - tools

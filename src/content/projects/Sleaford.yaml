@@ -1,0 +1,9 @@
+name: Sleaford
+icon: LectusPellentesqueAt.mp3
+link: http://dummyimage.com/140x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: '2.1'
+categories:
+  - tools
+  - embedded
+  - dotnet

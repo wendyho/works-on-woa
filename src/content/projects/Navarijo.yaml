@@ -1,0 +1,9 @@
+name: Navarijo
+icon: AnteIpsum.tiff
+link: http://dummyimage.com/242x100.png/cc0000/ffffff
+support: unknown
+versionFrom: '9.1'
+categories:
+  - kernel
+  - oss
+  - embedded

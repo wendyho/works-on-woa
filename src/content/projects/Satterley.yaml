@@ -1,0 +1,9 @@
+name: Satterley
+icon: ElitProin.doc
+link: http://dummyimage.com/174x100.png/5fa2dd/ffffff
+support: unknown
+versionFrom: '5.18'
+categories:
+  - linux
+  - web
+  - emulation

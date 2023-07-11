@@ -1,0 +1,9 @@
+name: Schultes
+icon: EgetCongueEget.tiff
+link: http://dummyimage.com/156x100.png/ff4444/ffffff
+support: emulation
+versionFrom: '1.44'
+categories:
+  - tools
+  - kernel
+  - emulation

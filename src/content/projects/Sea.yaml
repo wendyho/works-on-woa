@@ -1,0 +1,9 @@
+name: Sea
+icon: Cras.doc
+link: http://dummyimage.com/154x100.png/dddddd/000000
+support: emulation
+versionFrom: '2.5'
+categories:
+  - embedded
+  - tools
+  - testing

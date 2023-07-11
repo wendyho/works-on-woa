@@ -1,0 +1,9 @@
+name: Sturridge
+icon: HacHabitasse.jpeg
+link: http://dummyimage.com/204x100.png/ff4444/ffffff
+support: unknown
+versionFrom: '1.49'
+categories:
+  - dotnet
+  - emulation
+  - web

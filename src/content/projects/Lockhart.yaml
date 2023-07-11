@@ -1,0 +1,9 @@
+name: Lockhart
+icon: QuamSuspendissePotenti.avi
+link: http://dummyimage.com/211x100.png/cc0000/ffffff
+support: unknown
+versionFrom: 4.1.6
+categories:
+  - visualstudio
+  - dotnet
+  - linux

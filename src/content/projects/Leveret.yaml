@@ -1,0 +1,9 @@
+name: Leveret
+icon: PellentesqueUltricesMattis.mov
+link: http://dummyimage.com/201x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: 0.5.5
+categories:
+  - oss
+  - web
+  - tools

@@ -1,0 +1,8 @@
+name: Curnnok
+icon: Non.png
+link: http://dummyimage.com/245x100.png/dddddd/000000
+support: 'no'
+versionFrom: '0.75'
+categories:
+  - testing
+  - kernel

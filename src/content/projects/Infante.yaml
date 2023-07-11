@@ -1,0 +1,9 @@
+name: Infante
+icon: Vulputate.xls
+link: http://dummyimage.com/113x100.png/cc0000/ffffff
+support: emulation
+versionFrom: '6.9'
+categories:
+  - emulation
+  - linux
+  - dotnet

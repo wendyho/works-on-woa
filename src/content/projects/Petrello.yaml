@@ -1,0 +1,9 @@
+name: Petrello
+icon: ParturientMontes.txt
+link: http://dummyimage.com/138x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: '9.3'
+categories:
+  - linux
+  - testing
+  - embedded

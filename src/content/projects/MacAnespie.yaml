@@ -1,0 +1,9 @@
+name: MacAnespie
+icon: NatoquePenatibusEt.jpeg
+link: http://dummyimage.com/196x100.png/dddddd/000000
+support: unknown
+versionFrom: '8.37'
+categories:
+  - linux
+  - testing
+  - tools

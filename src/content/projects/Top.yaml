@@ -1,0 +1,9 @@
+name: Top
+icon: PharetraMagna.ppt
+link: http://dummyimage.com/212x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: '0.25'
+categories:
+  - linux
+  - kernel
+  - emulation

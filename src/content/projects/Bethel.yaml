@@ -1,0 +1,9 @@
+name: Bethel
+icon: Quam.mp3
+link: http://dummyimage.com/209x100.png/ff4444/ffffff
+support: native
+versionFrom: '2.8'
+categories:
+  - visualstudio
+  - oss
+  - tools

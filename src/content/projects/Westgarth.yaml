@@ -1,0 +1,8 @@
+name: Westgarth
+icon: FermentumJustoNec.gif
+link: http://dummyimage.com/191x100.png/cc0000/ffffff
+support: unknown
+versionFrom: '2.11'
+categories:
+  - linux
+  - dotnet

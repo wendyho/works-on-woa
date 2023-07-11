@@ -1,0 +1,9 @@
+name: Cuthbert
+icon: NasceturRidiculus.avi
+link: http://dummyimage.com/133x100.png/dddddd/000000
+support: 'no'
+versionFrom: '9.77'
+categories:
+  - web
+  - embedded
+  - emulation

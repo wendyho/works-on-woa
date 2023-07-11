@@ -1,0 +1,9 @@
+name: Bouttell
+icon: Lobortis.jpeg
+link: http://dummyimage.com/202x100.png/ff4444/ffffff
+support: native
+versionFrom: '0.57'
+categories:
+  - visualstudio
+  - oss
+  - dotnet

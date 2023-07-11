@@ -1,0 +1,8 @@
+name: Bragginton
+icon: UtEratCurabitur.mp3
+link: http://dummyimage.com/103x100.png/ff4444/ffffff
+support: 'no'
+versionFrom: 6.2.9
+categories:
+  - kernel
+  - testing

@@ -1,0 +1,9 @@
+name: Kindley
+icon: PhasellusSitAmet.mp3
+link: http://dummyimage.com/207x100.png/ff4444/ffffff
+support: emulation
+versionFrom: '7.8'
+categories:
+  - kernel
+  - tools
+  - dotnet

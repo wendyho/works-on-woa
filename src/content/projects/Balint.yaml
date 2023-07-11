@@ -1,0 +1,9 @@
+name: Balint
+icon: DapibusAugueVel.ppt
+link: http://dummyimage.com/144x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: 0.2.0
+categories:
+  - kernel
+  - emulation
+  - linux

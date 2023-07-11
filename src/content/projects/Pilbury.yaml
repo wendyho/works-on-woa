@@ -1,0 +1,9 @@
+name: Pilbury
+icon: CubiliaCuraeDuis.jpeg
+link: http://dummyimage.com/197x100.png/5fa2dd/ffffff
+support: native
+versionFrom: '5.2'
+categories:
+  - oss
+  - web
+  - embedded

@@ -1,0 +1,9 @@
+name: Dudgeon
+icon: InFaucibus.mov
+link: http://dummyimage.com/146x100.png/ff4444/ffffff
+support: emulation
+versionFrom: '0.68'
+categories:
+  - web
+  - kernel
+  - oss

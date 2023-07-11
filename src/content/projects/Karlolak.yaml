@@ -1,0 +1,9 @@
+name: Karlolak
+icon: Consequat.mp3
+link: http://dummyimage.com/120x100.png/5fa2dd/ffffff
+support: native
+versionFrom: 5.4.7
+categories:
+  - web
+  - emulation
+  - linux

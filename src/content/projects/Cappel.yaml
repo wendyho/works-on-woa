@@ -1,0 +1,9 @@
+name: Cappel
+icon: RutrumAc.mpeg
+link: http://dummyimage.com/124x100.png/5fa2dd/ffffff
+support: native
+versionFrom: '0.56'
+categories:
+  - kernel
+  - visualstudio
+  - dotnet

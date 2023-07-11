@@ -1,0 +1,9 @@
+name: Eddisforth
+icon: DapibusDolor.jpeg
+link: http://dummyimage.com/119x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: '9.54'
+categories:
+  - emulation
+  - kernel
+  - dotnet

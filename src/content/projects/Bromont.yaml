@@ -1,0 +1,9 @@
+name: Bromont
+icon: AtNulla.avi
+link: http://dummyimage.com/121x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: '1.0'
+categories:
+  - linux
+  - dotnet
+  - kernel

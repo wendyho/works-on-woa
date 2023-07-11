@@ -1,0 +1,9 @@
+name: Phelips
+icon: RutrumAtLorem.jpeg
+link: http://dummyimage.com/142x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: 0.5.1
+categories:
+  - embedded
+  - dotnet
+  - oss

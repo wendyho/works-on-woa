@@ -1,0 +1,9 @@
+name: Champ
+icon: VestibulumVelit.tiff
+link: http://dummyimage.com/206x100.png/dddddd/000000
+support: unknown
+versionFrom: 8.9.5
+categories:
+  - tools
+  - kernel
+  - oss

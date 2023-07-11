@@ -1,0 +1,9 @@
+name: Roobottom
+icon: RutrumNequeAenean.avi
+link: http://dummyimage.com/121x100.png/cc0000/ffffff
+support: emulation
+versionFrom: '8.12'
+categories:
+  - visualstudio
+  - dotnet
+  - embedded

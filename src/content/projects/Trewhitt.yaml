@@ -1,0 +1,9 @@
+name: Trewhitt
+icon: SitAmet.avi
+link: http://dummyimage.com/171x100.png/ff4444/ffffff
+support: emulation
+versionFrom: 0.7.5
+categories:
+  - visualstudio
+  - kernel
+  - dotnet

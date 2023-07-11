@@ -1,0 +1,9 @@
+name: Dickin
+icon: ArcuLiberoRutrum.ppt
+link: http://dummyimage.com/207x100.png/cc0000/ffffff
+support: native
+versionFrom: '6.8'
+categories:
+  - embedded
+  - web
+  - linux

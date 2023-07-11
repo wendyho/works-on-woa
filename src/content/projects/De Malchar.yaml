@@ -1,0 +1,9 @@
+name: De Malchar
+icon: PurusPhasellus.mov
+link: http://dummyimage.com/236x100.png/cc0000/ffffff
+support: unknown
+versionFrom: 4.0.8
+categories:
+  - testing
+  - dotnet
+  - embedded

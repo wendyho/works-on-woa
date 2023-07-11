@@ -1,0 +1,9 @@
+name: Alywin
+icon: Amet.pdf
+link: http://dummyimage.com/218x100.png/ff4444/ffffff
+support: emulation
+versionFrom: '7.3'
+categories:
+  - dotnet
+  - linux
+  - visualstudio

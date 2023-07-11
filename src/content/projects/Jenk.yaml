@@ -1,0 +1,9 @@
+name: Jenk
+icon: Morbi.pdf
+link: http://dummyimage.com/207x100.png/5fa2dd/ffffff
+support: unknown
+versionFrom: '3.6'
+categories:
+  - tools
+  - kernel
+  - dotnet

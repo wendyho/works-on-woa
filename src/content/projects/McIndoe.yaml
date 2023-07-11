@@ -1,0 +1,8 @@
+name: McIndoe
+icon: Sagittis.xls
+link: http://dummyimage.com/197x100.png/dddddd/000000
+support: 'no'
+versionFrom: 5.7.9
+categories:
+  - visualstudio
+  - testing

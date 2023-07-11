@@ -1,0 +1,9 @@
+name: Puddan
+icon: Nunc.xls
+link: http://dummyimage.com/248x100.png/ff4444/ffffff
+support: native
+versionFrom: 9.1.0
+categories:
+  - tools
+  - kernel
+  - testing

@@ -1,0 +1,9 @@
+name: Druhan
+icon: SitAmet.txt
+link: http://dummyimage.com/182x100.png/dddddd/000000
+support: unknown
+versionFrom: '0.19'
+categories:
+  - web
+  - linux
+  - testing

@@ -1,0 +1,9 @@
+name: Offen
+icon: SuspendissePotenti.avi
+link: http://dummyimage.com/175x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: '6.96'
+categories:
+  - dotnet
+  - web
+  - embedded

@@ -1,0 +1,8 @@
+name: Mussettini
+icon: EtTempus.mp3
+link: http://dummyimage.com/144x100.png/cc0000/ffffff
+support: native
+versionFrom: '6.6'
+categories:
+  - visualstudio
+  - linux

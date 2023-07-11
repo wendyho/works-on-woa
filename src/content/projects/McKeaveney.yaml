@@ -1,0 +1,8 @@
+name: McKeaveney
+icon: QuamSapienVarius.xls
+link: http://dummyimage.com/202x100.png/dddddd/000000
+support: native
+versionFrom: '0.66'
+categories:
+  - testing
+  - visualstudio

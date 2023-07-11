@@ -1,0 +1,8 @@
+name: Hegges
+icon: LiberoConvallis.avi
+link: http://dummyimage.com/141x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: '0.64'
+categories:
+  - dotnet
+  - emulation

@@ -1,0 +1,9 @@
+name: Kilbee
+icon: VenenatisTurpisEnim.tiff
+link: http://dummyimage.com/239x100.png/cc0000/ffffff
+support: emulation
+versionFrom: '0.37'
+categories:
+  - tools
+  - emulation
+  - embedded

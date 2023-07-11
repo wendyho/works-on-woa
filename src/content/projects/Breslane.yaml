@@ -1,0 +1,9 @@
+name: Breslane
+icon: UtNuncVestibulum.mp3
+link: http://dummyimage.com/154x100.png/cc0000/ffffff
+support: unknown
+versionFrom: '0.65'
+categories:
+  - visualstudio
+  - embedded
+  - linux

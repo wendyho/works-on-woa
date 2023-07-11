@@ -1,0 +1,9 @@
+name: Jermyn
+icon: Nibh.xls
+link: http://dummyimage.com/227x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: '0.51'
+categories:
+  - tools
+  - linux
+  - dotnet

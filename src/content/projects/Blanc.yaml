@@ -1,0 +1,8 @@
+name: Blanc
+icon: Cras.gif
+link: http://dummyimage.com/242x100.png/5fa2dd/ffffff
+support: native
+versionFrom: '9.0'
+categories:
+  - web
+  - dotnet

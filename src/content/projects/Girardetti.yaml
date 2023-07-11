@@ -1,0 +1,9 @@
+name: Girardetti
+icon: Nunc.txt
+link: http://dummyimage.com/180x100.png/dddddd/000000
+support: unknown
+versionFrom: 8.2.8
+categories:
+  - embedded
+  - oss
+  - visualstudio

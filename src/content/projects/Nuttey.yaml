@@ -1,0 +1,9 @@
+name: Nuttey
+icon: Ipsum.avi
+link: http://dummyimage.com/132x100.png/5fa2dd/ffffff
+support: unknown
+versionFrom: '5.27'
+categories:
+  - linux
+  - kernel
+  - web

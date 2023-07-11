@@ -1,0 +1,9 @@
+name: Castellini
+icon: InHac.ppt
+link: http://dummyimage.com/151x100.png/5fa2dd/ffffff
+support: unknown
+versionFrom: 0.3.5
+categories:
+  - linux
+  - embedded
+  - kernel

@@ -1,0 +1,9 @@
+name: Rowlatt
+icon: UtDolorMorbi.xls
+link: http://dummyimage.com/119x100.png/cc0000/ffffff
+support: emulation
+versionFrom: '7.93'
+categories:
+  - dotnet
+  - kernel
+  - oss

@@ -1,0 +1,9 @@
+name: Isaak
+icon: VivamusVelNulla.tiff
+link: http://dummyimage.com/208x100.png/dddddd/000000
+support: native
+versionFrom: '0.94'
+categories:
+  - testing
+  - tools
+  - web

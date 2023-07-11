@@ -1,0 +1,9 @@
+name: Wedgwood
+icon: MaurisUllamcorperPurus.xls
+link: http://dummyimage.com/234x100.png/dddddd/000000
+support: 'no'
+versionFrom: '4.9'
+categories:
+  - emulation
+  - dotnet
+  - kernel

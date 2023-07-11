@@ -1,0 +1,9 @@
+name: Barthod
+icon: NislDuisBibendum.xls
+link: http://dummyimage.com/106x100.png/dddddd/000000
+support: 'no'
+versionFrom: '0.11'
+categories:
+  - linux
+  - embedded
+  - emulation

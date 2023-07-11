@@ -1,0 +1,9 @@
+name: Golby
+icon: LectusPellentesqueAt.png
+link: http://dummyimage.com/144x100.png/dddddd/000000
+support: unknown
+versionFrom: 8.0.7
+categories:
+  - visualstudio
+  - dotnet
+  - web

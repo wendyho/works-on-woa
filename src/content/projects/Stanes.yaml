@@ -1,0 +1,8 @@
+name: Stanes
+icon: Nisi.mp3
+link: http://dummyimage.com/106x100.png/ff4444/ffffff
+support: 'no'
+versionFrom: 8.5.0
+categories:
+  - dotnet
+  - kernel

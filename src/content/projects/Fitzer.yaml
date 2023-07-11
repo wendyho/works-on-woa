@@ -1,0 +1,8 @@
+name: Fitzer
+icon: ParturientMontes.mov
+link: http://dummyimage.com/128x100.png/dddddd/000000
+support: native
+versionFrom: '7.5'
+categories:
+  - dotnet
+  - kernel

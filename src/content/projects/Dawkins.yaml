@@ -1,0 +1,8 @@
+name: Dawkins
+icon: Primis.jpeg
+link: http://dummyimage.com/157x100.png/ff4444/ffffff
+support: 'no'
+versionFrom: 9.5.1
+categories:
+  - dotnet
+  - linux

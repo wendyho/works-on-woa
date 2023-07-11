@@ -1,0 +1,9 @@
+name: Bibb
+icon: Quisque.mp3
+link: http://dummyimage.com/206x100.png/dddddd/000000
+support: emulation
+versionFrom: '0.45'
+categories:
+  - visualstudio
+  - emulation
+  - tools

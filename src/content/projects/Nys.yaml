@@ -1,0 +1,9 @@
+name: Nys
+icon: Sagittis.jpeg
+link: http://dummyimage.com/201x100.png/cc0000/ffffff
+support: native
+versionFrom: '1.5'
+categories:
+  - oss
+  - linux
+  - web

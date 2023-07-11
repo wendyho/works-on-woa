@@ -1,0 +1,9 @@
+name: Stuehmeier
+icon: SapienDignissimVestibulum.png
+link: http://dummyimage.com/163x100.png/cc0000/ffffff
+support: unknown
+versionFrom: '9.0'
+categories:
+  - dotnet
+  - visualstudio
+  - linux

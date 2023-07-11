@@ -1,0 +1,8 @@
+name: Tomblin
+icon: Fermentum.mov
+link: http://dummyimage.com/143x100.png/cc0000/ffffff
+support: native
+versionFrom: 9.2.0
+categories:
+  - dotnet
+  - testing

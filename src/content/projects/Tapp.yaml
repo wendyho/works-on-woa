@@ -1,0 +1,9 @@
+name: Tapp
+icon: QuisqueIdJusto.mp3
+link: http://dummyimage.com/234x100.png/cc0000/ffffff
+support: native
+versionFrom: '0.69'
+categories:
+  - kernel
+  - tools
+  - linux

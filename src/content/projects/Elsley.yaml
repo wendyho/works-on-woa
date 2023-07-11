@@ -1,0 +1,9 @@
+name: Elsley
+icon: PedePosuere.txt
+link: http://dummyimage.com/131x100.png/ff4444/ffffff
+support: unknown
+versionFrom: 0.8.6
+categories:
+  - testing
+  - emulation
+  - kernel

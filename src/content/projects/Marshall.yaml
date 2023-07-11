@@ -1,0 +1,8 @@
+name: Marshall
+icon: Orci.mpeg
+link: http://dummyimage.com/225x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: '5.3'
+categories:
+  - web
+  - oss

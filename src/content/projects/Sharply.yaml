@@ -1,0 +1,9 @@
+name: Sharply
+icon: Vel.ppt
+link: http://dummyimage.com/140x100.png/dddddd/000000
+support: emulation
+versionFrom: '3.34'
+categories:
+  - emulation
+  - dotnet
+  - embedded

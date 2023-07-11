@@ -1,0 +1,9 @@
+name: Weyman
+icon: NisiNamUltrices.tiff
+link: http://dummyimage.com/198x100.png/5fa2dd/ffffff
+support: native
+versionFrom: 0.3.2
+categories:
+  - oss
+  - testing
+  - web

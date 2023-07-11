@@ -1,0 +1,9 @@
+name: Prayer
+icon: CommodoPlaceratPraesent.mp3
+link: http://dummyimage.com/138x100.png/cc0000/ffffff
+support: native
+versionFrom: '6.51'
+categories:
+  - embedded
+  - visualstudio
+  - linux

@@ -1,0 +1,9 @@
+name: Bartolini
+icon: PotentiNullam.ppt
+link: http://dummyimage.com/250x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: 8.9.3
+categories:
+  - testing
+  - visualstudio
+  - linux

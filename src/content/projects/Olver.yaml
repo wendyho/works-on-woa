@@ -1,0 +1,9 @@
+name: Olver
+icon: Tempus.xls
+link: http://dummyimage.com/160x100.png/dddddd/000000
+support: 'no'
+versionFrom: '1.47'
+categories:
+  - dotnet
+  - emulation
+  - embedded

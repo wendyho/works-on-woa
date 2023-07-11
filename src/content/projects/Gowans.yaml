@@ -1,0 +1,9 @@
+name: Gowans
+icon: AccumsanTellusNisi.jpeg
+link: http://dummyimage.com/201x100.png/ff4444/ffffff
+support: native
+versionFrom: '0.55'
+categories:
+  - emulation
+  - testing
+  - embedded

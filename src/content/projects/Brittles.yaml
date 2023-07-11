@@ -1,0 +1,9 @@
+name: Brittles
+icon: Magnis.xls
+link: http://dummyimage.com/131x100.png/ff4444/ffffff
+support: emulation
+versionFrom: 0.5.8
+categories:
+  - dotnet
+  - testing
+  - emulation

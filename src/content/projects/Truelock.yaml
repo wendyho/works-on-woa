@@ -1,0 +1,9 @@
+name: Truelock
+icon: FelisEu.mp3
+link: http://dummyimage.com/122x100.png/dddddd/000000
+support: native
+versionFrom: '1.5'
+categories:
+  - dotnet
+  - linux
+  - testing

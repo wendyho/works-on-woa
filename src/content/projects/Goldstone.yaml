@@ -1,0 +1,9 @@
+name: Goldstone
+icon: UtBlanditNon.xls
+link: http://dummyimage.com/235x100.png/dddddd/000000
+support: native
+versionFrom: '2.87'
+categories:
+  - tools
+  - kernel
+  - testing

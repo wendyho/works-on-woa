@@ -1,0 +1,9 @@
+name: Kief
+icon: MontesNascetur.xls
+link: http://dummyimage.com/237x100.png/dddddd/000000
+support: unknown
+versionFrom: '0.84'
+categories:
+  - tools
+  - dotnet
+  - linux

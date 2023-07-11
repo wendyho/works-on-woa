@@ -1,0 +1,9 @@
+name: Fridlington
+icon: TinciduntEgetTempus.xls
+link: http://dummyimage.com/141x100.png/cc0000/ffffff
+support: unknown
+versionFrom: '6.9'
+categories:
+  - dotnet
+  - testing
+  - kernel

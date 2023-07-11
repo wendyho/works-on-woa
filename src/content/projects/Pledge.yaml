@@ -1,0 +1,8 @@
+name: Pledge
+icon: LigulaNec.xls
+link: http://dummyimage.com/194x100.png/cc0000/ffffff
+support: native
+versionFrom: '4.4'
+categories:
+  - testing
+  - web

@@ -1,0 +1,9 @@
+name: Feldfisher
+icon: Eget.pdf
+link: http://dummyimage.com/198x100.png/ff4444/ffffff
+support: 'no'
+versionFrom: 6.6.7
+categories:
+  - web
+  - linux
+  - oss

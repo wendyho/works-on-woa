@@ -1,0 +1,8 @@
+name: Zamora
+icon: InterdumMauris.jpeg
+link: http://dummyimage.com/108x100.png/cc0000/ffffff
+support: unknown
+versionFrom: '0.68'
+categories:
+  - visualstudio
+  - dotnet

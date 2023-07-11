@@ -1,0 +1,9 @@
+name: Tineman
+icon: VulputateUt.tiff
+link: http://dummyimage.com/197x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: 6.7.6
+categories:
+  - linux
+  - tools
+  - web

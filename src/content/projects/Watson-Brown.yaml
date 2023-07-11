@@ -1,0 +1,9 @@
+name: Watson-Brown
+icon: InSapien.pdf
+link: http://dummyimage.com/219x100.png/5fa2dd/ffffff
+support: native
+versionFrom: '6.9'
+categories:
+  - oss
+  - linux
+  - emulation

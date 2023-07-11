@@ -1,0 +1,9 @@
+name: McKinlay
+icon: VestibulumAc.jpeg
+link: http://dummyimage.com/243x100.png/cc0000/ffffff
+support: native
+versionFrom: '0.30'
+categories:
+  - tools
+  - oss
+  - dotnet

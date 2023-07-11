@@ -1,0 +1,9 @@
+name: Saunter
+icon: AIpsumInteger.tiff
+link: http://dummyimage.com/157x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: 4.8.9
+categories:
+  - web
+  - embedded
+  - kernel

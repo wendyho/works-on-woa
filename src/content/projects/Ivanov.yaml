@@ -1,0 +1,9 @@
+name: Ivanov
+icon: VestibulumProinEu.mov
+link: http://dummyimage.com/137x100.png/dddddd/000000
+support: emulation
+versionFrom: '4.37'
+categories:
+  - emulation
+  - embedded
+  - linux

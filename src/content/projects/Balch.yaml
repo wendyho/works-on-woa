@@ -1,0 +1,8 @@
+name: Balch
+icon: EuOrciMauris.ppt
+link: http://dummyimage.com/248x100.png/dddddd/000000
+support: native
+versionFrom: '3.83'
+categories:
+  - kernel
+  - embedded

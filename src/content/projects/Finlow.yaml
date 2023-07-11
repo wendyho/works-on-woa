@@ -1,0 +1,9 @@
+name: Finlow
+icon: DonecPharetraMagna.xls
+link: http://dummyimage.com/103x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: 0.9.4
+categories:
+  - web
+  - testing
+  - dotnet

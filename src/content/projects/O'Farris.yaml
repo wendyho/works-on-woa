@@ -1,0 +1,9 @@
+name: O'Farris
+icon: IpsumPraesentBlandit.tiff
+link: http://dummyimage.com/125x100.png/ff4444/ffffff
+support: native
+versionFrom: '5.81'
+categories:
+  - visualstudio
+  - oss
+  - testing

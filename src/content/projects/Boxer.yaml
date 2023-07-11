@@ -1,0 +1,9 @@
+name: Boxer
+icon: TortorRisus.xls
+link: http://dummyimage.com/223x100.png/ff4444/ffffff
+support: native
+versionFrom: '7.0'
+categories:
+  - kernel
+  - web
+  - oss

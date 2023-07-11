@@ -1,0 +1,8 @@
+name: McLoughlin
+icon: EratCurabiturGravida.xls
+link: http://dummyimage.com/226x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: '7.9'
+categories:
+  - testing
+  - emulation

@@ -1,0 +1,8 @@
+name: Calltone
+icon: DuisAliquam.tiff
+link: http://dummyimage.com/201x100.png/5fa2dd/ffffff
+support: native
+versionFrom: '2.60'
+categories:
+  - emulation
+  - visualstudio

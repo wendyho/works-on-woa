@@ -1,0 +1,9 @@
+name: Malkin
+icon: MassaQuis.xls
+link: http://dummyimage.com/122x100.png/dddddd/000000
+support: 'no'
+versionFrom: '4.4'
+categories:
+  - visualstudio
+  - embedded
+  - testing

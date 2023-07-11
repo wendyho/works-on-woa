@@ -1,0 +1,8 @@
+name: Bevington
+icon: SitAmet.xls
+link: http://dummyimage.com/137x100.png/ff4444/ffffff
+support: 'no'
+versionFrom: '0.79'
+categories:
+  - tools
+  - dotnet

@@ -1,0 +1,9 @@
+name: Kiernan
+icon: VitaeIpsumAliquam.avi
+link: http://dummyimage.com/202x100.png/cc0000/ffffff
+support: unknown
+versionFrom: '5.6'
+categories:
+  - dotnet
+  - visualstudio
+  - embedded

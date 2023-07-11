@@ -1,0 +1,9 @@
+name: Stripp
+icon: DiamNeque.doc
+link: http://dummyimage.com/217x100.png/dddddd/000000
+support: 'no'
+versionFrom: '6.13'
+categories:
+  - visualstudio
+  - tools
+  - embedded

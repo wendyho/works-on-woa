@@ -1,0 +1,9 @@
+name: Beeton
+icon: LigulaSitAmet.jpeg
+link: http://dummyimage.com/196x100.png/dddddd/000000
+support: unknown
+versionFrom: '5.42'
+categories:
+  - web
+  - visualstudio
+  - emulation

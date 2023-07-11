@@ -1,0 +1,9 @@
+name: Balassa
+icon: Nulla.txt
+link: http://dummyimage.com/185x100.png/dddddd/000000
+support: emulation
+versionFrom: '0.30'
+categories:
+  - oss
+  - web
+  - linux

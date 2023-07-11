@@ -1,0 +1,9 @@
+name: Bonfield
+icon: AcDiam.pdf
+link: http://dummyimage.com/116x100.png/5fa2dd/ffffff
+support: native
+versionFrom: 7.4.7
+categories:
+  - visualstudio
+  - linux
+  - web

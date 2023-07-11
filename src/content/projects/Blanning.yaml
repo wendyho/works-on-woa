@@ -1,0 +1,9 @@
+name: Blanning
+icon: Lacus.ppt
+link: http://dummyimage.com/233x100.png/dddddd/000000
+support: 'no'
+versionFrom: 6.3.0
+categories:
+  - emulation
+  - visualstudio
+  - tools

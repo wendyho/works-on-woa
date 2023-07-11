@@ -1,0 +1,9 @@
+name: Ibel
+icon: Gravida.ppt
+link: http://dummyimage.com/180x100.png/5fa2dd/ffffff
+support: native
+versionFrom: 0.9.2
+categories:
+  - testing
+  - oss
+  - dotnet

@@ -1,0 +1,9 @@
+name: MacDonough
+icon: DignissimVestibulumVestibulum.ppt
+link: http://dummyimage.com/118x100.png/dddddd/000000
+support: 'no'
+versionFrom: '9.8'
+categories:
+  - tools
+  - kernel
+  - visualstudio

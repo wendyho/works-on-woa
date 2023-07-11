@@ -1,0 +1,9 @@
+name: Philp
+icon: Cras.xls
+link: http://dummyimage.com/199x100.png/5fa2dd/ffffff
+support: native
+versionFrom: 7.5.5
+categories:
+  - oss
+  - dotnet
+  - kernel

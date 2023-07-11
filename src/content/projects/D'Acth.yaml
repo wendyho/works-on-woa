@@ -1,0 +1,9 @@
+name: D'Acth
+icon: QuamSuspendissePotenti.ppt
+link: http://dummyimage.com/213x100.png/dddddd/000000
+support: 'no'
+versionFrom: '0.16'
+categories:
+  - emulation
+  - linux
+  - tools

@@ -1,0 +1,9 @@
+name: Pillinger
+icon: ArcuSed.mp3
+link: http://dummyimage.com/143x100.png/cc0000/ffffff
+support: native
+versionFrom: '1.9'
+categories:
+  - embedded
+  - web
+  - oss

@@ -1,0 +1,9 @@
+name: Cardoe
+icon: AIpsum.tiff
+link: http://dummyimage.com/211x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: '2.31'
+categories:
+  - emulation
+  - testing
+  - kernel

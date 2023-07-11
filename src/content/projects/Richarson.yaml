@@ -1,0 +1,9 @@
+name: Richarson
+icon: SemperRutrumNulla.ppt
+link: http://dummyimage.com/116x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: 5.4.5
+categories:
+  - kernel
+  - testing
+  - embedded

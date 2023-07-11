@@ -1,0 +1,9 @@
+name: Drance
+icon: Consequat.mov
+link: http://dummyimage.com/115x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: '0.57'
+categories:
+  - dotnet
+  - testing
+  - tools

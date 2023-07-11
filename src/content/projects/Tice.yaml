@@ -1,0 +1,9 @@
+name: Tice
+icon: EratIdMauris.jpeg
+link: http://dummyimage.com/223x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: '6.62'
+categories:
+  - oss
+  - kernel
+  - linux

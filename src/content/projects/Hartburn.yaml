@@ -1,0 +1,9 @@
+name: Hartburn
+icon: InLiberoUt.txt
+link: http://dummyimage.com/245x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: '7.35'
+categories:
+  - web
+  - testing
+  - linux

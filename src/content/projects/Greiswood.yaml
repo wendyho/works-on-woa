@@ -1,0 +1,9 @@
+name: Greiswood
+icon: InTempus.mp3
+link: http://dummyimage.com/213x100.png/dddddd/000000
+support: native
+versionFrom: 0.9.9
+categories:
+  - visualstudio
+  - tools
+  - linux

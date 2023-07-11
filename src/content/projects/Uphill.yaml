@@ -1,0 +1,9 @@
+name: Uphill
+icon: SuscipitAFeugiat.png
+link: http://dummyimage.com/183x100.png/dddddd/000000
+support: 'no'
+versionFrom: '5.9'
+categories:
+  - visualstudio
+  - linux
+  - emulation

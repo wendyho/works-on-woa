@@ -1,0 +1,9 @@
+name: Bedborough
+icon: CongueElementum.jpeg
+link: http://dummyimage.com/117x100.png/cc0000/ffffff
+support: unknown
+versionFrom: '9.34'
+categories:
+  - web
+  - emulation
+  - testing

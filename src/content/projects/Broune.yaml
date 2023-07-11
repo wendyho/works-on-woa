@@ -1,0 +1,8 @@
+name: Broune
+icon: MiInPorttitor.mov
+link: http://dummyimage.com/170x100.png/dddddd/000000
+support: unknown
+versionFrom: '1.60'
+categories:
+  - visualstudio
+  - kernel

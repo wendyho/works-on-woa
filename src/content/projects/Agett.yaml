@@ -1,0 +1,9 @@
+name: Agett
+icon: PharetraMagna.mp3
+link: http://dummyimage.com/133x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: 4.6.6
+categories:
+  - web
+  - linux
+  - kernel

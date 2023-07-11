@@ -1,0 +1,9 @@
+name: Cattach
+icon: LiberoUt.mp3
+link: http://dummyimage.com/101x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: 8.7.4
+categories:
+  - oss
+  - visualstudio
+  - linux

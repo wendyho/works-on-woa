@@ -1,0 +1,9 @@
+name: Gosnall
+icon: Duis.mp3
+link: http://dummyimage.com/115x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: 1.2.0
+categories:
+  - tools
+  - embedded
+  - kernel

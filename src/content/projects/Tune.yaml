@@ -1,0 +1,9 @@
+name: Tune
+icon: Vel.avi
+link: http://dummyimage.com/144x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: 0.7.0
+categories:
+  - oss
+  - visualstudio
+  - emulation

@@ -1,0 +1,8 @@
+name: Kembry
+icon: RhoncusDui.jpeg
+link: http://dummyimage.com/176x100.png/cc0000/ffffff
+support: native
+versionFrom: '2.66'
+categories:
+  - embedded
+  - web

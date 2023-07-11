@@ -1,0 +1,8 @@
+name: Gerrish
+icon: Duis.ppt
+link: http://dummyimage.com/204x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: '6.4'
+categories:
+  - emulation
+  - dotnet

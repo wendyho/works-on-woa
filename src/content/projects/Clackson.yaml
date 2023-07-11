@@ -1,0 +1,9 @@
+name: Clackson
+icon: QuisTurpisSed.mpeg
+link: http://dummyimage.com/216x100.png/ff4444/ffffff
+support: native
+versionFrom: 0.4.6
+categories:
+  - embedded
+  - testing
+  - kernel

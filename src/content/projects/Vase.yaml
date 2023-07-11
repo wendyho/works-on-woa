@@ -1,0 +1,9 @@
+name: Vase
+icon: NullaDapibus.mov
+link: http://dummyimage.com/222x100.png/ff4444/ffffff
+support: 'no'
+versionFrom: 0.9.7
+categories:
+  - testing
+  - linux
+  - emulation

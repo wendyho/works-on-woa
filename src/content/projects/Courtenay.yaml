@@ -1,0 +1,9 @@
+name: Courtenay
+icon: Eget.mp3
+link: http://dummyimage.com/132x100.png/cc0000/ffffff
+support: unknown
+versionFrom: '9.7'
+categories:
+  - tools
+  - embedded
+  - kernel

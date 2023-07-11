@@ -1,0 +1,9 @@
+name: Crosskell
+icon: SitAmet.jpeg
+link: http://dummyimage.com/217x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: '8.26'
+categories:
+  - web
+  - oss
+  - dotnet

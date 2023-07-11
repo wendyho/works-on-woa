@@ -1,0 +1,9 @@
+name: Smythin
+icon: Ultrices.xls
+link: http://dummyimage.com/235x100.png/5fa2dd/ffffff
+support: native
+versionFrom: '7.6'
+categories:
+  - dotnet
+  - testing
+  - visualstudio

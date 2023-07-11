@@ -1,0 +1,9 @@
+name: Warrillow
+icon: VitaeMattis.txt
+link: http://dummyimage.com/165x100.png/ff4444/ffffff
+support: native
+versionFrom: 5.4.8
+categories:
+  - emulation
+  - visualstudio
+  - testing

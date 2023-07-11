@@ -1,0 +1,9 @@
+name: Garric
+icon: Ipsum.mp3
+link: http://dummyimage.com/187x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: '0.53'
+categories:
+  - testing
+  - web
+  - tools

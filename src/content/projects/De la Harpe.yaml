@@ -1,0 +1,9 @@
+name: De la Harpe
+icon: Cursus.ppt
+link: http://dummyimage.com/250x100.png/ff4444/ffffff
+support: emulation
+versionFrom: '3.8'
+categories:
+  - web
+  - oss
+  - dotnet

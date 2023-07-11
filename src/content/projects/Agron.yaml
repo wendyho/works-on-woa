@@ -1,0 +1,9 @@
+name: Agron
+icon: Sed.mpeg
+link: http://dummyimage.com/180x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: '0.40'
+categories:
+  - dotnet
+  - visualstudio
+  - tools

@@ -1,0 +1,8 @@
+name: Currm
+icon: Ultrices.avi
+link: http://dummyimage.com/117x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: '9.8'
+categories:
+  - dotnet
+  - testing

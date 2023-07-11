@@ -1,0 +1,8 @@
+name: Kerwood
+icon: Vivamus.txt
+link: http://dummyimage.com/188x100.png/5fa2dd/ffffff
+support: native
+versionFrom: '6.41'
+categories:
+  - testing
+  - kernel

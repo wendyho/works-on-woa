@@ -1,0 +1,9 @@
+name: Bengough
+icon: Ante.ppt
+link: http://dummyimage.com/193x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: 0.7.3
+categories:
+  - embedded
+  - visualstudio
+  - kernel

@@ -1,0 +1,9 @@
+name: Woller
+icon: In.tiff
+link: http://dummyimage.com/194x100.png/ff4444/ffffff
+support: native
+versionFrom: '0.29'
+categories:
+  - embedded
+  - tools
+  - linux

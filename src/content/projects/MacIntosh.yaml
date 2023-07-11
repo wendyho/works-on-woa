@@ -1,0 +1,9 @@
+name: MacIntosh
+icon: Odio.xls
+link: http://dummyimage.com/234x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: '2.12'
+categories:
+  - emulation
+  - dotnet
+  - embedded

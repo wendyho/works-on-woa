@@ -1,0 +1,9 @@
+name: Sainteau
+icon: GravidaSem.tiff
+link: http://dummyimage.com/216x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: '4.59'
+categories:
+  - embedded
+  - kernel
+  - web

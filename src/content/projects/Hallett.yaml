@@ -1,0 +1,9 @@
+name: Hallett
+icon: VestibulumAcEst.tiff
+link: http://dummyimage.com/185x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: '4.04'
+categories:
+  - oss
+  - linux
+  - embedded

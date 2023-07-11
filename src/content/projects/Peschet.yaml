@@ -1,0 +1,9 @@
+name: Peschet
+icon: AtVelit.ppt
+link: http://dummyimage.com/202x100.png/5fa2dd/ffffff
+support: native
+versionFrom: '8.13'
+categories:
+  - oss
+  - web
+  - emulation

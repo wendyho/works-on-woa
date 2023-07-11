@@ -1,0 +1,9 @@
+name: Loftin
+icon: Turpis.ppt
+link: http://dummyimage.com/209x100.png/ff4444/ffffff
+support: native
+versionFrom: '7.45'
+categories:
+  - visualstudio
+  - tools
+  - emulation

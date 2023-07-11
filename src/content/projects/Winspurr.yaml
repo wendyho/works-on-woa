@@ -1,0 +1,9 @@
+name: Winspurr
+icon: Velit.doc
+link: http://dummyimage.com/227x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: '3.66'
+categories:
+  - linux
+  - tools
+  - testing

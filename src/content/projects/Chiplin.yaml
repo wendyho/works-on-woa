@@ -1,0 +1,9 @@
+name: Chiplin
+icon: NuncRhoncus.xls
+link: http://dummyimage.com/206x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: 2.1.9
+categories:
+  - emulation
+  - dotnet
+  - web

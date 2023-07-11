@@ -1,0 +1,9 @@
+name: Checklin
+icon: Imperdiet.mp3
+link: http://dummyimage.com/124x100.png/dddddd/000000
+support: 'no'
+versionFrom: 0.6.1
+categories:
+  - kernel
+  - testing
+  - tools

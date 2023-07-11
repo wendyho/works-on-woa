@@ -1,0 +1,9 @@
+name: Kinglake
+icon: EstEt.xls
+link: http://dummyimage.com/238x100.png/5fa2dd/ffffff
+support: unknown
+versionFrom: '6.09'
+categories:
+  - visualstudio
+  - oss
+  - linux

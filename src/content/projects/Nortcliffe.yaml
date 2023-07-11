@@ -1,0 +1,9 @@
+name: Nortcliffe
+icon: DuisAtVelit.mpeg
+link: http://dummyimage.com/133x100.png/ff4444/ffffff
+support: unknown
+versionFrom: 1.0.3
+categories:
+  - dotnet
+  - emulation
+  - web

@@ -1,0 +1,9 @@
+name: Nickolls
+icon: Lectus.mp3
+link: http://dummyimage.com/126x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: '2.2'
+categories:
+  - kernel
+  - oss
+  - linux

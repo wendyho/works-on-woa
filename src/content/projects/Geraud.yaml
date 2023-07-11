@@ -1,0 +1,9 @@
+name: Geraud
+icon: TempusSit.tiff
+link: http://dummyimage.com/234x100.png/cc0000/ffffff
+support: emulation
+versionFrom: '6.2'
+categories:
+  - embedded
+  - oss
+  - kernel

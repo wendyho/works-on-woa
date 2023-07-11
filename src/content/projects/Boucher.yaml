@@ -1,0 +1,9 @@
+name: Boucher
+icon: NullamOrciPede.xls
+link: http://dummyimage.com/151x100.png/5fa2dd/ffffff
+support: native
+versionFrom: '3.33'
+categories:
+  - oss
+  - testing
+  - linux

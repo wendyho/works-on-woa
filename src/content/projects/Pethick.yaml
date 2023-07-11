@@ -1,0 +1,9 @@
+name: Pethick
+icon: RutrumAcLobortis.tiff
+link: http://dummyimage.com/238x100.png/dddddd/000000
+support: emulation
+versionFrom: '8.91'
+categories:
+  - embedded
+  - web
+  - kernel

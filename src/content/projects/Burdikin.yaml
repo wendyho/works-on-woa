@@ -1,0 +1,9 @@
+name: Burdikin
+icon: VestibulumRutrum.tiff
+link: http://dummyimage.com/138x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: '0.87'
+categories:
+  - kernel
+  - dotnet
+  - web

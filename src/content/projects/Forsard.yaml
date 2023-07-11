@@ -1,0 +1,9 @@
+name: Forsard
+icon: DuisAt.xls
+link: http://dummyimage.com/230x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: 9.9.3
+categories:
+  - oss
+  - linux
+  - kernel

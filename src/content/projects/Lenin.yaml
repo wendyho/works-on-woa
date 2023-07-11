@@ -1,0 +1,9 @@
+name: Lenin
+icon: MaurisVulputateElementum.mov
+link: http://dummyimage.com/158x100.png/dddddd/000000
+support: 'no'
+versionFrom: '0.53'
+categories:
+  - emulation
+  - dotnet
+  - testing

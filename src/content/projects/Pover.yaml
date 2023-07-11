@@ -1,0 +1,8 @@
+name: Pover
+icon: EgetMassaTempor.jpeg
+link: http://dummyimage.com/153x100.png/ff4444/ffffff
+support: emulation
+versionFrom: '0.53'
+categories:
+  - linux
+  - dotnet

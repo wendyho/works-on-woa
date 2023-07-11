@@ -1,0 +1,9 @@
+name: Gloucester
+icon: TellusNisi.jpeg
+link: http://dummyimage.com/110x100.png/5fa2dd/ffffff
+support: native
+versionFrom: 4.6.2
+categories:
+  - web
+  - linux
+  - emulation

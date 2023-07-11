@@ -1,0 +1,8 @@
+name: Robinson
+icon: VitaeQuam.ppt
+link: http://dummyimage.com/112x100.png/ff4444/ffffff
+support: 'no'
+versionFrom: '0.57'
+categories:
+  - visualstudio
+  - embedded

@@ -1,0 +1,9 @@
+name: McDarmid
+icon: InHac.avi
+link: http://dummyimage.com/214x100.png/cc0000/ffffff
+support: unknown
+versionFrom: '1.78'
+categories:
+  - kernel
+  - oss
+  - dotnet

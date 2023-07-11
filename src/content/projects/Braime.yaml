@@ -1,0 +1,9 @@
+name: Braime
+icon: FeugiatNon.mpeg
+link: http://dummyimage.com/193x100.png/dddddd/000000
+support: native
+versionFrom: '0.32'
+categories:
+  - linux
+  - embedded
+  - testing

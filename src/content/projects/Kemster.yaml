@@ -1,0 +1,8 @@
+name: Kemster
+icon: Id.jpeg
+link: http://dummyimage.com/201x100.png/dddddd/000000
+support: 'no'
+versionFrom: '4.71'
+categories:
+  - kernel
+  - testing

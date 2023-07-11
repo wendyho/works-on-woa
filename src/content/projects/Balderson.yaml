@@ -1,0 +1,9 @@
+name: Balderson
+icon: QuamSapien.jpeg
+link: http://dummyimage.com/204x100.png/cc0000/ffffff
+support: native
+versionFrom: 6.8.8
+categories:
+  - oss
+  - embedded
+  - emulation

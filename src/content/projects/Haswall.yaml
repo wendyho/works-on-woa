@@ -1,0 +1,9 @@
+name: Haswall
+icon: ArcuLiberoRutrum.tiff
+link: http://dummyimage.com/250x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: 6.8.0
+categories:
+  - emulation
+  - embedded
+  - oss

@@ -1,0 +1,9 @@
+name: Rablin
+icon: ErosViverraEget.mov
+link: http://dummyimage.com/111x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: 0.9.5
+categories:
+  - dotnet
+  - visualstudio
+  - tools

@@ -1,0 +1,9 @@
+name: Ausiello
+icon: Fermentum.jpeg
+link: http://dummyimage.com/124x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: '8.0'
+categories:
+  - linux
+  - web
+  - testing

@@ -1,0 +1,9 @@
+name: Reyes
+icon: TinciduntAnteVel.tiff
+link: http://dummyimage.com/151x100.png/ff4444/ffffff
+support: unknown
+versionFrom: '0.48'
+categories:
+  - linux
+  - kernel
+  - embedded

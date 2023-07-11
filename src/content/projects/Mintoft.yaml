@@ -1,0 +1,9 @@
+name: Mintoft
+icon: MattisNibhLigula.avi
+link: http://dummyimage.com/108x100.png/cc0000/ffffff
+support: native
+versionFrom: '5.8'
+categories:
+  - visualstudio
+  - kernel
+  - oss

@@ -1,0 +1,8 @@
+name: Coventon
+icon: A.mp3
+link: http://dummyimage.com/131x100.png/ff4444/ffffff
+support: 'no'
+versionFrom: 2.4.2
+categories:
+  - embedded
+  - tools

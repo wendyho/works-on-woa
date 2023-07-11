@@ -1,0 +1,8 @@
+name: Sulman
+icon: AcLobortis.xls
+link: http://dummyimage.com/233x100.png/cc0000/ffffff
+support: emulation
+versionFrom: '6.2'
+categories:
+  - emulation
+  - embedded

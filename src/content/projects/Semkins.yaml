@@ -1,0 +1,8 @@
+name: Semkins
+icon: Sit.xls
+link: http://dummyimage.com/109x100.png/5fa2dd/ffffff
+support: native
+versionFrom: '2.77'
+categories:
+  - dotnet
+  - oss

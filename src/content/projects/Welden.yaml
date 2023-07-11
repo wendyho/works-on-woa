@@ -1,0 +1,9 @@
+name: Welden
+icon: Felis.ppt
+link: http://dummyimage.com/207x100.png/dddddd/000000
+support: unknown
+versionFrom: 0.9.4
+categories:
+  - testing
+  - embedded
+  - oss

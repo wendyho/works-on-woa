@@ -1,0 +1,9 @@
+name: Mollindinia
+icon: CrasInPurus.jpeg
+link: http://dummyimage.com/111x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: 5.8.3
+categories:
+  - emulation
+  - web
+  - tools

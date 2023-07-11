@@ -1,0 +1,9 @@
+name: Cousen
+icon: RisusDapibusAugue.avi
+link: http://dummyimage.com/136x100.png/ff4444/ffffff
+support: native
+versionFrom: '0.52'
+categories:
+  - web
+  - emulation
+  - dotnet

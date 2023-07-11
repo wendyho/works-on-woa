@@ -1,0 +1,9 @@
+name: Cartner
+icon: Vestibulum.mp3
+link: http://dummyimage.com/165x100.png/ff4444/ffffff
+support: unknown
+versionFrom: '0.54'
+categories:
+  - web
+  - dotnet
+  - tools

@@ -1,0 +1,9 @@
+name: Cratere
+icon: UltricesAliquet.gif
+link: http://dummyimage.com/213x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: 0.8.4
+categories:
+  - oss
+  - embedded
+  - kernel

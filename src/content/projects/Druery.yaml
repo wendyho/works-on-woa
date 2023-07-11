@@ -1,0 +1,9 @@
+name: Druery
+icon: EuOrci.doc
+link: http://dummyimage.com/248x100.png/ff4444/ffffff
+support: emulation
+versionFrom: '2.5'
+categories:
+  - embedded
+  - testing
+  - oss

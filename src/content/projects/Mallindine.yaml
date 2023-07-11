@@ -1,0 +1,9 @@
+name: Mallindine
+icon: Lectus.tiff
+link: http://dummyimage.com/210x100.png/dddddd/000000
+support: native
+versionFrom: 0.8.2
+categories:
+  - linux
+  - dotnet
+  - testing

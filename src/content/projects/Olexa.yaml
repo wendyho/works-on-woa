@@ -1,0 +1,8 @@
+name: Olexa
+icon: Porttitor.doc
+link: http://dummyimage.com/137x100.png/dddddd/000000
+support: emulation
+versionFrom: '8.28'
+categories:
+  - linux
+  - emulation

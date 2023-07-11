@@ -1,0 +1,9 @@
+name: Clarabut
+icon: OrnareImperdiet.jpeg
+link: http://dummyimage.com/136x100.png/dddddd/000000
+support: emulation
+versionFrom: '8.62'
+categories:
+  - visualstudio
+  - emulation
+  - testing

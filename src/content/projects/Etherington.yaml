@@ -1,0 +1,9 @@
+name: Etherington
+icon: Faucibus.txt
+link: http://dummyimage.com/179x100.png/dddddd/000000
+support: 'no'
+versionFrom: 0.8.8
+categories:
+  - testing
+  - web
+  - embedded

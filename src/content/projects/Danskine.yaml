@@ -1,0 +1,9 @@
+name: Danskine
+icon: MorbiSem.mov
+link: http://dummyimage.com/148x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: 0.9.1
+categories:
+  - testing
+  - linux
+  - dotnet

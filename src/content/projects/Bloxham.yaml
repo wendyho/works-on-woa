@@ -1,0 +1,9 @@
+name: Bloxham
+icon: FermentumDonecUt.txt
+link: http://dummyimage.com/166x100.png/dddddd/000000
+support: 'no'
+versionFrom: '2.69'
+categories:
+  - web
+  - kernel
+  - testing

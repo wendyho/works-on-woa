@@ -1,0 +1,8 @@
+name: Senecaux
+icon: LoremQuisqueUt.jpeg
+link: http://dummyimage.com/126x100.png/dddddd/000000
+support: emulation
+versionFrom: '0.41'
+categories:
+  - web
+  - emulation

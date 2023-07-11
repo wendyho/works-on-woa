@@ -1,0 +1,9 @@
+name: Dench
+icon: VolutpatEratQuisque.ppt
+link: http://dummyimage.com/230x100.png/5fa2dd/ffffff
+support: unknown
+versionFrom: '9.49'
+categories:
+  - linux
+  - testing
+  - emulation

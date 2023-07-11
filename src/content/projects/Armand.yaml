@@ -1,0 +1,9 @@
+name: Armand
+icon: Hac.mp3
+link: http://dummyimage.com/187x100.png/5fa2dd/ffffff
+support: unknown
+versionFrom: '0.60'
+categories:
+  - visualstudio
+  - testing
+  - oss

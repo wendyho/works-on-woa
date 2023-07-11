@@ -1,0 +1,8 @@
+name: Beaney
+icon: Morbi.png
+link: http://dummyimage.com/109x100.png/dddddd/000000
+support: emulation
+versionFrom: '4.6'
+categories:
+  - visualstudio
+  - emulation

@@ -1,0 +1,9 @@
+name: Mersh
+icon: NuncProinAt.mp3
+link: http://dummyimage.com/154x100.png/5fa2dd/ffffff
+support: native
+versionFrom: 6.8.4
+categories:
+  - testing
+  - visualstudio
+  - web

@@ -1,0 +1,9 @@
+name: Welman
+icon: Et.pdf
+link: http://dummyimage.com/120x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: '0.12'
+categories:
+  - kernel
+  - linux
+  - testing

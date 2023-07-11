@@ -1,0 +1,8 @@
+name: Brettel
+icon: Id.xls
+link: http://dummyimage.com/186x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: 5.1.9
+categories:
+  - web
+  - visualstudio

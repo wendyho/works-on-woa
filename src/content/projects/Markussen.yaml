@@ -1,0 +1,9 @@
+name: Markussen
+icon: FelisDonecSemper.ppt
+link: http://dummyimage.com/117x100.png/ff4444/ffffff
+support: native
+versionFrom: '9.22'
+categories:
+  - testing
+  - web
+  - kernel

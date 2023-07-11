@@ -1,0 +1,9 @@
+name: Gilliver
+icon: LobortisConvallisTortor.tiff
+link: http://dummyimage.com/137x100.png/dddddd/000000
+support: 'no'
+versionFrom: '7.11'
+categories:
+  - tools
+  - emulation
+  - embedded

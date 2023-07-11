@@ -1,0 +1,9 @@
+name: Wesley
+icon: Vel.mov
+link: http://dummyimage.com/120x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: 0.8.1
+categories:
+  - web
+  - emulation
+  - kernel

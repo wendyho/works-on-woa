@@ -1,0 +1,9 @@
+name: Rean
+icon: MiIntegerAc.jpeg
+link: http://dummyimage.com/238x100.png/dddddd/000000
+support: 'no'
+versionFrom: 0.5.7
+categories:
+  - dotnet
+  - embedded
+  - web

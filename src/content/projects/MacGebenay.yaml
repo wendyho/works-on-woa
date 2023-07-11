@@ -1,0 +1,9 @@
+name: MacGebenay
+icon: Pede.txt
+link: http://dummyimage.com/205x100.png/dddddd/000000
+support: native
+versionFrom: 1.8.0
+categories:
+  - emulation
+  - oss
+  - tools

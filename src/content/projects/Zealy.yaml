@@ -1,0 +1,9 @@
+name: Zealy
+icon: NullaFacilisiCras.xls
+link: http://dummyimage.com/116x100.png/ff4444/ffffff
+support: 'no'
+versionFrom: 0.6.2
+categories:
+  - emulation
+  - linux
+  - dotnet

@@ -1,0 +1,9 @@
+name: Cannavan
+icon: Ultrices.pdf
+link: http://dummyimage.com/236x100.png/cc0000/ffffff
+support: emulation
+versionFrom: '7.07'
+categories:
+  - embedded
+  - testing
+  - web

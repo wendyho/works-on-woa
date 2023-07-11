@@ -1,0 +1,9 @@
+name: Valder
+icon: NibhLigula.avi
+link: http://dummyimage.com/198x100.png/5fa2dd/ffffff
+support: unknown
+versionFrom: '3.6'
+categories:
+  - tools
+  - embedded
+  - dotnet

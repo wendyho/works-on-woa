@@ -1,0 +1,9 @@
+name: Larsen
+icon: InFaucibusOrci.ppt
+link: http://dummyimage.com/244x100.png/cc0000/ffffff
+support: emulation
+versionFrom: 5.9.9
+categories:
+  - emulation
+  - embedded
+  - kernel

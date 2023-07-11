@@ -1,0 +1,9 @@
+name: Cheater
+icon: AmetErat.ppt
+link: http://dummyimage.com/141x100.png/dddddd/000000
+support: emulation
+versionFrom: 0.4.0
+categories:
+  - testing
+  - linux
+  - emulation

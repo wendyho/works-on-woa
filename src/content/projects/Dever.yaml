@@ -1,0 +1,8 @@
+name: Dever
+icon: InFaucibusOrci.avi
+link: http://dummyimage.com/172x100.png/cc0000/ffffff
+support: unknown
+versionFrom: '5.0'
+categories:
+  - oss
+  - embedded

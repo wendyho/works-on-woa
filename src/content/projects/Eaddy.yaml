@@ -1,0 +1,9 @@
+name: Eaddy
+icon: MorbiPorttitorLorem.doc
+link: http://dummyimage.com/233x100.png/dddddd/000000
+support: native
+versionFrom: '4.66'
+categories:
+  - dotnet
+  - linux
+  - oss

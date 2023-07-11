@@ -1,0 +1,9 @@
+name: Jeannon
+icon: Lacus.mpeg
+link: http://dummyimage.com/160x100.png/cc0000/ffffff
+support: unknown
+versionFrom: '6.1'
+categories:
+  - visualstudio
+  - oss
+  - embedded

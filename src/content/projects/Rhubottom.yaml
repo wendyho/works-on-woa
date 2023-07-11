@@ -1,0 +1,9 @@
+name: Rhubottom
+icon: PellentesqueUltricesPhasellus.gif
+link: http://dummyimage.com/237x100.png/dddddd/000000
+support: emulation
+versionFrom: '9.75'
+categories:
+  - tools
+  - emulation
+  - web

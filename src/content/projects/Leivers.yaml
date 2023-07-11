@@ -1,0 +1,9 @@
+name: Leivers
+icon: NonummyInteger.jpeg
+link: http://dummyimage.com/167x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: '0.73'
+categories:
+  - testing
+  - tools
+  - visualstudio

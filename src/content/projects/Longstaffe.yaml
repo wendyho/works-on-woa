@@ -1,0 +1,9 @@
+name: Longstaffe
+icon: Eu.avi
+link: http://dummyimage.com/169x100.png/cc0000/ffffff
+support: emulation
+versionFrom: 6.5.5
+categories:
+  - dotnet
+  - linux
+  - web

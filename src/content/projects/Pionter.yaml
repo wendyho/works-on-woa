@@ -1,0 +1,9 @@
+name: Pionter
+icon: Quis.ppt
+link: http://dummyimage.com/238x100.png/cc0000/ffffff
+support: emulation
+versionFrom: '7.66'
+categories:
+  - visualstudio
+  - emulation
+  - testing

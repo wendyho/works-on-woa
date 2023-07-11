@@ -1,0 +1,9 @@
+name: Staggs
+icon: Semper.mp3
+link: http://dummyimage.com/121x100.png/dddddd/000000
+support: emulation
+versionFrom: '8.61'
+categories:
+  - dotnet
+  - web
+  - linux

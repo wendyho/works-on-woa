@@ -1,0 +1,9 @@
+name: Airy
+icon: QuamAOdio.avi
+link: http://dummyimage.com/211x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: '1.67'
+categories:
+  - tools
+  - dotnet
+  - oss

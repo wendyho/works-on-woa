@@ -1,0 +1,9 @@
+name: Sperski
+icon: FringillaRhoncus.ppt
+link: http://dummyimage.com/123x100.png/dddddd/000000
+support: native
+versionFrom: '7.7'
+categories:
+  - dotnet
+  - embedded
+  - visualstudio

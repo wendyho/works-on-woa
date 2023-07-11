@@ -1,0 +1,9 @@
+name: Sedworth
+icon: BlanditNon.jpeg
+link: http://dummyimage.com/133x100.png/cc0000/ffffff
+support: emulation
+versionFrom: '0.23'
+categories:
+  - visualstudio
+  - emulation
+  - dotnet

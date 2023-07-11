@@ -1,0 +1,9 @@
+name: Bulbeck
+icon: IpsumAliquam.mp3
+link: http://dummyimage.com/168x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: 0.4.9
+categories:
+  - testing
+  - tools
+  - embedded

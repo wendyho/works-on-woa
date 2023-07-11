@@ -1,0 +1,9 @@
+name: Curtois
+icon: MagnaAtNunc.ppt
+link: http://dummyimage.com/173x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: 9.7.0
+categories:
+  - oss
+  - web
+  - tools

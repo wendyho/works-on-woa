@@ -1,0 +1,9 @@
+name: Joint
+icon: VulputateElementumNullam.pdf
+link: http://dummyimage.com/202x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: 0.3.5
+categories:
+  - emulation
+  - testing
+  - visualstudio

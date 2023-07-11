@@ -1,0 +1,9 @@
+name: Ledes
+icon: Vehicula.ppt
+link: http://dummyimage.com/247x100.png/cc0000/ffffff
+support: native
+versionFrom: '0.97'
+categories:
+  - emulation
+  - embedded
+  - dotnet

@@ -1,0 +1,9 @@
+name: Josupeit
+icon: Sapien.pdf
+link: http://dummyimage.com/224x100.png/dddddd/000000
+support: emulation
+versionFrom: 1.3.7
+categories:
+  - kernel
+  - oss
+  - dotnet

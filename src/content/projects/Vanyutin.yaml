@@ -1,0 +1,9 @@
+name: Vanyutin
+icon: ASuscipitNulla.avi
+link: http://dummyimage.com/190x100.png/5fa2dd/ffffff
+support: unknown
+versionFrom: '6.6'
+categories:
+  - dotnet
+  - tools
+  - linux

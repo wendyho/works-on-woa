@@ -1,0 +1,8 @@
+name: Hendrick
+icon: AcEnimIn.mpeg
+link: http://dummyimage.com/177x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: '1.59'
+categories:
+  - kernel
+  - testing

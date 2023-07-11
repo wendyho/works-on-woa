@@ -1,0 +1,9 @@
+name: Rutigliano
+icon: AcNeque.jpeg
+link: http://dummyimage.com/190x100.png/ff4444/ffffff
+support: emulation
+versionFrom: 1.8.5
+categories:
+  - visualstudio
+  - testing
+  - embedded

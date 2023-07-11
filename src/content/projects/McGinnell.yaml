@@ -1,0 +1,9 @@
+name: McGinnell
+icon: InTemporTurpis.mp3
+link: http://dummyimage.com/162x100.png/cc0000/ffffff
+support: emulation
+versionFrom: '0.50'
+categories:
+  - oss
+  - linux
+  - testing

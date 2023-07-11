@@ -1,0 +1,8 @@
+name: Sanzio
+icon: TortorQuisTurpis.tiff
+link: http://dummyimage.com/194x100.png/dddddd/000000
+support: unknown
+versionFrom: '0.34'
+categories:
+  - visualstudio
+  - linux

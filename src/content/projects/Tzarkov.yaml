@@ -1,0 +1,9 @@
+name: Tzarkov
+icon: Integer.mp3
+link: http://dummyimage.com/212x100.png/ff4444/ffffff
+support: unknown
+versionFrom: '7.07'
+categories:
+  - dotnet
+  - visualstudio
+  - testing

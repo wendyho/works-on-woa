@@ -1,0 +1,8 @@
+name: Gransden
+icon: Curabitur.png
+link: http://dummyimage.com/144x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: '9.41'
+categories:
+  - oss
+  - dotnet

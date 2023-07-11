@@ -1,0 +1,9 @@
+name: Reichardt
+icon: Sed.gif
+link: http://dummyimage.com/196x100.png/ff4444/ffffff
+support: native
+versionFrom: '6.8'
+categories:
+  - embedded
+  - emulation
+  - dotnet

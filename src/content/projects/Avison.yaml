@@ -1,0 +1,8 @@
+name: Avison
+icon: EstCongueElementum.xls
+link: http://dummyimage.com/155x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: '6.65'
+categories:
+  - testing
+  - dotnet

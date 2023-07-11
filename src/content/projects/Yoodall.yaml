@@ -1,0 +1,8 @@
+name: Yoodall
+icon: EleifendLuctus.xls
+link: http://dummyimage.com/127x100.png/dddddd/000000
+support: 'no'
+versionFrom: '5.28'
+categories:
+  - kernel
+  - dotnet

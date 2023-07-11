@@ -1,0 +1,8 @@
+name: Fairlie
+icon: NullaNequeLibero.tiff
+link: http://dummyimage.com/114x100.png/cc0000/ffffff
+support: emulation
+versionFrom: 3.7.8
+categories:
+  - linux
+  - tools

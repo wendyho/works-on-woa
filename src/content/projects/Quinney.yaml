@@ -1,0 +1,9 @@
+name: Quinney
+icon: AdipiscingLoremVitae.jpeg
+link: http://dummyimage.com/141x100.png/cc0000/ffffff
+support: emulation
+versionFrom: 0.1.7
+categories:
+  - tools
+  - web
+  - visualstudio

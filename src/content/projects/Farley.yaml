@@ -1,0 +1,9 @@
+name: Farley
+icon: LacusAt.avi
+link: http://dummyimage.com/127x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: '0.17'
+categories:
+  - linux
+  - visualstudio
+  - dotnet

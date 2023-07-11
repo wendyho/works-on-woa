@@ -1,0 +1,9 @@
+name: Ettritch
+icon: IdSapien.mp3
+link: http://dummyimage.com/154x100.png/dddddd/000000
+support: native
+versionFrom: '8.67'
+categories:
+  - web
+  - embedded
+  - testing

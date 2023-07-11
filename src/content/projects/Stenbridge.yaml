@@ -1,0 +1,9 @@
+name: Stenbridge
+icon: SapienSapienNon.mp3
+link: http://dummyimage.com/105x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: '7.24'
+categories:
+  - emulation
+  - testing
+  - oss

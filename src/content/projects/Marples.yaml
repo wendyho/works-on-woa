@@ -1,0 +1,9 @@
+name: Marples
+icon: Quisque.xls
+link: http://dummyimage.com/213x100.png/cc0000/ffffff
+support: unknown
+versionFrom: '2.3'
+categories:
+  - testing
+  - visualstudio
+  - oss

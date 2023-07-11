@@ -1,0 +1,9 @@
+name: Panner
+icon: Tristique.mp3
+link: http://dummyimage.com/228x100.png/5fa2dd/ffffff
+support: native
+versionFrom: 0.2.4
+categories:
+  - linux
+  - embedded
+  - web

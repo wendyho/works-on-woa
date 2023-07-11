@@ -1,0 +1,9 @@
+name: Troake
+icon: Ultrices.png
+link: http://dummyimage.com/203x100.png/ff4444/ffffff
+support: native
+versionFrom: '0.46'
+categories:
+  - emulation
+  - embedded
+  - testing

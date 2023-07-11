@@ -1,0 +1,8 @@
+name: Spiby
+icon: EleifendPede.avi
+link: http://dummyimage.com/154x100.png/5fa2dd/ffffff
+support: native
+versionFrom: '0.89'
+categories:
+  - kernel
+  - testing

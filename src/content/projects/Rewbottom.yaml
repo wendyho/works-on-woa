@@ -1,0 +1,9 @@
+name: Rewbottom
+icon: Pellentesque.jpeg
+link: http://dummyimage.com/153x100.png/ff4444/ffffff
+support: unknown
+versionFrom: '2.5'
+categories:
+  - dotnet
+  - linux
+  - emulation

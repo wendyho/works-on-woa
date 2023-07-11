@@ -1,0 +1,8 @@
+name: Deakin
+icon: ErosVestibulum.txt
+link: http://dummyimage.com/108x100.png/cc0000/ffffff
+support: native
+versionFrom: '1.3'
+categories:
+  - linux
+  - kernel

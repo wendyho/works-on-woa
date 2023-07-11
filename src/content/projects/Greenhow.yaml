@@ -1,0 +1,9 @@
+name: Greenhow
+icon: Sapien.jpeg
+link: http://dummyimage.com/159x100.png/cc0000/ffffff
+support: native
+versionFrom: '6.26'
+categories:
+  - web
+  - kernel
+  - linux

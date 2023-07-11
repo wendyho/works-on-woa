@@ -1,0 +1,8 @@
+name: Vearncomb
+icon: AugueAliquamErat.avi
+link: http://dummyimage.com/226x100.png/dddddd/000000
+support: emulation
+versionFrom: '1.6'
+categories:
+  - testing
+  - kernel

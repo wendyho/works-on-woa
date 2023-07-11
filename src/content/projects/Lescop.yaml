@@ -1,0 +1,9 @@
+name: Lescop
+icon: Ac.tiff
+link: http://dummyimage.com/194x100.png/dddddd/000000
+support: 'no'
+versionFrom: 0.2.7
+categories:
+  - linux
+  - emulation
+  - oss

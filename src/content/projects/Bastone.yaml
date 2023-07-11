@@ -1,0 +1,9 @@
+name: Bastone
+icon: VestibulumAc.jpeg
+link: http://dummyimage.com/156x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: 6.6.8
+categories:
+  - linux
+  - dotnet
+  - visualstudio

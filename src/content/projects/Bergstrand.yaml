@@ -1,0 +1,9 @@
+name: Bergstrand
+icon: FuscePosuere.mp3
+link: http://dummyimage.com/146x100.png/ff4444/ffffff
+support: emulation
+versionFrom: '2.1'
+categories:
+  - testing
+  - linux
+  - web

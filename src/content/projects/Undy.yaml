@@ -1,0 +1,9 @@
+name: Undy
+icon: SuscipitLigulaIn.avi
+link: http://dummyimage.com/198x100.png/ff4444/ffffff
+support: emulation
+versionFrom: 1.3.4
+categories:
+  - tools
+  - visualstudio
+  - oss

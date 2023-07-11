@@ -1,0 +1,9 @@
+name: Coveley
+icon: AtVulputateVitae.mpeg
+link: http://dummyimage.com/188x100.png/cc0000/ffffff
+support: native
+versionFrom: '3.9'
+categories:
+  - embedded
+  - visualstudio
+  - dotnet

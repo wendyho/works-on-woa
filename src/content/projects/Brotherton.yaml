@@ -1,0 +1,8 @@
+name: Brotherton
+icon: AmetEleifendPede.doc
+link: http://dummyimage.com/213x100.png/dddddd/000000
+support: emulation
+versionFrom: '8.6'
+categories:
+  - testing
+  - visualstudio

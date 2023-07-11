@@ -1,0 +1,9 @@
+name: Killelay
+icon: MiInPorttitor.txt
+link: http://dummyimage.com/221x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: '9.33'
+categories:
+  - oss
+  - linux
+  - kernel

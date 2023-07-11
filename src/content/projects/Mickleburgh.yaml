@@ -1,0 +1,8 @@
+name: Mickleburgh
+icon: AliquetAt.jpeg
+link: http://dummyimage.com/188x100.png/dddddd/000000
+support: emulation
+versionFrom: '7.82'
+categories:
+  - kernel
+  - oss

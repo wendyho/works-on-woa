@@ -1,0 +1,9 @@
+name: Ladewig
+icon: Donec.mp3
+link: http://dummyimage.com/128x100.png/cc0000/ffffff
+support: emulation
+versionFrom: 6.9.3
+categories:
+  - testing
+  - linux
+  - emulation

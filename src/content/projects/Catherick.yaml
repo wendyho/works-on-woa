@@ -1,0 +1,9 @@
+name: Catherick
+icon: Aliquam.jpeg
+link: http://dummyimage.com/167x100.png/ff4444/ffffff
+support: 'no'
+versionFrom: '2.0'
+categories:
+  - emulation
+  - visualstudio
+  - dotnet

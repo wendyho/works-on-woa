@@ -1,0 +1,8 @@
+name: Dany
+icon: APede.ppt
+link: http://dummyimage.com/144x100.png/dddddd/000000
+support: 'no'
+versionFrom: '1.2'
+categories:
+  - kernel
+  - embedded

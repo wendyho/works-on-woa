@@ -1,0 +1,9 @@
+name: Willshere
+icon: PlateaDictumst.mp3
+link: http://dummyimage.com/157x100.png/ff4444/ffffff
+support: 'no'
+versionFrom: '1.35'
+categories:
+  - kernel
+  - dotnet
+  - visualstudio

@@ -1,0 +1,9 @@
+name: Karpov
+icon: CongueRisusSemper.mpeg
+link: http://dummyimage.com/106x100.png/ff4444/ffffff
+support: unknown
+versionFrom: 5.3.0
+categories:
+  - linux
+  - testing
+  - emulation

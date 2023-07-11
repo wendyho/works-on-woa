@@ -1,0 +1,9 @@
+name: Enderby
+icon: Mi.xls
+link: http://dummyimage.com/149x100.png/dddddd/000000
+support: native
+versionFrom: '1.9'
+categories:
+  - testing
+  - kernel
+  - tools

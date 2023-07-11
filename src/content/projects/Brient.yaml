@@ -1,0 +1,9 @@
+name: Brient
+icon: NislNunc.jpeg
+link: http://dummyimage.com/194x100.png/5fa2dd/ffffff
+support: native
+versionFrom: '9.5'
+categories:
+  - testing
+  - kernel
+  - dotnet

@@ -1,0 +1,8 @@
+name: Bohlje
+icon: Tempus.avi
+link: http://dummyimage.com/179x100.png/cc0000/ffffff
+support: emulation
+versionFrom: 8.3.9
+categories:
+  - kernel
+  - emulation

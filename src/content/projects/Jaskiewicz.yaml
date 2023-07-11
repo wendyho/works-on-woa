@@ -1,0 +1,9 @@
+name: Jaskiewicz
+icon: MusEtiam.pdf
+link: http://dummyimage.com/237x100.png/cc0000/ffffff
+support: native
+versionFrom: 0.7.2
+categories:
+  - testing
+  - oss
+  - linux

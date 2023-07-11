@@ -1,0 +1,9 @@
+name: Lackham
+icon: QuisqueErat.jpeg
+link: http://dummyimage.com/141x100.png/dddddd/000000
+support: unknown
+versionFrom: 2.4.4
+categories:
+  - visualstudio
+  - kernel
+  - emulation

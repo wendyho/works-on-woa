@@ -1,0 +1,9 @@
+name: Hearn
+icon: Nulla.ppt
+link: http://dummyimage.com/163x100.png/cc0000/ffffff
+support: emulation
+versionFrom: '1.2'
+categories:
+  - oss
+  - dotnet
+  - embedded

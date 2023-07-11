@@ -1,0 +1,9 @@
+name: Vany
+icon: Id.xls
+link: http://dummyimage.com/220x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: 4.2.0
+categories:
+  - web
+  - dotnet
+  - embedded

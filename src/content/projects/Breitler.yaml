@@ -1,0 +1,9 @@
+name: Breitler
+icon: AliquamLacusMorbi.xls
+link: http://dummyimage.com/232x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: 4.5.1
+categories:
+  - tools
+  - kernel
+  - testing

@@ -1,0 +1,8 @@
+name: Bentame
+icon: VulputateLuctus.txt
+link: http://dummyimage.com/195x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: 0.2.1
+categories:
+  - linux
+  - dotnet

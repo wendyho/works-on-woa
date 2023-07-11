@@ -1,0 +1,9 @@
+name: Robillart
+icon: EuEst.mov
+link: http://dummyimage.com/100x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: '0.81'
+categories:
+  - linux
+  - kernel
+  - tools

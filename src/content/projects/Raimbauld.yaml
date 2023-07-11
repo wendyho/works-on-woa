@@ -1,0 +1,9 @@
+name: Raimbauld
+icon: InSagittis.mpeg
+link: http://dummyimage.com/176x100.png/dddddd/000000
+support: native
+versionFrom: '2.62'
+categories:
+  - testing
+  - kernel
+  - dotnet
