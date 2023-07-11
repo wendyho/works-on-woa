@@ -1,0 +1,9 @@
+name: Holston
+icon: DiamId.pdf
+link: http://dummyimage.com/148x100.png/5fa2dd/ffffff
+support: native
+versionFrom: 2.2.2
+categories:
+  - visualstudio
+  - oss
+  - emulation

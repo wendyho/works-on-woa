@@ -1,0 +1,9 @@
+name: Staden
+icon: NislVenenatis.xls
+link: http://dummyimage.com/236x100.png/ff4444/ffffff
+support: emulation
+versionFrom: 4.9.0
+categories:
+  - dotnet
+  - visualstudio
+  - emulation

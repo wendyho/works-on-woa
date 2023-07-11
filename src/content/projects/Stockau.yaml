@@ -1,0 +1,9 @@
+name: Stockau
+icon: VolutpatEratQuisque.txt
+link: http://dummyimage.com/217x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: 0.9.2
+categories:
+  - tools
+  - web
+  - oss

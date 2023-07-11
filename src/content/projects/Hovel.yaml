@@ -1,0 +1,9 @@
+name: Hovel
+icon: Venenatis.avi
+link: http://dummyimage.com/129x100.png/cc0000/ffffff
+support: emulation
+versionFrom: 1.9.7
+categories:
+  - web
+  - kernel
+  - emulation

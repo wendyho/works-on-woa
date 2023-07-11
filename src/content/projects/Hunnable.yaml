@@ -1,0 +1,9 @@
+name: Hunnable
+icon: JustoLacinia.avi
+link: http://dummyimage.com/144x100.png/cc0000/ffffff
+support: native
+versionFrom: '0.10'
+categories:
+  - tools
+  - embedded
+  - kernel

@@ -1,0 +1,9 @@
+name: Balwin
+icon: PedeJusto.xls
+link: http://dummyimage.com/151x100.png/dddddd/000000
+support: unknown
+versionFrom: '6.89'
+categories:
+  - kernel
+  - oss
+  - dotnet

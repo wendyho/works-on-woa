@@ -1,0 +1,8 @@
+name: Tonge
+icon: NullaDapibus.mp3
+link: http://dummyimage.com/120x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: '5.8'
+categories:
+  - dotnet
+  - tools

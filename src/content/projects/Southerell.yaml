@@ -1,0 +1,9 @@
+name: Southerell
+icon: CongueElementum.png
+link: http://dummyimage.com/140x100.png/ff4444/ffffff
+support: unknown
+versionFrom: '4.9'
+categories:
+  - web
+  - testing
+  - dotnet

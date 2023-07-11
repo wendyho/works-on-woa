@@ -1,0 +1,8 @@
+name: Short
+icon: AcNeque.xls
+link: http://dummyimage.com/192x100.png/cc0000/ffffff
+support: unknown
+versionFrom: '0.29'
+categories:
+  - emulation
+  - testing

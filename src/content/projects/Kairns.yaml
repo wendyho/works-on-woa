@@ -1,0 +1,8 @@
+name: Kairns
+icon: SagittisNam.mov
+link: http://dummyimage.com/144x100.png/ff4444/ffffff
+support: 'no'
+versionFrom: 9.5.4
+categories:
+  - testing
+  - embedded

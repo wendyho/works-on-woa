@@ -1,0 +1,8 @@
+name: Roadknight
+icon: GravidaNisi.ppt
+link: http://dummyimage.com/200x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: '3.9'
+categories:
+  - kernel
+  - embedded

@@ -1,0 +1,9 @@
+name: Pickthorne
+icon: Nulla.ppt
+link: http://dummyimage.com/194x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: '7.06'
+categories:
+  - tools
+  - dotnet
+  - testing

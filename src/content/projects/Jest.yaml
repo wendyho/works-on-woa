@@ -1,0 +1,9 @@
+name: Jest
+icon: PedeJusto.avi
+link: http://dummyimage.com/135x100.png/ff4444/ffffff
+support: 'no'
+versionFrom: '3.7'
+categories:
+  - oss
+  - kernel
+  - testing

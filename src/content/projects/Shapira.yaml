@@ -1,0 +1,9 @@
+name: Shapira
+icon: In.mpeg
+link: http://dummyimage.com/173x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: 1.8.7
+categories:
+  - tools
+  - web
+  - kernel

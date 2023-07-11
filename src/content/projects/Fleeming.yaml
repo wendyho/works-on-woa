@@ -1,0 +1,9 @@
+name: Fleeming
+icon: Mus.xls
+link: http://dummyimage.com/241x100.png/dddddd/000000
+support: 'no'
+versionFrom: '1.47'
+categories:
+  - visualstudio
+  - dotnet
+  - web

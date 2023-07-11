@@ -1,0 +1,9 @@
+name: Galilee
+icon: APedePosuere.avi
+link: http://dummyimage.com/122x100.png/cc0000/ffffff
+support: native
+versionFrom: '5.3'
+categories:
+  - linux
+  - kernel
+  - web

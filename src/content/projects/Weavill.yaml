@@ -1,0 +1,9 @@
+name: Weavill
+icon: UrnaPretium.ppt
+link: http://dummyimage.com/207x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: 9.2.5
+categories:
+  - testing
+  - emulation
+  - oss

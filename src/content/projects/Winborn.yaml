@@ -1,0 +1,8 @@
+name: Winborn
+icon: Quam.xls
+link: http://dummyimage.com/129x100.png/dddddd/000000
+support: native
+versionFrom: '0.85'
+categories:
+  - visualstudio
+  - linux

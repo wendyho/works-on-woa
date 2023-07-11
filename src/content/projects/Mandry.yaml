@@ -1,0 +1,8 @@
+name: Mandry
+icon: Natoque.xls
+link: http://dummyimage.com/110x100.png/cc0000/ffffff
+support: emulation
+versionFrom: '0.66'
+categories:
+  - linux
+  - visualstudio

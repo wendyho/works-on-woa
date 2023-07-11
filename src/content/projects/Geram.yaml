@@ -1,0 +1,9 @@
+name: Geram
+icon: MolestieLorem.gif
+link: http://dummyimage.com/224x100.png/dddddd/000000
+support: 'no'
+versionFrom: '0.18'
+categories:
+  - emulation
+  - kernel
+  - dotnet

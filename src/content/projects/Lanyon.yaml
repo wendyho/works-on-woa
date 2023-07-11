@@ -1,0 +1,9 @@
+name: Lanyon
+icon: SapienDignissimVestibulum.pdf
+link: http://dummyimage.com/163x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: '8.16'
+categories:
+  - tools
+  - kernel
+  - visualstudio

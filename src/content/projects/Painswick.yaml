@@ -1,0 +1,9 @@
+name: Painswick
+icon: ElitSodalesScelerisque.avi
+link: http://dummyimage.com/121x100.png/dddddd/000000
+support: emulation
+versionFrom: 7.0.4
+categories:
+  - embedded
+  - kernel
+  - linux

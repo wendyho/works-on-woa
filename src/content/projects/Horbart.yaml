@@ -1,0 +1,9 @@
+name: Horbart
+icon: Est.tiff
+link: http://dummyimage.com/168x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: 1.5.2
+categories:
+  - dotnet
+  - linux
+  - emulation

@@ -1,0 +1,9 @@
+name: Sant
+icon: EtMagnisDis.doc
+link: http://dummyimage.com/133x100.png/5fa2dd/ffffff
+support: native
+versionFrom: 5.2.4
+categories:
+  - web
+  - linux
+  - emulation

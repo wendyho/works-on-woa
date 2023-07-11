@@ -1,0 +1,9 @@
+name: Griniov
+icon: Tortor.avi
+link: http://dummyimage.com/103x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: 5.5.8
+categories:
+  - embedded
+  - oss
+  - emulation

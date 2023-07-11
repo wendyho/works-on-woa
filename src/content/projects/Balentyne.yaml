@@ -1,0 +1,9 @@
+name: Balentyne
+icon: PedeUllamcorper.mp3
+link: http://dummyimage.com/168x100.png/ff4444/ffffff
+support: native
+versionFrom: '6.8'
+categories:
+  - kernel
+  - visualstudio
+  - testing

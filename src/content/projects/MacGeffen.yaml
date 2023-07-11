@@ -1,0 +1,9 @@
+name: MacGeffen
+icon: PulvinarSed.mp3
+link: http://dummyimage.com/180x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: 0.3.7
+categories:
+  - dotnet
+  - oss
+  - kernel

@@ -1,0 +1,9 @@
+name: Autrie
+icon: NullaSedAccumsan.txt
+link: http://dummyimage.com/228x100.png/dddddd/000000
+support: emulation
+versionFrom: '5.2'
+categories:
+  - testing
+  - embedded
+  - oss

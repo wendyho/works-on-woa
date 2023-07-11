@@ -1,0 +1,9 @@
+name: Hens
+icon: NullaNeque.mp3
+link: http://dummyimage.com/206x100.png/dddddd/000000
+support: emulation
+versionFrom: 9.4.1
+categories:
+  - tools
+  - dotnet
+  - visualstudio

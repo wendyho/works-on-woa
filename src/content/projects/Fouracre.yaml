@@ -1,0 +1,9 @@
+name: Fouracre
+icon: Mauris.jpeg
+link: http://dummyimage.com/162x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: '0.46'
+categories:
+  - tools
+  - dotnet
+  - kernel

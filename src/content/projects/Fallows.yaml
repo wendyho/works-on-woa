@@ -1,0 +1,9 @@
+name: Fallows
+icon: In.mp3
+link: http://dummyimage.com/156x100.png/dddddd/000000
+support: emulation
+versionFrom: '1.68'
+categories:
+  - emulation
+  - kernel
+  - web

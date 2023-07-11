@@ -1,0 +1,8 @@
+name: Fosh
+icon: VelSemSed.avi
+link: http://dummyimage.com/239x100.png/cc0000/ffffff
+support: emulation
+versionFrom: '3.2'
+categories:
+  - web
+  - linux

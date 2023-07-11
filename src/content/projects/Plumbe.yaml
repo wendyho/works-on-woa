@@ -1,0 +1,9 @@
+name: Plumbe
+icon: Sociis.xls
+link: http://dummyimage.com/167x100.png/ff4444/ffffff
+support: emulation
+versionFrom: '6.84'
+categories:
+  - tools
+  - testing
+  - kernel

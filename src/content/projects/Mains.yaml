@@ -1,0 +1,9 @@
+name: Mains
+icon: FaucibusOrciLuctus.xls
+link: http://dummyimage.com/153x100.png/dddddd/000000
+support: unknown
+versionFrom: '0.43'
+categories:
+  - emulation
+  - linux
+  - visualstudio

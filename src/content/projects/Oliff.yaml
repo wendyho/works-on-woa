@@ -1,0 +1,8 @@
+name: Oliff
+icon: PhasellusIn.mp3
+link: http://dummyimage.com/205x100.png/cc0000/ffffff
+support: native
+versionFrom: '0.22'
+categories:
+  - web
+  - embedded

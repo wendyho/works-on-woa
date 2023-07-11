@@ -1,0 +1,9 @@
+name: McKenny
+icon: PedeUllamcorper.xls
+link: http://dummyimage.com/110x100.png/ff4444/ffffff
+support: 'no'
+versionFrom: '5.4'
+categories:
+  - testing
+  - oss
+  - kernel

@@ -1,0 +1,9 @@
+name: Kenaway
+icon: Mauris.xls
+link: http://dummyimage.com/114x100.png/cc0000/ffffff
+support: emulation
+versionFrom: 9.8.3
+categories:
+  - tools
+  - testing
+  - kernel

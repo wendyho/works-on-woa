@@ -1,0 +1,9 @@
+name: Colls
+icon: Quis.ppt
+link: http://dummyimage.com/111x100.png/5fa2dd/ffffff
+support: native
+versionFrom: '0.67'
+categories:
+  - dotnet
+  - emulation
+  - linux

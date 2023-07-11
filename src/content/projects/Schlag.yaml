@@ -1,0 +1,9 @@
+name: Schlag
+icon: EratCurabiturGravida.ppt
+link: http://dummyimage.com/121x100.png/ff4444/ffffff
+support: emulation
+versionFrom: '2.48'
+categories:
+  - embedded
+  - dotnet
+  - linux

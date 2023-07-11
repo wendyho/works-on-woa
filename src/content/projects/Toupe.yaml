@@ -1,0 +1,9 @@
+name: Toupe
+icon: In.tiff
+link: http://dummyimage.com/202x100.png/5fa2dd/ffffff
+support: native
+versionFrom: '8.7'
+categories:
+  - emulation
+  - dotnet
+  - oss

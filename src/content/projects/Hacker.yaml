@@ -1,0 +1,8 @@
+name: Hacker
+icon: InSagittisDui.xls
+link: http://dummyimage.com/154x100.png/cc0000/ffffff
+support: unknown
+versionFrom: '0.23'
+categories:
+  - visualstudio
+  - dotnet

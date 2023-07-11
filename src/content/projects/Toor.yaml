@@ -1,0 +1,9 @@
+name: Toor
+icon: Fringilla.pdf
+link: http://dummyimage.com/211x100.png/5fa2dd/ffffff
+support: unknown
+versionFrom: '5.20'
+categories:
+  - linux
+  - visualstudio
+  - oss

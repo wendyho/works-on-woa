@@ -1,0 +1,9 @@
+name: Steinhammer
+icon: QuamAOdio.mp3
+link: http://dummyimage.com/193x100.png/cc0000/ffffff
+support: unknown
+versionFrom: '4.80'
+categories:
+  - web
+  - dotnet
+  - tools

@@ -1,0 +1,9 @@
+name: Heaselgrave
+icon: AugueQuam.avi
+link: http://dummyimage.com/100x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: 8.4.7
+categories:
+  - web
+  - embedded
+  - dotnet

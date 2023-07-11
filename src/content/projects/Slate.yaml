@@ -1,0 +1,9 @@
+name: Slate
+icon: EratTortor.ppt
+link: http://dummyimage.com/223x100.png/ff4444/ffffff
+support: 'no'
+versionFrom: '0.46'
+categories:
+  - oss
+  - emulation
+  - testing

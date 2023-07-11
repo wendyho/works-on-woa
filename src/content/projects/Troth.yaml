@@ -1,0 +1,8 @@
+name: Troth
+icon: Imperdiet.mov
+link: http://dummyimage.com/167x100.png/ff4444/ffffff
+support: native
+versionFrom: '7.3'
+categories:
+  - kernel
+  - testing

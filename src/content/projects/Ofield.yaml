@@ -1,0 +1,9 @@
+name: Ofield
+icon: VolutpatEratQuisque.ppt
+link: http://dummyimage.com/248x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: 8.6.5
+categories:
+  - tools
+  - dotnet
+  - emulation

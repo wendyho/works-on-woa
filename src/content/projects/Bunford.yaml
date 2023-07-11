@@ -1,0 +1,9 @@
+name: Bunford
+icon: NecNisiVolutpat.ppt
+link: http://dummyimage.com/228x100.png/cc0000/ffffff
+support: native
+versionFrom: 3.7.5
+categories:
+  - kernel
+  - emulation
+  - tools

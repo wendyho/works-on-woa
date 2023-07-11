@@ -1,0 +1,9 @@
+name: Arndt
+icon: MassaQuisAugue.mp3
+link: http://dummyimage.com/204x100.png/dddddd/000000
+support: emulation
+versionFrom: '0.41'
+categories:
+  - emulation
+  - testing
+  - kernel

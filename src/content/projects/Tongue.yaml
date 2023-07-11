@@ -1,0 +1,8 @@
+name: Tongue
+icon: Id.xls
+link: http://dummyimage.com/201x100.png/dddddd/000000
+support: emulation
+versionFrom: '0.54'
+categories:
+  - emulation
+  - testing

@@ -1,0 +1,9 @@
+name: Rothschild
+icon: TortorSollicitudinMi.mp3
+link: http://dummyimage.com/105x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: '0.80'
+categories:
+  - visualstudio
+  - kernel
+  - oss

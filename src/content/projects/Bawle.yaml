@@ -1,0 +1,9 @@
+name: Bawle
+icon: Felis.ppt
+link: http://dummyimage.com/138x100.png/cc0000/ffffff
+support: native
+versionFrom: 0.4.3
+categories:
+  - tools
+  - embedded
+  - testing

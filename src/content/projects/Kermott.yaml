@@ -1,0 +1,9 @@
+name: Kermott
+icon: Sed.jpeg
+link: http://dummyimage.com/157x100.png/ff4444/ffffff
+support: unknown
+versionFrom: 0.1.2
+categories:
+  - kernel
+  - testing
+  - tools

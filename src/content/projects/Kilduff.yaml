@@ -1,0 +1,9 @@
+name: Kilduff
+icon: SapienPlaceratAnte.gif
+link: http://dummyimage.com/198x100.png/5fa2dd/ffffff
+support: native
+versionFrom: 9.4.4
+categories:
+  - linux
+  - embedded
+  - dotnet

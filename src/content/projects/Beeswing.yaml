@@ -1,0 +1,9 @@
+name: Beeswing
+icon: LoremIpsum.png
+link: http://dummyimage.com/187x100.png/dddddd/000000
+support: emulation
+versionFrom: 0.4.7
+categories:
+  - dotnet
+  - linux
+  - testing

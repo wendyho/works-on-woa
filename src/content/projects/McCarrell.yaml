@@ -1,0 +1,9 @@
+name: McCarrell
+icon: LigulaPellentesque.mpeg
+link: http://dummyimage.com/234x100.png/ff4444/ffffff
+support: unknown
+versionFrom: 9.3.2
+categories:
+  - linux
+  - dotnet
+  - embedded

@@ -1,0 +1,9 @@
+name: Eastup
+icon: LuctusCumSociis.jpeg
+link: http://dummyimage.com/180x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: 0.4.5
+categories:
+  - kernel
+  - testing
+  - linux

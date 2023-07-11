@@ -1,0 +1,9 @@
+name: Lett
+icon: AccumsanOdio.mpeg
+link: http://dummyimage.com/156x100.png/dddddd/000000
+support: emulation
+versionFrom: 0.5.1
+categories:
+  - emulation
+  - embedded
+  - web

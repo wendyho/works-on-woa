@@ -1,0 +1,9 @@
+name: Lobe
+icon: Lorem.doc
+link: http://dummyimage.com/103x100.png/ff4444/ffffff
+support: emulation
+versionFrom: 7.0.4
+categories:
+  - visualstudio
+  - testing
+  - kernel

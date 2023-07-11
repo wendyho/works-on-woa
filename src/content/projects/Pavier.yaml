@@ -1,0 +1,8 @@
+name: Pavier
+icon: UltricesLiberoNon.png
+link: http://dummyimage.com/221x100.png/cc0000/ffffff
+support: emulation
+versionFrom: 5.5.5
+categories:
+  - kernel
+  - linux

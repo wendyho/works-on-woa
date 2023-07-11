@@ -1,0 +1,8 @@
+name: Beecker
+icon: LigulaNec.jpeg
+link: http://dummyimage.com/230x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: 7.7.4
+categories:
+  - web
+  - testing

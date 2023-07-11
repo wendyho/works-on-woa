@@ -1,0 +1,9 @@
+name: Ogles
+icon: EgetTinciduntEget.ppt
+link: http://dummyimage.com/178x100.png/ff4444/ffffff
+support: emulation
+versionFrom: '0.46'
+categories:
+  - visualstudio
+  - dotnet
+  - oss

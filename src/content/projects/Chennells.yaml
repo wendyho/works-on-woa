@@ -1,0 +1,9 @@
+name: Chennells
+icon: FusceConsequatNulla.mp3
+link: http://dummyimage.com/211x100.png/cc0000/ffffff
+support: native
+versionFrom: '2.9'
+categories:
+  - kernel
+  - linux
+  - emulation

@@ -1,0 +1,8 @@
+name: Brunskill
+icon: Semper.jpeg
+link: http://dummyimage.com/237x100.png/dddddd/000000
+support: 'no'
+versionFrom: '7.01'
+categories:
+  - visualstudio
+  - testing

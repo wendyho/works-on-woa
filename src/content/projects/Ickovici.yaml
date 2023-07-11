@@ -1,0 +1,9 @@
+name: Ickovici
+icon: Condimentum.avi
+link: http://dummyimage.com/237x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: '2.54'
+categories:
+  - embedded
+  - tools
+  - oss

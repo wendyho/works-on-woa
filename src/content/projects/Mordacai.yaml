@@ -1,0 +1,9 @@
+name: Mordacai
+icon: Et.avi
+link: http://dummyimage.com/164x100.png/ff4444/ffffff
+support: 'no'
+versionFrom: '2.7'
+categories:
+  - oss
+  - emulation
+  - linux

@@ -1,0 +1,9 @@
+name: Espinha
+icon: Ipsum.pdf
+link: http://dummyimage.com/166x100.png/cc0000/ffffff
+support: unknown
+versionFrom: '3.4'
+categories:
+  - tools
+  - dotnet
+  - linux

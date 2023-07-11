@@ -1,0 +1,9 @@
+name: Littell
+icon: Congue.mp3
+link: http://dummyimage.com/152x100.png/dddddd/000000
+support: native
+versionFrom: '3.4'
+categories:
+  - kernel
+  - oss
+  - visualstudio

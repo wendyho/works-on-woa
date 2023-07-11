@@ -1,0 +1,8 @@
+name: Varran
+icon: NislDuis.jpeg
+link: http://dummyimage.com/229x100.png/dddddd/000000
+support: native
+versionFrom: '2.4'
+categories:
+  - tools
+  - linux

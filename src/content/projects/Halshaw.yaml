@@ -1,0 +1,9 @@
+name: Halshaw
+icon: Justo.gif
+link: http://dummyimage.com/165x100.png/dddddd/000000
+support: emulation
+versionFrom: '5.08'
+categories:
+  - web
+  - kernel
+  - testing

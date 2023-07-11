@@ -1,0 +1,9 @@
+name: Cordobes
+icon: InterdumEuTincidunt.mp3
+link: http://dummyimage.com/194x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: '9.7'
+categories:
+  - tools
+  - embedded
+  - linux

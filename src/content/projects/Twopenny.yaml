@@ -1,0 +1,9 @@
+name: Twopenny
+icon: SitAmet.png
+link: http://dummyimage.com/185x100.png/cc0000/ffffff
+support: native
+versionFrom: '0.64'
+categories:
+  - testing
+  - embedded
+  - web

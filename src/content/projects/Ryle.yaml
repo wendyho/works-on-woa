@@ -1,0 +1,9 @@
+name: Ryle
+icon: InCongue.pdf
+link: http://dummyimage.com/170x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: '0.54'
+categories:
+  - tools
+  - web
+  - oss

@@ -1,0 +1,9 @@
+name: Clifford
+icon: QuisTurpisSed.pdf
+link: http://dummyimage.com/166x100.png/5fa2dd/ffffff
+support: native
+versionFrom: '0.60'
+categories:
+  - kernel
+  - tools
+  - linux

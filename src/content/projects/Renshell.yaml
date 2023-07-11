@@ -1,0 +1,9 @@
+name: Renshell
+icon: AnteIpsumPrimis.xls
+link: http://dummyimage.com/158x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: 0.7.3
+categories:
+  - embedded
+  - emulation
+  - oss

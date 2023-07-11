@@ -1,0 +1,9 @@
+name: Burmingham
+icon: Vehicula.xls
+link: http://dummyimage.com/221x100.png/dddddd/000000
+support: emulation
+versionFrom: 1.6.7
+categories:
+  - dotnet
+  - testing
+  - oss

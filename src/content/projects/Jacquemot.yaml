@@ -1,0 +1,9 @@
+name: Jacquemot
+icon: Turpis.mp3
+link: http://dummyimage.com/117x100.png/cc0000/ffffff
+support: native
+versionFrom: 0.7.0
+categories:
+  - linux
+  - visualstudio
+  - testing

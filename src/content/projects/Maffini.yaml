@@ -1,0 +1,9 @@
+name: Maffini
+icon: Quam.jpeg
+link: http://dummyimage.com/227x100.png/cc0000/ffffff
+support: native
+versionFrom: '4.09'
+categories:
+  - linux
+  - web
+  - emulation

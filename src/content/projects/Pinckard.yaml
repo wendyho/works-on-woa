@@ -1,0 +1,9 @@
+name: Pinckard
+icon: SitAmetDiam.mpeg
+link: http://dummyimage.com/231x100.png/cc0000/ffffff
+support: native
+versionFrom: 0.6.5
+categories:
+  - dotnet
+  - embedded
+  - oss

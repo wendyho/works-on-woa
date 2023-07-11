@@ -1,0 +1,8 @@
+name: Biford
+icon: SapienIaculis.txt
+link: http://dummyimage.com/163x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: 0.9.8
+categories:
+  - kernel
+  - testing

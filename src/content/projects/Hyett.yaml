@@ -1,0 +1,9 @@
+name: Hyett
+icon: LuctusEt.tiff
+link: http://dummyimage.com/154x100.png/5fa2dd/ffffff
+support: native
+versionFrom: '4.0'
+categories:
+  - oss
+  - web
+  - linux

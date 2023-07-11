@@ -1,0 +1,8 @@
+name: Kittles
+icon: MaurisEget.txt
+link: http://dummyimage.com/198x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: '4.41'
+categories:
+  - tools
+  - visualstudio

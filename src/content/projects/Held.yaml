@@ -1,0 +1,9 @@
+name: Held
+icon: Nec.avi
+link: http://dummyimage.com/228x100.png/dddddd/000000
+support: emulation
+versionFrom: '1.3'
+categories:
+  - oss
+  - kernel
+  - linux

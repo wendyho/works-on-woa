@@ -1,0 +1,9 @@
+name: Seldner
+icon: LobortisConvallisTortor.tiff
+link: http://dummyimage.com/101x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: 0.6.2
+categories:
+  - web
+  - kernel
+  - testing

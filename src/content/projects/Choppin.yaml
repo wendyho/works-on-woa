@@ -1,0 +1,9 @@
+name: Choppin
+icon: InEleifend.xls
+link: http://dummyimage.com/225x100.png/dddddd/000000
+support: native
+versionFrom: 9.4.5
+categories:
+  - kernel
+  - oss
+  - embedded

@@ -1,0 +1,8 @@
+name: Yeoman
+icon: Vel.mp3
+link: http://dummyimage.com/219x100.png/ff4444/ffffff
+support: unknown
+versionFrom: 1.8.5
+categories:
+  - dotnet
+  - testing

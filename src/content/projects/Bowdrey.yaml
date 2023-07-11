@@ -1,0 +1,9 @@
+name: Bowdrey
+icon: AliquetMaecenas.avi
+link: http://dummyimage.com/154x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: 6.2.9
+categories:
+  - embedded
+  - tools
+  - visualstudio

@@ -1,0 +1,9 @@
+name: Smallpeace
+icon: NullamSit.mp3
+link: http://dummyimage.com/248x100.png/5fa2dd/ffffff
+support: native
+versionFrom: '1.77'
+categories:
+  - dotnet
+  - web
+  - oss

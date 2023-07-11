@@ -1,0 +1,9 @@
+name: Norcliff
+icon: EgetNuncDonec.txt
+link: http://dummyimage.com/130x100.png/dddddd/000000
+support: 'no'
+versionFrom: '1.9'
+categories:
+  - oss
+  - testing
+  - visualstudio

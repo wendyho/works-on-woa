@@ -1,0 +1,9 @@
+name: Connechy
+icon: Lacus.tiff
+link: http://dummyimage.com/144x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: '0.19'
+categories:
+  - linux
+  - dotnet
+  - emulation

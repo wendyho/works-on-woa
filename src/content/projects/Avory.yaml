@@ -1,0 +1,9 @@
+name: Avory
+icon: Penatibus.xls
+link: http://dummyimage.com/204x100.png/5fa2dd/ffffff
+support: native
+versionFrom: 0.8.1
+categories:
+  - visualstudio
+  - testing
+  - embedded

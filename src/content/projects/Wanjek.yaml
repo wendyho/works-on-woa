@@ -1,0 +1,9 @@
+name: Wanjek
+icon: SapienA.ppt
+link: http://dummyimage.com/105x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: '0.50'
+categories:
+  - kernel
+  - dotnet
+  - tools

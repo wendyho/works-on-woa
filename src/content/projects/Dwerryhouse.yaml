@@ -1,0 +1,8 @@
+name: Dwerryhouse
+icon: Ut.avi
+link: http://dummyimage.com/133x100.png/dddddd/000000
+support: 'no'
+versionFrom: '0.25'
+categories:
+  - kernel
+  - linux

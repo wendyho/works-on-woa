@@ -1,0 +1,8 @@
+name: Coggings
+icon: InLibero.ppt
+link: http://dummyimage.com/183x100.png/dddddd/000000
+support: native
+versionFrom: '0.12'
+categories:
+  - testing
+  - dotnet

@@ -1,0 +1,9 @@
+name: Roney
+icon: AliquamQuis.tiff
+link: http://dummyimage.com/152x100.png/dddddd/000000
+support: emulation
+versionFrom: 5.3.9
+categories:
+  - kernel
+  - dotnet
+  - tools

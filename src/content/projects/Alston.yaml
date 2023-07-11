@@ -1,0 +1,9 @@
+name: Alston
+icon: DuisConsequatDui.txt
+link: http://dummyimage.com/129x100.png/cc0000/ffffff
+support: native
+versionFrom: 5.3.8
+categories:
+  - emulation
+  - web
+  - testing

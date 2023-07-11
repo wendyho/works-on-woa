@@ -1,0 +1,9 @@
+name: Mewton
+icon: Massa.avi
+link: http://dummyimage.com/184x100.png/5fa2dd/ffffff
+support: native
+versionFrom: '7.5'
+categories:
+  - testing
+  - visualstudio
+  - linux

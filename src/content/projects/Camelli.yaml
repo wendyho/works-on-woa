@@ -1,0 +1,8 @@
+name: Camelli
+icon: Ipsum.xls
+link: http://dummyimage.com/179x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: '0.58'
+categories:
+  - dotnet
+  - linux

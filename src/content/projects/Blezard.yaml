@@ -1,0 +1,9 @@
+name: Blezard
+icon: TellusNisiEu.ppt
+link: http://dummyimage.com/209x100.png/cc0000/ffffff
+support: unknown
+versionFrom: '5.15'
+categories:
+  - tools
+  - oss
+  - dotnet

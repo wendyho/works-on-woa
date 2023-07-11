@@ -1,0 +1,8 @@
+name: Baillie
+icon: Morbi.avi
+link: http://dummyimage.com/132x100.png/dddddd/000000
+support: emulation
+versionFrom: 0.9.4
+categories:
+  - visualstudio
+  - embedded

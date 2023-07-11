@@ -1,0 +1,9 @@
+name: Tibbs
+icon: Cum.gif
+link: http://dummyimage.com/197x100.png/5fa2dd/ffffff
+support: native
+versionFrom: '3.39'
+categories:
+  - emulation
+  - testing
+  - web

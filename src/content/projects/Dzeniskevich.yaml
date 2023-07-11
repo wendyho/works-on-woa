@@ -1,0 +1,9 @@
+name: Dzeniskevich
+icon: EtiamVelAugue.xls
+link: http://dummyimage.com/235x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: '9.4'
+categories:
+  - oss
+  - kernel
+  - embedded

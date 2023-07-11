@@ -1,0 +1,9 @@
+name: Rouse
+icon: Lacus.avi
+link: http://dummyimage.com/150x100.png/cc0000/ffffff
+support: emulation
+versionFrom: '0.54'
+categories:
+  - embedded
+  - kernel
+  - testing

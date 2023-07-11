@@ -1,0 +1,9 @@
+name: Clarae
+icon: LobortisLigulaSit.ppt
+link: http://dummyimage.com/187x100.png/ff4444/ffffff
+support: 'no'
+versionFrom: 6.5.7
+categories:
+  - embedded
+  - web
+  - kernel

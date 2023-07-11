@@ -1,0 +1,9 @@
+name: Burdon
+icon: Eget.avi
+link: http://dummyimage.com/230x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: 8.4.4
+categories:
+  - dotnet
+  - embedded
+  - linux

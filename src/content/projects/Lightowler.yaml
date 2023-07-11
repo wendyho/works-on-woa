@@ -1,0 +1,9 @@
+name: Lightowler
+icon: PosuereCubilia.mov
+link: http://dummyimage.com/189x100.png/ff4444/ffffff
+support: native
+versionFrom: '3.43'
+categories:
+  - tools
+  - oss
+  - embedded

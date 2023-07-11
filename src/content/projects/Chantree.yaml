@@ -1,0 +1,9 @@
+name: Chantree
+icon: Ligula.doc
+link: http://dummyimage.com/197x100.png/dddddd/000000
+support: emulation
+versionFrom: 4.2.1
+categories:
+  - kernel
+  - dotnet
+  - embedded

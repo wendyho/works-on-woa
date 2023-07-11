@@ -1,0 +1,9 @@
+name: Thunderchief
+icon: Id.mp3
+link: http://dummyimage.com/169x100.png/5fa2dd/ffffff
+support: native
+versionFrom: 0.2.6
+categories:
+  - emulation
+  - tools
+  - web

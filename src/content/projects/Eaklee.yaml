@@ -1,0 +1,9 @@
+name: Eaklee
+icon: SapienVarius.mov
+link: http://dummyimage.com/164x100.png/5fa2dd/ffffff
+support: unknown
+versionFrom: '5.03'
+categories:
+  - dotnet
+  - emulation
+  - visualstudio

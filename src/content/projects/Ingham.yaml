@@ -1,0 +1,9 @@
+name: Ingham
+icon: MagnaAt.mov
+link: http://dummyimage.com/152x100.png/cc0000/ffffff
+support: unknown
+versionFrom: '2.00'
+categories:
+  - kernel
+  - tools
+  - dotnet

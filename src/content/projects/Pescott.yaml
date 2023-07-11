@@ -1,0 +1,9 @@
+name: Pescott
+icon: ElitAcNulla.jpeg
+link: http://dummyimage.com/101x100.png/5fa2dd/ffffff
+support: native
+versionFrom: 4.7.7
+categories:
+  - emulation
+  - web
+  - embedded

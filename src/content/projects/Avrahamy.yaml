@@ -1,0 +1,9 @@
+name: Avrahamy
+icon: AliquetAtFeugiat.gif
+link: http://dummyimage.com/216x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: '0.26'
+categories:
+  - kernel
+  - emulation
+  - web

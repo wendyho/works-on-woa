@@ -1,0 +1,8 @@
+name: Pallaske
+icon: SemFusce.mov
+link: http://dummyimage.com/214x100.png/cc0000/ffffff
+support: emulation
+versionFrom: '5.0'
+categories:
+  - emulation
+  - testing

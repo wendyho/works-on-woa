@@ -1,0 +1,8 @@
+name: Milkin
+icon: EstPhasellusSit.jpeg
+link: http://dummyimage.com/198x100.png/ff4444/ffffff
+support: native
+versionFrom: 6.1.5
+categories:
+  - oss
+  - kernel

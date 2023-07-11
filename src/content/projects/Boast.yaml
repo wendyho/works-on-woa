@@ -1,0 +1,9 @@
+name: Boast
+icon: Nulla.ppt
+link: http://dummyimage.com/106x100.png/cc0000/ffffff
+support: emulation
+versionFrom: '7.13'
+categories:
+  - emulation
+  - web
+  - tools

@@ -1,0 +1,8 @@
+name: Knolles-Green
+icon: Nunc.mp3
+link: http://dummyimage.com/206x100.png/cc0000/ffffff
+support: emulation
+versionFrom: '0.33'
+categories:
+  - kernel
+  - web

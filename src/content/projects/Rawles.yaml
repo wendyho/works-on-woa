@@ -1,0 +1,9 @@
+name: Rawles
+icon: SuscipitAFeugiat.mov
+link: http://dummyimage.com/152x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: '6.47'
+categories:
+  - web
+  - testing
+  - kernel

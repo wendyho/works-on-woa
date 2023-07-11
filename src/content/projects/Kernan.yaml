@@ -1,0 +1,8 @@
+name: Kernan
+icon: Ac.mpeg
+link: http://dummyimage.com/157x100.png/ff4444/ffffff
+support: native
+versionFrom: 3.4.6
+categories:
+  - linux
+  - embedded

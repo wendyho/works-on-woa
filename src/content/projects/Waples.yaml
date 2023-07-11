@@ -1,0 +1,9 @@
+name: Waples
+icon: PotentiInEleifend.xls
+link: http://dummyimage.com/249x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: 5.1.5
+categories:
+  - oss
+  - linux
+  - kernel

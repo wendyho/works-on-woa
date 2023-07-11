@@ -1,0 +1,9 @@
+name: Witterick
+icon: AnteIpsum.tiff
+link: http://dummyimage.com/124x100.png/cc0000/ffffff
+support: native
+versionFrom: '0.48'
+categories:
+  - linux
+  - visualstudio
+  - web

@@ -1,0 +1,9 @@
+name: Hendrichs
+icon: SedVel.jpeg
+link: http://dummyimage.com/245x100.png/5fa2dd/ffffff
+support: unknown
+versionFrom: 0.2.5
+categories:
+  - embedded
+  - web
+  - dotnet

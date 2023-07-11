@@ -1,0 +1,9 @@
+name: Vaggs
+icon: Tempus.avi
+link: http://dummyimage.com/181x100.png/dddddd/000000
+support: emulation
+versionFrom: '9.98'
+categories:
+  - linux
+  - embedded
+  - visualstudio

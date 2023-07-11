@@ -1,0 +1,9 @@
+name: Donohoe
+icon: VelitVivamusVel.ppt
+link: http://dummyimage.com/131x100.png/ff4444/ffffff
+support: emulation
+versionFrom: '0.85'
+categories:
+  - emulation
+  - kernel
+  - tools

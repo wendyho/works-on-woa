@@ -1,0 +1,9 @@
+name: Tourner
+icon: VolutpatErat.mp3
+link: http://dummyimage.com/130x100.png/dddddd/000000
+support: native
+versionFrom: '4.53'
+categories:
+  - testing
+  - tools
+  - web

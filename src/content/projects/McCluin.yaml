@@ -1,0 +1,9 @@
+name: McCluin
+icon: InLibero.ppt
+link: http://dummyimage.com/230x100.png/dddddd/000000
+support: 'no'
+versionFrom: '0.67'
+categories:
+  - visualstudio
+  - embedded
+  - emulation

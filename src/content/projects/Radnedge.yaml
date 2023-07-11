@@ -1,0 +1,9 @@
+name: Radnedge
+icon: Integer.pdf
+link: http://dummyimage.com/122x100.png/ff4444/ffffff
+support: 'no'
+versionFrom: '9.00'
+categories:
+  - visualstudio
+  - tools
+  - kernel

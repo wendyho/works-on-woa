@@ -1,0 +1,8 @@
+name: Dodwell
+icon: FaucibusCursus.avi
+link: http://dummyimage.com/150x100.png/cc0000/ffffff
+support: native
+versionFrom: '8.7'
+categories:
+  - emulation
+  - web

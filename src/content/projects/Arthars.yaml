@@ -1,0 +1,9 @@
+name: Arthars
+icon: NullaUltricesAliquet.txt
+link: http://dummyimage.com/156x100.png/cc0000/ffffff
+support: native
+versionFrom: 5.4.3
+categories:
+  - kernel
+  - emulation
+  - tools

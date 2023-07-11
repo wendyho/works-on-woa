@@ -1,0 +1,9 @@
+name: Pearcy
+icon: SemDuisAliquam.avi
+link: http://dummyimage.com/233x100.png/dddddd/000000
+support: native
+versionFrom: '2.71'
+categories:
+  - emulation
+  - testing
+  - oss

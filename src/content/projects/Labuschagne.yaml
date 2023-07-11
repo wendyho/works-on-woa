@@ -1,0 +1,9 @@
+name: Labuschagne
+icon: InHac.jpeg
+link: http://dummyimage.com/163x100.png/ff4444/ffffff
+support: emulation
+versionFrom: 9.2.2
+categories:
+  - tools
+  - visualstudio
+  - dotnet

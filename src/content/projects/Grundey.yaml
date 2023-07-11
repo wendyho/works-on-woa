@@ -1,0 +1,9 @@
+name: Grundey
+icon: PortaVolutpat.gif
+link: http://dummyimage.com/166x100.png/cc0000/ffffff
+support: native
+versionFrom: 9.4.3
+categories:
+  - oss
+  - emulation
+  - embedded

@@ -1,0 +1,9 @@
+name: Shakespeare
+icon: ALiberoNam.xls
+link: http://dummyimage.com/206x100.png/dddddd/000000
+support: 'no'
+versionFrom: '0.77'
+categories:
+  - oss
+  - emulation
+  - testing

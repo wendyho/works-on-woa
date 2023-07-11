@@ -1,0 +1,9 @@
+name: Beyer
+icon: SitAmetConsectetuer.mp3
+link: http://dummyimage.com/181x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: '5.9'
+categories:
+  - testing
+  - emulation
+  - kernel

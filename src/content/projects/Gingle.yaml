@@ -1,0 +1,9 @@
+name: Gingle
+icon: AcEnimIn.mp3
+link: http://dummyimage.com/140x100.png/dddddd/000000
+support: 'no'
+versionFrom: 1.3.8
+categories:
+  - web
+  - visualstudio
+  - tools

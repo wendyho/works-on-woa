@@ -1,0 +1,8 @@
+name: Klampt
+icon: Fusce.txt
+link: http://dummyimage.com/159x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: '8.6'
+categories:
+  - linux
+  - visualstudio

@@ -1,0 +1,9 @@
+name: Lissaman
+icon: LuctusEtUltrices.jpeg
+link: http://dummyimage.com/246x100.png/ff4444/ffffff
+support: emulation
+versionFrom: '0.55'
+categories:
+  - embedded
+  - testing
+  - oss

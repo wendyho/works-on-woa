@@ -1,0 +1,9 @@
+name: Woodwing
+icon: NisiVenenatisTristique.png
+link: http://dummyimage.com/132x100.png/dddddd/000000
+support: unknown
+versionFrom: '0.44'
+categories:
+  - linux
+  - embedded
+  - oss

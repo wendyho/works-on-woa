@@ -1,0 +1,9 @@
+name: Freen
+icon: IpsumPrimis.pdf
+link: http://dummyimage.com/228x100.png/ff4444/ffffff
+support: 'no'
+versionFrom: 0.7.2
+categories:
+  - oss
+  - web
+  - testing

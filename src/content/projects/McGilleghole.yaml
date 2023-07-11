@@ -1,0 +1,9 @@
+name: McGilleghole
+icon: Tempus.txt
+link: http://dummyimage.com/211x100.png/cc0000/ffffff
+support: native
+versionFrom: '0.53'
+categories:
+  - visualstudio
+  - dotnet
+  - emulation

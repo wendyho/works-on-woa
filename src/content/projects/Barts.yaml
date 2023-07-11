@@ -1,0 +1,9 @@
+name: Barts
+icon: QuamNec.mp3
+link: http://dummyimage.com/206x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: '8.55'
+categories:
+  - dotnet
+  - embedded
+  - testing

@@ -1,0 +1,9 @@
+name: Doole
+icon: QuisJusto.mov
+link: http://dummyimage.com/163x100.png/ff4444/ffffff
+support: 'no'
+versionFrom: '6.6'
+categories:
+  - kernel
+  - tools
+  - oss

@@ -1,0 +1,9 @@
+name: Torel
+icon: CurabiturAt.xls
+link: http://dummyimage.com/170x100.png/5fa2dd/ffffff
+support: unknown
+versionFrom: 2.1.8
+categories:
+  - oss
+  - kernel
+  - emulation

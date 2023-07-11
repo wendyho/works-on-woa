@@ -1,0 +1,9 @@
+name: Iglesia
+icon: VestibulumVelit.mp3
+link: http://dummyimage.com/157x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: '0.12'
+categories:
+  - emulation
+  - tools
+  - linux

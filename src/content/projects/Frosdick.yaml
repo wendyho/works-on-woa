@@ -1,0 +1,9 @@
+name: Frosdick
+icon: IpsumPrimis.jpeg
+link: http://dummyimage.com/126x100.png/dddddd/000000
+support: emulation
+versionFrom: '1.1'
+categories:
+  - emulation
+  - oss
+  - web

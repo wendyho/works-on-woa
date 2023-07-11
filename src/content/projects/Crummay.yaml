@@ -1,0 +1,9 @@
+name: Crummay
+icon: NecNisi.mp3
+link: http://dummyimage.com/107x100.png/ff4444/ffffff
+support: native
+versionFrom: '3.5'
+categories:
+  - testing
+  - kernel
+  - tools

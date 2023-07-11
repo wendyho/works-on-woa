@@ -1,0 +1,9 @@
+name: Leggan
+icon: LaciniaSapien.ppt
+link: http://dummyimage.com/200x100.png/dddddd/000000
+support: native
+versionFrom: '0.98'
+categories:
+  - embedded
+  - web
+  - linux

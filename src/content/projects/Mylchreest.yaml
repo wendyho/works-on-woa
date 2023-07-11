@@ -1,0 +1,9 @@
+name: Mylchreest
+icon: IntegerPede.mp3
+link: http://dummyimage.com/206x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: 0.5.1
+categories:
+  - emulation
+  - visualstudio
+  - embedded

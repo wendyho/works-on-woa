@@ -1,0 +1,9 @@
+name: Bordone
+icon: CuraeMaurisViverra.jpeg
+link: http://dummyimage.com/132x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: 0.6.8
+categories:
+  - oss
+  - dotnet
+  - visualstudio

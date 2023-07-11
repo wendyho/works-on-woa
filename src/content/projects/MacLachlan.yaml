@@ -1,0 +1,9 @@
+name: MacLachlan
+icon: PraesentBlandit.avi
+link: http://dummyimage.com/237x100.png/dddddd/000000
+support: 'no'
+versionFrom: '5.09'
+categories:
+  - kernel
+  - dotnet
+  - embedded

@@ -1,0 +1,9 @@
+name: Dikle
+icon: BlanditMi.ppt
+link: http://dummyimage.com/206x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: '4.13'
+categories:
+  - testing
+  - kernel
+  - dotnet

@@ -1,0 +1,9 @@
+name: Thresh
+icon: TemporConvallisNulla.xls
+link: http://dummyimage.com/104x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: '1.4'
+categories:
+  - linux
+  - emulation
+  - testing

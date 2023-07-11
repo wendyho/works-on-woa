@@ -1,0 +1,9 @@
+name: Newbury
+icon: CondimentumIdLuctus.xls
+link: http://dummyimage.com/136x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: 0.6.3
+categories:
+  - oss
+  - dotnet
+  - linux

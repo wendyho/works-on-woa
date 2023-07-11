@@ -1,0 +1,8 @@
+name: Setchfield
+icon: Iaculis.tiff
+link: http://dummyimage.com/139x100.png/cc0000/ffffff
+support: emulation
+versionFrom: '7.6'
+categories:
+  - testing
+  - visualstudio

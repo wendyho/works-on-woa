@@ -1,0 +1,8 @@
+name: Churches
+icon: Quam.mp3
+link: http://dummyimage.com/227x100.png/dddddd/000000
+support: emulation
+versionFrom: '3.6'
+categories:
+  - kernel
+  - linux

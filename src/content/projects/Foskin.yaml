@@ -1,0 +1,9 @@
+name: Foskin
+icon: SapienVarius.txt
+link: http://dummyimage.com/178x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: '8.75'
+categories:
+  - linux
+  - testing
+  - web

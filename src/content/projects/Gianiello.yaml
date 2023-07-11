@@ -1,0 +1,9 @@
+name: Gianiello
+icon: EtCommodo.xls
+link: http://dummyimage.com/147x100.png/dddddd/000000
+support: native
+versionFrom: 9.7.5
+categories:
+  - embedded
+  - linux
+  - web

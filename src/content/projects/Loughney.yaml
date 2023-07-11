@@ -1,0 +1,9 @@
+name: Loughney
+icon: Posuere.mp3
+link: http://dummyimage.com/173x100.png/ff4444/ffffff
+support: emulation
+versionFrom: '0.23'
+categories:
+  - dotnet
+  - visualstudio
+  - linux

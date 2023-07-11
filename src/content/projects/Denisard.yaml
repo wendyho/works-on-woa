@@ -1,0 +1,9 @@
+name: Denisard
+icon: Quisque.txt
+link: http://dummyimage.com/167x100.png/ff4444/ffffff
+support: 'no'
+versionFrom: '1.21'
+categories:
+  - embedded
+  - oss
+  - visualstudio

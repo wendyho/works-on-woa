@@ -1,0 +1,9 @@
+name: Brothwood
+icon: MolestieHendreritAt.xls
+link: http://dummyimage.com/161x100.png/cc0000/ffffff
+support: native
+versionFrom: '0.34'
+categories:
+  - tools
+  - testing
+  - oss

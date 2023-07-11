@@ -1,0 +1,8 @@
+name: Borchardt
+icon: ConsequatUt.xls
+link: http://dummyimage.com/245x100.png/cc0000/ffffff
+support: emulation
+versionFrom: '0.22'
+categories:
+  - web
+  - tools

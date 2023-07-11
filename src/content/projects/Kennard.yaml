@@ -1,0 +1,9 @@
+name: Kennard
+icon: PharetraMagnaVestibulum.mov
+link: http://dummyimage.com/117x100.png/5fa2dd/ffffff
+support: unknown
+versionFrom: '0.67'
+categories:
+  - testing
+  - dotnet
+  - linux

@@ -1,0 +1,9 @@
+name: Larkins
+icon: Primis.mp3
+link: http://dummyimage.com/205x100.png/ff4444/ffffff
+support: native
+versionFrom: 6.7.6
+categories:
+  - web
+  - emulation
+  - tools

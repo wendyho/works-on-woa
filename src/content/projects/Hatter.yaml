@@ -1,0 +1,9 @@
+name: Hatter
+icon: Eget.tiff
+link: http://dummyimage.com/236x100.png/ff4444/ffffff
+support: unknown
+versionFrom: 0.7.2
+categories:
+  - embedded
+  - tools
+  - testing

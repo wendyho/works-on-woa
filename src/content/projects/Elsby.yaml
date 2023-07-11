@@ -1,0 +1,9 @@
+name: Elsby
+icon: Curabitur.mp3
+link: http://dummyimage.com/175x100.png/ff4444/ffffff
+support: 'no'
+versionFrom: '4.9'
+categories:
+  - kernel
+  - tools
+  - visualstudio

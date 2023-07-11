@@ -1,0 +1,9 @@
+name: McGaffey
+icon: DiamCras.tiff
+link: http://dummyimage.com/197x100.png/cc0000/ffffff
+support: unknown
+versionFrom: '0.17'
+categories:
+  - tools
+  - emulation
+  - dotnet

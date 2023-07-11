@@ -1,0 +1,9 @@
+name: Blakeston
+icon: AnteVivamusTortor.avi
+link: http://dummyimage.com/171x100.png/ff4444/ffffff
+support: 'no'
+versionFrom: 0.7.7
+categories:
+  - dotnet
+  - visualstudio
+  - oss

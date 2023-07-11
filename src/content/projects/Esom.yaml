@@ -1,0 +1,9 @@
+name: Esom
+icon: NonQuam.pdf
+link: http://dummyimage.com/135x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: '0.63'
+categories:
+  - emulation
+  - visualstudio
+  - oss

@@ -1,0 +1,9 @@
+name: Ayree
+icon: Faucibus.ppt
+link: http://dummyimage.com/174x100.png/5fa2dd/ffffff
+support: native
+versionFrom: '9.4'
+categories:
+  - oss
+  - linux
+  - emulation

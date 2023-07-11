@@ -1,0 +1,9 @@
+name: De Beauchemp
+icon: In.ppt
+link: http://dummyimage.com/156x100.png/5fa2dd/ffffff
+support: native
+versionFrom: 9.7.3
+categories:
+  - linux
+  - visualstudio
+  - oss

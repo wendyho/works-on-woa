@@ -1,0 +1,9 @@
+name: Tiler
+icon: MaurisViverra.jpeg
+link: http://dummyimage.com/145x100.png/dddddd/000000
+support: native
+versionFrom: '5.89'
+categories:
+  - kernel
+  - tools
+  - emulation

@@ -1,0 +1,9 @@
+name: Owens
+icon: Rhoncus.avi
+link: http://dummyimage.com/204x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: '6.4'
+categories:
+  - dotnet
+  - embedded
+  - visualstudio

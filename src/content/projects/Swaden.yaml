@@ -1,0 +1,9 @@
+name: Swaden
+icon: Curae.ppt
+link: http://dummyimage.com/145x100.png/cc0000/ffffff
+support: native
+versionFrom: 9.0.3
+categories:
+  - linux
+  - oss
+  - testing

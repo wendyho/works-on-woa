@@ -1,0 +1,9 @@
+name: Reinard
+icon: FaucibusOrci.gif
+link: http://dummyimage.com/169x100.png/5fa2dd/ffffff
+support: native
+versionFrom: 0.3.7
+categories:
+  - web
+  - visualstudio
+  - embedded

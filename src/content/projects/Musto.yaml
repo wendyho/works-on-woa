@@ -1,0 +1,9 @@
+name: Musto
+icon: TinciduntIn.gif
+link: http://dummyimage.com/106x100.png/dddddd/000000
+support: 'no'
+versionFrom: 0.3.5
+categories:
+  - testing
+  - dotnet
+  - oss

@@ -1,0 +1,9 @@
+name: Benettolo
+icon: Nullam.jpeg
+link: http://dummyimage.com/220x100.png/cc0000/ffffff
+support: native
+versionFrom: '8.33'
+categories:
+  - kernel
+  - tools
+  - embedded

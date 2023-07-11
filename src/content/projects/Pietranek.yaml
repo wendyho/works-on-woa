@@ -1,0 +1,9 @@
+name: Pietranek
+icon: Felis.avi
+link: http://dummyimage.com/169x100.png/dddddd/000000
+support: 'no'
+versionFrom: '3.70'
+categories:
+  - web
+  - linux
+  - dotnet

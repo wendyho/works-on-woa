@@ -1,0 +1,8 @@
+name: Adshead
+icon: Nullam.jpeg
+link: http://dummyimage.com/100x100.png/ff4444/ffffff
+support: 'no'
+versionFrom: 7.7.4
+categories:
+  - emulation
+  - embedded

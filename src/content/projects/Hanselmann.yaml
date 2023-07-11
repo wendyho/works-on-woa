@@ -1,0 +1,8 @@
+name: Hanselmann
+icon: SuscipitNulla.mp3
+link: http://dummyimage.com/240x100.png/cc0000/ffffff
+support: emulation
+versionFrom: '8.14'
+categories:
+  - tools
+  - linux

@@ -1,0 +1,9 @@
+name: Lindner
+icon: Sapien.mp3
+link: http://dummyimage.com/238x100.png/ff4444/ffffff
+support: 'no'
+versionFrom: '0.90'
+categories:
+  - emulation
+  - embedded
+  - web

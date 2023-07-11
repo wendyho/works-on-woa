@@ -1,0 +1,9 @@
+name: Ellingford
+icon: Eleifend.xls
+link: http://dummyimage.com/201x100.png/cc0000/ffffff
+support: native
+versionFrom: 0.7.0
+categories:
+  - testing
+  - emulation
+  - visualstudio

@@ -1,0 +1,9 @@
+name: Bentall
+icon: PulvinarLobortisEst.ppt
+link: http://dummyimage.com/200x100.png/5fa2dd/ffffff
+support: native
+versionFrom: '8.6'
+categories:
+  - dotnet
+  - kernel
+  - visualstudio

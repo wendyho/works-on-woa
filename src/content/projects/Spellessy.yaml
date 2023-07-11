@@ -1,0 +1,8 @@
+name: Spellessy
+icon: NonMiInteger.mp3
+link: http://dummyimage.com/113x100.png/5fa2dd/ffffff
+support: native
+versionFrom: '0.36'
+categories:
+  - testing
+  - oss

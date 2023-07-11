@@ -1,0 +1,9 @@
+name: Nudd
+icon: SedTinciduntEu.xls
+link: http://dummyimage.com/208x100.png/5fa2dd/ffffff
+support: native
+versionFrom: '0.51'
+categories:
+  - linux
+  - visualstudio
+  - dotnet

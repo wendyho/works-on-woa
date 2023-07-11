@@ -1,0 +1,8 @@
+name: Etherson
+icon: Dui.ppt
+link: http://dummyimage.com/186x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: '0.20'
+categories:
+  - dotnet
+  - emulation

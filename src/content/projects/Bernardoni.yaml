@@ -1,0 +1,9 @@
+name: Bernardoni
+icon: NecCondimentum.xls
+link: http://dummyimage.com/205x100.png/dddddd/000000
+support: native
+versionFrom: '9.34'
+categories:
+  - embedded
+  - emulation
+  - kernel

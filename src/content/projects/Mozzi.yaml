@@ -1,0 +1,8 @@
+name: Mozzi
+icon: VelitEuEst.png
+link: http://dummyimage.com/173x100.png/dddddd/000000
+support: native
+versionFrom: '9.86'
+categories:
+  - testing
+  - kernel

@@ -1,0 +1,9 @@
+name: Wreford
+icon: Proin.tiff
+link: http://dummyimage.com/241x100.png/cc0000/ffffff
+support: native
+versionFrom: '1.93'
+categories:
+  - oss
+  - web
+  - kernel

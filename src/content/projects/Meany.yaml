@@ -1,0 +1,9 @@
+name: Meany
+icon: SapienPlaceratAnte.avi
+link: http://dummyimage.com/114x100.png/5fa2dd/ffffff
+support: native
+versionFrom: 0.8.5
+categories:
+  - web
+  - linux
+  - embedded

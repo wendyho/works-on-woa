@@ -1,0 +1,9 @@
+name: Grinston
+icon: Rutrum.png
+link: http://dummyimage.com/206x100.png/5fa2dd/ffffff
+support: native
+versionFrom: '0.89'
+categories:
+  - kernel
+  - embedded
+  - linux

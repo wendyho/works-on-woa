@@ -1,0 +1,8 @@
+name: Pontin
+icon: CubiliaCurae.mov
+link: http://dummyimage.com/171x100.png/dddddd/000000
+support: emulation
+versionFrom: '8.9'
+categories:
+  - linux
+  - visualstudio

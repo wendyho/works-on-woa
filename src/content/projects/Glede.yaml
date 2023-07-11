@@ -1,0 +1,9 @@
+name: Glede
+icon: VelAccumsanTellus.ppt
+link: http://dummyimage.com/117x100.png/dddddd/000000
+support: native
+versionFrom: 5.0.1
+categories:
+  - tools
+  - oss
+  - linux

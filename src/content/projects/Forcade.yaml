@@ -1,0 +1,9 @@
+name: Forcade
+icon: In.gif
+link: http://dummyimage.com/143x100.png/dddddd/000000
+support: unknown
+versionFrom: '0.81'
+categories:
+  - embedded
+  - kernel
+  - tools

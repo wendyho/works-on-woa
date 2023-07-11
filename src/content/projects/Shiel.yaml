@@ -1,0 +1,8 @@
+name: Shiel
+icon: DonecOdioJusto.xls
+link: http://dummyimage.com/189x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: 6.0.5
+categories:
+  - emulation
+  - dotnet

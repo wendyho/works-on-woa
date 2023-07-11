@@ -1,0 +1,9 @@
+name: Treadgall
+icon: PedeAc.ppt
+link: http://dummyimage.com/179x100.png/cc0000/ffffff
+support: emulation
+versionFrom: '2.2'
+categories:
+  - tools
+  - oss
+  - embedded

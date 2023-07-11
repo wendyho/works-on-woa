@@ -1,0 +1,9 @@
+name: McGriele
+icon: ParturientMontes.jpeg
+link: http://dummyimage.com/123x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: 0.3.2
+categories:
+  - tools
+  - dotnet
+  - visualstudio

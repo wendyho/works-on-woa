@@ -1,0 +1,9 @@
+name: Kauble
+icon: At.gif
+link: http://dummyimage.com/122x100.png/cc0000/ffffff
+support: native
+versionFrom: 0.9.0
+categories:
+  - emulation
+  - embedded
+  - testing

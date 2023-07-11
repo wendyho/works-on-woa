@@ -1,0 +1,8 @@
+name: Behagg
+icon: LiberoNamDui.gif
+link: http://dummyimage.com/140x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: 8.7.8
+categories:
+  - emulation
+  - dotnet

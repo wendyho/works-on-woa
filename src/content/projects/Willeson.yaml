@@ -1,0 +1,8 @@
+name: Willeson
+icon: QuisqueEratEros.txt
+link: http://dummyimage.com/161x100.png/cc0000/ffffff
+support: native
+versionFrom: 7.6.2
+categories:
+  - kernel
+  - oss

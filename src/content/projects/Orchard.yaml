@@ -1,0 +1,9 @@
+name: Orchard
+icon: NullaDapibus.gif
+link: http://dummyimage.com/203x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: '3.76'
+categories:
+  - linux
+  - oss
+  - tools

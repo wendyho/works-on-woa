@@ -1,0 +1,8 @@
+name: Laminman
+icon: Nam.xls
+link: http://dummyimage.com/172x100.png/dddddd/000000
+support: emulation
+versionFrom: 0.3.8
+categories:
+  - testing
+  - oss

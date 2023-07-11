@@ -1,0 +1,9 @@
+name: Comberbeach
+icon: Luctus.txt
+link: http://dummyimage.com/157x100.png/dddddd/000000
+support: native
+versionFrom: '5.85'
+categories:
+  - emulation
+  - tools
+  - oss

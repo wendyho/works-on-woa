@@ -1,0 +1,9 @@
+name: Kieran
+icon: JustoIn.ppt
+link: http://dummyimage.com/244x100.png/5fa2dd/ffffff
+support: native
+versionFrom: '8.41'
+categories:
+  - dotnet
+  - tools
+  - kernel

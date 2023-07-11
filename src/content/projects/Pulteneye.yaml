@@ -1,0 +1,9 @@
+name: Pulteneye
+icon: Vestibulum.ppt
+link: http://dummyimage.com/225x100.png/dddddd/000000
+support: 'no'
+versionFrom: '4.34'
+categories:
+  - emulation
+  - embedded
+  - tools

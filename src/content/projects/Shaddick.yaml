@@ -1,0 +1,9 @@
+name: Shaddick
+icon: ConsequatLectus.avi
+link: http://dummyimage.com/190x100.png/dddddd/000000
+support: emulation
+versionFrom: 0.2.1
+categories:
+  - embedded
+  - oss
+  - testing

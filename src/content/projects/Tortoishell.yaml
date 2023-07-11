@@ -1,0 +1,8 @@
+name: Tortoishell
+icon: LaciniaAeneanSit.tiff
+link: http://dummyimage.com/162x100.png/ff4444/ffffff
+support: emulation
+versionFrom: '5.9'
+categories:
+  - kernel
+  - linux

@@ -1,0 +1,9 @@
+name: Riccelli
+icon: Vulputate.xls
+link: http://dummyimage.com/141x100.png/cc0000/ffffff
+support: emulation
+versionFrom: '0.68'
+categories:
+  - tools
+  - visualstudio
+  - web

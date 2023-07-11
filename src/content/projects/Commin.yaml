@@ -1,0 +1,9 @@
+name: Commin
+icon: PenatibusEtMagnis.jpeg
+link: http://dummyimage.com/110x100.png/cc0000/ffffff
+support: native
+versionFrom: '6.5'
+categories:
+  - kernel
+  - dotnet
+  - linux

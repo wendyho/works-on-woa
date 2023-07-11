@@ -1,0 +1,8 @@
+name: Pickrill
+icon: SitAmetSapien.ppt
+link: http://dummyimage.com/109x100.png/ff4444/ffffff
+support: 'no'
+versionFrom: '0.66'
+categories:
+  - linux
+  - kernel

@@ -1,0 +1,9 @@
+name: Borman
+icon: NislDuisBibendum.xls
+link: http://dummyimage.com/236x100.png/dddddd/000000
+support: emulation
+versionFrom: '0.57'
+categories:
+  - embedded
+  - linux
+  - testing

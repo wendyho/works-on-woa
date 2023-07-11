@@ -1,0 +1,9 @@
+name: MacAdie
+icon: Nascetur.xls
+link: http://dummyimage.com/141x100.png/dddddd/000000
+support: unknown
+versionFrom: '0.34'
+categories:
+  - embedded
+  - dotnet
+  - tools

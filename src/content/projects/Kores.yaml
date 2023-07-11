@@ -1,0 +1,9 @@
+name: Kores
+icon: Tortor.mp3
+link: http://dummyimage.com/142x100.png/cc0000/ffffff
+support: native
+versionFrom: 0.6.9
+categories:
+  - visualstudio
+  - emulation
+  - linux

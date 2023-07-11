@@ -1,0 +1,9 @@
+name: Emmott
+icon: EgetMassa.mp3
+link: http://dummyimage.com/145x100.png/dddddd/000000
+support: emulation
+versionFrom: 9.9.7
+categories:
+  - linux
+  - oss
+  - dotnet

@@ -1,0 +1,9 @@
+name: Athowe
+icon: FaucibusAccumsan.mp3
+link: http://dummyimage.com/243x100.png/5fa2dd/ffffff
+support: native
+versionFrom: 0.2.6
+categories:
+  - dotnet
+  - tools
+  - testing

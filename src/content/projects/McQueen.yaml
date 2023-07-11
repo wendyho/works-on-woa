@@ -1,0 +1,8 @@
+name: McQueen
+icon: Mi.jpeg
+link: http://dummyimage.com/133x100.png/ff4444/ffffff
+support: 'no'
+versionFrom: '1.23'
+categories:
+  - linux
+  - tools

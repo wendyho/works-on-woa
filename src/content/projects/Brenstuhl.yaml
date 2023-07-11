@@ -1,0 +1,9 @@
+name: Brenstuhl
+icon: InFaucibusOrci.png
+link: http://dummyimage.com/211x100.png/dddddd/000000
+support: unknown
+versionFrom: 3.7.9
+categories:
+  - testing
+  - emulation
+  - web

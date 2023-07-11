@@ -1,0 +1,9 @@
+name: Zoanetti
+icon: SapienIn.mov
+link: http://dummyimage.com/145x100.png/dddddd/000000
+support: unknown
+versionFrom: '1.0'
+categories:
+  - dotnet
+  - linux
+  - visualstudio

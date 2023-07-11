@@ -1,0 +1,9 @@
+name: McReedy
+icon: ElementumEuInterdum.ppt
+link: http://dummyimage.com/187x100.png/5fa2dd/ffffff
+support: unknown
+versionFrom: '1.14'
+categories:
+  - kernel
+  - embedded
+  - dotnet

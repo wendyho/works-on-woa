@@ -1,0 +1,9 @@
+name: Rickcord
+icon: Ultrices.mp3
+link: http://dummyimage.com/150x100.png/ff4444/ffffff
+support: native
+versionFrom: '6.9'
+categories:
+  - testing
+  - oss
+  - web

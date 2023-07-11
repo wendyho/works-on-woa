@@ -1,0 +1,9 @@
+name: Tidy
+icon: MorbiAIpsum.mpeg
+link: http://dummyimage.com/140x100.png/cc0000/ffffff
+support: native
+versionFrom: 0.6.3
+categories:
+  - testing
+  - visualstudio
+  - linux

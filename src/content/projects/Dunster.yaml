@@ -1,0 +1,9 @@
+name: Dunster
+icon: ElitAcNulla.mp3
+link: http://dummyimage.com/199x100.png/dddddd/000000
+support: unknown
+versionFrom: 1.2.8
+categories:
+  - kernel
+  - linux
+  - embedded

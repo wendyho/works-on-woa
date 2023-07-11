@@ -1,0 +1,9 @@
+name: Winterborne
+icon: RisusSemperPorta.mp3
+link: http://dummyimage.com/145x100.png/ff4444/ffffff
+support: native
+versionFrom: '8.37'
+categories:
+  - linux
+  - visualstudio
+  - emulation

@@ -1,0 +1,9 @@
+name: Beckensall
+icon: Suscipit.avi
+link: http://dummyimage.com/195x100.png/5fa2dd/ffffff
+support: native
+versionFrom: '7.4'
+categories:
+  - testing
+  - tools
+  - emulation

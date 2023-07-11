@@ -1,0 +1,9 @@
+name: Brugmann
+icon: LoremId.avi
+link: http://dummyimage.com/161x100.png/cc0000/ffffff
+support: native
+versionFrom: '3.8'
+categories:
+  - visualstudio
+  - kernel
+  - linux

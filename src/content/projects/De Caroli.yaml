@@ -1,0 +1,9 @@
+name: De Caroli
+icon: Ipsum.tiff
+link: http://dummyimage.com/146x100.png/5fa2dd/ffffff
+support: native
+versionFrom: 0.9.5
+categories:
+  - oss
+  - testing
+  - tools

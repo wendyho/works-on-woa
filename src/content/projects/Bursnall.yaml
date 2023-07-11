@@ -1,0 +1,8 @@
+name: Bursnall
+icon: IntegerAcLeo.ppt
+link: http://dummyimage.com/202x100.png/dddddd/000000
+support: emulation
+versionFrom: '0.72'
+categories:
+  - kernel
+  - testing

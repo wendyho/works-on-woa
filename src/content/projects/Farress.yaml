@@ -1,0 +1,9 @@
+name: Farress
+icon: CongueEtiamJusto.mp3
+link: http://dummyimage.com/155x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: 5.8.6
+categories:
+  - oss
+  - kernel
+  - visualstudio

@@ -1,0 +1,9 @@
+name: Yelland
+icon: QuamTurpisAdipiscing.tiff
+link: http://dummyimage.com/223x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: '5.08'
+categories:
+  - visualstudio
+  - emulation
+  - oss

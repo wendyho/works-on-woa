@@ -1,0 +1,9 @@
+name: Crosier
+icon: SapienQuis.ppt
+link: http://dummyimage.com/229x100.png/cc0000/ffffff
+support: emulation
+versionFrom: '6.57'
+categories:
+  - testing
+  - embedded
+  - web

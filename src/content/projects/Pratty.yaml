@@ -1,0 +1,9 @@
+name: Pratty
+icon: EtMagnisDis.mov
+link: http://dummyimage.com/178x100.png/5fa2dd/ffffff
+support: native
+versionFrom: 6.8.8
+categories:
+  - dotnet
+  - oss
+  - tools

@@ -1,0 +1,9 @@
+name: Renard
+icon: Vestibulum.avi
+link: http://dummyimage.com/216x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: 0.5.6
+categories:
+  - testing
+  - embedded
+  - tools

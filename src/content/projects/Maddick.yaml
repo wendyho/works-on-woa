@@ -1,0 +1,8 @@
+name: Maddick
+icon: IpsumPrimis.mp3
+link: http://dummyimage.com/226x100.png/cc0000/ffffff
+support: emulation
+versionFrom: '7.79'
+categories:
+  - linux
+  - testing

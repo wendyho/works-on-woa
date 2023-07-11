@@ -1,0 +1,9 @@
+name: Ellum
+icon: Magna.jpeg
+link: http://dummyimage.com/169x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: '3.47'
+categories:
+  - oss
+  - linux
+  - tools

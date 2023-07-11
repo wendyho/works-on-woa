@@ -1,0 +1,9 @@
+name: Morena
+icon: Turpis.ppt
+link: http://dummyimage.com/204x100.png/5fa2dd/ffffff
+support: native
+versionFrom: '3.96'
+categories:
+  - oss
+  - embedded
+  - emulation

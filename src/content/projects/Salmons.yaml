@@ -1,0 +1,8 @@
+name: Salmons
+icon: VenenatisNon.xls
+link: http://dummyimage.com/191x100.png/ff4444/ffffff
+support: unknown
+versionFrom: '5.03'
+categories:
+  - linux
+  - kernel

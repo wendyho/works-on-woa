@@ -1,0 +1,9 @@
+name: Angelini
+icon: AliquamNon.avi
+link: http://dummyimage.com/115x100.png/ff4444/ffffff
+support: 'no'
+versionFrom: 0.4.2
+categories:
+  - embedded
+  - oss
+  - linux

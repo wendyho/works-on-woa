@@ -1,0 +1,9 @@
+name: Berdale
+icon: LacusAtVelit.jpeg
+link: http://dummyimage.com/186x100.png/dddddd/000000
+support: emulation
+versionFrom: '0.42'
+categories:
+  - dotnet
+  - testing
+  - emulation

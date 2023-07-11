@@ -1,0 +1,9 @@
+name: Fayter
+icon: NamDuiProin.mp3
+link: http://dummyimage.com/157x100.png/dddddd/000000
+support: unknown
+versionFrom: '5.31'
+categories:
+  - emulation
+  - dotnet
+  - testing

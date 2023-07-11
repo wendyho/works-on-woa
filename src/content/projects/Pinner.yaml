@@ -1,0 +1,9 @@
+name: Pinner
+icon: VestibulumAnteIpsum.ppt
+link: http://dummyimage.com/157x100.png/cc0000/ffffff
+support: unknown
+versionFrom: '0.19'
+categories:
+  - kernel
+  - embedded
+  - tools

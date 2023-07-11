@@ -1,0 +1,9 @@
+name: Mannooch
+icon: SitAmetEros.tiff
+link: http://dummyimage.com/108x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: '9.45'
+categories:
+  - oss
+  - linux
+  - kernel

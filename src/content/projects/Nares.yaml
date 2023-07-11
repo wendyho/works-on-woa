@@ -1,0 +1,9 @@
+name: Nares
+icon: SodalesScelerisqueMauris.mp3
+link: http://dummyimage.com/110x100.png/dddddd/000000
+support: native
+versionFrom: 0.6.5
+categories:
+  - visualstudio
+  - dotnet
+  - kernel

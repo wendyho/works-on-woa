@@ -1,0 +1,9 @@
+name: Groveham
+icon: A.png
+link: http://dummyimage.com/235x100.png/dddddd/000000
+support: unknown
+versionFrom: '1.6'
+categories:
+  - kernel
+  - oss
+  - tools

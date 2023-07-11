@@ -1,0 +1,9 @@
+name: Thuillier
+icon: IdLuctus.xls
+link: http://dummyimage.com/221x100.png/ff4444/ffffff
+support: 'no'
+versionFrom: 0.9.9
+categories:
+  - tools
+  - embedded
+  - emulation

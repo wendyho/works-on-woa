@@ -1,0 +1,9 @@
+name: Steward
+icon: Eu.xls
+link: http://dummyimage.com/150x100.png/dddddd/000000
+support: unknown
+versionFrom: 0.3.9
+categories:
+  - testing
+  - linux
+  - embedded

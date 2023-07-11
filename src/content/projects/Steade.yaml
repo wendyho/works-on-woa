@@ -1,0 +1,8 @@
+name: Steade
+icon: Morbi.mov
+link: http://dummyimage.com/142x100.png/cc0000/ffffff
+support: emulation
+versionFrom: '3.42'
+categories:
+  - linux
+  - web

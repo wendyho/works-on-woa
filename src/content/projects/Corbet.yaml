@@ -1,0 +1,8 @@
+name: Corbet
+icon: QuisAugueLuctus.pdf
+link: http://dummyimage.com/171x100.png/dddddd/000000
+support: emulation
+versionFrom: '7.6'
+categories:
+  - emulation
+  - oss

@@ -1,0 +1,9 @@
+name: Dionsetto
+icon: PulvinarNulla.mov
+link: http://dummyimage.com/184x100.png/ff4444/ffffff
+support: 'no'
+versionFrom: '1.62'
+categories:
+  - testing
+  - visualstudio
+  - web

@@ -1,0 +1,9 @@
+name: Tolchar
+icon: TinciduntLacusAt.jpeg
+link: http://dummyimage.com/138x100.png/ff4444/ffffff
+support: 'no'
+versionFrom: '6.8'
+categories:
+  - kernel
+  - dotnet
+  - testing

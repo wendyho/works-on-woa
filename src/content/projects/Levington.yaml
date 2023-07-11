@@ -1,0 +1,9 @@
+name: Levington
+icon: Eleifend.pdf
+link: http://dummyimage.com/186x100.png/dddddd/000000
+support: 'no'
+versionFrom: 3.8.4
+categories:
+  - linux
+  - kernel
+  - emulation

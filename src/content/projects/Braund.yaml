@@ -1,0 +1,8 @@
+name: Braund
+icon: ArcuSedAugue.xls
+link: http://dummyimage.com/211x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: 3.2.6
+categories:
+  - embedded
+  - testing

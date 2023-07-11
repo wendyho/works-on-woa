@@ -1,0 +1,9 @@
+name: Helsdon
+icon: PraesentLectusVestibulum.ppt
+link: http://dummyimage.com/164x100.png/cc0000/ffffff
+support: native
+versionFrom: '3.7'
+categories:
+  - tools
+  - dotnet
+  - linux

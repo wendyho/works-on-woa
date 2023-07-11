@@ -1,0 +1,9 @@
+name: Bengoechea
+icon: InHacHabitasse.xls
+link: http://dummyimage.com/178x100.png/ff4444/ffffff
+support: emulation
+versionFrom: 0.2.5
+categories:
+  - emulation
+  - oss
+  - embedded

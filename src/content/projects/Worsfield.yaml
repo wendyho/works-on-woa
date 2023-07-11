@@ -1,0 +1,9 @@
+name: Worsfield
+icon: Fringilla.mp3
+link: http://dummyimage.com/200x100.png/dddddd/000000
+support: unknown
+versionFrom: 2.4.3
+categories:
+  - testing
+  - tools
+  - kernel

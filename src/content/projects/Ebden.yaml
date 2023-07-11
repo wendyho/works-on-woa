@@ -1,0 +1,8 @@
+name: Ebden
+icon: MaurisMorbiNon.png
+link: http://dummyimage.com/154x100.png/cc0000/ffffff
+support: native
+versionFrom: '1.2'
+categories:
+  - dotnet
+  - emulation

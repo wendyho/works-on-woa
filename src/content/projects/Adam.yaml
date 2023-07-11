@@ -1,0 +1,9 @@
+name: Adam
+icon: VelIpsumPraesent.xls
+link: http://dummyimage.com/203x100.png/ff4444/ffffff
+support: native
+versionFrom: 0.8.4
+categories:
+  - oss
+  - embedded
+  - testing

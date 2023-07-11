@@ -1,0 +1,8 @@
+name: Ettels
+icon: AmetNunc.xls
+link: http://dummyimage.com/232x100.png/cc0000/ffffff
+support: emulation
+versionFrom: '0.65'
+categories:
+  - dotnet
+  - kernel

@@ -1,0 +1,9 @@
+name: Gingles
+icon: Erat.gif
+link: http://dummyimage.com/143x100.png/dddddd/000000
+support: emulation
+versionFrom: 0.1.3
+categories:
+  - testing
+  - linux
+  - oss

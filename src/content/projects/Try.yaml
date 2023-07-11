@@ -1,0 +1,8 @@
+name: Try
+icon: Condimentum.mp3
+link: http://dummyimage.com/136x100.png/dddddd/000000
+support: emulation
+versionFrom: 3.2.4
+categories:
+  - embedded
+  - emulation

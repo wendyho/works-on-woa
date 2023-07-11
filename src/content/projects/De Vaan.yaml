@@ -1,0 +1,9 @@
+name: De Vaan
+icon: Turpis.mp3
+link: http://dummyimage.com/126x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: '4.1'
+categories:
+  - emulation
+  - embedded
+  - testing

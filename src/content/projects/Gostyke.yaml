@@ -1,0 +1,9 @@
+name: Gostyke
+icon: DuisAcNibh.avi
+link: http://dummyimage.com/170x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: 5.8.8
+categories:
+  - oss
+  - linux
+  - dotnet

@@ -1,0 +1,8 @@
+name: Fotherby
+icon: Non.ppt
+link: http://dummyimage.com/195x100.png/dddddd/000000
+support: 'no'
+versionFrom: '0.85'
+categories:
+  - visualstudio
+  - kernel

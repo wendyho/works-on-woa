@@ -1,0 +1,9 @@
+name: Gallardo
+icon: QuisqueArcu.ppt
+link: http://dummyimage.com/200x100.png/dddddd/000000
+support: emulation
+versionFrom: 1.2.4
+categories:
+  - emulation
+  - linux
+  - dotnet

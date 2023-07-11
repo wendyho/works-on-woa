@@ -1,0 +1,9 @@
+name: Kobke
+icon: Luctus.ppt
+link: http://dummyimage.com/148x100.png/dddddd/000000
+support: emulation
+versionFrom: 6.1.4
+categories:
+  - oss
+  - testing
+  - dotnet

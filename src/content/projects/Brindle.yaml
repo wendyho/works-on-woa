@@ -1,0 +1,9 @@
+name: Brindle
+icon: CursusUrna.xls
+link: http://dummyimage.com/214x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: 0.6.9
+categories:
+  - oss
+  - web
+  - embedded

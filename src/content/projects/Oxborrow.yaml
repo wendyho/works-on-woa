@@ -1,0 +1,9 @@
+name: Oxborrow
+icon: Cum.avi
+link: http://dummyimage.com/177x100.png/cc0000/ffffff
+support: native
+versionFrom: 6.7.3
+categories:
+  - emulation
+  - testing
+  - dotnet

@@ -1,0 +1,8 @@
+name: Tumbridge
+icon: PretiumQuis.ppt
+link: http://dummyimage.com/128x100.png/dddddd/000000
+support: emulation
+versionFrom: '1.3'
+categories:
+  - kernel
+  - oss

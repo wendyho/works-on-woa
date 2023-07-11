@@ -1,0 +1,7 @@
+name: Raynor
+icon: NonLigula.mov
+link: http://dummyimage.com/250x100.png/cc0000/ffffff
+support: native
+versionFrom: 6.3.1
+categories:
+  - dotnet

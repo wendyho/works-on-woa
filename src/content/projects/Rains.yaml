@@ -1,0 +1,9 @@
+name: Rains
+icon: MorbiQuisTortor.doc
+link: http://dummyimage.com/235x100.png/dddddd/000000
+support: 'no'
+versionFrom: '3.83'
+categories:
+  - oss
+  - linux
+  - testing

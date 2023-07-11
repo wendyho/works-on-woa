@@ -1,0 +1,9 @@
+name: Adolfsen
+icon: MassaQuisAugue.png
+link: http://dummyimage.com/160x100.png/cc0000/ffffff
+support: emulation
+versionFrom: 0.1.3
+categories:
+  - visualstudio
+  - kernel
+  - linux

@@ -1,0 +1,9 @@
+name: Lease
+icon: SemperRutrum.xls
+link: http://dummyimage.com/168x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: '0.99'
+categories:
+  - testing
+  - emulation
+  - kernel

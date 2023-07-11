@@ -1,0 +1,8 @@
+name: Shipcott
+icon: DuisBibendum.txt
+link: http://dummyimage.com/112x100.png/ff4444/ffffff
+support: native
+versionFrom: 0.4.3
+categories:
+  - oss
+  - dotnet

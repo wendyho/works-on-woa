@@ -1,0 +1,9 @@
+name: Fittis
+icon: NonVelitDonec.gif
+link: http://dummyimage.com/110x100.png/dddddd/000000
+support: emulation
+versionFrom: '2.41'
+categories:
+  - web
+  - dotnet
+  - emulation

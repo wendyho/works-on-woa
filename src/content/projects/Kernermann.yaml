@@ -1,0 +1,8 @@
+name: Kernermann
+icon: Magna.tiff
+link: http://dummyimage.com/227x100.png/dddddd/000000
+support: emulation
+versionFrom: 6.6.9
+categories:
+  - dotnet
+  - kernel

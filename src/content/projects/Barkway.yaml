@@ -1,0 +1,9 @@
+name: Barkway
+icon: Massa.jpeg
+link: http://dummyimage.com/160x100.png/ff4444/ffffff
+support: native
+versionFrom: 0.4.4
+categories:
+  - emulation
+  - testing
+  - linux

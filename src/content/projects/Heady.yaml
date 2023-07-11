@@ -1,0 +1,9 @@
+name: Heady
+icon: EtUltricesPosuere.gif
+link: http://dummyimage.com/158x100.png/5fa2dd/ffffff
+support: native
+versionFrom: '3.9'
+categories:
+  - visualstudio
+  - web
+  - oss

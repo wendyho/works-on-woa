@@ -1,0 +1,9 @@
+name: Ludgate
+icon: Sodales.tiff
+link: http://dummyimage.com/188x100.png/ff4444/ffffff
+support: unknown
+versionFrom: 8.2.1
+categories:
+  - kernel
+  - linux
+  - dotnet

@@ -1,0 +1,8 @@
+name: Thayre
+icon: Nulla.xls
+link: http://dummyimage.com/245x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: 8.3.0
+categories:
+  - dotnet
+  - linux

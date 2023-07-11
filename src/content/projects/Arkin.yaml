@@ -1,0 +1,9 @@
+name: Arkin
+icon: EgetEleifendLuctus.mp3
+link: http://dummyimage.com/116x100.png/ff4444/ffffff
+support: unknown
+versionFrom: '0.70'
+categories:
+  - testing
+  - tools
+  - dotnet

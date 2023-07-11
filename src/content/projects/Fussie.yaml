@@ -1,0 +1,9 @@
+name: Fussie
+icon: AtVulputateVitae.jpeg
+link: http://dummyimage.com/184x100.png/cc0000/ffffff
+support: emulation
+versionFrom: '0.55'
+categories:
+  - emulation
+  - dotnet
+  - web

@@ -1,0 +1,9 @@
+name: Mournian
+icon: Libero.png
+link: http://dummyimage.com/126x100.png/5fa2dd/ffffff
+support: unknown
+versionFrom: '6.53'
+categories:
+  - dotnet
+  - embedded
+  - emulation

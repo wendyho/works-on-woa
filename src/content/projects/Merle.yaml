@@ -1,0 +1,9 @@
+name: Merle
+icon: NonMi.jpeg
+link: http://dummyimage.com/238x100.png/cc0000/ffffff
+support: native
+versionFrom: '6.22'
+categories:
+  - dotnet
+  - kernel
+  - testing

@@ -1,0 +1,9 @@
+name: De Vaux
+icon: In.mp3
+link: http://dummyimage.com/198x100.png/dddddd/000000
+support: 'no'
+versionFrom: '3.28'
+categories:
+  - linux
+  - kernel
+  - visualstudio

@@ -1,0 +1,8 @@
+name: Durtnell
+icon: Nisl.png
+link: http://dummyimage.com/102x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: 6.4.6
+categories:
+  - visualstudio
+  - kernel

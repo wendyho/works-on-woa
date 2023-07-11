@@ -1,0 +1,9 @@
+name: Tomlin
+icon: InTempusSit.xls
+link: http://dummyimage.com/138x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: '0.66'
+categories:
+  - oss
+  - testing
+  - dotnet

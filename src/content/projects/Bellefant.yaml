@@ -1,0 +1,9 @@
+name: Bellefant
+icon: PulvinarNullaPede.ppt
+link: http://dummyimage.com/171x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: '0.26'
+categories:
+  - testing
+  - dotnet
+  - visualstudio

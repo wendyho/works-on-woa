@@ -1,0 +1,9 @@
+name: Langdon
+icon: In.mp3
+link: http://dummyimage.com/128x100.png/5fa2dd/ffffff
+support: unknown
+versionFrom: '9.8'
+categories:
+  - dotnet
+  - emulation
+  - web

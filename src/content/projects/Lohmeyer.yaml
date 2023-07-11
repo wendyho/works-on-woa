@@ -1,0 +1,9 @@
+name: Lohmeyer
+icon: SociisNatoque.tiff
+link: http://dummyimage.com/140x100.png/5fa2dd/ffffff
+support: native
+versionFrom: '9.52'
+categories:
+  - visualstudio
+  - embedded
+  - emulation

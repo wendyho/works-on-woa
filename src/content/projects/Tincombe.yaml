@@ -1,0 +1,9 @@
+name: Tincombe
+icon: UtNullaSed.png
+link: http://dummyimage.com/232x100.png/cc0000/ffffff
+support: emulation
+versionFrom: '8.9'
+categories:
+  - oss
+  - embedded
+  - kernel

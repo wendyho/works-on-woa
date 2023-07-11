@@ -1,0 +1,9 @@
+name: Rowlson
+icon: PellentesqueUltricesMattis.xls
+link: http://dummyimage.com/202x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: 0.5.1
+categories:
+  - tools
+  - testing
+  - visualstudio

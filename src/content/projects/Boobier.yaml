@@ -1,0 +1,9 @@
+name: Boobier
+icon: PretiumQuisLectus.avi
+link: http://dummyimage.com/126x100.png/dddddd/000000
+support: emulation
+versionFrom: '5.58'
+categories:
+  - tools
+  - testing
+  - kernel

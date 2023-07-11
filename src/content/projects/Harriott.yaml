@@ -1,0 +1,9 @@
+name: Harriott
+icon: JustoNecCondimentum.jpeg
+link: http://dummyimage.com/132x100.png/cc0000/ffffff
+support: unknown
+versionFrom: '8.69'
+categories:
+  - emulation
+  - testing
+  - kernel

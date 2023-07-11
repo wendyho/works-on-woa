@@ -1,0 +1,9 @@
+name: Barnet
+icon: Felis.tiff
+link: http://dummyimage.com/184x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: '0.35'
+categories:
+  - testing
+  - kernel
+  - linux

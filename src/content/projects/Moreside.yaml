@@ -1,0 +1,9 @@
+name: Moreside
+icon: ProinRisus.xls
+link: http://dummyimage.com/191x100.png/dddddd/000000
+support: unknown
+versionFrom: '2.94'
+categories:
+  - visualstudio
+  - tools
+  - dotnet

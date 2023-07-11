@@ -1,0 +1,9 @@
+name: Dupre
+icon: Commodo.txt
+link: http://dummyimage.com/130x100.png/dddddd/000000
+support: 'no'
+versionFrom: 0.6.7
+categories:
+  - tools
+  - emulation
+  - kernel

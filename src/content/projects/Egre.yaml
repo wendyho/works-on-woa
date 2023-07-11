@@ -1,0 +1,9 @@
+name: Egre
+icon: Iaculis.avi
+link: http://dummyimage.com/222x100.png/dddddd/000000
+support: 'no'
+versionFrom: '0.82'
+categories:
+  - dotnet
+  - visualstudio
+  - testing

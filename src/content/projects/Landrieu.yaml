@@ -1,0 +1,9 @@
+name: Landrieu
+icon: AFeugiatEt.mp3
+link: http://dummyimage.com/233x100.png/ff4444/ffffff
+support: emulation
+versionFrom: 5.7.9
+categories:
+  - embedded
+  - oss
+  - web

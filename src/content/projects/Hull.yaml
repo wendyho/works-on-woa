@@ -1,0 +1,9 @@
+name: Hull
+icon: RutrumAc.ppt
+link: http://dummyimage.com/151x100.png/dddddd/000000
+support: 'no'
+versionFrom: '3.4'
+categories:
+  - tools
+  - kernel
+  - embedded

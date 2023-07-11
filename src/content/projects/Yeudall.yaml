@@ -1,0 +1,9 @@
+name: Yeudall
+icon: AnteVel.avi
+link: http://dummyimage.com/192x100.png/cc0000/ffffff
+support: unknown
+versionFrom: '7.51'
+categories:
+  - web
+  - visualstudio
+  - embedded

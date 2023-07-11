@@ -1,0 +1,9 @@
+name: Chadwen
+icon: ViverraEgetCongue.ppt
+link: http://dummyimage.com/183x100.png/dddddd/000000
+support: emulation
+versionFrom: '0.86'
+categories:
+  - kernel
+  - testing
+  - embedded

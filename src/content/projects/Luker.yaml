@@ -1,0 +1,9 @@
+name: Luker
+icon: EuInterdumEu.tiff
+link: http://dummyimage.com/132x100.png/dddddd/000000
+support: native
+versionFrom: 0.7.9
+categories:
+  - kernel
+  - testing
+  - emulation

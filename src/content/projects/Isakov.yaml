@@ -1,0 +1,9 @@
+name: Isakov
+icon: Duis.mp3
+link: http://dummyimage.com/235x100.png/ff4444/ffffff
+support: native
+versionFrom: '0.33'
+categories:
+  - emulation
+  - visualstudio
+  - dotnet

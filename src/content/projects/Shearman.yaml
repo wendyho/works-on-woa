@@ -1,0 +1,9 @@
+name: Shearman
+icon: VelAugue.mp3
+link: http://dummyimage.com/193x100.png/dddddd/000000
+support: unknown
+versionFrom: 6.4.9
+categories:
+  - kernel
+  - web
+  - dotnet

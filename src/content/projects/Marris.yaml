@@ -1,0 +1,9 @@
+name: Marris
+icon: DisParturient.xls
+link: http://dummyimage.com/247x100.png/ff4444/ffffff
+support: 'no'
+versionFrom: 0.5.0
+categories:
+  - visualstudio
+  - tools
+  - kernel

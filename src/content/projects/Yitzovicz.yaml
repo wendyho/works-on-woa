@@ -1,0 +1,9 @@
+name: Yitzovicz
+icon: SapienUt.mp3
+link: http://dummyimage.com/175x100.png/cc0000/ffffff
+support: native
+versionFrom: '8.6'
+categories:
+  - kernel
+  - testing
+  - web

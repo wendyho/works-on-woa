@@ -1,0 +1,9 @@
+name: Saffle
+icon: ConvallisNullaNeque.doc
+link: http://dummyimage.com/169x100.png/dddddd/000000
+support: emulation
+versionFrom: 0.4.1
+categories:
+  - tools
+  - testing
+  - embedded

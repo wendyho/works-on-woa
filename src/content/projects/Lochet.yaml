@@ -1,0 +1,9 @@
+name: Lochet
+icon: NecSemDuis.tiff
+link: http://dummyimage.com/242x100.png/dddddd/000000
+support: 'no'
+versionFrom: '2.74'
+categories:
+  - testing
+  - embedded
+  - web

@@ -1,0 +1,9 @@
+name: Silverthorne
+icon: DuiLuctus.jpeg
+link: http://dummyimage.com/159x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: '2.0'
+categories:
+  - testing
+  - visualstudio
+  - embedded

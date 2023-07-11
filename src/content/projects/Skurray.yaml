@@ -1,0 +1,8 @@
+name: Skurray
+icon: Viverra.tiff
+link: http://dummyimage.com/226x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: '9.2'
+categories:
+  - embedded
+  - visualstudio

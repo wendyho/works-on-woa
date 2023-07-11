@@ -1,0 +1,9 @@
+name: Gligorijevic
+icon: Platea.txt
+link: http://dummyimage.com/190x100.png/dddddd/000000
+support: unknown
+versionFrom: '6.8'
+categories:
+  - linux
+  - kernel
+  - oss

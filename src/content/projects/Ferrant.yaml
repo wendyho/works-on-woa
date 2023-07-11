@@ -1,0 +1,9 @@
+name: Ferrant
+icon: AnteIpsum.avi
+link: http://dummyimage.com/146x100.png/dddddd/000000
+support: 'no'
+versionFrom: 0.7.4
+categories:
+  - tools
+  - testing
+  - oss

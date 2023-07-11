@@ -1,0 +1,9 @@
+name: Woodroof
+icon: CuraeDonec.ppt
+link: http://dummyimage.com/235x100.png/cc0000/ffffff
+support: emulation
+versionFrom: '0.96'
+categories:
+  - linux
+  - visualstudio
+  - web

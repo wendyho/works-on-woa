@@ -1,0 +1,9 @@
+name: Kerfut
+icon: Mauris.gif
+link: http://dummyimage.com/152x100.png/dddddd/000000
+support: emulation
+versionFrom: 0.2.6
+categories:
+  - tools
+  - linux
+  - testing

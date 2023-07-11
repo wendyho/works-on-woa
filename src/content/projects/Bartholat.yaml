@@ -1,0 +1,9 @@
+name: Bartholat
+icon: SapienIn.mov
+link: http://dummyimage.com/125x100.png/cc0000/ffffff
+support: native
+versionFrom: 0.6.0
+categories:
+  - embedded
+  - dotnet
+  - linux

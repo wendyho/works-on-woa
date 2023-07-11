@@ -1,0 +1,9 @@
+name: Breakey
+icon: NisiAt.mp3
+link: http://dummyimage.com/117x100.png/dddddd/000000
+support: native
+versionFrom: '1.54'
+categories:
+  - linux
+  - oss
+  - tools

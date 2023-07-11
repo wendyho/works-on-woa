@@ -1,0 +1,8 @@
+name: Fidgeon
+icon: PlateaDictumst.png
+link: http://dummyimage.com/191x100.png/cc0000/ffffff
+support: unknown
+versionFrom: '5.9'
+categories:
+  - embedded
+  - kernel

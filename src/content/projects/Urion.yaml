@@ -1,0 +1,8 @@
+name: Urion
+icon: Sociis.png
+link: http://dummyimage.com/176x100.png/dddddd/000000
+support: emulation
+versionFrom: '0.91'
+categories:
+  - embedded
+  - visualstudio

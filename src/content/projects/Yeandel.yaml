@@ -1,0 +1,9 @@
+name: Yeandel
+icon: Id.ppt
+link: http://dummyimage.com/128x100.png/dddddd/000000
+support: unknown
+versionFrom: '4.18'
+categories:
+  - oss
+  - visualstudio
+  - kernel

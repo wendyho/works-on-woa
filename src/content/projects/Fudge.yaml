@@ -1,0 +1,9 @@
+name: Fudge
+icon: DonecUt.mp3
+link: http://dummyimage.com/226x100.png/dddddd/000000
+support: unknown
+versionFrom: '0.83'
+categories:
+  - dotnet
+  - embedded
+  - web

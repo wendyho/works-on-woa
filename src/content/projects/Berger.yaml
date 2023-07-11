@@ -1,0 +1,9 @@
+name: Berger
+icon: Elit.mp3
+link: http://dummyimage.com/204x100.png/ff4444/ffffff
+support: native
+versionFrom: 0.7.4
+categories:
+  - kernel
+  - linux
+  - visualstudio

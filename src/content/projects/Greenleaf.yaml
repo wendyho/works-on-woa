@@ -1,0 +1,9 @@
+name: Greenleaf
+icon: Elementum.xls
+link: http://dummyimage.com/245x100.png/ff4444/ffffff
+support: emulation
+versionFrom: '0.54'
+categories:
+  - tools
+  - testing
+  - oss

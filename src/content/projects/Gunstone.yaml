@@ -1,0 +1,9 @@
+name: Gunstone
+icon: ElementumPellentesqueQuisque.jpeg
+link: http://dummyimage.com/157x100.png/cc0000/ffffff
+support: native
+versionFrom: '8.19'
+categories:
+  - dotnet
+  - embedded
+  - testing

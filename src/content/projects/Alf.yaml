@@ -1,0 +1,9 @@
+name: Alf
+icon: PraesentBlanditLacinia.xls
+link: http://dummyimage.com/234x100.png/5fa2dd/ffffff
+support: native
+versionFrom: '2.27'
+categories:
+  - web
+  - linux
+  - tools

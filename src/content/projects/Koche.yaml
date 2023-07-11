@@ -1,0 +1,8 @@
+name: Koche
+icon: Mauris.jpeg
+link: http://dummyimage.com/146x100.png/ff4444/ffffff
+support: native
+versionFrom: 0.1.1
+categories:
+  - kernel
+  - testing

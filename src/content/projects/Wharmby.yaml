@@ -1,0 +1,9 @@
+name: Wharmby
+icon: Duis.jpeg
+link: http://dummyimage.com/178x100.png/cc0000/ffffff
+support: emulation
+versionFrom: 0.1.3
+categories:
+  - kernel
+  - visualstudio
+  - linux

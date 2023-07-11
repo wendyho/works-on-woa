@@ -1,0 +1,9 @@
+name: Keri
+icon: UltricesEratTortor.txt
+link: http://dummyimage.com/245x100.png/ff4444/ffffff
+support: native
+versionFrom: 0.6.0
+categories:
+  - testing
+  - tools
+  - oss

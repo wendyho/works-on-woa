@@ -1,0 +1,9 @@
+name: Pasmore
+icon: Libero.mpeg
+link: http://dummyimage.com/195x100.png/dddddd/000000
+support: emulation
+versionFrom: '3.4'
+categories:
+  - oss
+  - kernel
+  - tools

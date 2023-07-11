@@ -1,0 +1,9 @@
+name: Meco
+icon: NisiVolutpat.mp3
+link: http://dummyimage.com/237x100.png/ff4444/ffffff
+support: native
+versionFrom: 5.7.7
+categories:
+  - kernel
+  - visualstudio
+  - dotnet

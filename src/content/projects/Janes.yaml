@@ -1,0 +1,9 @@
+name: Janes
+icon: VelLectusIn.avi
+link: http://dummyimage.com/241x100.png/dddddd/000000
+support: native
+versionFrom: '2.38'
+categories:
+  - linux
+  - testing
+  - dotnet

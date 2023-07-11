@@ -1,0 +1,9 @@
+name: Waghorn
+icon: TempusVel.mp3
+link: http://dummyimage.com/132x100.png/ff4444/ffffff
+support: emulation
+versionFrom: 0.9.7
+categories:
+  - oss
+  - embedded
+  - emulation

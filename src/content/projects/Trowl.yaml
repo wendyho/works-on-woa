@@ -1,0 +1,8 @@
+name: Trowl
+icon: VestibulumVelitId.xls
+link: http://dummyimage.com/228x100.png/5fa2dd/ffffff
+support: native
+versionFrom: '5.8'
+categories:
+  - emulation
+  - embedded

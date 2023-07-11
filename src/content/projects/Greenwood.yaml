@@ -1,0 +1,9 @@
+name: Greenwood
+icon: Quis.mp3
+link: http://dummyimage.com/121x100.png/dddddd/000000
+support: 'no'
+versionFrom: '8.6'
+categories:
+  - web
+  - tools
+  - embedded

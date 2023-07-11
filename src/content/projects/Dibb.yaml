@@ -1,0 +1,9 @@
+name: Dibb
+icon: TortorQuis.mov
+link: http://dummyimage.com/214x100.png/5fa2dd/ffffff
+support: native
+versionFrom: 6.2.3
+categories:
+  - web
+  - dotnet
+  - emulation

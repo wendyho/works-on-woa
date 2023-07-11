@@ -1,0 +1,8 @@
+name: Warboy
+icon: Ut.ppt
+link: http://dummyimage.com/191x100.png/ff4444/ffffff
+support: emulation
+versionFrom: '0.70'
+categories:
+  - tools
+  - kernel

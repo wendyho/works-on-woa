@@ -1,0 +1,9 @@
+name: Cuseick
+icon: Donec.avi
+link: http://dummyimage.com/102x100.png/cc0000/ffffff
+support: emulation
+versionFrom: '9.3'
+categories:
+  - visualstudio
+  - linux
+  - web

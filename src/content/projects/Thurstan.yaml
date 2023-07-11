@@ -1,0 +1,8 @@
+name: Thurstan
+icon: Porttitor.ppt
+link: http://dummyimage.com/152x100.png/dddddd/000000
+support: emulation
+versionFrom: '6.4'
+categories:
+  - dotnet
+  - testing

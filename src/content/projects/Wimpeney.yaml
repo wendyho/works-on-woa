@@ -1,0 +1,9 @@
+name: Wimpeney
+icon: AtNulla.doc
+link: http://dummyimage.com/235x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: 0.9.9
+categories:
+  - tools
+  - web
+  - testing

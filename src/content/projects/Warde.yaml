@@ -1,0 +1,9 @@
+name: Warde
+icon: Est.gif
+link: http://dummyimage.com/106x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: 0.8.2
+categories:
+  - web
+  - visualstudio
+  - embedded

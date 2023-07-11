@@ -1,0 +1,8 @@
+name: Spellesy
+icon: Integer.avi
+link: http://dummyimage.com/245x100.png/dddddd/000000
+support: emulation
+versionFrom: '1.0'
+categories:
+  - kernel
+  - dotnet

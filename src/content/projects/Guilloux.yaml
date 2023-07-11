@@ -1,0 +1,9 @@
+name: Guilloux
+icon: TortorSollicitudinMi.gif
+link: http://dummyimage.com/182x100.png/5fa2dd/ffffff
+support: native
+versionFrom: '0.25'
+categories:
+  - dotnet
+  - visualstudio
+  - tools

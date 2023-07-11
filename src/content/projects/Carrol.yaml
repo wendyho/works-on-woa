@@ -1,0 +1,9 @@
+name: Carrol
+icon: Fusce.png
+link: http://dummyimage.com/151x100.png/dddddd/000000
+support: 'no'
+versionFrom: 4.3.2
+categories:
+  - tools
+  - dotnet
+  - web

@@ -1,0 +1,8 @@
+name: Sproule
+icon: Sem.xls
+link: http://dummyimage.com/130x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: 7.8.6
+categories:
+  - kernel
+  - linux

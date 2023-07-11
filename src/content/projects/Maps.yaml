@@ -1,0 +1,8 @@
+name: Maps
+icon: DuisAliquamConvallis.avi
+link: http://dummyimage.com/243x100.png/ff4444/ffffff
+support: native
+versionFrom: '2.3'
+categories:
+  - dotnet
+  - tools

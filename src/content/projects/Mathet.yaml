@@ -1,0 +1,9 @@
+name: Mathet
+icon: PenatibusEtMagnis.avi
+link: http://dummyimage.com/186x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: '5.8'
+categories:
+  - dotnet
+  - kernel
+  - tools

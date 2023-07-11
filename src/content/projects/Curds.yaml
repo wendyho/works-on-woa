@@ -1,0 +1,9 @@
+name: Curds
+icon: SapienIaculisCongue.avi
+link: http://dummyimage.com/208x100.png/dddddd/000000
+support: emulation
+versionFrom: '7.3'
+categories:
+  - emulation
+  - visualstudio
+  - kernel

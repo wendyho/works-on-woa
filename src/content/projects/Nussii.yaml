@@ -1,0 +1,9 @@
+name: Nussii
+icon: AugueASuscipit.xls
+link: http://dummyimage.com/112x100.png/cc0000/ffffff
+support: emulation
+versionFrom: '0.56'
+categories:
+  - embedded
+  - oss
+  - linux

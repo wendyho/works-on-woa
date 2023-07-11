@@ -1,0 +1,9 @@
+name: Gagie
+icon: IpsumPrimis.mp3
+link: http://dummyimage.com/169x100.png/cc0000/ffffff
+support: unknown
+versionFrom: 0.2.1
+categories:
+  - visualstudio
+  - tools
+  - embedded

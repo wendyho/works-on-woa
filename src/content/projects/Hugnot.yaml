@@ -1,0 +1,9 @@
+name: Hugnot
+icon: SitAmet.ppt
+link: http://dummyimage.com/166x100.png/dddddd/000000
+support: 'no'
+versionFrom: 4.7.7
+categories:
+  - kernel
+  - visualstudio
+  - testing

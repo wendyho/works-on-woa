@@ -1,0 +1,9 @@
+name: McTrustram
+icon: PedeMalesuadaIn.mpeg
+link: http://dummyimage.com/204x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: 7.2.5
+categories:
+  - visualstudio
+  - web
+  - dotnet

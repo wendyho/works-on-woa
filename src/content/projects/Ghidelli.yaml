@@ -1,0 +1,9 @@
+name: Ghidelli
+icon: Turpis.mpeg
+link: http://dummyimage.com/124x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: '3.95'
+categories:
+  - web
+  - embedded
+  - testing

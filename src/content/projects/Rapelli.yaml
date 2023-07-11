@@ -1,0 +1,9 @@
+name: Rapelli
+icon: Quam.avi
+link: http://dummyimage.com/106x100.png/cc0000/ffffff
+support: native
+versionFrom: '7.9'
+categories:
+  - kernel
+  - linux
+  - tools

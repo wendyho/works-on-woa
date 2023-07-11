@@ -1,0 +1,9 @@
+name: de Castelain
+icon: ScelerisqueMauris.doc
+link: http://dummyimage.com/229x100.png/ff4444/ffffff
+support: emulation
+versionFrom: 2.3.0
+categories:
+  - dotnet
+  - emulation
+  - tools

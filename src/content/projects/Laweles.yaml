@@ -1,0 +1,9 @@
+name: Laweles
+icon: DolorMorbiVel.gif
+link: http://dummyimage.com/238x100.png/ff4444/ffffff
+support: emulation
+versionFrom: 3.3.3
+categories:
+  - embedded
+  - dotnet
+  - kernel

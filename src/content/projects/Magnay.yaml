@@ -1,0 +1,9 @@
+name: Magnay
+icon: LeoOdio.ppt
+link: http://dummyimage.com/145x100.png/cc0000/ffffff
+support: native
+versionFrom: 0.9.1
+categories:
+  - tools
+  - emulation
+  - kernel

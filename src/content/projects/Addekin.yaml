@@ -1,0 +1,8 @@
+name: Addekin
+icon: Dictumst.tiff
+link: http://dummyimage.com/156x100.png/cc0000/ffffff
+support: native
+versionFrom: '4.05'
+categories:
+  - embedded
+  - dotnet

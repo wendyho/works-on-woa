@@ -1,0 +1,9 @@
+name: Ullrich
+icon: PenatibusEtMagnis.tiff
+link: http://dummyimage.com/159x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: 0.1.6
+categories:
+  - linux
+  - web
+  - dotnet

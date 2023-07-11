@@ -1,0 +1,9 @@
+name: Fowley
+icon: NequeVestibulum.avi
+link: http://dummyimage.com/100x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: '0.10'
+categories:
+  - testing
+  - linux
+  - tools

@@ -1,0 +1,8 @@
+name: Wagerfield
+icon: DuisBibendum.avi
+link: http://dummyimage.com/133x100.png/cc0000/ffffff
+support: emulation
+versionFrom: 8.2.2
+categories:
+  - kernel
+  - visualstudio

@@ -1,0 +1,8 @@
+name: Maffei
+icon: PrimisInFaucibus.mp3
+link: http://dummyimage.com/189x100.png/ff4444/ffffff
+support: emulation
+versionFrom: 8.4.5
+categories:
+  - oss
+  - testing

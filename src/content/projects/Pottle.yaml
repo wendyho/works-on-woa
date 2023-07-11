@@ -1,0 +1,8 @@
+name: Pottle
+icon: Nulla.ppt
+link: http://dummyimage.com/178x100.png/dddddd/000000
+support: emulation
+versionFrom: '2.9'
+categories:
+  - embedded
+  - dotnet

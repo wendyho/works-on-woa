@@ -1,0 +1,9 @@
+name: Sutherns
+icon: VelitId.avi
+link: http://dummyimage.com/100x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: 0.9.4
+categories:
+  - oss
+  - emulation
+  - embedded

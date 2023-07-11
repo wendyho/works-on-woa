@@ -1,0 +1,8 @@
+name: Card
+icon: Egestas.xls
+link: http://dummyimage.com/117x100.png/ff4444/ffffff
+support: 'no'
+versionFrom: '0.99'
+categories:
+  - linux
+  - visualstudio

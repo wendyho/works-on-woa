@@ -1,0 +1,9 @@
+name: Hayller
+icon: PedeMorbiPorttitor.xls
+link: http://dummyimage.com/239x100.png/ff4444/ffffff
+support: unknown
+versionFrom: '4.8'
+categories:
+  - dotnet
+  - testing
+  - kernel

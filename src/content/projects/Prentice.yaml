@@ -1,0 +1,9 @@
+name: Prentice
+icon: Est.jpeg
+link: http://dummyimage.com/121x100.png/cc0000/ffffff
+support: native
+versionFrom: '0.15'
+categories:
+  - tools
+  - testing
+  - embedded

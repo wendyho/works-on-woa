@@ -1,0 +1,9 @@
+name: Songest
+icon: LacusMorbiSem.xls
+link: http://dummyimage.com/129x100.png/dddddd/000000
+support: unknown
+versionFrom: 7.5.7
+categories:
+  - dotnet
+  - web
+  - kernel

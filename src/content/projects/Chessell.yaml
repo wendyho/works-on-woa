@@ -1,0 +1,9 @@
+name: Chessell
+icon: In.mov
+link: http://dummyimage.com/151x100.png/5fa2dd/ffffff
+support: unknown
+versionFrom: '0.57'
+categories:
+  - linux
+  - tools
+  - kernel

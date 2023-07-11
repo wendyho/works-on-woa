@@ -1,0 +1,9 @@
+name: Bennetto
+icon: SapienCum.xls
+link: http://dummyimage.com/178x100.png/dddddd/000000
+support: 'no'
+versionFrom: '0.31'
+categories:
+  - linux
+  - visualstudio
+  - dotnet

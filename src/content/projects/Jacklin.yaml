@@ -1,0 +1,8 @@
+name: Jacklin
+icon: IpsumDolorSit.mp3
+link: http://dummyimage.com/110x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: 0.9.4
+categories:
+  - testing
+  - embedded

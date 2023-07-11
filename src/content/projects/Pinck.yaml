@@ -1,0 +1,8 @@
+name: Pinck
+icon: CondimentumNequeSapien.avi
+link: http://dummyimage.com/197x100.png/cc0000/ffffff
+support: emulation
+versionFrom: 8.7.1
+categories:
+  - visualstudio
+  - oss

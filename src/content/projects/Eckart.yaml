@@ -1,0 +1,9 @@
+name: Eckart
+icon: ElitProin.mp3
+link: http://dummyimage.com/146x100.png/dddddd/000000
+support: native
+versionFrom: 6.2.6
+categories:
+  - embedded
+  - web
+  - visualstudio

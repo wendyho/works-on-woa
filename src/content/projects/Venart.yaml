@@ -1,0 +1,9 @@
+name: Venart
+icon: DonecOdioJusto.png
+link: http://dummyimage.com/129x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: '0.34'
+categories:
+  - visualstudio
+  - web
+  - emulation

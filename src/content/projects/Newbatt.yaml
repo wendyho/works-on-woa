@@ -1,0 +1,8 @@
+name: Newbatt
+icon: MorbiQuisTortor.xls
+link: http://dummyimage.com/220x100.png/dddddd/000000
+support: 'no'
+versionFrom: '0.98'
+categories:
+  - dotnet
+  - visualstudio

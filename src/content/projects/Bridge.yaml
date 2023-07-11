@@ -1,0 +1,9 @@
+name: Bridge
+icon: Molestie.avi
+link: http://dummyimage.com/171x100.png/ff4444/ffffff
+support: 'no'
+versionFrom: '0.52'
+categories:
+  - dotnet
+  - emulation
+  - oss

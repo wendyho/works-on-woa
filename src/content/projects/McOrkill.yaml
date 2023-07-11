@@ -1,0 +1,9 @@
+name: McOrkill
+icon: Donec.mp3
+link: http://dummyimage.com/193x100.png/cc0000/ffffff
+support: unknown
+versionFrom: '1.24'
+categories:
+  - kernel
+  - oss
+  - emulation

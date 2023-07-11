@@ -1,0 +1,9 @@
+name: Oxborough
+icon: ConvallisMorbiOdio.mpeg
+link: http://dummyimage.com/220x100.png/ff4444/ffffff
+support: 'no'
+versionFrom: '2.4'
+categories:
+  - testing
+  - web
+  - emulation

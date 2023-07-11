@@ -1,0 +1,9 @@
+name: Kittle
+icon: Donec.jpeg
+link: http://dummyimage.com/190x100.png/ff4444/ffffff
+support: emulation
+versionFrom: 0.7.3
+categories:
+  - tools
+  - testing
+  - oss

@@ -1,0 +1,8 @@
+name: Brownett
+icon: A.mpeg
+link: http://dummyimage.com/100x100.png/cc0000/ffffff
+support: unknown
+versionFrom: '2.17'
+categories:
+  - kernel
+  - tools

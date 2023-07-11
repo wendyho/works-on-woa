@@ -1,0 +1,9 @@
+name: Bliven
+icon: Justo.ppt
+link: http://dummyimage.com/182x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: '7.44'
+categories:
+  - kernel
+  - visualstudio
+  - tools

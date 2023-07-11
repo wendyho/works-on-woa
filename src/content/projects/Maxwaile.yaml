@@ -1,0 +1,9 @@
+name: Maxwaile
+icon: VolutpatIn.xls
+link: http://dummyimage.com/169x100.png/ff4444/ffffff
+support: native
+versionFrom: 6.7.6
+categories:
+  - web
+  - dotnet
+  - kernel

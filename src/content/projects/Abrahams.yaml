@@ -1,0 +1,9 @@
+name: Abrahams
+icon: LacusPurusAliquet.mp3
+link: http://dummyimage.com/105x100.png/dddddd/000000
+support: emulation
+versionFrom: '0.80'
+categories:
+  - embedded
+  - dotnet
+  - kernel

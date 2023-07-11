@@ -1,0 +1,8 @@
+name: Gorrie
+icon: CurabiturGravida.xls
+link: http://dummyimage.com/197x100.png/5fa2dd/ffffff
+support: native
+versionFrom: '0.21'
+categories:
+  - linux
+  - web

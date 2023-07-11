@@ -1,0 +1,9 @@
+name: Emanuelov
+icon: NonummyInteger.tiff
+link: http://dummyimage.com/223x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: '3.69'
+categories:
+  - emulation
+  - oss
+  - kernel

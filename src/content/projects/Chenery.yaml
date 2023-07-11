@@ -1,0 +1,9 @@
+name: Chenery
+icon: Vehicula.avi
+link: http://dummyimage.com/248x100.png/cc0000/ffffff
+support: unknown
+versionFrom: '2.9'
+categories:
+  - testing
+  - dotnet
+  - emulation

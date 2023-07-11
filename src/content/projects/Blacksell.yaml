@@ -1,0 +1,9 @@
+name: Blacksell
+icon: Et.tiff
+link: http://dummyimage.com/250x100.png/ff4444/ffffff
+support: unknown
+versionFrom: '0.88'
+categories:
+  - emulation
+  - visualstudio
+  - dotnet

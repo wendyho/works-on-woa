@@ -1,0 +1,9 @@
+name: Onge
+icon: LiberoRutrumAc.doc
+link: http://dummyimage.com/166x100.png/ff4444/ffffff
+support: emulation
+versionFrom: 6.7.5
+categories:
+  - dotnet
+  - testing
+  - web

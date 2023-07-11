@@ -1,0 +1,9 @@
+name: Hexham
+icon: SuspendisseOrnareConsequat.ppt
+link: http://dummyimage.com/113x100.png/5fa2dd/ffffff
+support: native
+versionFrom: '3.65'
+categories:
+  - visualstudio
+  - testing
+  - kernel

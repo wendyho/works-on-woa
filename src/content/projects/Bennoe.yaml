@@ -1,0 +1,9 @@
+name: Bennoe
+icon: DictumstMorbiVestibulum.xls
+link: http://dummyimage.com/206x100.png/dddddd/000000
+support: native
+versionFrom: '0.90'
+categories:
+  - embedded
+  - tools
+  - kernel

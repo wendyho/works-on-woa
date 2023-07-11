@@ -1,0 +1,9 @@
+name: Keepe
+icon: NequeLiberoConvallis.mp3
+link: http://dummyimage.com/158x100.png/cc0000/ffffff
+support: native
+versionFrom: '8.8'
+categories:
+  - visualstudio
+  - tools
+  - emulation

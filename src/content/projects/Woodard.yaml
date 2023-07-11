@@ -1,0 +1,9 @@
+name: Woodard
+icon: Phasellus.xls
+link: http://dummyimage.com/223x100.png/cc0000/ffffff
+support: native
+versionFrom: '0.28'
+categories:
+  - kernel
+  - web
+  - emulation

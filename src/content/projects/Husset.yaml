@@ -1,0 +1,9 @@
+name: Husset
+icon: Imperdiet.jpeg
+link: http://dummyimage.com/246x100.png/cc0000/ffffff
+support: emulation
+versionFrom: 0.3.1
+categories:
+  - testing
+  - tools
+  - kernel

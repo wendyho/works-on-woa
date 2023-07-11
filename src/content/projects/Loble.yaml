@@ -1,0 +1,9 @@
+name: Loble
+icon: Arcu.ppt
+link: http://dummyimage.com/144x100.png/cc0000/ffffff
+support: unknown
+versionFrom: 0.7.3
+categories:
+  - dotnet
+  - embedded
+  - emulation

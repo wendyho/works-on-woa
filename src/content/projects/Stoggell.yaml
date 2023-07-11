@@ -1,0 +1,9 @@
+name: Stoggell
+icon: Lorem.doc
+link: http://dummyimage.com/245x100.png/cc0000/ffffff
+support: native
+versionFrom: '0.66'
+categories:
+  - visualstudio
+  - tools
+  - oss

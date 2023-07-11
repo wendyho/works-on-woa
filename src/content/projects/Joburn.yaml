@@ -1,0 +1,9 @@
+name: Joburn
+icon: AtFeugiatNon.avi
+link: http://dummyimage.com/176x100.png/cc0000/ffffff
+support: emulation
+versionFrom: '9.4'
+categories:
+  - emulation
+  - kernel
+  - dotnet

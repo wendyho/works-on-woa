@@ -1,0 +1,9 @@
+name: Prati
+icon: MorbiNon.png
+link: http://dummyimage.com/227x100.png/5fa2dd/ffffff
+support: unknown
+versionFrom: '1.1'
+categories:
+  - linux
+  - embedded
+  - kernel

@@ -1,0 +1,8 @@
+name: Laister
+icon: FaucibusOrci.ppt
+link: http://dummyimage.com/202x100.png/5fa2dd/ffffff
+support: unknown
+versionFrom: '3.54'
+categories:
+  - linux
+  - embedded

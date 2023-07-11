@@ -1,0 +1,9 @@
+name: Gripton
+icon: Sed.mp3
+link: http://dummyimage.com/241x100.png/cc0000/ffffff
+support: native
+versionFrom: '0.29'
+categories:
+  - web
+  - linux
+  - testing

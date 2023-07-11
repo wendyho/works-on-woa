@@ -1,0 +1,9 @@
+name: Pridden
+icon: Libero.xls
+link: http://dummyimage.com/198x100.png/5fa2dd/ffffff
+support: unknown
+versionFrom: '8.12'
+categories:
+  - oss
+  - visualstudio
+  - linux

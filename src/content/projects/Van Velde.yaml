@@ -1,0 +1,9 @@
+name: Van Velde
+icon: EtUltricesPosuere.gif
+link: http://dummyimage.com/107x100.png/ff4444/ffffff
+support: native
+versionFrom: '7.31'
+categories:
+  - tools
+  - kernel
+  - web

@@ -1,0 +1,9 @@
+name: Couper
+icon: VelAccumsanTellus.xls
+link: http://dummyimage.com/116x100.png/dddddd/000000
+support: emulation
+versionFrom: 5.4.2
+categories:
+  - visualstudio
+  - testing
+  - kernel

@@ -1,0 +1,9 @@
+name: Insko
+icon: SitAmet.tiff
+link: http://dummyimage.com/161x100.png/cc0000/ffffff
+support: unknown
+versionFrom: '1.9'
+categories:
+  - embedded
+  - tools
+  - testing

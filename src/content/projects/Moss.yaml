@@ -1,0 +1,8 @@
+name: Moss
+icon: Id.ppt
+link: http://dummyimage.com/209x100.png/dddddd/000000
+support: unknown
+versionFrom: '1.72'
+categories:
+  - kernel
+  - testing

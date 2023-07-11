@@ -1,0 +1,9 @@
+name: Machent
+icon: In.mp3
+link: http://dummyimage.com/223x100.png/cc0000/ffffff
+support: unknown
+versionFrom: '0.32'
+categories:
+  - visualstudio
+  - linux
+  - kernel

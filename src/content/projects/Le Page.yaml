@@ -1,0 +1,9 @@
+name: Le Page
+icon: NuncViverra.jpeg
+link: http://dummyimage.com/235x100.png/cc0000/ffffff
+support: emulation
+versionFrom: '3.0'
+categories:
+  - tools
+  - embedded
+  - emulation

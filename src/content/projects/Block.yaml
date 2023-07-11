@@ -1,0 +1,9 @@
+name: Block
+icon: Primis.mp3
+link: http://dummyimage.com/210x100.png/ff4444/ffffff
+support: emulation
+versionFrom: '6.79'
+categories:
+  - emulation
+  - dotnet
+  - linux

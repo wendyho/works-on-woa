@@ -1,0 +1,9 @@
+name: Reddington
+icon: PharetraMagnaAc.jpeg
+link: http://dummyimage.com/208x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: '4.34'
+categories:
+  - linux
+  - dotnet
+  - visualstudio

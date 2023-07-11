@@ -1,0 +1,8 @@
+name: Schuster
+icon: LiberoUtMassa.jpeg
+link: http://dummyimage.com/148x100.png/dddddd/000000
+support: 'no'
+versionFrom: '0.60'
+categories:
+  - dotnet
+  - visualstudio

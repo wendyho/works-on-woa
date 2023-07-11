@@ -1,0 +1,9 @@
+name: Mardall
+icon: AmetDiam.tiff
+link: http://dummyimage.com/231x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: '7.6'
+categories:
+  - tools
+  - dotnet
+  - visualstudio

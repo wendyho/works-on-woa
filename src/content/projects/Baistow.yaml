@@ -1,0 +1,8 @@
+name: Baistow
+icon: Nulla.jpeg
+link: http://dummyimage.com/179x100.png/dddddd/000000
+support: native
+versionFrom: '4.4'
+categories:
+  - visualstudio
+  - dotnet

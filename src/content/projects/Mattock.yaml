@@ -1,0 +1,8 @@
+name: Mattock
+icon: MagnisDisParturient.png
+link: http://dummyimage.com/206x100.png/ff4444/ffffff
+support: emulation
+versionFrom: '0.19'
+categories:
+  - visualstudio
+  - oss

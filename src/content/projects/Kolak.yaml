@@ -1,0 +1,9 @@
+name: Kolak
+icon: NuncCommodo.jpeg
+link: http://dummyimage.com/193x100.png/dddddd/000000
+support: native
+versionFrom: '9.4'
+categories:
+  - linux
+  - kernel
+  - tools

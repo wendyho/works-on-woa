@@ -1,0 +1,9 @@
+name: Wenzel
+icon: TurpisSed.txt
+link: http://dummyimage.com/121x100.png/ff4444/ffffff
+support: 'no'
+versionFrom: '5.13'
+categories:
+  - linux
+  - testing
+  - kernel

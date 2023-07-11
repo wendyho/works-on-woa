@@ -1,0 +1,8 @@
+name: Vaen
+icon: NullamVariusNulla.ppt
+link: http://dummyimage.com/221x100.png/5fa2dd/ffffff
+support: native
+versionFrom: '0.17'
+categories:
+  - emulation
+  - kernel

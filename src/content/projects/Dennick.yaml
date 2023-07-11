@@ -1,0 +1,9 @@
+name: Dennick
+icon: ConvallisMorbiOdio.avi
+link: http://dummyimage.com/104x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: '0.75'
+categories:
+  - kernel
+  - embedded
+  - oss

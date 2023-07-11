@@ -1,0 +1,9 @@
+name: Lassetter
+icon: Hac.xls
+link: http://dummyimage.com/165x100.png/ff4444/ffffff
+support: emulation
+versionFrom: '6.3'
+categories:
+  - web
+  - oss
+  - visualstudio

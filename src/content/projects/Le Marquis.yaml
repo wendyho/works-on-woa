@@ -1,0 +1,9 @@
+name: Le Marquis
+icon: Ultrices.avi
+link: http://dummyimage.com/214x100.png/ff4444/ffffff
+support: 'no'
+versionFrom: '0.39'
+categories:
+  - testing
+  - linux
+  - dotnet

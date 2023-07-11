@@ -1,0 +1,9 @@
+name: Igonet
+icon: TemporTurpis.xls
+link: http://dummyimage.com/164x100.png/5fa2dd/ffffff
+support: native
+versionFrom: 0.7.1
+categories:
+  - dotnet
+  - linux
+  - emulation

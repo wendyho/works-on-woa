@@ -1,0 +1,9 @@
+name: Treweek
+icon: Praesent.doc
+link: http://dummyimage.com/145x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: 8.4.7
+categories:
+  - linux
+  - embedded
+  - kernel

@@ -1,0 +1,9 @@
+name: Dewsbury
+icon: Eleifend.mp3
+link: http://dummyimage.com/195x100.png/dddddd/000000
+support: native
+versionFrom: 7.7.4
+categories:
+  - dotnet
+  - emulation
+  - embedded

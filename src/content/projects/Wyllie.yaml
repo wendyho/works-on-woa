@@ -1,0 +1,8 @@
+name: Wyllie
+icon: AdipiscingElit.tiff
+link: http://dummyimage.com/156x100.png/ff4444/ffffff
+support: 'no'
+versionFrom: 0.4.5
+categories:
+  - embedded
+  - kernel

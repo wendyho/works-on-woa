@@ -1,0 +1,9 @@
+name: Strafford
+icon: JustoMorbi.mov
+link: http://dummyimage.com/241x100.png/dddddd/000000
+support: 'no'
+versionFrom: 6.0.5
+categories:
+  - embedded
+  - testing
+  - web

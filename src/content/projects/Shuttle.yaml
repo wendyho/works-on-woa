@@ -1,0 +1,9 @@
+name: Shuttle
+icon: PedeVenenatis.avi
+link: http://dummyimage.com/206x100.png/ff4444/ffffff
+support: native
+versionFrom: '9.03'
+categories:
+  - testing
+  - tools
+  - oss

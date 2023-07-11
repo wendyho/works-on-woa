@@ -1,0 +1,9 @@
+name: Wabersich
+icon: UltricesEnimLorem.txt
+link: http://dummyimage.com/164x100.png/dddddd/000000
+support: emulation
+versionFrom: '6.5'
+categories:
+  - kernel
+  - tools
+  - emulation

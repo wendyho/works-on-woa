@@ -1,0 +1,9 @@
+name: Cockings
+icon: DonecUt.mov
+link: http://dummyimage.com/198x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: 0.7.8
+categories:
+  - oss
+  - embedded
+  - emulation

@@ -1,0 +1,9 @@
+name: Fealty
+icon: TinciduntAnteVel.avi
+link: http://dummyimage.com/212x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: 0.8.8
+categories:
+  - web
+  - oss
+  - embedded

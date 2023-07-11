@@ -1,0 +1,9 @@
+name: Hearnah
+icon: VelSemSed.xls
+link: http://dummyimage.com/117x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: '1.14'
+categories:
+  - dotnet
+  - linux
+  - emulation

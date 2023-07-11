@@ -1,0 +1,8 @@
+name: D'Elias
+icon: Massa.mp3
+link: http://dummyimage.com/227x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: '3.5'
+categories:
+  - visualstudio
+  - testing

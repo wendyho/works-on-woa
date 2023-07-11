@@ -1,0 +1,9 @@
+name: Rahlof
+icon: MiIntegerAc.xls
+link: http://dummyimage.com/124x100.png/cc0000/ffffff
+support: unknown
+versionFrom: '9.0'
+categories:
+  - kernel
+  - oss
+  - testing

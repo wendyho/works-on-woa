@@ -1,0 +1,9 @@
+name: Schulkins
+icon: Platea.avi
+link: http://dummyimage.com/177x100.png/ff4444/ffffff
+support: 'no'
+versionFrom: 2.8.3
+categories:
+  - visualstudio
+  - embedded
+  - linux

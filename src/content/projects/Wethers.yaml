@@ -1,0 +1,8 @@
+name: Wethers
+icon: AccumsanTellusNisi.avi
+link: http://dummyimage.com/133x100.png/ff4444/ffffff
+support: native
+versionFrom: '4.4'
+categories:
+  - web
+  - dotnet

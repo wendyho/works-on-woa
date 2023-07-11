@@ -1,0 +1,8 @@
+name: Cicullo
+icon: VelitNec.avi
+link: http://dummyimage.com/199x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: 9.6.1
+categories:
+  - tools
+  - kernel

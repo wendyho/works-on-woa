@@ -1,0 +1,9 @@
+name: Cars
+icon: Erat.mov
+link: http://dummyimage.com/235x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: '8.35'
+categories:
+  - web
+  - linux
+  - visualstudio

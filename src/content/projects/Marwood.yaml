@@ -1,0 +1,9 @@
+name: Marwood
+icon: Leo.ppt
+link: http://dummyimage.com/151x100.png/5fa2dd/ffffff
+support: native
+versionFrom: '5.3'
+categories:
+  - embedded
+  - emulation
+  - linux

@@ -1,0 +1,9 @@
+name: Mold
+icon: ArcuAdipiscing.avi
+link: http://dummyimage.com/101x100.png/cc0000/ffffff
+support: emulation
+versionFrom: 9.7.2
+categories:
+  - embedded
+  - testing
+  - web

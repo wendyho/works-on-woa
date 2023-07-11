@@ -1,0 +1,9 @@
+name: Jewis
+icon: CurabiturGravidaNisi.ppt
+link: http://dummyimage.com/202x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: '0.34'
+categories:
+  - emulation
+  - kernel
+  - tools

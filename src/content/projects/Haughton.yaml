@@ -1,0 +1,8 @@
+name: Haughton
+icon: ConsequatVarius.pdf
+link: http://dummyimage.com/147x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: '0.24'
+categories:
+  - embedded
+  - visualstudio

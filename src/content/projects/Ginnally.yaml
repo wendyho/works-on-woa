@@ -1,0 +1,9 @@
+name: Ginnally
+icon: TortorEu.txt
+link: http://dummyimage.com/105x100.png/dddddd/000000
+support: unknown
+versionFrom: 6.0.3
+categories:
+  - embedded
+  - web
+  - emulation

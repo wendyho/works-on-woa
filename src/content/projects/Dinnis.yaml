@@ -1,0 +1,8 @@
+name: Dinnis
+icon: SitAmetEros.xls
+link: http://dummyimage.com/190x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: '0.71'
+categories:
+  - oss
+  - embedded

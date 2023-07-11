@@ -1,0 +1,9 @@
+name: Blitz
+icon: TortorDuisMattis.jpeg
+link: http://dummyimage.com/146x100.png/ff4444/ffffff
+support: native
+versionFrom: '2.26'
+categories:
+  - kernel
+  - emulation
+  - dotnet

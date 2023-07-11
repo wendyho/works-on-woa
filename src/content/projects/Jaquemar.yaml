@@ -1,0 +1,8 @@
+name: Jaquemar
+icon: Vestibulum.tiff
+link: http://dummyimage.com/169x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: 0.3.1
+categories:
+  - oss
+  - dotnet

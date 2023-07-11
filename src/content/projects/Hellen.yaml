@@ -1,0 +1,9 @@
+name: Hellen
+icon: Id.mp3
+link: http://dummyimage.com/211x100.png/5fa2dd/ffffff
+support: native
+versionFrom: '7.16'
+categories:
+  - kernel
+  - embedded
+  - dotnet

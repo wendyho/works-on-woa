@@ -1,0 +1,8 @@
+name: Smorthit
+icon: AugueAliquamErat.xls
+link: http://dummyimage.com/155x100.png/dddddd/000000
+support: 'no'
+versionFrom: '1.71'
+categories:
+  - visualstudio
+  - linux

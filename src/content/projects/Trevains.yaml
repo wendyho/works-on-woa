@@ -1,0 +1,9 @@
+name: Trevains
+icon: NequeLibero.xls
+link: http://dummyimage.com/240x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: '0.63'
+categories:
+  - testing
+  - visualstudio
+  - emulation

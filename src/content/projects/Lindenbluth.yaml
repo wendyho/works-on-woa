@@ -1,0 +1,9 @@
+name: Lindenbluth
+icon: IaculisCongueVivamus.gif
+link: http://dummyimage.com/178x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: 2.3.6
+categories:
+  - testing
+  - dotnet
+  - web

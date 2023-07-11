@@ -1,0 +1,9 @@
+name: Mathes
+icon: At.mov
+link: http://dummyimage.com/240x100.png/dddddd/000000
+support: native
+versionFrom: '0.86'
+categories:
+  - linux
+  - tools
+  - kernel

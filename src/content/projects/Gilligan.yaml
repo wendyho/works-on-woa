@@ -1,0 +1,9 @@
+name: Gilligan
+icon: NislNuncRhoncus.mp3
+link: http://dummyimage.com/135x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: '3.7'
+categories:
+  - visualstudio
+  - tools
+  - web

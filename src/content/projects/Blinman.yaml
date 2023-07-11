@@ -1,0 +1,9 @@
+name: Blinman
+icon: DonecOdioJusto.avi
+link: http://dummyimage.com/111x100.png/dddddd/000000
+support: 'no'
+versionFrom: 3.5.3
+categories:
+  - visualstudio
+  - linux
+  - emulation

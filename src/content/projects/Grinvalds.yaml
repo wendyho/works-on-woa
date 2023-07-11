@@ -1,0 +1,9 @@
+name: Grinvalds
+icon: LuctusTincidunt.xls
+link: http://dummyimage.com/171x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: 0.1.7
+categories:
+  - web
+  - emulation
+  - kernel

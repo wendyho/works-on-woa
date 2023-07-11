@@ -1,0 +1,9 @@
+name: Kunes
+icon: DuiLuctusRutrum.xls
+link: http://dummyimage.com/206x100.png/dddddd/000000
+support: emulation
+versionFrom: '5.44'
+categories:
+  - testing
+  - dotnet
+  - oss

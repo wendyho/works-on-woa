@@ -1,0 +1,9 @@
+name: Michurin
+icon: SuscipitA.mp3
+link: http://dummyimage.com/136x100.png/dddddd/000000
+support: native
+versionFrom: '9.06'
+categories:
+  - visualstudio
+  - linux
+  - kernel

@@ -1,0 +1,9 @@
+name: Rapkins
+icon: SedLacus.png
+link: http://dummyimage.com/250x100.png/dddddd/000000
+support: 'no'
+versionFrom: 6.8.2
+categories:
+  - emulation
+  - linux
+  - web

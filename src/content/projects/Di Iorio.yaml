@@ -1,0 +1,9 @@
+name: Di Iorio
+icon: LeoRhoncus.tiff
+link: http://dummyimage.com/234x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: '7.37'
+categories:
+  - emulation
+  - embedded
+  - testing

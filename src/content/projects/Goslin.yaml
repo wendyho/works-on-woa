@@ -1,0 +1,9 @@
+name: Goslin
+icon: BibendumImperdietNullam.tiff
+link: http://dummyimage.com/143x100.png/cc0000/ffffff
+support: native
+versionFrom: 0.4.5
+categories:
+  - visualstudio
+  - dotnet
+  - tools

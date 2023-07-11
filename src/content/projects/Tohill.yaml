@@ -1,0 +1,8 @@
+name: Tohill
+icon: Mattis.jpeg
+link: http://dummyimage.com/105x100.png/cc0000/ffffff
+support: native
+versionFrom: '6.2'
+categories:
+  - oss
+  - emulation

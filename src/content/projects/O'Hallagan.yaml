@@ -1,0 +1,9 @@
+name: O'Hallagan
+icon: VestibulumAnteIpsum.txt
+link: http://dummyimage.com/218x100.png/dddddd/000000
+support: native
+versionFrom: 9.9.9
+categories:
+  - testing
+  - emulation
+  - visualstudio

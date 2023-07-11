@@ -1,0 +1,8 @@
+name: Bleyman
+icon: VestibulumVestibulum.ppt
+link: http://dummyimage.com/213x100.png/cc0000/ffffff
+support: native
+versionFrom: '6.3'
+categories:
+  - dotnet
+  - web

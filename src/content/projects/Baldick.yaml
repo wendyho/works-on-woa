@@ -1,0 +1,9 @@
+name: Baldick
+icon: Luctus.png
+link: http://dummyimage.com/152x100.png/5fa2dd/ffffff
+support: unknown
+versionFrom: '0.90'
+categories:
+  - kernel
+  - linux
+  - oss

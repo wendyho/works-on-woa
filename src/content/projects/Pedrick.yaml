@@ -1,0 +1,9 @@
+name: Pedrick
+icon: Varius.png
+link: http://dummyimage.com/154x100.png/dddddd/000000
+support: unknown
+versionFrom: '9.40'
+categories:
+  - emulation
+  - dotnet
+  - embedded

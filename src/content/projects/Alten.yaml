@@ -1,0 +1,9 @@
+name: Alten
+icon: ConvallisMorbiOdio.mpeg
+link: http://dummyimage.com/239x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: 9.5.1
+categories:
+  - tools
+  - emulation
+  - kernel

@@ -1,0 +1,9 @@
+name: Cassedy
+icon: Nec.jpeg
+link: http://dummyimage.com/229x100.png/5fa2dd/ffffff
+support: native
+versionFrom: '6.87'
+categories:
+  - tools
+  - dotnet
+  - linux

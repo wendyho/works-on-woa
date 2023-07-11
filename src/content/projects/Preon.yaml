@@ -1,0 +1,9 @@
+name: Preon
+icon: ASuscipit.mp3
+link: http://dummyimage.com/170x100.png/ff4444/ffffff
+support: 'no'
+versionFrom: '5.2'
+categories:
+  - tools
+  - dotnet
+  - kernel

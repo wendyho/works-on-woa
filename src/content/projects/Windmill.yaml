@@ -1,0 +1,9 @@
+name: Windmill
+icon: NislUt.tiff
+link: http://dummyimage.com/191x100.png/ff4444/ffffff
+support: unknown
+versionFrom: 0.9.8
+categories:
+  - oss
+  - linux
+  - dotnet

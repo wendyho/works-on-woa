@@ -1,0 +1,9 @@
+name: Zuker
+icon: Orci.mpeg
+link: http://dummyimage.com/144x100.png/5fa2dd/ffffff
+support: native
+versionFrom: 2.1.7
+categories:
+  - oss
+  - linux
+  - emulation

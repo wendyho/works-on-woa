@@ -1,0 +1,9 @@
+name: Bownass
+icon: LobortisLigula.doc
+link: http://dummyimage.com/151x100.png/cc0000/ffffff
+support: emulation
+versionFrom: '3.3'
+categories:
+  - embedded
+  - dotnet
+  - web

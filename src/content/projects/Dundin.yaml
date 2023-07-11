@@ -1,0 +1,9 @@
+name: Dundin
+icon: Eget.pdf
+link: http://dummyimage.com/220x100.png/ff4444/ffffff
+support: 'no'
+versionFrom: 0.3.0
+categories:
+  - embedded
+  - emulation
+  - linux

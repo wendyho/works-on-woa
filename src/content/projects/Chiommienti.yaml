@@ -1,0 +1,9 @@
+name: Chiommienti
+icon: Amet.ppt
+link: http://dummyimage.com/194x100.png/dddddd/000000
+support: emulation
+versionFrom: '5.0'
+categories:
+  - kernel
+  - visualstudio
+  - linux

@@ -1,0 +1,9 @@
+name: Moppett
+icon: Ac.xls
+link: http://dummyimage.com/190x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: 0.6.8
+categories:
+  - tools
+  - testing
+  - visualstudio

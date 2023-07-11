@@ -1,0 +1,9 @@
+name: Stell
+icon: Mauris.jpeg
+link: http://dummyimage.com/109x100.png/5fa2dd/ffffff
+support: unknown
+versionFrom: '5.87'
+categories:
+  - dotnet
+  - kernel
+  - emulation

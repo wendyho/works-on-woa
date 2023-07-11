@@ -1,0 +1,9 @@
+name: Kilminster
+icon: EleifendPede.ppt
+link: http://dummyimage.com/164x100.png/ff4444/ffffff
+support: unknown
+versionFrom: '9.02'
+categories:
+  - visualstudio
+  - embedded
+  - linux

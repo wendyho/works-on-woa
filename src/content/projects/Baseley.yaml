@@ -1,0 +1,9 @@
+name: Baseley
+icon: OdioConsequat.mp3
+link: http://dummyimage.com/243x100.png/cc0000/ffffff
+support: unknown
+versionFrom: '0.11'
+categories:
+  - embedded
+  - linux
+  - emulation

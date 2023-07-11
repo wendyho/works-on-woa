@@ -1,0 +1,8 @@
+name: Revell
+icon: NasceturRidiculusMus.tiff
+link: http://dummyimage.com/193x100.png/cc0000/ffffff
+support: emulation
+versionFrom: '0.83'
+categories:
+  - kernel
+  - oss

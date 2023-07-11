@@ -1,0 +1,9 @@
+name: Broseman
+icon: DiamNamTristique.doc
+link: http://dummyimage.com/211x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: 8.5.9
+categories:
+  - kernel
+  - linux
+  - tools

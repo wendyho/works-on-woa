@@ -1,0 +1,9 @@
+name: Karpf
+icon: In.ppt
+link: http://dummyimage.com/133x100.png/cc0000/ffffff
+support: unknown
+versionFrom: 4.7.4
+categories:
+  - kernel
+  - emulation
+  - dotnet

@@ -1,0 +1,9 @@
+name: Buscombe
+icon: OrciEget.tiff
+link: http://dummyimage.com/200x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: '0.18'
+categories:
+  - kernel
+  - dotnet
+  - web

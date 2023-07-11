@@ -1,0 +1,9 @@
+name: Fullick
+icon: JustoInBlandit.mpeg
+link: http://dummyimage.com/128x100.png/dddddd/000000
+support: emulation
+versionFrom: '1.0'
+categories:
+  - linux
+  - embedded
+  - visualstudio

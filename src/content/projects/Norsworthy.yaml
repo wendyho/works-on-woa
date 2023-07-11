@@ -1,0 +1,9 @@
+name: Norsworthy
+icon: InEleifend.ppt
+link: http://dummyimage.com/113x100.png/5fa2dd/ffffff
+support: native
+versionFrom: '0.28'
+categories:
+  - web
+  - kernel
+  - embedded

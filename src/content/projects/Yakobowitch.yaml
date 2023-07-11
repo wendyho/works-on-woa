@@ -1,0 +1,9 @@
+name: Yakobowitch
+icon: TurpisEnim.mpeg
+link: http://dummyimage.com/121x100.png/dddddd/000000
+support: 'no'
+versionFrom: '0.22'
+categories:
+  - kernel
+  - linux
+  - visualstudio

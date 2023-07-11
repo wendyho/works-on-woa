@@ -1,0 +1,9 @@
+name: Evins
+icon: Quisque.mp3
+link: http://dummyimage.com/188x100.png/dddddd/000000
+support: 'no'
+versionFrom: 3.3.9
+categories:
+  - visualstudio
+  - testing
+  - linux

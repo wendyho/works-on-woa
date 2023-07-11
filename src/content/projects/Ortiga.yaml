@@ -1,0 +1,9 @@
+name: Ortiga
+icon: EtCommodo.doc
+link: http://dummyimage.com/198x100.png/ff4444/ffffff
+support: native
+versionFrom: '0.67'
+categories:
+  - oss
+  - kernel
+  - testing

@@ -1,0 +1,9 @@
+name: McLagain
+icon: EtUltrices.mov
+link: http://dummyimage.com/226x100.png/cc0000/ffffff
+support: emulation
+versionFrom: 2.9.2
+categories:
+  - kernel
+  - tools
+  - web

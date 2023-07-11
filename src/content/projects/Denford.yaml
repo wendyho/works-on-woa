@@ -1,0 +1,9 @@
+name: Denford
+icon: ConsequatUtNulla.jpeg
+link: http://dummyimage.com/231x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: '8.1'
+categories:
+  - dotnet
+  - tools
+  - visualstudio

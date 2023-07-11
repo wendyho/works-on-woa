@@ -1,0 +1,9 @@
+name: Yonge
+icon: CubiliaCurae.tiff
+link: http://dummyimage.com/228x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: 2.3.4
+categories:
+  - oss
+  - embedded
+  - emulation

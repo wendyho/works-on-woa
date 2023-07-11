@@ -1,0 +1,9 @@
+name: Ramsell
+icon: VelEstDonec.gif
+link: http://dummyimage.com/157x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: '8.69'
+categories:
+  - emulation
+  - dotnet
+  - testing

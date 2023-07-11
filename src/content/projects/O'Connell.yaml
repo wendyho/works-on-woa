@@ -1,0 +1,9 @@
+name: O'Connell
+icon: InImperdietEt.ppt
+link: http://dummyimage.com/144x100.png/ff4444/ffffff
+support: native
+versionFrom: '3.76'
+categories:
+  - linux
+  - embedded
+  - emulation

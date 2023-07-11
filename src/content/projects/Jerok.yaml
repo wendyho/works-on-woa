@@ -1,0 +1,8 @@
+name: Jerok
+icon: AccumsanTellus.mp3
+link: http://dummyimage.com/139x100.png/ff4444/ffffff
+support: emulation
+versionFrom: 0.9.3
+categories:
+  - kernel
+  - embedded

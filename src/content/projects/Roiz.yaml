@@ -1,0 +1,9 @@
+name: Roiz
+icon: Primis.mov
+link: http://dummyimage.com/123x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: '4.14'
+categories:
+  - web
+  - embedded
+  - dotnet

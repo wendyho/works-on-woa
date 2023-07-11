@@ -1,0 +1,9 @@
+name: Zealander
+icon: QuisJusto.tiff
+link: http://dummyimage.com/248x100.png/dddddd/000000
+support: unknown
+versionFrom: 1.6.0
+categories:
+  - linux
+  - emulation
+  - kernel

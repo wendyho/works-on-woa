@@ -1,0 +1,8 @@
+name: Okker
+icon: NullaIntegerPede.avi
+link: http://dummyimage.com/104x100.png/cc0000/ffffff
+support: native
+versionFrom: '8.11'
+categories:
+  - web
+  - kernel

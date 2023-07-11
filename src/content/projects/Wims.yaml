@@ -1,0 +1,9 @@
+name: Wims
+icon: VestibulumSitAmet.tiff
+link: http://dummyimage.com/158x100.png/dddddd/000000
+support: native
+versionFrom: '0.46'
+categories:
+  - web
+  - dotnet
+  - linux

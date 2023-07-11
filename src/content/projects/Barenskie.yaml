@@ -1,0 +1,9 @@
+name: Barenskie
+icon: DuisAtVelit.mp3
+link: http://dummyimage.com/158x100.png/ff4444/ffffff
+support: native
+versionFrom: 1.3.5
+categories:
+  - kernel
+  - visualstudio
+  - oss

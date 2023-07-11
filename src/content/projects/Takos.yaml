@@ -1,0 +1,9 @@
+name: Takos
+icon: Phasellus.jpeg
+link: http://dummyimage.com/141x100.png/dddddd/000000
+support: emulation
+versionFrom: '2.5'
+categories:
+  - visualstudio
+  - emulation
+  - tools

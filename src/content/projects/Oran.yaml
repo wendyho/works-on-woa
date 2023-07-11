@@ -1,0 +1,8 @@
+name: Oran
+icon: JustoEuMassa.xls
+link: http://dummyimage.com/135x100.png/dddddd/000000
+support: native
+versionFrom: '3.9'
+categories:
+  - dotnet
+  - visualstudio

@@ -1,0 +1,9 @@
+name: Gunnell
+icon: EgetMassa.tiff
+link: http://dummyimage.com/147x100.png/5fa2dd/ffffff
+support: native
+versionFrom: 9.2.4
+categories:
+  - visualstudio
+  - emulation
+  - embedded

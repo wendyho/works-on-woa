@@ -1,0 +1,9 @@
+name: Durrand
+icon: EuMi.mp3
+link: http://dummyimage.com/136x100.png/ff4444/ffffff
+support: emulation
+versionFrom: 0.6.7
+categories:
+  - linux
+  - oss
+  - visualstudio

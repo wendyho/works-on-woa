@@ -1,0 +1,9 @@
+name: Blaxter
+icon: QuisqueErat.mpeg
+link: http://dummyimage.com/101x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: 8.7.3
+categories:
+  - web
+  - visualstudio
+  - kernel

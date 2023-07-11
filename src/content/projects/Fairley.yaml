@@ -1,0 +1,9 @@
+name: Fairley
+icon: EuMagnaVulputate.tiff
+link: http://dummyimage.com/222x100.png/dddddd/000000
+support: native
+versionFrom: 6.3.7
+categories:
+  - kernel
+  - oss
+  - emulation

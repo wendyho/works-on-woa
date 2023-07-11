@@ -1,0 +1,9 @@
+name: Ingman
+icon: ConsequatMorbiA.jpeg
+link: http://dummyimage.com/239x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: '0.72'
+categories:
+  - oss
+  - web
+  - tools

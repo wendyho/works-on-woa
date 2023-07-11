@@ -1,0 +1,9 @@
+name: Colebourn
+icon: Arcu.jpeg
+link: http://dummyimage.com/135x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: '5.04'
+categories:
+  - linux
+  - web
+  - embedded

@@ -1,0 +1,9 @@
+name: Fischer
+icon: Erat.avi
+link: http://dummyimage.com/147x100.png/dddddd/000000
+support: emulation
+versionFrom: 1.9.5
+categories:
+  - linux
+  - visualstudio
+  - tools

@@ -1,0 +1,9 @@
+name: Birdall
+icon: CrasMiPede.ppt
+link: http://dummyimage.com/137x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: '0.37'
+categories:
+  - web
+  - linux
+  - testing

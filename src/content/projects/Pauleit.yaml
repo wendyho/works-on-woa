@@ -1,0 +1,9 @@
+name: Pauleit
+icon: UltricesErat.jpeg
+link: http://dummyimage.com/174x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: '4.4'
+categories:
+  - emulation
+  - embedded
+  - linux

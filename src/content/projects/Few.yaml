@@ -1,0 +1,8 @@
+name: Few
+icon: ViverraPedeAc.doc
+link: http://dummyimage.com/192x100.png/ff4444/ffffff
+support: emulation
+versionFrom: 4.8.8
+categories:
+  - oss
+  - emulation

@@ -1,0 +1,9 @@
+name: Fridaye
+icon: EleifendQuamA.xls
+link: http://dummyimage.com/135x100.png/ff4444/ffffff
+support: 'no'
+versionFrom: '0.16'
+categories:
+  - linux
+  - tools
+  - kernel

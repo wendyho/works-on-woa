@@ -1,0 +1,8 @@
+name: Jurasek
+icon: VestibulumSitAmet.jpeg
+link: http://dummyimage.com/220x100.png/dddddd/000000
+support: emulation
+versionFrom: 7.5.0
+categories:
+  - kernel
+  - visualstudio

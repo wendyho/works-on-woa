@@ -1,0 +1,9 @@
+name: Frances
+icon: Pellentesque.tiff
+link: http://dummyimage.com/218x100.png/dddddd/000000
+support: unknown
+versionFrom: '5.77'
+categories:
+  - tools
+  - testing
+  - dotnet

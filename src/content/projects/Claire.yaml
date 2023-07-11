@@ -1,0 +1,8 @@
+name: Claire
+icon: Bibendum.xls
+link: http://dummyimage.com/233x100.png/5fa2dd/ffffff
+support: native
+versionFrom: 2.9.8
+categories:
+  - dotnet
+  - embedded

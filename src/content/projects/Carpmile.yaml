@@ -1,0 +1,9 @@
+name: Carpmile
+icon: VivamusMetus.mp3
+link: http://dummyimage.com/182x100.png/dddddd/000000
+support: native
+versionFrom: 0.1.1
+categories:
+  - kernel
+  - dotnet
+  - testing

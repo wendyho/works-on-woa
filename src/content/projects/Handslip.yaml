@@ -1,0 +1,9 @@
+name: Handslip
+icon: UltricesMattisOdio.xls
+link: http://dummyimage.com/108x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: '6.67'
+categories:
+  - tools
+  - emulation
+  - dotnet

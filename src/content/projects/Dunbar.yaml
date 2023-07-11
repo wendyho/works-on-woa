@@ -1,0 +1,9 @@
+name: Dunbar
+icon: CrasPellentesqueVolutpat.xls
+link: http://dummyimage.com/113x100.png/5fa2dd/ffffff
+support: unknown
+versionFrom: '5.9'
+categories:
+  - linux
+  - dotnet
+  - web

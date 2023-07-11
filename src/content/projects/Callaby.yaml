@@ -1,0 +1,9 @@
+name: Callaby
+icon: Augue.txt
+link: http://dummyimage.com/187x100.png/cc0000/ffffff
+support: emulation
+versionFrom: '3.4'
+categories:
+  - dotnet
+  - web
+  - tools

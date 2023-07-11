@@ -1,0 +1,8 @@
+name: McCaffrey
+icon: MagnaAcConsequat.xls
+link: http://dummyimage.com/187x100.png/cc0000/ffffff
+support: emulation
+versionFrom: '0.21'
+categories:
+  - visualstudio
+  - dotnet

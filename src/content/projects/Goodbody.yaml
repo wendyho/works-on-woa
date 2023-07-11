@@ -1,0 +1,9 @@
+name: Goodbody
+icon: Eu.xls
+link: http://dummyimage.com/114x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: '6.23'
+categories:
+  - visualstudio
+  - kernel
+  - web

@@ -1,0 +1,9 @@
+name: Saffran
+icon: Quisque.mov
+link: http://dummyimage.com/193x100.png/ff4444/ffffff
+support: emulation
+versionFrom: '0.90'
+categories:
+  - embedded
+  - visualstudio
+  - oss

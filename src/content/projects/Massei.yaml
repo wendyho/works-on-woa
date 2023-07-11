@@ -1,0 +1,9 @@
+name: Massei
+icon: EtMagnisDis.avi
+link: http://dummyimage.com/160x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: 0.2.3
+categories:
+  - dotnet
+  - web
+  - kernel

@@ -1,0 +1,8 @@
+name: Legerton
+icon: InTempor.txt
+link: http://dummyimage.com/205x100.png/dddddd/000000
+support: 'no'
+versionFrom: '3.12'
+categories:
+  - oss
+  - testing

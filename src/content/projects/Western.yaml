@@ -1,0 +1,9 @@
+name: Western
+icon: EgetOrciVehicula.avi
+link: http://dummyimage.com/187x100.png/cc0000/ffffff
+support: native
+versionFrom: '7.9'
+categories:
+  - oss
+  - embedded
+  - visualstudio

@@ -1,0 +1,9 @@
+name: Klulisek
+icon: Eu.tiff
+link: http://dummyimage.com/101x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: '0.77'
+categories:
+  - kernel
+  - embedded
+  - emulation

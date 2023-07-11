@@ -1,0 +1,9 @@
+name: Awmack
+icon: MassaVolutpatConvallis.jpeg
+link: http://dummyimage.com/153x100.png/ff4444/ffffff
+support: 'no'
+versionFrom: '0.80'
+categories:
+  - emulation
+  - oss
+  - dotnet

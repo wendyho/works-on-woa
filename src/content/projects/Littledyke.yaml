@@ -1,0 +1,8 @@
+name: Littledyke
+icon: FelisDonecSemper.doc
+link: http://dummyimage.com/234x100.png/ff4444/ffffff
+support: emulation
+versionFrom: '2.0'
+categories:
+  - emulation
+  - testing

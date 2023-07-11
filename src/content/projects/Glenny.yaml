@@ -1,0 +1,9 @@
+name: Glenny
+icon: LuctusCumSociis.ppt
+link: http://dummyimage.com/227x100.png/cc0000/ffffff
+support: native
+versionFrom: '3.6'
+categories:
+  - dotnet
+  - oss
+  - web

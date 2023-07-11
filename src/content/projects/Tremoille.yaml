@@ -1,0 +1,9 @@
+name: Tremoille
+icon: ProinEuMi.xls
+link: http://dummyimage.com/134x100.png/dddddd/000000
+support: emulation
+versionFrom: 9.4.4
+categories:
+  - kernel
+  - visualstudio
+  - emulation

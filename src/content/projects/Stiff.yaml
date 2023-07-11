@@ -1,0 +1,9 @@
+name: Stiff
+icon: TristiqueFusce.xls
+link: http://dummyimage.com/130x100.png/cc0000/ffffff
+support: native
+versionFrom: 0.3.6
+categories:
+  - kernel
+  - web
+  - embedded

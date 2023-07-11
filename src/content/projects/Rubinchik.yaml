@@ -1,0 +1,9 @@
+name: Rubinchik
+icon: DapibusAugueVel.ppt
+link: http://dummyimage.com/156x100.png/cc0000/ffffff
+support: native
+versionFrom: '1.06'
+categories:
+  - embedded
+  - linux
+  - web

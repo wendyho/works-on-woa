@@ -1,0 +1,9 @@
+name: Staynes
+icon: AnteNulla.gif
+link: http://dummyimage.com/237x100.png/cc0000/ffffff
+support: emulation
+versionFrom: 7.1.6
+categories:
+  - tools
+  - visualstudio
+  - dotnet

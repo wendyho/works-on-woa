@@ -1,0 +1,9 @@
+name: Willerson
+icon: AcNequeDuis.mp3
+link: http://dummyimage.com/205x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: '1.9'
+categories:
+  - emulation
+  - visualstudio
+  - kernel

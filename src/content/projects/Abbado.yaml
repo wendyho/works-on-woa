@@ -1,0 +1,9 @@
+name: Abbado
+icon: VolutpatIn.mp3
+link: http://dummyimage.com/236x100.png/5fa2dd/ffffff
+support: native
+versionFrom: '3.68'
+categories:
+  - web
+  - oss
+  - kernel

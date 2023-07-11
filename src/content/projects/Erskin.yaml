@@ -1,0 +1,9 @@
+name: Erskin
+icon: PellentesqueViverra.ppt
+link: http://dummyimage.com/244x100.png/cc0000/ffffff
+support: native
+versionFrom: '1.8'
+categories:
+  - emulation
+  - linux
+  - tools

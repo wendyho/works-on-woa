@@ -1,0 +1,9 @@
+name: Middup
+icon: MattisPulvinarNulla.xls
+link: http://dummyimage.com/211x100.png/dddddd/000000
+support: emulation
+versionFrom: 2.1.7
+categories:
+  - emulation
+  - testing
+  - oss

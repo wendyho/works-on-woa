@@ -1,0 +1,9 @@
+name: Matschuk
+icon: DisParturient.xls
+link: http://dummyimage.com/216x100.png/cc0000/ffffff
+support: emulation
+versionFrom: '8.6'
+categories:
+  - embedded
+  - dotnet
+  - kernel

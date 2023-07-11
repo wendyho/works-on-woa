@@ -1,0 +1,9 @@
+name: Bottinelli
+icon: Sit.xls
+link: http://dummyimage.com/220x100.png/ff4444/ffffff
+support: emulation
+versionFrom: 0.5.0
+categories:
+  - dotnet
+  - testing
+  - linux

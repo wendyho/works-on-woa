@@ -1,0 +1,8 @@
+name: Golsby
+icon: InFaucibus.tiff
+link: http://dummyimage.com/121x100.png/dddddd/000000
+support: unknown
+versionFrom: '8.90'
+categories:
+  - embedded
+  - dotnet

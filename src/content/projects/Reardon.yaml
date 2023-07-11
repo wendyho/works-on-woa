@@ -1,0 +1,9 @@
+name: Reardon
+icon: Orci.xls
+link: http://dummyimage.com/118x100.png/cc0000/ffffff
+support: emulation
+versionFrom: 7.7.7
+categories:
+  - embedded
+  - oss
+  - tools

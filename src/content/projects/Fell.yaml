@@ -1,0 +1,8 @@
+name: Fell
+icon: PulvinarLobortis.xls
+link: http://dummyimage.com/154x100.png/cc0000/ffffff
+support: emulation
+versionFrom: '0.53'
+categories:
+  - emulation
+  - dotnet

@@ -1,0 +1,9 @@
+name: Kohter
+icon: PenatibusEt.mp3
+link: http://dummyimage.com/215x100.png/dddddd/000000
+support: 'no'
+versionFrom: 0.8.9
+categories:
+  - tools
+  - kernel
+  - visualstudio

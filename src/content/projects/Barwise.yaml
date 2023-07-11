@@ -1,0 +1,9 @@
+name: Barwise
+icon: Euismod.mp3
+link: http://dummyimage.com/199x100.png/dddddd/000000
+support: emulation
+versionFrom: 8.4.7
+categories:
+  - linux
+  - visualstudio
+  - embedded

@@ -1,0 +1,9 @@
+name: Carwithen
+icon: CursusVestibulum.xls
+link: http://dummyimage.com/201x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: '3.14'
+categories:
+  - emulation
+  - dotnet
+  - tools

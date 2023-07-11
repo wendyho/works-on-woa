@@ -1,0 +1,9 @@
+name: Dossett
+icon: EtTempus.avi
+link: http://dummyimage.com/102x100.png/dddddd/000000
+support: 'no'
+versionFrom: 5.3.1
+categories:
+  - embedded
+  - testing
+  - kernel

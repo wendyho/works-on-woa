@@ -1,0 +1,9 @@
+name: Gallahar
+icon: AmetEleifendPede.avi
+link: http://dummyimage.com/175x100.png/5fa2dd/ffffff
+support: native
+versionFrom: '0.75'
+categories:
+  - emulation
+  - kernel
+  - web

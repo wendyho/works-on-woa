@@ -1,0 +1,9 @@
+name: Westley
+icon: LacusMorbi.avi
+link: http://dummyimage.com/201x100.png/5fa2dd/ffffff
+support: native
+versionFrom: '7.5'
+categories:
+  - kernel
+  - dotnet
+  - emulation

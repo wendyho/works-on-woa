@@ -1,0 +1,8 @@
+name: Vasilchenko
+icon: Nulla.mp3
+link: http://dummyimage.com/192x100.png/ff4444/ffffff
+support: emulation
+versionFrom: '9.2'
+categories:
+  - testing
+  - embedded

@@ -1,0 +1,9 @@
+name: Gheorghe
+icon: Felis.xls
+link: http://dummyimage.com/225x100.png/cc0000/ffffff
+support: emulation
+versionFrom: '6.04'
+categories:
+  - dotnet
+  - emulation
+  - embedded

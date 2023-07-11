@@ -1,0 +1,9 @@
+name: Passion
+icon: BlanditNam.jpeg
+link: http://dummyimage.com/114x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: '1.53'
+categories:
+  - tools
+  - testing
+  - dotnet

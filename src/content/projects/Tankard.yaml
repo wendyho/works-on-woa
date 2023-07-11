@@ -1,0 +1,8 @@
+name: Tankard
+icon: SemDuis.png
+link: http://dummyimage.com/224x100.png/dddddd/000000
+support: 'no'
+versionFrom: '5.74'
+categories:
+  - tools
+  - kernel

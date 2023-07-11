@@ -1,0 +1,9 @@
+name: Leachman
+icon: EuSapienCursus.xls
+link: http://dummyimage.com/158x100.png/ff4444/ffffff
+support: 'no'
+versionFrom: '7.5'
+categories:
+  - visualstudio
+  - oss
+  - tools

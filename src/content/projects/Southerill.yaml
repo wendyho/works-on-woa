@@ -1,0 +1,9 @@
+name: Southerill
+icon: LaciniaEratVestibulum.doc
+link: http://dummyimage.com/238x100.png/dddddd/000000
+support: native
+versionFrom: '0.72'
+categories:
+  - emulation
+  - visualstudio
+  - dotnet

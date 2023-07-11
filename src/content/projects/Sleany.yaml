@@ -1,0 +1,9 @@
+name: Sleany
+icon: SollicitudinMi.mp3
+link: http://dummyimage.com/104x100.png/5fa2dd/ffffff
+support: native
+versionFrom: '0.52'
+categories:
+  - visualstudio
+  - embedded
+  - web

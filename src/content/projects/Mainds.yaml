@@ -1,0 +1,9 @@
+name: Mainds
+icon: UltricesEnim.txt
+link: http://dummyimage.com/128x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: '3.08'
+categories:
+  - linux
+  - embedded
+  - dotnet

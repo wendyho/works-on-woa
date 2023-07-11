@@ -1,0 +1,8 @@
+name: Dowse
+icon: Dui.xls
+link: http://dummyimage.com/122x100.png/dddddd/000000
+support: 'no'
+versionFrom: '4.8'
+categories:
+  - kernel
+  - dotnet

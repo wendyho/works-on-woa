@@ -1,0 +1,9 @@
+name: Crutchfield
+icon: NuncProinAt.xls
+link: http://dummyimage.com/110x100.png/cc0000/ffffff
+support: unknown
+versionFrom: 9.4.3
+categories:
+  - kernel
+  - visualstudio
+  - testing

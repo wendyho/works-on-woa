@@ -1,0 +1,9 @@
+name: Hunnawill
+icon: Dolor.doc
+link: http://dummyimage.com/200x100.png/dddddd/000000
+support: emulation
+versionFrom: '5.7'
+categories:
+  - dotnet
+  - testing
+  - kernel

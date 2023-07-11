@@ -1,0 +1,8 @@
+name: Gallanders
+icon: PhasellusIn.png
+link: http://dummyimage.com/216x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: '6.82'
+categories:
+  - oss
+  - tools

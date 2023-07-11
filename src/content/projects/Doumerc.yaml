@@ -1,0 +1,8 @@
+name: Doumerc
+icon: LeoRhoncus.xls
+link: http://dummyimage.com/164x100.png/5fa2dd/ffffff
+support: native
+versionFrom: '3.87'
+categories:
+  - oss
+  - linux

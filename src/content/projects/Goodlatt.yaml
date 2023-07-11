@@ -1,0 +1,9 @@
+name: Goodlatt
+icon: Ut.avi
+link: http://dummyimage.com/141x100.png/dddddd/000000
+support: unknown
+versionFrom: '6.2'
+categories:
+  - testing
+  - visualstudio
+  - embedded

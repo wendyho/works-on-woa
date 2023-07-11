@@ -1,0 +1,9 @@
+name: Wyeld
+icon: EtMagnisDis.avi
+link: http://dummyimage.com/123x100.png/cc0000/ffffff
+support: unknown
+versionFrom: '3.21'
+categories:
+  - emulation
+  - dotnet
+  - web

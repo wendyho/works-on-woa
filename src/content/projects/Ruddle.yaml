@@ -1,0 +1,9 @@
+name: Ruddle
+icon: IpsumPraesentBlandit.jpeg
+link: http://dummyimage.com/246x100.png/ff4444/ffffff
+support: native
+versionFrom: '1.0'
+categories:
+  - visualstudio
+  - oss
+  - linux

@@ -1,0 +1,8 @@
+name: Juden
+icon: TempusVivamusIn.xls
+link: http://dummyimage.com/159x100.png/cc0000/ffffff
+support: emulation
+versionFrom: 0.5.1
+categories:
+  - visualstudio
+  - oss

@@ -1,0 +1,9 @@
+name: Eads
+icon: CongueElementum.tiff
+link: http://dummyimage.com/131x100.png/dddddd/000000
+support: emulation
+versionFrom: 0.5.2
+categories:
+  - emulation
+  - testing
+  - kernel

@@ -1,0 +1,8 @@
+name: Kernock
+icon: Donec.ppt
+link: http://dummyimage.com/104x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: 0.6.8
+categories:
+  - visualstudio
+  - emulation

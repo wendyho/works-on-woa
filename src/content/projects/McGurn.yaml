@@ -1,0 +1,9 @@
+name: McGurn
+icon: Nisi.jpeg
+link: http://dummyimage.com/189x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: '5.52'
+categories:
+  - linux
+  - testing
+  - kernel

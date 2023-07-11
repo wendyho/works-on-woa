@@ -1,0 +1,8 @@
+name: Jobin
+icon: ParturientMontesNascetur.mov
+link: http://dummyimage.com/180x100.png/cc0000/ffffff
+support: native
+versionFrom: '3.02'
+categories:
+  - testing
+  - linux

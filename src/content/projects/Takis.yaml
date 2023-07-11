@@ -1,0 +1,9 @@
+name: Takis
+icon: Quis.xls
+link: http://dummyimage.com/190x100.png/dddddd/000000
+support: unknown
+versionFrom: '8.55'
+categories:
+  - oss
+  - testing
+  - web

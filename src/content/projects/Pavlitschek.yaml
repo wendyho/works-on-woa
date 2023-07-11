@@ -1,0 +1,9 @@
+name: Pavlitschek
+icon: Diam.ppt
+link: http://dummyimage.com/100x100.png/5fa2dd/ffffff
+support: native
+versionFrom: '0.56'
+categories:
+  - linux
+  - embedded
+  - web

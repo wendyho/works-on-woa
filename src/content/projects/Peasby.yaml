@@ -1,0 +1,9 @@
+name: Peasby
+icon: Pede.mp3
+link: http://dummyimage.com/153x100.png/ff4444/ffffff
+support: unknown
+versionFrom: '0.31'
+categories:
+  - tools
+  - emulation
+  - dotnet

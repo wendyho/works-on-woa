@@ -1,0 +1,9 @@
+name: Sprigging
+icon: MaurisEnim.ppt
+link: http://dummyimage.com/241x100.png/cc0000/ffffff
+support: emulation
+versionFrom: '4.71'
+categories:
+  - linux
+  - visualstudio
+  - web

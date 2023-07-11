@@ -1,0 +1,8 @@
+name: Kobisch
+icon: Praesent.ppt
+link: http://dummyimage.com/171x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: 2.5.9
+categories:
+  - embedded
+  - linux

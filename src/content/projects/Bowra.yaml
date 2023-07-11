@@ -1,0 +1,9 @@
+name: Bowra
+icon: VenenatisTurpis.xls
+link: http://dummyimage.com/114x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: '2.1'
+categories:
+  - embedded
+  - web
+  - linux

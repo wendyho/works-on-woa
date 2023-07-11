@@ -1,0 +1,9 @@
+name: Townes
+icon: Purus.ppt
+link: http://dummyimage.com/115x100.png/dddddd/000000
+support: native
+versionFrom: '4.62'
+categories:
+  - linux
+  - oss
+  - tools

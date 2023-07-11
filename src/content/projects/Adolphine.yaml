@@ -1,0 +1,9 @@
+name: Adolphine
+icon: Odio.mp3
+link: http://dummyimage.com/210x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: '9.26'
+categories:
+  - emulation
+  - testing
+  - embedded

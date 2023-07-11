@@ -1,0 +1,9 @@
+name: Perrin
+icon: SuscipitAFeugiat.doc
+link: http://dummyimage.com/204x100.png/dddddd/000000
+support: native
+versionFrom: '6.41'
+categories:
+  - linux
+  - dotnet
+  - embedded

@@ -1,0 +1,9 @@
+name: Fiddyment
+icon: EgestasMetusAenean.mp3
+link: http://dummyimage.com/163x100.png/dddddd/000000
+support: native
+versionFrom: 0.8.0
+categories:
+  - visualstudio
+  - dotnet
+  - testing

@@ -1,0 +1,9 @@
+name: Coupe
+icon: Nulla.pdf
+link: http://dummyimage.com/143x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: '0.70'
+categories:
+  - tools
+  - emulation
+  - dotnet

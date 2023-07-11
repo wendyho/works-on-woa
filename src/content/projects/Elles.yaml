@@ -1,0 +1,8 @@
+name: Elles
+icon: Vestibulum.jpeg
+link: http://dummyimage.com/238x100.png/ff4444/ffffff
+support: native
+versionFrom: '0.12'
+categories:
+  - visualstudio
+  - emulation

@@ -1,0 +1,8 @@
+name: Skoate
+icon: In.mp3
+link: http://dummyimage.com/158x100.png/dddddd/000000
+support: 'no'
+versionFrom: '5.14'
+categories:
+  - dotnet
+  - testing

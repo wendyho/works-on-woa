@@ -1,0 +1,9 @@
+name: Regi
+icon: AugueLuctus.gif
+link: http://dummyimage.com/177x100.png/5fa2dd/ffffff
+support: native
+versionFrom: 3.6.7
+categories:
+  - linux
+  - kernel
+  - web

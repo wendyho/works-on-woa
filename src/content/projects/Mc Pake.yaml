@@ -1,0 +1,9 @@
+name: Mc Pake
+icon: Augue.doc
+link: http://dummyimage.com/148x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: '0.94'
+categories:
+  - kernel
+  - tools
+  - web

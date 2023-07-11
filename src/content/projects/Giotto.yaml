@@ -1,0 +1,9 @@
+name: Giotto
+icon: AnteIpsumPrimis.mpeg
+link: http://dummyimage.com/179x100.png/ff4444/ffffff
+support: native
+versionFrom: 0.4.3
+categories:
+  - oss
+  - web
+  - embedded

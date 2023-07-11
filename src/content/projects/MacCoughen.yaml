@@ -1,0 +1,9 @@
+name: MacCoughen
+icon: A.tiff
+link: http://dummyimage.com/207x100.png/cc0000/ffffff
+support: native
+versionFrom: '8.0'
+categories:
+  - linux
+  - dotnet
+  - web

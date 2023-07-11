@@ -1,0 +1,8 @@
+name: Ayling
+icon: SapienArcuSed.ppt
+link: http://dummyimage.com/118x100.png/cc0000/ffffff
+support: emulation
+versionFrom: '2.03'
+categories:
+  - web
+  - embedded

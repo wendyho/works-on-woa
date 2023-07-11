@@ -1,0 +1,9 @@
+name: Henriquet
+icon: LacusCurabiturAt.jpeg
+link: http://dummyimage.com/166x100.png/5fa2dd/ffffff
+support: native
+versionFrom: 7.3.8
+categories:
+  - dotnet
+  - kernel
+  - oss

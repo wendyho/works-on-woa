@@ -1,0 +1,9 @@
+name: Bedson
+icon: SitAmet.jpeg
+link: http://dummyimage.com/114x100.png/dddddd/000000
+support: unknown
+versionFrom: '9.13'
+categories:
+  - linux
+  - web
+  - testing

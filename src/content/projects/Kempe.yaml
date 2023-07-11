@@ -1,0 +1,9 @@
+name: Kempe
+icon: Urna.tiff
+link: http://dummyimage.com/169x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: '0.11'
+categories:
+  - web
+  - emulation
+  - testing

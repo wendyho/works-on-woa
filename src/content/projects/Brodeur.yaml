@@ -1,0 +1,9 @@
+name: Brodeur
+icon: Praesent.ppt
+link: http://dummyimage.com/198x100.png/cc0000/ffffff
+support: emulation
+versionFrom: 0.6.9
+categories:
+  - oss
+  - testing
+  - kernel

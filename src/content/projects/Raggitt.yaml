@@ -1,0 +1,9 @@
+name: Raggitt
+icon: UtErat.avi
+link: http://dummyimage.com/249x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: 0.3.8
+categories:
+  - visualstudio
+  - tools
+  - linux

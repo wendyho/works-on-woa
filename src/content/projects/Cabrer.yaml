@@ -1,0 +1,9 @@
+name: Cabrer
+icon: DuiProinLeo.ppt
+link: http://dummyimage.com/246x100.png/ff4444/ffffff
+support: 'no'
+versionFrom: 5.9.3
+categories:
+  - kernel
+  - web
+  - oss

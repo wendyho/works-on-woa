@@ -1,0 +1,9 @@
+name: Haulkham
+icon: In.xls
+link: http://dummyimage.com/124x100.png/cc0000/ffffff
+support: unknown
+versionFrom: 0.1.6
+categories:
+  - emulation
+  - testing
+  - oss

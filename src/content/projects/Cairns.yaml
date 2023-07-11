@@ -1,0 +1,9 @@
+name: Cairns
+icon: ElementumNullamVarius.txt
+link: http://dummyimage.com/141x100.png/cc0000/ffffff
+support: native
+versionFrom: '0.73'
+categories:
+  - linux
+  - dotnet
+  - embedded

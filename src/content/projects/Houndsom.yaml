@@ -1,0 +1,9 @@
+name: Houndsom
+icon: Amet.avi
+link: http://dummyimage.com/240x100.png/ff4444/ffffff
+support: unknown
+versionFrom: '7.3'
+categories:
+  - embedded
+  - web
+  - tools

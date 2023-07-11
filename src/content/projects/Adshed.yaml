@@ -1,0 +1,8 @@
+name: Adshed
+icon: Libero.ppt
+link: http://dummyimage.com/140x100.png/cc0000/ffffff
+support: native
+versionFrom: 5.6.4
+categories:
+  - dotnet
+  - oss

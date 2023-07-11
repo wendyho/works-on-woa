@@ -1,0 +1,8 @@
+name: Merfin
+icon: SuscipitLigulaIn.avi
+link: http://dummyimage.com/161x100.png/ff4444/ffffff
+support: emulation
+versionFrom: '2.72'
+categories:
+  - visualstudio
+  - emulation

@@ -1,0 +1,9 @@
+name: Langelaan
+icon: AmetJustoMorbi.gif
+link: http://dummyimage.com/119x100.png/5fa2dd/ffffff
+support: native
+versionFrom: 0.1.0
+categories:
+  - web
+  - linux
+  - embedded

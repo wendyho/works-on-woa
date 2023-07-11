@@ -1,0 +1,9 @@
+name: Giottini
+icon: Pulvinar.ppt
+link: http://dummyimage.com/121x100.png/cc0000/ffffff
+support: native
+versionFrom: '6.64'
+categories:
+  - oss
+  - emulation
+  - web

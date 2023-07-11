@@ -1,0 +1,9 @@
+name: Atherton
+icon: ScelerisqueQuamTurpis.mp3
+link: http://dummyimage.com/114x100.png/dddddd/000000
+support: unknown
+versionFrom: '3.22'
+categories:
+  - embedded
+  - emulation
+  - testing

@@ -1,0 +1,9 @@
+name: Garnsworthy
+icon: PorttitorLoremId.ppt
+link: http://dummyimage.com/232x100.png/5fa2dd/ffffff
+support: native
+versionFrom: 6.7.7
+categories:
+  - testing
+  - dotnet
+  - oss

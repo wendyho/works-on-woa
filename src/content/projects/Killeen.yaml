@@ -1,0 +1,9 @@
+name: Killeen
+icon: ElementumLigulaVehicula.tiff
+link: http://dummyimage.com/159x100.png/cc0000/ffffff
+support: unknown
+versionFrom: 5.5.9
+categories:
+  - kernel
+  - visualstudio
+  - linux

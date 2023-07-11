@@ -1,0 +1,8 @@
+name: Goodie
+icon: SapienDignissimVestibulum.ppt
+link: http://dummyimage.com/138x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: 0.8.8
+categories:
+  - emulation
+  - oss

@@ -1,0 +1,9 @@
+name: Carlsson
+icon: Sit.tiff
+link: http://dummyimage.com/183x100.png/cc0000/ffffff
+support: native
+versionFrom: 0.4.2
+categories:
+  - linux
+  - testing
+  - kernel

@@ -1,0 +1,9 @@
+name: Adamsen
+icon: VenenatisNonSodales.png
+link: http://dummyimage.com/233x100.png/dddddd/000000
+support: 'no'
+versionFrom: '0.10'
+categories:
+  - embedded
+  - dotnet
+  - tools

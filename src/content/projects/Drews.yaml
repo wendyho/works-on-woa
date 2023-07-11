@@ -1,0 +1,9 @@
+name: Drews
+icon: MaecenasTristique.gif
+link: http://dummyimage.com/114x100.png/ff4444/ffffff
+support: 'no'
+versionFrom: '0.23'
+categories:
+  - testing
+  - tools
+  - linux

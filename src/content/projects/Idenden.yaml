@@ -1,0 +1,8 @@
+name: Idenden
+icon: NuncRhoncus.ppt
+link: http://dummyimage.com/240x100.png/ff4444/ffffff
+support: emulation
+versionFrom: 0.1.8
+categories:
+  - oss
+  - dotnet

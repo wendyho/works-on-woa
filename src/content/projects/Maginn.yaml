@@ -1,0 +1,9 @@
+name: Maginn
+icon: Purus.xls
+link: http://dummyimage.com/237x100.png/ff4444/ffffff
+support: emulation
+versionFrom: '6.90'
+categories:
+  - oss
+  - visualstudio
+  - tools

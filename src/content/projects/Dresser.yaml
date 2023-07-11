@@ -1,0 +1,8 @@
+name: Dresser
+icon: Iaculis.mp3
+link: http://dummyimage.com/173x100.png/cc0000/ffffff
+support: emulation
+versionFrom: '5.33'
+categories:
+  - emulation
+  - dotnet

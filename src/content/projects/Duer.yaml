@@ -1,0 +1,9 @@
+name: Duer
+icon: InFelis.mp3
+link: http://dummyimage.com/106x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: 7.0.9
+categories:
+  - testing
+  - linux
+  - tools

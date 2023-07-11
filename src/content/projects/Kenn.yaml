@@ -1,0 +1,8 @@
+name: Kenn
+icon: NequeLiberoConvallis.tiff
+link: http://dummyimage.com/113x100.png/cc0000/ffffff
+support: emulation
+versionFrom: '1.7'
+categories:
+  - kernel
+  - visualstudio

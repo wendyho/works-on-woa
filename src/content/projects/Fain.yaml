@@ -1,0 +1,9 @@
+name: Fain
+icon: LoremVitaeMattis.ppt
+link: http://dummyimage.com/138x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: '0.95'
+categories:
+  - emulation
+  - embedded
+  - oss

@@ -1,0 +1,9 @@
+name: Sambrok
+icon: ErosVestibulum.avi
+link: http://dummyimage.com/101x100.png/cc0000/ffffff
+support: native
+versionFrom: 2.0.9
+categories:
+  - visualstudio
+  - linux
+  - web

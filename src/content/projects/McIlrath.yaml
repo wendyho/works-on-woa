@@ -1,0 +1,9 @@
+name: McIlrath
+icon: Mollis.mp3
+link: http://dummyimage.com/101x100.png/dddddd/000000
+support: 'no'
+versionFrom: '0.36'
+categories:
+  - dotnet
+  - emulation
+  - linux

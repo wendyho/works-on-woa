@@ -1,0 +1,9 @@
+name: Llorens
+icon: QuisLiberoNullam.avi
+link: http://dummyimage.com/117x100.png/5fa2dd/ffffff
+support: native
+versionFrom: '0.72'
+categories:
+  - kernel
+  - visualstudio
+  - linux

@@ -1,0 +1,8 @@
+name: Kobpac
+icon: QuisTortorId.mp3
+link: http://dummyimage.com/158x100.png/cc0000/ffffff
+support: native
+versionFrom: '0.75'
+categories:
+  - kernel
+  - emulation

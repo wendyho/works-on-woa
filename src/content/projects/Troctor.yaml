@@ -1,0 +1,9 @@
+name: Troctor
+icon: Ultrices.txt
+link: http://dummyimage.com/192x100.png/dddddd/000000
+support: 'no'
+versionFrom: 0.7.1
+categories:
+  - web
+  - visualstudio
+  - dotnet

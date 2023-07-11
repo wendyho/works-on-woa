@@ -1,0 +1,9 @@
+name: Bretton
+icon: UltricesMattisOdio.mp3
+link: http://dummyimage.com/201x100.png/5fa2dd/ffffff
+support: native
+versionFrom: '0.56'
+categories:
+  - visualstudio
+  - linux
+  - embedded

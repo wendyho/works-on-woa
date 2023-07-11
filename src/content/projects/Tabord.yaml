@@ -1,0 +1,9 @@
+name: Tabord
+icon: PlaceratPraesent.xls
+link: http://dummyimage.com/236x100.png/cc0000/ffffff
+support: emulation
+versionFrom: 8.0.1
+categories:
+  - dotnet
+  - visualstudio
+  - emulation

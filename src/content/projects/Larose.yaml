@@ -1,0 +1,9 @@
+name: Larose
+icon: PenatibusEtMagnis.mp3
+link: http://dummyimage.com/123x100.png/cc0000/ffffff
+support: emulation
+versionFrom: '7.8'
+categories:
+  - linux
+  - oss
+  - embedded

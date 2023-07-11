@@ -1,0 +1,9 @@
+name: Anwell
+icon: CrasInPurus.avi
+link: http://dummyimage.com/183x100.png/cc0000/ffffff
+support: native
+versionFrom: '0.43'
+categories:
+  - emulation
+  - dotnet
+  - embedded

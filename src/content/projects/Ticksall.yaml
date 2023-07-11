@@ -1,0 +1,9 @@
+name: Ticksall
+icon: PraesentIdMassa.avi
+link: http://dummyimage.com/211x100.png/dddddd/000000
+support: emulation
+versionFrom: '0.17'
+categories:
+  - linux
+  - emulation
+  - visualstudio

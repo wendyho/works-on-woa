@@ -1,0 +1,9 @@
+name: Grafton-Herbert
+icon: Vehicula.txt
+link: http://dummyimage.com/123x100.png/dddddd/000000
+support: unknown
+versionFrom: '6.39'
+categories:
+  - testing
+  - tools
+  - visualstudio

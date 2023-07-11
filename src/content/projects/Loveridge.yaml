@@ -1,0 +1,9 @@
+name: Loveridge
+icon: Vestibulum.xls
+link: http://dummyimage.com/142x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: 0.5.5
+categories:
+  - dotnet
+  - web
+  - kernel

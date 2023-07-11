@@ -1,0 +1,9 @@
+name: Haresign
+icon: Sapien.xls
+link: http://dummyimage.com/110x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: 1.3.9
+categories:
+  - tools
+  - linux
+  - emulation

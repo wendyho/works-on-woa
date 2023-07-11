@@ -1,0 +1,9 @@
+name: Fraine
+icon: NullaTellus.pdf
+link: http://dummyimage.com/127x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: '5.70'
+categories:
+  - emulation
+  - embedded
+  - linux

@@ -1,0 +1,8 @@
+name: Halsworth
+icon: NatoquePenatibus.ppt
+link: http://dummyimage.com/223x100.png/ff4444/ffffff
+support: native
+versionFrom: '0.97'
+categories:
+  - dotnet
+  - tools

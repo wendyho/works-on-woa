@@ -1,0 +1,9 @@
+name: Sotham
+icon: NonMattis.ppt
+link: http://dummyimage.com/151x100.png/ff4444/ffffff
+support: native
+versionFrom: '9.3'
+categories:
+  - emulation
+  - dotnet
+  - embedded

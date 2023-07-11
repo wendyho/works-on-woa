@@ -1,0 +1,9 @@
+name: Howsan
+icon: NonLigula.jpeg
+link: http://dummyimage.com/152x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: 0.6.9
+categories:
+  - testing
+  - web
+  - dotnet

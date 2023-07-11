@@ -1,0 +1,9 @@
+name: Folomin
+icon: Justo.xls
+link: http://dummyimage.com/170x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: '9.13'
+categories:
+  - web
+  - dotnet
+  - embedded

@@ -1,0 +1,9 @@
+name: Wagstaffe
+icon: AtLorem.tiff
+link: http://dummyimage.com/164x100.png/ff4444/ffffff
+support: native
+versionFrom: '9.2'
+categories:
+  - kernel
+  - tools
+  - linux

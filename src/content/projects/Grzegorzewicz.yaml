@@ -1,0 +1,9 @@
+name: Grzegorzewicz
+icon: IpsumPrimis.avi
+link: http://dummyimage.com/147x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: 3.6.7
+categories:
+  - oss
+  - linux
+  - kernel

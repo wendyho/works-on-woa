@@ -1,0 +1,9 @@
+name: Biffen
+icon: Cras.mp3
+link: http://dummyimage.com/100x100.png/dddddd/000000
+support: emulation
+versionFrom: '0.94'
+categories:
+  - tools
+  - dotnet
+  - emulation

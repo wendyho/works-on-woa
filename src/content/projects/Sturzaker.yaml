@@ -1,0 +1,9 @@
+name: Sturzaker
+icon: PortaVolutpat.tiff
+link: http://dummyimage.com/181x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: 8.1.3
+categories:
+  - tools
+  - dotnet
+  - embedded

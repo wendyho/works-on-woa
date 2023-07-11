@@ -1,0 +1,9 @@
+name: Gollard
+icon: LeoPellentesqueUltrices.jpeg
+link: http://dummyimage.com/193x100.png/ff4444/ffffff
+support: emulation
+versionFrom: '0.72'
+categories:
+  - oss
+  - embedded
+  - visualstudio

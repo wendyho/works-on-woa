@@ -1,0 +1,9 @@
+name: Rao
+icon: LeoPellentesque.xls
+link: http://dummyimage.com/210x100.png/ff4444/ffffff
+support: native
+versionFrom: 0.1.0
+categories:
+  - embedded
+  - tools
+  - kernel

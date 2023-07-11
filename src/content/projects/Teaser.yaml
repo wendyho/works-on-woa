@@ -1,0 +1,9 @@
+name: Teaser
+icon: IpsumPrimisIn.doc
+link: http://dummyimage.com/163x100.png/cc0000/ffffff
+support: unknown
+versionFrom: 3.9.1
+categories:
+  - dotnet
+  - web
+  - kernel

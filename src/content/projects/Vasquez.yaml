@@ -1,0 +1,9 @@
+name: Vasquez
+icon: Justo.mp3
+link: http://dummyimage.com/115x100.png/cc0000/ffffff
+support: native
+versionFrom: 0.2.0
+categories:
+  - testing
+  - emulation
+  - visualstudio

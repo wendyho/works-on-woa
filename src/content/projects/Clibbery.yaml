@@ -1,0 +1,9 @@
+name: Clibbery
+icon: Rhoncus.xls
+link: http://dummyimage.com/102x100.png/cc0000/ffffff
+support: native
+versionFrom: '3.6'
+categories:
+  - web
+  - oss
+  - visualstudio

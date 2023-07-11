@@ -1,0 +1,9 @@
+name: Alvis
+icon: Leo.doc
+link: http://dummyimage.com/229x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: 2.2.4
+categories:
+  - dotnet
+  - linux
+  - kernel

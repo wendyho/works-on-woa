@@ -1,0 +1,9 @@
+name: Munby
+icon: Pellentesque.avi
+link: http://dummyimage.com/197x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: '4.7'
+categories:
+  - tools
+  - testing
+  - web

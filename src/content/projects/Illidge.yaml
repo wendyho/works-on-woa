@@ -1,0 +1,9 @@
+name: Illidge
+icon: InterdumEu.ppt
+link: http://dummyimage.com/246x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: '2.2'
+categories:
+  - oss
+  - embedded
+  - dotnet

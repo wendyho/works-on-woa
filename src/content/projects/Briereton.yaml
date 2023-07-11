@@ -1,0 +1,9 @@
+name: Briereton
+icon: ArcuLibero.avi
+link: http://dummyimage.com/244x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: 4.8.0
+categories:
+  - emulation
+  - web
+  - linux

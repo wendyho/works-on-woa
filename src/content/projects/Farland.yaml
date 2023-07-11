@@ -1,0 +1,9 @@
+name: Farland
+icon: Ipsum.pdf
+link: http://dummyimage.com/225x100.png/dddddd/000000
+support: 'no'
+versionFrom: '2.7'
+categories:
+  - emulation
+  - embedded
+  - linux

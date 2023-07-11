@@ -1,0 +1,9 @@
+name: Belleny
+icon: Eu.txt
+link: http://dummyimage.com/210x100.png/cc0000/ffffff
+support: native
+versionFrom: '1.31'
+categories:
+  - oss
+  - tools
+  - visualstudio

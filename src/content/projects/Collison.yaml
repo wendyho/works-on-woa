@@ -1,0 +1,9 @@
+name: Collison
+icon: Nam.xls
+link: http://dummyimage.com/180x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: 3.1.1
+categories:
+  - embedded
+  - oss
+  - visualstudio

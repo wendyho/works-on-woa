@@ -1,0 +1,9 @@
+name: Slowan
+icon: JustoNec.mov
+link: http://dummyimage.com/231x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: '2.7'
+categories:
+  - dotnet
+  - visualstudio
+  - linux

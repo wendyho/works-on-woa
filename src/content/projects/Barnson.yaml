@@ -1,0 +1,8 @@
+name: Barnson
+icon: TurpisAdipiscing.xls
+link: http://dummyimage.com/213x100.png/ff4444/ffffff
+support: emulation
+versionFrom: '7.24'
+categories:
+  - embedded
+  - emulation

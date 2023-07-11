@@ -1,0 +1,9 @@
+name: Whittleton
+icon: Nunc.mp3
+link: http://dummyimage.com/202x100.png/cc0000/ffffff
+support: native
+versionFrom: 1.0.5
+categories:
+  - visualstudio
+  - oss
+  - emulation

@@ -1,0 +1,9 @@
+name: Highwood
+icon: Sed.mp3
+link: http://dummyimage.com/193x100.png/dddddd/000000
+support: unknown
+versionFrom: 1.4.2
+categories:
+  - kernel
+  - dotnet
+  - web

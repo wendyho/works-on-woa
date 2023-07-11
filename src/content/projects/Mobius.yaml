@@ -1,0 +1,9 @@
+name: Mobius
+icon: Varius.png
+link: http://dummyimage.com/189x100.png/dddddd/000000
+support: native
+versionFrom: 5.9.3
+categories:
+  - dotnet
+  - emulation
+  - oss

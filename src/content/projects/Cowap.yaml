@@ -1,0 +1,9 @@
+name: Cowap
+icon: Faucibus.pdf
+link: http://dummyimage.com/244x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: '7.46'
+categories:
+  - web
+  - embedded
+  - visualstudio

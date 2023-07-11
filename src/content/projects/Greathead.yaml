@@ -1,0 +1,8 @@
+name: Greathead
+icon: Fusce.xls
+link: http://dummyimage.com/173x100.png/dddddd/000000
+support: 'no'
+versionFrom: '0.43'
+categories:
+  - visualstudio
+  - emulation

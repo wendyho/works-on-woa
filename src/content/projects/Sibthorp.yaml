@@ -1,0 +1,9 @@
+name: Sibthorp
+icon: IdSapienIn.mp3
+link: http://dummyimage.com/222x100.png/ff4444/ffffff
+support: unknown
+versionFrom: '0.51'
+categories:
+  - kernel
+  - testing
+  - web

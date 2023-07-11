@@ -1,0 +1,9 @@
+name: Ledwich
+icon: NuncDonec.mp3
+link: http://dummyimage.com/210x100.png/cc0000/ffffff
+support: unknown
+versionFrom: 6.6.2
+categories:
+  - visualstudio
+  - testing
+  - kernel

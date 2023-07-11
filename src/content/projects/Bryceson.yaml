@@ -1,0 +1,8 @@
+name: Bryceson
+icon: VitaeMattis.ppt
+link: http://dummyimage.com/104x100.png/dddddd/000000
+support: 'no'
+versionFrom: 0.9.7
+categories:
+  - emulation
+  - kernel

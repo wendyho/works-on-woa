@@ -1,0 +1,9 @@
+name: Snodin
+icon: LaciniaErat.xls
+link: http://dummyimage.com/180x100.png/ff4444/ffffff
+support: emulation
+versionFrom: '5.01'
+categories:
+  - oss
+  - visualstudio
+  - embedded

@@ -1,0 +1,8 @@
+name: Kohrding
+icon: AnteIpsum.gif
+link: http://dummyimage.com/144x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: '3.6'
+categories:
+  - visualstudio
+  - testing

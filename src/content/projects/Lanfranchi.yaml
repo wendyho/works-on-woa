@@ -1,0 +1,8 @@
+name: Lanfranchi
+icon: Tellus.mp3
+link: http://dummyimage.com/240x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: 8.2.0
+categories:
+  - tools
+  - embedded

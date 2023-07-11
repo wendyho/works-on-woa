@@ -1,0 +1,9 @@
+name: Pedlow
+icon: VariusInteger.mp3
+link: http://dummyimage.com/113x100.png/ff4444/ffffff
+support: native
+versionFrom: 0.3.0
+categories:
+  - emulation
+  - dotnet
+  - kernel

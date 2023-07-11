@@ -1,0 +1,8 @@
+name: Bunney
+icon: DuisBibendumMorbi.mpeg
+link: http://dummyimage.com/178x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: 7.2.8
+categories:
+  - embedded
+  - tools

@@ -1,0 +1,9 @@
+name: Wilkowski
+icon: Aenean.gif
+link: http://dummyimage.com/115x100.png/dddddd/000000
+support: emulation
+versionFrom: '6.36'
+categories:
+  - kernel
+  - embedded
+  - visualstudio

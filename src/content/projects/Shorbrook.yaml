@@ -1,0 +1,9 @@
+name: Shorbrook
+icon: DuiVelNisl.mov
+link: http://dummyimage.com/245x100.png/dddddd/000000
+support: emulation
+versionFrom: '9.1'
+categories:
+  - emulation
+  - kernel
+  - visualstudio

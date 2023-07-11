@@ -1,0 +1,9 @@
+name: Ullett
+icon: NuncRhoncus.jpeg
+link: http://dummyimage.com/110x100.png/dddddd/000000
+support: native
+versionFrom: '6.6'
+categories:
+  - kernel
+  - embedded
+  - testing

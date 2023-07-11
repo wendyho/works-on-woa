@@ -1,0 +1,9 @@
+name: Broschek
+icon: LuctusCumSociis.pdf
+link: http://dummyimage.com/233x100.png/cc0000/ffffff
+support: emulation
+versionFrom: '0.88'
+categories:
+  - embedded
+  - tools
+  - testing

@@ -1,0 +1,8 @@
+name: Bellison
+icon: AnteVel.xls
+link: http://dummyimage.com/180x100.png/ff4444/ffffff
+support: emulation
+versionFrom: '1.3'
+categories:
+  - embedded
+  - web

@@ -1,0 +1,8 @@
+name: Godding
+icon: EuMiNulla.mpeg
+link: http://dummyimage.com/222x100.png/dddddd/000000
+support: 'no'
+versionFrom: 0.9.6
+categories:
+  - tools
+  - embedded

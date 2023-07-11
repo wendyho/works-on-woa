@@ -1,0 +1,9 @@
+name: Sebert
+icon: VelitEuEst.avi
+link: http://dummyimage.com/215x100.png/dddddd/000000
+support: native
+versionFrom: '0.68'
+categories:
+  - testing
+  - dotnet
+  - emulation

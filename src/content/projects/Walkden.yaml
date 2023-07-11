@@ -1,0 +1,9 @@
+name: Walkden
+icon: Porttitor.png
+link: http://dummyimage.com/127x100.png/dddddd/000000
+support: native
+versionFrom: '0.69'
+categories:
+  - kernel
+  - web
+  - tools

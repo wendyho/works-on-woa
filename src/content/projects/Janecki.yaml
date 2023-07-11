@@ -1,0 +1,8 @@
+name: Janecki
+icon: QuamPede.xls
+link: http://dummyimage.com/184x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: '0.59'
+categories:
+  - embedded
+  - oss

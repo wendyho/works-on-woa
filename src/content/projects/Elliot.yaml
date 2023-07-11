@@ -1,0 +1,9 @@
+name: Elliot
+icon: TempusSitAmet.mov
+link: http://dummyimage.com/132x100.png/5fa2dd/ffffff
+support: native
+versionFrom: '3.99'
+categories:
+  - embedded
+  - linux
+  - kernel

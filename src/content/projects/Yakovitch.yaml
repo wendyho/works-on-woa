@@ -1,0 +1,9 @@
+name: Yakovitch
+icon: NullamVariusNulla.xls
+link: http://dummyimage.com/209x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: 6.5.5
+categories:
+  - kernel
+  - embedded
+  - web

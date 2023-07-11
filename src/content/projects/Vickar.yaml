@@ -1,0 +1,9 @@
+name: Vickar
+icon: Eu.xls
+link: http://dummyimage.com/216x100.png/cc0000/ffffff
+support: emulation
+versionFrom: '5.84'
+categories:
+  - tools
+  - emulation
+  - testing

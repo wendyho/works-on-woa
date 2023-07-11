@@ -1,0 +1,9 @@
+name: Hutchence
+icon: In.mov
+link: http://dummyimage.com/244x100.png/ff4444/ffffff
+support: 'no'
+versionFrom: 6.6.0
+categories:
+  - dotnet
+  - embedded
+  - web

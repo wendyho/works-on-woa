@@ -1,0 +1,9 @@
+name: Bigglestone
+icon: Felis.avi
+link: http://dummyimage.com/131x100.png/ff4444/ffffff
+support: native
+versionFrom: '2.42'
+categories:
+  - visualstudio
+  - testing
+  - tools

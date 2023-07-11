@@ -1,0 +1,9 @@
+name: Granham
+icon: Nunc.mp3
+link: http://dummyimage.com/247x100.png/ff4444/ffffff
+support: native
+versionFrom: '0.52'
+categories:
+  - dotnet
+  - tools
+  - visualstudio

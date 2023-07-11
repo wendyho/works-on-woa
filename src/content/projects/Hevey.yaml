@@ -1,0 +1,9 @@
+name: Hevey
+icon: Cubilia.mp3
+link: http://dummyimage.com/230x100.png/dddddd/000000
+support: unknown
+versionFrom: 0.9.1
+categories:
+  - testing
+  - dotnet
+  - kernel

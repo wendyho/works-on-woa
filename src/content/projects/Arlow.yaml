@@ -1,0 +1,8 @@
+name: Arlow
+icon: Augue.mov
+link: http://dummyimage.com/174x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: '2.80'
+categories:
+  - visualstudio
+  - emulation

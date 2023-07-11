@@ -1,0 +1,9 @@
+name: Cramp
+icon: Feugiat.jpeg
+link: http://dummyimage.com/215x100.png/cc0000/ffffff
+support: unknown
+versionFrom: 0.4.7
+categories:
+  - dotnet
+  - emulation
+  - embedded

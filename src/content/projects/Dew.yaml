@@ -1,0 +1,9 @@
+name: Dew
+icon: NuncDonecQuis.xls
+link: http://dummyimage.com/175x100.png/ff4444/ffffff
+support: unknown
+versionFrom: '9.90'
+categories:
+  - visualstudio
+  - kernel
+  - embedded

@@ -1,0 +1,9 @@
+name: McKinnell
+icon: Amet.mp3
+link: http://dummyimage.com/243x100.png/dddddd/000000
+support: 'no'
+versionFrom: '0.16'
+categories:
+  - linux
+  - web
+  - testing

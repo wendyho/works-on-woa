@@ -1,0 +1,9 @@
+name: Hulance
+icon: ParturientMontesNascetur.xls
+link: http://dummyimage.com/156x100.png/ff4444/ffffff
+support: emulation
+versionFrom: 8.4.0
+categories:
+  - web
+  - tools
+  - embedded

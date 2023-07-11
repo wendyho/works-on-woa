@@ -1,0 +1,9 @@
+name: Gianotti
+icon: MaurisMorbiNon.gif
+link: http://dummyimage.com/194x100.png/cc0000/ffffff
+support: native
+versionFrom: 9.5.2
+categories:
+  - testing
+  - dotnet
+  - embedded

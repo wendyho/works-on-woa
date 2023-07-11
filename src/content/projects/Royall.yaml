@@ -1,0 +1,9 @@
+name: Royall
+icon: PretiumQuisLectus.mov
+link: http://dummyimage.com/248x100.png/dddddd/000000
+support: 'no'
+versionFrom: 2.4.1
+categories:
+  - web
+  - embedded
+  - testing

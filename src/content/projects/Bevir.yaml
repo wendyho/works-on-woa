@@ -1,0 +1,9 @@
+name: Bevir
+icon: Sit.xls
+link: http://dummyimage.com/172x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: '4.36'
+categories:
+  - visualstudio
+  - emulation
+  - embedded

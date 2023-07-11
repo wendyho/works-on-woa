@@ -1,0 +1,9 @@
+name: Dingley
+icon: PretiumQuis.ppt
+link: http://dummyimage.com/177x100.png/ff4444/ffffff
+support: 'no'
+versionFrom: 8.2.5
+categories:
+  - testing
+  - tools
+  - web

@@ -1,0 +1,9 @@
+name: Summerell
+icon: SuspendisseOrnare.xls
+link: http://dummyimage.com/246x100.png/ff4444/ffffff
+support: unknown
+versionFrom: '3.10'
+categories:
+  - dotnet
+  - web
+  - testing

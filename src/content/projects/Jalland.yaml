@@ -1,0 +1,8 @@
+name: Jalland
+icon: Suspendisse.tiff
+link: http://dummyimage.com/223x100.png/cc0000/ffffff
+support: emulation
+versionFrom: 9.9.6
+categories:
+  - tools
+  - embedded

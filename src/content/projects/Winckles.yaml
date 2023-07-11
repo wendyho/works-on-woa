@@ -1,0 +1,8 @@
+name: Winckles
+icon: Et.xls
+link: http://dummyimage.com/124x100.png/cc0000/ffffff
+support: native
+versionFrom: 0.5.2
+categories:
+  - dotnet
+  - emulation

@@ -1,0 +1,9 @@
+name: McGannon
+icon: Praesent.ppt
+link: http://dummyimage.com/240x100.png/ff4444/ffffff
+support: 'no'
+versionFrom: '0.37'
+categories:
+  - kernel
+  - oss
+  - web

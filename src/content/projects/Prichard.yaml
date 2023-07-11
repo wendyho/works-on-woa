@@ -1,0 +1,9 @@
+name: Prichard
+icon: AtNibh.tiff
+link: http://dummyimage.com/110x100.png/ff4444/ffffff
+support: native
+versionFrom: '8.2'
+categories:
+  - linux
+  - kernel
+  - tools

@@ -1,0 +1,9 @@
+name: McVeighty
+icon: OrciLuctus.avi
+link: http://dummyimage.com/194x100.png/dddddd/000000
+support: native
+versionFrom: '5.08'
+categories:
+  - visualstudio
+  - embedded
+  - linux

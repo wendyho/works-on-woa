@@ -1,0 +1,9 @@
+name: Foukx
+icon: QuisLibero.png
+link: http://dummyimage.com/137x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: 5.4.7
+categories:
+  - tools
+  - testing
+  - linux

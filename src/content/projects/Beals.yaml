@@ -1,0 +1,8 @@
+name: Beals
+icon: Potenti.gif
+link: http://dummyimage.com/172x100.png/dddddd/000000
+support: emulation
+versionFrom: 0.6.9
+categories:
+  - oss
+  - dotnet

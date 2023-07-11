@@ -1,0 +1,9 @@
+name: Torr
+icon: AliquetAt.tiff
+link: http://dummyimage.com/233x100.png/dddddd/000000
+support: emulation
+versionFrom: 8.5.0
+categories:
+  - kernel
+  - dotnet
+  - testing

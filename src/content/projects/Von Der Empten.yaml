@@ -1,0 +1,9 @@
+name: Von Der Empten
+icon: MassaVolutpat.avi
+link: http://dummyimage.com/187x100.png/dddddd/000000
+support: native
+versionFrom: '0.53'
+categories:
+  - dotnet
+  - embedded
+  - testing

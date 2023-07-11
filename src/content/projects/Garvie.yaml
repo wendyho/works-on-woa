@@ -1,0 +1,9 @@
+name: Garvie
+icon: Odio.ppt
+link: http://dummyimage.com/148x100.png/5fa2dd/ffffff
+support: unknown
+versionFrom: '3.15'
+categories:
+  - dotnet
+  - linux
+  - tools

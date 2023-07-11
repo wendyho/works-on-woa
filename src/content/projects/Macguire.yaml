@@ -1,0 +1,9 @@
+name: Macguire
+icon: Leo.txt
+link: http://dummyimage.com/238x100.png/5fa2dd/ffffff
+support: unknown
+versionFrom: '2.9'
+categories:
+  - linux
+  - kernel
+  - web

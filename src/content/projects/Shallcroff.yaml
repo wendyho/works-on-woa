@@ -1,0 +1,9 @@
+name: Shallcroff
+icon: ANibhIn.avi
+link: http://dummyimage.com/146x100.png/ff4444/ffffff
+support: native
+versionFrom: '0.15'
+categories:
+  - linux
+  - web
+  - kernel

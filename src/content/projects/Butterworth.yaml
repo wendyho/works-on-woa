@@ -1,0 +1,8 @@
+name: Butterworth
+icon: EuTinciduntIn.pdf
+link: http://dummyimage.com/175x100.png/5fa2dd/ffffff
+support: native
+versionFrom: '0.30'
+categories:
+  - dotnet
+  - web

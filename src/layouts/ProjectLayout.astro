@@ -3,25 +3,64 @@ import { getEntry, type CollectionEntry } from "astro:content";
 import BaseHead from "../components/BaseHead.astro";
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
-import FormattedDate from "../components/FormattedDate.astro";
+import { toTitleCase } from "../util/formatting";
 
-type Props = CollectionEntry<"projects">["data"];
+type Props = CollectionEntry<"projects">;
 
-const { name, notes, categories, link, support, icon } = Astro.props;
+const { data } = Astro.props;
+
+// extract generic fields
+const textFields = Object.entries(data).filter(
+	([key]) =>
+		key !== "icon" &&
+		key !== "name" &&
+		key !== "categories" &&
+		key !== "link"
+) as [string, string][];
+
+// extract special fields
+const { link, icon, name, categories } = data;
+
+// get category data from references
 const categoryPromises = categories.map(async (category) =>
 	getEntry("categories", category.id)
 );
 const categoriesData = await Promise.all(categoryPromises);
+
+// construct field array
+const fields = [
+	...textFields.map((field) => ({
+		key: field[0],
+		value: field[1],
+		type: "text",
+	})),
+	{
+		key: "link",
+		value: link,
+		type: "link",
+	},
+	{
+		key: "categories",
+		value: categoriesData.map((category) => category.data.name).join(", "),
+		type: "text",
+	},
+];
+
+// list filtering fields
+const filters = ["categories", "support"];
 ---
 
 <html lang="en">
 	<head>
-		<BaseHead title={name} description={notes} />
+		<BaseHead title={name} description={data.notes || name} />
 	</head>
 
 	<body class="min-h-screen flex flex-col">
 		<Header />
-		<main class="flex flex-col items-center basis-full flex-grow">
+		<main
+			class="flex flex-col items-center basis-full flex-grow"
+			data-pagefind-body
+		>
 			<article class="w-auto">
 				<div class="flex">
 					<h1 class="font-bold text-2xl">{name}</h1>
@@ -29,31 +68,29 @@ const categoriesData = await Promise.all(categoryPromises);
 				</div>
 
 				<ul class="px-10 w-auto">
-					<li>
-						<b>Support</b>
-						<p>{support}</p>
-					</li>
-					<li>
-						<b>Categories</b>
-						<p>
-							{
-								categoriesData
-									.map((category) => category.data.name)
-									.join(", ")
-							}
-						</p>
-					</li>
-					<li>
-						<p>
-							<a class="underline text-blue-700" href={link}
-								>{link}</a
-							>
-						</p>
-					</li>
-					<li>
-						<b>Notes</b>
-						<p>{notes}</p>
-					</li>
+					{
+						fields.map((field) => (
+							<li>
+								<b data-pagefind-ignore>
+									{toTitleCase(field.key)}
+								</b>
+								<p
+									data-pagefind-filter={
+										filters.includes(field.key) && field.key
+									}
+									data-pagefind-ignore={filters.includes(
+										field.key
+									)}
+								>
+									{field.type === "link" ? (
+										<a href={field.value}>{field.value}</a>
+									) : (
+										field.value
+									)}
+								</p>
+							</li>
+						))
+					}
 				</ul>
 			</article>
 		</main>

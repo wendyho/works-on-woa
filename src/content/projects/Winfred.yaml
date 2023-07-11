@@ -1,0 +1,9 @@
+name: Winfred
+icon: EratErosViverra.tiff
+link: http://dummyimage.com/195x100.png/cc0000/ffffff
+support: unknown
+versionFrom: '0.28'
+categories:
+  - kernel
+  - visualstudio
+  - oss

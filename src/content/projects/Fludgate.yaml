@@ -1,0 +1,8 @@
+name: Fludgate
+icon: ProinEuMi.tiff
+link: http://dummyimage.com/121x100.png/ff4444/ffffff
+support: native
+versionFrom: 5.9.3
+categories:
+  - oss
+  - dotnet

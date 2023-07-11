@@ -1,0 +1,8 @@
+name: Severns
+icon: UtUltrices.mp3
+link: http://dummyimage.com/157x100.png/ff4444/ffffff
+support: emulation
+versionFrom: '6.1'
+categories:
+  - embedded
+  - kernel

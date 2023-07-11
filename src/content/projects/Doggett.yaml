@@ -1,0 +1,9 @@
+name: Doggett
+icon: EstLacinia.avi
+link: http://dummyimage.com/195x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: '3.06'
+categories:
+  - dotnet
+  - linux
+  - testing

@@ -1,0 +1,9 @@
+name: Leele
+icon: JustoMaecenasRhoncus.avi
+link: http://dummyimage.com/236x100.png/dddddd/000000
+support: 'no'
+versionFrom: 9.2.2
+categories:
+  - kernel
+  - emulation
+  - linux

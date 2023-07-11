@@ -1,0 +1,9 @@
+name: Gerran
+icon: Eget.mov
+link: http://dummyimage.com/169x100.png/dddddd/000000
+support: unknown
+versionFrom: 2.4.7
+categories:
+  - testing
+  - tools
+  - embedded

@@ -1,0 +1,9 @@
+name: Elmar
+icon: PlateaDictumstMaecenas.jpeg
+link: http://dummyimage.com/206x100.png/dddddd/000000
+support: emulation
+versionFrom: '2.47'
+categories:
+  - emulation
+  - embedded
+  - dotnet

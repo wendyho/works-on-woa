@@ -1,0 +1,9 @@
+name: Alcoran
+icon: ViverraDiamVitae.xls
+link: http://dummyimage.com/219x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: 0.6.7
+categories:
+  - visualstudio
+  - kernel
+  - web

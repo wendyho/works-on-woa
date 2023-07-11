@@ -1,0 +1,9 @@
+name: Lamble
+icon: VestibulumAnte.ppt
+link: http://dummyimage.com/179x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: '5.7'
+categories:
+  - embedded
+  - kernel
+  - dotnet

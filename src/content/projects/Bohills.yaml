@@ -1,0 +1,9 @@
+name: Bohills
+icon: Sed.gif
+link: http://dummyimage.com/232x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: 0.9.2
+categories:
+  - embedded
+  - dotnet
+  - linux

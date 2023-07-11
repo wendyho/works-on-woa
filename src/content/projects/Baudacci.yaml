@@ -1,0 +1,9 @@
+name: Baudacci
+icon: MaecenasLeo.xls
+link: http://dummyimage.com/110x100.png/dddddd/000000
+support: unknown
+versionFrom: '0.22'
+categories:
+  - linux
+  - web
+  - embedded

@@ -1,0 +1,9 @@
+name: Kenshole
+icon: NequeSapienPlacerat.avi
+link: http://dummyimage.com/243x100.png/ff4444/ffffff
+support: emulation
+versionFrom: '0.70'
+categories:
+  - tools
+  - linux
+  - visualstudio

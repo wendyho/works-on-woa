@@ -1,0 +1,9 @@
+name: Rhys
+icon: NullaDapibus.avi
+link: http://dummyimage.com/136x100.png/cc0000/ffffff
+support: native
+versionFrom: '0.56'
+categories:
+  - emulation
+  - kernel
+  - oss

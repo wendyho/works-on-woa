@@ -1,0 +1,9 @@
+name: De L'Isle
+icon: RutrumNulla.avi
+link: http://dummyimage.com/153x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: 0.9.6
+categories:
+  - testing
+  - dotnet
+  - kernel

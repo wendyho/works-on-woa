@@ -1,0 +1,8 @@
+name: Lidgerton
+icon: DignissimVestibulum.tiff
+link: http://dummyimage.com/147x100.png/cc0000/ffffff
+support: emulation
+versionFrom: 2.9.9
+categories:
+  - testing
+  - emulation

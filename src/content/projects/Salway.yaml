@@ -1,0 +1,9 @@
+name: Salway
+icon: VulputateVitae.mpeg
+link: http://dummyimage.com/208x100.png/ff4444/ffffff
+support: emulation
+versionFrom: '1.1'
+categories:
+  - testing
+  - oss
+  - tools

@@ -1,0 +1,9 @@
+name: Droghan
+icon: Libero.tiff
+link: http://dummyimage.com/107x100.png/dddddd/000000
+support: native
+versionFrom: 4.4.0
+categories:
+  - web
+  - linux
+  - testing

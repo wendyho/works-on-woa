@@ -1,0 +1,8 @@
+name: Albany
+icon: VelAugueVestibulum.pdf
+link: http://dummyimage.com/225x100.png/dddddd/000000
+support: native
+versionFrom: '7.9'
+categories:
+  - linux
+  - tools

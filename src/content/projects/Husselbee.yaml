@@ -1,0 +1,9 @@
+name: Husselbee
+icon: EstPhasellus.jpeg
+link: http://dummyimage.com/122x100.png/5fa2dd/ffffff
+support: native
+versionFrom: 0.9.8
+categories:
+  - oss
+  - kernel
+  - testing

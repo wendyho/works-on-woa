@@ -1,0 +1,9 @@
+name: Mantrup
+icon: InFaucibus.doc
+link: http://dummyimage.com/210x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: '9.92'
+categories:
+  - dotnet
+  - kernel
+  - emulation

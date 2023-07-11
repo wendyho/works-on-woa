@@ -1,0 +1,9 @@
+name: Burness
+icon: OdioJusto.xls
+link: http://dummyimage.com/195x100.png/ff4444/ffffff
+support: native
+versionFrom: '6.57'
+categories:
+  - embedded
+  - oss
+  - kernel

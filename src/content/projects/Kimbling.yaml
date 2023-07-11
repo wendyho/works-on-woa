@@ -1,0 +1,9 @@
+name: Kimbling
+icon: Erat.mpeg
+link: http://dummyimage.com/143x100.png/5fa2dd/ffffff
+support: native
+versionFrom: 4.2.8
+categories:
+  - tools
+  - emulation
+  - web

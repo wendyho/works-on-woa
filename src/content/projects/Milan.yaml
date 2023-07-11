@@ -1,0 +1,9 @@
+name: Milan
+icon: LaoreetUt.avi
+link: http://dummyimage.com/198x100.png/ff4444/ffffff
+support: 'no'
+versionFrom: 5.1.2
+categories:
+  - oss
+  - linux
+  - emulation

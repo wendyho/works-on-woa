@@ -1,0 +1,9 @@
+name: De Bruin
+icon: OdioDonec.avi
+link: http://dummyimage.com/187x100.png/ff4444/ffffff
+support: native
+versionFrom: '9.26'
+categories:
+  - oss
+  - kernel
+  - emulation

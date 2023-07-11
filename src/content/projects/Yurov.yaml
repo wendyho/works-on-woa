@@ -1,0 +1,9 @@
+name: Yurov
+icon: Sapien.ppt
+link: http://dummyimage.com/146x100.png/5fa2dd/ffffff
+support: native
+versionFrom: '8.0'
+categories:
+  - linux
+  - tools
+  - testing

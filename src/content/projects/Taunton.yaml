@@ -1,0 +1,9 @@
+name: Taunton
+icon: LigulaNec.jpeg
+link: http://dummyimage.com/133x100.png/dddddd/000000
+support: emulation
+versionFrom: '6.9'
+categories:
+  - visualstudio
+  - emulation
+  - kernel

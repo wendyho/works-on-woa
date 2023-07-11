@@ -1,0 +1,9 @@
+name: Rontsch
+icon: AuctorSed.mp3
+link: http://dummyimage.com/117x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: '0.37'
+categories:
+  - kernel
+  - emulation
+  - visualstudio

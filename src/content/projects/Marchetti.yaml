@@ -1,0 +1,9 @@
+name: Marchetti
+icon: Et.gif
+link: http://dummyimage.com/237x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: '7.0'
+categories:
+  - dotnet
+  - tools
+  - embedded

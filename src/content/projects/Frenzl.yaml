@@ -1,0 +1,9 @@
+name: Frenzl
+icon: HabitassePlateaDictumst.avi
+link: http://dummyimage.com/241x100.png/ff4444/ffffff
+support: emulation
+versionFrom: '0.14'
+categories:
+  - embedded
+  - kernel
+  - testing

@@ -1,0 +1,8 @@
+name: Chavez
+icon: Nec.mp3
+link: http://dummyimage.com/110x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: '7.16'
+categories:
+  - embedded
+  - emulation

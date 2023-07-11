@@ -1,0 +1,9 @@
+name: Chong
+icon: Etiam.ppt
+link: http://dummyimage.com/137x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: 0.8.6
+categories:
+  - testing
+  - web
+  - linux

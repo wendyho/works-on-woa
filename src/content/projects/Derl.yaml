@@ -1,0 +1,8 @@
+name: Derl
+icon: Pede.mpeg
+link: http://dummyimage.com/164x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: '5.1'
+categories:
+  - testing
+  - emulation

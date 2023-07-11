@@ -1,0 +1,9 @@
+name: Sickling
+icon: IdNisl.avi
+link: http://dummyimage.com/207x100.png/5fa2dd/ffffff
+support: native
+versionFrom: '6.18'
+categories:
+  - visualstudio
+  - dotnet
+  - web

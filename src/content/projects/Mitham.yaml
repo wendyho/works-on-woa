@@ -1,0 +1,9 @@
+name: Mitham
+icon: SitAmet.jpeg
+link: http://dummyimage.com/221x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: '6.0'
+categories:
+  - oss
+  - linux
+  - web

@@ -1,0 +1,8 @@
+name: Erratt
+icon: DictumstMorbi.avi
+link: http://dummyimage.com/205x100.png/cc0000/ffffff
+support: native
+versionFrom: 3.9.8
+categories:
+  - linux
+  - embedded

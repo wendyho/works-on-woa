@@ -1,0 +1,9 @@
+name: Speller
+icon: AliquetMassaId.xls
+link: http://dummyimage.com/132x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: '8.98'
+categories:
+  - tools
+  - embedded
+  - dotnet

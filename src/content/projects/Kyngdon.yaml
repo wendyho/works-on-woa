@@ -1,0 +1,9 @@
+name: Kyngdon
+icon: AcDiamCras.ppt
+link: http://dummyimage.com/242x100.png/ff4444/ffffff
+support: emulation
+versionFrom: '6.1'
+categories:
+  - testing
+  - emulation
+  - tools

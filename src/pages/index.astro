@@ -1,11 +1,12 @@
 ---
+export const prerender = false;
 import BaseHead from "../components/BaseHead.astro";
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
 import { getCollection } from "astro:content";
 import PageFind from "../components/PageFind.astro";
 
-const projects = await getCollection("projects");
+const categories = await getCollection("categories");
 ---
 
 <!DOCTYPE html>
@@ -21,13 +22,16 @@ const projects = await getCollection("projects");
 		<PageFind />
 		<main>
 			<section class="flex flex-col items-center">
-				<h2 class="font-bold p-3 text-xl">Projects</h2>
-				<ul class="list-disc list-inside p-4" data-pagefind-ignore>
+				<h2 class="font-bold p-3 text-xl">Browse by Category</h2>
+				<ul>
+					<li>
+						<a href="/all/1">all</a>
+					</li>
 					{
-						projects.map((project) => (
-							<li class="underline">
-								<a href={`/projects/${project.id}`}>
-									{project.data.name}
+						categories.map((category) => (
+							<li>
+								<a href={`/${category.id}/1`}>
+									{category.data.name}
 								</a>
 							</li>
 						))

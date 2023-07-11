@@ -1,0 +1,9 @@
+name: Hooban
+icon: ViverraDapibusNulla.mp3
+link: http://dummyimage.com/183x100.png/cc0000/ffffff
+support: native
+versionFrom: '0.11'
+categories:
+  - visualstudio
+  - testing
+  - emulation

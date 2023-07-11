@@ -1,0 +1,9 @@
+name: Kaman
+icon: Justo.xls
+link: http://dummyimage.com/223x100.png/dddddd/000000
+support: emulation
+versionFrom: 0.8.3
+categories:
+  - linux
+  - oss
+  - emulation

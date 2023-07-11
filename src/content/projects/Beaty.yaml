@@ -1,0 +1,9 @@
+name: Beaty
+icon: Libero.tiff
+link: http://dummyimage.com/110x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: 0.2.9
+categories:
+  - dotnet
+  - web
+  - embedded

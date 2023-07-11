@@ -1,0 +1,9 @@
+name: Starsmeare
+icon: Tempus.ppt
+link: http://dummyimage.com/113x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: 5.1.1
+categories:
+  - linux
+  - testing
+  - oss

@@ -1,0 +1,8 @@
+name: Ughini
+icon: AmetCursusId.xls
+link: http://dummyimage.com/214x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: 9.7.0
+categories:
+  - visualstudio
+  - embedded

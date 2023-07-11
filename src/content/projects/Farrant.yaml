@@ -1,0 +1,9 @@
+name: Farrant
+icon: AnteVel.ppt
+link: http://dummyimage.com/174x100.png/dddddd/000000
+support: 'no'
+versionFrom: 0.8.2
+categories:
+  - linux
+  - oss
+  - visualstudio

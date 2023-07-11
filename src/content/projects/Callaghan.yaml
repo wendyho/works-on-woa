@@ -1,0 +1,9 @@
+name: Callaghan
+icon: EtUltricesPosuere.ppt
+link: http://dummyimage.com/234x100.png/ff4444/ffffff
+support: native
+versionFrom: '2.5'
+categories:
+  - testing
+  - dotnet
+  - visualstudio

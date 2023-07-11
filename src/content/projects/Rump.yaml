@@ -1,0 +1,9 @@
+name: Rump
+icon: MontesNasceturRidiculus.xls
+link: http://dummyimage.com/176x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: '0.74'
+categories:
+  - testing
+  - visualstudio
+  - web

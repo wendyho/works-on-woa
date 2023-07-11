@@ -1,0 +1,8 @@
+name: Quarmby
+icon: Et.xls
+link: http://dummyimage.com/147x100.png/ff4444/ffffff
+support: emulation
+versionFrom: 0.2.6
+categories:
+  - visualstudio
+  - embedded

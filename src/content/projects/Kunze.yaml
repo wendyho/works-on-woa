@@ -1,0 +1,9 @@
+name: Kunze
+icon: TellusNulla.avi
+link: http://dummyimage.com/170x100.png/dddddd/000000
+support: unknown
+versionFrom: '0.49'
+categories:
+  - tools
+  - testing
+  - kernel

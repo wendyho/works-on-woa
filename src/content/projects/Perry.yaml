@@ -1,0 +1,9 @@
+name: Perry
+icon: Blandit.tiff
+link: http://dummyimage.com/226x100.png/cc0000/ffffff
+support: emulation
+versionFrom: '3.5'
+categories:
+  - tools
+  - embedded
+  - web

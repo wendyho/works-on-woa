@@ -1,0 +1,9 @@
+name: Fleeman
+icon: LaciniaErat.mp3
+link: http://dummyimage.com/142x100.png/5fa2dd/ffffff
+support: unknown
+versionFrom: 2.3.2
+categories:
+  - dotnet
+  - linux
+  - testing

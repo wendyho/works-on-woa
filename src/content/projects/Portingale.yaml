@@ -1,0 +1,9 @@
+name: Portingale
+icon: Nulla.xls
+link: http://dummyimage.com/129x100.png/5fa2dd/ffffff
+support: 'no'
+versionFrom: '3.69'
+categories:
+  - embedded
+  - linux
+  - emulation

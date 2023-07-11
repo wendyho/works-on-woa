@@ -1,0 +1,9 @@
+name: Chittleburgh
+icon: MorbiNonLectus.ppt
+link: http://dummyimage.com/199x100.png/cc0000/ffffff
+support: native
+versionFrom: '0.84'
+categories:
+  - kernel
+  - emulation
+  - embedded

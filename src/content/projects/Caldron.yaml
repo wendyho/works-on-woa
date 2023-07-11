@@ -1,0 +1,9 @@
+name: Caldron
+icon: SedAccumsan.mp3
+link: http://dummyimage.com/245x100.png/cc0000/ffffff
+support: 'no'
+versionFrom: 6.3.6
+categories:
+  - dotnet
+  - emulation
+  - visualstudio

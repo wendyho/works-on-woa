@@ -1,0 +1,9 @@
+name: Jorioz
+icon: VestibulumAnteIpsum.tiff
+link: http://dummyimage.com/127x100.png/dddddd/000000
+support: native
+versionFrom: '7.77'
+categories:
+  - dotnet
+  - emulation
+  - tools

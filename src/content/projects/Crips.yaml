@@ -1,0 +1,8 @@
+name: Crips
+icon: QuamSapienVarius.mp3
+link: http://dummyimage.com/178x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: '6.12'
+categories:
+  - web
+  - linux

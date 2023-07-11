@@ -1,0 +1,9 @@
+name: Dyne
+icon: Vestibulum.xls
+link: http://dummyimage.com/117x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: '3.8'
+categories:
+  - web
+  - embedded
+  - visualstudio

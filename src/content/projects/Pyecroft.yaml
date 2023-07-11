@@ -1,0 +1,8 @@
+name: Pyecroft
+icon: Pede.doc
+link: http://dummyimage.com/198x100.png/ff4444/ffffff
+support: 'no'
+versionFrom: 7.0.6
+categories:
+  - linux
+  - kernel

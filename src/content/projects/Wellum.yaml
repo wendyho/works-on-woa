@@ -1,0 +1,9 @@
+name: Wellum
+icon: VelAugue.ppt
+link: http://dummyimage.com/229x100.png/ff4444/ffffff
+support: 'no'
+versionFrom: 5.4.1
+categories:
+  - tools
+  - dotnet
+  - oss

@@ -1,0 +1,8 @@
+name: Kubal
+icon: Luctus.avi
+link: http://dummyimage.com/151x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: '4.6'
+categories:
+  - kernel
+  - tools

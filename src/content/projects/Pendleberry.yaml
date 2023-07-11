@@ -1,0 +1,9 @@
+name: Pendleberry
+icon: Ante.avi
+link: http://dummyimage.com/121x100.png/5fa2dd/ffffff
+support: native
+versionFrom: '5.60'
+categories:
+  - kernel
+  - embedded
+  - linux

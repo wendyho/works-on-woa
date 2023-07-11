@@ -1,0 +1,9 @@
+name: Whale
+icon: ConsequatDui.jpeg
+link: http://dummyimage.com/185x100.png/cc0000/ffffff
+support: native
+versionFrom: '7.89'
+categories:
+  - linux
+  - oss
+  - testing

@@ -1,0 +1,9 @@
+name: Cupitt
+icon: AeneanSitAmet.mpeg
+link: http://dummyimage.com/247x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: 8.9.5
+categories:
+  - oss
+  - embedded
+  - linux

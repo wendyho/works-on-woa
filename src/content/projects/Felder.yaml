@@ -1,0 +1,8 @@
+name: Felder
+icon: Nec.mpeg
+link: http://dummyimage.com/194x100.png/dddddd/000000
+support: emulation
+versionFrom: 4.5.8
+categories:
+  - visualstudio
+  - emulation

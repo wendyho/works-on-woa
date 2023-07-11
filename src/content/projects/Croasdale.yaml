@@ -1,0 +1,9 @@
+name: Croasdale
+icon: AugueVel.avi
+link: http://dummyimage.com/210x100.png/5fa2dd/ffffff
+support: emulation
+versionFrom: '0.50'
+categories:
+  - kernel
+  - tools
+  - embedded

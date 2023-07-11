@@ -1,0 +1,9 @@
+name: Gaughan
+icon: MorbiSem.mp3
+link: http://dummyimage.com/224x100.png/cc0000/ffffff
+support: native
+versionFrom: 0.3.8
+categories:
+  - kernel
+  - oss
+  - embedded

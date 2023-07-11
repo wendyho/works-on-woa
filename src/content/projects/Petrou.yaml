@@ -1,0 +1,9 @@
+name: Petrou
+icon: Ligula.ppt
+link: http://dummyimage.com/172x100.png/dddddd/000000
+support: 'no'
+versionFrom: '5.37'
+categories:
+  - tools
+  - embedded
+  - testing
