@@ -1,19 +1,40 @@
-<div id="search" class="ml-3 p-4 -mt-8"></div>
+---
+import Search from "astro-pagefind/components/Search";
+---
 
-<script>
-    import { PagefindUI } from "@pagefind/default-ui";
-
-    window.addEventListener("DOMContentLoaded", (event) => {
-        new PagefindUI({ element: "#search", resetStyles: false });
-    });
-</script>
+<Search className="pagefind-ui" />
 
 <style is:global>
-    .dark {
-        --pagefind-ui-primary: #eeeeee;
-        --pagefind-ui-text: #eeeeee;
-        --pagefind-ui-background: #152028;
-        --pagefind-ui-border: #152028;
-        --pagefind-ui-tag: #152028;
-    }
+  .pagefind-ui {
+    --pagefind-ui-scale: 1;
+    --pagefind-ui-primary: navy;
+    --pagefind-ui-text: white;
+    --pagefind-ui-border: slategrey;
+    --pagefind-ui-border-width: 1px;
+    --pagefind-ui-border-radius: 0.25rem;
+    --pagefind-ui-font: sans-serif;
+    --pagefind-ui-background: white;
+
+    width: 100%;
+  }
+
+  .pagefind-ui .pagefind-ui__drawer:not(.pagefind-ui__hidden) {
+    /* position: absolute;
+      left: 0;
+      right: 0;
+      margin-top: 0px;
+      z-index: 9999;
+      padding: 0 2em 1em;
+      overflow-y: auto;
+      box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.2),
+        0 2px 2px 0 rgba(0, 0, 0, 0.1); */
+    border-bottom-right-radius: var(--pagefind-ui-border-radius);
+    border-bottom-left-radius: var(--pagefind-ui-border-radius);
+    background-color: transparent;
+    color: white;
+  }
+
+  .pagefind-ui .pagefind-ui__search-input {
+    color: black;
+  }
 </style>

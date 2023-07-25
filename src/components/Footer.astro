@@ -1,13 +1,50 @@
 ---
 const today = new Date();
+const links = [
+  {
+    text: "Report an issue",
+    href: "https://github.com/Linaro/works-on-woa/issues/new",
+  },
+  {
+    text: "Edit on Github",
+    href: "https://github.com/Linaro/works-on-woa",
+  },
+  {
+    text: "Cookie Policy",
+    href: "",
+  },
+  {
+    text: "Terms of Use",
+    href: "",
+  },
+  {
+    text: "Privacy Policy",
+    href: "",
+  },
+  {
+    text: "Contact",
+    href: "",
+  },
+];
 ---
 
 <footer>
-	&copy; {today.getFullYear()} Linaro Limited
+  <ul class="flex flex-row flex-wrap items-center justify-center w-full mb-5">
+    {
+      links.map((link) => (
+        <li class="before:border before:border-solid before:border-white">
+          <a class=" text-center p-5" href={link.href}>
+            {link.text}
+          </a>
+        </li>
+      ))
+    }
+  </ul>
+  Copyright &copy; {today.getFullYear()} Linaro Limited
 </footer>
 <style>
-	footer {
-		padding: 25px;
-		text-align: center;
-	}
+  footer {
+    padding: 25px;
+    text-align: center;
+  }
 </style>

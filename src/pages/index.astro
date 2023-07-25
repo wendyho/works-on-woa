@@ -1,40 +1,49 @@
 ---
+export const prerender = false;
 import BaseHead from "../components/BaseHead.astro";
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
 import { getCollection } from "astro:content";
 import PageFind from "../components/PageFind.astro";
 
-const projects = await getCollection("projects");
+const categories = await getCollection("categories");
 ---
 
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<BaseHead
-			title={"Windows on ARM"}
-			description={"Find projects supported by Windows on ARM"}
-		/>
-	</head>
-	<body>
-		<Header />
-		<PageFind />
-		<main>
-			<section class="flex flex-col items-center">
-				<h2 class="font-bold p-3 text-xl">Projects</h2>
-				<ul class="list-disc list-inside p-4" data-pagefind-ignore>
-					{
-						projects.map((project) => (
-							<li class="underline">
-								<a href={`/projects/${project.id}`}>
-									{project.data.name}
-								</a>
-							</li>
-						))
-					}
-				</ul>
-			</section>
-		</main>
-		<Footer />
-	</body>
+  <head>
+    <BaseHead
+      title={"Windows on ARM"}
+      description={"Find projects supported by Windows on ARM"}
+    />
+  </head>
+  <body>
+    <Header />
+
+    <div class="px-20 py-5">
+      <p class="text-xl my-5 text-center">
+        This page shows whether popular Windows applications natively support
+        Windows on ARM
+      </p>
+      <PageFind />
+    </div>
+    <main>
+      <section class="flex flex-col items-center m-10">
+        <h2 class="font-bold p-3 text-xl">Browse by Category</h2>
+        <ul class="flex flex-row flex-wrap gap-5 underline p-5">
+          <li>
+            <a class="" href="/all/1">all</a>
+          </li>
+          {
+            categories.map((category) => (
+              <li>
+                <a href={`/${category.id}/1`}>{category.data.name}</a>
+              </li>
+            ))
+          }
+        </ul>
+      </section>
+    </main>
+    <Footer />
+  </body>
 </html>
