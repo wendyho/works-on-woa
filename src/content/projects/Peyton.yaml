@@ -1,9 +1,0 @@
-name: Peyton
-icon: ScelerisqueMaurisSit.tiff
-link: http://dummyimage.com/195x100.png/ff4444/ffffff
-support: 'no'
-versionFrom: '1.19'
-categories:
-  - embedded
-  - dotnet
-  - testing

@@ -1,9 +1,0 @@
-name: Nussgen
-icon: EtMagnis.mp3
-link: http://dummyimage.com/106x100.png/ff4444/ffffff
-support: 'no'
-versionFrom: '5.3'
-categories:
-  - kernel
-  - oss
-  - testing

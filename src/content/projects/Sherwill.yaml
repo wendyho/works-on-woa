@@ -1,9 +1,0 @@
-name: Sherwill
-icon: AccumsanOdio.avi
-link: http://dummyimage.com/213x100.png/cc0000/ffffff
-support: emulation
-versionFrom: '0.26'
-categories:
-  - embedded
-  - testing
-  - visualstudio

@@ -1,9 +1,0 @@
-name: Allgood
-icon: Nunc.jpeg
-link: http://dummyimage.com/157x100.png/cc0000/ffffff
-support: 'no'
-versionFrom: '6.45'
-categories:
-  - dotnet
-  - linux
-  - tools

@@ -1,9 +1,0 @@
-name: Hayselden
-icon: VestibulumAnte.tiff
-link: http://dummyimage.com/191x100.png/5fa2dd/ffffff
-support: 'no'
-versionFrom: '7.92'
-categories:
-  - kernel
-  - dotnet
-  - visualstudio

@@ -1,9 +1,0 @@
-name: Nodes
-icon: IpsumInteger.tiff
-link: http://dummyimage.com/219x100.png/dddddd/000000
-support: 'no'
-versionFrom: '7.10'
-categories:
-  - emulation
-  - testing
-  - tools

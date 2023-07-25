@@ -1,9 +1,0 @@
-name: Doulton
-icon: QuisqueIdJusto.mpeg
-link: http://dummyimage.com/197x100.png/ff4444/ffffff
-support: 'no'
-versionFrom: 4.9.9
-categories:
-  - emulation
-  - kernel
-  - tools

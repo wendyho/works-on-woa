@@ -1,9 +1,0 @@
-name: Blaycock
-icon: Odio.jpeg
-link: http://dummyimage.com/131x100.png/5fa2dd/ffffff
-support: 'no'
-versionFrom: '2.20'
-categories:
-  - oss
-  - kernel
-  - emulation

@@ -1,9 +1,0 @@
-name: Halkyard
-icon: LiberoNam.doc
-link: http://dummyimage.com/172x100.png/ff4444/ffffff
-support: unknown
-versionFrom: '7.70'
-categories:
-  - visualstudio
-  - kernel
-  - dotnet

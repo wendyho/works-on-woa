@@ -1,9 +1,0 @@
-name: Gounot
-icon: DuisBibendum.ppt
-link: http://dummyimage.com/137x100.png/dddddd/000000
-support: emulation
-versionFrom: '0.28'
-categories:
-  - linux
-  - emulation
-  - embedded

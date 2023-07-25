@@ -1,9 +1,0 @@
-name: Hayers
-icon: InLectusPellentesque.xls
-link: http://dummyimage.com/223x100.png/5fa2dd/ffffff
-support: 'no'
-versionFrom: '5.2'
-categories:
-  - oss
-  - kernel
-  - testing

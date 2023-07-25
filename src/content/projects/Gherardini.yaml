@@ -1,9 +1,0 @@
-name: Gherardini
-icon: Vel.xls
-link: http://dummyimage.com/232x100.png/5fa2dd/ffffff
-support: native
-versionFrom: '0.41'
-categories:
-  - dotnet
-  - emulation
-  - linux

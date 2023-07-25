@@ -1,9 +1,0 @@
-name: Glinde
-icon: EnimLoremIpsum.avi
-link: http://dummyimage.com/197x100.png/dddddd/000000
-support: native
-versionFrom: '1.5'
-categories:
-  - oss
-  - web
-  - dotnet

@@ -1,9 +1,0 @@
-name: Drohane
-icon: A.jpeg
-link: http://dummyimage.com/162x100.png/cc0000/ffffff
-support: 'no'
-versionFrom: 0.5.3
-categories:
-  - kernel
-  - web
-  - emulation

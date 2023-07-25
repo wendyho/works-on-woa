@@ -1,9 +1,0 @@
-name: Dibbe
-icon: PortaVolutpat.mp3
-link: http://dummyimage.com/225x100.png/cc0000/ffffff
-support: native
-versionFrom: '5.52'
-categories:
-  - embedded
-  - testing
-  - tools

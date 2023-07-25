@@ -1,9 +1,0 @@
-name: Taffee
-icon: Mauris.gif
-link: http://dummyimage.com/103x100.png/cc0000/ffffff
-support: unknown
-versionFrom: '9.19'
-categories:
-  - testing
-  - embedded
-  - emulation

@@ -1,9 +1,0 @@
-name: Shingles
-icon: MolestieNibh.tiff
-link: http://dummyimage.com/181x100.png/5fa2dd/ffffff
-support: 'no'
-versionFrom: '3.07'
-categories:
-  - visualstudio
-  - emulation
-  - embedded

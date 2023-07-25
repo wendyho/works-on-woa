@@ -1,9 +1,0 @@
-name: Gudgen
-icon: PosuereMetusVitae.xls
-link: http://dummyimage.com/203x100.png/ff4444/ffffff
-support: native
-versionFrom: 0.7.5
-categories:
-  - visualstudio
-  - kernel
-  - oss

@@ -1,9 +1,0 @@
-name: Burl
-icon: InCongue.jpeg
-link: http://dummyimage.com/181x100.png/cc0000/ffffff
-support: unknown
-versionFrom: '9.57'
-categories:
-  - dotnet
-  - emulation
-  - linux

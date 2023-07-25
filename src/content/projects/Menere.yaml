@@ -1,9 +1,0 @@
-name: Menere
-icon: NamUltricesLibero.xls
-link: http://dummyimage.com/179x100.png/ff4444/ffffff
-support: emulation
-versionFrom: 2.9.9
-categories:
-  - embedded
-  - testing
-  - linux

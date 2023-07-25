@@ -1,9 +1,0 @@
-name: Woodbridge
-icon: Rhoncus.avi
-link: http://dummyimage.com/108x100.png/cc0000/ffffff
-support: native
-versionFrom: 0.6.7
-categories:
-  - kernel
-  - oss
-  - testing

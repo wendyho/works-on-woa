@@ -1,8 +1,0 @@
-name: Connue
-icon: AcEnim.mpeg
-link: http://dummyimage.com/235x100.png/cc0000/ffffff
-support: native
-versionFrom: '0.58'
-categories:
-  - embedded
-  - linux

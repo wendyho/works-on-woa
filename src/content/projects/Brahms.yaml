@@ -1,9 +1,0 @@
-name: Brahms
-icon: Facilisi.mp3
-link: http://dummyimage.com/165x100.png/5fa2dd/ffffff
-support: emulation
-versionFrom: '5.40'
-categories:
-  - tools
-  - embedded
-  - emulation

@@ -1,9 +1,0 @@
-name: Sherel
-icon: Eget.xls
-link: http://dummyimage.com/232x100.png/cc0000/ffffff
-support: native
-versionFrom: '3.4'
-categories:
-  - emulation
-  - tools
-  - embedded

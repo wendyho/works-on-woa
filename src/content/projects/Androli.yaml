@@ -1,9 +1,0 @@
-name: Androli
-icon: NamCongueRisus.mpeg
-link: http://dummyimage.com/176x100.png/cc0000/ffffff
-support: emulation
-versionFrom: '0.34'
-categories:
-  - emulation
-  - testing
-  - web

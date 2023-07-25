@@ -1,9 +1,0 @@
-name: Siggin
-icon: AuctorGravidaSem.xls
-link: http://dummyimage.com/249x100.png/ff4444/ffffff
-support: native
-versionFrom: 8.1.0
-categories:
-  - linux
-  - embedded
-  - web

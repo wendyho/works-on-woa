@@ -1,9 +1,0 @@
-name: Tute
-icon: Potenti.xls
-link: http://dummyimage.com/216x100.png/5fa2dd/ffffff
-support: native
-versionFrom: '0.20'
-categories:
-  - visualstudio
-  - emulation
-  - kernel

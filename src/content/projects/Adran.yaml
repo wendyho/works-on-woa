@@ -1,9 +1,0 @@
-name: Adran
-icon: CubiliaCuraeDonec.jpeg
-link: http://dummyimage.com/193x100.png/dddddd/000000
-support: native
-versionFrom: '0.34'
-categories:
-  - linux
-  - dotnet
-  - emulation

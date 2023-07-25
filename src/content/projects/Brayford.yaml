@@ -1,9 +1,0 @@
-name: Brayford
-icon: Justo.jpeg
-link: http://dummyimage.com/104x100.png/5fa2dd/ffffff
-support: native
-versionFrom: '6.30'
-categories:
-  - visualstudio
-  - web
-  - dotnet

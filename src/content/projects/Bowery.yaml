@@ -1,9 +1,0 @@
-name: Bowery
-icon: MetusAenean.xls
-link: http://dummyimage.com/150x100.png/ff4444/ffffff
-support: emulation
-versionFrom: '5.86'
-categories:
-  - kernel
-  - visualstudio
-  - linux

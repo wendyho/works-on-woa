@@ -1,9 +1,0 @@
-name: Pendrich
-icon: IntegerNonVelit.mp3
-link: http://dummyimage.com/241x100.png/cc0000/ffffff
-support: emulation
-versionFrom: '0.78'
-categories:
-  - emulation
-  - oss
-  - linux

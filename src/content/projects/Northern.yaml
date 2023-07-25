@@ -1,9 +1,0 @@
-name: Northern
-icon: Massa.pdf
-link: http://dummyimage.com/222x100.png/cc0000/ffffff
-support: 'no'
-versionFrom: '2.01'
-categories:
-  - testing
-  - oss
-  - linux

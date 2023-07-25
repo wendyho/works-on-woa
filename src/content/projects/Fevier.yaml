@@ -1,9 +1,0 @@
-name: Fevier
-icon: PosuereCubilia.ppt
-link: http://dummyimage.com/116x100.png/dddddd/000000
-support: 'no'
-versionFrom: 1.9.6
-categories:
-  - embedded
-  - dotnet
-  - kernel

@@ -1,9 +1,0 @@
-name: Teanby
-icon: VestibulumQuamSapien.xls
-link: http://dummyimage.com/106x100.png/cc0000/ffffff
-support: emulation
-versionFrom: '5.95'
-categories:
-  - visualstudio
-  - testing
-  - embedded

@@ -1,9 +1,0 @@
-name: Cromer
-icon: Nec.doc
-link: http://dummyimage.com/182x100.png/cc0000/ffffff
-support: native
-versionFrom: 0.2.3
-categories:
-  - visualstudio
-  - testing
-  - dotnet

@@ -1,9 +1,0 @@
-name: Brodie
-icon: Semper.xls
-link: http://dummyimage.com/229x100.png/ff4444/ffffff
-support: native
-versionFrom: 0.8.0
-categories:
-  - visualstudio
-  - tools
-  - testing

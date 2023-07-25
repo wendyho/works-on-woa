@@ -1,9 +1,0 @@
-name: Atwool
-icon: NullaJusto.tiff
-link: http://dummyimage.com/244x100.png/5fa2dd/ffffff
-support: native
-versionFrom: '0.15'
-categories:
-  - testing
-  - kernel
-  - visualstudio

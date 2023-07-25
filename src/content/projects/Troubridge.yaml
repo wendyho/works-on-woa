@@ -1,9 +1,0 @@
-name: Troubridge
-icon: PrimisIn.doc
-link: http://dummyimage.com/209x100.png/ff4444/ffffff
-support: emulation
-versionFrom: '0.71'
-categories:
-  - dotnet
-  - embedded
-  - web

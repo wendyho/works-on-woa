@@ -1,9 +1,0 @@
-name: Muscott
-icon: ConsequatMorbi.jpeg
-link: http://dummyimage.com/116x100.png/5fa2dd/ffffff
-support: 'no'
-versionFrom: '3.3'
-categories:
-  - oss
-  - dotnet
-  - embedded

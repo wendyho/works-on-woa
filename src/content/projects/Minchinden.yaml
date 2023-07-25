@@ -1,9 +1,0 @@
-name: Minchinden
-icon: Orci.avi
-link: http://dummyimage.com/204x100.png/cc0000/ffffff
-support: unknown
-versionFrom: '9.61'
-categories:
-  - kernel
-  - embedded
-  - oss

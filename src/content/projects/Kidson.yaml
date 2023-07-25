@@ -1,9 +1,0 @@
-name: Kidson
-icon: EstDonecOdio.mp3
-link: http://dummyimage.com/189x100.png/5fa2dd/ffffff
-support: 'no'
-versionFrom: '3.54'
-categories:
-  - dotnet
-  - tools
-  - embedded

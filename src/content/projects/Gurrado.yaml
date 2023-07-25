@@ -1,9 +1,0 @@
-name: Gurrado
-icon: VivamusMetusArcu.tiff
-link: http://dummyimage.com/163x100.png/cc0000/ffffff
-support: unknown
-versionFrom: '6.39'
-categories:
-  - oss
-  - tools
-  - kernel

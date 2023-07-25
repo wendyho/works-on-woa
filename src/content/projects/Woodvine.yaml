@@ -1,9 +1,0 @@
-name: Woodvine
-icon: Lectus.xls
-link: http://dummyimage.com/186x100.png/cc0000/ffffff
-support: 'no'
-versionFrom: '4.5'
-categories:
-  - web
-  - visualstudio
-  - dotnet

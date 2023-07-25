@@ -1,9 +1,0 @@
-name: Funcheon
-icon: SapienIaculis.doc
-link: http://dummyimage.com/132x100.png/cc0000/ffffff
-support: 'no'
-versionFrom: '0.65'
-categories:
-  - visualstudio
-  - testing
-  - kernel

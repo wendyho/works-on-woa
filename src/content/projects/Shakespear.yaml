@@ -1,9 +1,0 @@
-name: Shakespear
-icon: ElitSodalesScelerisque.avi
-link: http://dummyimage.com/153x100.png/dddddd/000000
-support: native
-versionFrom: 2.2.9
-categories:
-  - embedded
-  - testing
-  - kernel

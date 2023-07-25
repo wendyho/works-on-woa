@@ -1,9 +1,0 @@
-name: Clerk
-icon: Lacinia.mp3
-link: http://dummyimage.com/248x100.png/dddddd/000000
-support: native
-versionFrom: '1.51'
-categories:
-  - kernel
-  - embedded
-  - dotnet

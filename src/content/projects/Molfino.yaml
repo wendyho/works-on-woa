@@ -1,9 +1,0 @@
-name: Molfino
-icon: Nisi.xls
-link: http://dummyimage.com/216x100.png/ff4444/ffffff
-support: emulation
-versionFrom: '0.28'
-categories:
-  - tools
-  - emulation
-  - embedded

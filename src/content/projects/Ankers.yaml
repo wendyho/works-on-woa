@@ -1,9 +1,0 @@
-name: Ankers
-icon: JustoMorbi.xls
-link: http://dummyimage.com/110x100.png/5fa2dd/ffffff
-support: native
-versionFrom: 6.0.2
-categories:
-  - emulation
-  - embedded
-  - dotnet

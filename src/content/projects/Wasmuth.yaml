@@ -1,9 +1,0 @@
-name: Wasmuth
-icon: LaciniaSapien.xls
-link: http://dummyimage.com/233x100.png/5fa2dd/ffffff
-support: 'no'
-versionFrom: 0.7.1
-categories:
-  - visualstudio
-  - linux
-  - web

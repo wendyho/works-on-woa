@@ -1,9 +1,0 @@
-name: Chaperlin
-icon: MorbiVel.xls
-link: http://dummyimage.com/226x100.png/5fa2dd/ffffff
-support: emulation
-versionFrom: 6.1.0
-categories:
-  - web
-  - kernel
-  - linux

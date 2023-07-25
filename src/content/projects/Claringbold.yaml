@@ -1,9 +1,0 @@
-name: Claringbold
-icon: NonMi.xls
-link: http://dummyimage.com/136x100.png/dddddd/000000
-support: unknown
-versionFrom: '5.39'
-categories:
-  - testing
-  - kernel
-  - embedded

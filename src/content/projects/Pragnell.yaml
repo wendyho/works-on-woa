@@ -1,9 +1,0 @@
-name: Pragnell
-icon: SuspendissePotenti.jpeg
-link: http://dummyimage.com/108x100.png/5fa2dd/ffffff
-support: unknown
-versionFrom: '5.10'
-categories:
-  - dotnet
-  - tools
-  - testing

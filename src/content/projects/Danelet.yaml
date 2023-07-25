@@ -1,9 +1,0 @@
-name: Danelet
-icon: Quis.xls
-link: http://dummyimage.com/217x100.png/5fa2dd/ffffff
-support: 'no'
-versionFrom: 0.8.0
-categories:
-  - embedded
-  - linux
-  - testing

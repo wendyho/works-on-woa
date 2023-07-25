@@ -1,9 +1,0 @@
-name: Fellgate
-icon: LuctusEt.tiff
-link: http://dummyimage.com/179x100.png/ff4444/ffffff
-support: native
-versionFrom: '4.87'
-categories:
-  - tools
-  - web
-  - embedded

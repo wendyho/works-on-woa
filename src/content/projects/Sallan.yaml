@@ -1,8 +1,0 @@
-name: Sallan
-icon: LigulaVehicula.jpeg
-link: http://dummyimage.com/168x100.png/cc0000/ffffff
-support: 'no'
-versionFrom: '6.9'
-categories:
-  - tools
-  - kernel

@@ -1,9 +1,0 @@
-name: Morrieson
-icon: InFaucibusOrci.avi
-link: http://dummyimage.com/154x100.png/5fa2dd/ffffff
-support: unknown
-versionFrom: '0.19'
-categories:
-  - dotnet
-  - testing
-  - emulation

@@ -1,9 +1,0 @@
-name: Douris
-icon: UltricesEnimLorem.gif
-link: http://dummyimage.com/203x100.png/ff4444/ffffff
-support: native
-versionFrom: '5.84'
-categories:
-  - kernel
-  - testing
-  - visualstudio

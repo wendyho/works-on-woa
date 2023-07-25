@@ -1,9 +1,0 @@
-name: Borlease
-icon: VestibulumSit.avi
-link: http://dummyimage.com/235x100.png/5fa2dd/ffffff
-support: 'no'
-versionFrom: 0.4.9
-categories:
-  - embedded
-  - dotnet
-  - oss

@@ -1,9 +1,0 @@
-name: Littrik
-icon: UtErat.png
-link: http://dummyimage.com/183x100.png/dddddd/000000
-support: 'no'
-versionFrom: '0.57'
-categories:
-  - oss
-  - dotnet
-  - visualstudio

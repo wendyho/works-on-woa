@@ -1,9 +1,0 @@
-name: Di Baudi
-icon: Integer.xls
-link: http://dummyimage.com/190x100.png/dddddd/000000
-support: emulation
-versionFrom: '8.5'
-categories:
-  - dotnet
-  - embedded
-  - linux

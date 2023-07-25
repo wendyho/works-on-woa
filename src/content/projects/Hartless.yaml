@@ -1,9 +1,0 @@
-name: Hartless
-icon: MetusAeneanFermentum.jpeg
-link: http://dummyimage.com/198x100.png/5fa2dd/ffffff
-support: native
-versionFrom: '8.9'
-categories:
-  - visualstudio
-  - oss
-  - embedded

@@ -1,8 +1,0 @@
-name: Whelpdale
-icon: Eu.gif
-link: http://dummyimage.com/168x100.png/dddddd/000000
-support: emulation
-versionFrom: '0.63'
-categories:
-  - kernel
-  - testing

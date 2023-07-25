@@ -1,9 +1,0 @@
-name: Skelhorn
-icon: Dapibus.xls
-link: http://dummyimage.com/203x100.png/dddddd/000000
-support: native
-versionFrom: '2.5'
-categories:
-  - emulation
-  - embedded
-  - linux

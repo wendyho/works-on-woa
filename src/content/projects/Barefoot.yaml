@@ -1,8 +1,0 @@
-name: Barefoot
-icon: InLectus.mp3
-link: http://dummyimage.com/234x100.png/cc0000/ffffff
-support: native
-versionFrom: 8.3.3
-categories:
-  - testing
-  - embedded

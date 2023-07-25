@@ -1,9 +1,0 @@
-name: Woodgate
-icon: Nisl.png
-link: http://dummyimage.com/118x100.png/dddddd/000000
-support: unknown
-versionFrom: '6.69'
-categories:
-  - kernel
-  - testing
-  - visualstudio

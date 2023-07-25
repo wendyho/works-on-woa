@@ -1,9 +1,0 @@
-name: Johncey
-icon: Fusce.mp3
-link: http://dummyimage.com/147x100.png/cc0000/ffffff
-support: native
-versionFrom: '7.34'
-categories:
-  - emulation
-  - dotnet
-  - visualstudio

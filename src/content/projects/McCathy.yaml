@@ -1,9 +1,0 @@
-name: McCathy
-icon: EgetEleifendLuctus.jpeg
-link: http://dummyimage.com/163x100.png/ff4444/ffffff
-support: emulation
-versionFrom: '7.67'
-categories:
-  - web
-  - kernel
-  - testing

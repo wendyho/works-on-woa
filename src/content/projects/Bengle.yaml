@@ -1,8 +1,0 @@
-name: Bengle
-icon: OdioInHac.txt
-link: http://dummyimage.com/192x100.png/dddddd/000000
-support: native
-versionFrom: '0.15'
-categories:
-  - emulation
-  - dotnet

@@ -1,9 +1,0 @@
-name: Skottle
-icon: Magna.mpeg
-link: http://dummyimage.com/196x100.png/5fa2dd/ffffff
-support: emulation
-versionFrom: '3.94'
-categories:
-  - tools
-  - linux
-  - testing

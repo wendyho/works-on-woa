@@ -1,9 +1,0 @@
-name: Carlaw
-icon: Vestibulum.mpeg
-link: http://dummyimage.com/117x100.png/cc0000/ffffff
-support: unknown
-versionFrom: '5.2'
-categories:
-  - kernel
-  - dotnet
-  - linux

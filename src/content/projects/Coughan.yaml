@@ -1,9 +1,0 @@
-name: Coughan
-icon: LigulaNec.xls
-link: http://dummyimage.com/224x100.png/5fa2dd/ffffff
-support: emulation
-versionFrom: 6.4.9
-categories:
-  - linux
-  - visualstudio
-  - kernel

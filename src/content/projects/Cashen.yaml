@@ -1,9 +1,0 @@
-name: Cashen
-icon: BibendumMorbi.jpeg
-link: http://dummyimage.com/113x100.png/5fa2dd/ffffff
-support: emulation
-versionFrom: '0.76'
-categories:
-  - linux
-  - kernel
-  - web

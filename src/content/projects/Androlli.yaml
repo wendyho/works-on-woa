@@ -1,9 +1,0 @@
-name: Androlli
-icon: MassaIdNisl.png
-link: http://dummyimage.com/146x100.png/cc0000/ffffff
-support: emulation
-versionFrom: 6.8.4
-categories:
-  - emulation
-  - oss
-  - linux

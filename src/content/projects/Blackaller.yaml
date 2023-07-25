@@ -1,9 +1,0 @@
-name: Blackaller
-icon: NonummyMaecenas.mp3
-link: http://dummyimage.com/220x100.png/5fa2dd/ffffff
-support: unknown
-versionFrom: '3.26'
-categories:
-  - dotnet
-  - kernel
-  - embedded

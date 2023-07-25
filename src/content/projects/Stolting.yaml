@@ -1,9 +1,0 @@
-name: Stolting
-icon: Eget.jpeg
-link: http://dummyimage.com/149x100.png/cc0000/ffffff
-support: unknown
-versionFrom: '4.20'
-categories:
-  - visualstudio
-  - tools
-  - embedded

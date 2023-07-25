@@ -1,9 +1,0 @@
-name: Barnard
-icon: MagnaVulputateLuctus.avi
-link: http://dummyimage.com/167x100.png/cc0000/ffffff
-support: emulation
-versionFrom: '9.6'
-categories:
-  - emulation
-  - oss
-  - dotnet

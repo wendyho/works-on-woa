@@ -1,9 +1,0 @@
-name: Pharo
-icon: Vitae.tiff
-link: http://dummyimage.com/160x100.png/dddddd/000000
-support: emulation
-versionFrom: '2.4'
-categories:
-  - testing
-  - web
-  - linux

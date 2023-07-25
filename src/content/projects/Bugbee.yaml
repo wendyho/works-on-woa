@@ -1,9 +1,0 @@
-name: Bugbee
-icon: VenenatisTurpisEnim.xls
-link: http://dummyimage.com/228x100.png/dddddd/000000
-support: native
-versionFrom: '0.85'
-categories:
-  - kernel
-  - emulation
-  - testing

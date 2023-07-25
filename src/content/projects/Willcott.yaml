@@ -1,9 +1,0 @@
-name: Willcott
-icon: Nec.txt
-link: http://dummyimage.com/114x100.png/cc0000/ffffff
-support: emulation
-versionFrom: '3.85'
-categories:
-  - embedded
-  - linux
-  - oss

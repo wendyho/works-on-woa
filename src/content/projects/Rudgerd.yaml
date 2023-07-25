@@ -1,9 +1,0 @@
-name: Rudgerd
-icon: In.xls
-link: http://dummyimage.com/241x100.png/ff4444/ffffff
-support: emulation
-versionFrom: '7.1'
-categories:
-  - embedded
-  - web
-  - dotnet

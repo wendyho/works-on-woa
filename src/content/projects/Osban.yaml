@@ -1,9 +1,0 @@
-name: Osban
-icon: Elementum.tiff
-link: http://dummyimage.com/229x100.png/ff4444/ffffff
-support: emulation
-versionFrom: 9.1.4
-categories:
-  - oss
-  - testing
-  - embedded

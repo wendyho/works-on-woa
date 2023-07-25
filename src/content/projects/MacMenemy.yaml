@@ -1,8 +1,0 @@
-name: MacMenemy
-icon: Pede.ppt
-link: http://dummyimage.com/202x100.png/5fa2dd/ffffff
-support: native
-versionFrom: '8.1'
-categories:
-  - tools
-  - dotnet

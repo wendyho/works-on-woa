@@ -1,9 +1,0 @@
-name: Strathern
-icon: VitaeNisl.pdf
-link: http://dummyimage.com/154x100.png/5fa2dd/ffffff
-support: emulation
-versionFrom: '3.36'
-categories:
-  - kernel
-  - linux
-  - dotnet

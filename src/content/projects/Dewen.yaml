@@ -1,9 +1,0 @@
-name: Dewen
-icon: Parturient.tiff
-link: http://dummyimage.com/192x100.png/cc0000/ffffff
-support: emulation
-versionFrom: 0.6.0
-categories:
-  - tools
-  - dotnet
-  - oss

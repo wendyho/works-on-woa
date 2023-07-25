@@ -1,9 +1,0 @@
-name: Adanet
-icon: Est.pdf
-link: http://dummyimage.com/130x100.png/ff4444/ffffff
-support: emulation
-versionFrom: 4.7.0
-categories:
-  - kernel
-  - dotnet
-  - oss

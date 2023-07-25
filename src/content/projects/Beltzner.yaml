@@ -1,9 +1,0 @@
-name: Beltzner
-icon: NequeVestibulumEget.tiff
-link: http://dummyimage.com/146x100.png/5fa2dd/ffffff
-support: emulation
-versionFrom: '6.63'
-categories:
-  - visualstudio
-  - embedded
-  - testing

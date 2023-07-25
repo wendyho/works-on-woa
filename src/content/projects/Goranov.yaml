@@ -1,9 +1,0 @@
-name: Goranov
-icon: Adipiscing.xls
-link: http://dummyimage.com/190x100.png/cc0000/ffffff
-support: emulation
-versionFrom: 8.1.7
-categories:
-  - embedded
-  - kernel
-  - testing

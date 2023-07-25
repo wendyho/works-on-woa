@@ -1,9 +1,0 @@
-name: MacDuff
-icon: Quis.ppt
-link: http://dummyimage.com/119x100.png/5fa2dd/ffffff
-support: 'no'
-versionFrom: '1.1'
-categories:
-  - visualstudio
-  - emulation
-  - kernel

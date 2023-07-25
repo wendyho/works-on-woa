@@ -1,9 +1,0 @@
-name: Yarnall
-icon: Purus.avi
-link: http://dummyimage.com/219x100.png/ff4444/ffffff
-support: emulation
-versionFrom: '3.9'
-categories:
-  - oss
-  - embedded
-  - testing

@@ -1,9 +1,0 @@
-name: Jolly
-icon: UltricesErat.jpeg
-link: http://dummyimage.com/163x100.png/ff4444/ffffff
-support: native
-versionFrom: '0.22'
-categories:
-  - tools
-  - emulation
-  - embedded

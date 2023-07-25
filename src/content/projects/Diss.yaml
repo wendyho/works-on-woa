@@ -1,8 +1,0 @@
-name: Diss
-icon: CubiliaCurae.mp3
-link: http://dummyimage.com/208x100.png/cc0000/ffffff
-support: native
-versionFrom: '8.1'
-categories:
-  - dotnet
-  - oss

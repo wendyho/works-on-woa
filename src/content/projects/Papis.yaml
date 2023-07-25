@@ -1,8 +1,0 @@
-name: Papis
-icon: AdipiscingElitProin.png
-link: http://dummyimage.com/173x100.png/ff4444/ffffff
-support: emulation
-versionFrom: '0.60'
-categories:
-  - dotnet
-  - visualstudio

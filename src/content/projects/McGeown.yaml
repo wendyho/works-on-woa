@@ -1,9 +1,0 @@
-name: McGeown
-icon: AtNibhIn.jpeg
-link: http://dummyimage.com/237x100.png/ff4444/ffffff
-support: emulation
-versionFrom: '0.65'
-categories:
-  - visualstudio
-  - tools
-  - dotnet

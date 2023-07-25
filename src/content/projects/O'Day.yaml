@@ -1,9 +1,0 @@
-name: O'Day
-icon: OdioCurabiturConvallis.ppt
-link: http://dummyimage.com/232x100.png/5fa2dd/ffffff
-support: 'no'
-versionFrom: 8.1.7
-categories:
-  - tools
-  - dotnet
-  - oss

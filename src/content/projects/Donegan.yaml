@@ -1,9 +1,0 @@
-name: Donegan
-icon: OdioElementum.tiff
-link: http://dummyimage.com/179x100.png/dddddd/000000
-support: unknown
-versionFrom: '8.9'
-categories:
-  - dotnet
-  - oss
-  - kernel

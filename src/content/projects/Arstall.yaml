@@ -1,9 +1,0 @@
-name: Arstall
-icon: Sit.ppt
-link: http://dummyimage.com/174x100.png/cc0000/ffffff
-support: native
-versionFrom: '8.1'
-categories:
-  - tools
-  - visualstudio
-  - kernel

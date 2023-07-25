@@ -1,9 +1,0 @@
-name: Juppe
-icon: TemporTurpisNec.avi
-link: http://dummyimage.com/113x100.png/cc0000/ffffff
-support: native
-versionFrom: 9.7.2
-categories:
-  - dotnet
-  - embedded
-  - emulation

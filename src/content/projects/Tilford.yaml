@@ -1,9 +1,0 @@
-name: Tilford
-icon: JustoEuMassa.xls
-link: http://dummyimage.com/153x100.png/dddddd/000000
-support: emulation
-versionFrom: 0.7.6
-categories:
-  - kernel
-  - testing
-  - dotnet

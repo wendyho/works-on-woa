@@ -1,9 +1,0 @@
-name: O'Donoghue
-icon: AdipiscingLorem.avi
-link: http://dummyimage.com/173x100.png/5fa2dd/ffffff
-support: emulation
-versionFrom: 0.7.5
-categories:
-  - visualstudio
-  - emulation
-  - kernel

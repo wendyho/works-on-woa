@@ -1,9 +1,0 @@
-name: McKinstry
-icon: UltricesEratTortor.xls
-link: http://dummyimage.com/161x100.png/ff4444/ffffff
-support: native
-versionFrom: '5.0'
-categories:
-  - dotnet
-  - visualstudio
-  - testing

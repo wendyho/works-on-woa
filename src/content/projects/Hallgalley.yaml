@@ -1,8 +1,0 @@
-name: Hallgalley
-icon: VelEstDonec.xls
-link: http://dummyimage.com/209x100.png/5fa2dd/ffffff
-support: native
-versionFrom: '0.17'
-categories:
-  - kernel
-  - testing

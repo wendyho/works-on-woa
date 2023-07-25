@@ -1,9 +1,0 @@
-name: Haysar
-icon: EstPhasellus.jpeg
-link: http://dummyimage.com/131x100.png/ff4444/ffffff
-support: emulation
-versionFrom: '7.28'
-categories:
-  - visualstudio
-  - linux
-  - emulation

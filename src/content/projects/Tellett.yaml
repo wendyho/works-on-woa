@@ -1,9 +1,0 @@
-name: Tellett
-icon: CongueDiamId.avi
-link: http://dummyimage.com/105x100.png/ff4444/ffffff
-support: 'no'
-versionFrom: 4.4.9
-categories:
-  - embedded
-  - web
-  - tools

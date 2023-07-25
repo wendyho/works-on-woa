@@ -1,9 +1,0 @@
-name: Debenham
-icon: NonVelit.xls
-link: http://dummyimage.com/205x100.png/ff4444/ffffff
-support: emulation
-versionFrom: '0.38'
-categories:
-  - dotnet
-  - emulation
-  - linux

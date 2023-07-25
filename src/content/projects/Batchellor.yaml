@@ -1,9 +1,0 @@
-name: Batchellor
-icon: ElementumLigulaVehicula.xls
-link: http://dummyimage.com/168x100.png/ff4444/ffffff
-support: native
-versionFrom: '3.87'
-categories:
-  - visualstudio
-  - oss
-  - embedded

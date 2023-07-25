@@ -1,9 +1,0 @@
-name: Hurst
-icon: MolestieLorem.jpeg
-link: http://dummyimage.com/152x100.png/dddddd/000000
-support: native
-versionFrom: 0.8.7
-categories:
-  - dotnet
-  - kernel
-  - linux

@@ -1,9 +1,0 @@
-name: Blazi
-icon: EratNullaTempus.png
-link: http://dummyimage.com/141x100.png/dddddd/000000
-support: unknown
-versionFrom: '8.9'
-categories:
-  - kernel
-  - visualstudio
-  - dotnet

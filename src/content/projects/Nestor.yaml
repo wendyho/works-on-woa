@@ -1,8 +1,0 @@
-name: Nestor
-icon: ArcuLiberoRutrum.tiff
-link: http://dummyimage.com/175x100.png/cc0000/ffffff
-support: native
-versionFrom: '6.92'
-categories:
-  - dotnet
-  - testing

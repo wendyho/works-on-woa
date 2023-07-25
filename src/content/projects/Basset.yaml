@@ -1,9 +1,0 @@
-name: Basset
-icon: OrciLuctus.gif
-link: http://dummyimage.com/211x100.png/5fa2dd/ffffff
-support: native
-versionFrom: '0.59'
-categories:
-  - tools
-  - visualstudio
-  - embedded

@@ -1,9 +1,0 @@
-name: Brimfield
-icon: Dui.txt
-link: http://dummyimage.com/169x100.png/ff4444/ffffff
-support: native
-versionFrom: '0.77'
-categories:
-  - embedded
-  - tools
-  - dotnet

@@ -1,9 +1,0 @@
-name: Chown
-icon: InLectusPellentesque.pdf
-link: http://dummyimage.com/170x100.png/dddddd/000000
-support: emulation
-versionFrom: 0.5.6
-categories:
-  - embedded
-  - visualstudio
-  - web

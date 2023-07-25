@@ -1,9 +1,0 @@
-name: Walcher
-icon: Integer.xls
-link: http://dummyimage.com/188x100.png/ff4444/ffffff
-support: emulation
-versionFrom: '0.75'
-categories:
-  - oss
-  - kernel
-  - embedded

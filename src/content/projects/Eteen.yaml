@@ -1,9 +1,0 @@
-name: Eteen
-icon: QuamSapienVarius.mp3
-link: http://dummyimage.com/233x100.png/cc0000/ffffff
-support: native
-versionFrom: 0.9.2
-categories:
-  - visualstudio
-  - tools
-  - embedded

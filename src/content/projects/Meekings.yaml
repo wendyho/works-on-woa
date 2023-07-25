@@ -1,9 +1,0 @@
-name: Meekings
-icon: InterdumMauris.jpeg
-link: http://dummyimage.com/121x100.png/ff4444/ffffff
-support: native
-versionFrom: '1.3'
-categories:
-  - linux
-  - oss
-  - testing

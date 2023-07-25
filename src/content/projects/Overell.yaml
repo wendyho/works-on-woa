@@ -1,9 +1,0 @@
-name: Overell
-icon: EgetNunc.avi
-link: http://dummyimage.com/123x100.png/cc0000/ffffff
-support: 'no'
-versionFrom: 2.0.4
-categories:
-  - testing
-  - dotnet
-  - embedded

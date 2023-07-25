@@ -1,9 +1,0 @@
-name: Simnel
-icon: IntegerAcLeo.xls
-link: http://dummyimage.com/154x100.png/ff4444/ffffff
-support: emulation
-versionFrom: '0.44'
-categories:
-  - emulation
-  - kernel
-  - web

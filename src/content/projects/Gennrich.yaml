@@ -1,8 +1,0 @@
-name: Gennrich
-icon: Dui.mov
-link: http://dummyimage.com/191x100.png/cc0000/ffffff
-support: native
-versionFrom: '0.57'
-categories:
-  - testing
-  - dotnet

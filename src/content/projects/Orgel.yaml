@@ -1,9 +1,0 @@
-name: Orgel
-icon: Montes.mp3
-link: http://dummyimage.com/178x100.png/dddddd/000000
-support: emulation
-versionFrom: '0.21'
-categories:
-  - emulation
-  - visualstudio
-  - kernel

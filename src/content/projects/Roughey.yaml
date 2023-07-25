@@ -1,9 +1,0 @@
-name: Roughey
-icon: CuraeDuis.mp3
-link: http://dummyimage.com/247x100.png/ff4444/ffffff
-support: 'no'
-versionFrom: 0.3.9
-categories:
-  - oss
-  - embedded
-  - kernel

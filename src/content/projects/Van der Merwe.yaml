@@ -1,9 +1,0 @@
-name: Van der Merwe
-icon: NullaJusto.ppt
-link: http://dummyimage.com/146x100.png/dddddd/000000
-support: emulation
-versionFrom: '0.14'
-categories:
-  - oss
-  - kernel
-  - linux

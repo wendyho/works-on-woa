@@ -1,9 +1,0 @@
-name: Hitzke
-icon: IdLigula.ppt
-link: http://dummyimage.com/106x100.png/dddddd/000000
-support: 'no'
-versionFrom: '1.6'
-categories:
-  - visualstudio
-  - linux
-  - kernel

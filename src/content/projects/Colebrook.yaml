@@ -1,9 +1,0 @@
-name: Colebrook
-icon: NequeLibero.png
-link: http://dummyimage.com/103x100.png/5fa2dd/ffffff
-support: emulation
-versionFrom: '2.1'
-categories:
-  - testing
-  - linux
-  - embedded

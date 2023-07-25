@@ -1,9 +1,0 @@
-name: Josephi
-icon: EnimSitAmet.tiff
-link: http://dummyimage.com/134x100.png/dddddd/000000
-support: emulation
-versionFrom: '8.93'
-categories:
-  - dotnet
-  - emulation
-  - visualstudio

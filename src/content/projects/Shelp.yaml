@@ -1,9 +1,0 @@
-name: Shelp
-icon: Ligula.doc
-link: http://dummyimage.com/242x100.png/cc0000/ffffff
-support: emulation
-versionFrom: '1.65'
-categories:
-  - visualstudio
-  - embedded
-  - linux

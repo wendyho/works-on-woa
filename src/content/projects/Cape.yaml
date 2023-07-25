@@ -1,9 +1,0 @@
-name: Cape
-icon: DignissimVestibulumVestibulum.tiff
-link: http://dummyimage.com/216x100.png/cc0000/ffffff
-support: emulation
-versionFrom: 0.8.5
-categories:
-  - visualstudio
-  - embedded
-  - web

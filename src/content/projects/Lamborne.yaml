@@ -1,9 +1,0 @@
-name: Lamborne
-icon: CurabiturConvallisDuis.xls
-link: http://dummyimage.com/106x100.png/cc0000/ffffff
-support: native
-versionFrom: 4.6.7
-categories:
-  - tools
-  - dotnet
-  - linux

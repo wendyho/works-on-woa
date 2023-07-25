@@ -1,9 +1,0 @@
-name: Shapcote
-icon: Ac.xls
-link: http://dummyimage.com/164x100.png/cc0000/ffffff
-support: unknown
-versionFrom: '6.0'
-categories:
-  - tools
-  - dotnet
-  - testing

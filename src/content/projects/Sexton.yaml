@@ -1,9 +1,0 @@
-name: Sexton
-icon: LobortisLigulaSit.ppt
-link: http://dummyimage.com/243x100.png/ff4444/ffffff
-support: emulation
-versionFrom: '7.0'
-categories:
-  - linux
-  - emulation
-  - dotnet

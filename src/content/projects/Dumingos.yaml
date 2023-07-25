@@ -1,9 +1,0 @@
-name: Dumingos
-icon: DonecUt.xls
-link: http://dummyimage.com/135x100.png/dddddd/000000
-support: emulation
-versionFrom: '0.10'
-categories:
-  - embedded
-  - kernel
-  - emulation

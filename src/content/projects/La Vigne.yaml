@@ -1,9 +1,0 @@
-name: La Vigne
-icon: LeoOdio.mp3
-link: http://dummyimage.com/188x100.png/dddddd/000000
-support: native
-versionFrom: '0.92'
-categories:
-  - linux
-  - dotnet
-  - oss

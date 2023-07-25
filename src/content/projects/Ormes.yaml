@@ -1,9 +1,0 @@
-name: Ormes
-icon: CuraeMauris.ppt
-link: http://dummyimage.com/116x100.png/ff4444/ffffff
-support: 'no'
-versionFrom: '7.47'
-categories:
-  - dotnet
-  - linux
-  - tools

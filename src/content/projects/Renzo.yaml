@@ -1,9 +1,0 @@
-name: Renzo
-icon: QuisAugueLuctus.mp3
-link: http://dummyimage.com/209x100.png/ff4444/ffffff
-support: emulation
-versionFrom: '7.3'
-categories:
-  - linux
-  - oss
-  - dotnet

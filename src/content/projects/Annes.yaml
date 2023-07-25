@@ -1,8 +1,0 @@
-name: Annes
-icon: PotentiCras.xls
-link: http://dummyimage.com/181x100.png/cc0000/ffffff
-support: 'no'
-versionFrom: '0.29'
-categories:
-  - kernel
-  - embedded

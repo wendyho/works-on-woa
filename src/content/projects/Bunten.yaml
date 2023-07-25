@@ -1,9 +1,0 @@
-name: Bunten
-icon: MorbiVelLectus.mp3
-link: http://dummyimage.com/137x100.png/5fa2dd/ffffff
-support: 'no'
-versionFrom: '4.95'
-categories:
-  - kernel
-  - dotnet
-  - oss

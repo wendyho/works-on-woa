@@ -1,9 +1,0 @@
-name: Nayshe
-icon: LectusInEst.xls
-link: http://dummyimage.com/226x100.png/5fa2dd/ffffff
-support: native
-versionFrom: '0.82'
-categories:
-  - embedded
-  - dotnet
-  - linux

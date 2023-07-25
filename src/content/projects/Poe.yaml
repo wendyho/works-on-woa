@@ -1,9 +1,0 @@
-name: Poe
-icon: Nisl.tiff
-link: http://dummyimage.com/214x100.png/dddddd/000000
-support: 'no'
-versionFrom: 4.4.5
-categories:
-  - kernel
-  - linux
-  - oss

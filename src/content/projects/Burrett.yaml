@@ -1,9 +1,0 @@
-name: Burrett
-icon: MaurisMorbiNon.avi
-link: http://dummyimage.com/204x100.png/ff4444/ffffff
-support: native
-versionFrom: 3.3.0
-categories:
-  - embedded
-  - kernel
-  - web

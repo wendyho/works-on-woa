@@ -1,9 +1,0 @@
-name: Densham
-icon: Ante.xls
-link: http://dummyimage.com/103x100.png/ff4444/ffffff
-support: emulation
-versionFrom: 1.7.1
-categories:
-  - kernel
-  - oss
-  - testing

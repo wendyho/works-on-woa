@@ -1,9 +1,0 @@
-name: Mechi
-icon: AccumsanTellus.mpeg
-link: http://dummyimage.com/139x100.png/cc0000/ffffff
-support: 'no'
-versionFrom: '9.6'
-categories:
-  - visualstudio
-  - testing
-  - dotnet

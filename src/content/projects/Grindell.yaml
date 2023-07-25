@@ -1,9 +1,0 @@
-name: Grindell
-icon: At.mp3
-link: http://dummyimage.com/249x100.png/dddddd/000000
-support: emulation
-versionFrom: '1.7'
-categories:
-  - emulation
-  - linux
-  - oss

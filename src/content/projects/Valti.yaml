@@ -1,9 +1,0 @@
-name: Valti
-icon: SedJustoPellentesque.tiff
-link: http://dummyimage.com/187x100.png/dddddd/000000
-support: 'no'
-versionFrom: '1.44'
-categories:
-  - emulation
-  - testing
-  - embedded

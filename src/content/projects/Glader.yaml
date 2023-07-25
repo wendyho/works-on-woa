@@ -1,9 +1,0 @@
-name: Glader
-icon: IntegerAc.ppt
-link: http://dummyimage.com/186x100.png/dddddd/000000
-support: native
-versionFrom: 2.1.4
-categories:
-  - visualstudio
-  - tools
-  - embedded

@@ -1,9 +1,0 @@
-name: Jebb
-icon: Bibendum.ppt
-link: http://dummyimage.com/231x100.png/ff4444/ffffff
-support: native
-versionFrom: '0.74'
-categories:
-  - dotnet
-  - oss
-  - emulation

@@ -1,9 +1,0 @@
-name: Ackland
-icon: LacusMorbiQuis.xls
-link: http://dummyimage.com/153x100.png/dddddd/000000
-support: native
-versionFrom: '0.50'
-categories:
-  - emulation
-  - embedded
-  - oss

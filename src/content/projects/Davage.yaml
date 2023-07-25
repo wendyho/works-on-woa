@@ -1,9 +1,0 @@
-name: Davage
-icon: SitAmetNulla.ppt
-link: http://dummyimage.com/106x100.png/cc0000/ffffff
-support: native
-versionFrom: '6.04'
-categories:
-  - visualstudio
-  - kernel
-  - emulation

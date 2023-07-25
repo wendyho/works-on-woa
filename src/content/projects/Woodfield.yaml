@@ -1,8 +1,0 @@
-name: Woodfield
-icon: CrasMiPede.ppt
-link: http://dummyimage.com/210x100.png/cc0000/ffffff
-support: native
-versionFrom: '0.24'
-categories:
-  - dotnet
-  - tools

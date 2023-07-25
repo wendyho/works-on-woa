@@ -1,9 +1,0 @@
-name: Van Cassel
-icon: Sed.ppt
-link: http://dummyimage.com/181x100.png/ff4444/ffffff
-support: native
-versionFrom: '2.87'
-categories:
-  - embedded
-  - dotnet
-  - tools

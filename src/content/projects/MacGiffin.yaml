@@ -1,9 +1,0 @@
-name: MacGiffin
-icon: VitaeNisl.gif
-link: http://dummyimage.com/187x100.png/ff4444/ffffff
-support: native
-versionFrom: '5.52'
-categories:
-  - testing
-  - dotnet
-  - kernel

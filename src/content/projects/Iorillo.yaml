@@ -1,9 +1,0 @@
-name: Iorillo
-icon: UltricesEnim.mp3
-link: http://dummyimage.com/142x100.png/dddddd/000000
-support: emulation
-versionFrom: '9.06'
-categories:
-  - linux
-  - embedded
-  - kernel

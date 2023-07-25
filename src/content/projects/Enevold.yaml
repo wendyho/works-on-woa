@@ -1,9 +1,0 @@
-name: Enevold
-icon: AtDolorQuis.mp3
-link: http://dummyimage.com/223x100.png/5fa2dd/ffffff
-support: emulation
-versionFrom: '5.53'
-categories:
-  - visualstudio
-  - dotnet
-  - kernel

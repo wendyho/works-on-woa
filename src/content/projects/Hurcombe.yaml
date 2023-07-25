@@ -1,9 +1,0 @@
-name: Hurcombe
-icon: DapibusAugueVel.doc
-link: http://dummyimage.com/123x100.png/5fa2dd/ffffff
-support: 'no'
-versionFrom: '0.21'
-categories:
-  - dotnet
-  - testing
-  - oss

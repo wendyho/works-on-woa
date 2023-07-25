@@ -1,9 +1,0 @@
-name: Fitzpayn
-icon: NequeAeneanAuctor.png
-link: http://dummyimage.com/192x100.png/cc0000/ffffff
-support: emulation
-versionFrom: '0.31'
-categories:
-  - testing
-  - kernel
-  - dotnet

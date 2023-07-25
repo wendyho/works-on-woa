@@ -1,9 +1,0 @@
-name: Bullock
-icon: FringillaRhoncusMauris.mpeg
-link: http://dummyimage.com/108x100.png/dddddd/000000
-support: 'no'
-versionFrom: '7.3'
-categories:
-  - testing
-  - web
-  - oss

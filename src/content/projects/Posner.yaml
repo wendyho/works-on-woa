@@ -1,9 +1,0 @@
-name: Posner
-icon: NullamOrciPede.xls
-link: http://dummyimage.com/237x100.png/dddddd/000000
-support: emulation
-versionFrom: 0.2.3
-categories:
-  - emulation
-  - web
-  - kernel

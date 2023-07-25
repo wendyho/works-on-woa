@@ -1,9 +1,0 @@
-name: Rosenstock
-icon: Risus.mp3
-link: http://dummyimage.com/239x100.png/ff4444/ffffff
-support: native
-versionFrom: 1.3.0
-categories:
-  - visualstudio
-  - kernel
-  - embedded

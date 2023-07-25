@@ -1,9 +1,0 @@
-name: Vennard
-icon: MaurisEgetMassa.mp3
-link: http://dummyimage.com/219x100.png/5fa2dd/ffffff
-support: native
-versionFrom: 7.2.1
-categories:
-  - dotnet
-  - linux
-  - kernel

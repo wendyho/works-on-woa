@@ -1,9 +1,0 @@
-name: Corsham
-icon: QuisTurpis.jpeg
-link: http://dummyimage.com/166x100.png/5fa2dd/ffffff
-support: 'no'
-versionFrom: 0.6.7
-categories:
-  - dotnet
-  - linux
-  - visualstudio

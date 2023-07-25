@@ -1,9 +1,0 @@
-name: Tate
-icon: Et.jpeg
-link: http://dummyimage.com/195x100.png/5fa2dd/ffffff
-support: 'no'
-versionFrom: '0.10'
-categories:
-  - web
-  - linux
-  - embedded

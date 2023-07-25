@@ -1,9 +1,0 @@
-name: Branch
-icon: LuctusEtUltrices.avi
-link: http://dummyimage.com/184x100.png/ff4444/ffffff
-support: 'no'
-versionFrom: 2.7.5
-categories:
-  - testing
-  - embedded
-  - visualstudio

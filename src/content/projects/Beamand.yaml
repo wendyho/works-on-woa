@@ -1,9 +1,0 @@
-name: Beamand
-icon: NequeSapien.tiff
-link: http://dummyimage.com/202x100.png/ff4444/ffffff
-support: unknown
-versionFrom: 1.5.8
-categories:
-  - dotnet
-  - testing
-  - oss

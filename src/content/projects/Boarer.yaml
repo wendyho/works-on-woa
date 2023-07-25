@@ -1,9 +1,0 @@
-name: Boarer
-icon: Felis.mov
-link: http://dummyimage.com/248x100.png/cc0000/ffffff
-support: unknown
-versionFrom: '4.7'
-categories:
-  - embedded
-  - emulation
-  - visualstudio

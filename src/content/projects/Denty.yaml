@@ -1,9 +1,0 @@
-name: Denty
-icon: Eu.mp3
-link: http://dummyimage.com/122x100.png/cc0000/ffffff
-support: 'no'
-versionFrom: 0.8.7
-categories:
-  - oss
-  - linux
-  - dotnet

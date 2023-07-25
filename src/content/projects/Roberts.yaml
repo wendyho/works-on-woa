@@ -1,9 +1,0 @@
-name: Roberts
-icon: Amet.mpeg
-link: http://dummyimage.com/169x100.png/ff4444/ffffff
-support: emulation
-versionFrom: '3.1'
-categories:
-  - emulation
-  - linux
-  - dotnet

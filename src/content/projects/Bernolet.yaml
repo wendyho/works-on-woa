@@ -1,9 +1,0 @@
-name: Bernolet
-icon: MassaDonec.xls
-link: http://dummyimage.com/101x100.png/cc0000/ffffff
-support: emulation
-versionFrom: '4.7'
-categories:
-  - oss
-  - testing
-  - linux

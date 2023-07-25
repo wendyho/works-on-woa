@@ -1,9 +1,0 @@
-name: Stollmeyer
-icon: CongueEtiamJusto.ppt
-link: http://dummyimage.com/202x100.png/dddddd/000000
-support: native
-versionFrom: '5.62'
-categories:
-  - web
-  - kernel
-  - testing

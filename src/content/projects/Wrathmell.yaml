@@ -1,9 +1,0 @@
-name: Wrathmell
-icon: LobortisConvallisTortor.mpeg
-link: http://dummyimage.com/141x100.png/5fa2dd/ffffff
-support: 'no'
-versionFrom: 0.1.1
-categories:
-  - visualstudio
-  - kernel
-  - testing

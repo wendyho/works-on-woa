@@ -1,9 +1,0 @@
-name: Targe
-icon: DonecSemper.mp3
-link: http://dummyimage.com/122x100.png/5fa2dd/ffffff
-support: emulation
-versionFrom: '6.9'
-categories:
-  - kernel
-  - dotnet
-  - tools

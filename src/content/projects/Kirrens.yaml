@@ -1,9 +1,0 @@
-name: Kirrens
-icon: TellusNullaUt.avi
-link: http://dummyimage.com/130x100.png/dddddd/000000
-support: emulation
-versionFrom: 6.0.1
-categories:
-  - dotnet
-  - oss
-  - embedded

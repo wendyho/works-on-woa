@@ -1,9 +1,0 @@
-name: Korneichik
-icon: Nibh.tiff
-link: http://dummyimage.com/115x100.png/cc0000/ffffff
-support: emulation
-versionFrom: 0.9.6
-categories:
-  - testing
-  - emulation
-  - linux

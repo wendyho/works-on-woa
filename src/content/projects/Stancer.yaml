@@ -1,9 +1,0 @@
-name: Stancer
-icon: Sit.tiff
-link: http://dummyimage.com/218x100.png/5fa2dd/ffffff
-support: emulation
-versionFrom: '1.51'
-categories:
-  - testing
-  - web
-  - visualstudio

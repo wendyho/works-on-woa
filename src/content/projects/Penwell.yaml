@@ -1,9 +1,0 @@
-name: Penwell
-icon: Natoque.ppt
-link: http://dummyimage.com/101x100.png/5fa2dd/ffffff
-support: emulation
-versionFrom: '1.6'
-categories:
-  - visualstudio
-  - testing
-  - oss

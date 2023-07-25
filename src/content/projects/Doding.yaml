@@ -1,9 +1,0 @@
-name: Doding
-icon: Libero.ppt
-link: http://dummyimage.com/171x100.png/cc0000/ffffff
-support: native
-versionFrom: 0.3.3
-categories:
-  - kernel
-  - embedded
-  - visualstudio

@@ -1,9 +1,0 @@
-name: Boole
-icon: Magna.doc
-link: http://dummyimage.com/221x100.png/ff4444/ffffff
-support: emulation
-versionFrom: 0.1.1
-categories:
-  - embedded
-  - web
-  - linux

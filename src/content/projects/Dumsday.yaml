@@ -1,9 +1,0 @@
-name: Dumsday
-icon: Ligula.jpeg
-link: http://dummyimage.com/141x100.png/ff4444/ffffff
-support: emulation
-versionFrom: '4.3'
-categories:
-  - testing
-  - dotnet
-  - kernel

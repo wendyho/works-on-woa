@@ -1,9 +1,0 @@
-name: Gillow
-icon: PedeJusto.xls
-link: http://dummyimage.com/164x100.png/dddddd/000000
-support: native
-versionFrom: '5.1'
-categories:
-  - linux
-  - embedded
-  - web

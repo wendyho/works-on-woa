@@ -1,9 +1,0 @@
-name: Curtoys
-icon: OrciMaurisLacinia.ppt
-link: http://dummyimage.com/212x100.png/5fa2dd/ffffff
-support: native
-versionFrom: 8.5.8
-categories:
-  - visualstudio
-  - linux
-  - kernel

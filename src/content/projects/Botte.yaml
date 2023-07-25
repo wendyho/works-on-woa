@@ -1,9 +1,0 @@
-name: Botte
-icon: DisParturientMontes.mp3
-link: http://dummyimage.com/237x100.png/cc0000/ffffff
-support: 'no'
-versionFrom: 2.2.1
-categories:
-  - oss
-  - embedded
-  - dotnet

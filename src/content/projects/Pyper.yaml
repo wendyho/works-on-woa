@@ -1,9 +1,0 @@
-name: Pyper
-icon: MattisOdio.pdf
-link: http://dummyimage.com/130x100.png/dddddd/000000
-support: 'no'
-versionFrom: 4.8.5
-categories:
-  - kernel
-  - testing
-  - dotnet

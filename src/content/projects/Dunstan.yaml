@@ -1,8 +1,0 @@
-name: Dunstan
-icon: Vel.mov
-link: http://dummyimage.com/197x100.png/5fa2dd/ffffff
-support: emulation
-versionFrom: '4.37'
-categories:
-  - dotnet
-  - embedded

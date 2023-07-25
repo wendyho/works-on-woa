@@ -1,9 +1,0 @@
-name: Pollard
-icon: MaurisLacinia.pdf
-link: http://dummyimage.com/149x100.png/cc0000/ffffff
-support: 'no'
-versionFrom: 0.2.0
-categories:
-  - dotnet
-  - testing
-  - oss

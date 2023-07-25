@@ -1,9 +1,0 @@
-name: Gorhardt
-icon: IpsumDolor.txt
-link: http://dummyimage.com/211x100.png/dddddd/000000
-support: emulation
-versionFrom: 5.1.5
-categories:
-  - tools
-  - dotnet
-  - visualstudio

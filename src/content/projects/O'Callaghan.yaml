@@ -1,9 +1,0 @@
-name: O'Callaghan
-icon: PorttitorLacus.pdf
-link: http://dummyimage.com/212x100.png/5fa2dd/ffffff
-support: native
-versionFrom: '6.63'
-categories:
-  - embedded
-  - linux
-  - visualstudio

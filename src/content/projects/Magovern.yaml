@@ -1,9 +1,0 @@
-name: Magovern
-icon: QuamSollicitudinVitae.avi
-link: http://dummyimage.com/219x100.png/5fa2dd/ffffff
-support: native
-versionFrom: '1.19'
-categories:
-  - testing
-  - tools
-  - kernel

@@ -1,8 +1,0 @@
-name: Capponeer
-icon: InSagittis.xls
-link: http://dummyimage.com/180x100.png/5fa2dd/ffffff
-support: emulation
-versionFrom: '9.5'
-categories:
-  - visualstudio
-  - kernel

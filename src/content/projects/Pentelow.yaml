@@ -1,9 +1,0 @@
-name: Pentelow
-icon: NullaFacilisiCras.png
-link: http://dummyimage.com/231x100.png/ff4444/ffffff
-support: 'no'
-versionFrom: 0.7.7
-categories:
-  - dotnet
-  - visualstudio
-  - emulation

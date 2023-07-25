@@ -1,8 +1,0 @@
-name: Chatwin
-icon: PretiumQuis.txt
-link: http://dummyimage.com/104x100.png/ff4444/ffffff
-support: native
-versionFrom: '0.84'
-categories:
-  - linux
-  - dotnet

@@ -1,9 +1,0 @@
-name: Ditzel
-icon: A.mp3
-link: http://dummyimage.com/111x100.png/cc0000/ffffff
-support: 'no'
-versionFrom: '1.5'
-categories:
-  - kernel
-  - oss
-  - tools

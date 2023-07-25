@@ -1,9 +1,0 @@
-name: Kilfeather
-icon: Integer.mpeg
-link: http://dummyimage.com/100x100.png/ff4444/ffffff
-support: emulation
-versionFrom: 2.9.1
-categories:
-  - emulation
-  - oss
-  - linux

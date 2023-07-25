@@ -1,9 +1,0 @@
-name: Kindread
-icon: Nibh.xls
-link: http://dummyimage.com/203x100.png/5fa2dd/ffffff
-support: unknown
-versionFrom: '4.3'
-categories:
-  - dotnet
-  - embedded
-  - kernel

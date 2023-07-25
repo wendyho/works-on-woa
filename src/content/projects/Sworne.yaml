@@ -1,9 +1,0 @@
-name: Sworne
-icon: Quis.mov
-link: http://dummyimage.com/116x100.png/dddddd/000000
-support: 'no'
-versionFrom: '4.09'
-categories:
-  - oss
-  - kernel
-  - dotnet

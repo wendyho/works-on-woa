@@ -1,9 +1,0 @@
-name: Olensby
-icon: Id.xls
-link: http://dummyimage.com/175x100.png/dddddd/000000
-support: emulation
-versionFrom: '3.89'
-categories:
-  - oss
-  - embedded
-  - emulation

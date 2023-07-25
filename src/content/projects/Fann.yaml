@@ -1,9 +1,0 @@
-name: Fann
-icon: Convallis.jpeg
-link: http://dummyimage.com/198x100.png/cc0000/ffffff
-support: 'no'
-versionFrom: '4.66'
-categories:
-  - web
-  - kernel
-  - dotnet

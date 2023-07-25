@@ -1,9 +1,0 @@
-name: Booi
-icon: Et.xls
-link: http://dummyimage.com/172x100.png/dddddd/000000
-support: 'no'
-versionFrom: 0.7.2
-categories:
-  - emulation
-  - kernel
-  - embedded

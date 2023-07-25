@@ -1,9 +1,0 @@
-name: Delia
-icon: Auctor.mp3
-link: http://dummyimage.com/137x100.png/cc0000/ffffff
-support: native
-versionFrom: '2.13'
-categories:
-  - kernel
-  - testing
-  - web

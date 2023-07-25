@@ -1,9 +1,0 @@
-name: Chatburn
-icon: LacusCurabiturAt.tiff
-link: http://dummyimage.com/239x100.png/dddddd/000000
-support: emulation
-versionFrom: 0.9.8
-categories:
-  - testing
-  - emulation
-  - kernel

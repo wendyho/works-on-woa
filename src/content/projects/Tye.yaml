@@ -1,9 +1,0 @@
-name: Tye
-icon: TempusSemperEst.mpeg
-link: http://dummyimage.com/153x100.png/cc0000/ffffff
-support: 'no'
-versionFrom: '8.56'
-categories:
-  - embedded
-  - kernel
-  - oss

@@ -1,9 +1,0 @@
-name: Cowitz
-icon: SollicitudinUt.png
-link: http://dummyimage.com/113x100.png/cc0000/ffffff
-support: native
-versionFrom: 0.7.8
-categories:
-  - dotnet
-  - emulation
-  - embedded

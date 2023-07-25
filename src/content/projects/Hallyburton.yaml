@@ -1,9 +1,0 @@
-name: Hallyburton
-icon: Nunc.pdf
-link: http://dummyimage.com/141x100.png/dddddd/000000
-support: native
-versionFrom: '5.6'
-categories:
-  - kernel
-  - visualstudio
-  - linux

@@ -1,9 +1,0 @@
-name: Batteson
-icon: Fusce.mp3
-link: http://dummyimage.com/157x100.png/ff4444/ffffff
-support: emulation
-versionFrom: '0.69'
-categories:
-  - testing
-  - kernel
-  - linux

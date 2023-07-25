@@ -1,8 +1,0 @@
-name: Tett
-icon: NecDui.mp3
-link: http://dummyimage.com/102x100.png/dddddd/000000
-support: native
-versionFrom: '5.5'
-categories:
-  - linux
-  - testing

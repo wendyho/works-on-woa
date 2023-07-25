@@ -1,9 +1,0 @@
-name: Cordingley
-icon: TurpisAPede.mpeg
-link: http://dummyimage.com/208x100.png/cc0000/ffffff
-support: native
-versionFrom: '2.84'
-categories:
-  - linux
-  - testing
-  - oss

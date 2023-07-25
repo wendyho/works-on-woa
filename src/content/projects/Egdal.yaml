@@ -1,9 +1,0 @@
-name: Egdal
-icon: TempusSit.avi
-link: http://dummyimage.com/132x100.png/dddddd/000000
-support: 'no'
-versionFrom: 0.3.0
-categories:
-  - web
-  - dotnet
-  - embedded

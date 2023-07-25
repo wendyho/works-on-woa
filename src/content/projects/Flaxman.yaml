@@ -1,9 +1,0 @@
-name: Flaxman
-icon: PlateaDictumst.mpeg
-link: http://dummyimage.com/224x100.png/dddddd/000000
-support: native
-versionFrom: 0.3.3
-categories:
-  - embedded
-  - visualstudio
-  - kernel

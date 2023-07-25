@@ -1,9 +1,0 @@
-name: Tollow
-icon: NequeVestibulum.mp3
-link: http://dummyimage.com/224x100.png/dddddd/000000
-support: native
-versionFrom: '6.72'
-categories:
-  - oss
-  - kernel
-  - testing

@@ -1,9 +1,0 @@
-name: Evenden
-icon: VolutpatIn.ppt
-link: http://dummyimage.com/195x100.png/dddddd/000000
-support: native
-versionFrom: '6.7'
-categories:
-  - oss
-  - kernel
-  - tools

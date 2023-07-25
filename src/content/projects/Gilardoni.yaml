@@ -1,9 +1,0 @@
-name: Gilardoni
-icon: InLectusPellentesque.mp3
-link: http://dummyimage.com/110x100.png/cc0000/ffffff
-support: emulation
-versionFrom: '0.10'
-categories:
-  - dotnet
-  - testing
-  - visualstudio

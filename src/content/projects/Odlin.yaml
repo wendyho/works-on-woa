@@ -1,9 +1,0 @@
-name: Odlin
-icon: Diam.png
-link: http://dummyimage.com/126x100.png/5fa2dd/ffffff
-support: 'no'
-versionFrom: '7.45'
-categories:
-  - kernel
-  - web
-  - oss

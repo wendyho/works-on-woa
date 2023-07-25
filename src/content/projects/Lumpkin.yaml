@@ -1,9 +1,0 @@
-name: Lumpkin
-icon: Libero.xls
-link: http://dummyimage.com/205x100.png/cc0000/ffffff
-support: 'no'
-versionFrom: '6.57'
-categories:
-  - linux
-  - testing
-  - embedded

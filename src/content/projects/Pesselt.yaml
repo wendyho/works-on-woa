@@ -1,9 +1,0 @@
-name: Pesselt
-icon: AccumsanOdioCurabitur.mpeg
-link: http://dummyimage.com/186x100.png/5fa2dd/ffffff
-support: emulation
-versionFrom: 0.5.5
-categories:
-  - dotnet
-  - kernel
-  - testing

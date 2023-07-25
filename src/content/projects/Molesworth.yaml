@@ -1,9 +1,0 @@
-name: Molesworth
-icon: IdMassa.mp3
-link: http://dummyimage.com/192x100.png/dddddd/000000
-support: unknown
-versionFrom: '0.39'
-categories:
-  - embedded
-  - testing
-  - emulation

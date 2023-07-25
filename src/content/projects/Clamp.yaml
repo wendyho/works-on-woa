@@ -1,8 +1,0 @@
-name: Clamp
-icon: InFelis.ppt
-link: http://dummyimage.com/233x100.png/ff4444/ffffff
-support: emulation
-versionFrom: '6.94'
-categories:
-  - dotnet
-  - tools

@@ -1,9 +1,0 @@
-name: Arendt
-icon: AmetLobortisSapien.doc
-link: http://dummyimage.com/233x100.png/dddddd/000000
-support: emulation
-versionFrom: '3.42'
-categories:
-  - web
-  - visualstudio
-  - testing

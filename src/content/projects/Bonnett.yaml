@@ -1,9 +1,0 @@
-name: Bonnett
-icon: QuisJustoMaecenas.mp3
-link: http://dummyimage.com/110x100.png/5fa2dd/ffffff
-support: emulation
-versionFrom: '9.6'
-categories:
-  - kernel
-  - testing
-  - web

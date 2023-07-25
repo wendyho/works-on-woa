@@ -1,9 +1,0 @@
-name: Blaksley
-icon: NasceturRidiculus.avi
-link: http://dummyimage.com/155x100.png/cc0000/ffffff
-support: 'no'
-versionFrom: '6.67'
-categories:
-  - web
-  - embedded
-  - kernel

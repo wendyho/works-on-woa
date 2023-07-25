@@ -1,9 +1,0 @@
-name: Mirrlees
-icon: PedeAc.avi
-link: http://dummyimage.com/140x100.png/cc0000/ffffff
-support: emulation
-versionFrom: 0.7.6
-categories:
-  - emulation
-  - visualstudio
-  - testing

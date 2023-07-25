@@ -1,9 +1,0 @@
-name: Jays
-icon: UltricesLibero.mpeg
-link: http://dummyimage.com/117x100.png/cc0000/ffffff
-support: unknown
-versionFrom: '6.80'
-categories:
-  - emulation
-  - embedded
-  - kernel

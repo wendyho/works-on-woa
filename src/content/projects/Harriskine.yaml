@@ -1,9 +1,0 @@
-name: Harriskine
-icon: Sit.xls
-link: http://dummyimage.com/216x100.png/ff4444/ffffff
-support: emulation
-versionFrom: 0.2.3
-categories:
-  - dotnet
-  - kernel
-  - linux

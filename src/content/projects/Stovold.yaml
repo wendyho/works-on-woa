@@ -1,9 +1,0 @@
-name: Stovold
-icon: DiamIn.ppt
-link: http://dummyimage.com/225x100.png/5fa2dd/ffffff
-support: emulation
-versionFrom: '7.7'
-categories:
-  - kernel
-  - visualstudio
-  - linux

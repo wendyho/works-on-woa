@@ -1,8 +1,0 @@
-name: Doorbar
-icon: Nulla.xls
-link: http://dummyimage.com/249x100.png/5fa2dd/ffffff
-support: 'no'
-versionFrom: '0.24'
-categories:
-  - dotnet
-  - tools

@@ -1,9 +1,0 @@
-name: Royds
-icon: PretiumIaculis.xls
-link: http://dummyimage.com/212x100.png/5fa2dd/ffffff
-support: 'no'
-versionFrom: '3.4'
-categories:
-  - testing
-  - embedded
-  - visualstudio

@@ -1,9 +1,0 @@
-name: Blount
-icon: ConsequatDuiNec.avi
-link: http://dummyimage.com/100x100.png/5fa2dd/ffffff
-support: emulation
-versionFrom: '5.85'
-categories:
-  - oss
-  - testing
-  - linux

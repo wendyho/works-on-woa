@@ -1,8 +1,0 @@
-name: Thirwell
-icon: PorttitorPede.xls
-link: http://dummyimage.com/221x100.png/cc0000/ffffff
-support: 'no'
-versionFrom: '3.3'
-categories:
-  - visualstudio
-  - dotnet

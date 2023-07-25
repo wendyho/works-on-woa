@@ -1,9 +1,0 @@
-name: Horsfield
-icon: Ac.mp3
-link: http://dummyimage.com/199x100.png/dddddd/000000
-support: 'no'
-versionFrom: 0.1.6
-categories:
-  - embedded
-  - kernel
-  - dotnet

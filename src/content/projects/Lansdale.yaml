@@ -1,9 +1,0 @@
-name: Lansdale
-icon: Dapibus.jpeg
-link: http://dummyimage.com/146x100.png/ff4444/ffffff
-support: native
-versionFrom: '2.7'
-categories:
-  - kernel
-  - dotnet
-  - oss

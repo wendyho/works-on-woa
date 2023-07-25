@@ -1,9 +1,0 @@
-name: Dalliwatr
-icon: ElitProin.tiff
-link: http://dummyimage.com/148x100.png/5fa2dd/ffffff
-support: native
-versionFrom: '9.6'
-categories:
-  - embedded
-  - emulation
-  - oss

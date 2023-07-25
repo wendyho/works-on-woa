@@ -1,9 +1,0 @@
-name: Umbert
-icon: DapibusAt.avi
-link: http://dummyimage.com/189x100.png/5fa2dd/ffffff
-support: native
-versionFrom: '4.5'
-categories:
-  - dotnet
-  - testing
-  - oss

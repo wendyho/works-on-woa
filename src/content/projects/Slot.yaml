@@ -1,9 +1,0 @@
-name: Slot
-icon: Malesuada.xls
-link: http://dummyimage.com/210x100.png/dddddd/000000
-support: 'no'
-versionFrom: 2.7.0
-categories:
-  - embedded
-  - kernel
-  - dotnet

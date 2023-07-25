@@ -1,9 +1,0 @@
-name: McCormick
-icon: SitAmet.xls
-link: http://dummyimage.com/225x100.png/dddddd/000000
-support: emulation
-versionFrom: 4.5.1
-categories:
-  - linux
-  - dotnet
-  - web

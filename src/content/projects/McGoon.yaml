@@ -1,9 +1,0 @@
-name: McGoon
-icon: AccumsanTortorQuis.xls
-link: http://dummyimage.com/166x100.png/5fa2dd/ffffff
-support: 'no'
-versionFrom: '4.8'
-categories:
-  - oss
-  - dotnet
-  - kernel

@@ -1,8 +1,0 @@
-name: Mitro
-icon: InFelis.mp3
-link: http://dummyimage.com/104x100.png/cc0000/ffffff
-support: emulation
-versionFrom: '5.2'
-categories:
-  - testing
-  - linux

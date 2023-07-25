@@ -1,9 +1,0 @@
-name: Henstridge
-icon: RhoncusMaurisEnim.xls
-link: http://dummyimage.com/231x100.png/cc0000/ffffff
-support: emulation
-versionFrom: '7.77'
-categories:
-  - web
-  - tools
-  - dotnet

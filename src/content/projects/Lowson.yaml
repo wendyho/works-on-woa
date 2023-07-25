@@ -1,9 +1,0 @@
-name: Lowson
-icon: Ut.gif
-link: http://dummyimage.com/173x100.png/dddddd/000000
-support: emulation
-versionFrom: '0.65'
-categories:
-  - visualstudio
-  - oss
-  - linux

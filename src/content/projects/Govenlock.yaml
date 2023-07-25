@@ -1,9 +1,0 @@
-name: Govenlock
-icon: AtTurpis.mpeg
-link: http://dummyimage.com/206x100.png/cc0000/ffffff
-support: emulation
-versionFrom: 1.5.7
-categories:
-  - web
-  - dotnet
-  - embedded

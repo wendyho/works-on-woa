@@ -1,9 +1,0 @@
-name: Stote
-icon: Id.xls
-link: http://dummyimage.com/155x100.png/cc0000/ffffff
-support: 'no'
-versionFrom: '3.6'
-categories:
-  - testing
-  - kernel
-  - tools

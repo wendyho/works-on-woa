@@ -1,9 +1,0 @@
-name: McGiven
-icon: RhoncusAliquam.avi
-link: http://dummyimage.com/106x100.png/5fa2dd/ffffff
-support: native
-versionFrom: 0.8.5
-categories:
-  - dotnet
-  - visualstudio
-  - kernel

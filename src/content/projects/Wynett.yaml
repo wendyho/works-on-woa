@@ -1,9 +1,0 @@
-name: Wynett
-icon: EtErosVestibulum.avi
-link: http://dummyimage.com/150x100.png/ff4444/ffffff
-support: native
-versionFrom: 0.3.3
-categories:
-  - dotnet
-  - visualstudio
-  - kernel

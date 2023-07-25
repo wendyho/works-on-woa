@@ -1,9 +1,0 @@
-name: Colbeck
-icon: Eu.mp3
-link: http://dummyimage.com/229x100.png/dddddd/000000
-support: emulation
-versionFrom: 0.4.4
-categories:
-  - linux
-  - dotnet
-  - oss

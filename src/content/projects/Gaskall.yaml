@@ -1,8 +1,0 @@
-name: Gaskall
-icon: EtiamVelAugue.mov
-link: http://dummyimage.com/202x100.png/cc0000/ffffff
-support: native
-versionFrom: '4.24'
-categories:
-  - visualstudio
-  - oss

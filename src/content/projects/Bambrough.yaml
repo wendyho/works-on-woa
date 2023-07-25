@@ -1,9 +1,0 @@
-name: Bambrough
-icon: EuFelisFusce.mp3
-link: http://dummyimage.com/120x100.png/5fa2dd/ffffff
-support: 'no'
-versionFrom: '9.31'
-categories:
-  - kernel
-  - embedded
-  - emulation

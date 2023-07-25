@@ -1,9 +1,0 @@
-name: Springer
-icon: QuisOrciNullam.txt
-link: http://dummyimage.com/115x100.png/ff4444/ffffff
-support: 'no'
-versionFrom: '0.70'
-categories:
-  - web
-  - visualstudio
-  - embedded

@@ -1,9 +1,0 @@
-name: Citrine
-icon: LiberoNamDui.xls
-link: http://dummyimage.com/134x100.png/cc0000/ffffff
-support: unknown
-versionFrom: '7.86'
-categories:
-  - dotnet
-  - emulation
-  - visualstudio

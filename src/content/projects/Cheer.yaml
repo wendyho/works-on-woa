@@ -1,9 +1,0 @@
-name: Cheer
-icon: SitAmet.mp3
-link: http://dummyimage.com/194x100.png/ff4444/ffffff
-support: native
-versionFrom: '2.24'
-categories:
-  - testing
-  - linux
-  - dotnet

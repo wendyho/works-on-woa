@@ -1,9 +1,0 @@
-name: Ferraraccio
-icon: ConvallisNunc.tiff
-link: http://dummyimage.com/228x100.png/5fa2dd/ffffff
-support: 'no'
-versionFrom: '4.8'
-categories:
-  - embedded
-  - tools
-  - visualstudio

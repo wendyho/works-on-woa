@@ -1,9 +1,0 @@
-name: Withnall
-icon: UtOdio.mpeg
-link: http://dummyimage.com/152x100.png/dddddd/000000
-support: emulation
-versionFrom: '0.99'
-categories:
-  - tools
-  - kernel
-  - testing

@@ -1,9 +1,0 @@
-name: Rollo
-icon: ConvallisNullaNeque.txt
-link: http://dummyimage.com/106x100.png/dddddd/000000
-support: emulation
-versionFrom: '0.60'
-categories:
-  - emulation
-  - linux
-  - kernel

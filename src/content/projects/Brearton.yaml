@@ -1,9 +1,0 @@
-name: Brearton
-icon: PedeMalesuadaIn.avi
-link: http://dummyimage.com/114x100.png/dddddd/000000
-support: emulation
-versionFrom: '9.5'
-categories:
-  - dotnet
-  - embedded
-  - testing

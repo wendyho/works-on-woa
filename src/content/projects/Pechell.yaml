@@ -1,9 +1,0 @@
-name: Pechell
-icon: Convallis.avi
-link: http://dummyimage.com/224x100.png/ff4444/ffffff
-support: native
-versionFrom: '7.3'
-categories:
-  - tools
-  - dotnet
-  - testing

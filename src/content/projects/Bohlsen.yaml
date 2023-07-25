@@ -1,9 +1,0 @@
-name: Bohlsen
-icon: AtVelitEu.avi
-link: http://dummyimage.com/209x100.png/dddddd/000000
-support: native
-versionFrom: '0.94'
-categories:
-  - tools
-  - visualstudio
-  - embedded

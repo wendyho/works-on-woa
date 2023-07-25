@@ -1,8 +1,0 @@
-name: Baudino
-icon: LoremIpsum.mov
-link: http://dummyimage.com/212x100.png/cc0000/ffffff
-support: emulation
-versionFrom: '9.12'
-categories:
-  - emulation
-  - web

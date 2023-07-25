@@ -1,9 +1,0 @@
-name: Down
-icon: TristiqueTortor.ppt
-link: http://dummyimage.com/130x100.png/ff4444/ffffff
-support: native
-versionFrom: '0.90'
-categories:
-  - dotnet
-  - oss
-  - testing

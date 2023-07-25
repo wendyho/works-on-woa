@@ -1,9 +1,0 @@
-name: Kintish
-icon: DolorVel.mov
-link: http://dummyimage.com/128x100.png/5fa2dd/ffffff
-support: native
-versionFrom: 0.9.7
-categories:
-  - embedded
-  - web
-  - dotnet

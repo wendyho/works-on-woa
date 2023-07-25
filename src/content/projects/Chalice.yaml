@@ -1,9 +1,0 @@
-name: Chalice
-icon: Habitasse.pdf
-link: http://dummyimage.com/144x100.png/5fa2dd/ffffff
-support: native
-versionFrom: '4.90'
-categories:
-  - tools
-  - dotnet
-  - web

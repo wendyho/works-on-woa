@@ -1,9 +1,0 @@
-name: Lawrenz
-icon: Lectus.avi
-link: http://dummyimage.com/163x100.png/cc0000/ffffff
-support: native
-versionFrom: '8.20'
-categories:
-  - embedded
-  - tools
-  - dotnet

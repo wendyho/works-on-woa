@@ -1,9 +1,0 @@
-name: Lapenna
-icon: VelPede.avi
-link: http://dummyimage.com/224x100.png/ff4444/ffffff
-support: 'no'
-versionFrom: '8.1'
-categories:
-  - visualstudio
-  - emulation
-  - testing

@@ -1,8 +1,0 @@
-name: McAlpine
-icon: AcNeque.xls
-link: http://dummyimage.com/230x100.png/cc0000/ffffff
-support: emulation
-versionFrom: 5.9.3
-categories:
-  - kernel
-  - oss

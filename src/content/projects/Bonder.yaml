@@ -1,9 +1,0 @@
-name: Bonder
-icon: HabitassePlatea.pdf
-link: http://dummyimage.com/174x100.png/5fa2dd/ffffff
-support: emulation
-versionFrom: 5.6.1
-categories:
-  - oss
-  - embedded
-  - linux

@@ -1,9 +1,0 @@
-name: Artois
-icon: Nascetur.ppt
-link: http://dummyimage.com/126x100.png/5fa2dd/ffffff
-support: native
-versionFrom: '0.39'
-categories:
-  - oss
-  - kernel
-  - embedded

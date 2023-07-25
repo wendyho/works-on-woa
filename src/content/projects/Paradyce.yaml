@@ -1,9 +1,0 @@
-name: Paradyce
-icon: UltricesPhasellusId.png
-link: http://dummyimage.com/176x100.png/cc0000/ffffff
-support: emulation
-versionFrom: 0.5.9
-categories:
-  - emulation
-  - kernel
-  - tools

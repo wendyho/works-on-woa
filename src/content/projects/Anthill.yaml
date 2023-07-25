@@ -1,9 +1,0 @@
-name: Anthill
-icon: RisusPraesentLectus.xls
-link: http://dummyimage.com/122x100.png/ff4444/ffffff
-support: emulation
-versionFrom: 0.1.0
-categories:
-  - web
-  - embedded
-  - dotnet

@@ -1,9 +1,0 @@
-name: Philpotts
-icon: Turpis.mpeg
-link: http://dummyimage.com/203x100.png/5fa2dd/ffffff
-support: 'no'
-versionFrom: '1.10'
-categories:
-  - testing
-  - embedded
-  - web

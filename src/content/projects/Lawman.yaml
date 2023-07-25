@@ -1,9 +1,0 @@
-name: Lawman
-icon: IdJustoSit.txt
-link: http://dummyimage.com/224x100.png/5fa2dd/ffffff
-support: native
-versionFrom: 0.3.4
-categories:
-  - visualstudio
-  - kernel
-  - testing

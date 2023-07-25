@@ -1,9 +1,0 @@
-name: Cram
-icon: Eu.doc
-link: http://dummyimage.com/219x100.png/ff4444/ffffff
-support: unknown
-versionFrom: '5.7'
-categories:
-  - dotnet
-  - visualstudio
-  - linux

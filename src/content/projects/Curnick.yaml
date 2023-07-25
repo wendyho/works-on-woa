@@ -1,9 +1,0 @@
-name: Curnick
-icon: InHacHabitasse.mp3
-link: http://dummyimage.com/202x100.png/dddddd/000000
-support: emulation
-versionFrom: '8.4'
-categories:
-  - embedded
-  - kernel
-  - emulation

@@ -1,9 +1,0 @@
-name: Kohn
-icon: Potenti.mov
-link: http://dummyimage.com/105x100.png/5fa2dd/ffffff
-support: native
-versionFrom: '8.2'
-categories:
-  - embedded
-  - dotnet
-  - tools

@@ -1,9 +1,0 @@
-name: Iron
-icon: Blandit.ppt
-link: http://dummyimage.com/206x100.png/cc0000/ffffff
-support: emulation
-versionFrom: 0.7.9
-categories:
-  - testing
-  - tools
-  - linux

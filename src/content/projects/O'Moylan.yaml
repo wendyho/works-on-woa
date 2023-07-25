@@ -1,9 +1,0 @@
-name: O'Moylan
-icon: QuisOdioConsequat.avi
-link: http://dummyimage.com/122x100.png/dddddd/000000
-support: native
-versionFrom: '0.83'
-categories:
-  - embedded
-  - tools
-  - kernel

@@ -1,9 +1,0 @@
-name: Hansley
-icon: LeoOdio.pdf
-link: http://dummyimage.com/222x100.png/cc0000/ffffff
-support: emulation
-versionFrom: '0.73'
-categories:
-  - kernel
-  - embedded
-  - visualstudio

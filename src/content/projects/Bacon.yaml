@@ -1,9 +1,0 @@
-name: Bacon
-icon: SemperInterdum.ppt
-link: http://dummyimage.com/113x100.png/ff4444/ffffff
-support: unknown
-versionFrom: '9.4'
-categories:
-  - oss
-  - embedded
-  - kernel

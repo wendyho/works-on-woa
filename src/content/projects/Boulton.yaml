@@ -1,9 +1,0 @@
-name: Boulton
-icon: Consequat.pdf
-link: http://dummyimage.com/167x100.png/ff4444/ffffff
-support: native
-versionFrom: '2.58'
-categories:
-  - kernel
-  - dotnet
-  - emulation

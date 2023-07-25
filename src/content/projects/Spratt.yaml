@@ -1,8 +1,0 @@
-name: Spratt
-icon: Quis.txt
-link: http://dummyimage.com/157x100.png/dddddd/000000
-support: emulation
-versionFrom: '6.9'
-categories:
-  - testing
-  - dotnet

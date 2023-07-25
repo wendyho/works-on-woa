@@ -1,9 +1,0 @@
-name: Siley
-icon: Blandit.mpeg
-link: http://dummyimage.com/171x100.png/cc0000/ffffff
-support: 'no'
-versionFrom: '9.36'
-categories:
-  - visualstudio
-  - embedded
-  - oss

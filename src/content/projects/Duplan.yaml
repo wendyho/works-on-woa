@@ -1,9 +1,0 @@
-name: Duplan
-icon: AliquetAt.xls
-link: http://dummyimage.com/237x100.png/5fa2dd/ffffff
-support: emulation
-versionFrom: '2.36'
-categories:
-  - web
-  - testing
-  - linux

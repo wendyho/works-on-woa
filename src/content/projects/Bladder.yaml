@@ -1,9 +1,0 @@
-name: Bladder
-icon: ArcuLiberoRutrum.jpeg
-link: http://dummyimage.com/139x100.png/5fa2dd/ffffff
-support: emulation
-versionFrom: '0.76'
-categories:
-  - dotnet
-  - linux
-  - embedded

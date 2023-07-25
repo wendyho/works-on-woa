@@ -1,9 +1,0 @@
-name: Bickers
-icon: PotentiIn.avi
-link: http://dummyimage.com/104x100.png/5fa2dd/ffffff
-support: emulation
-versionFrom: '5.71'
-categories:
-  - tools
-  - visualstudio
-  - embedded

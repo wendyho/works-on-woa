@@ -1,9 +1,0 @@
-name: Brunn
-icon: AugueAliquamErat.tiff
-link: http://dummyimage.com/121x100.png/cc0000/ffffff
-support: native
-versionFrom: 0.5.4
-categories:
-  - visualstudio
-  - kernel
-  - dotnet

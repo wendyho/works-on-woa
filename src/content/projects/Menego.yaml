@@ -1,9 +1,0 @@
-name: Menego
-icon: Aliquet.avi
-link: http://dummyimage.com/224x100.png/ff4444/ffffff
-support: 'no'
-versionFrom: 4.7.4
-categories:
-  - dotnet
-  - tools
-  - embedded

@@ -1,9 +1,0 @@
-name: Hindenburg
-icon: MiPede.ppt
-link: http://dummyimage.com/242x100.png/dddddd/000000
-support: emulation
-versionFrom: '7.5'
-categories:
-  - linux
-  - kernel
-  - visualstudio

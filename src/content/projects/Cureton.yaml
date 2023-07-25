@@ -1,9 +1,0 @@
-name: Cureton
-icon: InterdumEu.xls
-link: http://dummyimage.com/141x100.png/ff4444/ffffff
-support: 'no'
-versionFrom: '6.8'
-categories:
-  - oss
-  - testing
-  - embedded

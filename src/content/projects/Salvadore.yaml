@@ -1,9 +1,0 @@
-name: Salvadore
-icon: Aenean.ppt
-link: http://dummyimage.com/194x100.png/dddddd/000000
-support: emulation
-versionFrom: '7.94'
-categories:
-  - visualstudio
-  - embedded
-  - tools

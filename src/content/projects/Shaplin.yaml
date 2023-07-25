@@ -1,9 +1,0 @@
-name: Shaplin
-icon: PhasellusSit.txt
-link: http://dummyimage.com/244x100.png/5fa2dd/ffffff
-support: native
-versionFrom: 0.4.1
-categories:
-  - embedded
-  - web
-  - linux

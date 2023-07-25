@@ -1,9 +1,0 @@
-name: Hakking
-icon: LoremVitaeMattis.avi
-link: http://dummyimage.com/153x100.png/ff4444/ffffff
-support: native
-versionFrom: '0.32'
-categories:
-  - emulation
-  - dotnet
-  - oss

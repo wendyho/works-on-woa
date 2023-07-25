@@ -1,9 +1,0 @@
-name: Crosfield
-icon: VestibulumProinEu.tiff
-link: http://dummyimage.com/247x100.png/5fa2dd/ffffff
-support: unknown
-versionFrom: '7.1'
-categories:
-  - kernel
-  - oss
-  - testing

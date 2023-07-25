@@ -1,9 +1,0 @@
-name: Simounet
-icon: SodalesScelerisque.mp3
-link: http://dummyimage.com/208x100.png/dddddd/000000
-support: native
-versionFrom: '9.97'
-categories:
-  - linux
-  - tools
-  - embedded

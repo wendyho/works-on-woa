@@ -1,9 +1,0 @@
-name: Ead
-icon: AnteVestibulum.avi
-link: http://dummyimage.com/102x100.png/5fa2dd/ffffff
-support: emulation
-versionFrom: '0.36'
-categories:
-  - emulation
-  - web
-  - tools

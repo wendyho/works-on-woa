@@ -1,9 +1,0 @@
-name: Delap
-icon: VelitNec.xls
-link: http://dummyimage.com/214x100.png/cc0000/ffffff
-support: 'no'
-versionFrom: '2.43'
-categories:
-  - embedded
-  - tools
-  - oss

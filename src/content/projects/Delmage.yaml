@@ -1,9 +1,0 @@
-name: Delmage
-icon: Felis.avi
-link: http://dummyimage.com/208x100.png/cc0000/ffffff
-support: native
-versionFrom: '0.24'
-categories:
-  - emulation
-  - linux
-  - tools

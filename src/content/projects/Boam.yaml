@@ -1,9 +1,0 @@
-name: Boam
-icon: SemFusceConsequat.pdf
-link: http://dummyimage.com/169x100.png/dddddd/000000
-support: 'no'
-versionFrom: '9.7'
-categories:
-  - visualstudio
-  - kernel
-  - oss

@@ -1,9 +1,0 @@
-name: Ivashov
-icon: Nec.mp3
-link: http://dummyimage.com/208x100.png/5fa2dd/ffffff
-support: 'no'
-versionFrom: '7.9'
-categories:
-  - linux
-  - visualstudio
-  - testing

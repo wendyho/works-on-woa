@@ -1,9 +1,0 @@
-name: Proctor
-icon: MiPedeMalesuada.mov
-link: http://dummyimage.com/193x100.png/dddddd/000000
-support: unknown
-versionFrom: '5.72'
-categories:
-  - dotnet
-  - testing
-  - emulation

@@ -1,9 +1,0 @@
-name: Dusting
-icon: VelIpsum.ppt
-link: http://dummyimage.com/127x100.png/ff4444/ffffff
-support: emulation
-versionFrom: '0.25'
-categories:
-  - tools
-  - oss
-  - embedded

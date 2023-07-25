@@ -1,9 +1,0 @@
-name: McClurg
-icon: Ipsum.mp3
-link: http://dummyimage.com/146x100.png/5fa2dd/ffffff
-support: 'no'
-versionFrom: '4.4'
-categories:
-  - dotnet
-  - emulation
-  - linux

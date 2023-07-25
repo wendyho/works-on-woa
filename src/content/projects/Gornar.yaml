@@ -1,8 +1,0 @@
-name: Gornar
-icon: InFaucibusOrci.txt
-link: http://dummyimage.com/246x100.png/cc0000/ffffff
-support: native
-versionFrom: '0.17'
-categories:
-  - kernel
-  - embedded

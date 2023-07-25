@@ -1,9 +1,0 @@
-name: Scally
-icon: VolutpatSapienArcu.avi
-link: http://dummyimage.com/119x100.png/cc0000/ffffff
-support: 'no'
-versionFrom: 0.9.7
-categories:
-  - embedded
-  - testing
-  - oss

@@ -1,9 +1,0 @@
-name: Sabey
-icon: QuamPedeLobortis.xls
-link: http://dummyimage.com/194x100.png/dddddd/000000
-support: emulation
-versionFrom: 8.3.0
-categories:
-  - kernel
-  - tools
-  - dotnet

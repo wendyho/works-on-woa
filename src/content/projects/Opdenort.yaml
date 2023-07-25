@@ -1,9 +1,0 @@
-name: Opdenort
-icon: MorbiVestibulum.pdf
-link: http://dummyimage.com/226x100.png/cc0000/ffffff
-support: native
-versionFrom: 0.4.4
-categories:
-  - kernel
-  - embedded
-  - oss

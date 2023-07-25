@@ -1,9 +1,0 @@
-name: Ness
-icon: Massa.mov
-link: http://dummyimage.com/194x100.png/cc0000/ffffff
-support: unknown
-versionFrom: '4.8'
-categories:
-  - emulation
-  - embedded
-  - tools

@@ -1,9 +1,0 @@
-name: MacDermot
-icon: LiberoNon.ppt
-link: http://dummyimage.com/170x100.png/ff4444/ffffff
-support: emulation
-versionFrom: '5.3'
-categories:
-  - web
-  - testing
-  - dotnet

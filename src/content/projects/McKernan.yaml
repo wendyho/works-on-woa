@@ -1,9 +1,0 @@
-name: McKernan
-icon: NullaTellusIn.mov
-link: http://dummyimage.com/190x100.png/cc0000/ffffff
-support: unknown
-versionFrom: '4.01'
-categories:
-  - embedded
-  - dotnet
-  - web

@@ -1,9 +1,0 @@
-name: Exroll
-icon: UltricesLibero.pdf
-link: http://dummyimage.com/133x100.png/dddddd/000000
-support: native
-versionFrom: '9.3'
-categories:
-  - visualstudio
-  - dotnet
-  - embedded

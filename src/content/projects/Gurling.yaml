@@ -1,9 +1,0 @@
-name: Gurling
-icon: Nulla.doc
-link: http://dummyimage.com/231x100.png/cc0000/ffffff
-support: emulation
-versionFrom: '4.87'
-categories:
-  - testing
-  - tools
-  - linux

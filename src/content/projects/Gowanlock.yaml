@@ -1,9 +1,0 @@
-name: Gowanlock
-icon: PosuereCubilia.gif
-link: http://dummyimage.com/236x100.png/dddddd/000000
-support: native
-versionFrom: '7.1'
-categories:
-  - emulation
-  - dotnet
-  - embedded

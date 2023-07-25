@@ -1,9 +1,0 @@
-name: Baszkiewicz
-icon: Quam.mp3
-link: http://dummyimage.com/143x100.png/cc0000/ffffff
-support: 'no'
-versionFrom: '1.47'
-categories:
-  - embedded
-  - testing
-  - linux

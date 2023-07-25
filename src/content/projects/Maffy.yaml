@@ -1,9 +1,0 @@
-name: Maffy
-icon: UtNullaSed.xls
-link: http://dummyimage.com/114x100.png/cc0000/ffffff
-support: emulation
-versionFrom: 0.4.7
-categories:
-  - linux
-  - emulation
-  - dotnet

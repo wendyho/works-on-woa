@@ -1,9 +1,0 @@
-name: Lockitt
-icon: LacusPurusAliquet.tiff
-link: http://dummyimage.com/160x100.png/cc0000/ffffff
-support: native
-versionFrom: '0.55'
-categories:
-  - emulation
-  - visualstudio
-  - kernel

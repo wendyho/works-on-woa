@@ -1,9 +1,0 @@
-name: Ondra
-icon: InFaucibusOrci.avi
-link: http://dummyimage.com/177x100.png/ff4444/ffffff
-support: emulation
-versionFrom: '0.56'
-categories:
-  - emulation
-  - linux
-  - visualstudio

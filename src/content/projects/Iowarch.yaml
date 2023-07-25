@@ -1,9 +1,0 @@
-name: Iowarch
-icon: VulputateVitae.jpeg
-link: http://dummyimage.com/105x100.png/dddddd/000000
-support: unknown
-versionFrom: '9.6'
-categories:
-  - visualstudio
-  - testing
-  - emulation

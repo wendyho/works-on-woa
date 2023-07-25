@@ -1,9 +1,0 @@
-name: Robottom
-icon: In.doc
-link: http://dummyimage.com/126x100.png/ff4444/ffffff
-support: emulation
-versionFrom: '0.33'
-categories:
-  - embedded
-  - tools
-  - kernel

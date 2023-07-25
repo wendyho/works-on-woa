@@ -1,9 +1,0 @@
-name: Linstead
-icon: MagnisDis.ppt
-link: http://dummyimage.com/153x100.png/cc0000/ffffff
-support: native
-versionFrom: '4.86'
-categories:
-  - visualstudio
-  - linux
-  - testing

@@ -1,8 +1,0 @@
-name: Kochl
-icon: DuisFaucibusAccumsan.mp3
-link: http://dummyimage.com/167x100.png/ff4444/ffffff
-support: emulation
-versionFrom: '8.8'
-categories:
-  - testing
-  - embedded

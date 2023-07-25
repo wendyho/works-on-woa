@@ -1,9 +1,0 @@
-name: Meenehan
-icon: PurusPhasellus.tiff
-link: http://dummyimage.com/136x100.png/cc0000/ffffff
-support: emulation
-versionFrom: 7.8.7
-categories:
-  - testing
-  - dotnet
-  - oss

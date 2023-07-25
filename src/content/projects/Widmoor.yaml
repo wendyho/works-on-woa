@@ -1,9 +1,0 @@
-name: Widmoor
-icon: Massa.avi
-link: http://dummyimage.com/161x100.png/ff4444/ffffff
-support: unknown
-versionFrom: '9.0'
-categories:
-  - oss
-  - emulation
-  - kernel

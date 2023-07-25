@@ -1,9 +1,0 @@
-name: Cecely
-icon: CursusUrna.png
-link: http://dummyimage.com/156x100.png/5fa2dd/ffffff
-support: emulation
-versionFrom: '8.7'
-categories:
-  - embedded
-  - visualstudio
-  - emulation

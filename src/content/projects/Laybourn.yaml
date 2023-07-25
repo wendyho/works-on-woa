@@ -1,9 +1,0 @@
-name: Laybourn
-icon: At.jpeg
-link: http://dummyimage.com/144x100.png/cc0000/ffffff
-support: emulation
-versionFrom: '9.35'
-categories:
-  - testing
-  - kernel
-  - web

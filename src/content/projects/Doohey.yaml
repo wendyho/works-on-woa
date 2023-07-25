@@ -1,8 +1,0 @@
-name: Doohey
-icon: LaciniaSapienQuis.mp3
-link: http://dummyimage.com/147x100.png/ff4444/ffffff
-support: emulation
-versionFrom: '3.33'
-categories:
-  - oss
-  - kernel

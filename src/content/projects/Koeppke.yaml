@@ -1,8 +1,0 @@
-name: Koeppke
-icon: Turpis.mpeg
-link: http://dummyimage.com/230x100.png/dddddd/000000
-support: native
-versionFrom: '1.31'
-categories:
-  - linux
-  - kernel

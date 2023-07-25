@@ -1,9 +1,0 @@
-name: Ghelardoni
-icon: NonVelit.xls
-link: http://dummyimage.com/171x100.png/dddddd/000000
-support: native
-versionFrom: '5.32'
-categories:
-  - visualstudio
-  - testing
-  - web

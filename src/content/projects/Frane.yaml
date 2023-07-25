@@ -1,9 +1,0 @@
-name: Frane
-icon: LiberoQuis.avi
-link: http://dummyimage.com/184x100.png/cc0000/ffffff
-support: unknown
-versionFrom: '7.65'
-categories:
-  - embedded
-  - kernel
-  - web

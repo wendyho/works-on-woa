@@ -1,9 +1,0 @@
-name: Eustis
-icon: EratId.xls
-link: http://dummyimage.com/225x100.png/cc0000/ffffff
-support: native
-versionFrom: 7.4.8
-categories:
-  - oss
-  - tools
-  - embedded

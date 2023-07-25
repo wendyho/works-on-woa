@@ -1,9 +1,0 @@
-name: Baroch
-icon: Ac.xls
-link: http://dummyimage.com/119x100.png/5fa2dd/ffffff
-support: 'no'
-versionFrom: 9.0.4
-categories:
-  - dotnet
-  - visualstudio
-  - oss

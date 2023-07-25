@@ -1,9 +1,0 @@
-name: Beardsdale
-icon: PretiumIaculisDiam.mov
-link: http://dummyimage.com/129x100.png/dddddd/000000
-support: 'no'
-versionFrom: '0.91'
-categories:
-  - linux
-  - emulation
-  - dotnet

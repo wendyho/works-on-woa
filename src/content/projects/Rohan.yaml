@@ -1,9 +1,0 @@
-name: Rohan
-icon: Vestibulum.jpeg
-link: http://dummyimage.com/168x100.png/ff4444/ffffff
-support: native
-versionFrom: '9.4'
-categories:
-  - web
-  - embedded
-  - linux

@@ -1,9 +1,0 @@
-name: Pilsbury
-icon: Ac.png
-link: http://dummyimage.com/103x100.png/5fa2dd/ffffff
-support: 'no'
-versionFrom: '7.38'
-categories:
-  - embedded
-  - testing
-  - emulation

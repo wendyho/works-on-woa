@@ -1,9 +1,0 @@
-name: Radbond
-icon: PulvinarNullaPede.pdf
-link: http://dummyimage.com/248x100.png/5fa2dd/ffffff
-support: native
-versionFrom: '4.2'
-categories:
-  - kernel
-  - oss
-  - tools

@@ -1,9 +1,0 @@
-name: MacAlaster
-icon: OrciVehicula.tiff
-link: http://dummyimage.com/224x100.png/5fa2dd/ffffff
-support: unknown
-versionFrom: '0.96'
-categories:
-  - testing
-  - dotnet
-  - linux

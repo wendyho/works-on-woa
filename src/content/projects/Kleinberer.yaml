@@ -1,9 +1,0 @@
-name: Kleinberer
-icon: AtDiam.xls
-link: http://dummyimage.com/172x100.png/ff4444/ffffff
-support: unknown
-versionFrom: '0.86'
-categories:
-  - oss
-  - dotnet
-  - visualstudio

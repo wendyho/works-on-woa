@@ -1,9 +1,0 @@
-name: McGrale
-icon: EstLacinia.ppt
-link: http://dummyimage.com/172x100.png/cc0000/ffffff
-support: emulation
-versionFrom: 4.4.8
-categories:
-  - visualstudio
-  - kernel
-  - testing

@@ -1,8 +1,0 @@
-name: Catonne
-icon: PulvinarNullaPede.tiff
-link: http://dummyimage.com/249x100.png/dddddd/000000
-support: emulation
-versionFrom: '7.19'
-categories:
-  - visualstudio
-  - linux

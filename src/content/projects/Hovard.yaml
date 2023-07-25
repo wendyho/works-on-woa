@@ -1,9 +1,0 @@
-name: Hovard
-icon: HacHabitasse.ppt
-link: http://dummyimage.com/178x100.png/dddddd/000000
-support: 'no'
-versionFrom: 0.2.4
-categories:
-  - dotnet
-  - oss
-  - kernel

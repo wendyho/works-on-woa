@@ -1,9 +1,0 @@
-name: Swallow
-icon: VestibulumRutrum.mov
-link: http://dummyimage.com/237x100.png/ff4444/ffffff
-support: native
-versionFrom: '2.6'
-categories:
-  - oss
-  - visualstudio
-  - web

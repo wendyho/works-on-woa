@@ -1,9 +1,0 @@
-name: Wann
-icon: SitAmetDiam.mp3
-link: http://dummyimage.com/180x100.png/cc0000/ffffff
-support: native
-versionFrom: 0.2.3
-categories:
-  - testing
-  - tools
-  - embedded

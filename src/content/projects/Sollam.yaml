@@ -1,9 +1,0 @@
-name: Sollam
-icon: LectusPellentesqueAt.avi
-link: http://dummyimage.com/131x100.png/dddddd/000000
-support: native
-versionFrom: '0.75'
-categories:
-  - testing
-  - kernel
-  - linux

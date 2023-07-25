@@ -1,9 +1,0 @@
-name: Mayall
-icon: Parturient.avi
-link: http://dummyimage.com/109x100.png/ff4444/ffffff
-support: emulation
-versionFrom: 0.2.0
-categories:
-  - tools
-  - testing
-  - embedded

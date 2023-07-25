@@ -1,9 +1,0 @@
-name: Trusdale
-icon: DonecVitaeNisi.txt
-link: http://dummyimage.com/113x100.png/dddddd/000000
-support: emulation
-versionFrom: 4.1.4
-categories:
-  - embedded
-  - linux
-  - visualstudio

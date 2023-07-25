@@ -1,9 +1,0 @@
-name: Caldecot
-icon: PhasellusSit.xls
-link: http://dummyimage.com/215x100.png/cc0000/ffffff
-support: emulation
-versionFrom: '0.50'
-categories:
-  - tools
-  - linux
-  - kernel

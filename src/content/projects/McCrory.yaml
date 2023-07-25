@@ -1,9 +1,0 @@
-name: McCrory
-icon: BlanditNonInterdum.tiff
-link: http://dummyimage.com/238x100.png/ff4444/ffffff
-support: emulation
-versionFrom: '0.57'
-categories:
-  - oss
-  - tools
-  - testing

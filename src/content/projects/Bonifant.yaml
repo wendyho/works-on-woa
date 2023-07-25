@@ -1,9 +1,0 @@
-name: Bonifant
-icon: Massa.xls
-link: http://dummyimage.com/154x100.png/ff4444/ffffff
-support: emulation
-versionFrom: '0.38'
-categories:
-  - embedded
-  - tools
-  - visualstudio

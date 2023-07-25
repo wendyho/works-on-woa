@@ -1,9 +1,0 @@
-name: Duffell
-icon: AliquamLacus.mp3
-link: http://dummyimage.com/133x100.png/dddddd/000000
-support: 'no'
-versionFrom: 6.4.2
-categories:
-  - dotnet
-  - testing
-  - oss

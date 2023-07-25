@@ -1,9 +1,0 @@
-name: Poxton
-icon: Sit.ppt
-link: http://dummyimage.com/199x100.png/dddddd/000000
-support: native
-versionFrom: '8.74'
-categories:
-  - testing
-  - dotnet
-  - web

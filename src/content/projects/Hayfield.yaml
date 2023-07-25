@@ -1,9 +1,0 @@
-name: Hayfield
-icon: QuisJusto.xls
-link: http://dummyimage.com/246x100.png/cc0000/ffffff
-support: native
-versionFrom: '2.62'
-categories:
-  - kernel
-  - dotnet
-  - linux

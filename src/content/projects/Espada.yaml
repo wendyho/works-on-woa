@@ -1,8 +1,0 @@
-name: Espada
-icon: Convallis.ppt
-link: http://dummyimage.com/107x100.png/cc0000/ffffff
-support: native
-versionFrom: '0.97'
-categories:
-  - visualstudio
-  - kernel

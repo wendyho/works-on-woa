@@ -1,9 +1,0 @@
-name: Stothart
-icon: MassaQuisAugue.ppt
-link: http://dummyimage.com/128x100.png/dddddd/000000
-support: 'no'
-versionFrom: '0.41'
-categories:
-  - kernel
-  - web
-  - dotnet

@@ -1,9 +1,0 @@
-name: Meneux
-icon: TristiqueTortor.jpeg
-link: http://dummyimage.com/223x100.png/cc0000/ffffff
-support: native
-versionFrom: '0.68'
-categories:
-  - oss
-  - testing
-  - kernel

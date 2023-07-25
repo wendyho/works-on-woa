@@ -1,9 +1,0 @@
-name: Thirlaway
-icon: Volutpat.txt
-link: http://dummyimage.com/207x100.png/5fa2dd/ffffff
-support: native
-versionFrom: '6.1'
-categories:
-  - visualstudio
-  - testing
-  - oss

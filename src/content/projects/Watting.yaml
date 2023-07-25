@@ -1,9 +1,0 @@
-name: Watting
-icon: Ipsum.avi
-link: http://dummyimage.com/216x100.png/ff4444/ffffff
-support: emulation
-versionFrom: 9.1.9
-categories:
-  - dotnet
-  - web
-  - visualstudio
