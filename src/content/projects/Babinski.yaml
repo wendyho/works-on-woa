@@ -1,9 +1,0 @@
-name: Babinski
-icon: UtBlandit.mp3
-link: http://dummyimage.com/157x100.png/dddddd/000000
-support: 'no'
-versionFrom: '0.50'
-categories:
-  - kernel
-  - dotnet
-  - embedded

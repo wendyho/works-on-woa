@@ -1,9 +1,0 @@
-name: Thomasset
-icon: PlaceratPraesentBlandit.jpeg
-link: http://dummyimage.com/250x100.png/cc0000/ffffff
-support: native
-versionFrom: '0.63'
-categories:
-  - web
-  - kernel
-  - dotnet

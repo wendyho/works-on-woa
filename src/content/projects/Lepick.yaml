@@ -1,9 +1,0 @@
-name: Lepick
-icon: MaurisSit.gif
-link: http://dummyimage.com/204x100.png/dddddd/000000
-support: emulation
-versionFrom: '9.84'
-categories:
-  - kernel
-  - visualstudio
-  - linux

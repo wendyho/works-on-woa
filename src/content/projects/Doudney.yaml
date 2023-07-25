@@ -1,9 +1,0 @@
-name: Doudney
-icon: AmetNunc.jpeg
-link: http://dummyimage.com/130x100.png/5fa2dd/ffffff
-support: native
-versionFrom: 5.3.2
-categories:
-  - embedded
-  - oss
-  - web

@@ -1,9 +1,0 @@
-name: Golbourn
-icon: LuctusEtUltrices.jpeg
-link: http://dummyimage.com/241x100.png/cc0000/ffffff
-support: native
-versionFrom: 5.5.3
-categories:
-  - emulation
-  - dotnet
-  - kernel

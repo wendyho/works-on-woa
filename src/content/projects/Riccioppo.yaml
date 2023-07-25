@@ -1,9 +1,0 @@
-name: Riccioppo
-icon: ErosElementum.png
-link: http://dummyimage.com/186x100.png/dddddd/000000
-support: native
-versionFrom: 9.1.6
-categories:
-  - visualstudio
-  - testing
-  - kernel

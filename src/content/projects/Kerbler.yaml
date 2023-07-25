@@ -1,9 +1,0 @@
-name: Kerbler
-icon: Gravida.mp3
-link: http://dummyimage.com/101x100.png/ff4444/ffffff
-support: native
-versionFrom: 9.8.4
-categories:
-  - oss
-  - kernel
-  - testing

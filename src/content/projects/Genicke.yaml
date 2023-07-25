@@ -1,9 +1,0 @@
-name: Genicke
-icon: SemperSapien.mp3
-link: http://dummyimage.com/106x100.png/dddddd/000000
-support: 'no'
-versionFrom: '5.1'
-categories:
-  - visualstudio
-  - linux
-  - testing

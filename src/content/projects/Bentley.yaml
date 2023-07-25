@@ -1,9 +1,0 @@
-name: Bentley
-icon: VivamusIn.ppt
-link: http://dummyimage.com/217x100.png/5fa2dd/ffffff
-support: emulation
-versionFrom: 1.1.2
-categories:
-  - linux
-  - kernel
-  - oss

@@ -1,9 +1,0 @@
-name: Jerrolt
-icon: SuscipitLigulaIn.ppt
-link: http://dummyimage.com/102x100.png/5fa2dd/ffffff
-support: emulation
-versionFrom: '3.2'
-categories:
-  - dotnet
-  - testing
-  - embedded

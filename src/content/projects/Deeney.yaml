@@ -1,9 +1,0 @@
-name: Deeney
-icon: SagittisDuiVel.xls
-link: http://dummyimage.com/230x100.png/5fa2dd/ffffff
-support: native
-versionFrom: '9.25'
-categories:
-  - emulation
-  - tools
-  - visualstudio

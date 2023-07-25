@@ -1,9 +1,0 @@
-name: Karpenya
-icon: Augue.txt
-link: http://dummyimage.com/152x100.png/5fa2dd/ffffff
-support: 'no'
-versionFrom: '3.4'
-categories:
-  - testing
-  - tools
-  - embedded

@@ -1,9 +1,0 @@
-name: Baselli
-icon: JustoNec.png
-link: http://dummyimage.com/164x100.png/5fa2dd/ffffff
-support: 'no'
-versionFrom: '2.1'
-categories:
-  - kernel
-  - web
-  - oss

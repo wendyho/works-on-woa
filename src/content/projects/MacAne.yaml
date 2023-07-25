@@ -1,9 +1,0 @@
-name: MacAne
-icon: EstCongue.ppt
-link: http://dummyimage.com/219x100.png/cc0000/ffffff
-support: 'no'
-versionFrom: '0.64'
-categories:
-  - dotnet
-  - visualstudio
-  - kernel

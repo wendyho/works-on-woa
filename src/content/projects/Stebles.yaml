@@ -1,9 +1,0 @@
-name: Stebles
-icon: CondimentumCurabiturIn.mpeg
-link: http://dummyimage.com/179x100.png/cc0000/ffffff
-support: native
-versionFrom: '4.88'
-categories:
-  - dotnet
-  - visualstudio
-  - testing

@@ -1,9 +1,0 @@
-name: Plumer
-icon: Turpis.tiff
-link: http://dummyimage.com/186x100.png/cc0000/ffffff
-support: 'no'
-versionFrom: '4.1'
-categories:
-  - testing
-  - tools
-  - embedded

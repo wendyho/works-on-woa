@@ -1,9 +1,0 @@
-name: Trobe
-icon: Tempus.ppt
-link: http://dummyimage.com/116x100.png/dddddd/000000
-support: unknown
-versionFrom: '1.87'
-categories:
-  - oss
-  - dotnet
-  - embedded

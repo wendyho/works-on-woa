@@ -1,9 +1,0 @@
-name: Devenish
-icon: VelEstDonec.jpeg
-link: http://dummyimage.com/151x100.png/5fa2dd/ffffff
-support: native
-versionFrom: '2.24'
-categories:
-  - kernel
-  - emulation
-  - tools

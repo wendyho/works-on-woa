@@ -1,9 +1,0 @@
-name: Auty
-icon: EnimLeo.mp3
-link: http://dummyimage.com/107x100.png/ff4444/ffffff
-support: emulation
-versionFrom: '9.77'
-categories:
-  - dotnet
-  - testing
-  - web

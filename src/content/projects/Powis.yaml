@@ -1,9 +1,0 @@
-name: Powis
-icon: CongueVivamus.mov
-link: http://dummyimage.com/143x100.png/dddddd/000000
-support: emulation
-versionFrom: 9.6.6
-categories:
-  - visualstudio
-  - dotnet
-  - kernel

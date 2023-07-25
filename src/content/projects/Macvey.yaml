@@ -1,9 +1,0 @@
-name: Macvey
-icon: MagnaVestibulumAliquet.xls
-link: http://dummyimage.com/171x100.png/5fa2dd/ffffff
-support: native
-versionFrom: '4.93'
-categories:
-  - testing
-  - linux
-  - dotnet

@@ -1,9 +1,0 @@
-name: Thonason
-icon: LiberoRutrum.xls
-link: http://dummyimage.com/173x100.png/ff4444/ffffff
-support: native
-versionFrom: '6.38'
-categories:
-  - linux
-  - dotnet
-  - tools

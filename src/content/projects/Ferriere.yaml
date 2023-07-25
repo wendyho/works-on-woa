@@ -1,9 +1,0 @@
-name: Ferriere
-icon: Ut.jpeg
-link: http://dummyimage.com/178x100.png/dddddd/000000
-support: emulation
-versionFrom: 7.1.5
-categories:
-  - emulation
-  - linux
-  - embedded

@@ -1,9 +1,0 @@
-name: Laurand
-icon: LuctusNec.xls
-link: http://dummyimage.com/116x100.png/5fa2dd/ffffff
-support: native
-versionFrom: 1.2.0
-categories:
-  - tools
-  - dotnet
-  - emulation

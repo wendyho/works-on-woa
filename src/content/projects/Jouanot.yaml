@@ -1,9 +1,0 @@
-name: Jouanot
-icon: EgetNunc.mp3
-link: http://dummyimage.com/111x100.png/dddddd/000000
-support: emulation
-versionFrom: '6.15'
-categories:
-  - testing
-  - embedded
-  - oss

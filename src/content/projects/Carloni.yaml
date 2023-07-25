@@ -1,9 +1,0 @@
-name: Carloni
-icon: SapienInSapien.txt
-link: http://dummyimage.com/145x100.png/cc0000/ffffff
-support: emulation
-versionFrom: 0.6.8
-categories:
-  - oss
-  - visualstudio
-  - testing

@@ -1,9 +1,0 @@
-name: Dasent
-icon: TellusNullaUt.avi
-link: http://dummyimage.com/112x100.png/5fa2dd/ffffff
-support: unknown
-versionFrom: '2.8'
-categories:
-  - dotnet
-  - testing
-  - kernel

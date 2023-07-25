@@ -1,9 +1,0 @@
-name: Robe
-icon: MaurisViverraDiam.xls
-link: http://dummyimage.com/184x100.png/ff4444/ffffff
-support: native
-versionFrom: '5.11'
-categories:
-  - emulation
-  - kernel
-  - web

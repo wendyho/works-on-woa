@@ -1,9 +1,0 @@
-name: Headrick
-icon: CurabiturAt.xls
-link: http://dummyimage.com/200x100.png/dddddd/000000
-support: 'no'
-versionFrom: '0.52'
-categories:
-  - testing
-  - embedded
-  - visualstudio

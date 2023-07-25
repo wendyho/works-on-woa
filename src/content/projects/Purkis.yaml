@@ -1,9 +1,0 @@
-name: Purkis
-icon: RidiculusMus.xls
-link: http://dummyimage.com/156x100.png/ff4444/ffffff
-support: native
-versionFrom: 9.9.7
-categories:
-  - visualstudio
-  - testing
-  - kernel

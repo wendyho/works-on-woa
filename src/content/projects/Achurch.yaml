@@ -1,9 +1,0 @@
-name: Achurch
-icon: AugueVelAccumsan.mp3
-link: http://dummyimage.com/170x100.png/cc0000/ffffff
-support: emulation
-versionFrom: 0.8.0
-categories:
-  - linux
-  - testing
-  - emulation

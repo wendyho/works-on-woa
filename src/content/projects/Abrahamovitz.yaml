@@ -1,9 +1,0 @@
-name: Abrahamovitz
-icon: CuraeDonec.tiff
-link: http://dummyimage.com/166x100.png/ff4444/ffffff
-support: emulation
-versionFrom: 2.1.7
-categories:
-  - kernel
-  - embedded
-  - visualstudio

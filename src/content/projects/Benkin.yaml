@@ -1,9 +1,0 @@
-name: Benkin
-icon: ArcuLibero.ppt
-link: http://dummyimage.com/235x100.png/ff4444/ffffff
-support: native
-versionFrom: 0.3.2
-categories:
-  - testing
-  - embedded
-  - web

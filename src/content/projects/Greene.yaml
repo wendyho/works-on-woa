@@ -1,9 +1,0 @@
-name: Greene
-icon: Dignissim.mp3
-link: http://dummyimage.com/110x100.png/5fa2dd/ffffff
-support: native
-versionFrom: 2.1.7
-categories:
-  - testing
-  - embedded
-  - dotnet

@@ -1,9 +1,0 @@
-name: Lannin
-icon: VelPedeMorbi.avi
-link: http://dummyimage.com/175x100.png/cc0000/ffffff
-support: native
-versionFrom: 7.9.8
-categories:
-  - dotnet
-  - visualstudio
-  - embedded

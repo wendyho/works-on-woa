@@ -1,9 +1,0 @@
-name: Puttrell
-icon: SapienALibero.mov
-link: http://dummyimage.com/249x100.png/dddddd/000000
-support: emulation
-versionFrom: '0.48'
-categories:
-  - web
-  - testing
-  - linux

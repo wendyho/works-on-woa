@@ -1,9 +1,0 @@
-name: Ibbott
-icon: MorbiVelLectus.avi
-link: http://dummyimage.com/222x100.png/5fa2dd/ffffff
-support: emulation
-versionFrom: '4.95'
-categories:
-  - kernel
-  - testing
-  - tools

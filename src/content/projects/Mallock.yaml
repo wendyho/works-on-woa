@@ -1,9 +1,0 @@
-name: Mallock
-icon: In.tiff
-link: http://dummyimage.com/175x100.png/dddddd/000000
-support: 'no'
-versionFrom: '7.7'
-categories:
-  - tools
-  - embedded
-  - linux

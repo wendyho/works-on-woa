@@ -1,9 +1,0 @@
-name: Gaine of England
-icon: EuOrci.xls
-link: http://dummyimage.com/196x100.png/5fa2dd/ffffff
-support: 'no'
-versionFrom: '7.4'
-categories:
-  - embedded
-  - testing
-  - kernel

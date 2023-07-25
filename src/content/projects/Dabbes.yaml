@@ -1,9 +1,0 @@
-name: Dabbes
-icon: BlanditMi.xls
-link: http://dummyimage.com/155x100.png/dddddd/000000
-support: 'no'
-versionFrom: '5.04'
-categories:
-  - dotnet
-  - oss
-  - emulation

@@ -1,9 +1,0 @@
-name: Muggleston
-icon: TellusNisiEu.pdf
-link: http://dummyimage.com/128x100.png/5fa2dd/ffffff
-support: native
-versionFrom: '0.98'
-categories:
-  - linux
-  - dotnet
-  - tools

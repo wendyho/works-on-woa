@@ -1,9 +1,0 @@
-name: Ainsworth
-icon: IntegerAcNeque.tiff
-link: http://dummyimage.com/141x100.png/dddddd/000000
-support: emulation
-versionFrom: '6.27'
-categories:
-  - linux
-  - dotnet
-  - web

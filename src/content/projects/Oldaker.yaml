@@ -1,9 +1,0 @@
-name: Oldaker
-icon: NonummyIntegerNon.jpeg
-link: http://dummyimage.com/111x100.png/cc0000/ffffff
-support: emulation
-versionFrom: 6.4.7
-categories:
-  - embedded
-  - kernel
-  - dotnet

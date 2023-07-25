@@ -1,9 +1,0 @@
-name: Bumby
-icon: NullaAc.xls
-link: http://dummyimage.com/170x100.png/cc0000/ffffff
-support: unknown
-versionFrom: '3.3'
-categories:
-  - linux
-  - dotnet
-  - oss

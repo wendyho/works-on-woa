@@ -1,9 +1,0 @@
-name: Gainsborough
-icon: PorttitorId.avi
-link: http://dummyimage.com/136x100.png/5fa2dd/ffffff
-support: 'no'
-versionFrom: '0.86'
-categories:
-  - embedded
-  - linux
-  - emulation

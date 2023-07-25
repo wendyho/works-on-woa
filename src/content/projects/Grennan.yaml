@@ -1,9 +1,0 @@
-name: Grennan
-icon: PosuereCubilia.gif
-link: http://dummyimage.com/139x100.png/dddddd/000000
-support: 'no'
-versionFrom: '4.34'
-categories:
-  - visualstudio
-  - dotnet
-  - testing

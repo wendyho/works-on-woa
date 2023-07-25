@@ -1,9 +1,0 @@
-name: Atwood
-icon: Odio.pdf
-link: http://dummyimage.com/156x100.png/cc0000/ffffff
-support: 'no'
-versionFrom: '0.58'
-categories:
-  - dotnet
-  - visualstudio
-  - web

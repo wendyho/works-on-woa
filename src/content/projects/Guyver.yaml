@@ -1,9 +1,0 @@
-name: Guyver
-icon: TurpisA.tiff
-link: http://dummyimage.com/198x100.png/dddddd/000000
-support: native
-versionFrom: '5.04'
-categories:
-  - oss
-  - linux
-  - tools

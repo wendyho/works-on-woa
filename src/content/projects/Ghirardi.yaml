@@ -1,8 +1,0 @@
-name: Ghirardi
-icon: SedAugueAliquam.tiff
-link: http://dummyimage.com/214x100.png/5fa2dd/ffffff
-support: native
-versionFrom: '8.64'
-categories:
-  - embedded
-  - kernel

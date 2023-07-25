@@ -1,9 +1,0 @@
-name: Pitney
-icon: VestibulumAnte.mp3
-link: http://dummyimage.com/243x100.png/5fa2dd/ffffff
-support: native
-versionFrom: '2.38'
-categories:
-  - dotnet
-  - tools
-  - emulation

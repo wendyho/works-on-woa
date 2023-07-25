@@ -1,9 +1,0 @@
-name: Stuckey
-icon: VelitNecNisi.tiff
-link: http://dummyimage.com/169x100.png/5fa2dd/ffffff
-support: emulation
-versionFrom: 7.6.0
-categories:
-  - tools
-  - testing
-  - embedded

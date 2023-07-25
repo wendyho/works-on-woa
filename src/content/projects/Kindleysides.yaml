@@ -1,9 +1,0 @@
-name: Kindleysides
-icon: IpsumPrimisIn.doc
-link: http://dummyimage.com/165x100.png/5fa2dd/ffffff
-support: native
-versionFrom: 4.7.8
-categories:
-  - testing
-  - dotnet
-  - visualstudio

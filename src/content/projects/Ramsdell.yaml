@@ -1,9 +1,0 @@
-name: Ramsdell
-icon: EgetOrci.xls
-link: http://dummyimage.com/233x100.png/dddddd/000000
-support: native
-versionFrom: '0.53'
-categories:
-  - testing
-  - linux
-  - embedded

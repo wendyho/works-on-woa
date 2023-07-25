@@ -1,9 +1,0 @@
-name: Mingauld
-icon: LuctusEtUltrices.mp3
-link: http://dummyimage.com/230x100.png/cc0000/ffffff
-support: native
-versionFrom: '4.40'
-categories:
-  - kernel
-  - embedded
-  - linux

@@ -1,9 +1,0 @@
-name: Anslow
-icon: Rhoncus.txt
-link: http://dummyimage.com/188x100.png/5fa2dd/ffffff
-support: emulation
-versionFrom: 0.2.8
-categories:
-  - oss
-  - linux
-  - kernel

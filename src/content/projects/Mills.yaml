@@ -1,9 +1,0 @@
-name: Mills
-icon: TurpisNec.xls
-link: http://dummyimage.com/132x100.png/ff4444/ffffff
-support: emulation
-versionFrom: '1.5'
-categories:
-  - kernel
-  - oss
-  - linux

@@ -1,8 +1,0 @@
-name: McMains
-icon: FaucibusOrci.xls
-link: http://dummyimage.com/223x100.png/dddddd/000000
-support: native
-versionFrom: '0.38'
-categories:
-  - emulation
-  - testing

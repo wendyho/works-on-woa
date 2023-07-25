@@ -1,9 +1,0 @@
-name: Carvill
-icon: EratEros.mp3
-link: http://dummyimage.com/199x100.png/5fa2dd/ffffff
-support: 'no'
-versionFrom: 0.1.4
-categories:
-  - testing
-  - embedded
-  - visualstudio

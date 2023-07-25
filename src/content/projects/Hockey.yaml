@@ -1,9 +1,0 @@
-name: Hockey
-icon: ArcuLiberoRutrum.tiff
-link: http://dummyimage.com/217x100.png/5fa2dd/ffffff
-support: 'no'
-versionFrom: 5.6.6
-categories:
-  - linux
-  - web
-  - kernel

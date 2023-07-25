@@ -1,9 +1,0 @@
-name: MacSharry
-icon: DuiLuctus.ppt
-link: http://dummyimage.com/157x100.png/cc0000/ffffff
-support: emulation
-versionFrom: '9.5'
-categories:
-  - testing
-  - kernel
-  - emulation

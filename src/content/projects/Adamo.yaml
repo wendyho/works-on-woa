@@ -1,9 +1,0 @@
-name: Adamo
-icon: Ac.jpeg
-link: http://dummyimage.com/185x100.png/5fa2dd/ffffff
-support: 'no'
-versionFrom: '4.0'
-categories:
-  - oss
-  - dotnet
-  - web

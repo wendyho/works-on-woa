@@ -1,9 +1,0 @@
-name: Batistelli
-icon: Sem.mov
-link: http://dummyimage.com/240x100.png/5fa2dd/ffffff
-support: native
-versionFrom: '7.2'
-categories:
-  - oss
-  - embedded
-  - testing

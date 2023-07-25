@@ -1,9 +1,0 @@
-name: Robjant
-icon: Amet.tiff
-link: http://dummyimage.com/194x100.png/5fa2dd/ffffff
-support: native
-versionFrom: '5.32'
-categories:
-  - linux
-  - testing
-  - visualstudio

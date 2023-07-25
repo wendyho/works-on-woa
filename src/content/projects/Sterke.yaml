@@ -1,9 +1,0 @@
-name: Sterke
-icon: SagittisSapienCum.mov
-link: http://dummyimage.com/155x100.png/dddddd/000000
-support: emulation
-versionFrom: '0.35'
-categories:
-  - embedded
-  - kernel
-  - web

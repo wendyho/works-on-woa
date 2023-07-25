@@ -1,9 +1,0 @@
-name: Monkhouse
-icon: LoremQuisqueUt.mp3
-link: http://dummyimage.com/200x100.png/dddddd/000000
-support: unknown
-versionFrom: '9.2'
-categories:
-  - dotnet
-  - embedded
-  - testing

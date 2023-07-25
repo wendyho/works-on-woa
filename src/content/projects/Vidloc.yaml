@@ -1,9 +1,0 @@
-name: Vidloc
-icon: InterdumMaurisUllamcorper.avi
-link: http://dummyimage.com/239x100.png/ff4444/ffffff
-support: emulation
-versionFrom: '0.53'
-categories:
-  - oss
-  - dotnet
-  - visualstudio

@@ -1,9 +1,0 @@
-name: Stollhofer
-icon: Proin.xls
-link: http://dummyimage.com/245x100.png/ff4444/ffffff
-support: 'no'
-versionFrom: '0.43'
-categories:
-  - visualstudio
-  - testing
-  - linux

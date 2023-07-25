@@ -1,9 +1,0 @@
-name: Blose
-icon: Quisque.gif
-link: http://dummyimage.com/226x100.png/dddddd/000000
-support: native
-versionFrom: '0.75'
-categories:
-  - kernel
-  - dotnet
-  - oss

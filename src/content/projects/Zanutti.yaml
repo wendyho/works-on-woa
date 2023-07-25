@@ -1,9 +1,0 @@
-name: Zanutti
-icon: UtErat.avi
-link: http://dummyimage.com/144x100.png/ff4444/ffffff
-support: 'no'
-versionFrom: '7.68'
-categories:
-  - dotnet
-  - kernel
-  - embedded

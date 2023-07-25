@@ -1,9 +1,0 @@
-name: Thomassin
-icon: Id.tiff
-link: http://dummyimage.com/213x100.png/ff4444/ffffff
-support: native
-versionFrom: '5.99'
-categories:
-  - embedded
-  - testing
-  - web

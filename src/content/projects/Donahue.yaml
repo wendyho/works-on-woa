@@ -1,9 +1,0 @@
-name: Donahue
-icon: ElementumEu.pdf
-link: http://dummyimage.com/128x100.png/5fa2dd/ffffff
-support: emulation
-versionFrom: '9.1'
-categories:
-  - oss
-  - web
-  - visualstudio

@@ -1,9 +1,0 @@
-name: Halloway
-icon: VelAugueVestibulum.tiff
-link: http://dummyimage.com/238x100.png/ff4444/ffffff
-support: emulation
-versionFrom: 9.6.2
-categories:
-  - tools
-  - linux
-  - embedded

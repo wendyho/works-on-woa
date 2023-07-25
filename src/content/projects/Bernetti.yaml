@@ -1,9 +1,0 @@
-name: Bernetti
-icon: Curae.xls
-link: http://dummyimage.com/164x100.png/cc0000/ffffff
-support: 'no'
-versionFrom: 3.0.9
-categories:
-  - oss
-  - testing
-  - linux

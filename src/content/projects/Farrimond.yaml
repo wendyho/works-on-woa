@@ -1,9 +1,0 @@
-name: Farrimond
-icon: PosuereCubilia.jpeg
-link: http://dummyimage.com/156x100.png/cc0000/ffffff
-support: native
-versionFrom: '1.22'
-categories:
-  - testing
-  - oss
-  - linux

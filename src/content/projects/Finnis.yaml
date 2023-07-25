@@ -1,9 +1,0 @@
-name: Finnis
-icon: EstEtTempus.mpeg
-link: http://dummyimage.com/249x100.png/ff4444/ffffff
-support: native
-versionFrom: 0.4.8
-categories:
-  - linux
-  - emulation
-  - dotnet

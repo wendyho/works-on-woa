@@ -1,9 +1,0 @@
-name: Aslett
-icon: Sapien.tiff
-link: http://dummyimage.com/221x100.png/5fa2dd/ffffff
-support: native
-versionFrom: '5.6'
-categories:
-  - dotnet
-  - kernel
-  - testing

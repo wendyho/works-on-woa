@@ -1,9 +1,0 @@
-name: Lampitt
-icon: AtNunc.ppt
-link: http://dummyimage.com/103x100.png/dddddd/000000
-support: native
-versionFrom: '3.1'
-categories:
-  - kernel
-  - tools
-  - dotnet

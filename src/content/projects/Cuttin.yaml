@@ -1,9 +1,0 @@
-name: Cuttin
-icon: Justo.jpeg
-link: http://dummyimage.com/184x100.png/cc0000/ffffff
-support: native
-versionFrom: '9.3'
-categories:
-  - tools
-  - visualstudio
-  - dotnet

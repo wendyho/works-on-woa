@@ -1,9 +1,0 @@
-name: Shera
-icon: Duis.xls
-link: http://dummyimage.com/101x100.png/cc0000/ffffff
-support: native
-versionFrom: 0.6.6
-categories:
-  - dotnet
-  - emulation
-  - kernel

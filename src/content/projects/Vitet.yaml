@@ -1,9 +1,0 @@
-name: Vitet
-icon: MorbiNon.jpeg
-link: http://dummyimage.com/239x100.png/cc0000/ffffff
-support: native
-versionFrom: '5.1'
-categories:
-  - linux
-  - testing
-  - tools

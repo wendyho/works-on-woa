@@ -1,9 +1,0 @@
-name: Hearnes
-icon: MaecenasLeoOdio.mp3
-link: http://dummyimage.com/157x100.png/5fa2dd/ffffff
-support: native
-versionFrom: '0.65'
-categories:
-  - dotnet
-  - emulation
-  - oss

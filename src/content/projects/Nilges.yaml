@@ -1,9 +1,0 @@
-name: Nilges
-icon: AmetNunc.avi
-link: http://dummyimage.com/225x100.png/5fa2dd/ffffff
-support: 'no'
-versionFrom: '1.29'
-categories:
-  - oss
-  - embedded
-  - tools

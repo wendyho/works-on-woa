@@ -1,8 +1,0 @@
-name: Canny
-icon: VenenatisNonSodales.xls
-link: http://dummyimage.com/248x100.png/ff4444/ffffff
-support: native
-versionFrom: '7.29'
-categories:
-  - web
-  - testing

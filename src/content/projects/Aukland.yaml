@@ -1,9 +1,0 @@
-name: Aukland
-icon: MaecenasRhoncus.txt
-link: http://dummyimage.com/125x100.png/ff4444/ffffff
-support: native
-versionFrom: 7.5.8
-categories:
-  - visualstudio
-  - embedded
-  - testing

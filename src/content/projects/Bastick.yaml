@@ -1,9 +1,0 @@
-name: Bastick
-icon: Vestibulum.mpeg
-link: http://dummyimage.com/170x100.png/ff4444/ffffff
-support: emulation
-versionFrom: 0.8.6
-categories:
-  - embedded
-  - tools
-  - testing

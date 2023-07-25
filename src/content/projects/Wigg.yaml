@@ -1,8 +1,0 @@
-name: Wigg
-icon: VelDapibusAt.mpeg
-link: http://dummyimage.com/171x100.png/5fa2dd/ffffff
-support: 'no'
-versionFrom: '0.91'
-categories:
-  - embedded
-  - dotnet

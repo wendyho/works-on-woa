@@ -1,9 +1,0 @@
-name: Ley
-icon: QuamTurpis.avi
-link: http://dummyimage.com/177x100.png/ff4444/ffffff
-support: emulation
-versionFrom: '2.2'
-categories:
-  - emulation
-  - embedded
-  - kernel

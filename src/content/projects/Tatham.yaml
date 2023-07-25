@@ -1,9 +1,0 @@
-name: Tatham
-icon: IntegerNon.tiff
-link: http://dummyimage.com/125x100.png/5fa2dd/ffffff
-support: native
-versionFrom: '5.01'
-categories:
-  - emulation
-  - kernel
-  - linux

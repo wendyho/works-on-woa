@@ -1,9 +1,0 @@
-name: Arthurs
-icon: SapienPlacerat.png
-link: http://dummyimage.com/101x100.png/5fa2dd/ffffff
-support: emulation
-versionFrom: '8.32'
-categories:
-  - web
-  - oss
-  - linux

@@ -1,9 +1,0 @@
-name: Proffitt
-icon: AcNeque.gif
-link: http://dummyimage.com/153x100.png/5fa2dd/ffffff
-support: native
-versionFrom: '4.3'
-categories:
-  - web
-  - kernel
-  - oss

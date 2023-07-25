@@ -1,9 +1,0 @@
-name: Bollins
-icon: AmetConsectetuer.tiff
-link: http://dummyimage.com/117x100.png/5fa2dd/ffffff
-support: 'no'
-versionFrom: 0.2.6
-categories:
-  - testing
-  - linux
-  - embedded

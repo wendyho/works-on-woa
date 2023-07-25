@@ -1,9 +1,0 @@
-name: Brazel
-icon: Mus.xls
-link: http://dummyimage.com/116x100.png/5fa2dd/ffffff
-support: unknown
-versionFrom: 0.7.6
-categories:
-  - kernel
-  - embedded
-  - web

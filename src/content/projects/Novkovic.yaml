@@ -1,9 +1,0 @@
-name: Novkovic
-icon: PellentesqueViverra.mp3
-link: http://dummyimage.com/231x100.png/cc0000/ffffff
-support: 'no'
-versionFrom: '5.91'
-categories:
-  - dotnet
-  - visualstudio
-  - testing

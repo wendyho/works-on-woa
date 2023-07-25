@@ -1,8 +1,0 @@
-name: Clacey
-icon: InterdumIn.jpeg
-link: http://dummyimage.com/202x100.png/5fa2dd/ffffff
-support: emulation
-versionFrom: 4.9.1
-categories:
-  - embedded
-  - visualstudio

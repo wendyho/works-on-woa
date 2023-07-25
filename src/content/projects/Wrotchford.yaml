@@ -1,9 +1,0 @@
-name: Wrotchford
-icon: Justo.jpeg
-link: http://dummyimage.com/115x100.png/ff4444/ffffff
-support: emulation
-versionFrom: '0.61'
-categories:
-  - emulation
-  - oss
-  - kernel

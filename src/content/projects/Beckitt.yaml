@@ -1,9 +1,0 @@
-name: Beckitt
-icon: NonVelit.avi
-link: http://dummyimage.com/195x100.png/dddddd/000000
-support: 'no'
-versionFrom: '2.63'
-categories:
-  - visualstudio
-  - web
-  - testing

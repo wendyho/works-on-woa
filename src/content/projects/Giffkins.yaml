@@ -1,9 +1,0 @@
-name: Giffkins
-icon: Parturient.ppt
-link: http://dummyimage.com/243x100.png/ff4444/ffffff
-support: native
-versionFrom: '4.78'
-categories:
-  - embedded
-  - dotnet
-  - testing

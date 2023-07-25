@@ -1,9 +1,0 @@
-name: Simson
-icon: NecEuismod.avi
-link: http://dummyimage.com/192x100.png/ff4444/ffffff
-support: emulation
-versionFrom: '0.63'
-categories:
-  - emulation
-  - oss
-  - visualstudio

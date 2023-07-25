@@ -1,9 +1,0 @@
-name: MacFayden
-icon: Rutrum.mpeg
-link: http://dummyimage.com/241x100.png/cc0000/ffffff
-support: emulation
-versionFrom: '3.1'
-categories:
-  - kernel
-  - dotnet
-  - tools

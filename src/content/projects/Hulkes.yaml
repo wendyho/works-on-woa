@@ -1,9 +1,0 @@
-name: Hulkes
-icon: In.xls
-link: http://dummyimage.com/168x100.png/5fa2dd/ffffff
-support: 'no'
-versionFrom: '2.40'
-categories:
-  - visualstudio
-  - kernel
-  - linux

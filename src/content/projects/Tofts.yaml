@@ -1,9 +1,0 @@
-name: Tofts
-icon: TortorId.mov
-link: http://dummyimage.com/221x100.png/cc0000/ffffff
-support: emulation
-versionFrom: 5.7.4
-categories:
-  - dotnet
-  - embedded
-  - visualstudio

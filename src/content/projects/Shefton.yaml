@@ -1,9 +1,0 @@
-name: Shefton
-icon: DuiNecNisi.ppt
-link: http://dummyimage.com/113x100.png/ff4444/ffffff
-support: emulation
-versionFrom: '0.89'
-categories:
-  - dotnet
-  - emulation
-  - visualstudio

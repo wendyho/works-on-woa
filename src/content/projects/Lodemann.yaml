@@ -1,9 +1,0 @@
-name: Lodemann
-icon: SapienCursusVestibulum.txt
-link: http://dummyimage.com/115x100.png/5fa2dd/ffffff
-support: native
-versionFrom: '9.5'
-categories:
-  - dotnet
-  - embedded
-  - oss

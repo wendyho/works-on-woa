@@ -1,9 +1,0 @@
-name: Egarr
-icon: EtMagnis.gif
-link: http://dummyimage.com/137x100.png/dddddd/000000
-support: native
-versionFrom: '0.16'
-categories:
-  - web
-  - dotnet
-  - linux

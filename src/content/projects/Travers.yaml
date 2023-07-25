@@ -1,9 +1,0 @@
-name: Travers
-icon: Quam.mp3
-link: http://dummyimage.com/217x100.png/5fa2dd/ffffff
-support: 'no'
-versionFrom: '9.22'
-categories:
-  - emulation
-  - testing
-  - kernel

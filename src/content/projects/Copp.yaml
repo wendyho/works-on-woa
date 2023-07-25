@@ -1,9 +1,0 @@
-name: Copp
-icon: EstLacinia.tiff
-link: http://dummyimage.com/131x100.png/5fa2dd/ffffff
-support: unknown
-versionFrom: '0.25'
-categories:
-  - kernel
-  - emulation
-  - oss

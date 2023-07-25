@@ -1,9 +1,0 @@
-name: Clerc
-icon: EratVestibulum.tiff
-link: http://dummyimage.com/146x100.png/5fa2dd/ffffff
-support: emulation
-versionFrom: 4.8.8
-categories:
-  - dotnet
-  - web
-  - linux

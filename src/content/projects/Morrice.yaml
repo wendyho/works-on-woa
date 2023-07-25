@@ -1,9 +1,0 @@
-name: Morrice
-icon: Eget.ppt
-link: http://dummyimage.com/144x100.png/dddddd/000000
-support: emulation
-versionFrom: 6.2.5
-categories:
-  - embedded
-  - dotnet
-  - kernel

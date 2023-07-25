@@ -1,9 +1,0 @@
-name: Nairne
-icon: InSagittis.mp3
-link: http://dummyimage.com/143x100.png/ff4444/ffffff
-support: native
-versionFrom: '2.5'
-categories:
-  - kernel
-  - oss
-  - dotnet

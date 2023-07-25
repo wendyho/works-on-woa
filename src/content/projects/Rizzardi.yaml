@@ -1,9 +1,0 @@
-name: Rizzardi
-icon: QuisqueErat.jpeg
-link: http://dummyimage.com/130x100.png/dddddd/000000
-support: emulation
-versionFrom: '8.3'
-categories:
-  - linux
-  - emulation
-  - dotnet

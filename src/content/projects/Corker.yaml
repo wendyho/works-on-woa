@@ -1,9 +1,0 @@
-name: Corker
-icon: TurpisDonec.tiff
-link: http://dummyimage.com/196x100.png/ff4444/ffffff
-support: unknown
-versionFrom: '0.43'
-categories:
-  - visualstudio
-  - testing
-  - dotnet

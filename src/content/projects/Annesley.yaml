@@ -1,9 +1,0 @@
-name: Annesley
-icon: QuisTurpisEget.avi
-link: http://dummyimage.com/231x100.png/dddddd/000000
-support: emulation
-versionFrom: '1.0'
-categories:
-  - testing
-  - kernel
-  - embedded

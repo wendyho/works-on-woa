@@ -1,9 +1,0 @@
-name: Munford
-icon: Tortor.gif
-link: http://dummyimage.com/157x100.png/dddddd/000000
-support: 'no'
-versionFrom: '0.86'
-categories:
-  - dotnet
-  - emulation
-  - kernel

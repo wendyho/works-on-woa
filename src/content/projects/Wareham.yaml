@@ -1,9 +1,0 @@
-name: Wareham
-icon: TellusNisi.ppt
-link: http://dummyimage.com/189x100.png/5fa2dd/ffffff
-support: 'no'
-versionFrom: '7.7'
-categories:
-  - testing
-  - visualstudio
-  - dotnet

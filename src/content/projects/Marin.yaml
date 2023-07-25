@@ -1,8 +1,0 @@
-name: Marin
-icon: VolutpatIn.avi
-link: http://dummyimage.com/208x100.png/cc0000/ffffff
-support: native
-versionFrom: '6.72'
-categories:
-  - embedded
-  - visualstudio

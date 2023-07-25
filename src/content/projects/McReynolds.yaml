@@ -1,9 +1,0 @@
-name: McReynolds
-icon: Arcu.mov
-link: http://dummyimage.com/172x100.png/5fa2dd/ffffff
-support: native
-versionFrom: 5.9.5
-categories:
-  - dotnet
-  - linux
-  - tools

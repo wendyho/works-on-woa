@@ -1,9 +1,0 @@
-name: Doherty
-icon: Quam.gif
-link: http://dummyimage.com/200x100.png/dddddd/000000
-support: 'no'
-versionFrom: 0.3.6
-categories:
-  - kernel
-  - testing
-  - web

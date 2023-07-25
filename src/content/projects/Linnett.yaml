@@ -1,9 +1,0 @@
-name: Linnett
-icon: SapienNon.png
-link: http://dummyimage.com/139x100.png/dddddd/000000
-support: emulation
-versionFrom: '8.6'
-categories:
-  - web
-  - emulation
-  - dotnet

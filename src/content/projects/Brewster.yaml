@@ -1,9 +1,0 @@
-name: Brewster
-icon: AcConsequat.mp3
-link: http://dummyimage.com/162x100.png/5fa2dd/ffffff
-support: 'no'
-versionFrom: '9.00'
-categories:
-  - emulation
-  - linux
-  - embedded

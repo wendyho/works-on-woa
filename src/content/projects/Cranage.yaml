@@ -1,9 +1,0 @@
-name: Cranage
-icon: EuMagna.avi
-link: http://dummyimage.com/174x100.png/ff4444/ffffff
-support: 'no'
-versionFrom: '2.8'
-categories:
-  - oss
-  - dotnet
-  - embedded

@@ -1,9 +1,0 @@
-name: Dockwray
-icon: NislNuncRhoncus.jpeg
-link: http://dummyimage.com/247x100.png/5fa2dd/ffffff
-support: unknown
-versionFrom: '7.54'
-categories:
-  - oss
-  - linux
-  - embedded

@@ -1,8 +1,0 @@
-name: Sherrocks
-icon: ConvallisNulla.tiff
-link: http://dummyimage.com/178x100.png/5fa2dd/ffffff
-support: native
-versionFrom: '5.03'
-categories:
-  - testing
-  - kernel

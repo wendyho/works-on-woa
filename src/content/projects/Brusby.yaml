@@ -1,9 +1,0 @@
-name: Brusby
-icon: OrciEget.mov
-link: http://dummyimage.com/203x100.png/5fa2dd/ffffff
-support: native
-versionFrom: '1.5'
-categories:
-  - testing
-  - dotnet
-  - visualstudio

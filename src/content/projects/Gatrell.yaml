@@ -1,9 +1,0 @@
-name: Gatrell
-icon: QuisqueId.xls
-link: http://dummyimage.com/236x100.png/dddddd/000000
-support: 'no'
-versionFrom: 0.8.9
-categories:
-  - linux
-  - testing
-  - web

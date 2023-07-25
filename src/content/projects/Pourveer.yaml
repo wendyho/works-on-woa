@@ -1,9 +1,0 @@
-name: Pourveer
-icon: LoremVitae.mpeg
-link: http://dummyimage.com/241x100.png/5fa2dd/ffffff
-support: native
-versionFrom: '2.20'
-categories:
-  - kernel
-  - oss
-  - emulation

@@ -1,9 +1,0 @@
-name: Wheatcroft
-icon: EgetMassaTempor.jpeg
-link: http://dummyimage.com/108x100.png/5fa2dd/ffffff
-support: 'no'
-versionFrom: '7.39'
-categories:
-  - kernel
-  - emulation
-  - testing

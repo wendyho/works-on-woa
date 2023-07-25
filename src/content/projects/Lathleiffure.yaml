@@ -1,9 +1,0 @@
-name: Lathleiffure
-icon: QuamSollicitudinVitae.mpeg
-link: http://dummyimage.com/218x100.png/ff4444/ffffff
-support: native
-versionFrom: '6.37'
-categories:
-  - emulation
-  - kernel
-  - tools

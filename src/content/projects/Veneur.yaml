@@ -1,8 +1,0 @@
-name: Veneur
-icon: Non.mp3
-link: http://dummyimage.com/208x100.png/dddddd/000000
-support: emulation
-versionFrom: '0.80'
-categories:
-  - embedded
-  - testing

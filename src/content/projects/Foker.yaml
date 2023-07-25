@@ -1,9 +1,0 @@
-name: Foker
-icon: Eget.xls
-link: http://dummyimage.com/156x100.png/5fa2dd/ffffff
-support: native
-versionFrom: '9.06'
-categories:
-  - oss
-  - emulation
-  - kernel

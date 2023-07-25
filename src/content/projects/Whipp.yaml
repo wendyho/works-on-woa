@@ -1,8 +1,0 @@
-name: Whipp
-icon: FaucibusOrciLuctus.tiff
-link: http://dummyimage.com/153x100.png/ff4444/ffffff
-support: native
-versionFrom: '5.80'
-categories:
-  - kernel
-  - linux

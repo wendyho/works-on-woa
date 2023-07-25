@@ -1,9 +1,0 @@
-name: MacCroary
-icon: UtBlandit.png
-link: http://dummyimage.com/208x100.png/cc0000/ffffff
-support: native
-versionFrom: 0.9.7
-categories:
-  - dotnet
-  - oss
-  - kernel

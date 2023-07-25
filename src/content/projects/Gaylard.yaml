@@ -1,9 +1,0 @@
-name: Gaylard
-icon: Vestibulum.doc
-link: http://dummyimage.com/231x100.png/cc0000/ffffff
-support: emulation
-versionFrom: '0.48'
-categories:
-  - embedded
-  - kernel
-  - dotnet

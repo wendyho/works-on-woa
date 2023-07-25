@@ -1,8 +1,0 @@
-name: Verrick
-icon: Pede.tiff
-link: http://dummyimage.com/116x100.png/ff4444/ffffff
-support: native
-versionFrom: '3.1'
-categories:
-  - embedded
-  - tools

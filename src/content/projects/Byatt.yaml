@@ -1,9 +1,0 @@
-name: Byatt
-icon: CurabiturAtIpsum.ppt
-link: http://dummyimage.com/118x100.png/5fa2dd/ffffff
-support: 'no'
-versionFrom: '0.35'
-categories:
-  - testing
-  - tools
-  - kernel

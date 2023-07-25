@@ -1,9 +1,0 @@
-name: Robertsen
-icon: MagnaAtNunc.ppt
-link: http://dummyimage.com/200x100.png/dddddd/000000
-support: 'no'
-versionFrom: '3.92'
-categories:
-  - testing
-  - visualstudio
-  - kernel

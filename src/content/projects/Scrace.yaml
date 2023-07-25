@@ -1,9 +1,0 @@
-name: Scrace
-icon: BlanditLaciniaErat.xls
-link: http://dummyimage.com/186x100.png/ff4444/ffffff
-support: native
-versionFrom: '7.44'
-categories:
-  - dotnet
-  - visualstudio
-  - emulation

@@ -1,9 +1,0 @@
-name: Chansonnau
-icon: MolestieSedJusto.tiff
-link: http://dummyimage.com/147x100.png/5fa2dd/ffffff
-support: 'no'
-versionFrom: '5.80'
-categories:
-  - emulation
-  - embedded
-  - kernel

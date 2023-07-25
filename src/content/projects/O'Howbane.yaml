@@ -1,9 +1,0 @@
-name: O'Howbane
-icon: Tortor.avi
-link: http://dummyimage.com/236x100.png/ff4444/ffffff
-support: emulation
-versionFrom: '0.67'
-categories:
-  - linux
-  - kernel
-  - testing

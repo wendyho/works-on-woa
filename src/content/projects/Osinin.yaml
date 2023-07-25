@@ -1,9 +1,0 @@
-name: Osinin
-icon: OrciPedeVenenatis.txt
-link: http://dummyimage.com/179x100.png/ff4444/ffffff
-support: emulation
-versionFrom: '8.0'
-categories:
-  - dotnet
-  - testing
-  - visualstudio

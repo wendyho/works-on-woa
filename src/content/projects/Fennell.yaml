@@ -1,9 +1,0 @@
-name: Fennell
-icon: AccumsanTortorQuis.xls
-link: http://dummyimage.com/130x100.png/dddddd/000000
-support: emulation
-versionFrom: '0.38'
-categories:
-  - visualstudio
-  - oss
-  - emulation

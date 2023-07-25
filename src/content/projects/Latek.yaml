@@ -1,9 +1,0 @@
-name: Latek
-icon: JustoIn.xls
-link: http://dummyimage.com/173x100.png/dddddd/000000
-support: emulation
-versionFrom: '1.7'
-categories:
-  - emulation
-  - linux
-  - kernel

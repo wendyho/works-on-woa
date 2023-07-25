@@ -1,9 +1,0 @@
-name: Redwin
-icon: Vitae.mp3
-link: http://dummyimage.com/142x100.png/dddddd/000000
-support: 'no'
-versionFrom: 0.9.6
-categories:
-  - dotnet
-  - embedded
-  - oss

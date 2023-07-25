@@ -1,9 +1,0 @@
-name: Durnall
-icon: UllamcorperPurusSit.ppt
-link: http://dummyimage.com/218x100.png/dddddd/000000
-support: native
-versionFrom: '9.45'
-categories:
-  - visualstudio
-  - dotnet
-  - oss

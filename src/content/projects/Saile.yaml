@@ -1,9 +1,0 @@
-name: Saile
-icon: Nullam.png
-link: http://dummyimage.com/123x100.png/5fa2dd/ffffff
-support: native
-versionFrom: '0.86'
-categories:
-  - testing
-  - embedded
-  - oss

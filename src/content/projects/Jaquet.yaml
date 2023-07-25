@@ -1,9 +1,0 @@
-name: Jaquet
-icon: DonecPharetra.gif
-link: http://dummyimage.com/148x100.png/ff4444/ffffff
-support: emulation
-versionFrom: '1.41'
-categories:
-  - emulation
-  - dotnet
-  - linux

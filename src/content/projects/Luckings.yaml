@@ -1,9 +1,0 @@
-name: Luckings
-icon: AliquetMaecenas.tiff
-link: http://dummyimage.com/155x100.png/ff4444/ffffff
-support: native
-versionFrom: '1.6'
-categories:
-  - emulation
-  - linux
-  - dotnet

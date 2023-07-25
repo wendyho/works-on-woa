@@ -1,9 +1,0 @@
-name: Syvret
-icon: Eget.jpeg
-link: http://dummyimage.com/164x100.png/dddddd/000000
-support: 'no'
-versionFrom: '0.66'
-categories:
-  - dotnet
-  - linux
-  - testing

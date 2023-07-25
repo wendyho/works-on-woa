@@ -1,9 +1,0 @@
-name: Spacy
-icon: Dolor.mov
-link: http://dummyimage.com/198x100.png/dddddd/000000
-support: emulation
-versionFrom: '0.35'
-categories:
-  - linux
-  - emulation
-  - dotnet

@@ -1,9 +1,0 @@
-name: Vardy
-icon: DictumstMorbi.xls
-link: http://dummyimage.com/161x100.png/dddddd/000000
-support: 'no'
-versionFrom: 0.3.9
-categories:
-  - visualstudio
-  - linux
-  - testing

@@ -1,9 +1,0 @@
-name: Jelk
-icon: Justo.txt
-link: http://dummyimage.com/222x100.png/cc0000/ffffff
-support: emulation
-versionFrom: '7.83'
-categories:
-  - web
-  - tools
-  - dotnet

@@ -1,9 +1,0 @@
-name: Dix
-icon: EnimLeoRhoncus.gif
-link: http://dummyimage.com/144x100.png/5fa2dd/ffffff
-support: emulation
-versionFrom: '7.0'
-categories:
-  - embedded
-  - visualstudio
-  - oss

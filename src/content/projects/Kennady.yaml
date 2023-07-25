@@ -1,9 +1,0 @@
-name: Kennady
-icon: NullaUtErat.jpeg
-link: http://dummyimage.com/127x100.png/cc0000/ffffff
-support: emulation
-versionFrom: 3.8.4
-categories:
-  - kernel
-  - oss
-  - embedded

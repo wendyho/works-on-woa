@@ -1,9 +1,0 @@
-name: Wicks
-icon: ParturientMontes.pdf
-link: http://dummyimage.com/131x100.png/5fa2dd/ffffff
-support: native
-versionFrom: '1.34'
-categories:
-  - emulation
-  - dotnet
-  - linux

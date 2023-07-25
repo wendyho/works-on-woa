@@ -1,9 +1,0 @@
-name: Harrie
-icon: Urna.pdf
-link: http://dummyimage.com/104x100.png/dddddd/000000
-support: emulation
-versionFrom: '8.80'
-categories:
-  - emulation
-  - embedded
-  - oss

@@ -1,9 +1,0 @@
-name: Cakebread
-icon: Integer.jpeg
-link: http://dummyimage.com/204x100.png/ff4444/ffffff
-support: emulation
-versionFrom: '0.39'
-categories:
-  - linux
-  - oss
-  - tools

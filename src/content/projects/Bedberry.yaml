@@ -1,9 +1,0 @@
-name: Bedberry
-icon: EratQuisqueErat.tiff
-link: http://dummyimage.com/243x100.png/5fa2dd/ffffff
-support: native
-versionFrom: '9.1'
-categories:
-  - web
-  - kernel
-  - linux

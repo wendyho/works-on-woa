@@ -1,9 +1,0 @@
-name: Newlan
-icon: AdipiscingElit.pdf
-link: http://dummyimage.com/232x100.png/5fa2dd/ffffff
-support: native
-versionFrom: '2.23'
-categories:
-  - visualstudio
-  - web
-  - dotnet

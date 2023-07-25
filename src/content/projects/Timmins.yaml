@@ -1,9 +1,0 @@
-name: Timmins
-icon: EstLacinia.txt
-link: http://dummyimage.com/211x100.png/5fa2dd/ffffff
-support: 'no'
-versionFrom: '0.61'
-categories:
-  - emulation
-  - web
-  - oss

@@ -1,9 +1,0 @@
-name: Apps
-icon: MagnisDis.avi
-link: http://dummyimage.com/134x100.png/ff4444/ffffff
-support: unknown
-versionFrom: '2.3'
-categories:
-  - emulation
-  - dotnet
-  - visualstudio

@@ -1,9 +1,0 @@
-name: Ovitz
-icon: AcNequeDuis.ppt
-link: http://dummyimage.com/197x100.png/dddddd/000000
-support: 'no'
-versionFrom: '8.38'
-categories:
-  - visualstudio
-  - kernel
-  - tools

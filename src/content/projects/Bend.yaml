@@ -1,9 +1,0 @@
-name: Bend
-icon: NullaAcEnim.ppt
-link: http://dummyimage.com/243x100.png/cc0000/ffffff
-support: 'no'
-versionFrom: 0.2.4
-categories:
-  - visualstudio
-  - testing
-  - embedded

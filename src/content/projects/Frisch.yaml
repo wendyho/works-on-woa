@@ -1,9 +1,0 @@
-name: Frisch
-icon: Dolor.pdf
-link: http://dummyimage.com/181x100.png/cc0000/ffffff
-support: emulation
-versionFrom: '8.32'
-categories:
-  - visualstudio
-  - linux
-  - kernel

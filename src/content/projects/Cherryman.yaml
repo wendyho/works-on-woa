@@ -1,9 +1,0 @@
-name: Cherryman
-icon: LaciniaSapienQuis.mp3
-link: http://dummyimage.com/177x100.png/5fa2dd/ffffff
-support: 'no'
-versionFrom: 0.3.1
-categories:
-  - visualstudio
-  - dotnet
-  - linux

@@ -1,9 +1,0 @@
-name: Hartnell
-icon: Lobortis.xls
-link: http://dummyimage.com/248x100.png/ff4444/ffffff
-support: native
-versionFrom: '0.77'
-categories:
-  - emulation
-  - linux
-  - kernel

@@ -1,8 +1,0 @@
-name: Tilbury
-icon: Vehicula.mpeg
-link: http://dummyimage.com/209x100.png/dddddd/000000
-support: emulation
-versionFrom: '2.20'
-categories:
-  - testing
-  - embedded

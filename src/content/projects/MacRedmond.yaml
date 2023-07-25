@@ -1,9 +1,0 @@
-name: MacRedmond
-icon: ScelerisqueQuamTurpis.ppt
-link: http://dummyimage.com/165x100.png/dddddd/000000
-support: emulation
-versionFrom: '0.78'
-categories:
-  - visualstudio
-  - dotnet
-  - linux

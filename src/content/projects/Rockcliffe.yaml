@@ -1,9 +1,0 @@
-name: Rockcliffe
-icon: CurabiturConvallis.xls
-link: http://dummyimage.com/180x100.png/5fa2dd/ffffff
-support: native
-versionFrom: 0.6.2
-categories:
-  - visualstudio
-  - oss
-  - linux

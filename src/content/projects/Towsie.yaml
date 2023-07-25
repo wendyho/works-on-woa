@@ -1,9 +1,0 @@
-name: Towsie
-icon: Sociis.ppt
-link: http://dummyimage.com/106x100.png/5fa2dd/ffffff
-support: 'no'
-versionFrom: '7.42'
-categories:
-  - oss
-  - embedded
-  - linux

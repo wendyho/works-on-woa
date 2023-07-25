@@ -1,8 +1,0 @@
-name: Cicconettii
-icon: VolutpatSapienArcu.jpeg
-link: http://dummyimage.com/249x100.png/cc0000/ffffff
-support: emulation
-versionFrom: '4.58'
-categories:
-  - embedded
-  - dotnet

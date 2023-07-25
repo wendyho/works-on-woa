@@ -1,9 +1,0 @@
-name: Mockes
-icon: InterdumInAnte.avi
-link: http://dummyimage.com/222x100.png/dddddd/000000
-support: 'no'
-versionFrom: '5.31'
-categories:
-  - linux
-  - embedded
-  - emulation

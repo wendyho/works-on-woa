@@ -1,9 +1,0 @@
-name: Biggar
-icon: IpsumDolorSit.xls
-link: http://dummyimage.com/115x100.png/dddddd/000000
-support: unknown
-versionFrom: '7.5'
-categories:
-  - dotnet
-  - linux
-  - kernel

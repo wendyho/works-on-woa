@@ -1,9 +1,0 @@
-name: Pershouse
-icon: FermentumDonec.png
-link: http://dummyimage.com/206x100.png/5fa2dd/ffffff
-support: emulation
-versionFrom: 2.3.6
-categories:
-  - visualstudio
-  - tools
-  - embedded

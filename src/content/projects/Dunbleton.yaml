@@ -1,8 +1,0 @@
-name: Dunbleton
-icon: TurpisNec.mpeg
-link: http://dummyimage.com/149x100.png/ff4444/ffffff
-support: 'no'
-versionFrom: '9.03'
-categories:
-  - testing
-  - kernel

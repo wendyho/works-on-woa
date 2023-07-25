@@ -1,9 +1,0 @@
-name: Dimmock
-icon: NecSemDuis.ppt
-link: http://dummyimage.com/216x100.png/ff4444/ffffff
-support: unknown
-versionFrom: '0.78'
-categories:
-  - testing
-  - emulation
-  - linux

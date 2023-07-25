@@ -1,8 +1,0 @@
-name: Manktelow
-icon: Cursus.jpeg
-link: http://dummyimage.com/115x100.png/ff4444/ffffff
-support: emulation
-versionFrom: '9.48'
-categories:
-  - embedded
-  - linux

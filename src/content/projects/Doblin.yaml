@@ -1,8 +1,0 @@
-name: Doblin
-icon: IpsumPrimis.ppt
-link: http://dummyimage.com/157x100.png/cc0000/ffffff
-support: native
-versionFrom: 5.6.2
-categories:
-  - embedded
-  - dotnet

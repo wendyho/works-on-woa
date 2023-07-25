@@ -1,9 +1,0 @@
-name: Hemphill
-icon: EleifendQuam.avi
-link: http://dummyimage.com/165x100.png/5fa2dd/ffffff
-support: 'no'
-versionFrom: '7.12'
-categories:
-  - embedded
-  - visualstudio
-  - linux

@@ -1,9 +1,0 @@
-name: Haskett
-icon: Eu.jpeg
-link: http://dummyimage.com/141x100.png/cc0000/ffffff
-support: 'no'
-versionFrom: '1.42'
-categories:
-  - testing
-  - kernel
-  - tools

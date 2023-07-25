@@ -1,9 +1,0 @@
-name: Duggen
-icon: PraesentBlandit.avi
-link: http://dummyimage.com/200x100.png/dddddd/000000
-support: native
-versionFrom: 9.0.3
-categories:
-  - linux
-  - dotnet
-  - embedded

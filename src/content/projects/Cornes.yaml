@@ -1,9 +1,0 @@
-name: Cornes
-icon: EratEros.ppt
-link: http://dummyimage.com/194x100.png/ff4444/ffffff
-support: 'no'
-versionFrom: 5.8.8
-categories:
-  - kernel
-  - embedded
-  - testing

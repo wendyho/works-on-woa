@@ -1,9 +1,0 @@
-name: Puddicombe
-icon: NibhQuisqueId.pdf
-link: http://dummyimage.com/226x100.png/cc0000/ffffff
-support: 'no'
-versionFrom: '0.86'
-categories:
-  - emulation
-  - tools
-  - kernel

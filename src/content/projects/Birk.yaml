@@ -1,9 +1,0 @@
-name: Birk
-icon: At.avi
-link: http://dummyimage.com/220x100.png/5fa2dd/ffffff
-support: native
-versionFrom: '9.32'
-categories:
-  - dotnet
-  - oss
-  - tools

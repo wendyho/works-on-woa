@@ -1,8 +1,0 @@
-name: Medcalfe
-icon: OdioCurabiturConvallis.tiff
-link: http://dummyimage.com/112x100.png/5fa2dd/ffffff
-support: native
-versionFrom: '0.11'
-categories:
-  - dotnet
-  - web

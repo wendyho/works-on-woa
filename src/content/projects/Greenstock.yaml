@@ -1,9 +1,0 @@
-name: Greenstock
-icon: MetusArcu.avi
-link: http://dummyimage.com/139x100.png/5fa2dd/ffffff
-support: emulation
-versionFrom: '0.37'
-categories:
-  - dotnet
-  - tools
-  - web

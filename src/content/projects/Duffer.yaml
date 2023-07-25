@@ -1,9 +1,0 @@
-name: Duffer
-icon: SuspendissePotentiIn.avi
-link: http://dummyimage.com/133x100.png/dddddd/000000
-support: unknown
-versionFrom: '0.52'
-categories:
-  - visualstudio
-  - dotnet
-  - web

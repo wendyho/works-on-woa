@@ -1,9 +1,0 @@
-name: Salmon
-icon: Amet.xls
-link: http://dummyimage.com/146x100.png/5fa2dd/ffffff
-support: native
-versionFrom: '9.8'
-categories:
-  - embedded
-  - oss
-  - linux

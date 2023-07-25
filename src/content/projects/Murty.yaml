@@ -1,9 +1,0 @@
-name: Murty
-icon: Lorem.jpeg
-link: http://dummyimage.com/231x100.png/dddddd/000000
-support: native
-versionFrom: '1.91'
-categories:
-  - visualstudio
-  - tools
-  - dotnet

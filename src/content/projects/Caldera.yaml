@@ -1,9 +1,0 @@
-name: Caldera
-icon: ConvallisEgetEleifend.jpeg
-link: http://dummyimage.com/165x100.png/ff4444/ffffff
-support: unknown
-versionFrom: '5.0'
-categories:
-  - emulation
-  - embedded
-  - kernel

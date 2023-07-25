@@ -1,9 +1,0 @@
-name: Bracknell
-icon: Mauris.tiff
-link: http://dummyimage.com/157x100.png/cc0000/ffffff
-support: native
-versionFrom: '5.3'
-categories:
-  - tools
-  - kernel
-  - dotnet

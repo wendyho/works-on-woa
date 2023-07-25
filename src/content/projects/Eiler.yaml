@@ -1,8 +1,0 @@
-name: Eiler
-icon: NullaElitAc.png
-link: http://dummyimage.com/159x100.png/cc0000/ffffff
-support: 'no'
-versionFrom: '5.70'
-categories:
-  - oss
-  - dotnet

@@ -1,9 +1,0 @@
-name: Osgar
-icon: Justo.jpeg
-link: http://dummyimage.com/222x100.png/5fa2dd/ffffff
-support: native
-versionFrom: '9.79'
-categories:
-  - testing
-  - oss
-  - web

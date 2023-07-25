@@ -1,9 +1,0 @@
-name: Cantrell
-icon: Nulla.jpeg
-link: http://dummyimage.com/188x100.png/5fa2dd/ffffff
-support: emulation
-versionFrom: 8.6.1
-categories:
-  - visualstudio
-  - tools
-  - dotnet

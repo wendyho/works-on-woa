@@ -1,9 +1,0 @@
-name: Snowman
-icon: AnteVel.pdf
-link: http://dummyimage.com/245x100.png/5fa2dd/ffffff
-support: emulation
-versionFrom: '0.35'
-categories:
-  - embedded
-  - testing
-  - kernel

@@ -1,9 +1,0 @@
-name: Denington
-icon: Sem.png
-link: http://dummyimage.com/146x100.png/5fa2dd/ffffff
-support: 'no'
-versionFrom: '0.13'
-categories:
-  - dotnet
-  - web
-  - emulation

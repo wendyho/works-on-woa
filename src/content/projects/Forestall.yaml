@@ -1,9 +1,0 @@
-name: Forestall
-icon: CubiliaCuraeNulla.tiff
-link: http://dummyimage.com/246x100.png/5fa2dd/ffffff
-support: emulation
-versionFrom: '3.82'
-categories:
-  - tools
-  - linux
-  - embedded

@@ -1,9 +1,0 @@
-name: Skermer
-icon: EnimLeoRhoncus.jpeg
-link: http://dummyimage.com/240x100.png/ff4444/ffffff
-support: emulation
-versionFrom: 0.5.5
-categories:
-  - tools
-  - dotnet
-  - emulation

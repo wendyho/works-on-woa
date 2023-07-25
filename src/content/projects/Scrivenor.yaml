@@ -1,9 +1,0 @@
-name: Scrivenor
-icon: Justo.avi
-link: http://dummyimage.com/192x100.png/cc0000/ffffff
-support: 'no'
-versionFrom: '1.32'
-categories:
-  - visualstudio
-  - embedded
-  - kernel

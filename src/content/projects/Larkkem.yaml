@@ -1,9 +1,0 @@
-name: Larkkem
-icon: LigulaSitAmet.mp3
-link: http://dummyimage.com/234x100.png/cc0000/ffffff
-support: native
-versionFrom: '8.97'
-categories:
-  - testing
-  - dotnet
-  - oss

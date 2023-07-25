@@ -1,9 +1,0 @@
-name: Lamey
-icon: EnimLeoRhoncus.tiff
-link: http://dummyimage.com/250x100.png/cc0000/ffffff
-support: 'no'
-versionFrom: '3.6'
-categories:
-  - embedded
-  - dotnet
-  - linux

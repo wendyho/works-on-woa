@@ -1,9 +1,0 @@
-name: O'Drought
-icon: Potenti.tiff
-link: http://dummyimage.com/226x100.png/ff4444/ffffff
-support: native
-versionFrom: '1.7'
-categories:
-  - testing
-  - oss
-  - dotnet

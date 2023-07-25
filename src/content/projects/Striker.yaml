@@ -1,9 +1,0 @@
-name: Striker
-icon: AtDolorQuis.jpeg
-link: http://dummyimage.com/157x100.png/ff4444/ffffff
-support: emulation
-versionFrom: '4.8'
-categories:
-  - web
-  - embedded
-  - kernel

@@ -1,9 +1,0 @@
-name: Brockhurst
-icon: Scelerisque.avi
-link: http://dummyimage.com/149x100.png/ff4444/ffffff
-support: unknown
-versionFrom: '7.2'
-categories:
-  - visualstudio
-  - oss
-  - dotnet

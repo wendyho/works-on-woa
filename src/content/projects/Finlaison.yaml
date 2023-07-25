@@ -1,9 +1,0 @@
-name: Finlaison
-icon: Gravida.mp3
-link: http://dummyimage.com/113x100.png/ff4444/ffffff
-support: 'no'
-versionFrom: '0.56'
-categories:
-  - visualstudio
-  - testing
-  - embedded

@@ -1,9 +1,0 @@
-name: Marrian
-icon: LiberoConvallis.xls
-link: http://dummyimage.com/234x100.png/dddddd/000000
-support: native
-versionFrom: 4.2.4
-categories:
-  - linux
-  - dotnet
-  - testing

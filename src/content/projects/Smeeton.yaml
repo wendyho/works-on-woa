@@ -1,9 +1,0 @@
-name: Smeeton
-icon: ElementumPellentesqueQuisque.mp3
-link: http://dummyimage.com/161x100.png/dddddd/000000
-support: native
-versionFrom: '5.06'
-categories:
-  - embedded
-  - linux
-  - kernel

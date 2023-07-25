@@ -1,9 +1,0 @@
-name: Bernet
-icon: NullamOrciPede.ppt
-link: http://dummyimage.com/130x100.png/ff4444/ffffff
-support: emulation
-versionFrom: 8.3.3
-categories:
-  - kernel
-  - testing
-  - dotnet

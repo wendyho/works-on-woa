@@ -1,9 +1,0 @@
-name: Bere
-icon: RutrumAtLorem.avi
-link: http://dummyimage.com/174x100.png/5fa2dd/ffffff
-support: 'no'
-versionFrom: '9.34'
-categories:
-  - dotnet
-  - embedded
-  - oss

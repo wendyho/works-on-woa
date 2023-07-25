@@ -1,9 +1,0 @@
-name: Fateley
-icon: VelitDonecDiam.xls
-link: http://dummyimage.com/240x100.png/dddddd/000000
-support: native
-versionFrom: '7.83'
-categories:
-  - embedded
-  - oss
-  - tools

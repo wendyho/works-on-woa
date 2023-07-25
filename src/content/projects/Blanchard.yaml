@@ -1,9 +1,0 @@
-name: Blanchard
-icon: QuisLibero.ppt
-link: http://dummyimage.com/250x100.png/ff4444/ffffff
-support: 'no'
-versionFrom: '0.42'
-categories:
-  - dotnet
-  - visualstudio
-  - web

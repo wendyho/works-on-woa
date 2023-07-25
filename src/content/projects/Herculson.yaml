@@ -1,9 +1,0 @@
-name: Herculson
-icon: Mauris.txt
-link: http://dummyimage.com/118x100.png/dddddd/000000
-support: native
-versionFrom: '0.48'
-categories:
-  - kernel
-  - embedded
-  - oss

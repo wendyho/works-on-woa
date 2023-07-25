@@ -1,9 +1,0 @@
-name: Gulleford
-icon: Auctor.png
-link: http://dummyimage.com/144x100.png/dddddd/000000
-support: emulation
-versionFrom: '1.17'
-categories:
-  - dotnet
-  - web
-  - tools

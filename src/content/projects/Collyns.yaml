@@ -1,9 +1,0 @@
-name: Collyns
-icon: Suspendisse.xls
-link: http://dummyimage.com/119x100.png/cc0000/ffffff
-support: native
-versionFrom: '8.4'
-categories:
-  - oss
-  - embedded
-  - tools

@@ -1,9 +1,0 @@
-name: Horrod
-icon: FusceCongue.ppt
-link: http://dummyimage.com/144x100.png/cc0000/ffffff
-support: 'no'
-versionFrom: 0.5.9
-categories:
-  - kernel
-  - tools
-  - testing

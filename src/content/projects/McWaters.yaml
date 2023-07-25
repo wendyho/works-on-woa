@@ -1,9 +1,0 @@
-name: McWaters
-icon: NullaUltricesAliquet.pdf
-link: http://dummyimage.com/111x100.png/dddddd/000000
-support: emulation
-versionFrom: '4.89'
-categories:
-  - dotnet
-  - kernel
-  - tools

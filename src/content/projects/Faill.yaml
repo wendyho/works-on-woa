@@ -1,9 +1,0 @@
-name: Faill
-icon: UtRhoncusAliquet.xls
-link: http://dummyimage.com/128x100.png/cc0000/ffffff
-support: native
-versionFrom: '3.0'
-categories:
-  - dotnet
-  - emulation
-  - visualstudio

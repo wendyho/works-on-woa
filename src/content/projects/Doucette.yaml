@@ -1,9 +1,0 @@
-name: Doucette
-icon: InPurus.mp3
-link: http://dummyimage.com/246x100.png/dddddd/000000
-support: emulation
-versionFrom: '1.5'
-categories:
-  - embedded
-  - oss
-  - kernel

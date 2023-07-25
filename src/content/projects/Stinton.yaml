@@ -1,9 +1,0 @@
-name: Stinton
-icon: NequeLiberoConvallis.ppt
-link: http://dummyimage.com/133x100.png/ff4444/ffffff
-support: 'no'
-versionFrom: 8.1.3
-categories:
-  - visualstudio
-  - oss
-  - embedded

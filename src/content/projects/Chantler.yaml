@@ -1,9 +1,0 @@
-name: Chantler
-icon: TurpisEnimBlandit.jpeg
-link: http://dummyimage.com/200x100.png/cc0000/ffffff
-support: native
-versionFrom: '5.77'
-categories:
-  - testing
-  - kernel
-  - web

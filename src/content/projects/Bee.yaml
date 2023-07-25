@@ -1,9 +1,0 @@
-name: Bee
-icon: Lobortis.ppt
-link: http://dummyimage.com/130x100.png/dddddd/000000
-support: 'no'
-versionFrom: '9.39'
-categories:
-  - embedded
-  - kernel
-  - testing

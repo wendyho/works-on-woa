@@ -1,9 +1,0 @@
-name: Sackur
-icon: Erat.xls
-link: http://dummyimage.com/218x100.png/5fa2dd/ffffff
-support: emulation
-versionFrom: '9.8'
-categories:
-  - emulation
-  - web
-  - visualstudio

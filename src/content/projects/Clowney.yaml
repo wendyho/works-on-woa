@@ -1,9 +1,0 @@
-name: Clowney
-icon: AliquetMassa.xls
-link: http://dummyimage.com/148x100.png/5fa2dd/ffffff
-support: 'no'
-versionFrom: 0.8.8
-categories:
-  - emulation
-  - dotnet
-  - web

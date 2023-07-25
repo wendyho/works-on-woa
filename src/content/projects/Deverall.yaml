@@ -1,9 +1,0 @@
-name: Deverall
-icon: QuisqueErat.mov
-link: http://dummyimage.com/177x100.png/cc0000/ffffff
-support: native
-versionFrom: 7.2.5
-categories:
-  - testing
-  - visualstudio
-  - emulation

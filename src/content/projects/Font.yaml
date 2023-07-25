@@ -1,9 +1,0 @@
-name: Font
-icon: Nulla.ppt
-link: http://dummyimage.com/208x100.png/5fa2dd/ffffff
-support: native
-versionFrom: '0.60'
-categories:
-  - dotnet
-  - web
-  - tools

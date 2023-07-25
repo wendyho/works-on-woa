@@ -1,9 +1,0 @@
-name: McDermot
-icon: Cras.ppt
-link: http://dummyimage.com/119x100.png/cc0000/ffffff
-support: emulation
-versionFrom: '0.80'
-categories:
-  - dotnet
-  - kernel
-  - web

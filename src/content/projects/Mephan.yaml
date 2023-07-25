@@ -1,9 +1,0 @@
-name: Mephan
-icon: VelitNecNisi.mp3
-link: http://dummyimage.com/220x100.png/5fa2dd/ffffff
-support: 'no'
-versionFrom: '7.2'
-categories:
-  - visualstudio
-  - oss
-  - testing

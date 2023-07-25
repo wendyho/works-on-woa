@@ -1,9 +1,0 @@
-name: Ferronier
-icon: Eu.xls
-link: http://dummyimage.com/125x100.png/5fa2dd/ffffff
-support: 'no'
-versionFrom: '6.1'
-categories:
-  - testing
-  - kernel
-  - tools

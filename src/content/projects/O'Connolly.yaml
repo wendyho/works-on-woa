@@ -1,9 +1,0 @@
-name: O'Connolly
-icon: OrciMaurisLacinia.jpeg
-link: http://dummyimage.com/162x100.png/ff4444/ffffff
-support: native
-versionFrom: '1.25'
-categories:
-  - embedded
-  - dotnet
-  - tools

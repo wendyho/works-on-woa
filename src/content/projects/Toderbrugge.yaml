@@ -1,9 +1,0 @@
-name: Toderbrugge
-icon: Morbi.avi
-link: http://dummyimage.com/210x100.png/cc0000/ffffff
-support: emulation
-versionFrom: 0.4.0
-categories:
-  - oss
-  - dotnet
-  - kernel

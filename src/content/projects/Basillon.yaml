@@ -1,9 +1,0 @@
-name: Basillon
-icon: Risus.avi
-link: http://dummyimage.com/177x100.png/cc0000/ffffff
-support: 'no'
-versionFrom: '1.16'
-categories:
-  - testing
-  - kernel
-  - linux

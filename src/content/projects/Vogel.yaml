@@ -1,9 +1,0 @@
-name: Vogel
-icon: Non.mp3
-link: http://dummyimage.com/228x100.png/cc0000/ffffff
-support: emulation
-versionFrom: '7.39'
-categories:
-  - kernel
-  - dotnet
-  - embedded

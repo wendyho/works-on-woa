@@ -1,9 +1,0 @@
-name: Gerbi
-icon: Libero.pdf
-link: http://dummyimage.com/242x100.png/dddddd/000000
-support: native
-versionFrom: '6.71'
-categories:
-  - visualstudio
-  - testing
-  - linux

@@ -1,9 +1,0 @@
-name: Bandt
-icon: DuisBibendumFelis.png
-link: http://dummyimage.com/192x100.png/5fa2dd/ffffff
-support: emulation
-versionFrom: 4.9.6
-categories:
-  - embedded
-  - emulation
-  - oss

@@ -1,9 +1,0 @@
-name: Petrol
-icon: InterdumInAnte.ppt
-link: http://dummyimage.com/195x100.png/cc0000/ffffff
-support: native
-versionFrom: 0.6.3
-categories:
-  - kernel
-  - testing
-  - emulation

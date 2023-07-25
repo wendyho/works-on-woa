@@ -1,9 +1,0 @@
-name: Cuddehay
-icon: SedVel.jpeg
-link: http://dummyimage.com/148x100.png/dddddd/000000
-support: native
-versionFrom: '6.17'
-categories:
-  - oss
-  - tools
-  - kernel

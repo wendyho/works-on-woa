@@ -1,9 +1,0 @@
-name: Wiles
-icon: Aliquet.tiff
-link: http://dummyimage.com/247x100.png/ff4444/ffffff
-support: emulation
-versionFrom: '0.32'
-categories:
-  - kernel
-  - embedded
-  - oss

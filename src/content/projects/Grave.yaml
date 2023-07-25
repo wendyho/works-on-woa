@@ -1,9 +1,0 @@
-name: Grave
-icon: Magna.tiff
-link: http://dummyimage.com/182x100.png/dddddd/000000
-support: unknown
-versionFrom: 0.9.2
-categories:
-  - testing
-  - dotnet
-  - kernel

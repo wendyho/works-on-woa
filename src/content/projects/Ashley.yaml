@@ -1,9 +1,0 @@
-name: Ashley
-icon: UtDolor.jpeg
-link: http://dummyimage.com/124x100.png/cc0000/ffffff
-support: native
-versionFrom: '5.53'
-categories:
-  - embedded
-  - kernel
-  - web

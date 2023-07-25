@@ -1,9 +1,0 @@
-name: Smooth
-icon: Fermentum.pdf
-link: http://dummyimage.com/167x100.png/cc0000/ffffff
-support: emulation
-versionFrom: '6.72'
-categories:
-  - kernel
-  - dotnet
-  - embedded

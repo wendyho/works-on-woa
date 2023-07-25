@@ -1,9 +1,0 @@
-name: Rathe
-icon: Nulla.mp3
-link: http://dummyimage.com/128x100.png/ff4444/ffffff
-support: native
-versionFrom: 9.8.1
-categories:
-  - visualstudio
-  - embedded
-  - oss

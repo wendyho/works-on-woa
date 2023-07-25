@@ -1,9 +1,0 @@
-name: Brocking
-icon: Placerat.avi
-link: http://dummyimage.com/188x100.png/5fa2dd/ffffff
-support: 'no'
-versionFrom: '8.5'
-categories:
-  - visualstudio
-  - linux
-  - tools

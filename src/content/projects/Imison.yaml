@@ -1,9 +1,0 @@
-name: Imison
-icon: CubiliaCurae.avi
-link: http://dummyimage.com/192x100.png/cc0000/ffffff
-support: emulation
-versionFrom: 0.4.8
-categories:
-  - dotnet
-  - kernel
-  - oss

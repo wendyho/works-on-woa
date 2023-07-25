@@ -1,8 +1,0 @@
-name: Swabey
-icon: ElementumEu.mov
-link: http://dummyimage.com/112x100.png/ff4444/ffffff
-support: emulation
-versionFrom: '3.50'
-categories:
-  - dotnet
-  - web

@@ -1,8 +1,0 @@
-name: Goodbar
-icon: SitAmetConsectetuer.gif
-link: http://dummyimage.com/192x100.png/5fa2dd/ffffff
-support: native
-versionFrom: '0.66'
-categories:
-  - emulation
-  - kernel

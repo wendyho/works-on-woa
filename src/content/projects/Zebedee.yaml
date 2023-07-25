@@ -1,9 +1,0 @@
-name: Zebedee
-icon: DisParturientMontes.doc
-link: http://dummyimage.com/166x100.png/5fa2dd/ffffff
-support: emulation
-versionFrom: '3.85'
-categories:
-  - linux
-  - oss
-  - dotnet

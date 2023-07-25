@@ -1,9 +1,0 @@
-name: Chagg
-icon: DonecUt.doc
-link: http://dummyimage.com/101x100.png/dddddd/000000
-support: emulation
-versionFrom: 6.3.4
-categories:
-  - dotnet
-  - kernel
-  - visualstudio

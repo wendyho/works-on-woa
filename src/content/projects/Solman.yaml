@@ -1,8 +1,0 @@
-name: Solman
-icon: Semper.tiff
-link: http://dummyimage.com/152x100.png/5fa2dd/ffffff
-support: emulation
-versionFrom: '0.95'
-categories:
-  - dotnet
-  - kernel

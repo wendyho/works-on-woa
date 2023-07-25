@@ -1,9 +1,0 @@
-name: Pietruszewicz
-icon: VestibulumAc.ppt
-link: http://dummyimage.com/177x100.png/cc0000/ffffff
-support: 'no'
-versionFrom: '0.18'
-categories:
-  - embedded
-  - kernel
-  - oss

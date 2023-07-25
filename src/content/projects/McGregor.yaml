@@ -1,9 +1,0 @@
-name: McGregor
-icon: InSagittis.ppt
-link: http://dummyimage.com/107x100.png/5fa2dd/ffffff
-support: native
-versionFrom: '0.32'
-categories:
-  - tools
-  - oss
-  - embedded

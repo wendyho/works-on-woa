@@ -1,9 +1,0 @@
-name: Smalecombe
-icon: Orci.mp3
-link: http://dummyimage.com/118x100.png/cc0000/ffffff
-support: emulation
-versionFrom: 2.1.2
-categories:
-  - emulation
-  - kernel
-  - testing

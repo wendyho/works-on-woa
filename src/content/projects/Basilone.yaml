@@ -1,8 +1,0 @@
-name: Basilone
-icon: ViverraEget.mpeg
-link: http://dummyimage.com/124x100.png/5fa2dd/ffffff
-support: native
-versionFrom: '0.88'
-categories:
-  - testing
-  - dotnet

@@ -1,9 +1,0 @@
-name: Dawidowicz
-icon: Donec.xls
-link: http://dummyimage.com/145x100.png/ff4444/ffffff
-support: emulation
-versionFrom: '0.42'
-categories:
-  - visualstudio
-  - web
-  - testing

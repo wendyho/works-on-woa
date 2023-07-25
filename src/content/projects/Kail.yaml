@@ -1,9 +1,0 @@
-name: Kail
-icon: IpsumPrimisIn.ppt
-link: http://dummyimage.com/207x100.png/ff4444/ffffff
-support: unknown
-versionFrom: '2.1'
-categories:
-  - visualstudio
-  - oss
-  - dotnet

@@ -1,7 +1,0 @@
-name: Python
-icon: python.svg
-categories:
-  - oss
-link: https://python.org/
-support: native
-versionFrom: 3.11

@@ -1,9 +1,0 @@
-name: Hendrikse
-icon: InterdumMaurisUllamcorper.ppt
-link: http://dummyimage.com/203x100.png/5fa2dd/ffffff
-support: emulation
-versionFrom: '0.51'
-categories:
-  - dotnet
-  - embedded
-  - web

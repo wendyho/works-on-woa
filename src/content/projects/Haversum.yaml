@@ -1,9 +1,0 @@
-name: Haversum
-icon: DuisAt.png
-link: http://dummyimage.com/100x100.png/5fa2dd/ffffff
-support: native
-versionFrom: '8.7'
-categories:
-  - dotnet
-  - web
-  - tools

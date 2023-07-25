@@ -1,9 +1,0 @@
-name: Balden
-icon: MassaQuisAugue.xls
-link: http://dummyimage.com/106x100.png/cc0000/ffffff
-support: 'no'
-versionFrom: 4.4.3
-categories:
-  - linux
-  - kernel
-  - embedded

@@ -1,9 +1,0 @@
-name: Featherbie
-icon: Volutpat.avi
-link: http://dummyimage.com/214x100.png/5fa2dd/ffffff
-support: emulation
-versionFrom: '3.2'
-categories:
-  - oss
-  - linux
-  - embedded

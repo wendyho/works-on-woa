@@ -1,9 +1,0 @@
-name: Simison
-icon: SemSed.png
-link: http://dummyimage.com/225x100.png/5fa2dd/ffffff
-support: 'no'
-versionFrom: '6.1'
-categories:
-  - embedded
-  - kernel
-  - linux

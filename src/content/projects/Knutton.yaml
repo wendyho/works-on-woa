@@ -1,9 +1,0 @@
-name: Knutton
-icon: PedeLibero.ppt
-link: http://dummyimage.com/208x100.png/cc0000/ffffff
-support: emulation
-versionFrom: '0.65'
-categories:
-  - web
-  - emulation
-  - testing

@@ -1,9 +1,0 @@
-name: Witchalls
-icon: EleifendDonec.avi
-link: http://dummyimage.com/193x100.png/dddddd/000000
-support: native
-versionFrom: '8.6'
-categories:
-  - tools
-  - kernel
-  - dotnet

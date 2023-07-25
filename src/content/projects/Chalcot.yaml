@@ -1,9 +1,0 @@
-name: Chalcot
-icon: Nam.mov
-link: http://dummyimage.com/170x100.png/ff4444/ffffff
-support: 'no'
-versionFrom: '7.44'
-categories:
-  - oss
-  - embedded
-  - tools

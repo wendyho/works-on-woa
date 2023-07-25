@@ -1,9 +1,0 @@
-name: Smullen
-icon: PurusPhasellus.pdf
-link: http://dummyimage.com/110x100.png/dddddd/000000
-support: emulation
-versionFrom: '6.2'
-categories:
-  - oss
-  - dotnet
-  - visualstudio

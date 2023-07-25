@@ -1,8 +1,0 @@
-name: Duncan
-icon: Mauris.xls
-link: http://dummyimage.com/173x100.png/ff4444/ffffff
-support: native
-versionFrom: '4.89'
-categories:
-  - emulation
-  - dotnet

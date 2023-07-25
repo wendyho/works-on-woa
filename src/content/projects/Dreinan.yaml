@@ -1,9 +1,0 @@
-name: Dreinan
-icon: Mi.jpeg
-link: http://dummyimage.com/231x100.png/dddddd/000000
-support: emulation
-versionFrom: '3.4'
-categories:
-  - dotnet
-  - web
-  - visualstudio

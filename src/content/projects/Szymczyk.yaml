@@ -1,9 +1,0 @@
-name: Szymczyk
-icon: EuFelis.ppt
-link: http://dummyimage.com/146x100.png/ff4444/ffffff
-support: native
-versionFrom: '6.6'
-categories:
-  - visualstudio
-  - web
-  - embedded

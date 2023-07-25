@@ -1,9 +1,0 @@
-name: Desmond
-icon: Nunc.mov
-link: http://dummyimage.com/233x100.png/ff4444/ffffff
-support: emulation
-versionFrom: '2.27'
-categories:
-  - embedded
-  - visualstudio
-  - oss

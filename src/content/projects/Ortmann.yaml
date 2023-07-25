@@ -1,9 +1,0 @@
-name: Ortmann
-icon: LiberoQuis.png
-link: http://dummyimage.com/207x100.png/5fa2dd/ffffff
-support: native
-versionFrom: 8.6.4
-categories:
-  - testing
-  - embedded
-  - kernel

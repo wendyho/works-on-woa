@@ -1,9 +1,0 @@
-name: Luckham
-icon: ArcuLibero.xls
-link: http://dummyimage.com/193x100.png/5fa2dd/ffffff
-support: 'no'
-versionFrom: '0.47'
-categories:
-  - kernel
-  - visualstudio
-  - testing

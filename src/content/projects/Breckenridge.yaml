@@ -1,9 +1,0 @@
-name: Breckenridge
-icon: CurabiturIn.tiff
-link: http://dummyimage.com/144x100.png/5fa2dd/ffffff
-support: 'no'
-versionFrom: 0.9.2
-categories:
-  - oss
-  - testing
-  - dotnet

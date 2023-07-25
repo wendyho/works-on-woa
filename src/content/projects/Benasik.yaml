@@ -1,9 +1,0 @@
-name: Benasik
-icon: SuscipitLigula.mp3
-link: http://dummyimage.com/200x100.png/cc0000/ffffff
-support: native
-versionFrom: '5.19'
-categories:
-  - kernel
-  - web
-  - dotnet

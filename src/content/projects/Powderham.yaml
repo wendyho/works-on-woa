@@ -1,9 +1,0 @@
-name: Powderham
-icon: SollicitudinVitaeConsectetuer.tiff
-link: http://dummyimage.com/186x100.png/dddddd/000000
-support: native
-versionFrom: '0.59'
-categories:
-  - testing
-  - embedded
-  - kernel

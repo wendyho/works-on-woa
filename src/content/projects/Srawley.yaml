@@ -1,9 +1,0 @@
-name: Srawley
-icon: SitAmetNulla.jpeg
-link: http://dummyimage.com/122x100.png/5fa2dd/ffffff
-support: native
-versionFrom: '9.35'
-categories:
-  - oss
-  - web
-  - kernel

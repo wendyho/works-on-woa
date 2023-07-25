@@ -1,8 +1,0 @@
-name: Lovekin
-icon: Justo.mov
-link: http://dummyimage.com/169x100.png/5fa2dd/ffffff
-support: emulation
-versionFrom: '7.9'
-categories:
-  - embedded
-  - kernel

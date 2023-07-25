@@ -1,9 +1,0 @@
-name: Blaxton
-icon: IpsumAliquamNon.jpeg
-link: http://dummyimage.com/163x100.png/dddddd/000000
-support: emulation
-versionFrom: '1.9'
-categories:
-  - dotnet
-  - linux
-  - web

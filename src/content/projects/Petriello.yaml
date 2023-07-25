@@ -1,9 +1,0 @@
-name: Petriello
-icon: AFeugiatEt.gif
-link: http://dummyimage.com/235x100.png/cc0000/ffffff
-support: 'no'
-versionFrom: '2.2'
-categories:
-  - kernel
-  - testing
-  - oss

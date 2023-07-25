@@ -1,9 +1,0 @@
-name: Syversen
-icon: EratVestibulum.xls
-link: http://dummyimage.com/206x100.png/dddddd/000000
-support: 'no'
-versionFrom: 6.9.3
-categories:
-  - oss
-  - linux
-  - emulation

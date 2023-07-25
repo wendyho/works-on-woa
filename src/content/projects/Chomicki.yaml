@@ -1,9 +1,0 @@
-name: Chomicki
-icon: ConvallisNunc.jpeg
-link: http://dummyimage.com/100x100.png/5fa2dd/ffffff
-support: unknown
-versionFrom: 9.3.0
-categories:
-  - embedded
-  - dotnet
-  - linux

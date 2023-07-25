@@ -1,9 +1,0 @@
-name: Merrywether
-icon: QuisqueArcu.ppt
-link: http://dummyimage.com/215x100.png/dddddd/000000
-support: emulation
-versionFrom: 3.7.6
-categories:
-  - web
-  - emulation
-  - embedded

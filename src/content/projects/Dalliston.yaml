@@ -1,9 +1,0 @@
-name: Dalliston
-icon: Porta.gif
-link: http://dummyimage.com/168x100.png/ff4444/ffffff
-support: emulation
-versionFrom: '1.3'
-categories:
-  - linux
-  - emulation
-  - tools

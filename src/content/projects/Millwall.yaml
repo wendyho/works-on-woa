@@ -1,8 +1,0 @@
-name: Millwall
-icon: LaciniaEget.avi
-link: http://dummyimage.com/180x100.png/ff4444/ffffff
-support: native
-versionFrom: '8.2'
-categories:
-  - oss
-  - kernel

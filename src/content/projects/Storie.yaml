@@ -1,9 +1,0 @@
-name: Storie
-icon: MaurisLaciniaSapien.ppt
-link: http://dummyimage.com/229x100.png/5fa2dd/ffffff
-support: native
-versionFrom: '4.90'
-categories:
-  - web
-  - embedded
-  - dotnet

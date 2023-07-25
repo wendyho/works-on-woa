@@ -1,9 +1,0 @@
-name: Bartelet
-icon: MontesNasceturRidiculus.xls
-link: http://dummyimage.com/182x100.png/5fa2dd/ffffff
-support: emulation
-versionFrom: '0.51'
-categories:
-  - linux
-  - testing
-  - kernel

@@ -1,9 +1,0 @@
-name: Ricker
-icon: Blandit.jpeg
-link: http://dummyimage.com/234x100.png/dddddd/000000
-support: emulation
-versionFrom: '9.66'
-categories:
-  - emulation
-  - tools
-  - embedded

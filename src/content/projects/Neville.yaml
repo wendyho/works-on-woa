@@ -1,9 +1,0 @@
-name: Neville
-icon: NisiEuOrci.gif
-link: http://dummyimage.com/152x100.png/5fa2dd/ffffff
-support: unknown
-versionFrom: '7.0'
-categories:
-  - kernel
-  - embedded
-  - emulation

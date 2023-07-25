@@ -1,8 +1,0 @@
-name: Wetherill
-icon: EgetEleifend.jpeg
-link: http://dummyimage.com/206x100.png/ff4444/ffffff
-support: emulation
-versionFrom: '4.2'
-categories:
-  - kernel
-  - emulation

@@ -1,9 +1,0 @@
-name: Brixham
-icon: In.mp3
-link: http://dummyimage.com/179x100.png/ff4444/ffffff
-support: 'no'
-versionFrom: 0.7.9
-categories:
-  - web
-  - dotnet
-  - kernel

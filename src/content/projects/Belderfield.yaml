@@ -1,9 +1,0 @@
-name: Belderfield
-icon: AtIpsumAc.jpeg
-link: http://dummyimage.com/139x100.png/cc0000/ffffff
-support: 'no'
-versionFrom: '0.42'
-categories:
-  - embedded
-  - dotnet
-  - web

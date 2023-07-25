@@ -1,9 +1,0 @@
-name: Ondrusek
-icon: Odio.ppt
-link: http://dummyimage.com/115x100.png/5fa2dd/ffffff
-support: 'no'
-versionFrom: '0.22'
-categories:
-  - oss
-  - dotnet
-  - testing

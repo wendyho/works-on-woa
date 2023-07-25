@@ -1,9 +1,0 @@
-name: Carlow
-icon: Erat.pdf
-link: http://dummyimage.com/151x100.png/dddddd/000000
-support: 'no'
-versionFrom: 8.5.8
-categories:
-  - visualstudio
-  - kernel
-  - tools

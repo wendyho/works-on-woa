@@ -1,9 +1,0 @@
-name: Cleaveland
-icon: SedAccumsan.xls
-link: http://dummyimage.com/214x100.png/dddddd/000000
-support: emulation
-versionFrom: 0.9.1
-categories:
-  - tools
-  - embedded
-  - dotnet

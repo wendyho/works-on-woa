@@ -1,9 +1,0 @@
-name: Mattocks
-icon: AcDiamCras.pdf
-link: http://dummyimage.com/146x100.png/5fa2dd/ffffff
-support: 'no'
-versionFrom: '6.35'
-categories:
-  - dotnet
-  - web
-  - linux

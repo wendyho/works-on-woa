@@ -1,9 +1,0 @@
-name: Grosvenor
-icon: EuInterdum.xls
-link: http://dummyimage.com/181x100.png/5fa2dd/ffffff
-support: native
-versionFrom: '4.2'
-categories:
-  - kernel
-  - embedded
-  - web

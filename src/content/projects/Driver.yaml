@@ -1,9 +1,0 @@
-name: Driver
-icon: IpsumDolor.mp3
-link: http://dummyimage.com/130x100.png/5fa2dd/ffffff
-support: unknown
-versionFrom: '5.6'
-categories:
-  - oss
-  - dotnet
-  - web

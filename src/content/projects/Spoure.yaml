@@ -1,9 +1,0 @@
-name: Spoure
-icon: SuscipitLigula.jpeg
-link: http://dummyimage.com/149x100.png/cc0000/ffffff
-support: emulation
-versionFrom: '9.1'
-categories:
-  - dotnet
-  - linux
-  - embedded

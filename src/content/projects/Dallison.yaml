@@ -1,9 +1,0 @@
-name: Dallison
-icon: Potenti.mov
-link: http://dummyimage.com/113x100.png/dddddd/000000
-support: native
-versionFrom: '9.6'
-categories:
-  - web
-  - oss
-  - testing

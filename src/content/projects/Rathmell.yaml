@@ -1,9 +1,0 @@
-name: Rathmell
-icon: Rhoncus.mp3
-link: http://dummyimage.com/250x100.png/ff4444/ffffff
-support: emulation
-versionFrom: 0.5.1
-categories:
-  - emulation
-  - kernel
-  - linux

@@ -1,9 +1,0 @@
-name: Whittam
-icon: Semper.ppt
-link: http://dummyimage.com/123x100.png/dddddd/000000
-support: emulation
-versionFrom: '5.0'
-categories:
-  - emulation
-  - tools
-  - embedded

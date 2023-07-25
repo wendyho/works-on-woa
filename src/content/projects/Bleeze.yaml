@@ -1,9 +1,0 @@
-name: Bleeze
-icon: SedNisl.jpeg
-link: http://dummyimage.com/143x100.png/ff4444/ffffff
-support: native
-versionFrom: '1.22'
-categories:
-  - web
-  - embedded
-  - oss

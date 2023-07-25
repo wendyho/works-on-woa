@@ -1,8 +1,0 @@
-name: Peacock
-icon: Eros.pdf
-link: http://dummyimage.com/156x100.png/dddddd/000000
-support: emulation
-versionFrom: '3.3'
-categories:
-  - dotnet
-  - embedded

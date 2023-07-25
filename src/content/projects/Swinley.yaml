@@ -1,9 +1,0 @@
-name: Swinley
-icon: Id.jpeg
-link: http://dummyimage.com/129x100.png/5fa2dd/ffffff
-support: 'no'
-versionFrom: 1.7.7
-categories:
-  - embedded
-  - visualstudio
-  - kernel

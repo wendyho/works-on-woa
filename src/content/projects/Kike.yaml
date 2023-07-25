@@ -1,9 +1,0 @@
-name: Kike
-icon: A.xls
-link: http://dummyimage.com/151x100.png/dddddd/000000
-support: native
-versionFrom: '1.31'
-categories:
-  - testing
-  - web
-  - kernel

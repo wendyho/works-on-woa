@@ -1,9 +1,0 @@
-name: Grocutt
-icon: Est.mpeg
-link: http://dummyimage.com/153x100.png/5fa2dd/ffffff
-support: native
-versionFrom: '5.05'
-categories:
-  - visualstudio
-  - embedded
-  - web

@@ -1,9 +1,0 @@
-name: Quig
-icon: Habitasse.ppt
-link: http://dummyimage.com/172x100.png/dddddd/000000
-support: emulation
-versionFrom: '6.34'
-categories:
-  - linux
-  - emulation
-  - tools

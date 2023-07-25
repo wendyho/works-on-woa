@@ -1,9 +1,0 @@
-name: Granville
-icon: PorttitorLacusAt.gif
-link: http://dummyimage.com/247x100.png/cc0000/ffffff
-support: native
-versionFrom: 2.6.4
-categories:
-  - embedded
-  - oss
-  - linux

@@ -1,9 +1,0 @@
-name: Tenman
-icon: ImperdietEtCommodo.xls
-link: http://dummyimage.com/135x100.png/5fa2dd/ffffff
-support: emulation
-versionFrom: '8.0'
-categories:
-  - tools
-  - testing
-  - visualstudio

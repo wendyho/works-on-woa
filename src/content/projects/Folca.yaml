@@ -1,9 +1,0 @@
-name: Folca
-icon: Integer.txt
-link: http://dummyimage.com/179x100.png/ff4444/ffffff
-support: 'no'
-versionFrom: '0.65'
-categories:
-  - embedded
-  - kernel
-  - visualstudio

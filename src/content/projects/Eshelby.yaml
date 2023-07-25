@@ -1,9 +1,0 @@
-name: Eshelby
-icon: LeoOdioPorttitor.xls
-link: http://dummyimage.com/195x100.png/cc0000/ffffff
-support: emulation
-versionFrom: 0.8.5
-categories:
-  - dotnet
-  - emulation
-  - testing

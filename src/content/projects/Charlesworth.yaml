@@ -1,9 +1,0 @@
-name: Charlesworth
-icon: VelitVivamusVel.ppt
-link: http://dummyimage.com/214x100.png/ff4444/ffffff
-support: emulation
-versionFrom: '3.66'
-categories:
-  - visualstudio
-  - embedded
-  - tools

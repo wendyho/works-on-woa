@@ -1,9 +1,0 @@
-name: Pendlebury
-icon: InTemporTurpis.xls
-link: http://dummyimage.com/114x100.png/5fa2dd/ffffff
-support: unknown
-versionFrom: '3.9'
-categories:
-  - embedded
-  - emulation
-  - dotnet

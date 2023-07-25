@@ -1,9 +1,0 @@
-name: Argent
-icon: Primis.mpeg
-link: http://dummyimage.com/227x100.png/dddddd/000000
-support: 'no'
-versionFrom: '1.41'
-categories:
-  - oss
-  - kernel
-  - emulation

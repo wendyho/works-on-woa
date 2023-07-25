@@ -1,9 +1,0 @@
-name: Kloser
-icon: EstPhasellus.gif
-link: http://dummyimage.com/223x100.png/cc0000/ffffff
-support: 'no'
-versionFrom: '1.65'
-categories:
-  - emulation
-  - embedded
-  - oss

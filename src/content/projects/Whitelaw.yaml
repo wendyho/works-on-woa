@@ -1,9 +1,0 @@
-name: Whitelaw
-icon: EuEstCongue.avi
-link: http://dummyimage.com/250x100.png/5fa2dd/ffffff
-support: 'no'
-versionFrom: '1.17'
-categories:
-  - kernel
-  - tools
-  - linux

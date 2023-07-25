@@ -1,9 +1,0 @@
-name: Matei
-icon: DuiNec.xls
-link: http://dummyimage.com/190x100.png/ff4444/ffffff
-support: native
-versionFrom: '0.64'
-categories:
-  - tools
-  - linux
-  - kernel

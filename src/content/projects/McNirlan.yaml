@@ -1,9 +1,0 @@
-name: McNirlan
-icon: MagnaAc.mov
-link: http://dummyimage.com/179x100.png/dddddd/000000
-support: native
-versionFrom: '3.46'
-categories:
-  - testing
-  - linux
-  - oss

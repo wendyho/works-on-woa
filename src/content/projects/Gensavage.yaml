@@ -1,9 +1,0 @@
-name: Gensavage
-icon: EnimBlanditMi.pdf
-link: http://dummyimage.com/143x100.png/5fa2dd/ffffff
-support: native
-versionFrom: '0.34'
-categories:
-  - dotnet
-  - tools
-  - oss

@@ -1,9 +1,0 @@
-name: Younie
-icon: DuiVelSem.avi
-link: http://dummyimage.com/195x100.png/5fa2dd/ffffff
-support: emulation
-versionFrom: '7.8'
-categories:
-  - visualstudio
-  - web
-  - kernel

@@ -1,9 +1,0 @@
-name: Shelford
-icon: Diam.jpeg
-link: http://dummyimage.com/133x100.png/cc0000/ffffff
-support: native
-versionFrom: 1.7.7
-categories:
-  - dotnet
-  - kernel
-  - embedded

@@ -1,9 +1,0 @@
-name: Shale
-icon: JustoAliquam.tiff
-link: http://dummyimage.com/155x100.png/5fa2dd/ffffff
-support: native
-versionFrom: '3.7'
-categories:
-  - tools
-  - oss
-  - kernel

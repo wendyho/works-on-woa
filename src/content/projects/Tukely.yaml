@@ -1,9 +1,0 @@
-name: Tukely
-icon: Quis.mp3
-link: http://dummyimage.com/160x100.png/dddddd/000000
-support: emulation
-versionFrom: '4.22'
-categories:
-  - emulation
-  - embedded
-  - web

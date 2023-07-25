@@ -1,9 +1,0 @@
-name: Fairbairn
-icon: AtLoremInteger.xls
-link: http://dummyimage.com/171x100.png/dddddd/000000
-support: native
-versionFrom: '2.76'
-categories:
-  - emulation
-  - testing
-  - linux

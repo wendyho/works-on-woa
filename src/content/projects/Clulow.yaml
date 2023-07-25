@@ -1,9 +1,0 @@
-name: Clulow
-icon: OrciVehicula.jpeg
-link: http://dummyimage.com/220x100.png/cc0000/ffffff
-support: unknown
-versionFrom: '1.62'
-categories:
-  - emulation
-  - dotnet
-  - testing

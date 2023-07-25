@@ -1,9 +1,0 @@
-name: Scotchmur
-icon: OdioCras.xls
-link: http://dummyimage.com/175x100.png/ff4444/ffffff
-support: emulation
-versionFrom: '0.62'
-categories:
-  - linux
-  - embedded
-  - tools

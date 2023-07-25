@@ -1,9 +1,0 @@
-name: Ruste
-icon: IdMassaId.ppt
-link: http://dummyimage.com/139x100.png/dddddd/000000
-support: emulation
-versionFrom: 0.8.6
-categories:
-  - testing
-  - web
-  - embedded

@@ -1,9 +1,0 @@
-name: Wharf
-icon: AcConsequat.gif
-link: http://dummyimage.com/104x100.png/cc0000/ffffff
-support: emulation
-versionFrom: 5.0.8
-categories:
-  - web
-  - testing
-  - dotnet

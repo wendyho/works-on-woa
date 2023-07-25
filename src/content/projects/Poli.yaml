@@ -1,9 +1,0 @@
-name: Poli
-icon: NasceturRidiculusMus.avi
-link: http://dummyimage.com/141x100.png/dddddd/000000
-support: 'no'
-versionFrom: '6.2'
-categories:
-  - kernel
-  - dotnet
-  - testing

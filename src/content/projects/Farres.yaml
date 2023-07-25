@@ -1,9 +1,0 @@
-name: Farres
-icon: MorbiVel.jpeg
-link: http://dummyimage.com/170x100.png/cc0000/ffffff
-support: 'no'
-versionFrom: '1.6'
-categories:
-  - dotnet
-  - kernel
-  - embedded

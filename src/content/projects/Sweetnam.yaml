@@ -1,9 +1,0 @@
-name: Sweetnam
-icon: Venenatis.xls
-link: http://dummyimage.com/148x100.png/dddddd/000000
-support: emulation
-versionFrom: '8.38'
-categories:
-  - embedded
-  - testing
-  - kernel

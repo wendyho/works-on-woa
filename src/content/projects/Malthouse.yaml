@@ -1,9 +1,0 @@
-name: Malthouse
-icon: UltricesAliquetMaecenas.mpeg
-link: http://dummyimage.com/182x100.png/5fa2dd/ffffff
-support: emulation
-versionFrom: '0.52'
-categories:
-  - kernel
-  - emulation
-  - web

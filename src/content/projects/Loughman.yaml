@@ -1,9 +1,0 @@
-name: Loughman
-icon: Tempus.tiff
-link: http://dummyimage.com/172x100.png/ff4444/ffffff
-support: emulation
-versionFrom: '7.9'
-categories:
-  - web
-  - testing
-  - tools

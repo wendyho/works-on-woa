@@ -1,9 +1,0 @@
-name: McIlvaney
-icon: PedeMalesuada.xls
-link: http://dummyimage.com/122x100.png/cc0000/ffffff
-support: native
-versionFrom: '0.26'
-categories:
-  - oss
-  - embedded
-  - tools

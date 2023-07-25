@@ -1,9 +1,0 @@
-name: Devenny
-icon: NonVelit.jpeg
-link: http://dummyimage.com/100x100.png/5fa2dd/ffffff
-support: native
-versionFrom: 9.3.0
-categories:
-  - dotnet
-  - linux
-  - tools

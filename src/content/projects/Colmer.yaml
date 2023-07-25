@@ -1,9 +1,0 @@
-name: Colmer
-icon: MetusArcu.doc
-link: http://dummyimage.com/132x100.png/ff4444/ffffff
-support: emulation
-versionFrom: '2.11'
-categories:
-  - dotnet
-  - linux
-  - emulation

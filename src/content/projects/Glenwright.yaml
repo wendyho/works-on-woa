@@ -1,9 +1,0 @@
-name: Glenwright
-icon: QuisAugueLuctus.xls
-link: http://dummyimage.com/172x100.png/5fa2dd/ffffff
-support: emulation
-versionFrom: 6.4.2
-categories:
-  - oss
-  - kernel
-  - linux

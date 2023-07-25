@@ -1,9 +1,0 @@
-name: Seckom
-icon: ArcuSed.mov
-link: http://dummyimage.com/248x100.png/ff4444/ffffff
-support: 'no'
-versionFrom: '0.64'
-categories:
-  - linux
-  - testing
-  - embedded

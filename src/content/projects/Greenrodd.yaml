@@ -1,9 +1,0 @@
-name: Greenrodd
-icon: Aenean.avi
-link: http://dummyimage.com/217x100.png/ff4444/ffffff
-support: native
-versionFrom: '3.14'
-categories:
-  - embedded
-  - kernel
-  - oss

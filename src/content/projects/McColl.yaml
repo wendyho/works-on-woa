@@ -1,9 +1,0 @@
-name: McColl
-icon: Sit.mp3
-link: http://dummyimage.com/111x100.png/5fa2dd/ffffff
-support: emulation
-versionFrom: '0.39'
-categories:
-  - linux
-  - dotnet
-  - embedded

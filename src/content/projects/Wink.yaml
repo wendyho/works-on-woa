@@ -1,9 +1,0 @@
-name: Wink
-icon: UltricesPhasellusId.pdf
-link: http://dummyimage.com/232x100.png/ff4444/ffffff
-support: emulation
-versionFrom: 0.1.5
-categories:
-  - kernel
-  - emulation
-  - oss

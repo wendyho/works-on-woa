@@ -1,9 +1,0 @@
-name: Muttitt
-icon: At.mpeg
-link: http://dummyimage.com/107x100.png/5fa2dd/ffffff
-support: emulation
-versionFrom: '1.64'
-categories:
-  - emulation
-  - tools
-  - visualstudio

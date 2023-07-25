@@ -1,9 +1,0 @@
-name: Mealing
-icon: AnteNulla.xls
-link: http://dummyimage.com/171x100.png/ff4444/ffffff
-support: native
-versionFrom: 8.6.5
-categories:
-  - visualstudio
-  - testing
-  - embedded

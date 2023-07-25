@@ -1,9 +1,0 @@
-name: Devanny
-icon: EstCongue.avi
-link: http://dummyimage.com/113x100.png/cc0000/ffffff
-support: emulation
-versionFrom: '5.3'
-categories:
-  - embedded
-  - kernel
-  - web

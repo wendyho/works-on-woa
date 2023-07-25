@@ -1,9 +1,0 @@
-name: Headon
-icon: ConsequatMorbi.xls
-link: http://dummyimage.com/173x100.png/dddddd/000000
-support: emulation
-versionFrom: 1.5.6
-categories:
-  - dotnet
-  - linux
-  - embedded

@@ -1,9 +1,0 @@
-name: Jagiello
-icon: DonecUtMauris.gif
-link: http://dummyimage.com/110x100.png/5fa2dd/ffffff
-support: 'no'
-versionFrom: '5.59'
-categories:
-  - testing
-  - oss
-  - kernel

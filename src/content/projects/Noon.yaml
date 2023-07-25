@@ -1,9 +1,0 @@
-name: Noon
-icon: Ipsum.avi
-link: http://dummyimage.com/172x100.png/5fa2dd/ffffff
-support: emulation
-versionFrom: '3.3'
-categories:
-  - testing
-  - embedded
-  - dotnet

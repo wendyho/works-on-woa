@@ -1,9 +1,0 @@
-name: Terran
-icon: AuctorGravidaSem.pdf
-link: http://dummyimage.com/101x100.png/dddddd/000000
-support: emulation
-versionFrom: '9.4'
-categories:
-  - dotnet
-  - emulation
-  - web

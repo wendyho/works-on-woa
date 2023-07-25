@@ -1,9 +1,0 @@
-name: Marvell
-icon: UtRhoncus.mp3
-link: http://dummyimage.com/109x100.png/ff4444/ffffff
-support: emulation
-versionFrom: '7.87'
-categories:
-  - linux
-  - kernel
-  - visualstudio

@@ -1,9 +1,0 @@
-name: Beldum
-icon: EuFelis.jpeg
-link: http://dummyimage.com/113x100.png/ff4444/ffffff
-support: native
-versionFrom: '0.44'
-categories:
-  - testing
-  - visualstudio
-  - tools

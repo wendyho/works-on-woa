@@ -1,9 +1,0 @@
-name: Jayes
-icon: Curae.avi
-link: http://dummyimage.com/127x100.png/cc0000/ffffff
-support: emulation
-versionFrom: '0.80'
-categories:
-  - embedded
-  - tools
-  - kernel

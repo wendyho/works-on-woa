@@ -1,9 +1,0 @@
-name: Gaytor
-icon: SitAmet.ppt
-link: http://dummyimage.com/175x100.png/cc0000/ffffff
-support: 'no'
-versionFrom: 6.7.9
-categories:
-  - dotnet
-  - emulation
-  - kernel

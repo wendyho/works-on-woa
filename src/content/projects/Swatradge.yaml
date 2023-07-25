@@ -1,9 +1,0 @@
-name: Swatradge
-icon: Ultrices.tiff
-link: http://dummyimage.com/202x100.png/cc0000/ffffff
-support: emulation
-versionFrom: 4.2.8
-categories:
-  - dotnet
-  - kernel
-  - linux

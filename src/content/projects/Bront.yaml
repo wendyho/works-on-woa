@@ -1,9 +1,0 @@
-name: Bront
-icon: EnimLorem.ppt
-link: http://dummyimage.com/201x100.png/dddddd/000000
-support: 'no'
-versionFrom: 0.6.7
-categories:
-  - visualstudio
-  - kernel
-  - oss

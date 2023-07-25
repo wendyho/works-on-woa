@@ -1,8 +1,0 @@
-name: Vischi
-icon: NullaAc.jpeg
-link: http://dummyimage.com/196x100.png/cc0000/ffffff
-support: emulation
-versionFrom: '5.01'
-categories:
-  - dotnet
-  - visualstudio

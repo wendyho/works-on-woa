@@ -1,9 +1,0 @@
-name: Patrone
-icon: Proin.ppt
-link: http://dummyimage.com/153x100.png/ff4444/ffffff
-support: emulation
-versionFrom: 0.7.7
-categories:
-  - testing
-  - kernel
-  - oss

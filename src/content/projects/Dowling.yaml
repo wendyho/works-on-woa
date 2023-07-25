@@ -1,9 +1,0 @@
-name: Dowling
-icon: Ut.mp3
-link: http://dummyimage.com/237x100.png/ff4444/ffffff
-support: unknown
-versionFrom: '5.5'
-categories:
-  - dotnet
-  - kernel
-  - visualstudio

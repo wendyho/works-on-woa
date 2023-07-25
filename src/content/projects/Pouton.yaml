@@ -1,9 +1,0 @@
-name: Pouton
-icon: Consectetuer.mpeg
-link: http://dummyimage.com/103x100.png/5fa2dd/ffffff
-support: 'no'
-versionFrom: '2.1'
-categories:
-  - embedded
-  - kernel
-  - testing

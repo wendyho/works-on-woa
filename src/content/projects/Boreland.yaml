@@ -1,8 +1,0 @@
-name: Boreland
-icon: Nulla.mp3
-link: http://dummyimage.com/148x100.png/ff4444/ffffff
-support: emulation
-versionFrom: '9.7'
-categories:
-  - testing
-  - embedded

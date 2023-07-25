@@ -1,9 +1,0 @@
-name: MacAllen
-icon: IpsumInteger.jpeg
-link: http://dummyimage.com/146x100.png/dddddd/000000
-support: emulation
-versionFrom: '7.13'
-categories:
-  - web
-  - embedded
-  - emulation

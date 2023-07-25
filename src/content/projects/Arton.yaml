@@ -1,9 +1,0 @@
-name: Arton
-icon: AcNeque.xls
-link: http://dummyimage.com/176x100.png/5fa2dd/ffffff
-support: 'no'
-versionFrom: '1.9'
-categories:
-  - embedded
-  - oss
-  - dotnet

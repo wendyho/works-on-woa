@@ -1,9 +1,0 @@
-name: Bensen
-icon: SapienIaculisCongue.avi
-link: http://dummyimage.com/239x100.png/cc0000/ffffff
-support: emulation
-versionFrom: '7.09'
-categories:
-  - dotnet
-  - emulation
-  - tools
