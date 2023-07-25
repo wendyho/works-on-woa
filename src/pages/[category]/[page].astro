@@ -8,32 +8,32 @@ import Pagination from "../../components/Pagination/Pagination.astro";
 import type { PaginateFunction } from "astro";
 
 export async function getStaticPaths({
-    paginate,
+  paginate,
 }: {
-    paginate: PaginateFunction;
+  paginate: PaginateFunction;
 }) {
-    const categories = [
-        ...(await getCollection("categories")).map((category) => category.id),
-        "all",
-    ];
-    const projects = await getCollection("projects");
-    // return paginate(projects, { pageSize: 25 });
+  const categories = [
+    ...(await getCollection("categories")).map((category) => category.id),
+    "all",
+  ];
+  const projects = await getCollection("projects");
+  // return paginate(projects, { pageSize: 25 });
 
-    return categories.map((c) => {
-        const pageData = projects.filter((p) => {
-            const cats = p.data.categories ?? [];
-            return (
-                c === "all" ||
-                cats
-                    .map((cat) => cat.id)
-                    .includes(c as CollectionEntry<"categories">["id"])
-            );
-        });
-        return paginate(pageData, {
-            params: { category: c.toLowerCase() },
-            pageSize: 25,
-        });
+  return categories.map((c) => {
+    const pageData = projects.filter((p) => {
+      const cats = p.data.categories ?? [];
+      return (
+        c === "all" ||
+        cats
+          .map((cat) => cat.id)
+          .includes(c as CollectionEntry<"categories">["id"])
+      );
     });
+    return paginate(pageData, {
+      params: { category: c.toLowerCase() },
+      pageSize: 25,
+    });
+  });
 }
 type Project = CollectionEntry<"projects">;
 const { category } = Astro.params;
@@ -41,40 +41,37 @@ const { page } = Astro.props;
 ---
 
 <html lang="en">
-    <head>
-        <BaseHead
-            title={"Windows on ARM"}
-            description={"Find projects supported by Windows on ARM"}
+  <head>
+    <BaseHead
+      title={"Windows on ARM"}
+      description={"Find projects supported by Windows on ARM"}
+    />
+  </head>
+  <body>
+    <Header />
+    <main>
+      <section class="flex flex-col items-center">
+        <h2 class="font-bold p-3 text-xl">{category}</h2>
+        <Pagination
+          length={page.lastPage}
+          baseUrl={`/${category}`}
+          currentUrl={page.url.current}
+          currentPage={page.currentPage}
+          prevUrl={page.url.prev}
+          nextUrl={page.url.next}
+          lastUrl={`/${category}/${page.lastPage}`}
         />
-    </head>
-    <body>
-        <Header />
-        <main>
-            <section class="flex flex-col items-center">
-                <h2 class="font-bold p-3 text-xl">{category}</h2>
-                <Pagination
-                    length={page.lastPage}
-                    baseUrl={`/${category}`}
-                    currentUrl={page.url.current}
-                    currentPage={page.currentPage}
-                    prevUrl={page.url.prev}
-                    nextUrl={page.url.next}
-                    lastUrl={`/${category}/${page.lastPage}`}
-                />
-                <ul class="list-disc list-inside p-4">
-                    {
-                        page.data.map((project: Project) => (
-                            <li class="underline">
-                                <a href={`/projects/${project.id}`}>
-                                    {project.data.name}
-                                </a>
-                            </li>
-                        ))
-                    }
-                </ul>
-            </section>
-        </main>
-
-        <Footer />
-    </body>
+        <ul class="list-disc list-inside p-4">
+          {
+            page.data.map((project: Project) => (
+              <li class="underline">
+                <a href={`/projects/${project.id}`}>{project.data.name}</a>
+              </li>
+            ))
+          }
+        </ul>
+      </section>
+    </main>
+    <Footer />
+  </body>
 </html>

@@ -11,34 +11,39 @@ const categories = await getCollection("categories");
 
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<BaseHead
-			title={"Windows on ARM"}
-			description={"Find projects supported by Windows on ARM"}
-		/>
-	</head>
-	<body>
-		<Header />
-		<PageFind />
-		<main>
-			<section class="flex flex-col items-center">
-				<h2 class="font-bold p-3 text-xl">Browse by Category</h2>
-				<ul>
-					<li>
-						<a href="/all/1">all</a>
-					</li>
-					{
-						categories.map((category) => (
-							<li>
-								<a href={`/${category.id}/1`}>
-									{category.data.name}
-								</a>
-							</li>
-						))
-					}
-				</ul>
-			</section>
-		</main>
-		<Footer />
-	</body>
+  <head>
+    <BaseHead
+      title={"Windows on ARM"}
+      description={"Find projects supported by Windows on ARM"}
+    />
+  </head>
+  <body>
+    <Header />
+
+    <div class="px-20 py-10">
+      <p class="text-xl my-5 text-center">
+        This page shows whether popular Windows applications natively support
+        Windows on ARM
+      </p>
+      <PageFind />
+    </div>
+    <main>
+      <section class="flex flex-col items-center">
+        <h2 class="font-bold p-3 text-xl">Browse by Category</h2>
+        <ul>
+          <li>
+            <a href="/all/1">all</a>
+          </li>
+          {
+            categories.map((category) => (
+              <li>
+                <a href={`/${category.id}/1`}>{category.data.name}</a>
+              </li>
+            ))
+          }
+        </ul>
+      </section>
+    </main>
+    <Footer />
+  </body>
 </html>
