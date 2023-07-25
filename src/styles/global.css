@@ -1,0 +1,48 @@
+@tailwind base;
+
+
+@layer base {
+	body {
+		@apply bg-zinc-700 text-white;
+	}
+	header {
+		@apply bg-zinc-900;
+	}
+	h1 {
+		font-weight: bold;
+		width: auto;
+		padding: 2rem;
+
+	}
+	h2 {
+		font-weight: bold;
+		font-size: 2rem;
+		width: auto;
+		margin-bottom: 0.5rem;
+		padding: 1.5rem;
+
+	}
+	li {
+		margin-bottom: 1rem;
+	}
+	
+}
+
+@tailwind components;
+@tailwind utilities;
+/* 
+:root, #root, #docs-root {
+	--pagefind-ui-scale: 1;
+	--pagefind-ui-primary: #034ad8;
+	--pagefind-ui-text: #fff;
+	--pagefind-ui-background: #ffffff;
+	--pagefind-ui-border: #eeeeee;
+	--pagefind-ui-tag: #eeeeee;
+	--pagefind-ui-border-width: 2px;
+	--pagefind-ui-border-radius: 50%;
+	--pagefind-ui-image-border-radius: 8px;
+	--pagefind-ui-image-box-ratio: 3 / 2;
+	--pagefind-ui-font: sans-serif;
+	} */
+	
+ 
