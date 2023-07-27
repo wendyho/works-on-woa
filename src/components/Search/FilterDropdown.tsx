@@ -1,5 +1,14 @@
 import "solid-js";
-import { Accessor, For, JSX, Resource, Show, createSignal } from "solid-js";
+import {
+  Accessor,
+  For,
+  JSX,
+  Resource,
+  Show,
+  createSignal,
+  onCleanup,
+  onMount,
+} from "solid-js";
 import type { Filters } from "./PageFind";
 
 const FilterDropdown = ({
@@ -15,10 +24,25 @@ const FilterDropdown = ({
 
   const toggleFilters = () => setShowFilters(!showFilters());
 
+  let ref: HTMLDivElement;
+  const handleClick = (event: MouseEvent) => {
+    if (!ref.contains(event.target as Node)) {
+      setShowFilters(false);
+    }
+  };
+
+  onMount(() => {
+    document.addEventListener("click", handleClick);
+  });
+
+  onCleanup(() => {
+    document.removeEventListener("click", handleClick);
+  });
+
   return (
-    <div class="basis-1/12 gap-3 relative inline-block">
+    <div class="basis-1/12 gap-3 relative inline-block" ref={ref!}>
       <button
-        class="px-10 py-2 bg-blue-500 border-white border rounded-full h-full"
+        class="px-10 py-2 bg-blue-500 hover:bg-blue-700 border-white border rounded-full h-full"
         onClick={toggleFilters}
       >
         Filter
