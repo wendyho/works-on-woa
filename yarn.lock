@@ -3563,6 +3563,11 @@ sitemap@^7.1.1:
     arg "^5.0.0"
     sax "^1.2.4"
 
+solid-icons@^1.0.11:
+  version "1.0.11"
+  resolved "https://registry.yarnpkg.com/solid-icons/-/solid-icons-1.0.11.tgz#2057b0c3f5c2d91f8bee1a23640b5a5acfb9ccba"
+  integrity sha512-shEL5Otrl73LPZukpanJKi6ISnQhpIvhqqAb8haKyCGrixHOYC6yGfNkSE7jpkKSikZ0rGtSMRiFETRrec2Uzw==
+
 solid-js@^1.4.3:
   version "1.7.8"
   resolved "https://registry.yarnpkg.com/solid-js/-/solid-js-1.7.8.tgz#6856983e3edbcc57b0e003e6fd0c741dd8865892"

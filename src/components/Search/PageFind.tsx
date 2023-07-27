@@ -1,18 +1,9 @@
 import { string } from "astro/zod";
 import "solid-js";
-import {
-  For,
-  JSX,
-  Show,
-  createEffect,
-  createResource,
-  createSignal,
-  lazy,
-  onMount,
-} from "solid-js";
+import { JSX, createResource, createSignal } from "solid-js";
 import FilterDropdown from "./FilterDropdown";
 import Results from "./Results";
-
+import { AiOutlineSearch } from "solid-icons/ai";
 const bundlePath = `${import.meta.env.BASE_URL}_pagefind/`;
 const pagefind = await import(`${bundlePath}pagefind.js`);
 
@@ -64,27 +55,41 @@ const PageFindNew = () => {
       });
     };
 
+  const clearSearch = () => {
+    setSearch({
+      query: "",
+      filters: {},
+    });
+  };
   return (
     <div class="w-full">
       <div class="w-full flex flex-col sm:flex-row justify-between gap-3 items-stretch mb-3">
-        <input
-          placeholder="Search for projects"
-          value={search().query}
-          onInput={(e) =>
-            setSearch({
-              ...search(),
-              query: e.currentTarget.value,
-            })
-          }
-          class="text-black basis-11/12 py-2 px-10 rounded-full"
-        />
+        <div class="bg-white text-black basis-11/12 rounded-full flex flex-row py-2 items-center">
+          <div class="py-2 px-5">
+            <AiOutlineSearch size={24} />
+          </div>
+          <input
+            placeholder="Search for projects"
+            value={search().query}
+            onInput={(e) =>
+              setSearch({
+                ...search(),
+                query: e.currentTarget.value,
+              })
+            }
+            class="w-full h-full px-1"
+          />
+          <button class="py-2 px-5 cursor-pointer" onClick={clearSearch}>
+            Clear
+          </button>
+        </div>
         <FilterDropdown
           search={search}
           filterOptions={filterOptions}
           setFilter={setFilter}
         />
       </div>
-      <Results results={results} />
+      <Results results={results} search={search} clearSearch={clearSearch} />
     </div>
   );
 };

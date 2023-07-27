@@ -22,11 +22,26 @@ const categoriesData = await Promise.all(categoryPromises);
       <div class="px-3 flex flex-col md:flex-row gap-3 mb-3">
         <p>
           <b>Categories:&nbsp;</b>
-          <span
-            >{
-              categoriesData.map((category) => category.data.name).join(", ")
-            }</span
-          >
+          <!--
+          <p>
+              
+              {
+              categoriesData.map((category, index) => (
+                <span class="inline">
+                  <a
+                    class="text-blue-700 underline inline"
+                    href={`/${category.id}/1`}
+                  >
+                    {category.data.name}
+                  </a>
+                  {index === categoriesData.length - 1 ? "" : ", "}
+                </span>
+              ))
+            } 
+          </p>
+          
+          -->
+          {categoriesData.map((category) => category.data.name).join(", ")}
         </p>
         <p>
           <b>Support:&nbsp;</b>
