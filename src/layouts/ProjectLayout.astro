@@ -4,7 +4,8 @@ import BaseHead from "../components/Common/BaseHead.astro";
 import Header from "../components/Common/Header.astro";
 import Footer from "../components/Common/Footer.astro";
 import { toTitleCase } from "../util/formatting";
-import PageFind from "../components/Search/PageFind.astro";
+import Search from "../components/Search/Search.astro";
+import ProjectDetails from "../components/Projects/ProjectDetails.astro";
 
 type Props = CollectionEntry<"projects">;
 
@@ -44,6 +45,9 @@ const fields = [
   },
 ];
 
+export type ProjectFields = typeof fields;
+
+// sort fields
 const sortOrder = ["support", "categories", "versionFrom", "link", "notes"];
 
 const sortKeys = sortOrder.reduce((obj: any, item: string, index: number) => {
@@ -66,54 +70,17 @@ const filters = ["categories", "support"];
 
   <body class="min-h-screen flex flex-col">
     <Header />
-    <main
-      class="w-full flex flex-col items-center basis-full flex-grow"
-      data-pagefind-body
-    >
-      <article class="w-2/3">
+    <main data-pagefind-body>
+      <section class="flex flex-col items-center p-1 sm:p-10 md:px-20">
         <h1 class="font-bold text-3xl px-0">{name}</h1>
-        <div
-          class="p-5 bg-white text-black rounded-xl flex flex-row-reverse justify-between items-start"
-        >
-          <img src={`/icons/${icon}`} width="100px" />
-          <ul>
-            {
-              fields.map((field) => (
-                <li>
-                  <b data-pagefind-ignore>{toTitleCase(field.key)}</b>
-                  {field.type === "array" ? (
-                    <p>
-                      {(field.value as typeof categoriesData).map((value) => (
-                        <span data-pagefind-filter={field.key}>
-                          {value.data.name}
-                        </span>
-                      ))}
-                    </p>
-                  ) : (
-                    <p
-                      data-pagefind-filter={
-                        filters.includes(field.key) && field.key
-                      }
-                      data-pagefind-ignore={filters.includes(field.key)}
-                    >
-                      {field.type === "link" ? (
-                        <a href={field.value as string} class="text-blue-700">
-                          {field.value}
-                        </a>
-                      ) : (
-                        field.value
-                      )}
-                    </p>
-                  )}
-                </li>
-              ))
-            }
-          </ul>
-        </div>
-      </article>
-      <article class="w-2/3 mt-12">
-        <PageFind />
-      </article>
+        <ProjectDetails
+          fields={fields}
+          icon={icon}
+          categoriesData={categoriesData}
+          filters={filters}
+        />
+      </section>
+      <Search />
     </main>
     <Footer />
   </body>

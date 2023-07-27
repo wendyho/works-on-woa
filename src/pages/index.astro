@@ -3,7 +3,6 @@ import BaseHead from "../components/Common/BaseHead.astro";
 import Header from "../components/Common/Header.astro";
 import Footer from "../components/Common/Footer.astro";
 import { getCollection } from "astro:content";
-import PageFind from "../components/Search/PageFind.astro";
 import Search from "../components/Search/Search.astro";
 
 const categories = await getCollection("categories");
@@ -17,18 +16,18 @@ const categories = await getCollection("categories");
       description={"Find projects supported by Windows on ARM"}
     />
   </head>
-  <body>
+  <body class="min-h-screen flex flex-col">
     <Header />
 
-    <div class="px-20 py-5">
-      <p class="text-xl my-5 text-center">
-        This page shows whether popular Windows applications natively support
-        Windows on ARM
-      </p>
-      <!-- <PageFind /> -->
-      <Search />
-    </div>
     <main>
+      <div class="px-10 md:px-20 py-5">
+        <p class="text-xl my-5 text-center">
+          This page shows whether popular Windows applications natively support
+          Windows on ARM
+        </p>
+      </div>
+      <Search />
+
       <section class="flex flex-col items-center m-10">
         <h2 class="font-bold p-3 text-xl">Browse by Category</h2>
         <ul class="flex flex-row flex-wrap gap-5 underline p-5">

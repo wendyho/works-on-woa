@@ -1,0 +1,50 @@
+---
+import type { CollectionEntry } from "astro:content";
+import type { ProjectFields } from "../../layouts/ProjectLayout.astro";
+import { toTitleCase } from "../../util/formatting";
+type Categories = CollectionEntry<"categories">;
+type Props = {
+  fields: ProjectFields;
+  icon: string;
+  filters: string[];
+  categoriesData: Categories[];
+};
+const { fields, icon, categoriesData, filters } = Astro.props;
+---
+
+<div class="w-full p-5 bg-white text-black rounded-xl relative">
+  <img src={`/icons/${icon}`} width="75px" class="absolute right-0 top-0 m-5" />
+  <ul>
+    {
+      fields.map((field) => (
+        <li>
+          <b data-pagefind-ignore>{toTitleCase(field.key)}</b>
+          {field.type === "array" ? (
+            <p>
+              {(field.value as typeof categoriesData).map((value, index) => (
+                <span data-pagefind-filter={field.key}>
+                  {value.data.name}
+                  {index === categoriesData.length - 1 ? "" : ", "}
+                </span>
+              ))}
+            </p>
+          ) : (
+            <p
+              data-pagefind-filter={filters.includes(field.key) && field.key}
+              data-pagefind-ignore={filters.includes(field.key)}
+              data-pagefind-meta={!filters.includes(field.key) && field.key}
+            >
+              {field.type === "link" ? (
+                <a href={field.value as string} class="text-blue-700">
+                  {field.value}
+                </a>
+              ) : (
+                field.value
+              )}
+            </p>
+          )}
+        </li>
+      ))
+    }
+  </ul>
+</div>
