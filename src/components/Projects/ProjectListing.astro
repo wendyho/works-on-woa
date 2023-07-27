@@ -1,0 +1,38 @@
+---
+import type { CollectionEntry } from "astro:content";
+import { getEntry } from "astro:content";
+type Props = CollectionEntry<"projects">;
+const { id, data } = Astro.props;
+const { icon, name, categories, support } = data;
+
+// get category data from references
+const categoryPromises = categories.map(async (category) =>
+  getEntry("categories", category.id)
+);
+const categoriesData = await Promise.all(categoryPromises);
+---
+
+<a href={`/projects/${id}`} class="w-full md:w-1/2 px-1 cursor-pointer">
+  <li class="flex flex-row items-center bg-white text-black mb-2">
+    <div class="p-1">
+      <img src={`/icons/${icon}`} width="50px" />
+    </div>
+    <div class="border-l border-gray-500 basis-full">
+      <h2 class="font-bold text-xl p-3">{name}</h2>
+      <div class="px-3 flex flex-col md:flex-row gap-3 mb-3">
+        <p>
+          <b>Categories:&nbsp;</b>
+          <span
+            >{
+              categoriesData.map((category) => category.data.name).join(", ")
+            }</span
+          >
+        </p>
+        <p>
+          <b>Support:&nbsp;</b>
+          <span>{support}</span>
+        </p>
+      </div>
+    </div>
+  </li>
+</a>
