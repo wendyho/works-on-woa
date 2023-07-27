@@ -4,8 +4,7 @@ import Header from "../components/Common/Header.astro";
 import Footer from "../components/Common/Footer.astro";
 import { getCollection } from "astro:content";
 import Search from "../components/Search/Search.astro";
-
-const categories = await getCollection("categories");
+import CategoryList from "../components/Categories/CategoryList.astro";
 ---
 
 <!DOCTYPE html>
@@ -27,22 +26,7 @@ const categories = await getCollection("categories");
         </p>
       </div>
       <Search />
-
-      <section class="flex flex-col items-center m-10">
-        <h2 class="font-bold p-3 text-xl">Browse by Category</h2>
-        <ul class="flex flex-row flex-wrap gap-5 underline p-5">
-          <li>
-            <a class="" href="/all/1">all</a>
-          </li>
-          {
-            categories.map((category) => (
-              <li>
-                <a href={`/${category.id}/1`}>{category.data.name}</a>
-              </li>
-            ))
-          }
-        </ul>
-      </section>
+      <CategoryList />
     </main>
     <Footer />
   </body>

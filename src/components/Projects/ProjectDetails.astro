@@ -2,14 +2,16 @@
 import type { CollectionEntry } from "astro:content";
 import type { ProjectFields } from "../../layouts/ProjectLayout.astro";
 import { toTitleCase } from "../../util/formatting";
+import type { AstroComponentFactory } from "astro/dist/runtime/server";
 type Categories = CollectionEntry<"categories">;
 type Props = {
   fields: ProjectFields;
   icon: string;
   filters: string[];
   categoriesData: Categories[];
+  Content: AstroComponentFactory
 };
-const { fields, icon, categoriesData, filters } = Astro.props;
+const { fields, icon, categoriesData, filters, Content } = Astro.props;
 ---
 
 <div class="w-full p-5 bg-white text-black rounded-xl relative">
@@ -17,13 +19,17 @@ const { fields, icon, categoriesData, filters } = Astro.props;
   <ul>
     {
       fields.map((field) => (
-        <li>
+        <li class="mb-2">
           <b data-pagefind-ignore>{toTitleCase(field.key)}</b>
           {field.type === "array" ? (
             <p>
               {(field.value as typeof categoriesData).map((value, index) => (
-                <span data-pagefind-filter={field.key}>
+                <a data-pagefind-filter={field.key} 
+                class="text-blue-700 underline"
+                href={`/${value.slug}/1`}>
                   {value.data.name}
+                </a>
+                <span>
                   {index === categoriesData.length - 1 ? "" : ", "}
                 </span>
               ))}
@@ -35,7 +41,7 @@ const { fields, icon, categoriesData, filters } = Astro.props;
               data-pagefind-meta={!filters.includes(field.key) && field.key}
             >
               {field.type === "link" ? (
-                <a href={field.value as string} class="text-blue-700">
+                <a href={field.value as string} class="text-blue-700 underline">
                   {field.value}
                 </a>
               ) : (
@@ -46,5 +52,16 @@ const { fields, icon, categoriesData, filters } = Astro.props;
         </li>
       ))
     }
+    <li>
+      <b data-pagefind-ignore>Notes</b>
+      <Content />
+    </li>
   </ul>
 </div>
+<style is:inline >
+  a {
+    color: rgb(29 78 216);
+    text-decoration: underline;
+  }
+</style>
+
