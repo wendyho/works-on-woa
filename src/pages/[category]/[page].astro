@@ -8,8 +8,9 @@ export async function getStaticPaths({
 }: {
   paginate: PaginateFunction;
 }) {
+  const categoriesData = await getCollection("categories");
   const categories = [
-    ...(await getCollection("categories")).map((category) => category.id),
+    ...categoriesData.map((category) => category.slug),
     "all",
   ];
   const projects = await getCollection("projects");
@@ -21,18 +22,21 @@ export async function getStaticPaths({
       return (
         c === "all" ||
         cats
-          .map((cat) => cat.id)
-          .includes(c as CollectionEntry<"categories">["id"])
+          .map((cat) => cat.slug)
+          .includes(c as CollectionEntry<"categories">["slug"])
       );
     });
     return paginate(pageData, {
       params: { category: c.toLowerCase() },
       pageSize: 24,
+      props: {
+        categoryData: categoriesData.find((cat) => cat.slug === c)?.data,
+      },
     });
   });
 }
 const { category } = Astro.params;
-const { page } = Astro.props;
+const { page, categoryData } = Astro.props;
 ---
 
-<CategoryLayout page={page} category={category} />
+<CategoryLayout page={page} slug={category} categoryData={categoryData} />

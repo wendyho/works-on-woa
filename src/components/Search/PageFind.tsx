@@ -1,6 +1,6 @@
 import { string } from "astro/zod";
 import "solid-js";
-import { JSX, createResource, createSignal } from "solid-js";
+import { JSX, createEffect, createResource, createSignal } from "solid-js";
 import FilterDropdown from "./FilterDropdown";
 import Results from "./Results";
 import { AiOutlineSearch } from "solid-icons/ai";
@@ -33,7 +33,7 @@ const PageFindNew = () => {
   const [results] = createResource(search, fetchResults);
   const [filterOptions] = createResource(search, fetchFilterOptions);
 
-  // createEffect(() => console.log(search(), results()));
+  createEffect(() => console.log(results(), filterOptions()));
 
   const setFilter: JSX.CustomEventHandlersCamelCase<HTMLInputElement>["onChange"] =
     (e) => {
@@ -87,6 +87,7 @@ const PageFindNew = () => {
           search={search}
           filterOptions={filterOptions}
           setFilter={setFilter}
+          results={results}
         />
       </div>
       <Results results={results} search={search} clearSearch={clearSearch} />
