@@ -2,46 +2,50 @@
 import type { CollectionEntry } from "astro:content";
 import { getEntry } from "astro:content";
 type Props = CollectionEntry<"projects">;
-const { id, data } = Astro.props;
+const { slug, data } = Astro.props;
 const { icon, name, categories, support } = data;
 
 // get category data from references
 const categoryPromises = categories.map(async (category) =>
-  getEntry("categories", category.id)
+  getEntry("categories", category.slug)
 );
 const categoriesData = await Promise.all(categoryPromises);
 ---
 
-<a href={`/projects/${id}`} class="w-full md:w-1/2 px-1 cursor-pointer">
+<div class="w-full md:w-1/2 px-1">
   <li class="flex flex-row items-center bg-white text-black mb-2">
     <div class="p-1">
-      <img src={`/icons/${icon}`} width="50px" />
+      <a href=`/projects/${slug}` class="cursor-pointer">
+        <img src={`/icons/${icon}`} width="50px" />
+      </a>
     </div>
     <div class="border-l border-gray-500 basis-full">
-      <h2 class="font-bold text-xl p-3">{name}</h2>
+      <a href=`/projects/${slug}` class="cursor-pointer">
+        <h2 class="font-bold text-xl p-3">
+          {name}
+        </h2>
+      </a>
       <div class="px-3 flex flex-col md:flex-row gap-3 mb-3">
         <p>
           <b>Categories:&nbsp;</b>
-          <!--
-          <p>
-              
-              {
-              categoriesData.map((category, index) => (
-                <span class="inline">
-                  <a
-                    class="text-blue-700 underline inline"
-                    href={`/${category.id}/1`}
-                  >
-                    {category.data.name}
-                  </a>
-                  {index === categoriesData.length - 1 ? "" : ", "}
+          {
+            categoriesData.map((category, index) => (
+              <a href={`/${category.slug}/1`} class="inline">
+                <span class="text-blue-700 underline">
+                  {category.data.name}
                 </span>
-              ))
-            } 
-          </p>
-          
-          -->
-          {categoriesData.map((category) => category.data.name).join(", ")}
+                {index === categoriesData.length - 1 ? "" : ", "}
+              </a>
+            ))
+          }
+
+          <!-- {
+            categoriesData.map((category) => (
+              <a class="decoration-0">{category.data.name}</a>
+            ))
+          } -->
+
+          <!-- {categoriesData.map((category) => <span>{category.data.name}</span>)} -->
         </p>
         <p>
           <b>Support:&nbsp;</b>
@@ -49,5 +53,9 @@ const categoriesData = await Promise.all(categoryPromises);
         </p>
       </div>
     </div>
+    <a
+      class="p-5 text-5xl text-blue-500 cursor-pointer align-middle inline-block"
+      href={`/projects/${slug}`}>»</a
+    >
   </li>
-</a>
+</div>

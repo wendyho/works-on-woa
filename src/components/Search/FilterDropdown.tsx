@@ -15,9 +15,11 @@ const FilterDropdown = ({
   filterOptions,
   search,
   setFilter,
+  results,
 }: {
   filterOptions: Resource<any>;
   search: Accessor<{ query: string; filters: Filters }>;
+  results: Resource<any>;
   setFilter: JSX.CustomEventHandlersCamelCase<HTMLInputElement>["onChange"];
 }) => {
   const [showFilters, setShowFilters] = createSignal(false);
@@ -48,13 +50,13 @@ const FilterDropdown = ({
         Filter
       </button>
       <Show when={showFilters()}>
-        <div class="absolute bg-white block text-black p-4 w-36 rounded-md mt-2 shadow-xl border">
+        <div class="absolute bg-white block text-black p-4 w-48 rounded-md mt-2 shadow-xl border sm:right-0">
           <ul class="w-full">
             <For each={Object.keys(filterOptions() || {})}>
               {(option, i) => (
                 <li>
                   <b>{option[0].toUpperCase() + option.slice(1)}</b>
-                  <ul class="text-black font-normal mt-3">
+                  <ul class="text-black font-normal my-3">
                     <For each={Object.entries(filterOptions()[option] || {})}>
                       {(filter, i) => (
                         <li class="flex flex-row items-center">
@@ -69,7 +71,11 @@ const FilterDropdown = ({
                             }
                           />
                           <label for={filter[0]} class="ml-2">
-                            {filter[0]}
+                            {`${filter[0]} (${
+                              results().totalFilters[option]
+                                ? results().totalFilters[option][filter[0]]
+                                : filterOptions()[option][filter[0]]
+                            })`}
                           </label>
                         </li>
                       )}
