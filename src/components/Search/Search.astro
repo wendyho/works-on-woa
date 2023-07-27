@@ -1,0 +1,14 @@
+---
+import "@pagefind/default-ui/css/ui.css";
+import PageFind from "./PageFind";
+
+export interface Props {
+  readonly id?: string;
+  readonly className?: string;
+  readonly query?: string;
+}
+---
+
+<section class="px-1 sm:px-10 md:px-20 py-10">
+  <PageFind client:only="solid" />
+</section>

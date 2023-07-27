@@ -3,7 +3,7 @@
 
 @layer base {
 	body {
-		@apply bg-zinc-700 text-white;
+		@apply bg-zinc-800 text-white;
 	}
 	header {
 		@apply bg-zinc-900;
@@ -22,9 +22,7 @@
 		padding: 1.5rem;
 
 	}
-	li {
-		margin-bottom: 1rem;
-	}
+	
 	
 }
 
