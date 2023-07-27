@@ -21,8 +21,8 @@ type Project = CollectionEntry<"projects">;
   </head>
   <body>
     <Header />
-    <main>
-      <section class="flex flex-col items-center">
+    <main class="container mx-auto">
+      <section class="flex flex-col items-center p-1 sm:pb-10 md:px-20 pt-0">
         <h2 class="font-bold p-5 text-xl">
           Category: {slug === "all" ? "All" : categoryData.name}
         </h2>
@@ -35,13 +35,15 @@ type Project = CollectionEntry<"projects">;
           nextUrl={page.url.next}
           lastUrl={`/${slug}/${page.lastPage}`}
         />
-        <ul class="p-4 flex flex-row flex-wrap w-full">
+        <ul class="flex flex-row flex-wrap w-full">
           {page.data.map((project: Project) => <ProjectListing {...project} />)}
         </ul>
       </section>
+
+      <Search />
+      <CategoryList />
     </main>
-    <Search />
-    <CategoryList />
+
     <Footer />
   </body>
 </html>
