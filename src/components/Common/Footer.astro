@@ -28,11 +28,11 @@ const links = [
 ];
 ---
 
-<footer>
+<footer class="bg-zinc-600 mt-auto border-t p-6 text-center">
   <ul class="flex flex-row flex-wrap items-center justify-center w-full mb-5">
     {
       links.map((link) => (
-        <li class="before:border before:border-solid before:border-white">
+        <li class="after:border after:border-solid after:border-white">
           <a class=" text-center p-5" href={link.href}>
             {link.text}
           </a>
@@ -42,9 +42,3 @@ const links = [
   </ul>
   Copyright &copy; {today.getFullYear()} Linaro Limited
 </footer>
-<style>
-  footer {
-    padding: 25px;
-    text-align: center;
-  }
-</style>

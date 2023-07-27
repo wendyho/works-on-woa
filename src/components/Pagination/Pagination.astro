@@ -2,66 +2,66 @@
 import PaginationLink from "./PaginationLink.astro";
 import { getPageNumbers } from "../../util/pagination/getPageNumbers";
 const {
-    length,
-    currentUrl,
-    currentPage,
-    baseUrl,
-    prevUrl,
-    nextUrl,
-    lastUrl,
-    total,
+  length,
+  currentUrl,
+  currentPage,
+  baseUrl,
+  prevUrl,
+  nextUrl,
+  lastUrl,
+  total,
 } = Astro.props;
 console.log(Astro.props);
 const paginationList = Array.from({ length: Number(length) }, (_, i) => i + 1);
 ---
 
 <nav
-    aria-label="Project pages"
-    class="flex flex-row justify-between w-full max-w-xl px-2"
+  aria-label="Project pages"
+  class="flex flex-row justify-between w-full max-w-xl px-2"
 >
-    {
-        currentUrl !== `${baseUrl}/1` ? (
-            <PaginationLink href={`${baseUrl}/1`} currentUrl={currentUrl}>
-                &laquo;
-            </PaginationLink>
-        ) : (
-            <span />
-        )
-    }
-    {
-        prevUrl ? (
-            <PaginationLink href={prevUrl} currentUrl={currentUrl}>
-                {"<"}
-            </PaginationLink>
-        ) : (
-            <span />
-        )
-    }
-    {
-        getPageNumbers(paginationList, currentPage, length).map((num) => (
-            <PaginationLink href={`${baseUrl}/${num}`} currentUrl={currentUrl}>
-                {num}
-            </PaginationLink>
-        ))
-    }
+  {
+    currentUrl !== `${baseUrl}/1` ? (
+      <PaginationLink href={`${baseUrl}/1`} currentUrl={currentUrl}>
+        &laquo;
+      </PaginationLink>
+    ) : (
+      <span />
+    )
+  }
+  {
+    prevUrl ? (
+      <PaginationLink href={prevUrl} currentUrl={currentUrl}>
+        {"<"}
+      </PaginationLink>
+    ) : (
+      <span />
+    )
+  }
+  {
+    getPageNumbers(paginationList, currentPage, length).map((num) => (
+      <PaginationLink href={`${baseUrl}/${num}`} currentUrl={currentUrl}>
+        {num}
+      </PaginationLink>
+    ))
+  }
 
-    {
-        !nextUrl ? (
-            <span />
-        ) : (
-            <PaginationLink href={nextUrl} currentUrl={currentUrl}>
-                {">"}
-            </PaginationLink>
-        )
-    }
+  {
+    !nextUrl ? (
+      <span />
+    ) : (
+      <PaginationLink href={nextUrl} currentUrl={currentUrl}>
+        {">"}
+      </PaginationLink>
+    )
+  }
 
-    {
-        lastUrl == currentUrl ? (
-            <span />
-        ) : (
-            <PaginationLink href={lastUrl} currentUrl={currentUrl}>
-                &raquo;
-            </PaginationLink>
-        )
-    }
+  {
+    lastUrl == currentUrl ? (
+      <span />
+    ) : (
+      <PaginationLink href={lastUrl} currentUrl={currentUrl}>
+        &raquo;
+      </PaginationLink>
+    )
+  }
 </nav>
