@@ -6,8 +6,9 @@ import Pagination from "../components/Pagination/Pagination.astro";
 import Footer from "../components/Common/Footer.astro";
 import Search from "../components/Search/Search.astro";
 import ProjectListing from "../components/Projects/ProjectListing.astro";
+import CategoryList from "../components/Categories/CategoryList.astro";
 
-const { category, page } = Astro.props;
+const { categoryData, page, slug } = Astro.props;
 type Project = CollectionEntry<"projects">;
 ---
 
@@ -22,22 +23,25 @@ type Project = CollectionEntry<"projects">;
     <Header />
     <main>
       <section class="flex flex-col items-center">
-        <h2 class="font-bold p-5 text-xl">Category: {category}</h2>
+        <h2 class="font-bold p-5 text-xl">
+          Category: {slug === "all" ? "All" : categoryData.name}
+        </h2>
         <Pagination
           length={page.lastPage}
-          baseUrl={`/${category}`}
+          baseUrl={`/${slug}`}
           currentUrl={page.url.current}
           currentPage={page.currentPage}
           prevUrl={page.url.prev}
           nextUrl={page.url.next}
-          lastUrl={`/${category}/${page.lastPage}`}
+          lastUrl={`/${slug}/${page.lastPage}`}
         />
         <ul class="p-4 flex flex-row flex-wrap w-full">
           {page.data.map((project: Project) => <ProjectListing {...project} />)}
         </ul>
       </section>
-      <Search />
     </main>
+    <Search />
+    <CategoryList />
     <Footer />
   </body>
 </html>
