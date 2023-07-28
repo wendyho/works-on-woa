@@ -12,40 +12,34 @@ const categoryPromises = categories.map(async (category) =>
 const categoriesData = await Promise.all(categoryPromises);
 ---
 
-<div class="w-full md:w-1/2 px-1">
-  <li class="flex flex-row items-center bg-white text-black mb-2">
-    <div class="p-1">
+<div class="w-full lg:w-1/2 px-1">
+  <li
+    class="flex flex-row items-center bg-black bg-opacity-30 text-white mb-2 min-h-28 rounded-md"
+  >
+    <div class="p-4 h-full flex flex-col justify-center">
       <a href=`/projects/${slug}` class="cursor-pointer">
-        <img src={`/icons/${icon}`} width="50px" />
+        <img src={`/icons/${icon}`} width="75px" />
       </a>
     </div>
-    <div class="border-l border-gray-500 basis-full">
+    <div class="border-l border-gray-500 basis-full h-full">
       <a href=`/projects/${slug}` class="cursor-pointer">
         <h2 class="font-bold text-xl p-3">
           {name}
         </h2>
       </a>
-      <div class="px-3 flex flex-col md:flex-row gap-3 mb-3">
+      <div class="px-3 flex flex-col sm:flex-row gap-3 mb-3">
         <p>
           <b>Categories:&nbsp;</b>
           {
             categoriesData.map((category, index) => (
               <a href={`/${category.slug}/1`} class="inline">
-                <span class="text-blue-700 underline">
+                <span class="text-blue-400 underline">
                   {category.data.name}
                 </span>
                 {index === categoriesData.length - 1 ? "" : ", "}
               </a>
             ))
           }
-
-          <!-- {
-            categoriesData.map((category) => (
-              <a class="decoration-0">{category.data.name}</a>
-            ))
-          } -->
-
-          <!-- {categoriesData.map((category) => <span>{category.data.name}</span>)} -->
         </p>
         <p>
           <b>Support:&nbsp;</b>
