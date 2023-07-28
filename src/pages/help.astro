@@ -1,0 +1,76 @@
+---
+import BaseHead from "../components/Common/BaseHead.astro";
+import Header from "../components/Common/Header.astro";
+import Footer from "../components/Common/Footer.astro";
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <BaseHead
+      title={"Windows on Arm"}
+      description={"Find projects supported by Windows on Arm"}
+    />
+  </head>
+  <body class="min-h-screen flex flex-col">
+    <Header />
+    <main class="container mx-auto">
+      <div class="px-10 md:px-20 py-5">
+        <p class="text-xl my-5 text-center">
+          Help about this site
+        </p>
+      </div>
+      <div>
+        <p>This website provides information about a number of applications and their status with regards to running on Windows on Arm.</p>
+        <br/>
+        <p>Applications are grouped by category and an application can be classified by more than one category. The bottom of the home page allows you to see all applications or those in a specific category.</p>
+        <br/>
+        <p>For each application, there is a <b>Support</b> field that can be one of the following values:</p>
+        <br/>
+        <style type="text/css">
+            .tg  {border-collapse:collapse;border-color:#ccc;border-spacing:0;}
+            .tg td{background-color:#fff;border-color:#ccc;border-style:solid;border-width:1px;color:#333;
+              font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
+            .tg th{background-color:#f0f0f0;border-color:#ccc;border-style:solid;border-width:1px;color:#333;
+              font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+            .tg .tg-0lax{text-align:left;vertical-align:top}
+            .tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+        </style>
+        <table class="tg">
+        <thead>
+            <tr>
+            <th class="tg-0lax"><span style="font-weight:bold">Value</span></th>
+            <th class="tg-0lax"><span style="font-weight:bold">Meaning</span></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+            <td class="tg-0pky">native</td>
+            <td class="tg-0pky">Windows on Arm (WoA) native support available</td>
+            </tr>
+            <tr>
+            <td class="tg-0pky">emulation</td>
+            <td class="tg-0pky">Works with x86/x64 emulation</td>
+            </tr>
+            <tr>
+            <td class="tg-0pky">no</td>
+            <td class="tg-0pky">not yet ported</td>
+            </tr>
+            <tr>
+            <td class="tg-0pky">unknown</td>
+            <td class="tg-0pky">status not known</td>
+            </tr>
+        </tbody>
+        </table>
+        <br/>
+        <p>The <b>Version From</b> field shows the publicly available version that provides the above stated level of support.</p>
+        <br/>
+        <p>The <b>Link</b> field takes you to the main website for this application.</p>
+        <br/>
+        <p>Contributions to this site are welcome and details can be found in the <a href="https://github.com/Linaro/works-on-woa">git repository</a>.</p>
+        <br/>
+      </div>
+    </main>
+    <Footer />
+  </body>
+</html>
