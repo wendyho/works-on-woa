@@ -17,9 +17,16 @@ A repository maintainer can then merge all changes from staging to main in order
 
 ## Contributing
 
-Each project is represented by its own file, which is stored under `src/content/projects`. A project's file is named after the project and has a `.yaml` file extension.
+Each project is represented by its own file, which is stored under `src/content/projects`. A project's file is named after the project and has a `.md` file extension.
 
-Each project file contains the following information:
+Each file consists of:
+
+* 3 dashes `---`
+* Project-specific information as detailed below
+* 3 dashes `---`
+* Any additional notes in GitHub Markdown format
+
+Project-specific information is included in the `.md` file as follows:
 
 | Field | Type | Notes |
 |-------|------|-------|
@@ -29,7 +36,11 @@ Each project file contains the following information:
 | `support` | enum <ul><li>`native`<li>`emulation`<li>`no`<li>`unknown`</ul>| Windows on Arm support:<br>Native: WoA native support available<br>Emulation: Works with x86/x64 emulation<br>No: Not yet ported<br>Unknown: Status not known |
 | `versionFrom` | string | The version that the software is available to use from.<br><br>For software that can be compiled from one version, but is only publicly available from the other (ie, Python was able to be compiled way earlier than they started making WoA releases), the publicly available version is to be entered here, as that is typically what most end users would want.<br><br>The compilable from version (and any caveats associated with it) can be added freehand in the notes section. |
 | `link` | URL | A link to the project's main website |
-| `notes` | string | Any other general notes for the project |
+
+All fields are required. If there are any missing fields, the website will (deliberately) not build.
+
+For the category list, this is constructed with an open square bracket `[`, one or more categories separated by commas and a close square bracket `]`.
+
 
 ## Questions?
 
