@@ -26,6 +26,9 @@ type Project = CollectionEntry<"projects">;
         <h2 class="font-bold p-5 text-xl">
           Category: {slug === "all" ? "All" : categoryData.name}
         </h2>
+        <ul class="flex flex-row flex-wrap w-full">
+          {page.data.map((project: Project) => <ProjectListing {...project} />)}
+        </ul>
         <Pagination
           length={page.lastPage}
           baseUrl={`/${slug}`}
@@ -35,9 +38,6 @@ type Project = CollectionEntry<"projects">;
           nextUrl={page.url.next}
           lastUrl={`/${slug}/${page.lastPage}`}
         />
-        <ul class="flex flex-row flex-wrap w-full">
-          {page.data.map((project: Project) => <ProjectListing {...project} />)}
-        </ul>
       </section>
 
       <Search />
