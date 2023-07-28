@@ -10,7 +10,7 @@ const Result = ({ result }: { result: any }) => {
 
   return (
     <a href={project()?.url} class="cursor-pointer">
-      <li class="flex flex-row items-center bg-black bg-opacity-30 text-white rounded-md mb-2">
+      <li class="flex flex-row items-center bg-white bg-opacity-10 text-white rounded-md mb-2 no-underline">
         <div class="p-5">
           <img src={project()?.meta.image} width="50px" />
         </div>
