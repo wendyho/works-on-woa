@@ -10,13 +10,13 @@ const Result = ({ result }: { result: any }) => {
 
   return (
     <a href={project()?.url} class="cursor-pointer">
-      <li class="flex flex-row items-center bg-white text-black rounded-2xl mb-2">
+      <li class="flex flex-row items-center bg-black bg-opacity-30 text-white rounded-md mb-2">
         <div class="p-5">
           <img src={project()?.meta.image} width="50px" />
         </div>
         <div class="border-l border-gray-500 basis-full">
-          <h2 class="font-bold text-2xl p-3 ">{project()?.meta.title}</h2>
-          <div class="px-3 flex flex-row gap-3 mb-3">
+          <h2 class="font-bold text-xl p-3 ">{project()?.meta.title}</h2>
+          <div class="px-3 flex flex-col sm:flex-row gap-3 mb-3">
             <p>
               <b>Categories: </b>
               <span>{project()?.filters.categories.join(", ")}</span>
