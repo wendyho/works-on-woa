@@ -33,8 +33,6 @@ const PageFindNew = () => {
   const [results] = createResource(search, fetchResults);
   const [filterOptions] = createResource(search, fetchFilterOptions);
 
-  createEffect(() => console.log(results(), filterOptions()));
-
   const setFilter: JSX.CustomEventHandlersCamelCase<HTMLInputElement>["onChange"] =
     (e) => {
       const prev = search();

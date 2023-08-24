@@ -33,8 +33,6 @@ const Result = ({ result }: { result: any }) => {
 };
 
 const Results = ({ results, search, clearSearch }: any) => {
-  createEffect(() => console.log(search().query.length));
-
   return (
     <Show
       when={

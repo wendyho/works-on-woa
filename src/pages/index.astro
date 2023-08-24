@@ -1,32 +1,19 @@
 ---
-import BaseHead from "../components/Common/BaseHead.astro";
-import Header from "../components/Common/Header.astro";
-import Footer from "../components/Common/Footer.astro";
-import { getCollection } from "astro:content";
-import Search from "../components/Search/Search.astro";
-import CategoryList from "../components/Categories/CategoryList.astro";
+import { CollectionEntry, getCollection } from "astro:content";
+import CategoryLayout from "../layouts/CategoryLayout.astro";
+import type { PaginateFunction } from "astro";
+
+const projects = await getCollection("projects");
+
+const page = {
+  data: projects.slice(0, 24),
+  lastPage: Math.ceil(projects.length / 24),
+  currentPage: 1,
+  url: {
+    current: "/all/1",
+    nextUrl: "all/2",
+  },
+};
 ---
 
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <BaseHead
-      title={"Windows on Arm"}
-      description={"Find projects supported by Windows on Arm"}
-    />
-  </head>
-  <body class="min-h-screen flex flex-col">
-    <Header />
-    <main class="container mx-auto">
-      <div class="px-10 md:px-20 py-5">
-        <p class="text-xl my-5 text-center">
-          This page shows whether popular Windows applications natively support
-          Windows on Arm
-        </p>
-      </div>
-      <Search />
-      <CategoryList />
-    </main>
-    <Footer />
-  </body>
-</html>
+<CategoryLayout page={page} slug={"all"} />
