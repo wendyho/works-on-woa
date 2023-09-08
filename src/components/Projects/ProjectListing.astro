@@ -3,7 +3,7 @@ import type { CollectionEntry } from "astro:content";
 import { getEntry } from "astro:content";
 type Props = CollectionEntry<"projects">;
 const { slug, data } = Astro.props;
-const { icon, name, categories, support } = data;
+const { icon, name, categories, support, versionFrom } = data;
 
 // get category data from references
 const categoryPromises = categories.map(async (category) =>
@@ -12,11 +12,11 @@ const categoryPromises = categories.map(async (category) =>
 const categoriesData = await Promise.all(categoryPromises);
 ---
 
-<div class="w-full lg:w-1/2 px-1">
-  <li
+<li class="w-full lg:w-1/2 px-1">
+  <div
     class="flex flex-row items-center bg-white bg-opacity-10 text-white mb-2 min-h-28 rounded-md"
   >
-    <div class="p-4 h-full flex flex-col justify-center">
+    <div class="p-4 h-full flex flex-col justify-center basis-24">
       <a href=`/projects/${slug}` class="cursor-pointer">
         <img src={`/icons/${icon}`} width="75px" class="max-h-14" />
       </a>
@@ -27,8 +27,8 @@ const categoriesData = await Promise.all(categoryPromises);
           {name}
         </h2>
       </a>
-      <div class="px-3 flex flex-col sm:flex-row gap-3 mb-3">
-        <p>
+      <div class="px-3">
+        <p class="mb-3">
           <b>Categories:&nbsp;</b>
           {
             categoriesData.map((category, index) => (
@@ -41,15 +41,21 @@ const categoriesData = await Promise.all(categoryPromises);
             ))
           }
         </p>
-        <p>
-          <b>Support:&nbsp;</b>
-          <span>{support}</span>
-        </p>
+        <div class="flex flex-col md:flex-row gap-3 mb-3">
+          <p>
+            <b>Support:&nbsp;</b>
+            <span>{support}</span>
+          </p>
+          <p class="break-all">
+            <b>Version:&nbsp;</b>
+            <span class="min-w-0">{versionFrom}</span>
+          </p>
+        </div>
       </div>
     </div>
     <a
       class="p-5 text-5xl text-blue-500 cursor-pointer align-middle inline-block"
       href={`/projects/${slug}`}>»</a
     >
-  </li>
-</div>
+  </div>
+</li>
