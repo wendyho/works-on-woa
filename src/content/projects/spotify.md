@@ -1,7 +1,7 @@
 ---
 name: Spotify
 icon: spotify.svg
-categories: [Music, App]
+categories: [Audio, App, MSStore]
 link: https://www.microsoft.com/store/productid/9NCBCSZSJRSB
 support: native
 versionFrom: "1.2.20.1210"
