@@ -1,4 +1,4 @@
 ---
 name: Application
-description: application software
+description: An installable, executable software application
 ---
