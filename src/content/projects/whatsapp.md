@@ -1,7 +1,7 @@
 ---
 name: WhatsApp
 icon: WhatsApp.png
-categories: [Comms, App, MSStore]
+categories: [comms, app, msstore]
 link: https://www.microsoft.com/store/productid/9NKSQGP7F2NH
 support: emulated
 versionFrom: "2.2300.0.0"
