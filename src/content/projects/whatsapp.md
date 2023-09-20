@@ -1,6 +1,6 @@
 ---
 name: WhatsApp
-icon: WhatsApp.png
+icon: WhatsApp.svg
 categories: [comms, app, msstore]
 link: https://www.microsoft.com/store/productid/9NKSQGP7F2NH
 support: emulated
