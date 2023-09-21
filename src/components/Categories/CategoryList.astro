@@ -2,6 +2,7 @@
 import { getCollection } from "astro:content";
 import CategoryButton from "./CategoryButton.astro";
 const categories = await getCollection("categories");
+const { current } = Astro.props;
 ---
 
 <section class="flex flex-col items-center px-10 pb-10">
@@ -11,14 +12,18 @@ const categories = await getCollection("categories");
   >
     <li>
       <a class="text-white" href="/all/1">
-        <CategoryButton>All</CategoryButton></a
+        <CategoryButton isCurrent={current.includes("all")}>
+          All
+        </CategoryButton></a
       >
     </li>
     {
       categories.map((category) => (
         <li>
           <a href={`/${category.slug}/1`} class="text-white">
-            <CategoryButton>{category.data.name}</CategoryButton>
+            <CategoryButton isCurrent={current.includes(category.slug)}>
+              {category.data.name}
+            </CategoryButton>
           </a>
         </li>
       ))
