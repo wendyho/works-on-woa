@@ -89,7 +89,7 @@ const filters = ["categories", "support"];
         />
       </section>
       <Search />
-      <CategoryList categories={categories} />
+      <CategoryList current={categoriesData.map((category) => category.slug)} />
     </main>
     <Footer />
   </body>
