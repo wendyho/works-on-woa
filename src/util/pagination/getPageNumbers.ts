@@ -4,7 +4,6 @@ export const getPageNumbers = (
   currentPage: number,
   total: number
 ) => {
-  console.log(currentPage, total);
   const offset = visiblePages / 2;
   if (currentPage <= offset) {
     return paginationList.slice(0, 10);
