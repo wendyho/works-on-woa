@@ -1,5 +1,5 @@
 import "solid-js";
-import { For, Show, createEffect, createResource } from "solid-js";
+import { For, Match, Switch, createResource } from "solid-js";
 
 const getProject = async (result: any) => {
   return await result.data();
@@ -34,14 +34,27 @@ const Result = ({ result }: { result: any }) => {
 
 const Results = ({ results, search, clearSearch }: any) => {
   return (
-    <Show
-      when={
-        !search() ||
-        !results() ||
-        search().query.length === 0 ||
-        results().results.length > 0
-      }
-      fallback={
+    <Switch fallback={<></>}>
+      <Match when={results.loading}>
+        <div class="w-full flex flex-col items-center gap-3 p-10">
+          Loading results...
+        </div>
+      </Match>
+      <Match
+        when={
+          !search() ||
+          !results() ||
+          search().query.length === 0 ||
+          results().results.length > 0
+        }
+      >
+        <ul>
+          <For each={results()?.results}>
+            {(result) => <Result result={result} />}
+          </For>
+        </ul>
+      </Match>
+      <Match when={search().query.length > 0 && results().results.length === 0}>
         <div class="w-full flex flex-col items-center gap-3 p-10">
           No Results
           <button
@@ -51,14 +64,8 @@ const Results = ({ results, search, clearSearch }: any) => {
             Clear search
           </button>
         </div>
-      }
-    >
-      <ul>
-        <For each={results()?.results}>
-          {(result) => <Result result={result} />}
-        </For>
-      </ul>
-    </Show>
+      </Match>
+    </Switch>
   );
 };
 
