@@ -26,7 +26,8 @@ type Project = CollectionEntry<"projects">;
         <h2 class="font-bold p-5 text-xl">
           Category: {slug === "all" ? "All" : categoryData.name}
         </h2>
-        <ul class="flex flex-row flex-wrap w-full">
+        <!-- <ul class="flex flex-row flex-wrap w-full"> -->
+        <ul class="grid grid-cols-1 lg:grid-cols-2">
           {page.data.map((project: Project) => <ProjectListing {...project} />)}
         </ul>
         <Pagination
@@ -42,8 +43,8 @@ type Project = CollectionEntry<"projects">;
 
       <Search />
       <CategoryList />
-    </main>
 
-    <Footer />
+      <Footer />
+    </main>
   </body>
 </html>
