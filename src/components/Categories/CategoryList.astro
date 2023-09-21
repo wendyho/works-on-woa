@@ -1,19 +1,24 @@
 ---
 import { getCollection } from "astro:content";
+import CategoryButton from "./CategoryButton.astro";
 const categories = await getCollection("categories");
 ---
 
 <section class="flex flex-col items-center px-10 pb-10">
   <h2 class="font-bold p-3 text-xl">Browse by Category</h2>
-  <ul class="flex flex-row flex-wrap gap-5 underline p-5 text-white">
+  <ul
+    class="flex flex-row flex-wrap justify-center gap-5 underline p-5 text-white"
+  >
     <li>
-      <a class="text-white" href="/all/1">All</a>
+      <a class="text-white" href="/all/1">
+        <CategoryButton>All</CategoryButton></a
+      >
     </li>
     {
       categories.map((category) => (
         <li>
           <a href={`/${category.slug}/1`} class="text-white">
-            {category.data.name}
+            <CategoryButton>{category.data.name}</CategoryButton>
           </a>
         </li>
       ))
