@@ -10,6 +10,7 @@ import {
   onMount,
 } from "solid-js";
 import type { Filters } from "./PageFind";
+import { VsListFilter } from "solid-icons/vs";
 
 const FilterDropdown = ({
   filterOptions,
@@ -44,10 +45,11 @@ const FilterDropdown = ({
   return (
     <div class="basis-1/12 gap-3 relative inline-block" ref={ref!}>
       <button
-        class="px-10 py-2 bg-blue-500 hover:bg-blue-700 border-white border rounded-full h-full"
+        class="px-10 py-2 bg-white hover:bg-slate-300 border-white border rounded-full h-full flex items-center gap-3 text-black font-bold"
         onClick={toggleFilters}
       >
         Filter
+        <VsListFilter size={24} color="#000" />
       </button>
       <Show when={showFilters()}>
         <div class="absolute bg-white block text-black p-4 w-48 rounded-md mt-2 shadow-xl border sm:right-0">

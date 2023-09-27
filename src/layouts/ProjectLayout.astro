@@ -3,15 +3,12 @@ import { getEntry, type CollectionEntry } from "astro:content";
 import BaseHead from "../components/Common/BaseHead.astro";
 import Header from "../components/Common/Header.astro";
 import Footer from "../components/Common/Footer.astro";
-import { toTitleCase } from "../util/formatting";
 import Search from "../components/Search/Search.astro";
 import ProjectDetails from "../components/Projects/ProjectDetails.astro";
-import Breadcrumbs from "../components/Common/Breadcrumbs.astro";
-import CategoryList from "../components/Categories/CategoryList.astro";
 
-type Props = CollectionEntry<"projects">;
+type Props = CollectionEntry<"projects"> & { date: Date };
 
-const { data, slug, render } = Astro.props;
+const { data, slug, render, date } = Astro.props;
 
 const { Content } = await render();
 
@@ -77,8 +74,13 @@ const filters = ["categories", "support"];
 
   <body class="min-h-screen flex flex-col">
     <Header />
-    <main data-pagefind-body class="container mx-auto">
-      <section class="flex flex-col items-center p-1 sm:pb-10 md:px-20 pt-0">
+    <main class="max-w-5xl mx-auto px-5 w-full">
+      <Search />
+
+      <section
+        data-pagefind-body
+        class="flex flex-col items-center p-1 sm:pb-10 pt-0"
+      >
         <h1 class="font-bold text-3xl px-0 self-start">{name}</h1>
         <ProjectDetails
           fields={fields}
@@ -87,9 +89,16 @@ const filters = ["categories", "support"];
           filters={filters}
           Content={Content}
         />
+        <p class="w-full py-6">
+          Last updated {
+            date.toLocaleDateString("en-gb", {
+              year: "numeric",
+              month: "long",
+              day: "numeric",
+            })
+          }
+        </p>
       </section>
-      <Search />
-      <CategoryList current={categoriesData.map((category) => category.slug)} />
     </main>
     <Footer />
   </body>

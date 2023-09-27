@@ -3,7 +3,7 @@ name: Qt
 icon: qt.svg
 categories: [oss, dev-tools, library]
 link: https://www.qt.io
-support: native
+compatibility: native
 versionFrom: "6.2"
 ---
 

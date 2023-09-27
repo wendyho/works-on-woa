@@ -3,7 +3,7 @@ name: OpenBLAS
 icon: openblas.svg
 categories: [oss, dev-tools]
 link: https://www.openblas.net/
-support: native
+compatibility: native
 versionFrom: "0.3.21"
 ---
 

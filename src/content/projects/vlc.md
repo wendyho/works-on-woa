@@ -1,9 +1,9 @@
 ---
 name: VLC
 icon: vlc.svg
-categories: [oss, software]
+categories: [oss]
 link: https://videolan.org/
-support: native
+compatibility: native
 versionFrom: "v4 alpha"
 ---
 
