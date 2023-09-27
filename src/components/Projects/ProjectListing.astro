@@ -3,7 +3,7 @@ import type { CollectionEntry } from "astro:content";
 import { getEntry } from "astro:content";
 type Props = CollectionEntry<"projects">;
 const { slug, data } = Astro.props;
-const { icon, name, categories, support, versionFrom } = data;
+const { icon, name, categories, compatibility, versionFrom } = data;
 
 // get category data from references
 const categoryPromises = categories.map(async (category) =>
@@ -27,7 +27,7 @@ const categoriesData = await Promise.all(categoryPromises);
           {name}
         </h2>
       </a>
-      <div class="px-3">
+      <div class="px-3 break-all">
         <p class="mb-3">
           <b>Categories:&nbsp;</b>
           {
@@ -43,8 +43,8 @@ const categoriesData = await Promise.all(categoryPromises);
         </p>
         <div class="flex flex-col xl:flex-row gap-3 mb-3">
           <p>
-            <b>Support:&nbsp;</b>
-            <span>{support}</span>
+            <b>Compatiblity:&nbsp;</b>
+            <span>{compatibility}</span>
           </p>
           <p class="break-all text-orange-200">
             <b>Version:&nbsp;</b>
@@ -54,7 +54,7 @@ const categoriesData = await Promise.all(categoryPromises);
       </div>
     </div>
     <a
-      class="p-5 text-5xl text-blue-500 cursor-pointer align-middle inline-block"
+      class="p-5 text-5xl text-blue-500 cursor-pointer align-middle inline-block hidden sm:block"
       href={`/projects/${slug}`}>»</a
     >
   </div>

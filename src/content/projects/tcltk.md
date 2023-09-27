@@ -3,7 +3,7 @@ name: Tcl/Tk
 icon: tcltk.svg
 categories: [oss, dev-tools, library]
 link: https://www.tcl.tk
-support: native
+compatibility: native
 versionFrom: "8.6"
 ---
 
