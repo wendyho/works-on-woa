@@ -8,7 +8,7 @@ import ProjectDetails from "../components/Projects/ProjectDetails.astro";
 
 type Props = CollectionEntry<"projects"> & { date: Date };
 
-const { data, slug, render, date } = Astro.props;
+const { data, render, date } = Astro.props;
 
 const { Content } = await render();
 

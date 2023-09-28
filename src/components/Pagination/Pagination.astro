@@ -1,16 +1,8 @@
 ---
 import PaginationLink from "./PaginationLink.astro";
 import { getPageNumbers } from "../../util/pagination/getPageNumbers";
-const {
-  length,
-  currentUrl,
-  currentPage,
-  baseUrl,
-  prevUrl,
-  nextUrl,
-  lastUrl,
-  total,
-} = Astro.props;
+const { length, currentUrl, currentPage, baseUrl, prevUrl, nextUrl, lastUrl } =
+  Astro.props;
 const paginationList = Array.from({ length: Number(length) }, (_, i) => i + 1);
 ---
 
