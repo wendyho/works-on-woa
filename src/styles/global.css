@@ -7,13 +7,11 @@
 	body {
 		@apply bg-zinc-800 text-white;
 	}
-	header {
-		@apply bg-zinc-900;
-	}
+	
 	h1 {
 		font-weight: bold;
 		width: auto;
-		padding: 2rem;
+		padding-bottom: 2rem;
 
 	}
 	h2 {

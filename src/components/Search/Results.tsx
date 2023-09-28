@@ -1,5 +1,5 @@
 import "solid-js";
-import { For, Match, Switch, createResource } from "solid-js";
+import { For, Match, Switch, createEffect, createResource } from "solid-js";
 
 const getProject = async (result: any) => {
   return await result.data();
@@ -8,11 +8,18 @@ const getProject = async (result: any) => {
 const Result = ({ result }: { result: any }) => {
   const [project] = createResource(result, getProject);
 
+  createEffect(() => {
+    console.log(project());
+  });
   return (
     <a href={project()?.url} class="cursor-pointer">
       <li class="flex flex-row items-center bg-white bg-opacity-10 text-white rounded-md mb-2 no-underline">
         <div class="p-5">
-          <img src={project()?.meta.image} width="50px" />
+          <img
+            src={project()?.meta.image}
+            width="50px"
+            class="min-h-[50px] min-w-[50px]"
+          />
         </div>
         <div class="border-l border-gray-500 basis-full">
           <h2 class="font-bold text-xl p-3 ">{project()?.meta.title}</h2>
@@ -22,8 +29,8 @@ const Result = ({ result }: { result: any }) => {
               <span>{project()?.filters.categories.join(", ")}</span>
             </p>
             <p>
-              <b>Support: </b>
-              <span>{project()?.filters.support.join(", ")}</span>
+              <b>Compatibility: </b>
+              <span>{project()?.filters.compatibility.join(", ")}</span>
             </p>
           </div>
         </div>
@@ -33,9 +40,10 @@ const Result = ({ result }: { result: any }) => {
 };
 
 const Results = ({ results, search, clearSearch }: any) => {
+  createEffect(() => console.log(results(), search()));
   return (
     <Switch fallback={<></>}>
-      <Match when={results.loading}>
+      <Match when={search().query.length > 0 && results.loading}>
         <div class="w-full flex flex-col items-center gap-3 p-10">
           Loading results...
         </div>
@@ -58,7 +66,7 @@ const Results = ({ results, search, clearSearch }: any) => {
         <div class="w-full flex flex-col items-center gap-3 p-10">
           No Results
           <button
-            class="px-10 py-2 bg-blue-500 hover:bg-blue-700 border-white border rounded-full"
+            class="px-10 py-2 bg-white hover:bg-slate-300 border-white text-black font-bold border rounded-full"
             onClick={clearSearch}
           >
             Clear search

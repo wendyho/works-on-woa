@@ -3,7 +3,7 @@ name: WhatsApp
 icon: WhatsApp.svg
 categories: [comms, app, msstore]
 link: https://www.microsoft.com/store/productid/9NKSQGP7F2NH
-support: emulation
+compatibility: emulation
 versionFrom: "2.2300.0.0"
 ---
 

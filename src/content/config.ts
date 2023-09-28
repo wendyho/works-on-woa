@@ -16,7 +16,7 @@ const projects = defineCollection({
     categories: z.array(reference("categories")),
     link: z.string().url(),
     versionFrom: z.coerce.string(),
-    support: z.enum([
+    compatibility: z.enum([
       "native",
       "native (unreleased)",
       "emulation",

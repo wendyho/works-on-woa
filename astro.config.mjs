@@ -9,7 +9,14 @@ import solidJs from "@astrojs/solid-js";
 export default defineConfig({
   site: "https://example.com",
   output: "static",
-  integrations: [pagefind(), sitemap(), tailwind(), solidJs()],
+  integrations: [
+    pagefind(),
+    sitemap(),
+    tailwind({
+      applyBaseStyles: false,
+    }),
+    solidJs(),
+  ],
   cacheDir: "./cache",
   compressHTML: true,
   build: {

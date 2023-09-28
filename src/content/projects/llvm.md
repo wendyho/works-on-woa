@@ -3,7 +3,7 @@ name: LLVM / Clang
 icon: llvm.svg
 categories: [oss, dev-tools]
 link: https://llvm.org/
-support: native
+compatibility: native
 versionFrom: "6.2"
 ---
 
