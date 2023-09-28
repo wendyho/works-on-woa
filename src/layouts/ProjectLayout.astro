@@ -49,7 +49,13 @@ const fields = [
 export type ProjectFields = typeof fields;
 
 // sort fields
-const sortOrder = ["support", "categories", "versionFrom", "link", "notes"];
+const sortOrder = [
+  "compatibiliRty",
+  "categories",
+  "versionFrom",
+  "link",
+  "notes",
+];
 
 const sortKeys = sortOrder.reduce((obj: any, item: string, index: number) => {
   return {
@@ -61,20 +67,20 @@ const sortKeys = sortOrder.reduce((obj: any, item: string, index: number) => {
 fields.sort((a, b) => sortKeys[a.key] - sortKeys[b.key]);
 
 // list filtering fields
-const filters = ["categories", "support"];
+const filters = ["categories", "compatibility"];
 ---
 
 <html lang="en">
   <head>
     <BaseHead
-      title={name}
-      description={`Windows on ARM compatibility details for ${name}`}
+      title={name + " | Windows on Arm"}
+      description={`Windows on Arm compatibility details for ${name}`}
     />
   </head>
 
   <body class="min-h-screen flex flex-col">
     <Header />
-    <main class="max-w-5xl mx-auto px-5 w-full">
+    <main class="max-w-5xl mx-auto px-2 sm:px-5 w-full">
       <Search />
 
       <section
