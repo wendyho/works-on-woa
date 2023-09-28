@@ -3,7 +3,7 @@ name: node.js
 icon: node.svg
 categories: [oss, dev-tools]
 link: https://nodejs.org/
-support: native
+compatibility: native
 versionFrom: "20.0"
 ---
 

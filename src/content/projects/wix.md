@@ -3,7 +3,7 @@ name: Wix Toolset
 icon: wix.svg
 categories: [oss, dev-tools, library]
 link: https://wixtoolset.org/
-support: native
+compatibility: native
 versionFrom: "v4"
 ---
 

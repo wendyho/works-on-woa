@@ -5,11 +5,13 @@ import {
   JSX,
   Resource,
   Show,
+  createEffect,
   createSignal,
   onCleanup,
   onMount,
 } from "solid-js";
 import type { Filters } from "./PageFind";
+import { VsListFilter } from "solid-icons/vs";
 
 const FilterDropdown = ({
   filterOptions,
@@ -41,16 +43,33 @@ const FilterDropdown = ({
     document.removeEventListener("click", handleClick);
   });
 
+  const [filterCount, setFilterCount] = createSignal(0);
+
+  createEffect(() =>
+    setFilterCount(
+      Object.values(search().filters).reduce(
+        (prev, option) => prev + option.length,
+        0
+      )
+    )
+  );
+
   return (
     <div class="basis-1/12 gap-3 relative inline-block" ref={ref!}>
       <button
-        class="px-10 py-2 bg-blue-500 hover:bg-blue-700 border-white border rounded-full h-full"
+        class="px-10 py-2 bg-white hover:bg-slate-300 border-white border rounded-full h-full flex items-center gap-3 text-black font-bold"
         onClick={toggleFilters}
       >
-        Filter
+        <span class="sm:whitespace-nowrap sm:min-w-[9ch]">
+          Filters {filterCount() ? `(${filterCount()})` : ""}
+        </span>
+        <VsListFilter size={24} color="#000" />
       </button>
       <Show when={showFilters()}>
-        <div class="absolute bg-white block text-black p-4 w-48 rounded-md mt-2 shadow-xl border sm:right-0">
+        <div
+          class="absolute bg-white block text-black p-4 w-48 rounded-md mt-2 shadow-xl border sm:right-0"
+          role="listbox"
+        >
           <ul class="w-full">
             <For each={Object.keys(filterOptions() || {})}>
               {(option, i) => (
@@ -61,6 +80,7 @@ const FilterDropdown = ({
                       {(filter, i) => (
                         <li class="flex flex-row items-center">
                           <input
+                            role="option"
                             type="checkbox"
                             name={filter[0]}
                             data-option={option}

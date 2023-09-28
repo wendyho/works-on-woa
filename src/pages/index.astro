@@ -1,7 +1,6 @@
 ---
-import { CollectionEntry, getCollection } from "astro:content";
+import { getCollection } from "astro:content";
 import CategoryLayout from "../layouts/CategoryLayout.astro";
-import type { PaginateFunction } from "astro";
 
 const projects = await getCollection("projects");
 

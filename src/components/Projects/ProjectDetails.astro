@@ -41,7 +41,7 @@ const { fields, icon, categoriesData, filters, Content } = Astro.props;
               data-pagefind-meta={!filters.includes(field.key) && field.key}
             >
               {field.type === "link" ? (
-                <a href={field.value as string} class="text-blue-700 underline">
+                <a href={field.value as string} class="text-blue-700 underline break-all">
                   {field.value}
                 </a>
               ) : (
