@@ -23,15 +23,12 @@ const CategoryDropdown = ({
   const [selected, setSelected] = createSignal<
     CollectionEntry<"categories">["slug"] | undefined
   >(categories[0].slug);
-  const onShowResults = () => {
-    console.log("button click");
-  };
+  const onShowResults = () => {};
 
   let categoryRef: HTMLDivElement;
   const handleClickCategory = (event: MouseEvent) => {
     console.log(categoryRef.contains(event.target as Node));
     if (!categoryRef.contains(event.target as Node)) {
-      console.log("click outside");
       setShowResults(false);
       setResults(categories);
       return;
@@ -67,7 +64,7 @@ const CategoryDropdown = ({
   };
 
   return (
-    <div class="relative mb-6" ref={categoryRef!}>
+    <div class="relative w-full" ref={categoryRef!}>
       <div class="flex items-center justify-center gap-2 relative">
         <p class="text-xl h-8">Category: </p>
         <span>
@@ -90,9 +87,10 @@ const CategoryDropdown = ({
             }
           >
             <input
-              type="text"
+              type="search"
+              role="combobox"
               autofocus
-              class="text-white bg-transparent h-full border-none px-2 focus:outline-none focus:ring-gray-300"
+              class="text-white bg-transparent h-full border-none px-2 focus:outline-none focus:ring-gray-300 w-full"
               placeholder={
                 categories.find((cat) => cat.slug === slug)?.data.name
               }
@@ -104,10 +102,15 @@ const CategoryDropdown = ({
         </span>
       </div>
       <Show when={showResults()}>
-        <ul class="bg-white absolute w-full rounded-md shadow-xl py-2 mt-1 max-w-md left-0 right-0 m-auto">
+        <ul
+          class="bg-white absolute w-full rounded-md shadow-xl py-2 mt-1 max-w-md left-0 right-0 m-auto"
+          role="listbox"
+          aria-expanded={showResults()}
+        >
           <For each={results()}>
             {(result) => (
               <a
+                role="option"
                 class="w-full h-full  focus:outline-none"
                 href={`/${result.slug}/1`}
                 onMouseOver={() => {
@@ -116,6 +119,7 @@ const CategoryDropdown = ({
                 onFocus={() => {
                   setSelected(result.slug);
                 }}
+                aria-selected={selected() === result.slug}
               >
                 <li
                   class={"text-black py-2 px-4  w-full "}

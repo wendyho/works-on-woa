@@ -5,7 +5,7 @@ import FilterDropdown from "./FilterDropdown";
 import Results from "./Results";
 import { AiOutlineSearch } from "solid-icons/ai";
 const bundlePath = `${import.meta.env.BASE_URL}_pagefind/`;
-const pagefind = await import(`${bundlePath}pagefind.js`);
+const pagefind = await import(/* @vite-ignore */ `${bundlePath}pagefind.js`);
 
 export type Filters = Record<string, string[]>;
 
@@ -59,15 +59,24 @@ const PageFindNew = () => {
       filters: {},
     });
   };
+
+  createEffect(() => {
+    console.log(search().filters);
+  });
+
   return (
     <div class="w-full">
       <div class="w-full flex flex-col sm:flex-row justify-between gap-3 items-stretch mb-3">
-        <div class="bg-white text-black basis-11/12 rounded-full flex flex-row py-2 items-center">
+        <div class="bg-white text-black basis-10/12 rounded-full flex flex-row py-2 items-center">
           <div class="py-2 px-5">
             <AiOutlineSearch size={24} />
           </div>
+          <label class="hidden" for="project-search">
+            Search for projects
+          </label>
           <input
             placeholder="Search for projects"
+            name="project-search"
             value={search().query}
             onInput={(e) =>
               setSearch({
