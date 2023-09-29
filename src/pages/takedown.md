@@ -1,6 +1,7 @@
 ---
 layout: ../layouts/InfoLayout.astro
 title: Takedown | Windows on Arm
+description: Information for rightsholders regarding taking down applications from the Windows on Arm ready applications website.
 ---
 
 # Content Takedown Request
