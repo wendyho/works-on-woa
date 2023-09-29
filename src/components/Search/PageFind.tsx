@@ -60,14 +60,10 @@ const PageFindNew = () => {
     });
   };
 
-  createEffect(() => {
-    console.log(search().filters);
-  });
-
   return (
     <div class="w-full">
       <div class="w-full flex flex-col sm:flex-row justify-between gap-3 items-stretch mb-3">
-        <div class="bg-white text-black basis-10/12 rounded-full flex flex-row py-2 items-center">
+        <div class="bg-white text-black basis-11/12 rounded-full flex flex-row py-2 items-center">
           <div class="py-2 px-5">
             <AiOutlineSearch size={24} />
           </div>

@@ -8,9 +8,6 @@ const getProject = async (result: any) => {
 const Result = ({ result }: { result: any }) => {
   const [project] = createResource(result, getProject);
 
-  createEffect(() => {
-    console.log(project());
-  });
   return (
     <a href={project()?.url} class="cursor-pointer">
       <li class="flex flex-row items-center bg-white bg-opacity-10 text-white rounded-md mb-2 no-underline">
@@ -40,7 +37,6 @@ const Result = ({ result }: { result: any }) => {
 };
 
 const Results = ({ results, search, clearSearch }: any) => {
-  createEffect(() => console.log(results(), search()));
   return (
     <Switch fallback={<></>}>
       <Match when={search().query.length > 0 && results.loading}>

@@ -10,6 +10,8 @@ import {
 } from "solid-js";
 import { AiFillCaretDown } from "solid-icons/ai";
 
+type SelectedType = CollectionEntry<"categories">["slug"] | "all" | undefined;
+
 const CategoryDropdown = ({
   categories,
   slug,
@@ -20,14 +22,13 @@ const CategoryDropdown = ({
   const [results, setResults] = createSignal<typeof categories>(categories);
   const [showResults, setShowResults] = createSignal<boolean>(false);
 
-  const [selected, setSelected] = createSignal<
-    CollectionEntry<"categories">["slug"] | undefined
-  >(categories[0].slug);
+  const [selected, setSelected] = createSignal<SelectedType>(
+    categories[0].slug
+  );
   const onShowResults = () => {};
 
   let categoryRef: HTMLDivElement;
   const handleClickCategory = (event: MouseEvent) => {
-    console.log(categoryRef.contains(event.target as Node));
     if (!categoryRef.contains(event.target as Node)) {
       setShowResults(false);
       setResults(categories);
@@ -75,7 +76,7 @@ const CategoryDropdown = ({
                 class="h-full text-xl flex items-center gap-2"
                 onClick={onShowResults}
               >
-                <span class="h-8">
+                <span class="h-8 w-full">
                   {slug === "all"
                     ? "All"
                     : categories.find((cat) => cat.slug === slug)?.data.name}
@@ -107,17 +108,17 @@ const CategoryDropdown = ({
           role="listbox"
           aria-expanded={showResults()}
         >
-          <For each={results()}>
+          <For each={[{ slug: "all", data: { name: "All" } }, ...results()]}>
             {(result) => (
               <a
                 role="option"
                 class="w-full h-full  focus:outline-none"
                 href={`/${result.slug}/1`}
                 onMouseOver={() => {
-                  setSelected(result.slug);
+                  setSelected(result.slug as SelectedType);
                 }}
                 onFocus={() => {
-                  setSelected(result.slug);
+                  setSelected(result.slug as SelectedType);
                 }}
                 aria-selected={selected() === result.slug}
               >
