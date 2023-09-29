@@ -21,7 +21,6 @@ try {
   const { stdout } = await execAsync(
     `git log -1 --pretty="format:%ci" ${process.cwd()}/src/content/projects/${slug}.md`
   );
-  console.log(stdout);
   date = new Date(stdout);
 } catch (e) {
   throw new Error(`Failed to parse date for ${slug}.md.\n${e}`);

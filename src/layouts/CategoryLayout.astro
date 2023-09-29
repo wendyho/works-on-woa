@@ -16,8 +16,9 @@ const categories = await getCollection("categories");
 <html lang="en">
   <head>
     <BaseHead
-      title={slug !== "all" ? categoryData.name + " |" : "" + "Windows on Arm"}
-      description={`Find projects ready for Windows on Arm` +
+      title={(slug !== "all" ? categoryData.name + " | " : "") +
+        "Windows on Arm Ready Applications"}
+      description={`Find applications ready for Windows on Arm` +
         (slug !== "all" ? `in the ${categoryData.name} category` : "")}
     />
   </head>
