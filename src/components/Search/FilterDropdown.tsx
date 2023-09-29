@@ -60,14 +60,14 @@ const FilterDropdown = ({
         class="px-10 py-2 bg-white hover:bg-slate-300 border-white border rounded-full h-full flex items-center gap-3 text-black font-bold"
         onClick={toggleFilters}
       >
+        <VsListFilter size={24} color="#000" />
         <span class="sm:whitespace-nowrap sm:min-w-[9ch]">
           Filters {filterCount() ? `(${filterCount()})` : ""}
         </span>
-        <VsListFilter size={24} color="#000" />
       </button>
       <Show when={showFilters()}>
         <div
-          class="absolute bg-white block text-black p-4 w-48 rounded-md mt-2 shadow-xl border sm:right-0"
+          class="absolute bg-white block text-black p-4 w-48 rounded-md mt-2 shadow-xl border sm:right-0 z-20"
           role="listbox"
         >
           <ul class="w-full">
