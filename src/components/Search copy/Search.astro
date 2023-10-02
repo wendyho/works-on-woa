@@ -3,12 +3,13 @@ import "@pagefind/default-ui/css/ui.css";
 import PageFind from "./PageFind";
 
 export interface Props {
-  shouldRedirect: boolean;
+  readonly id?: string;
+  readonly className?: string;
+  readonly query?: string;
 }
-
-const { shouldRedirect } = Astro.props;
 ---
 
 <section class="pt-10 min-h-[8rem]">
-  <PageFind client:only="solid-js" shouldRedirect={shouldRedirect} />
+  <div></div>
+  <PageFind client:only="solid-js" />
 </section>

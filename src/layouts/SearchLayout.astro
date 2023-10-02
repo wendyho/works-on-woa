@@ -1,15 +1,18 @@
 ---
-import { getCollection } from "astro:content";
+import { getCollection, type CollectionEntry } from "astro:content";
 import BaseHead from "../components/Common/BaseHead.astro";
 import Header from "../components/Common/Header.astro";
-import Search from "../components/Search/Search.astro";
+import Pagination from "../components/Pagination/Pagination.astro";
 import Footer from "../components/Common/Footer.astro";
+import Search from "../components/Search/Search.astro";
+
+const { categoryData, slug } = Astro.props;
 ---
 
 <html lang="en">
   <head>
     <BaseHead
-      title={"Windows on Arm Ready Applications"}
+      title={"Search | Windows on Arm Ready Applications"}
       description={`Find applications ready for Windows on Arm`}
     />
   </head>

@@ -5,6 +5,7 @@ import Header from "../components/Common/Header.astro";
 import Footer from "../components/Common/Footer.astro";
 import Search from "../components/Search/Search.astro";
 import ProjectDetails from "../components/Projects/ProjectDetails.astro";
+import SearchForm from "../components/Search/SearchForm.astro";
 
 type Props = CollectionEntry<"projects"> & { date: Date };
 
@@ -81,13 +82,18 @@ const filters = ["categories", "compatibility"];
   <body class="min-h-screen flex flex-col">
     <Header />
     <main class="max-w-5xl mx-auto px-2 sm:px-5 w-full">
-      <Search />
-
+      <!-- <Search /> -->
+      <Search shouldRedirect={true} />
       <section
         data-pagefind-body
         class="flex flex-col items-center p-1 sm:pb-10 pt-0"
       >
-        <h1 class="font-bold text-3xl px-0 self-start">{name}</h1>
+        <h1 class="font-bold text-3xl px-0 self-start">
+          {name}
+        </h1>
+        <span class="hidden" data-pagefind-sort="name"
+          >{name.toLowerCase()}</span
+        >
         <ProjectDetails
           fields={fields}
           icon={icon}

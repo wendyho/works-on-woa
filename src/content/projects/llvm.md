@@ -6,5 +6,3 @@ link: https://llvm.org/
 compatibility: native
 versionFrom: "6.2"
 ---
-
-No additional notes

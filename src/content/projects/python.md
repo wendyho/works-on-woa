@@ -6,5 +6,3 @@ link: https://python.org/
 compatibility: native
 versionFrom: "3.11"
 ---
-
-No additional notes
