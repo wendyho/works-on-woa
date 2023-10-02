@@ -13,6 +13,11 @@ import {
 import type { Filters } from "./PageFind";
 import { VsListFilter } from "solid-icons/vs";
 
+const filters = [
+  { key: "categories", name: "Category" },
+  { key: "compatibility", name: "Compatibility" },
+];
+
 const FilterDropdown = ({
   filterOptions,
   search,
@@ -20,18 +25,39 @@ const FilterDropdown = ({
   results,
 }: {
   filterOptions: Resource<any>;
-  search: Accessor<{ query: string; filters: Filters }>;
+  search: Accessor<{ query: string | null; filters: Filters }>;
   results: Resource<any>;
   setFilter: JSX.CustomEventHandlersCamelCase<HTMLInputElement>["onChange"];
 }) => {
-  const [showFilters, setShowFilters] = createSignal(false);
+  const [showFilters, setShowFilters] = createSignal<Record<string, boolean>>(
+    filters.reduce(
+      (p, f) => ({
+        ...p,
+        [f.key]: false,
+      }),
+      {}
+    )
+  );
 
-  const toggleFilters = () => setShowFilters(!showFilters());
+  const toggleFilters = (option: string) => {
+    setShowFilters({
+      ...showFilters(),
+      [option]: !showFilters()[option] as boolean,
+    });
+  };
 
   let ref: HTMLDivElement;
   const handleClick = (event: MouseEvent) => {
     if (!ref.contains(event.target as Node)) {
-      setShowFilters(false);
+      setShowFilters(
+        filters.reduce(
+          (p, f) => ({
+            ...p,
+            [f.key]: false,
+          }),
+          {}
+        )
+      );
     }
   };
 
@@ -43,70 +69,77 @@ const FilterDropdown = ({
     document.removeEventListener("click", handleClick);
   });
 
-  const [filterCount, setFilterCount] = createSignal(0);
-
-  createEffect(() =>
-    setFilterCount(
-      Object.values(search().filters).reduce(
-        (prev, option) => prev + option.length,
-        0
-      )
-    )
-  );
-
   return (
-    <div class="basis-1/12 gap-3 relative inline-block" ref={ref!}>
-      <button
-        class="px-10 py-2 bg-white hover:bg-slate-300 border-white border rounded-full h-full flex items-center gap-3 text-black font-bold"
-        onClick={toggleFilters}
-      >
-        <VsListFilter size={24} color="#000" />
-        <span class="sm:whitespace-nowrap sm:min-w-[9ch]">
-          Filters {filterCount() ? `(${filterCount()})` : ""}
-        </span>
-      </button>
-      <Show when={showFilters()}>
-        <div
-          class="absolute bg-white block text-black p-4 w-48 rounded-md mt-2 shadow-xl border sm:right-0 z-20"
-          role="listbox"
-        >
-          <ul class="w-full">
-            <For each={Object.keys(filterOptions() || {})}>
-              {(option, i) => (
-                <li>
-                  <b>{option[0].toUpperCase() + option.slice(1)}</b>
-                  <ul class="text-black font-normal my-3">
-                    <For each={Object.entries(filterOptions()[option] || {})}>
-                      {(filter, i) => (
-                        <li class="flex flex-row items-center">
-                          <input
-                            role="option"
-                            type="checkbox"
-                            name={filter[0]}
-                            data-option={option}
-                            onChange={setFilter}
-                            checked={
-                              search().filters[option] &&
-                              search().filters[option].includes(filter[0])
-                            }
-                          />
-                          <label for={filter[0]} class="ml-2">
-                            {`${filter[0]} (${
-                              results().totalFilters[option]
-                                ? results().totalFilters[option][filter[0]]
-                                : filterOptions()[option][filter[0]]
-                            })`}
-                          </label>
-                        </li>
-                      )}
-                    </For>
-                  </ul>
-                </li>
-              )}
-            </For>
-          </ul>
-        </div>
-      </Show>
+    <div class=" flex" ref={ref!}>
+      <For each={filters}>
+        {(filter, i) => (
+          <div class="relative w-36 h-full flex-shrink-0 z-10 inline-flex items-center text-sm font-medium text-center last:rounded-r-full first:rounded-l-full first:md:rounded-l-none  border-l  focus:ring-4 focus:outline-none  bg-neutral-700 hover:bg-neutral-600 focus:ring-neutral-700  text-white border-neutral-600">
+            <button
+              id={`filter-button-${filter.key}`}
+              data-dropdown-toggle={`filter-button-${filter.key}`}
+              type="button"
+              class="py-2.5 px-4 h-full text-center w-full"
+              onClick={() => toggleFilters(filter.key)}
+            >
+              {filter.name}
+              {search().filters[filter.key]?.length > 0
+                ? ` (${search().filters[filter.key].length})`
+                : ""}
+            </button>
+            <Show when={showFilters()[filter.key]}>
+              <div
+                id={`filter-button-${filter.key}`}
+                class="absolute block top-[100%] z-10 left-0 divide-y mt-2 rounded-lg shadow w-44 bg-neutral-700 "
+              >
+                <ul
+                  class="py-2 text-sm  text-neutral-200"
+                  aria-labelledby="filter-button"
+                >
+                  <For each={Object.entries(filterOptions()[filter.key] || {})}>
+                    {(filterOption, i) => (
+                      <li class="flex flex-row items-center " role="listbox">
+                        <button
+                          type="button"
+                          class="inline-flex w-96 px-4 py-2 text-lg text-neutral-200 hover:bg-neutral-600 hover:text-white "
+                        >
+                          <div class="inline-flex items-center">
+                            <input
+                              role="option"
+                              type="checkbox"
+                              name={filterOption[0]}
+                              id={filterOption[0]}
+                              data-option={filter.key}
+                              onChange={setFilter}
+                              checked={
+                                search().filters[filter.key] &&
+                                search().filters[filter.key].includes(
+                                  filterOption[0]
+                                )
+                              }
+                            />
+                            <label
+                              for={filterOption[0]}
+                              class="ml-2  cursor-pointer"
+                            >
+                              {`${filterOption[0]} (${
+                                results().filters[filter.key]
+                                  ? results().filters[filter.key][
+                                      filterOption[0]
+                                    ]
+                                  : filterOptions()[filter.key][filterOption[0]]
+                              })`}
+                            </label>
+                          </div>
+                        </button>
+                      </li>
+                    )}
+                  </For>
+                </ul>
+              </div>
+            </Show>
+          </div>
+        )}
+      </For>
     </div>
   );
 };

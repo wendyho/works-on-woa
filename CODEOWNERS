@@ -1,4 +1,10 @@
-.github/workflows @pcolmer
-CODEOWNERS        @pcolmer
-.gitignore        @pcolmer
-package.json      @pcolmer
+.github/workflows @pcolmer @louismorgan-linaro @Delara-Gi
+CODEOWNERS @pcolmer @louismorgan-linaro @Delara-Gi
+.gitignore @pcolmer @louismorgan-linaro @Delara-Gi
+package.json @pcolmer @louismorgan-linaro @Delara-Gi
+src/components @pcolmer @louismorgan-linaro @Delara-Gi
+src/layouts @pcolmer @louismorgan-linaro @Delara-Gi
+src/pages @pcolmer @louismorgan-linaro @Delara-Gi
+src/styles @pcolmer @louismorgan-linaro @Delara-Gi
+src/util @pcolmer @louismorgan-linaro @Delara-Gi
+src/content/config.ts @pcolmer @louismorgan-linaro @Delara-Gi
