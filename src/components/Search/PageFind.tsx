@@ -65,7 +65,6 @@ const PageFind = ({ shouldRedirect }: { shouldRedirect: boolean }) => {
     (e) => {
       const prev = search();
       const option = e.currentTarget.dataset.option as string;
-      console.log(option);
       const { checked, name } = e.currentTarget;
       const prevFilter = prev.filters[option] || [];
       const newSearch = {
