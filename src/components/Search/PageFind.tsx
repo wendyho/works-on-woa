@@ -56,7 +56,7 @@ const PageFind = ({ shouldRedirect }: { shouldRedirect: boolean }) => {
   }>({
     query: pathParams().query || null,
     filters: {
-      categories: pathParams().category || [],
+      category: pathParams().category || [],
       compatibility: pathParams().compatibility || [],
     },
   });
@@ -105,7 +105,7 @@ const PageFind = ({ shouldRedirect }: { shouldRedirect: boolean }) => {
   }>({
     query: pathParams().query || null,
     filters: {
-      categories: pathParams().category || [],
+      category: pathParams().category || [],
       compatibility: pathParams().compatibility || [],
     },
   });
@@ -117,8 +117,8 @@ const PageFind = ({ shouldRedirect }: { shouldRedirect: boolean }) => {
         const { query, filters } = search();
         const url = new URL(window.location.origin);
         if (query) url.searchParams.append("query", query);
-        if (filters.categories.length > 0) {
-          url.searchParams.append("category", filters.categories.join(","));
+        if (filters.category.length > 0) {
+          url.searchParams.append("category", filters.category.join(","));
         }
         if (filters.compatibility.length > 0) {
           url.searchParams.append(
@@ -157,7 +157,7 @@ const PageFind = ({ shouldRedirect }: { shouldRedirect: boolean }) => {
             }
             class="w-full h-full px-3"
           />
-          <button class="py-2 px-2" type="submit">
+          <button class="py-2 px-2 flex items-center" type="submit">
             <AiOutlineSearch size={24} />
           </button>
           <button class="py-2 px-2" onClick={clearSearch}>

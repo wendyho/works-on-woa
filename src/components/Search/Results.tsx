@@ -21,17 +21,12 @@ const Result = ({ result }: { result: any }) => {
   const [project] = createResource(result, getProject);
 
   return (
-    // <a href={project().url} class="cursor-pointer"
     <Show when={!!project()}>
-      <li class="flex flex-col sm:flex-row bg-white bg-opacity-10 text-white rounded-md mb-2 no-underline">
+      <li class="flex flex-col sm:flex-row bg-white bg-opacity-10 text-white rounded-md mb-2 no-underline min-h-28">
         <article class="flex flex-row items-center ">
-          <div class="p-5">
+          <div class="m-5 w-[50px]">
             <a href={project().url} class="cursor-pointer">
-              <img
-                src={project().meta.image}
-                width="50px"
-                class="min-h-[50px] min-w-[50px]"
-              />
+              <img src={project().meta.image} class="max-h-[50px]  mx-auto" />
             </a>
           </div>
           <div class="border-l border-gray-500 flex-grow">
@@ -39,9 +34,22 @@ const Result = ({ result }: { result: any }) => {
               <h2 class="font-bold text-xl p-3 ">{project()?.meta.title}</h2>
             </a>
             <div class="px-3 flex flex-col sm:flex-row gap-3 mb-3 flex-wrap">
-              <p>
+              <p class="flex gap-2 flex-wrap">
                 <b>Categories: </b>
-                <span>{project().filters.categories.join(", ")}</span>
+                {/* <span>{project().filters.categories.join(", ")}</span>
+                 */}
+                <span class="flex flex-wrap gap-1">
+                  <For each={project().filters.category}>
+                    {(cat: string) => (
+                      <a
+                        class="text-blue-400 underline after:content-[','] last:after:content-[''] inline"
+                        href={`/?category=${cat}`}
+                      >
+                        {cat}
+                      </a>
+                    )}
+                  </For>
+                </span>
               </p>
               <p>
                 <b>Compatibility: </b>
@@ -62,7 +70,6 @@ const Result = ({ result }: { result: any }) => {
         </a>
       </li>
     </Show>
-    // </a>
   );
 };
 
@@ -101,6 +108,12 @@ const Results = ({ results, search, clearSearch }: any) => {
               {(result) => <Result result={result} />}
             </For>
           </ul>
+          <Pagination
+            page={page}
+            pageCount={pageCount}
+            setPage={setPage}
+            total={results()?.results.length}
+          />
         </Match>
         <Match when={results().results.length === 0}>
           <div class="w-full flex flex-col items-center gap-3 p-10">
@@ -114,12 +127,6 @@ const Results = ({ results, search, clearSearch }: any) => {
           </div>
         </Match>
       </Switch>
-      <Pagination
-        page={page}
-        pageCount={pageCount}
-        setPage={setPage}
-        total={results()?.results.length}
-      />
     </div>
   );
 };
