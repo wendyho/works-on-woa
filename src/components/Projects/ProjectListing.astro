@@ -32,7 +32,7 @@ const categoriesData = await Promise.all(categoryPromises);
           <b>Categories:&nbsp;</b>
           {
             categoriesData.map((category, index) => (
-              <a href={`/${category.slug}/1`} class="inline">
+              <a href={`/?category=${category.slug}`} class="inline">
                 <span class="text-blue-400 underline">
                   {category.data.name}
                 </span>
