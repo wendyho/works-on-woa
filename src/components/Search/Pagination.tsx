@@ -133,7 +133,7 @@ const Pagination = ({
       </ul>
       <span class="text-sm text-neutral-300">
         <Show
-          when={page() * PAGE_SIZE < total}
+          when={total > 10}
           fallback={
             <span>
               <span class="font-semibold text-white ">{total}</span> result
@@ -144,7 +144,10 @@ const Pagination = ({
           <span class="font-semibold text-white ">
             {(page() - 1) * PAGE_SIZE + 1}
           </span>{" "}
-          to <span class="font-semibold text-white ">{page() * PAGE_SIZE}</span>{" "}
+          to{" "}
+          <span class="font-semibold text-white ">
+            {page() * PAGE_SIZE > total ? total : page() * PAGE_SIZE}
+          </span>{" "}
           of <span class="font-semibold text-white ">{total}</span> results
         </Show>
       </span>
