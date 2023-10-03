@@ -26,7 +26,7 @@ const FilterDropdown = ({
   filterOptions: Resource<any>;
   search: Accessor<{ query: string | null; filters: Filters }>;
   results: Resource<any>;
-  setFilter: JSX.CustomEventHandlersCamelCase<HTMLInputElement>["onChange"];
+  setFilter: (filter: string, selection: string, value: boolean) => void;
 }) => {
   const [showFilters, setShowFilters] = createSignal<Record<string, boolean>>(
     filters.reduce(
@@ -98,7 +98,7 @@ const FilterDropdown = ({
                 class="absolute block top-full z-10 left-0 right-auto md:right-0 md:left-auto divide-y mt-2 rounded-lg shadow w-44 md:w-64 bg-neutral-100 "
               >
                 <ul
-                  class="py-2 text-sm text-neutral-200 w-full"
+                  class="py-2 text-sm text-neutral-200 w-full "
                   aria-labelledby="filter-button"
                   role="listbox"
                 >
@@ -107,9 +107,12 @@ const FilterDropdown = ({
                       <li class="flex flex-row w-full">
                         <button
                           type="button"
-                          class="inline-flex  px-4 py-2 text-md text-left text-black hover:bg-neutral-300 hover:text-black w-full "
+                          class="text-md text-left text-black hover:bg-neutral-300 hover:text-black w-full max-w-full "
                         >
-                          <div class="inline-flex items-center">
+                          <label
+                            for={filterOption[0]}
+                            class="flex items-center ml-2 cursor-pointer h-full  py-4 gap-3 "
+                          >
                             <input
                               role="option"
                               type="checkbox"
@@ -123,11 +126,9 @@ const FilterDropdown = ({
                                   filterOption[0]
                                 )
                               }
+                              class="ml-2"
                             />
-                            <label
-                              for={filterOption[0]}
-                              class="ml-2  cursor-pointer"
-                            >
+                            <span class="break-words">
                               {`${filterOption[0]} (${
                                 results().filters[filter.key]
                                   ? results().filters[filter.key][
@@ -135,8 +136,8 @@ const FilterDropdown = ({
                                     ]
                                   : filterOptions()[filter.key][filterOption[0]]
                               })`}
-                            </label>
-                          </div>
+                            </span>
+                          </label>
                         </button>
                       </li>
                     )}
