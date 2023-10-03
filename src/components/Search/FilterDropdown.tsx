@@ -68,6 +68,13 @@ const FilterDropdown = ({
     document.removeEventListener("click", handleClick);
   });
 
+  const onSelectFilterOption: JSX.CustomEventHandlersCamelCase<HTMLInputElement>["onChange"] =
+    (e) => {
+      const option = e.currentTarget.dataset.option as string;
+      const { checked, name } = e.currentTarget;
+      setFilter(option, name, checked);
+    };
+
   return (
     <div class=" flex" ref={ref!}>
       <For each={filters}>
@@ -109,7 +116,7 @@ const FilterDropdown = ({
                               name={filterOption[0]}
                               id={filterOption[0]}
                               data-option={filter.key}
-                              onChange={setFilter}
+                              onChange={onSelectFilterOption}
                               checked={
                                 search().filters[filter.key] &&
                                 search().filters[filter.key].includes(

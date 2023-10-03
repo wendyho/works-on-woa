@@ -39,6 +39,18 @@ const fetchFilterOptions = async () => {
   return await pagefind.filters();
 };
 
+const getQueryParams = ({ filters, query }) => {
+  const url = new URL(window.location.origin);
+  if (query) url.searchParams.append("query", query);
+  if (filters.category?.length > 0) {
+    url.searchParams.append("category", filters.category.join(","));
+  }
+  if (filters.compatibility?.length > 0) {
+    url.searchParams.append("compatibility", filters.compatibility.join(","));
+  }
+  return url;
+};
+
 const PageFind = ({ shouldRedirect }: { shouldRedirect: boolean }) => {
   const pathParams = createMemo(() => {
     const url_string = window.location.href;
@@ -62,30 +74,28 @@ const PageFind = ({ shouldRedirect }: { shouldRedirect: boolean }) => {
   });
 
   const setFilter: JSX.CustomEventHandlersCamelCase<HTMLInputElement>["onChange"] =
-    (e) => {
+    (filter, selection, value) => {
       const prev = search();
-      const option = e.currentTarget.dataset.option as string;
-      const { checked, name } = e.currentTarget;
-      const prevFilter = prev.filters[option] || [];
+      console.log(filter, selection, value);
+
+      const prevFilter = prev.filters[filter] || [];
       const newSearch = {
         ...prev,
         filters: {
           ...prev.filters,
-          [option]: [
+          [filter]: [
             ...prevFilter.filter(
-              (item) => (checked && item === name) || item !== name
+              (item) => (value && item === selection) || item !== selection
             ),
-            ...(checked ? [name] : []),
+            ...(value ? [selection] : []),
           ],
         },
       };
       setSearch(newSearch);
       setRequest(newSearch);
+      const url = getQueryParams(search());
+      if (!shouldRedirect) window.history.replaceState({}, "", url.toString());
     };
-
-  onMount(() => {
-    window.history.replaceState({}, "", window.location.href.split("?")[0]);
-  });
 
   const clearSearch = () => {
     setSearch({
@@ -112,22 +122,12 @@ const PageFind = ({ shouldRedirect }: { shouldRedirect: boolean }) => {
   const onSearch: JSX.CustomEventHandlersCamelCase<HTMLFormElement>["onSubmit"] =
     (e) => {
       e.preventDefault();
+      const url = getQueryParams(search());
       if (shouldRedirect) {
-        const { query, filters } = search();
-        const url = new URL(window.location.origin);
-        if (query) url.searchParams.append("query", query);
-        if (filters.category.length > 0) {
-          url.searchParams.append("category", filters.category.join(","));
-        }
-        if (filters.compatibility.length > 0) {
-          url.searchParams.append(
-            "compatibility",
-            filters.compatibility.join(",")
-          );
-        }
-
         window.location.href = url.toString();
+        return;
       }
+      window.history.replaceState({}, "", url.toString());
       setRequest(search());
     };
 
@@ -174,7 +174,12 @@ const PageFind = ({ shouldRedirect }: { shouldRedirect: boolean }) => {
         </div>
       </div>
       <Show when={!shouldRedirect}>
-        <Results results={results} search={search} clearSearch={clearSearch} />
+        <Results
+          results={results}
+          search={search}
+          clearSearch={clearSearch}
+          setFilter={setFilter}
+        />
       </Show>
     </div>
   );
