@@ -41,7 +41,7 @@ const fields = [
     type: "link",
   },
   {
-    key: "categories",
+    key: "category",
     value: categoriesData,
     type: "array",
   },
@@ -50,13 +50,7 @@ const fields = [
 export type ProjectFields = typeof fields;
 
 // sort fields
-const sortOrder = [
-  "compatibiliRty",
-  "categories",
-  "versionFrom",
-  "link",
-  "notes",
-];
+const sortOrder = ["compatibility", "category", "versionFrom", "link", "notes"];
 
 const sortKeys = sortOrder.reduce((obj: any, item: string, index: number) => {
   return {
@@ -68,7 +62,7 @@ const sortKeys = sortOrder.reduce((obj: any, item: string, index: number) => {
 fields.sort((a, b) => sortKeys[a.key] - sortKeys[b.key]);
 
 // list filtering fields
-const filters = ["categories", "compatibility"];
+const filters = ["category", "compatibility"];
 ---
 
 <html lang="en">

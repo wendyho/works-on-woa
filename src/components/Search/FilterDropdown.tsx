@@ -11,10 +11,9 @@ import {
   onMount,
 } from "solid-js";
 import type { Filters } from "./PageFind";
-import { VsListFilter } from "solid-icons/vs";
 
 const filters = [
-  { key: "categories", name: "Category" },
+  { key: "category", name: "Category" },
   { key: "compatibility", name: "Compatibility" },
 ];
 
@@ -41,7 +40,7 @@ const FilterDropdown = ({
 
   const toggleFilters = (option: string) => {
     setShowFilters({
-      ...showFilters(),
+      ...Object.keys(showFilters()).reduce((prev, k) => ({ [k]: false }), {}),
       [option]: !showFilters()[option] as boolean,
     });
   };
@@ -73,7 +72,7 @@ const FilterDropdown = ({
     <div class=" flex" ref={ref!}>
       <For each={filters}>
         {(filter, i) => (
-          <div class="relative w-36 h-full flex-shrink-0 z-10 inline-flex items-center text-sm font-medium text-center last:rounded-r-full first:rounded-l-full first:md:rounded-l-none  border-l  focus:ring-4 focus:outline-none  bg-neutral-700 hover:bg-neutral-600 focus:ring-neutral-700  text-white border-neutral-600">
+          <div class="relative w-36 h-full flex-shrink-0 z-10 inline-flex text-sm font-medium text-center last:rounded-r-full first:rounded-l-full first:md:rounded-l-none  border-l  focus:ring-4 focus:outline-none  bg-neutral-700 hover:bg-neutral-600 focus:ring-neutral-700  text-white border-neutral-600">
             <button
               id={`filter-button-${filter.key}`}
               data-dropdown-toggle={`filter-button-${filter.key}`}
@@ -89,18 +88,19 @@ const FilterDropdown = ({
             <Show when={showFilters()[filter.key]}>
               <div
                 id={`filter-button-${filter.key}`}
-                class="absolute block top-[100%] z-10 left-0 divide-y mt-2 rounded-lg shadow w-44 bg-neutral-700 "
+                class="absolute block top-full z-10 left-0 right-auto md:right-0 md:left-auto divide-y mt-2 rounded-lg shadow w-44 md:w-64 bg-neutral-100 "
               >
                 <ul
-                  class="py-2 text-sm  text-neutral-200"
+                  class="py-2 text-sm text-neutral-200 w-full"
                   aria-labelledby="filter-button"
+                  role="listbox"
                 >
                   <For each={Object.entries(filterOptions()[filter.key] || {})}>
                     {(filterOption, i) => (
-                      <li class="flex flex-row items-center " role="listbox">
+                      <li class="flex flex-row w-full">
                         <button
                           type="button"
-                          class="inline-flex w-96 px-4 py-2 text-lg text-neutral-200 hover:bg-neutral-600 hover:text-white "
+                          class="inline-flex  px-4 py-2 text-md text-left text-black hover:bg-neutral-300 hover:text-black w-full "
                         >
                           <div class="inline-flex items-center">
                             <input
