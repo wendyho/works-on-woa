@@ -26,7 +26,7 @@ const { fields, icon, categoriesData, filters, Content } = Astro.props;
               {(field.value as typeof categoriesData).map((value, index) => (
                 <a data-pagefind-filter={field.key} 
                 class="text-blue-700 underline"
-                href={`/${value.slug}/1`}>
+                href={`/?category=${encodeURIComponent(value.data.name)}`}>
                   {value.data.name}
                 </a>
                 <span>

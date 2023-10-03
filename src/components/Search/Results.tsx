@@ -17,7 +17,7 @@ const getProject = async (result: any) => {
 
 const PAGE_SIZE = 10;
 
-const Result = ({ result }: { result: any }) => {
+const Result = ({ result, onClickFilterLink }: { result: any }) => {
   const [project] = createResource(result, getProject);
 
   return (
@@ -41,12 +41,15 @@ const Result = ({ result }: { result: any }) => {
                 <span class="flex flex-wrap gap-1">
                   <For each={project().filters.category}>
                     {(cat: string) => (
-                      <a
+                      <button
                         class="text-blue-400 underline after:content-[','] last:after:content-[''] inline"
-                        href={`/?category=${cat}`}
+                        // href={`/?category=${cat}`}
+                        data-filter-type="category"
+                        data-filter-selection={cat}
+                        onClick={onClickFilterLink}
                       >
                         {cat}
-                      </a>
+                      </button>
                     )}
                   </For>
                 </span>
@@ -73,7 +76,7 @@ const Result = ({ result }: { result: any }) => {
   );
 };
 
-const Results = ({ results, search, clearSearch }: any) => {
+const Results = ({ results, search, clearSearch, setFilter }: any) => {
   const [page, setPage] = createSignal(1);
   const [pageCount, setPageCount] = createSignal(0);
   const [paginatedResults, setPaginatedResults] = createSignal([]);
@@ -94,6 +97,15 @@ const Results = ({ results, search, clearSearch }: any) => {
     }
   });
 
+  const onClickFilterLink = (e) => {
+    const filter = e.target.attributes.getNamedItem("data-filter-type").value;
+    const selection = e.target.attributes.getNamedItem(
+      "data-filter-selection"
+    ).value;
+    clearSearch();
+    setFilter(filter, selection, true);
+  };
+
   return (
     <div class="w-full my-6">
       <Switch fallback={<></>}>
@@ -105,7 +117,9 @@ const Results = ({ results, search, clearSearch }: any) => {
         <Match when={!search() || !results() || results().results.length > 0}>
           <ul>
             <For each={paginatedResults()}>
-              {(result) => <Result result={result} />}
+              {(result) => (
+                <Result result={result} onClickFilterLink={onClickFilterLink} />
+              )}
             </For>
           </ul>
           <Pagination
