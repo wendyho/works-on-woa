@@ -6,5 +6,3 @@ link: https://bazel.build
 compatibility: native
 versionFrom: "5.1"
 ---
-
-No additional notes

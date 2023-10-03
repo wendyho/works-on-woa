@@ -6,5 +6,3 @@ link: https://cmake.org/
 compatibility: native
 versionFrom: "3.24"
 ---
-
-No additional notes
