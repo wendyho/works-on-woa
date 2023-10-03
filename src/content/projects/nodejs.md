@@ -6,5 +6,3 @@ link: https://nodejs.org/
 compatibility: native
 versionFrom: "20.0"
 ---
-
-No additional notes
