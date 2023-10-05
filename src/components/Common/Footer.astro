@@ -1,4 +1,6 @@
 ---
+import { getCollection } from "astro:content";
+import { Image } from "astro:assets";
 const today = new Date();
 const links = [
   {
@@ -26,39 +28,55 @@ const links = [
     href: "/takedown/",
   },
 ];
+
+const projects = await getCollection("projects");
+
+import LinaroLogo from "../../assets/Linaro-White.svg";
 ---
 
 <footer
-  class="mt-auto border-t border-gray-500 p-6 text-center text-gray-100 text-sm"
+  class="mt-auto border-t border-gray-500 p-6 pt-2 text-center text-gray-100 text-sm"
 >
+  <div
+    class="flex flex-col sm:flex-row justify-center items-center py-2 mb-2 mx-auto w-auto"
+  >
+    <a
+      href="https://www.linaro.org"
+      target="_blank"
+      class="flex justify-center items-start p-2.5 pr-0"
+    >
+      Powered by <Image
+        alt="Linaro Logo"
+        src={LinaroLogo as any}
+        class="w-16"
+      />
+    </a>
+    <div class="m-2.5 flex items-start">
+      <span class="mx-1 h-6 hidden sm:block">|</span>
+      <span class="ml-1 h-6">{projects.length} applications</span>
+    </div>
+  </div>
   <ul class="flex flex-row flex-wrap items-center justify-center w-full mb-5">
     {
       links.map((link) => (
-        <li class="after:border after:border-solid after:border-gray-500 last:after:border-none">
+        <li class=" after:border after:border-solid after:border-gray-500 after:my-5 last:after:border-none flex">
           <a
-            class=" text-center p-5 text-gray-100 no-underline"
+            class=" flex  text-center m-5  text-gray-100 no-underline"
             href={link.href}
             target="_blank"
           >
+            {" "}
             {link.text}
           </a>
         </li>
       ))
     }
   </ul>
-  <div class="flex justify-center py-2 mb-2 mx-auto w-auto">
-    <a
-      href="https://www.linaro.org"
-      target="_blank"
-      class="flex justify-center"
-    >
-      Powered by <img src="/Linaro-White.svg" class="w-16" />
-    </a>
-  </div>
+
   <p class="text-xs text-center">
     Copyright &copy;
     {today.getFullYear()}
-    Linaro Limited. All product names, logos, brands, trademarks and registered trademarks
-    are property of their respective owners.
+     Linaro Limited. All product names, logos, brands, trademarks and registered
+    trademarks are property of their respective owners.
   </p>
 </footer>

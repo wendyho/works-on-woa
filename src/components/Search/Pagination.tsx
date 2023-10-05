@@ -1,4 +1,11 @@
-import { For, type Accessor, Setter, JSX, createMemo, Show } from "solid-js";
+import {
+  For,
+  type Accessor,
+  type Setter,
+  type JSX,
+  createMemo,
+  Show,
+} from "solid-js";
 const visiblePages = 5;
 const PAGE_SIZE = 10;
 
@@ -43,31 +50,35 @@ const Pagination = ({
     setPage(Number(pageNumber));
   };
 
-  const onNextPage: JSX.EventHandlerUnion<HTMLButtonElement, MouseEvent> = (
-    e
-  ) => {
+  const onNextPage: JSX.EventHandlerUnion<
+    HTMLButtonElement,
+    MouseEvent
+  > = () => {
     setPage(page() + 1);
   };
 
-  const onPrevPage: JSX.EventHandlerUnion<HTMLButtonElement, MouseEvent> = (
-    e
-  ) => {
+  const onPrevPage: JSX.EventHandlerUnion<
+    HTMLButtonElement,
+    MouseEvent
+  > = () => {
     setPage(page() - 1);
   };
 
-  const onLastPage: JSX.EventHandlerUnion<HTMLButtonElement, MouseEvent> = (
-    e
-  ) => {
-    setPage(pageCount());
-  };
-  const onFirstPage: JSX.EventHandlerUnion<HTMLButtonElement, MouseEvent> = (
-    e
-  ) => {
-    setPage(0);
-  };
+  // const onLastPage: JSX.EventHandlerUnion<
+  //   HTMLButtonElement,
+  //   MouseEvent
+  // > = () => {
+  //   setPage(pageCount());
+  // };
+  // const onFirstPage: JSX.EventHandlerUnion<
+  //   HTMLButtonElement,
+  //   MouseEvent
+  // > = () => {
+  //   setPage(0);
+  // };
   const pageNumbers = createMemo(() => getPageNumbers(page(), pageCount()));
   return (
-    <nav class="flex flex-col w-full items-center gap-3 my-4">
+    <nav class="flex flex-col w-full items-center gap-3 my-4 self-end">
       <ul class="flex items-center -space-x-px h-10 text-base">
         <Show when={pageCount() > 1 && page() > 1}>
           <li>
