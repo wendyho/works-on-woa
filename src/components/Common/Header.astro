@@ -1,6 +1,18 @@
+---
+import { getImage } from "astro:assets";
+import WoaBanner from "../../assets/WoA-banner.png";
+
+const optimizedBanner = await getImage({ src: WoaBanner });
+const bgUrl = `url('${optimizedBanner.src}')`;
+---
+
 <header class="w-full">
   <div
-    class="p-10 sm:p-20 flex items-center bg-[url('/WoA-banner.png')] bg-center bg-no-repeat"
+    class:list={[
+      "p-10 sm:p-20 flex items-center  bg-center bg-no-repeat",
+      `bg-[${bgUrl}]`,
+    ]}
+    style={`background-image: ${bgUrl}`}
   >
     <a
       class="text-3xl sm:text-5xl text-center text-white w-full no-underline"

@@ -12,6 +12,7 @@ export interface Props {
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 
 const { title, description } = Astro.props;
+import { AstroSeo } from "@astrolib/seo";
 ---
 
 <!-- Global Metadata -->
@@ -19,29 +20,9 @@ const { title, description } = Astro.props;
 <meta name="viewport" content="width=device-width,initial-scale=1" />
 <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
 <meta name="generator" content={Astro.generator} />
-
-<!-- Canonical URL -->
-<link rel="canonical" href={canonicalURL} />
-
-<!-- Primary Meta Tags -->
-<title>{title}</title>
-<meta name="title" content={title} />
-<meta name="description" content={description} />
-
-<!-- Open Graph / Facebook -->
-<meta property="og:type" content="website" />
-<meta property="og:url" content={Astro.url} />
-<meta property="og:title" content={title} />
-<meta property="og:description" content={description} />
-<!-- <meta property="og:image" content={new URL(image, Astro.url)} /> -->
-
-<!-- Twitter -->
-<meta property="twitter:card" content="summary_large_image" />
-<meta property="twitter:url" content={Astro.url} />
-<meta property="twitter:title" content={title} />
-<meta property="twitter:description" content={description} />
-<!-- <meta property="twitter:image" content={new URL(image, Astro.url)} /> -->
-
-<!-- PageFind Search -->
-<link href="/_pagefind/pagefind-ui.css" rel="stylesheet" />
-<script src="/_pagefind/pagefind-ui.js" type="text/javascript"></script>
+<link rel="sitemap" href="/sitemap-index.xml" />
+<AstroSeo
+  title={title}
+  description={description}
+  canonical={canonicalURL.toString()}
+/>

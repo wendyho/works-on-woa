@@ -1,22 +1,16 @@
-import { string } from "astro/zod";
 import "solid-js";
-import {
-  JSX,
-  Show,
-  createEffect,
-  createMemo,
-  createResource,
-  createSignal,
-  onMount,
-} from "solid-js";
+import { Show, createMemo, createResource, createSignal } from "solid-js";
 import FilterDropdown from "./FilterDropdown";
 import Results from "./Results";
-import { AiOutlineSearch } from "solid-icons/ai";
-import { IoCloseOutline } from "solid-icons/io";
+import SearchIcon from "./SearchIcon";
+import ClearIcon from "./ClearIcon";
+import type { JSX } from "solid-js/h/jsx-runtime";
 const bundlePath = `${import.meta.env.BASE_URL}_pagefind/`;
 const pagefind = await import(/* @vite-ignore */ `${bundlePath}pagefind.js`);
 
 export type Filters = Record<string, string[]>;
+
+export type SearchQuery = { query: string | null; filters: Filters };
 
 const fetchResults = async ({
   query,
@@ -39,7 +33,7 @@ const fetchFilterOptions = async () => {
   return await pagefind.filters();
 };
 
-const getQueryParams = ({ filters, query }) => {
+const getQueryParams = ({ filters, query }: SearchQuery) => {
   const url = new URL(window.location.origin);
   if (query) url.searchParams.append("query", query);
   if (filters.category?.length > 0) {
@@ -73,29 +67,32 @@ const PageFind = ({ shouldRedirect }: { shouldRedirect: boolean }) => {
     },
   });
 
-  const setFilter: JSX.CustomEventHandlersCamelCase<HTMLInputElement>["onChange"] =
-    (filter, selection, value) => {
-      const prev = search();
-      console.log(filter, selection, value);
+  const setFilter: (
+    filter: string,
+    selection: string,
+    value: boolean
+  ) => void = (filter, selection, value) => {
+    const prev = search();
+    console.log(filter, selection, value);
 
-      const prevFilter = prev.filters[filter] || [];
-      const newSearch = {
-        ...prev,
-        filters: {
-          ...prev.filters,
-          [filter]: [
-            ...prevFilter.filter(
-              (item) => (value && item === selection) || item !== selection
-            ),
-            ...(value ? [selection] : []),
-          ],
-        },
-      };
-      setSearch(newSearch);
-      setRequest(newSearch);
-      const url = getQueryParams(search());
-      if (!shouldRedirect) window.history.replaceState({}, "", url.toString());
+    const prevFilter = prev.filters[filter] || [];
+    const newSearch = {
+      ...prev,
+      filters: {
+        ...prev.filters,
+        [filter]: [
+          ...prevFilter.filter(
+            (item) => (value && item === selection) || item !== selection
+          ),
+          ...(value ? [selection] : []),
+        ],
+      },
     };
+    setSearch(newSearch);
+    setRequest(newSearch);
+    const url = getQueryParams(search());
+    if (!shouldRedirect) window.history.replaceState({}, "", url.toString());
+  };
 
   const clearSearch = () => {
     setSearch({
@@ -135,17 +132,17 @@ const PageFind = ({ shouldRedirect }: { shouldRedirect: boolean }) => {
   const [filterOptions] = createResource(request, fetchFilterOptions);
 
   return (
-    <div class="w-full">
+    <div class={`w-full flex flex-col h-[${results()?.length || 10 * 7}rem]`}>
       <div class="w-full flex flex-col md:flex-row justify-between items-stretch mb-3 gap-3 md:gap-0">
         <form
           onSubmit={onSearch}
           class="bg-white text-black basis-11/12 rounded-full md:rounded-r-none flex flex-row py-2 px-1 items-center pl-6"
         >
           <label class="hidden" for="project-search">
-            Search for projects
+            Search for applications
           </label>
           <input
-            placeholder="Search for projects"
+            placeholder="Search for applications"
             name="project-search"
             value={search().query || ""}
             onInput={(e) =>
@@ -156,11 +153,19 @@ const PageFind = ({ shouldRedirect }: { shouldRedirect: boolean }) => {
             }
             class="w-full h-full px-3"
           />
-          <button class="py-2 px-2 flex items-center" type="submit">
-            <AiOutlineSearch size={24} />
+          <button
+            class="py-2 px-2 flex items-center"
+            type="submit"
+            aria-label="Submit search query"
+          >
+            <SearchIcon />
           </button>
-          <button class="py-2 px-2" onClick={clearSearch}>
-            <IoCloseOutline size={24} />
+          <button
+            class="py-2 px-2"
+            onClick={clearSearch}
+            aria-label="Clear search query"
+          >
+            <ClearIcon />
           </button>
         </form>
 

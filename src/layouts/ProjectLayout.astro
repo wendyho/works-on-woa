@@ -5,7 +5,6 @@ import Header from "../components/Common/Header.astro";
 import Footer from "../components/Common/Footer.astro";
 import Search from "../components/Search/Search.astro";
 import ProjectDetails from "../components/Projects/ProjectDetails.astro";
-import SearchForm from "../components/Search/SearchForm.astro";
 
 type Props = CollectionEntry<"projects"> & { date: Date };
 
@@ -94,6 +93,7 @@ const filters = ["category", "compatibility"];
           categoriesData={categoriesData}
           filters={filters}
           Content={Content}
+          name={name}
         />
         <p class="w-full py-6">
           Last updated {
