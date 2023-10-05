@@ -1,12 +1,8 @@
 ---
-import { getCollection, type CollectionEntry } from "astro:content";
 import BaseHead from "../components/Common/BaseHead.astro";
 import Header from "../components/Common/Header.astro";
-import Pagination from "../components/Pagination/Pagination.astro";
 import Footer from "../components/Common/Footer.astro";
 import Search from "../components/Search/Search.astro";
-
-const { categoryData, slug } = Astro.props;
 ---
 
 <html lang="en">
@@ -19,7 +15,7 @@ const { categoryData, slug } = Astro.props;
   <body>
     <Header />
     <main class="max-w-6xl mx-auto px-2 sm:px-5 w-full">
-      <Search />
+      <Search shouldRedirect={false} />
     </main>
     <Footer />
   </body>
