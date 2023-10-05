@@ -7,9 +7,12 @@ import {
   createEffect,
   createResource,
   createSignal,
-  onMount,
+  type Accessor,
+  type Resource,
 } from "solid-js";
 import Pagination from "./Pagination";
+import type { JSX } from "solid-js/h/jsx-runtime";
+import type { SearchQuery } from "./PageFind";
 
 const getProject = async (result: any) => {
   return await result.data();
@@ -17,21 +20,35 @@ const getProject = async (result: any) => {
 
 const PAGE_SIZE = 10;
 
-const Result = ({ result, onClickFilterLink }: { result: any }) => {
+const Result = ({
+  result,
+  onClickFilterLink,
+}: {
+  result: any;
+  onClickFilterLink: JSX.CustomEventHandlersCamelCase<HTMLButtonElement>["onClick"];
+}) => {
   const [project] = createResource(result, getProject);
 
   return (
-    <Show when={!!project()}>
+    <Show when={!!project()} fallback={<div class="min-h-24" />}>
       <li class="flex flex-col sm:flex-row bg-white bg-opacity-10 text-white rounded-md mb-2 no-underline min-h-28">
         <article class="flex flex-row items-center ">
           <div class="m-5 w-[50px]">
             <a href={project().url} class="cursor-pointer">
-              <img src={project().meta.image} class="max-h-[50px]  mx-auto" />
+              <img
+                src={project().meta.image}
+                class="max-h-[50px] min-w-[50px] mx-auto"
+                height="50px"
+                width="50px"
+                alt={`${project().name} logo`}
+              />
             </a>
           </div>
           <div class="border-l border-gray-500 flex-grow">
             <a href={project().url} class="cursor-pointer">
-              <h2 class="font-bold text-xl p-3 ">{project()?.meta.title}</h2>
+              <h2 class="font-bold text-lg md:text-xl p-3 ">
+                {project()?.meta.title}
+              </h2>
             </a>
             <div class="px-3 flex flex-col sm:flex-row gap-3 mb-3 flex-wrap">
               <p class="flex gap-2 flex-wrap">
@@ -42,7 +59,7 @@ const Result = ({ result, onClickFilterLink }: { result: any }) => {
                   <For each={project().filters.category}>
                     {(cat: string) => (
                       <button
-                        class="text-blue-400 underline after:content-[','] last:after:content-[''] inline"
+                        class="text-blue-300 underline after:content-[','] last:after:content-[''] inline"
                         // href={`/?category=${cat}`}
                         data-filter-type="category"
                         data-filter-selection={cat}
@@ -76,7 +93,17 @@ const Result = ({ result, onClickFilterLink }: { result: any }) => {
   );
 };
 
-const Results = ({ results, search, clearSearch, setFilter }: any) => {
+const Results = ({
+  results,
+  search,
+  clearSearch,
+  setFilter,
+}: {
+  results: Resource<any>;
+  search: Accessor<SearchQuery>;
+  clearSearch: () => void;
+  setFilter: (filter: string, selection: string, value: boolean) => void;
+}) => {
   const [page, setPage] = createSignal(1);
   const [pageCount, setPageCount] = createSignal(0);
   const [paginatedResults, setPaginatedResults] = createSignal([]);
@@ -97,37 +124,44 @@ const Results = ({ results, search, clearSearch, setFilter }: any) => {
     }
   });
 
-  const onClickFilterLink = (e) => {
-    const filter = e.target.attributes.getNamedItem("data-filter-type").value;
-    const selection = e.target.attributes.getNamedItem(
-      "data-filter-selection"
-    ).value;
-    clearSearch();
-    setFilter(filter, selection, true);
-  };
+  const onClickFilterLink: JSX.CustomEventHandlersCamelCase<HTMLButtonElement>["onClick"] =
+    (e) => {
+      const filter =
+        e.target.attributes.getNamedItem("data-filter-type")!.value;
+      const selection = e.target.attributes.getNamedItem(
+        "data-filter-selection"
+      )!.value;
+      clearSearch();
+      setFilter(filter, selection, true);
+    };
 
   return (
-    <div class="w-full my-6">
-      <Switch fallback={<></>}>
+    <div class={`w-full my-6`}>
+      <Switch>
         <Match when={results.loading}>
-          <div class="w-full flex flex-col items-center gap-3 p-10">
+          <div class="w-full flex flex-col items-center gap-3 p-10 ">
             Loading results...
           </div>
         </Match>
-        <Match when={!search() || !results() || results().results.length > 0}>
-          <ul>
-            <For each={paginatedResults()}>
-              {(result) => (
-                <Result result={result} onClickFilterLink={onClickFilterLink} />
-              )}
-            </For>
-          </ul>
-          <Pagination
-            page={page}
-            pageCount={pageCount}
-            setPage={setPage}
-            total={results()?.results.length}
-          />
+        <Match when={results().results.length > 0}>
+          <div class="flex flex-col">
+            <ul>
+              <For each={paginatedResults()}>
+                {(result) => (
+                  <Result
+                    result={result}
+                    onClickFilterLink={onClickFilterLink}
+                  />
+                )}
+              </For>
+            </ul>
+            <Pagination
+              page={page}
+              pageCount={pageCount}
+              setPage={setPage}
+              total={results()?.results.length}
+            />
+          </div>
         </Match>
         <Match when={results().results.length === 0}>
           <div class="w-full flex flex-col items-center gap-3 p-10">

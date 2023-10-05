@@ -1,17 +1,16 @@
 import { defineConfig } from "astro/config";
-import mdx from "@astrojs/mdx";
 import sitemap from "@astrojs/sitemap";
 import tailwind from "@astrojs/tailwind";
-import pagefind from "astro-pagefind";
 import solidJs from "@astrojs/solid-js";
+import pagefind from "astro-pagefind";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://example.com",
+  site: "https://www.worksonwoa.com",
   output: "static",
   integrations: [
-    pagefind(),
     sitemap(),
+    pagefind(),
     tailwind({
       applyBaseStyles: false,
     }),

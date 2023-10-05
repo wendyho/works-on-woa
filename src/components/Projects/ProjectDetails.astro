@@ -2,20 +2,26 @@
 import type { CollectionEntry } from "astro:content";
 import type { ProjectFields } from "../../layouts/ProjectLayout.astro";
 import { toTitleCase } from "../../util/formatting";
-import type { AstroComponentFactory } from "astro/dist/runtime/server";
+import type { AstroComponentFactory } from "astro/runtime/server/index.js";
 type Categories = CollectionEntry<"categories">;
 type Props = {
   fields: ProjectFields;
   icon: string;
   filters: string[];
   categoriesData: Categories[];
-  Content: AstroComponentFactory
+  Content: AstroComponentFactory;
+  name: string;
 };
-const { fields, icon, categoriesData, filters, Content } = Astro.props;
+const { fields, icon, categoriesData, filters, Content, name } = Astro.props;
+
+// const imageExt = icon.split(".")[1]
+// console.log(imageExt)
+// const Icon = await import(`../../assets/icons/${icon.replace(imageExt, "")}${imageExt}`)
 ---
 
 <div class="w-full p-5 bg-white text-black rounded-xl relative project-details">
-  <img src={`/icons/${icon}`} width="75px" class="absolute right-0 top-0 m-5" />
+  <img src={`/icons/${icon}`} width="75px" class="absolute right-0 top-0 m-5" alt={`${name} logo`}/>   
+  <!-- <Image src={Icon.default} alt={`${fields.find((f) => f.key === "name")} logo`} width={75} class="absolute right-0 top-0 m-5" /> -->
   <ul>
     {
       fields.map((field) => (
