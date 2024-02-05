@@ -12,7 +12,7 @@ const projects = defineCollection({
   type: "content",
   schema: z.object({
     name: z.string(),
-    icon: z.string(),
+    icon: z.string().optional().default("applicationicon-white.svg"),
     categories: z.array(reference("categories")),
     link: z.string().url(),
     versionFrom: z.coerce.string(),
