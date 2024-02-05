@@ -1,6 +1,6 @@
 ---
 name: Spotify
-icon: spotify.svg
+
 categories: [audio, app, msstore]
 link: https://www.microsoft.com/store/productid/9NCBCSZSJRSB
 compatibility: native
