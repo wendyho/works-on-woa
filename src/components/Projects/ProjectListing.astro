@@ -3,11 +3,13 @@ import type { CollectionEntry } from "astro:content";
 import { getEntry } from "astro:content";
 type Props = CollectionEntry<"projects">;
 const { slug, data } = Astro.props;
+
+
 const { icon, name, categories, compatibility, versionFrom } = data;
 
 // get category data from references
 const categoryPromises = categories.map(async (category) =>
-  getEntry("categories", category.slug)
+  getEntry("applicationscategories", category.slug)
 );
 const categoriesData = await Promise.all(categoryPromises);
 ---

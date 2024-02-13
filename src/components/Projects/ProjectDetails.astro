@@ -3,7 +3,7 @@ import type { CollectionEntry } from "astro:content";
 import type { ProjectFields } from "../../layouts/ProjectLayout.astro";
 import { toTitleCase } from "../../util/formatting";
 import type { AstroComponentFactory } from "astro/runtime/server/index.js";
-type Categories = CollectionEntry<"categories">;
+type Categories = CollectionEntry<"applicationscategories">;
 type Props = {
   fields: ProjectFields;
   icon: string;
@@ -13,6 +13,9 @@ type Props = {
   name: string;
 };
 const { fields, icon, categoriesData, filters, Content, name } = Astro.props;
+
+;
+
 
 // const imageExt = icon.split(".")[1]
 // console.log(imageExt)

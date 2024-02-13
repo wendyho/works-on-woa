@@ -5,7 +5,7 @@ categories: [oss, dev-tools, library]
 link: https://wixtoolset.org/
 compatibility: native
 versionFrom: "v4"
-type: applications
+type: games
 ---
 
 Obtainable via NuGet, see [https://wixtoolset.org/docs/intro/](https://wixtoolset.org/docs/intro/)
