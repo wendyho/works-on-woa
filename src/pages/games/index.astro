@@ -7,8 +7,12 @@ import Footer from "../../components/Common/Footer.astro";
 import { getImage } from "astro:assets";
 import WoaBanner from "../../assets/WoA-banner.png";
 
+
 const optimizedBanner = await getImage({ src: WoaBanner });
 const bgUrl = `url('${optimizedBanner.src}')`;
+const footerState:any = ()=>{
+  return true
+}
 ---
 
 <html lang="en">
@@ -29,14 +33,14 @@ const bgUrl = `url('${optimizedBanner.src}')`;
         >
           <a
             class="text-3xl sm:text-5xl text-center text-white w-full no-underline"
-            href="/">Windows on Arm Ready Applications</a
+            href="/">Windows on Arm Ready Games</a
           >
-          <h1>Looking for applications ? <a href="/" class="text-xl text-blue-500">click here</a></h1>
+          <h2>Looking for applications ? <a href="/" class="text-xl text-blue-500" id="change-page"><button onclick={footerState}>click here</button></a></h2>
         </div>
       </header>
     <main class="max-w-6xl mx-auto px-2 sm:px-5 w-full">
-      <Search shouldRedirect={false} />
+      <Search shouldRedirect={false} type="games" />
     </main>
-    <Footer />
+    <Footer footer={footerState()}  />
   </body>
 </html>

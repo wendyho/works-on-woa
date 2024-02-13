@@ -18,6 +18,8 @@ const getProject = async (result: any) => {
   return await result.data();
 };
 
+
+
 const PAGE_SIZE = 10;
 
 const Result = ({
@@ -28,7 +30,7 @@ const Result = ({
   onClickFilterLink: JSX.CustomEventHandlersCamelCase<HTMLButtonElement>["onClick"];
 }) => {
   const [project] = createResource(result, getProject);
-
+  
   return (
     <Show when={!!project()} fallback={<div class="min-h-24" />}>
       <li class="flex flex-col sm:flex-row bg-white bg-opacity-10 text-white rounded-md mb-2 no-underline min-h-28">
@@ -102,7 +104,8 @@ const Results = ({
   results: Resource<any>;
   search: Accessor<SearchQuery>;
   clearSearch: () => void;
-  setFilter: (filter: string, selection: string, value: boolean) => void;
+  setFilter: (filter: string, selection: string, value: boolean, ) => void;
+
 }) => {
   const [page, setPage] = createSignal(1);
   const [pageCount, setPageCount] = createSignal(0);
@@ -132,9 +135,10 @@ const Results = ({
         "data-filter-selection"
       )!.value;
       clearSearch();
-      setFilter(filter, selection, true);
+      setFilter(filter, selection, true,);
     };
-
+  
+   
   return (
     <div class={`w-full my-6`}>
       <Switch>
