@@ -25,7 +25,7 @@ const { link, icon, name, categories, type } = data;
 
 // get category data from references
 const categoryPromises = categories.map(async (category) =>
-  getEntry("applicationscategories", category.slug) 
+  getEntry("applications_categories", category.slug) 
 );
 const categoriesData = await Promise.all(categoryPromises);
 

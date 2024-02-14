@@ -30,8 +30,8 @@ const links = [
 ];
 
 const projects = await getCollection("projects");
-const projectsapplications = projects.filter((data) => data.data.type === "applications")
-const projectsgames = projects.filter((data) => data.data.type === "games")
+const applications = projects.filter((data) => data.data.type === "applications")
+const games = projects.filter((data) => data.data.type === "games")
 const { footer } = Astro.props
 import LinaroLogo from "../../assets/Linaro-White.svg";
 import type { CollectionEntry } from "astro:content";
@@ -56,8 +56,8 @@ import type { CollectionEntry } from "astro:content";
     </a>
     <div class="m-2.5 flex items-start">
       <span class="mx-1 h-6 hidden sm:block">|</span>
-      { projectsgames && footer ? <span class="ml-1 h-6">{projectsgames.length} games</span>  :
-      <span class="ml-1 h-6">{projectsapplications.length} applications</span> }
+      { games && footer ? <span class="ml-1 h-6">{games.length} games</span>  :
+      <span class="ml-1 h-6">{applications.length} applications</span> }
       
     </div>
   </div>
