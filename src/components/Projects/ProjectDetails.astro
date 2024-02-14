@@ -3,7 +3,7 @@ import type { CollectionEntry } from "astro:content";
 import type { ProjectFields } from "../../layouts/ProjectLayout.astro";
 import { toTitleCase } from "../../util/formatting";
 import type { AstroComponentFactory } from "astro/runtime/server/index.js";
-type Categories = CollectionEntry<"applicationscategories">;
+type Categories = CollectionEntry<"applications_categories">;
 type Props = {
   fields: ProjectFields;
   icon: string;

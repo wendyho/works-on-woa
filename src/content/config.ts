@@ -1,6 +1,6 @@
 import { defineCollection, reference, z } from "astro:content";
 
-const applicationscategories = defineCollection({
+const applications_categories = defineCollection({
   type: "content",
   schema: z.object({
     name: z.string(),
@@ -35,7 +35,7 @@ const projects = defineCollection({
       type: z.literal("applications"),
       name: z.string(),
       icon: z.string().optional().default("applicationicon-white.svg"),
-      categories: z.array(reference("applicationscategories")),
+      categories: z.array(reference("applications_categories")),
       link: z.string().url(),
       versionFrom: z.coerce.string(),
       compatibility: z.enum([
@@ -50,7 +50,7 @@ const projects = defineCollection({
       type: z.literal("games"),
       name: z.string(),
       icon: z.string().optional().default("applicationicon-white.svg"),
-      categories: z.array(reference("gamescategories")),
+      categories: z.array(reference("games_categories")),
       link: z.string().url(),
       versionFrom: z.coerce.string(),
       compatibility: z.enum([
@@ -65,7 +65,7 @@ const projects = defineCollection({
   
 })
 
-const gamescategories = defineCollection({
+const games_categories = defineCollection({
   type: "content",
   schema: z.object({
     name: z.string(),
@@ -91,4 +91,4 @@ const gamescategories = defineCollection({
 //   }),
 // });
 
-export const collections = {  applicationscategories, gamescategories, projects};
+export const collections = {  applications_categories, games_categories, projects};
