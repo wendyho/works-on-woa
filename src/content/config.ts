@@ -8,25 +8,6 @@ const applications_categories = defineCollection({
   }),
 });
 
-// const applications = defineCollection({
-//   type: "content",
-//   schema :({image})=> z.object({
-//     name: z.string(),
-//     icon: z.string().optional().default("applicationicon-white.svg"),
-//     test_image: image().optional(),
-//     type: z.string(),
-//     categories: z.array(reference("applicationscategories")),
-//     link: z.string().url(),
-//     versionFrom: z.coerce.string(),
-//     compatibility: z.enum([
-//       "native",
-//       "native (unreleased)",
-//       "emulation",
-//       "no",
-//       "unknown",
-//     ]),
-//   }),
-// });
 
 const projects = defineCollection({
   type: "content",
@@ -49,17 +30,13 @@ const projects = defineCollection({
     z.object({
       type: z.literal("games"),
       name: z.string(),
-      icon: z.string().optional().default("applicationicon-white.svg"),
+      icon: z.string().optional().default("gamingicon-white.svg"),
       categories: z.array(reference("games_categories")),
+      publisher: z.string(),
+      frame_rate: z.string().optional(),
       link: z.string().url(),
-      versionFrom: z.coerce.string(),
-      compatibility: z.enum([
-        "native",
-        "native (unreleased)",
-        "emulation",
-        "no",
-        "unknown",
-      ]),
+
+     
     }),
   ])
   
@@ -73,22 +50,6 @@ const games_categories = defineCollection({
   }),
 });
 
-// const games = defineCollection({
-//   type: "content",
-//   schema: z.object({
-//     name: z.string(),
-//     icon: z.string().optional().default("applicationicon-white.svg"),
-//     categories: z.array(reference("gamescategories")),
-//     link: z.string().url(),
-//     versionFrom: z.coerce.string(),
-//     compatibility: z.enum([
-//       "native",
-//       "native (unreleased)",
-//       "emulation",
-//       "no",
-//       "unknown",
-//     ]),
-//   }),
-// });
+
 
 export const collections = {  applications_categories, games_categories, projects};

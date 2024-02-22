@@ -1,10 +1,9 @@
 ---
-name: Bazel
-icon: bazel.svg
+name: Battle.net
 categories: [oss, dev-tools]
 link: https://bazel.build
-compatibility: native
-versionFrom: "5.1"
+publisher: Blizzard Entertainment
+frame_rate: 60 + FPS
 type: games
 # test_image: ../../assets/WoA-banner.png
 ---
