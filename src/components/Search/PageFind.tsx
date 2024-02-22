@@ -194,6 +194,7 @@ const PageFind = ({ shouldRedirect, type }: { shouldRedirect: boolean, type: "ga
 
         <div class="flex">
           <FilterDropdown
+            type={type}
             search={search}
             filterOptions={filterOptions}
             setFilter={setFilter}
@@ -207,6 +208,7 @@ const PageFind = ({ shouldRedirect, type }: { shouldRedirect: boolean, type: "ga
           search={search}
           clearSearch={clearSearch}
           setFilter={setFilter}
+          type={type}
         />
       </Show>
     </div>
