@@ -10,11 +10,10 @@ import auth from "auth-astro";
 export default defineConfig({
   output: "hybrid",
   adapter: aws(),
-  renderers: ['auth-astro'],
   site: "https://www.worksonwoa.com",
   integrations: [
     // sitemap(), 
-    pagefind(),
+    // pagefind(),
  tailwind({
     applyBaseStyles: false
   }), solidJs(), auth({
@@ -25,6 +24,7 @@ export default defineConfig({
   build: {
     rollupOptions: {
       external: ["/_pagefind/pagefind.js"]
-    }
+    },
+    
   }
 });
