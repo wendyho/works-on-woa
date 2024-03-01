@@ -22,7 +22,10 @@ const textFields = Object.entries(data).filter(
 ) as [string, string][];
 
 // extract special fields
-const { link, icon, name, categories, type } = data;
+const {link, icon, name, categories, type } = data;
+
+
+
 
 // get category data from references
 const categoryPromises = categories.map(async (category) =>
@@ -31,7 +34,9 @@ const categoryPromises = categories.map(async (category) =>
 const categoriesData = await Promise.all(categoryPromises);
 
 // construct field array
-const fields = [
+let fields;
+const fieldsType = type === "applications" ?
+ fields = [
   ...textFields.map((field) => ({
     key: field[0],
     value: field[1],
@@ -47,9 +52,21 @@ const fields = [
     value: categoriesData,
     type: "array",
   },
-];
+]: 
+fields = [
+  ...textFields.map((field) => ({
+    key: field[0],
+    value: field[1],
+    type: "text",
+  })),
+  {
+    key: "category",
+    value: categoriesData,
+    type: "array",
+  },
+]
 
-export type ProjectFields = typeof fields;
+export type ProjectFields = typeof fieldsType;
 
 // sort fields
 const sortOrder = ["compatibility", "category", "versionFrom", "link", "notes"];
@@ -102,6 +119,7 @@ const filters = ["category", "compatibility", "type"];
           filters={filters}
           Content={Content}
           name={name}
+          type={type}
         />
         <p class="w-full py-6">
           Last updated {

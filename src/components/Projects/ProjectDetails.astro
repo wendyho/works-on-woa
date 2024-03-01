@@ -11,10 +11,11 @@ type Props = {
   categoriesData: Categories[];
   Content: AstroComponentFactory;
   name: string;
+  type: "applications" | "games"
 };
-const { fields, icon, categoriesData, filters, Content, name } = Astro.props;
+const { fields, icon, categoriesData, filters, Content, name, type } = Astro.props;
+console.log(type)
 
-;
 
 
 // const imageExt = icon.split(".")[1]
@@ -50,7 +51,7 @@ const { fields, icon, categoriesData, filters, Content, name } = Astro.props;
               data-pagefind-meta={!filters.includes(field.key) && field.key}
 
             >
-              {field.type === "link" ? (
+              {field.type === "link"  ? (
                 <a href={field.value as string} class="text-blue-700 underline break-all">
                   {field.value}
                 </a>
