@@ -1,11 +1,11 @@
 ---
 name: Battle.net
 categories: [oss, dev-tools]
-link: https://bazel.build
 publisher: Blizzard Entertainment
 frame_rate: 60 + FPS
 type: games
-compatibility_status: Surface Pro X
+compatibility_status: Pending
+overall_status: failing
 device_configuration: Surface Pro X
 status_description: Android OS
 os_version:  Android OS
