@@ -12,6 +12,7 @@ type Props = CollectionEntry<"projects"> & { date: Date, };
 const { data, render, date  } = Astro.props;
 
 
+
 const { Content } = await render();
 
 // extract generic fields
@@ -64,6 +65,9 @@ fields.sort((a, b) => sortKeys[a.key] - sortKeys[b.key]);
 
 // list filtering fields
 const filters = ["category", "compatibility", "type"];
+// check path
+
+
 ---
 
 <html lang="en">

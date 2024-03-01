@@ -39,7 +39,8 @@ const projects = defineCollection({
       status_description: z.string(),
       os_version:z.string(),
       date_tested:z.string(),
-      game_type:z.string()
+      game_type:z.string(),
+      overall_status: z.string()
 
 
      
