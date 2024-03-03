@@ -6,9 +6,10 @@
   "scripts": {
     "dev": "sst bind astro dev",
     "preview": "astro preview",
-    "postbuild": "pagefind --source ./dist_pagefind/dist/client",
+    "postbuild": "pagefind --site ./dist_pagefind/dist/client && cp -r ./dist_pagefind/dist/client/pagefind ./dist/client/pagefind",
     "start": "astro dev",
-    "build": "astro build && yarn postbuild",
+    "prebuild": "SKIP_AUTH=true astro build --outDir ./dist_pagefind/",
+    "build": "astro build",
     "astro": "astro",
     "sst:deploy": "sst deploy",
     "sst:dev": "sst dev"
