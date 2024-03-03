@@ -8,8 +8,10 @@ import auth from "auth-astro";
 
 // https://astro.build/config
 export default defineConfig({
-  output: "hybrid",
-  adapter: aws(),
+  output: process.env.SKIP_AUTH ? "hybrid" : "server",
+  adapter: aws({
+    serverRoutes: ["/api/*"]
+  }),
   site: "https://www.worksonwoa.com",
   integrations: [
     sitemap(),
@@ -23,9 +25,8 @@ export default defineConfig({
   compressHTML: true,
   build: {
     rollupOptions: {
-      external: ["/_pagefind/pagefind.js"]
       external: ["/pagefind/pagefind.js"]
     },
-    
+    redirects: false
   }
 });
