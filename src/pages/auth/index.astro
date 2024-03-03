@@ -1,5 +1,9 @@
 ---
 export const prerender = false
+import {getSession} from "auth-astro/server"
+const session = await getSession(Astro.request)
+console.log(Astro.url)
+console.log(session)
 
 ---
 
@@ -7,17 +11,15 @@ export const prerender = false
 const { signIn, signOut } = await import("auth-astro/client")
 const login = document.getElementById("login")
 const logout = document.getElementById("logout")
-login?.addEventListener("click", ()=>{
-    signIn();
-})
+
 logout?.addEventListener("click", ()=>{signOut()})
 
 </script>
 <html>
     <body>
-  
-        <button id="login" >Login</button>
+        <a id="login" href="/auth/signin">Login</a>
         <button id="logout">Logout</button>
       
     </body> 
+    <a href="/">Return to homepage</a>
 </html>

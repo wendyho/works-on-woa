@@ -1,0 +1,26 @@
+---
+const error = Astro.url.searchParams.get("error");
+console.log("error", error)
+Astro.response.headers.delete('Set-Cookie');
+---
+
+
+<html>
+  <body>
+    {
+      error === "CallbackRouteError" ? (
+        <h1>
+          You do not have permission to see this site. Please contact{" "}
+          <a href="mailto:it-support@linaro.org">Linaro IT Support</a> to be granted
+          permission.
+        </h1>
+      ) : (
+        <h1>
+          Something went wrong. Please contact{" "}
+          <a href="mailto:it-support@linaro.org">Linaro IT Support</a> to report the
+          issue.
+        </h1>
+      )
+    }
+  </body>
+</html>

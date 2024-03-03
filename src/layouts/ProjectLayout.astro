@@ -6,7 +6,7 @@ import Footer from "../components/Common/Footer.astro";
 import Search from "../components/Search/Search.astro";
 import ProjectDetails from "../components/Projects/ProjectDetails.astro";
 
-type Props = CollectionEntry<"projects"> & { date: Date };
+type Props = CollectionEntry<"projects"> & { date: Date | null };
 
 const { data, render, date } = Astro.props;
 
@@ -97,7 +97,9 @@ const filters = ["category", "compatibility"];
         />
         <p class="w-full py-6">
           Last updated {
-            date.toLocaleDateString("en-gb", {
+            import.meta.env.SSR ? 
+            <i>- not available on private staging site</i> :
+            date?.toLocaleDateString("en-gb", {
               year: "numeric",
               month: "long",
               day: "numeric",
