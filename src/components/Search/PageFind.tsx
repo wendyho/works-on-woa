@@ -5,7 +5,7 @@ import Results from "./Results";
 import SearchIcon from "./SearchIcon";
 import ClearIcon from "./ClearIcon";
 import type { JSX } from "solid-js/h/jsx-runtime";
-const bundlePath = `${import.meta.env.BASE_URL}_pagefind/`;
+const bundlePath = `${import.meta.env.BASE_URL}pagefind/`;
 const pagefind = await import(/* @vite-ignore */ `${bundlePath}pagefind.js`);
 
 export type Filters = Record<string, string[]>;
