@@ -36,8 +36,8 @@ const projects = defineCollection({
       frame_rate: z.string().optional(),
       compatibility_status: z.string(),
       device_configuration:z.string(),
-      status_description: z.string(),
-      os_version:z.string(),
+      status_description: z.string().optional(),
+      os_version:z.string().optional(),
       date_tested:z.string(),
       game_type:z.string(),
       overall_status: z.string()

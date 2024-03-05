@@ -1,13 +1,14 @@
 ---
-name: Battle.net
+name: Diablo II Resurrected
 categories: [oss, app]
 publisher: Blizzard Entertainment
 
 type: games
 compatibility_status: Pending
-overall_status: passing
+overall_status: Passing
+frame_rate: 30-60 FPS
 device_configuration: Surface Pro X or Surface Pro 9
-date_tested: 1/18/2024
-game_type: Platformer
-# test_image: ../../assets/WoA-banner.png
+date_tested: 11/1/2023
+game_type: Action and Adventure
+
 ---

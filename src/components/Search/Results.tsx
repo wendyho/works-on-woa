@@ -92,10 +92,7 @@ const Result = ({
                 <b>Publisher: </b>
                 <span>{project()?.meta.publisher}</span>
               </p>
-              <p class="break-all text-orange-200">
-                <b>Frame rate: </b>
-                <span class="min-w-0">{project()?.meta.frame_rate}</span>
-              </p>
+             
               </Show>
             
              
