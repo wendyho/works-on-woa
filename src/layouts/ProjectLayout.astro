@@ -1,11 +1,10 @@
 ---
 import { getEntry, type CollectionEntry } from "astro:content";
 import BaseHead from "../components/Common/BaseHead.astro";
-import Header from "../components/Common/Header.astro";
 import Footer from "../components/Common/Footer.astro";
 import Search from "../components/Search/Search.astro";
 import ProjectDetails from "../components/Projects/ProjectDetails.astro";
-import { Image } from "astro:assets";
+
 type Props = CollectionEntry<"projects"> & { date: Date | null };
 
 const { data, render, date  } = Astro.props;
