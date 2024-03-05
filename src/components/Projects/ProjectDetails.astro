@@ -13,8 +13,27 @@ type Props = {
   name: string;
   type: "applications" | "games"
 };
-const { fields, icon, categoriesData, filters, Content, name, type } = Astro.props;
-console.log(type)
+const fieldLabels : { [key: string]: string } = {
+  device_configuration: "Device Configuration",
+  date_tested: "Date Tested",
+  game_type: "Game Type",
+  overall_status: "Overall status", 
+  publisher: "Publisher",
+  frame_rate: "Frame rate",
+  status_description: "Overall Status Description",
+  os_version: "Os Version",
+  game_type: "Game type",
+  compatibility: "compatibility",
+  name: "name", 
+  icon: "icon",
+  categories: "categories",
+  link: "link", 
+  versionFrom: "versionFrom",
+  type:"type"
+};
+const { fields, icon, categoriesData, filters, Content, name, type } = Astro.props; 
+
+
 
 
 
@@ -30,7 +49,7 @@ console.log(type)
     {
       fields.map((field) => (
         <li class="mb-2">
-          <b data-pagefind-ignore>{toTitleCase(field.key)}</b>
+          <b data-pagefind-ignore>{fieldLabels[field.key] || toTitleCase(field.key)}</b>
           {field.type === "array" ? (
             <p>
               {(field.value as typeof categoriesData).map((value, index) => (

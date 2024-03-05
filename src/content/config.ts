@@ -9,6 +9,7 @@ const applications_categories = defineCollection({
 });
 
 
+
 const projects = defineCollection({
   type: "content",
   schema: ({image}) => z.discriminatedUnion("type", [
@@ -47,7 +48,7 @@ const projects = defineCollection({
         "unplayable",
         
       ]),
-     // changes from microsoft 
+     
 
      
     }),
@@ -66,3 +67,4 @@ const games_categories = defineCollection({
 
 
 export const collections = {  applications_categories, games_categories, projects};
+
