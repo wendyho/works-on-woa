@@ -27,7 +27,6 @@ export default {
           AUTH0_CLIENT_SECRET: process.env.AUTH0_CLIENT_SECRET!,
           AUTH0_ISSUER_BASE: process.env.AUTH0_ISSUER_BASE!,
           AUTH_API_URL: process.env.AUTH_API_URL!,
-          IS_STAGING: "true",
           NODE_OPTIONS: "--experimental-wasm-modules",
           SPIRE_WEBSITES_ID: process.env.SPIRE_WEBSITES_ID!,
           PUBLIC_KEY_URL: process.env.PUBLIC_KEY_URL!

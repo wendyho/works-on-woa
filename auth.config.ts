@@ -1,14 +1,20 @@
 // auth.config.ts
-import { defineConfig } from 'auth-astro';
-import Auth0Provider from "@auth/core/providers/auth0"
-import {verifyBiscuit, parseBiscuitMetadata, type Bwks} from "./src/lib/auth"
+import { defineConfig } from "auth-astro";
+import Auth0Provider from "@auth/core/providers/auth0";
+import { verifyBiscuitUser, parseBiscuitMetadata, type Bwks } from "./src/lib/auth";
 
-const { AUTH0_CLIENT_ID, AUTH0_CLIENT_SECRET, AUTH0_ISSUER_BASE, AUTH_API_URL, SPIRE_WEBSITES_ID, PUBLIC_KEY_URL } = import.meta.env
+const {
+  AUTH0_CLIENT_ID,
+  AUTH0_CLIENT_SECRET,
+  AUTH0_ISSUER_BASE,
+  AUTH_API_URL,
+  SPIRE_WEBSITES_ID,
+  PUBLIC_KEY_URL,
+} = import.meta.env;
 
-const isDev = import.meta.env.DEV
-const WEBSITE_URL = import.meta.env.SITE
+const isDev = import.meta.env.DEV;
+const WEBSITE_URL = import.meta.env.SITE;
 
-console.log(AUTH0_ISSUER_BASE)
 
 function getPublicKeys() {
   return fetch(`${PUBLIC_KEY_URL}`, {
@@ -27,7 +33,7 @@ async function afterToken(accessToken: string) {
   }
 
   // verify biscuit and extract metadata
-  const auth = verifyBiscuit(accessToken, public_keys, SPIRE_WEBSITES_ID);
+  const auth = verifyBiscuitUser(accessToken, public_keys, SPIRE_WEBSITES_ID);
 
   const metadata = parseBiscuitMetadata(auth);
   if (!metadata) {
@@ -45,7 +51,6 @@ async function afterToken(accessToken: string) {
     public_keys,
   };
 }
-
 
 export default defineConfig({
   providers: [
@@ -76,23 +81,24 @@ export default defineConfig({
           response_type: "code",
           client_id: AUTH0_CLIENT_ID,
         },
+        httpOptions: {
+          timeout: 30000,
+        },
       },
-     
-
       profile: (profile: any) => {
         return {
           id: profile.sub,
-          ...profile
+          ...profile,
         };
       },
-
-
     },
-
   ],
   callbacks: {
-    async session({ session, token }) {
+    async session({ session, token }: any) {
       session.profile = token.profile;
+      session.access_token = token.access_token
+      session.public_keys = token.public_keys
+      session.expires_at = token.expires_at
       return session;
     },
     async jwt({ account, token }) {
@@ -110,9 +116,8 @@ export default defineConfig({
             profile,
           };
         } catch {
-          throw new Error("AccessDenied")
+          throw new Error("AccessDenied");
         }
-        
       }
 
       // // Access token has expired, try to update it
@@ -122,12 +127,12 @@ export default defineConfig({
 
       // if not sign in and token is valid, return as is
       return token;
-    }
+    },
   },
- pages: {
-  signIn: "/auth/signin",
-  error: "/auth/error"
- }
+  pages: {
+    signIn: "/auth/signin",
+    error: "/auth/error",
+  },
 });
 
 declare module "@auth/core" {

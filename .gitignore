@@ -1,6 +1,8 @@
 # build output
 dist/
 dist_pagefind/
+dist_prebuild/
+
 # generated types
 .astro/
 

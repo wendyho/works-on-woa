@@ -19,7 +19,19 @@ const limits = {
     max_time_micro: 100000, // default: 1000 (1ms)
 };
 
-export const verifyBiscuit = (biscuit: string, publicKeys: Bwks[], websiteId: string) => {
+
+export const verifyBiscuitUser = (biscuit: string, publicKeys: Bwks[], websiteId: string) => {
+    const publicKey = PublicKey.fromString(publicKeys[0].key_bytes);
+    const token = Biscuit.fromBase64(biscuit, publicKey);
+    const auth = authorizer`
+    time(${Math.floor(Date.now() / 1000)});
+    allow if true`;
+    auth.addToken(token);
+    auth.authorizeWithLimits(limits);
+    return auth;
+};
+
+export const verifyWebsitePermission = (biscuit: string, publicKeys: Bwks[], websiteId: string) => {
     const publicKey = PublicKey.fromString(publicKeys[0].key_bytes);
     const token = Biscuit.fromBase64(biscuit, publicKey);
     const auth = authorizer`

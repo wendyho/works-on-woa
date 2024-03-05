@@ -2,7 +2,6 @@
 export const prerender = false;
 import { getSession } from "auth-astro/server";
 const session = await getSession(Astro.request);
-console.log("search params", Astro.url.searchParams.toString());
 const redirect = Astro.url.searchParams.get("callbackUrl") || "/"
 if (session) {
   return Astro.redirect(redirect);
@@ -21,7 +20,6 @@ if (session) {
           signIn("spire", {redirect: true, callbackUrl: searchParams.get("callbackUrl") || "/" });
         });
       }
-      console.log("hello");
     </script>
   </head>
   <body>

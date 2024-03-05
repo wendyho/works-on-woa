@@ -73,7 +73,6 @@ const PageFind = ({ shouldRedirect }: { shouldRedirect: boolean }) => {
     value: boolean
   ) => void = (filter, selection, value) => {
     const prev = search();
-    console.log(filter, selection, value);
 
     const prevFilter = prev.filters[filter] || [];
     const newSearch = {

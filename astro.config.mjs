@@ -8,7 +8,7 @@ import auth from "auth-astro";
 
 // https://astro.build/config
 export default defineConfig({
-  output: process.env.SKIP_AUTH ? "hybrid" : "server",
+  output: process.env.PRE_BUILD ? "hybrid" : "server",
   adapter: aws({
     serverRoutes: ["/api/*"]
   }),

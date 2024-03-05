@@ -32,10 +32,13 @@ function AstroAuthHandler(prefix, options) {
             try {
                 res.headers.delete('Set-Cookie')
             } catch (error) {
-                // if (error instanceof TypeError) {
-                //     return redirect(prefix + '/error?error=AccessDenied', 303)
-                // }
-                // return redirect(prefix + '/error?error=Default', 303)
+                const mutableHeaders = new Headers(res.headers)
+                console.log(res)
+                mutableHeaders.delete('Set-Cookie')
+                return new Response(res.body, {
+                    status: res.status,
+                    headers: mutableHeaders
+                })
             }
         }
         return res

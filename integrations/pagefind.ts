@@ -5,11 +5,13 @@ import sirv from "sirv";
 
 export default function pagefind(): AstroIntegration {
     let outDir: string;
+    console.log("pre build", process.env.PRE_BUILD)
+    if (process.env.PRE_BUILD) return {name: "pagefind", hooks: {}};
     return {
         name: "pagefind",
         hooks: {
             "astro:config:setup": ({ config, logger }) => {
-                outDir = "./dist_pagefind/dist/client"
+                outDir = "./dist_prebuild/dist/client"
             },
             "astro:server:setup": ({ server, logger }) => {
                 if (!outDir) {
