@@ -17,34 +17,27 @@ const fieldLabels : { [key: string]: string } = {
   device_configuration: "Device Configuration",
   date_tested: "Date Tested",
   game_type: "Game Type",
-  overall_status: "Overall status", 
+  overall_status: "Overall Status", 
   publisher: "Publisher",
-  frame_rate: "Frame rate",
+  frame_rate: "Frame Rate",
   status_description: "Overall Status Description",
-  os_version: "Os Version",
-  game_type: "Game type",
-  compatibility: "compatibility",
-  name: "name", 
+  os_version: "OS Version",
+  game_type: "Game Type",
+  compatibility: "Compatibility",
+  name: "Name", 
   icon: "icon",
-  categories: "categories",
-  link: "link", 
-  versionFrom: "versionFrom",
-  type:"type"
+  categories: "Categories",
+  link: "Link", 
+  versionFrom: "Version From",
+  type:"Type"
 };
 const { fields, icon, categoriesData, filters, Content, name, type } = Astro.props; 
 
 
-
-
-
-// const imageExt = icon.split(".")[1]
-// console.log(imageExt)
-// const Icon = await import(`../../assets/icons/${icon.replace(imageExt, "")}${imageExt}`)
 ---
 
 <div class="w-full p-5 bg-white text-black rounded-xl relative project-details">
   <img src={`/icons/${icon}`} width="75px" class="absolute right-0 top-0 m-5" alt={`${name} logo`}/>   
-  <!-- <Image src={Icon.default} alt={`${fields.find((f) => f.key === "name")} logo`} width={75} class="absolute right-0 top-0 m-5" /> -->
   <ul>
     {
       fields.map((field) => (
@@ -84,7 +77,7 @@ const { fields, icon, categoriesData, filters, Content, name, type } = Astro.pro
     }
     <li class="project-notes">
       <b data-pagefind-ignore>Notes</b>
-      <div>
+      <div class="project-content">
         <Content />
       </div>
     </li>
@@ -97,10 +90,10 @@ const { fields, icon, categoriesData, filters, Content, name, type } = Astro.pro
       color: rgb(29 78 216);
       text-decoration: underline;
     }
-    div:empty:after {
-      content: "No additional notes"
-    }
+    div:after {
+      content: "No additional notes";
+      }
   }
-  
+ 
 </style>
 

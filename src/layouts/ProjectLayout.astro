@@ -9,8 +9,6 @@ type Props = CollectionEntry<"projects"> & { date: Date | null };
 
 const { data, render, date  } = Astro.props;
 
-
-
 const { Content } = await render();
 
 // extract generic fields
@@ -32,9 +30,7 @@ const categoryPromises = categories.map(async (category) =>
 const categoriesData = await Promise.all(categoryPromises);
 
 // construct field array
-let fields;
-const fieldsType = type === "applications" ?
- fields = [
+const fields = type === "applications" ? [
   ...textFields.map((field) => ({
     key: field[0],
     value: field[1],
@@ -50,8 +46,8 @@ const fieldsType = type === "applications" ?
     value: categoriesData,
     type: "array",
   },
-]: 
-fields = [
+] : 
+[
   ...textFields.map((field) => ({
     key: field[0],
     value: field[1],
@@ -60,7 +56,7 @@ fields = [
   
 ]
 
-export type ProjectFields = typeof fieldsType;
+export type ProjectFields = typeof fields;
 
 // sort fields
 const sortOrder = ["compatibility", "category", "versionFrom", "link", "notes"];
@@ -91,11 +87,7 @@ const filters = ["category", "compatibility", "type"];
   </head>
 
   <body class="min-h-screen flex flex-col">
-    
-    <!-- <Header /> header should not be in the page layouts since there are two different pages-->
     <main class="max-w-5xl mx-auto px-2 sm:px-5 w-full"> 
-      <!-- <Image src={test_image || ""} alt="test" /> -->
-      <!-- <Search /> -->
       <Search shouldRedirect={true} type={type}/>
       <section
         data-pagefind-body

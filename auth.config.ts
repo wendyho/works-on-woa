@@ -1,6 +1,5 @@
 // auth.config.ts
 import { defineConfig } from "auth-astro";
-import Auth0Provider from "@auth/core/providers/auth0";
 import { verifyBiscuitUser, parseBiscuitMetadata, type Bwks } from "./src/lib/auth";
 
 const {

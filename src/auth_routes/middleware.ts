@@ -1,6 +1,6 @@
 import { defineMiddleware } from "astro/middleware";
 import { getSession} from 'auth-astro/server';
-import { verifyBiscuitUser, verifyWebsitePermission } from "./lib/auth";
+import { verifyWebsitePermission } from "../lib/auth";
  
 export const onRequest = defineMiddleware(async(context, next)=> {
     let session = await getSession(context.request) as any;

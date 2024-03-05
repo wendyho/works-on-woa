@@ -10,6 +10,7 @@
     "start": "astro dev",
     "prebuild": "PRE_BUILD=true astro build --outDir ./dist_prebuild/",
     "build": "astro build",
+    "build:public": "IS_PUBLIC=true astro build --ignore-scripts",
     "astro": "astro",
     "sst:deploy": "sst deploy",
     "sst:dev": "sst dev"

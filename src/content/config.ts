@@ -48,6 +48,7 @@ const projects = defineCollection({
         "unplayable",
         
       ]),
+      link: z.literal(null).default(null)
      
 
      

@@ -1,17 +1,15 @@
 import type { AstroIntegration } from "astro";
-import { fileURLToPath } from "node:url";
 import { execSync } from "child_process";
 import sirv from "sirv";
 
-export default function pagefind(): AstroIntegration {
+export default function pagefind({is_pre_build, is_public}: {is_pre_build: boolean, is_public: boolean}): AstroIntegration {
     let outDir: string;
-    console.log("pre build", process.env.PRE_BUILD)
-    if (process.env.PRE_BUILD) return {name: "pagefind", hooks: {}};
+    if (is_pre_build) return {name: "pagefind", hooks: {}};
     return {
         name: "pagefind",
         hooks: {
             "astro:config:setup": ({ config, logger }) => {
-                outDir = "./dist_prebuild/dist/client"
+                outDir = is_public ? "./dist" : "./dist_prebuild/dist/client"
             },
             "astro:server:setup": ({ server, logger }) => {
                 if (!outDir) {

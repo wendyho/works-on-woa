@@ -1,22 +1,21 @@
-2024-03-05T11:15:17.445Z   +652ms [debug] Config loaded {"version":"2.40.3","cdkVersion":"2.124.0","constructsVersion":"10.3.0","config":{"name":"works-on-woa","region":"us-east-1","profile":"works-on-woa","stage":"dev","ssmPrefix":"/sst/works-on-woa/dev/"},"metafile":{"inputs":{"sst.config.ts":{"bytes":251,"imports":[{"path":"sst/constructs","kind":"import-statement","external":true}],"format":"esm"}},"outputs":{".sst.config.1709637316803.mjs":{"imports":[{"path":"sst/constructs","kind":"import-statement","external":true}],"exports":["default"],"entryPoint":"sst.config.ts","inputs":{"sst.config.ts":{"bytesInOutput":183}},"bytes":365}}},"paths":{"config":"/home/louis/Dev/WorksOnWoa/works-on-woa/sst.config.ts","root":"/home/louis/Dev/WorksOnWoa/works-on-woa","out":"/home/louis/Dev/WorksOnWoa/works-on-woa/.sst","artifacts":"/home/louis/Dev/WorksOnWoa/works-on-woa/.sst/artifacts"}}
-2024-03-05T11:15:17.446Z     +1ms [debug] Removed old config file .sst.config.1709637286657.mjs
-2024-03-05T11:15:17.550Z   +104ms [debug] Using AWS profile works-on-woa
-2024-03-05T11:15:17.553Z     +3ms [debug] Created AWS client IoTClient
-2024-03-05T11:15:17.553Z     +0ms [debug] Getting IoT endpoint
-2024-03-05T11:15:17.571Z    +18ms [debug] Synthesizing stacks...
-2024-03-05T11:15:17.577Z     +6ms [debug] Created AWS client STSClient
-2024-03-05T11:15:18.602Z  +1025ms [debug] Using IoT endpoint: a1eid2obm0g86x-ats.iot.us-east-1.amazonaws.com
-2024-03-05T11:15:18.602Z     +0ms [debug] Initializing bootstrap context
-2024-03-05T11:15:18.604Z     +2ms [debug] Created AWS client CloudFormationClient
-2024-03-05T11:15:18.685Z    +81ms [debug] Using identity Account: 497503705704 User: AROAXHVMIDJUJWHXX6WJ5:louis.morgan@linaro.org
-2024-03-05T11:15:18.690Z     +5ms [debug] Generating types in /home/louis/Dev/WorksOnWoa/works-on-woa/.sst/types
-2024-03-05T11:15:18.794Z   +104ms [debug] Running 1 deferred tasks with concurrency: 11
-2024-03-05T11:15:19.407Z   +613ms [debug] Loaded bootstrap status
-2024-03-05T11:15:19.407Z     +0ms [debug] Bootstrap context initialized {"status":"ready","version":"7.3","bucket":"sstbootstrap-useast124d14e4b-gvibm54wuxfa"}
-2024-03-05T11:15:19.408Z     +1ms [debug] Created AWS client S3Client
-2024-03-05T11:15:19.472Z    +64ms [debug] 
-2024-03-05T11:15:19.472Z     +0ms [debug] Loading v2 AWS SDK
-2024-03-05T11:15:19.473Z     +1ms [debug] Finished synthesizing
-2024-03-05T11:15:19.925Z   +452ms [debug] Created AWS client LambdaClient
-2024-03-05T11:15:19.931Z     +6ms [debug] IoT connected
-2024-03-05T11:15:20.505Z   +574ms [debug] Failed to assume arn:aws:iam::497503705704:role/dev-works-on-woa-Site-siteServerFunctionServiceRole-o9QaUbjlgR8u. {"name":"AccessDenied","$fault":"client","$metadata":{"httpStatusCode":403,"requestId":"d92961e9-50e1-4021-9854-3e2a7116d1be","attempts":1,"totalRetryDelay":0},"Type":"Sender","Code":"AccessDenied","message":"User: arn:aws:sts::497503705704:assumed-role/AWSReservedSSO_AdministratorAccess_cba81b6c95229f1d/louis.morgan@linaro.org is not authorized to perform: sts:AssumeRole on resource: arn:aws:iam::497503705704:role/dev-works-on-woa-Site-siteServerFunctionServiceRole-o9QaUbjlgR8u"}
+2024-03-05T14:51:50.442Z   +671ms [debug] Config loaded {"version":"2.40.3","cdkVersion":"2.124.0","constructsVersion":"10.3.0","config":{"name":"works-on-woa","region":"us-east-1","profile":"works-on-woa","stage":"lm-local","ssmPrefix":"/sst/works-on-woa/lm-local/"},"metafile":{"inputs":{"sst.config.ts":{"bytes":263,"imports":[{"path":"sst/constructs","kind":"import-statement","external":true}],"format":"esm"}},"outputs":{".sst.config.1709650309782.mjs":{"imports":[{"path":"sst/constructs","kind":"import-statement","external":true}],"exports":["default"],"entryPoint":"sst.config.ts","inputs":{"sst.config.ts":{"bytesInOutput":183}},"bytes":365}}},"paths":{"config":"/home/louis/Dev/WorksOnWoa/works-on-woa/sst.config.ts","root":"/home/louis/Dev/WorksOnWoa/works-on-woa","out":"/home/louis/Dev/WorksOnWoa/works-on-woa/.sst","artifacts":"/home/louis/Dev/WorksOnWoa/works-on-woa/.sst/artifacts"}}
+2024-03-05T14:51:50.557Z   +115ms [debug] Using AWS profile works-on-woa
+2024-03-05T14:51:50.560Z     +3ms [debug] Created AWS client IoTClient
+2024-03-05T14:51:50.560Z     +0ms [debug] Getting IoT endpoint
+2024-03-05T14:51:50.577Z    +17ms [debug] Synthesizing stacks...
+2024-03-05T14:51:50.588Z    +11ms [debug] Created AWS client STSClient
+2024-03-05T14:51:51.839Z  +1251ms [debug] Using identity Account: 497503705704 User: AROAXHVMIDJUJWHXX6WJ5:louis.morgan@linaro.org
+2024-03-05T14:51:51.842Z     +3ms [debug] Generating types in /home/louis/Dev/WorksOnWoa/works-on-woa/.sst/types
+2024-03-05T14:51:51.926Z    +84ms [debug] Running 1 deferred tasks with concurrency: 11
+2024-03-05T14:51:51.991Z    +65ms [debug] Initializing bootstrap context
+2024-03-05T14:51:51.992Z     +1ms [debug] Created AWS client CloudFormationClient
+2024-03-05T14:51:51.996Z     +4ms [debug] Using IoT endpoint: a1eid2obm0g86x-ats.iot.us-east-1.amazonaws.com
+2024-03-05T14:51:52.597Z   +601ms [debug] Loaded bootstrap status
+2024-03-05T14:51:52.597Z     +0ms [debug] Bootstrap context initialized {"status":"ready","version":"7.3","bucket":"sstbootstrap-useast124d14e4b-gvibm54wuxfa"}
+2024-03-05T14:51:52.600Z     +3ms [debug] Created AWS client S3Client
+2024-03-05T14:51:52.675Z    +75ms [debug] 
+2024-03-05T14:51:52.675Z     +0ms [debug] Loading v2 AWS SDK
+2024-03-05T14:51:52.675Z     +0ms [debug] Finished synthesizing
+2024-03-05T14:51:53.127Z   +452ms [debug] Fetching metadata for stack lm-local-works-on-woa-Site failed {"name":"NoSuchKey","$fault":"client","$metadata":{"httpStatusCode":404,"requestId":"9XA641PVCK05D8NP","extendedRequestId":"K+OBbpM3dsS9pt5A0jHw86COszjDTyhMErYU3aDlz0cGLf+33WjCBiboOr38UrfDlbEFA+ROegs=","attempts":1,"totalRetryDelay":0},"Code":"NoSuchKey","Key":"stackMetadata/app.works-on-woa/stage.lm-local/stack.lm-local-works-on-woa-Site.json","RequestId":"9XA641PVCK05D8NP","HostId":"K+OBbpM3dsS9pt5A0jHw86COszjDTyhMErYU3aDlz0cGLf+33WjCBiboOr38UrfDlbEFA+ROegs=","message":"The specified key does not exist."}
+2024-03-05T14:51:53.129Z     +2ms [debug] Created AWS client SSMClient
+2024-03-05T14:51:53.193Z    +64ms [debug] IoT connected
