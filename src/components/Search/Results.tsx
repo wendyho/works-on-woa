@@ -56,27 +56,32 @@ const Result = ({
                 {project()?.meta.title}
               </h2>
             </a>
+           
             <div class="px-3 flex flex-col sm:flex-row gap-3 mb-3 flex-wrap">
+            {type === "applications" ? 
               <p class="flex gap-2 flex-wrap">
-                <b>Categories: </b>
-                {/* <span>{project().filters.categories.join(", ")}</span>
-                 */}
-                <span class="flex flex-wrap gap-1">
-                  <For each={project().filters.category}>
-                    {(cat: string) => (
-                      <button
-                        class="text-blue-300 underline after:content-[','] last:after:content-[''] inline"
-                        // href={`/?category=${cat}`}
-                        data-filter-type="category"
-                        data-filter-selection={cat}
-                        onClick={onClickFilterLink}
-                      >
-                        {cat}
-                      </button>
-                    )}
-                  </For>
-                </span>
-              </p>
+              <b>Categories: </b>
+              {/* <span>{project().filters.categories.join(", ")}</span>
+               */}
+              <span class="flex flex-wrap gap-1">
+                <For each={project().filters.category}>
+                  {(cat: string) => (
+                    <button
+                      class="text-blue-300 underline after:content-[','] last:after:content-[''] inline"
+                      // href={`/?category=${cat}`}
+                      data-filter-type="category"
+                      data-filter-selection={cat}
+                      onClick={onClickFilterLink}
+                    >
+                      {cat}
+                    </button>
+                  )}
+                </For>
+              </span>
+            </p>
+             : 
+             ""}
+              
               <Show when={type === "applications"}>
               <p>
                 <b>Compatibility: </b>
@@ -88,11 +93,19 @@ const Result = ({
               </p>
               </Show>
               <Show when ={type === "games"}>
+              <p >
+                <b>Compatibility: </b>
+                <span class="min-w-0 text-orange-200">{project().filters.compatibility.join(", ")}</span>
+              </p>
               <p>
                 <b>Publisher: </b>
                 <span>{project()?.meta.publisher}</span>
               </p>
-             
+              <p>
+                <b>Date Tested: </b>
+                <span>{project()?.meta.date_tested}</span>
+              </p>
+              
               </Show>
             
              

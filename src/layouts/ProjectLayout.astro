@@ -59,11 +59,7 @@ fields = [
     value: field[1],
     type: "text",
   })),
-  {
-    key: "category",
-    value: categoriesData,
-    type: "array",
-  },
+  
 ]
 
 export type ProjectFields = typeof fieldsType;
@@ -81,6 +77,7 @@ const sortKeys = sortOrder.reduce((obj: any, item: string, index: number) => {
 fields.sort((a, b) => sortKeys[a.key] - sortKeys[b.key]);
 
 // list filtering fields
+
 const filters = ["category", "compatibility", "type"];
 // check path
 

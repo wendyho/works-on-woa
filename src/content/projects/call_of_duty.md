@@ -4,7 +4,7 @@ categories: [oss, app]
 publisher: Blizzard Entertainment
 
 type: games
-compatibility_status: Pending
+compatibility: playable
 overall_status: failing
 device_configuration: Surface Pro X or Surface Pro 9
 status_description: Anti Cheat
