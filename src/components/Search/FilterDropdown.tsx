@@ -17,7 +17,7 @@ const filters = [
 ];
 
 const gamesFilters = [
-  { key: "category", name: "Category" },
+  { key: "compatibility", name: "Compatibility" },
   
 ];
 const FilterDropdown = ({
@@ -37,7 +37,7 @@ const FilterDropdown = ({
   
   
   const [showFilters, setShowFilters] = createSignal<Record<string, boolean>>(
-     initialFilters.reduce(
+     filters.reduce(
       (p, f) => ({
         ...p,
         [f.key]: false,

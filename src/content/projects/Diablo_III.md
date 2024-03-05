@@ -4,7 +4,7 @@ categories: [oss, app]
 publisher: Blizzard Entertainment
 
 type: games
-compatibility_status: Pending
+compatibility: playable
 overall_status: Passing
 frame_rate: 60+ FPS
 device_configuration: Surface Pro X or Surface Pro 9

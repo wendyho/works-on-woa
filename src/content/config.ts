@@ -32,16 +32,22 @@ const projects = defineCollection({
       name: z.string(),
       icon: z.string().optional().default("gamingicon-white.svg"),
       categories: z.array(reference("games_categories")),
-      publisher: z.string(),
+      publisher: z.string().optional(),
       frame_rate: z.string().optional(),
-      compatibility_status: z.string(),
-      device_configuration:z.string(),
+      device_configuration:z.string().optional(),
       status_description: z.string().optional(),
       os_version:z.string().optional(),
       date_tested:z.string(),
-      game_type:z.string(),
-      overall_status: z.string()
-
+      game_type:z.string().optional(),
+      overall_status: z.string(),
+      compatibility: z.enum([
+        "perfect",
+        "playable",
+        "runs",
+        "unplayable",
+        
+      ]),
+     // changes from microsoft 
 
      
     }),
