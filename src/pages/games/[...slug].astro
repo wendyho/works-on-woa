@@ -8,12 +8,17 @@ import { getEntry } from "astro:content";
 const execAsync = promisify(exec);
 
 export async function getStaticPaths() {
-  const projects = await getCollection("projects");
+  const projects = await getCollection("projects", ({ data }) => {
+  return data.type === "games";
+  });
+  
+
   return projects.map((project) => ({
     params: { slug: project.slug },
     props: project,
   }));
 }
+
 
 const { slug } = Astro.params;
 
@@ -36,4 +41,4 @@ if (import.meta.env.SSR) {
 }
 ---
 
-<ProjectLayout {...project} date={date} />
+<ProjectLayout {...project} date={date}  />

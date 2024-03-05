@@ -18,17 +18,23 @@ const getProject = async (result: any) => {
   return await result.data();
 };
 
+
+
 const PAGE_SIZE = 10;
 
 const Result = ({
   result,
   onClickFilterLink,
+  type,
 }: {
   result: any;
   onClickFilterLink: JSX.CustomEventHandlersCamelCase<HTMLButtonElement>["onClick"];
+  type: "applications" | "games"
 }) => {
   const [project] = createResource(result, getProject);
-
+  
+  
+  
   return (
     <Show when={!!project()} fallback={<div class="min-h-24" />}>
       <li class="flex flex-col sm:flex-row bg-white bg-opacity-10 text-white rounded-md mb-2 no-underline min-h-28">
@@ -71,6 +77,7 @@ const Result = ({
                   </For>
                 </span>
               </p>
+              <Show when={type === "applications"}>
               <p>
                 <b>Compatibility: </b>
                 <span>{project().filters.compatibility.join(", ")}</span>
@@ -79,6 +86,16 @@ const Result = ({
                 <b>Version:&nbsp;</b>
                 <span class="min-w-0">{project()?.meta.versionFrom}</span>
               </p>
+              </Show>
+              <Show when ={type === "games"}>
+              <p>
+                <b>Publisher: </b>
+                <span>{project()?.meta.publisher}</span>
+              </p>
+             
+              </Show>
+            
+             
             </div>
           </div>
         </article>
@@ -98,11 +115,14 @@ const Results = ({
   search,
   clearSearch,
   setFilter,
+  type,
 }: {
   results: Resource<any>;
   search: Accessor<SearchQuery>;
   clearSearch: () => void;
-  setFilter: (filter: string, selection: string, value: boolean) => void;
+  setFilter: (filter: string, selection: string, value: boolean, ) => void;
+  type: "applications" | "games"
+
 }) => {
   const [page, setPage] = createSignal(1);
   const [pageCount, setPageCount] = createSignal(0);
@@ -132,9 +152,10 @@ const Results = ({
         "data-filter-selection"
       )!.value;
       clearSearch();
-      setFilter(filter, selection, true);
+      setFilter(filter, selection, true,);
     };
-
+  
+   
   return (
     <div class={`w-full my-6`}>
       <Switch>
@@ -150,6 +171,7 @@ const Results = ({
                 {(result) => (
                   <Result
                     result={result}
+                    type={type}
                     onClickFilterLink={onClickFilterLink}
                   />
                 )}

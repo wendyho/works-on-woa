@@ -15,7 +15,7 @@ export default defineConfig({
   site: "https://www.worksonwoa.com",
   integrations: [
     sitemap(),
-    pagefind(),
+    // pagefind(),
     tailwind({
         applyBaseStyles: false
       }), solidJs(), auth({

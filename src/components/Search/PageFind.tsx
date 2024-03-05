@@ -1,5 +1,5 @@
 import "solid-js";
-import { Show, createMemo, createResource, createSignal } from "solid-js";
+import { Show, createEffect, createMemo, createResource, createSignal } from "solid-js";
 import FilterDropdown from "./FilterDropdown";
 import Results from "./Results";
 import SearchIcon from "./SearchIcon";
@@ -45,7 +45,7 @@ const getQueryParams = ({ filters, query }: SearchQuery) => {
   return url;
 };
 
-const PageFind = ({ shouldRedirect }: { shouldRedirect: boolean }) => {
+const PageFind = ({ shouldRedirect, type }: { shouldRedirect: boolean, type: "games" | "applications" }) => {
   const pathParams = createMemo(() => {
     const url_string = window.location.href;
     const url = new URL(url_string);
@@ -64,6 +64,7 @@ const PageFind = ({ shouldRedirect }: { shouldRedirect: boolean }) => {
     filters: {
       category: pathParams().category || [],
       compatibility: pathParams().compatibility || [],
+      type: [type]
     },
   });
 
@@ -96,11 +97,16 @@ const PageFind = ({ shouldRedirect }: { shouldRedirect: boolean }) => {
   const clearSearch = () => {
     setSearch({
       query: null,
-      filters: {},
+      filters: {
+        type: [type]
+      },
+      
     });
     setRequest({
       query: null,
-      filters: {},
+      filters: {
+        type: [type]
+      },
     });
   };
 
@@ -112,6 +118,7 @@ const PageFind = ({ shouldRedirect }: { shouldRedirect: boolean }) => {
     filters: {
       category: pathParams().category || [],
       compatibility: pathParams().compatibility || [],
+      type: [type]
     },
   });
 
@@ -130,6 +137,7 @@ const PageFind = ({ shouldRedirect }: { shouldRedirect: boolean }) => {
   const [results] = createResource(request, fetchResults);
   const [filterOptions] = createResource(request, fetchFilterOptions);
 
+
   return (
     <div class={`w-full flex flex-col h-[${results()?.length || 10 * 7}rem]`}>
       <div class="w-full flex flex-col md:flex-row justify-between items-stretch mb-3 gap-3 md:gap-0">
@@ -140,6 +148,7 @@ const PageFind = ({ shouldRedirect }: { shouldRedirect: boolean }) => {
           <label class="hidden" for="project-search">
             Search for applications
           </label>
+          { type === "applications" ? 
           <input
             placeholder="Search for applications"
             name="project-search"
@@ -151,7 +160,20 @@ const PageFind = ({ shouldRedirect }: { shouldRedirect: boolean }) => {
               })
             }
             class="w-full h-full px-3"
-          />
+          /> : 
+          <input
+            placeholder="Search for games"
+            name="project-search"
+            value={search().query || ""}
+            onInput={(e) =>
+              setSearch({
+                ...search(),
+                query: e.currentTarget.value || null,
+              })
+            }
+            class="w-full h-full px-3"
+          />}
+          
           <button
             class="py-2 px-2 flex items-center"
             type="submit"
@@ -170,6 +192,7 @@ const PageFind = ({ shouldRedirect }: { shouldRedirect: boolean }) => {
 
         <div class="flex">
           <FilterDropdown
+            type={type}
             search={search}
             filterOptions={filterOptions}
             setFilter={setFilter}
@@ -183,6 +206,7 @@ const PageFind = ({ shouldRedirect }: { shouldRedirect: boolean }) => {
           search={search}
           clearSearch={clearSearch}
           setFilter={setFilter}
+          type={type}
         />
       </Show>
     </div>
