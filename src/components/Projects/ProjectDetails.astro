@@ -90,10 +90,10 @@ const { fields, icon, categoriesData, filters, Content, name, type } = Astro.pro
       color: rgb(29 78 216);
       text-decoration: underline;
     }
-    div:after {
-      content: "No additional notes";
-      }
+    div:empty:after {
+      content: "No additional notes"
+    }
   }
- 
+  
 </style>
 
