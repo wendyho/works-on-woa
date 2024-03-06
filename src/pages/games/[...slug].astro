@@ -1,0 +1,44 @@
+---
+import { type CollectionEntry, getCollection } from "astro:content";
+import ProjectLayout from "../../layouts/ProjectLayout.astro";
+import { exec } from "node:child_process";
+import { promisify } from "node:util";
+import { getEntry } from "astro:content";
+
+const execAsync = promisify(exec);
+
+export async function getStaticPaths() {
+  const projects = await getCollection("projects", ({ data }) => {
+  return data.type === "games";
+  });
+  
+
+  return projects.map((project) => ({
+    params: { slug: project.slug },
+    props: project,
+  }));
+}
+
+
+const { slug } = Astro.params;
+
+let date: Date | null = null
+
+type Props = CollectionEntry<"projects">;
+let project;
+if (import.meta.env.SSR) {
+  project = await getEntry("projects", slug);
+} else {
+  project = Astro.props;
+  try {
+    const { stdout } = await execAsync(
+      `git log -1 --pretty="format:%ci" ${process.cwd()}/src/content/projects/${slug}.md`
+    );
+    date = new Date(stdout);
+  } catch (e) {
+    throw new Error(`Failed to parse date for ${slug}.md.\n${e}`);
+  }
+}
+---
+
+<ProjectLayout {...project} date={date}  />
