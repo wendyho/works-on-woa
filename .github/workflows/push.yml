@@ -15,8 +15,25 @@ permissions:
   contents: read
 
 jobs:
-  build:
+  pre-build:
     runs-on: ubuntu-latest
+    outputs:
+      env_name: ${{ steps.set_env.outputs.env_name }}
+    steps:
+      - name: Get branch name
+        id: git-branch-name
+        uses: EthanSK/git-branch-name-action@v1
+      - name: Set environment name
+        id: set_env
+        run: |
+          if [[ "${GIT_BRANCH_NAME}" == "staging" ]]; then
+            echo "::set-output name=env_name::Development"
+          fi
+  build:
+    needs: [pre-build]
+    runs-on: ubuntu-latest
+    environment:
+      name: ${{ needs.pre-build.outputs.env_name }}
     steps:
       - uses: actions/checkout@v3
         with:
