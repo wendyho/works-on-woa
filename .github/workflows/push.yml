@@ -27,4 +27,9 @@ jobs:
           secrets: ${{ toJSON(secrets) }}
           prefix: SECRET_
 
+      - uses: oNaiPs/secrets-to-env-action@v1.5
+        with:
+          secrets: ${{ toJSON(vars) }}
+          prefix: VAR_
+
       - run: env
