@@ -22,7 +22,7 @@ jobs:
         with:
           fetch-depth: "0"
 
-      - uses: infovista-opensource/vars-to-env-action@v2.0.0
+      - uses: infovista-opensource/vars-to-env-action@v2
         with:
           secrets: ${{ toJSON(secrets) }}
           prefix: SECRET_
