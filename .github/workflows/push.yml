@@ -24,7 +24,7 @@ jobs:
         id: set_env
         run: |
           if [[ "${{ github.ref_name }}" == "staging" ]]; then
-            echo "{env_name}={Development}" >> $GITHUB_OUTPUT
+            echo "env_name=Development" >> $GITHUB_OUTPUT
           fi
   build:
     needs: [pre-build]
