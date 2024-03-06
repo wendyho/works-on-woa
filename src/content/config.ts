@@ -4,7 +4,7 @@ const applications_categories = defineCollection({
   type: "content",
   schema: z.object({
     name: z.string(),
-    description: z.string(),
+    description: z.string().optional(),
   }),
 });
 
@@ -39,7 +39,6 @@ const projects = defineCollection({
       status_description: z.string().optional(),
       os_version:z.string().optional(),
       date_tested:z.string(),
-      game_type:z.string().optional(),
       overall_status: z.string(),
       compatibility: z.enum([
         "perfect",
@@ -61,7 +60,7 @@ const games_categories = defineCollection({
   type: "content",
   schema: z.object({
     name: z.string(),
-    description: z.string(),
+    description: z.string().optional(),
   }),
 });
 
