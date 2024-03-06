@@ -36,14 +36,25 @@ jobs:
         with:
           fetch-depth: "0"
 
-      - uses: oNaiPs/secrets-to-env-action@v1.5
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
         with:
-          secrets: ${{ toJSON(secrets) }}
-          prefix: SECRET_
+          node-version: ${{ env.NODE_VERSION }}
+          cache: "npm"
 
-      - uses: oNaiPs/secrets-to-env-action@v1.5
-        with:
-          secrets: ${{ toJSON(vars) }}
-          prefix: VAR_
-
-      - run: env
+      - run: |
+          export NODE_OPTIONS=--experimental-wasm-modules
+          export AUTH_SECRET={{ secrets.AUTH_SECRET }}
+          export AUTH0_CLIENT_ID={{ secrets.AUTH0_CLIENT_ID }}
+          export AUTH0_CLIENT_SECRET={{ secrets.AUTH0_CLIENT_SECRET }}
+          export AUTH_TRUST_HOST={{ vars.AUTH_TRUST_HOST }}
+          export AUTH0_ISSUER_BASE={{ vars.AUTH0_ISSUER_BASE }}
+          export AUTH_API_URL={{ vars.AUTH_API_URL }}
+          export SPIRE_WEBSITES_ID={{ vars.SPIRE_WEBSITES_ID }}
+          export PUBLIC_KEY_URL={{ vars.PUBLIC_KEY_URL }}
+          export CUSTOM_DOMAIN={{ vars.CUSTOM_DOMAIN }}
+          yarn install
+          if [[ "${{ github.ref_name }}" == "staging" ]]; then
+            export STAGE="dev"
+          fi
+          yarn sst deploy --stage $STAGE
