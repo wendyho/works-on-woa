@@ -1,5 +1,8 @@
 # build output
 dist/
+dist_pagefind/
+dist_prebuild/
+
 # generated types
 .astro/
 
@@ -16,7 +19,10 @@ pnpm-debug.log*
 
 # environment variables
 .env
-.env.production
+.env.*
 
 # macOS-specific files
 .DS_Store
+
+# sst
+.sst
