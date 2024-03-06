@@ -9,7 +9,7 @@ concurrency:
   cancel-in-progress: true
 
 env:
-  NODE_VERSION: "18.x"
+  NODE_VERSION: "20.x"
 
 permissions:
   contents: read
