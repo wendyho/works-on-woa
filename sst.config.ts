@@ -6,7 +6,7 @@ export default {
     return {
       name: "works-on-woa",
       region: "us-east-1",
-      profile: "works-on-woa"
+      profile: process.env.AWS_PROFILE
     };
   },
   stacks(app) {
