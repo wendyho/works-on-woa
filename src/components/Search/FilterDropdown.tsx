@@ -16,24 +16,21 @@ const filters = [
   { key: "compatibility", name: "Compatibility" },
 ];
 
-const gamesFilters = [
-  { key: "compatibility", name: "Compatibility" },
-  
-];
+
 const FilterDropdown = ({
   filterOptions,
   search,
   setFilter,
   results,
-  type,
+  // type,
 }: {
   filterOptions: Resource<any>;
   search: Accessor<{ query: string | null; filters: Filters }>;
   results: Resource<any>;
   setFilter: (filter: string, selection: string, value: boolean) => void;
-  type: "games" | "applications"
+  // type: "games" | "applications"
 }) => {
-  const initialFilters = type === "games" ? gamesFilters : filters;
+  // const initialFilters = type === "games" ? gamesFilters : filters;
   
   
   const [showFilters, setShowFilters] = createSignal<Record<string, boolean>>(
@@ -61,7 +58,7 @@ const FilterDropdown = ({
   const handleClick = (event: MouseEvent) => {
     if (!ref.contains(event.target as Node)) {
       setShowFilters(
-        initialFilters.reduce(
+        filters.reduce(
           (p, f) => ({
             ...p,
             [f.key]: false,
@@ -89,7 +86,7 @@ const FilterDropdown = ({
 
   return (
     <div class=" flex" ref={ref!}>
-      <For each={initialFilters}>
+      <For each={filters}>
         {(filter) => (
           <div class="relative w-36 h-full flex-shrink-0 z-10 inline-flex text-sm font-medium text-center last:rounded-r-full first:rounded-l-full first:md:rounded-l-none  border-l  focus:ring-4 focus:outline-none  bg-neutral-700 hover:bg-neutral-600 focus:ring-neutral-700  text-white border-neutral-600">
             <button
@@ -115,44 +112,43 @@ const FilterDropdown = ({
                   role="listbox"
                 >
                   <For each={Object.entries(filterOptions()[filter.key] || {})}>
-                    {(filterOption) => (
-                      <li class="flex flex-row w-full">
-                        <button
-                          type="button"
-                          class="text-md text-left text-black hover:bg-neutral-300 hover:text-black w-full max-w-full "
-                        >
-                          <label
-                            for={filterOption[0]}
-                            class="flex items-center ml-2 cursor-pointer h-full  py-4 gap-3 "
-                          >
-                            <input
-                              role="option"
-                              type="checkbox"
-                              name={filterOption[0]}
-                              id={filterOption[0]}
-                              data-option={filter.key}
-                              onChange={onSelectFilterOption}
-                              checked={
-                                search().filters[filter.key] &&
-                                search().filters[filter.key].includes(
-                                  filterOption[0]
-                                )
-                              }
-                              class="ml-2"
-                            />
-                            <span class="break-words">
-                              {`${filterOption[0]} (${
-                                results().filters[filter.key]
-                                  ? results().filters[filter.key][
-                                      filterOption[0]
-                                    ]
-                                  : filterOptions()[filter.key][filterOption[0]]
-                              })`}
-                            </span>
-                          </label>
-                        </button>
-                      </li>
-                    )}
+                    {([optionKey, optionValue]) => {
+                      const itemCount = results().filters[filter.key]
+                        ? results().filters[filter.key][optionKey]
+                        : optionValue;
+                      return (
+                        <Show when={itemCount > 0}> 
+                          <li class="flex flex-row w-full">
+                            <button
+                              type="button"
+                              class="text-md text-left text-black hover:bg-neutral-300 hover:text-black w-full max-w-full "
+                            >
+                              <label
+                                for={optionKey}
+                                class="flex items-center ml-2 cursor-pointer h-full py-4 gap-3"
+                              >
+                                <input
+                                  role="option"
+                                  type="checkbox"
+                                  name={optionKey}
+                                  id={optionKey}
+                                  data-option={filter.key}
+                                  onChange={onSelectFilterOption}
+                                  checked={
+                                    search().filters[filter.key] &&
+                                    search().filters[filter.key].includes(optionKey)
+                                  }
+                                  class="ml-2"
+                                />
+                                <span class="break-words">
+                                  {`${optionKey} (${itemCount})`}
+                                </span>
+                              </label>
+                            </button>
+                          </li>
+                        </Show>
+                      );
+                    }}
                   </For>
                 </ul>
               </div>
