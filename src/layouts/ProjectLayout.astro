@@ -24,13 +24,16 @@ const {link, icon, name, categories, type } = data;
 
 
 // get category data from references
-const categoryPromises = categories.map(async (category) =>
+const appCategoryPromises = categories.map(async (category) =>
   getEntry("applications_categories", category.slug) 
 );
-const categoriesData = await Promise.all(categoryPromises);
+const gamesCategoryPromises = categories.map(async (category) =>
+  getEntry("games_categories", category.slug) 
+);
+const categoriesData = type === "applications" ? await Promise.all(appCategoryPromises) : await Promise.all(gamesCategoryPromises)
 
 // construct field array
-const fields = type === "applications" ? [
+const fields = [
   ...textFields.map((field) => ({
     key: field[0],
     value: field[1],
@@ -46,15 +49,7 @@ const fields = type === "applications" ? [
     value: categoriesData,
     type: "array",
   },
-] : 
-[
-  ...textFields.map((field) => ({
-    key: field[0],
-    value: field[1],
-    type: "text",
-  })),
-  
-]
+] 
 
 export type ProjectFields = typeof fields;
 

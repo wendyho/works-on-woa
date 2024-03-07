@@ -31,7 +31,9 @@ const fetchResults = async ({
 
 const fetchFilterOptions = async () => {
   return await pagefind.filters();
+  
 };
+
 
 const getQueryParams = ({ filters, query }: SearchQuery) => {
   const url = new URL(window.location.origin);
@@ -71,7 +73,7 @@ const PageFind = ({ shouldRedirect, type }: { shouldRedirect: boolean, type: "ga
   const setFilter: (
     filter: string,
     selection: string,
-    value: boolean
+    value: boolean,
   ) => void = (filter, selection, value) => {
     const prev = search();
 
@@ -192,7 +194,7 @@ const PageFind = ({ shouldRedirect, type }: { shouldRedirect: boolean, type: "ga
 
         <div class="flex">
           <FilterDropdown
-            type={type}
+            
             search={search}
             filterOptions={filterOptions}
             setFilter={setFilter}

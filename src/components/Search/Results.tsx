@@ -58,7 +58,7 @@ const Result = ({
             </a>
            
             <div class="px-3 flex flex-col sm:flex-row gap-3 mb-3 flex-wrap">
-            {type === "applications" ? 
+            
               <p class="flex gap-2 flex-wrap">
               <b>Categories: </b>
               {/* <span>{project().filters.categories.join(", ")}</span>
@@ -79,8 +79,7 @@ const Result = ({
                 </For>
               </span>
             </p>
-             : 
-             ""}
+             
               
               <Show when={type === "applications"}>
               <p>
