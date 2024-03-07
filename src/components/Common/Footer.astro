@@ -58,7 +58,7 @@ const path = Astro.url.pathname;
       />
     </a>
     <div class="m-2.5 flex items-start">
-      <span class="mx-1 h-6 hidden sm:block">|</span>
+      <span class="mx-1 h-8 hidden sm:block">|</span>
       { games && path.includes("/games") ? <span class="ml-1 h-6">{games.length} games</span>  :
       <span class="ml-1 h-6">{applications.length} applications</span> }
       
