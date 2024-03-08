@@ -32,6 +32,7 @@ export default {
               "@biscuit-auth/biscuit-wasm"
             ]
           },
+          timeout: "30 seconds",
           environment: {
             AUTH0_CLIENT_ID: process.env.AUTH0_CLIENT_ID!,
             AUTH_TRUST_HOST: "true",
