@@ -16,7 +16,7 @@ export interface Bwks {
 const limits = {
     max_facts: 100, // default: 1000
     max_iterations: 10, // default: 100
-    max_time_micro: 100000, // default: 1000 (1ms)
+    max_time_micro: 10000000, // default: 1000 (1ms)
 };
 
 
