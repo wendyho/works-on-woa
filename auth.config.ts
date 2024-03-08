@@ -114,7 +114,8 @@ export default defineConfig({
             public_keys,
             profile,
           };
-        } catch {
+        } catch (error) {
+          console.error(error)
           throw new Error("AccessDenied");
         }
       }
