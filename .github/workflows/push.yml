@@ -42,7 +42,8 @@ jobs:
           node-version: ${{ env.NODE_VERSION }}
           cache: "npm"
 
-      - run: |
+      - name: Build and deploy
+        run: |
           # Set up the environment variables
           export NODE_OPTIONS=--experimental-wasm-modules
           export AUTH_SECRET=${{ secrets.AUTH_SECRET }}
