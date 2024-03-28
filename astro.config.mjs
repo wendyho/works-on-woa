@@ -63,4 +63,7 @@ export default defineConfig({
     },
     redirects: false,
   },
+  vite: {
+    optimizeDeps: { exclude: ['auth:config'] },
+  }
 });
