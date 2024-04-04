@@ -1,6 +1,6 @@
 ---
 name: "XVid"
-categories: [app]
+categories: ['app']
 link: https://www.xvid.com/download/
 compatibility: emulation
 versionFrom: "1.3.7"

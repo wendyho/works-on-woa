@@ -1,6 +1,6 @@
 ---
 name: "Eye gaze"
-categories: [app]
+categories: ['accessibility']
 link: https://www.inclusive.com/uk/eyegaze-downloads
 compatibility: emulation
 versionFrom: "1.1"

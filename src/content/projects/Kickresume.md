@@ -1,6 +1,6 @@
 ---
 name: "Kickresume"
-categories: [app]
+categories: ['app']
 link: https://apps.microsoft.com/detail/9nblggh4rn56?hl=en-us&gl=US
 compatibility: native
 versionFrom: "2.2.2.0"

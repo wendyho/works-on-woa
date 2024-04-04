@@ -1,6 +1,6 @@
 ---
 name: "AdBlock"
-categories: [app]
+categories: ['app']
 link: https://getadblock.com/en/
 compatibility: native
 versionFrom: "nan"

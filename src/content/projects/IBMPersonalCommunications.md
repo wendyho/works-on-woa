@@ -1,6 +1,6 @@
 ---
 name: "IBM Personal Communications"
-categories: [app]
+categories: ['utils-tools']
 link: https://www.ibm.com/support/pages/ibm-personal-communications
 compatibility: emulation
 versionFrom: "15.0.0.0"

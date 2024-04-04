@@ -1,6 +1,6 @@
 ---
 name: "TextAloud"
-categories: [app]
+categories: ['app']
 link: https://nextup.com/download.html
 compatibility: emulation
 versionFrom: "4.0.73"

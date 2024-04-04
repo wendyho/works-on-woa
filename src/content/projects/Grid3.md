@@ -1,6 +1,6 @@
 ---
 name: "Grid 3"
-categories: [app]
+categories: ['app']
 link: https://thinksmartbox.com/downloads/grid_3/
 compatibility: emulation
 versionFrom: "89.3"

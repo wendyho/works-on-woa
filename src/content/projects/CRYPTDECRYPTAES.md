@@ -1,6 +1,6 @@
 ---
 name: "CRYPT DECRYPT AES"
-categories: [app]
+categories: ['app']
 link: https://apps.microsoft.com/detail/9p6jmmcwm2bb?hl=en-us&gl=US
 compatibility: native
 versionFrom: "1.2.1"

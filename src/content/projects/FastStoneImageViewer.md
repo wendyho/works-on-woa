@@ -1,6 +1,6 @@
 ---
 name: "FastStone Image Viewer"
-categories: [app]
+categories: ['photo']
 link: https://www.faststone.org/FSIVDownload.htm
 compatibility: emulation
 versionFrom: "7.8"
