@@ -1,6 +1,6 @@
 ---
 name: "TikTok"
-categories: [app]
+categories: ['socialmedia']
 link: https://apps.microsoft.com/detail/9nh2gph4jzs4?hl=en-us&gl=US
 compatibility: native
 versionFrom: "1.0.5.0"

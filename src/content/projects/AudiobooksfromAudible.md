@@ -1,6 +1,6 @@
 ---
 name: "Audiobooks from Audible"
-categories: [app]
+categories: ['books']
 link: https://www.audible.com/
 compatibility: native
 versionFrom: "nan"

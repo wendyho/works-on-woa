@@ -1,6 +1,6 @@
 ---
 name: "MSFT Wordpad"
-categories: [app]
+categories: ['app']
 link: https://www.microsoft.com
 compatibility: native
 versionFrom: "23H2"

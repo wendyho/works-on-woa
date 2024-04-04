@@ -1,6 +1,6 @@
 ---
 name: "KioWare Kiosk App"
-categories: [app]
+categories: ['app']
 link: https://www.kioware.com/
 compatibility: emulation
 versionFrom: "8.35.0"

@@ -1,6 +1,6 @@
 ---
 name: "Splice"
-categories: [app]
+categories: ['musicvideos']
 link: https://splice.com/
 compatibility: emulation
 versionFrom: "5.0.6"

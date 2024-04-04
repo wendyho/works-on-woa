@@ -1,6 +1,6 @@
 ---
 name: "Ruby"
-categories: [app]
+categories: ['app']
 link: https://rubyinstaller.org/downloads/
 compatibility: emulation
 versionFrom: "3.2.2-1"

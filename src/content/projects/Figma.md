@@ -1,6 +1,6 @@
 ---
 name: "Figma"
-categories: [app]
+categories: ['multimedia']
 link: https://www.figma.com/?fuid=
 compatibility: emulation
 versionFrom: "116.14.5"

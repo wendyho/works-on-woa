@@ -1,6 +1,6 @@
 ---
 name: "CPU-Z"
-categories: [app]
+categories: ['utils-tools']
 link: https://www.cpuid.com/softwares/cpu-z.html
 compatibility: emulation
 versionFrom: "2.08.0"

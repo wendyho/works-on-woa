@@ -1,6 +1,6 @@
 ---
 name: "Gaana"
-categories: [app]
+categories: ['app']
 link: https://gaana.com/
 compatibility: native
 versionFrom: "nan"

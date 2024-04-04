@@ -1,6 +1,6 @@
 ---
 name: "Flipkart"
-categories: [app]
+categories: ['app']
 link: https://apps.microsoft.com/detail/9wzdncrfj356?hl=en-us&gl=US
 compatibility: native
 versionFrom: "4.1.3.0"

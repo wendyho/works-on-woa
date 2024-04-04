@@ -1,6 +1,6 @@
 ---
 name: "Dolby Access"
-categories: [app]
+categories: ['utils-tools']
 link: https://apps.microsoft.com/detail/9n0866fs04w8?hl=en-us&gl=US
 compatibility: native
 versionFrom: "3.18.1011.0"

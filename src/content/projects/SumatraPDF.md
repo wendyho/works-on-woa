@@ -1,6 +1,6 @@
 ---
 name: "Sumatra PDF"
-categories: [app]
+categories: ['app']
 link: https://www.sumatrapdfreader.org/downloadafter
 compatibility: native
 versionFrom: "3.5.2"

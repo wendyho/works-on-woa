@@ -1,6 +1,6 @@
 ---
 name: "Google Earth"
-categories: [app]
+categories: ['app']
 link: https://www.google.com/earth/about/versions/
 compatibility: emulation
 versionFrom: "7.3.6.9345"

@@ -1,6 +1,6 @@
 ---
 name: "Disney+"
-categories: [app]
+categories: ['entertainment']
 link: https://apps.microsoft.com/detail/9nxqxxlfst89?hl=en-us&gl=US
 compatibility: native
 versionFrom: "2023.8.310"

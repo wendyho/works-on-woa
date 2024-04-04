@@ -1,6 +1,6 @@
 ---
 name: "BeeLine Reader"
-categories: [app]
+categories: ['accessibility']
 link: https://www.beelinereader.com/
 compatibility: native
 versionFrom: "nan"

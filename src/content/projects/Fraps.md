@@ -1,6 +1,6 @@
 ---
 name: "Fraps"
-categories: [app]
+categories: ['utils-tools']
 link: https://fraps.com/download.php
 compatibility: emulation
 versionFrom: "3.5.99"
