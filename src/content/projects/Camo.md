@@ -1,6 +1,6 @@
 ---
 name: "Camo"
-categories: [app]
+categories: ['app']
 link: https://reincubate.com/camo/downloads/
 compatibility: emulation
 versionFrom: "2.0.5.10050"

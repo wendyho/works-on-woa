@@ -1,6 +1,6 @@
 ---
 name: "Potplayer"
-categories: [app]
+categories: ['musicvideos']
 link: https://potplayer.daum.net/
 compatibility: emulation
 versionFrom: "231220"

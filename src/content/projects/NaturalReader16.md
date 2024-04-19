@@ -1,6 +1,6 @@
 ---
 name: "NaturalReader 16"
-categories: [app]
+categories: ['app']
 link: https://www.naturalreaders.com/software.html
 compatibility: native
 versionFrom: "10.2.24"

@@ -1,6 +1,6 @@
 ---
 name: "e-Speaking Voice and Speech recognition"
-categories: [app]
+categories: ['accessibility']
 link: https://e-speaking.com/
 compatibility: native
 versionFrom: "1.0.0.0."

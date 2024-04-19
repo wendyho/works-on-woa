@@ -1,6 +1,6 @@
 ---
 name: "DeepL Translate"
-categories: [app]
+categories: ['app']
 link: https://apps.microsoft.com/detail/xpdnx7g06blh2g?hl=en-us&gl=US
 compatibility: emulation
 versionFrom: "24.1.1.11641"

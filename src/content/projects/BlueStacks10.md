@@ -1,6 +1,6 @@
 ---
 name: "BlueStacks 10"
-categories: [app]
+categories: ['app']
 link: https://www.bluestacks.com/download.html
 compatibility: emulation
 versionFrom: "10.5.0.1016"

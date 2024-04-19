@@ -1,6 +1,6 @@
 ---
 name: "Solidworks"
-categories: [app]
+categories: ['architecture']
 link: https://my.solidworks.com/try-solidworks
 compatibility: native
 versionFrom: "nan"

@@ -1,6 +1,6 @@
 ---
 name: "Reimage Repair"
-categories: [app]
+categories: ['utils-tools']
 link: https://ccm.net/downloads/security-and-maintenance/diagnosis-and-monitoring/
 compatibility: emulation
 versionFrom: "1.9.7.2"

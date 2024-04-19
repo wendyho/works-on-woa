@@ -1,6 +1,6 @@
 ---
 name: "NBC Sports"
-categories: [app]
+categories: ['sports']
 link: https://apps.microsoft.com/detail/9wzdncrfjcl3?hl=en-us&gl=US
 compatibility: native
 versionFrom: "2.1.11.0"

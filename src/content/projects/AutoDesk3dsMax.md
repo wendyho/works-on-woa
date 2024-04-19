@@ -1,6 +1,6 @@
 ---
 name: "AutoDesk 3ds Max"
-categories: [app]
+categories: ['multimedia']
 link: https://www.autodesk.com/products/3ds-max/free-trial
 compatibility: emulation
 versionFrom: "26.1.0.2270"

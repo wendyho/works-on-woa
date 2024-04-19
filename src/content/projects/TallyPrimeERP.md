@@ -1,6 +1,6 @@
 ---
 name: "Tally Prime ERP"
-categories: [app]
+categories: ['app']
 link: https://tallysolutions.com/download/
 compatibility: emulation
 versionFrom: "4"

@@ -1,6 +1,6 @@
 ---
 name: "ICQ"
-categories: [app]
+categories: ['social']
 link: https://apps.microsoft.com/detail/9wzdncrfhwd8?hl=en-US&gl=IN
 compatibility: emulation
 versionFrom: "23.2.0.48119"

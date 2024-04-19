@@ -6,4 +6,3 @@ compatibility: native
 versionFrom: "16.0.0"
 type: applications
 ---
-

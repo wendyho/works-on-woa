@@ -1,6 +1,6 @@
 ---
 name: "System Information Viewer"
-categories: [app]
+categories: ['app']
 link: http://rh-software.com/
 compatibility: emulation
 versionFrom: "5.7.4"

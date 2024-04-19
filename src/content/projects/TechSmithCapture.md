@@ -1,6 +1,6 @@
 ---
 name: "TechSmith Capture"
-categories: [app]
+categories: ['graphics']
 link: https://www.techsmith.com/download-jing-win-thankyou.html
 compatibility: emulation
 versionFrom: "2.1.0.573"

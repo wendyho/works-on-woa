@@ -1,6 +1,6 @@
 ---
 name: "Google Slides"
-categories: [app]
+categories: ['app']
 link: https://docs.google.com/presentation/u/0/
 compatibility: native
 versionFrom: "nan"

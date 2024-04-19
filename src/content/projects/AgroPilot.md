@@ -1,6 +1,6 @@
 ---
 name: "AgroPilot"
-categories: [app]
+categories: ['app']
 link: https://apps.microsoft.com/detail/9nzm8csdfs1r?hl=en-us&gl=US
 compatibility: emulation
 versionFrom: "7.5.7.0"

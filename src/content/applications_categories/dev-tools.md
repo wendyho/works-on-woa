@@ -1,4 +1,4 @@
 ---
-name: Dev Tools
-description: Dev Tools
+name: Developer Tools
+description: Software for development
 ---
