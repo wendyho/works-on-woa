@@ -22,7 +22,6 @@ const projects = defineCollection({
       versionFrom: z.coerce.string(),
       compatibility: z.enum([
         "native",
-        "native (unreleased)",
         "emulation",
         "no",
         "unknown",
