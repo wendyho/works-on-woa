@@ -7,3 +7,4 @@ versionFrom: "4.0.2.0"
 type: applications
 ---
 
+A native version of Blender for Windows on Arm is on the way. Expected in v4.2.

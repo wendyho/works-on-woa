@@ -1,9 +1,8 @@
 ---
-name: Python
-icon: python.svg
-categories: [oss, dev-tools]
-link: https://python.org/
+name: "Python"
+categories: [app]
+link: https://www.python.org/downloads/windows/
 compatibility: native
-versionFrom: "3.11"
+versionFrom: "3.11.9"
 type: applications
 ---
