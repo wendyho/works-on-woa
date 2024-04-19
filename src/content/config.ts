@@ -35,10 +35,10 @@ const projects = defineCollection({
       categories: z.array(reference("games_categories")),
       publisher: z.string().optional(),
       frame_rate: z.string().optional(),
-      device_configuration:z.string().optional(),
+      device_configuration: z.string().optional(),
       status_description: z.string().optional(),
-      os_version:z.string().optional(),
-      date_tested:z.string(),
+      os_version: z.string().optional(),
+      date_tested: z.date({ invalid_type_error: "Invalid date format. Must be YYYY-MM-DD"}).optional(),
       overall_status: z.string(),
       compatibility: z.enum([
         "perfect",
