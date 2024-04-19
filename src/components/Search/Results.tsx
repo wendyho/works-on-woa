@@ -1,4 +1,5 @@
 import "solid-js";
+import dayjs from "dayjs";
 import {
   For,
   Match,
@@ -100,10 +101,12 @@ const Result = ({
                 <b>Publisher: </b>
                 <span>{project()?.meta.publisher}</span>
               </p>
+              <Show when ={project()?.meta.date_tested != null}>
               <p>
                 <b>Date Tested: </b>
-                <span>{project()?.meta.date_tested}</span>
+                <span>{dayjs(project()?.meta.date_tested).format("DD-MMM-YYYY")}</span>
               </p>
+              </Show>
               
               </Show>
             
