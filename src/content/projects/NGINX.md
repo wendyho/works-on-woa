@@ -7,3 +7,4 @@ versionFrom: "1.25.2"
 type: applications
 ---
 
+NGINX may be compiled to run natively.
