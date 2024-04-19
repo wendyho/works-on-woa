@@ -1,6 +1,6 @@
 ---
 name: "Vegas Pro"
-categories: [app]
+categories: ['musicvideos']
 link: https://www.vegascreativesoftware.com/us/vegas-pro/
 compatibility: emulation
 versionFrom: "21.0.208.0"

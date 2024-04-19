@@ -1,6 +1,6 @@
 ---
 name: "Cyberlink AudioDirector"
-categories: [app]
+categories: ['app']
 link: https://www.cyberlink.com/downloads/trials/audiodirector/download_en_IN.html?r=1
 compatibility: emulation
 versionFrom: "13.6.3107.0"

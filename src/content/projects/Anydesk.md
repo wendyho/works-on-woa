@@ -1,6 +1,6 @@
 ---
 name: "Anydesk"
-categories: [app]
+categories: ['business']
 link: https://anydesk.com/en
 compatibility: emulation
 versionFrom: "V8.0.3"

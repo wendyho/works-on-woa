@@ -1,6 +1,6 @@
 ---
 name: "TurboTax"
-categories: [app]
+categories: ['personalfin']
 link: https://myturbotax.intuit.com/sign-up/
 compatibility: native
 versionFrom: "nan"

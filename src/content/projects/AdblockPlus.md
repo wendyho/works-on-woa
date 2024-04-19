@@ -1,6 +1,6 @@
 ---
 name: "Adblock Plus"
-categories: [app]
+categories: ['app']
 link: https://adblockplus.org/download
 compatibility: native
 versionFrom: "nan"

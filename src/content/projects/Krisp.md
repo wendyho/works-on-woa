@@ -1,6 +1,6 @@
 ---
 name: "Krisp"
-categories: [app]
+categories: ['app']
 link: https://apps.microsoft.com/detail/xp9d25xxg3sv5x?hl=en-us&gl=US
 compatibility: emulation
 versionFrom: "2.33.4"

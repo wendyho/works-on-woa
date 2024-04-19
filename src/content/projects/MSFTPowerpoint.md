@@ -1,6 +1,6 @@
 ---
 name: "MSFT Powerpoint"
-categories: [app]
+categories: ['app']
 link: https://portal.office.com/Account
 compatibility: native
 versionFrom: "2308"

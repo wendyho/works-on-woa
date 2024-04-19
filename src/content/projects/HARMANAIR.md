@@ -1,6 +1,6 @@
 ---
 name: "HARMAN AIR"
-categories: [app]
+categories: ['app']
 link: https://blog.adobe.com/en/publish/2019/05/30/the-future-of-adobe-air
 compatibility: emulation
 versionFrom: "50.2.4"

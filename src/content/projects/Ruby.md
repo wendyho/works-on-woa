@@ -1,6 +1,6 @@
 ---
 name: "Ruby"
-categories: [app]
+categories: ['app']
 link: https://rubyinstaller.org/downloads/
 compatibility: native
 versionFrom: "3.1.4p223"

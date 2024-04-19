@@ -1,6 +1,6 @@
 ---
 name: "Msys2"
-categories: [app]
+categories: ['app']
 link: https://www.msys2.org/
 compatibility: emulation
 versionFrom: "3.4.7"

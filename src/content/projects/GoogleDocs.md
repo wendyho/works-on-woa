@@ -1,6 +1,6 @@
 ---
 name: "Google Docs"
-categories: [app]
+categories: ['app']
 link: https://docs.google.com/document/u/0/
 compatibility: native
 versionFrom: "nan"
