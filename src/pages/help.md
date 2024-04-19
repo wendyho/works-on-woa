@@ -15,7 +15,6 @@ For each application, there is a **Compatibility** field that can be one of the 
 | Value               | Meaning                                           |
 | ------------------- | ------------------------------------------------- |
 | native              | Runs natively on Windows on Arm (WoA)             |
-| native (unreleased) | Unreleased version allows running natively on WoA |
 | emulation           | Works with x86/x64 emulation                      |
 | no                  | not yet ported                                    |
 | unknown             | status not known                                  |
