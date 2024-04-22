@@ -1,6 +1,6 @@
 ---
 name: "QlikView"
-categories: [app]
+categories: ['app']
 link: https://www.qlik.com/us/trial/download-qlikview
 compatibility: native
 versionFrom: "nan"

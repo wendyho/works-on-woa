@@ -1,6 +1,6 @@
 ---
 name: "Afterburner"
-categories: [app]
+categories: ['app']
 link: https://www.msi.com/Landing/afterburner/graphics-cards
 compatibility: emulation
 versionFrom: "4.6.5.16370"

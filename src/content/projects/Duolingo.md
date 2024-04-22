@@ -1,6 +1,6 @@
 ---
 name: "Duolingo"
-categories: [app]
+categories: ['app']
 link: https://apps.microsoft.com/detail/9wzdncrcv5xn?hl=en-us&gl=US
 compatibility: native
 versionFrom: "1.178.3.0"

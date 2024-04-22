@@ -1,6 +1,6 @@
 ---
 name: "Electron"
-categories: [app]
+categories: ['app']
 link: https://releases.electronjs.org/
 compatibility: emulation
 versionFrom: "26.0.0"

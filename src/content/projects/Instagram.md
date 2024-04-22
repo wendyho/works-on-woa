@@ -1,6 +1,6 @@
 ---
 name: "Instagram"
-categories: [app]
+categories: ['comms']
 link: https://apps.microsoft.com/detail/9nblggh5l9xt?hl=en-us&gl=IN
 compatibility: native
 versionFrom: "42.0.21.0"

@@ -1,6 +1,6 @@
 ---
 name: "ArcGIS ArcMap"
-categories: [app]
+categories: ['app']
 link: https://www.esri.com/en-us/arcgis/products/arcgis-pro/overview
 compatibility: emulation
 versionFrom: "3.1.41833"
