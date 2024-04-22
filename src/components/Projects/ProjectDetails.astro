@@ -3,16 +3,17 @@ import type { CollectionEntry } from "astro:content";
 import type { ProjectFields } from "../../layouts/ProjectLayout.astro";
 import { toTitleCase } from "../../util/formatting";
 import type { AstroComponentFactory } from "astro/runtime/server/index.js";
-type Categories = CollectionEntry<"applications_categories">;
+
 type Props = {
   fields: ProjectFields;
   icon: string;
   filters: string[];
-  categoriesData: Categories[];
   Content: AstroComponentFactory;
   name: string;
   type: "applications" | "games"
 };
+
+
 const fieldLabels : { [key: string]: string } = {
   device_configuration: "Device Configuration",
   date_tested: "Date Tested",
@@ -32,8 +33,7 @@ const fieldLabels : { [key: string]: string } = {
   type:"Type"
   
 };
-const { fields, icon, categoriesData, filters, Content, name, type } = Astro.props; 
-
+const { fields, icon,  filters, Content, name, type } = Astro.props; 
 
 ---
 
@@ -44,16 +44,16 @@ const { fields, icon, categoriesData, filters, Content, name, type } = Astro.pro
       fields.map((field) => (
         <li class="mb-2">
           <b data-pagefind-ignore>{fieldLabels[field.key] || toTitleCase(field.key)}</b>
-          {field.type === "array" ? (
+          {field.key === "category" ? (
             <p>
-              {(field.value as typeof categoriesData).map((value, index) => (
+              {(field.value).map((value, index) => (
                 <a data-pagefind-filter={field.key} 
                 class="text-blue-700 underline"
                 href={`/?category=${encodeURIComponent(value.data.name)}`}>
                   {value.data.name}
                 </a>
                 <span>
-                  {index === categoriesData.length - 1 ? "" : ", "}
+                  {index === field.value.length - 1 ? "" : ", "}
                 </span>
               ))}
             </p>
