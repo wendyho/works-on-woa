@@ -3,6 +3,7 @@ import type { CollectionEntry } from "astro:content";
 import type { ProjectFields } from "../../layouts/ProjectLayout.astro";
 import { toTitleCase } from "../../util/formatting";
 import type { AstroComponentFactory } from "astro/runtime/server/index.js";
+import dayjs from "dayjs";
 type Categories = CollectionEntry<"applications_categories">;
 type Props = {
   fields: ProjectFields;
@@ -42,6 +43,7 @@ const { fields, icon, categoriesData, filters, Content, name, type } = Astro.pro
   <ul>
     {
       fields.map((field) => (
+        field.value ? (
         <li class="mb-2">
           <b data-pagefind-ignore>{fieldLabels[field.key] || toTitleCase(field.key)}</b>
           {field.type === "array" ? (
@@ -69,11 +71,14 @@ const { fields, icon, categoriesData, filters, Content, name, type } = Astro.pro
                   {field.value}
                 </a>
               ) : (
-                field.value
+                field.key === "date_tested" ? (dayjs(field.value as string).format("DD-MMM-YYYY")): field.value
               )}
             </p>
           )}
         </li>
+        ) : (
+          ""
+        )
       ))
     }
     <li class="project-notes">
