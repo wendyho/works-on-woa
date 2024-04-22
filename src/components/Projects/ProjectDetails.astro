@@ -1,5 +1,4 @@
 ---
-import type { CollectionEntry } from "astro:content";
 import type { ProjectFields } from "../../layouts/ProjectLayout.astro";
 import { toTitleCase } from "../../util/formatting";
 import type { AstroComponentFactory } from "astro/runtime/server/index.js";
@@ -23,7 +22,7 @@ const fieldLabels : { [key: string]: string } = {
   frame_rate: "Frame Rate",
   status_description: "Overall Status Description",
   os_version: "OS Version",
-  game_type: "Game Type",
+  game_type: "Game Type", 
   compatibility: "Compatibility",
   name: "Name", 
   icon: "icon",
@@ -65,7 +64,7 @@ const { fields, icon,  filters, Content, name, type } = Astro.props;
 
             >
               {field.type === "link"  ? (
-                <a href={field.value as string} class="text-blue-700 underline break-all">
+                <a href={field.value as string} class="text-blue-700 underline break-all" >
                   {field.value}
                 </a>
               ) : (
