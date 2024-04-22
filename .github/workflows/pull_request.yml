@@ -1,6 +1,5 @@
 on:
   pull_request:
-    types: [opened, reopened]
 
 env:
   NODE_VERSION: "20.x"
