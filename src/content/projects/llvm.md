@@ -1,9 +1,8 @@
 ---
 name: "LLVM"
 categories: [app]
-link: https://release.llvm.org/download.html
-compatibility: emulation
+link: https://releases.llvm.org/download.html
+compatibility: native
 versionFrom: "16.0.0"
 type: applications
 ---
-

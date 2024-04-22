@@ -1,6 +1,6 @@
 ---
 name: "Sublime Text"
-categories: [app]
+categories: ['prod']
 link: https://www.sublimetext.com/3
 compatibility: emulation
 versionFrom: "Build 4152"

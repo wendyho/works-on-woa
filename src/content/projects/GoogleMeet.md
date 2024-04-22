@@ -1,6 +1,6 @@
 ---
 name: "Google Meet"
-categories: [app]
+categories: ['app']
 link: https://workspace.google.com/pricing.html
 compatibility: native
 versionFrom: "nan"

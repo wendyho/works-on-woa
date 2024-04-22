@@ -1,6 +1,6 @@
 ---
 name: "Quarrel"
-categories: [app]
+categories: ['app']
 link: https://www.microsoft.com/store/productId/9NN1ZFD5G6DL
 compatibility: emulation
 versionFrom: "20.7.15.0"

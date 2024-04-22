@@ -1,6 +1,6 @@
 ---
 name: "Nero MediaHome"
-categories: [app]
+categories: ['utils-tools']
 link: https://www.nero.com/eng/downloads/?vlang=us
 compatibility: emulation
 versionFrom: "23.0.1.36"

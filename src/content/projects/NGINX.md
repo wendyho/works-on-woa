@@ -1,9 +1,10 @@
 ---
 name: "NGINX"
-categories: [app]
+categories: ['app']
 link: https://nginx.org/download/nginx-1.25.2.zip
 compatibility: emulation
 versionFrom: "1.25.2"
 type: applications
 ---
 
+NGINX may be compiled to run natively.

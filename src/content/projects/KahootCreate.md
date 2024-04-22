@@ -1,6 +1,6 @@
 ---
 name: "Kahoot! Create"
-categories: [app]
+categories: ['education']
 link: https://apps.microsoft.com/detail/9n4jbjnfzc1l?hl=en-us&gl=US
 compatibility: native
 versionFrom: "2.0.0.0"

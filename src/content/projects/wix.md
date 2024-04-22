@@ -8,4 +8,4 @@ versionFrom: "v4"
 type: applications
 ---
 
-Obtainable via NuGet, see [https://wixtoolset.org/docs/intro/](https://wixtoolset.org/docs/intro/)
+Obtainable via `dotnet tool install --global wix`
