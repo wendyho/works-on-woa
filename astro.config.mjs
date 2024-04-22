@@ -53,7 +53,6 @@ export default defineConfig({
           }),
         ],
       }),
-
   site: `https://${CUSTOM_DOMAIN}`,
   cacheDir: "./cache",
   compressHTML: true,
