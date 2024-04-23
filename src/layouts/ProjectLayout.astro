@@ -35,14 +35,15 @@ const { data, render, date, reports } = Astro.props;
 const { Content } = await render();
 
 // extract special fields
-const { link, icon, name, categories, type } = data;
+const { link, icon, name, categories, type, ...otherFields } = data;
 
 // get category data from references
 const categoriesData = await getEntries(categories);
 
 // extract non-special text fields
 const textFields = Object.entries(data).filter(
-  ([key]) => !["icon", "name", "categories", "link", "type"].includes(key)
+  ([key]) =>
+    !["icon", "name", "categories", "link", "type", "date_tested"].includes(key)
 );
 
 // construct field array from text and special fields
@@ -52,6 +53,15 @@ const fields = [
     value: field[1],
     type: "text",
   })),
+  ...("date_tested" in otherFields
+    ? [
+        {
+          key: "date_tested",
+          value: dayjs(otherFields.date_tested).format("DD-MMM-YYYY"),
+          type: "text",
+        },
+      ]
+    : []),
   {
     key: "link",
     value: link,
@@ -65,7 +75,14 @@ const fields = [
 ] as ProjectFields;
 
 // sort fields
-const sortOrder = ["compatibility", "category", "versionFrom", "link", "notes"];
+const sortOrder = [
+  "compatibility",
+  "category",
+  "versionFrom",
+  "link",
+  "notes",
+  "date_tested",
+];
 
 const sortKeys = sortOrder.reduce((obj: any, item: string, index: number) => {
   return {
@@ -91,10 +108,7 @@ const filters = ["category", "compatibility", "type"];
   <body class="min-h-screen flex flex-col">
     <main class="max-w-5xl mx-auto px-2 sm:px-5 w-full">
       <Search shouldRedirect={true} type={type} />
-      <section
-        data-pagefind-body
-        class="flex flex-col items-center p-1 sm:pb-10 pt-0"
-      >
+      <section data-pagefind-body class="flex flex-col items-center p-1 pt-0">
         <h1 class="font-bold text-3xl px-0 self-start">
           {name}
         </h1>
@@ -123,35 +137,37 @@ const filters = ["category", "compatibility", "type"];
           }
         </p>
       </section>
-      <section class="mb-8">
-        <h2 class="px-0 text-xl">User Reports</h2>
-        <ul class="flex flex-col gap-4">
-          {
-            reports.map(({ data }) => (
-              <li class="w-full p-5 bg-white text-black rounded-xl">
-                <ul class="grid grid-cols-2 gap-y-8">
-                  <li>
-                    <b>Device Configuration</b>
-                    <p>{data.device_configuration}</p>
-                  </li>
-                  <li>
-                    <b>Date Tested</b>
-                    <p>{dayjs(data.date_tested).format("YYYY-MM-DD")}</p>
-                  </li>
-                  <li>
-                    <b>Compatibility Details</b>
-                    <p>{data.compatibility_details}</p>
-                  </li>
-                  <li>
-                    <b>Overall Status</b>
-                    <p>{data.overall_status}</p>
-                  </li>
-                </ul>
-              </li>
-            ))
-          }
-        </ul>
-      </section>
+      {
+        reports?.length > 0 && (
+          <section class="mb-8">
+            <h2 class="px-0 text-xl">User Reports</h2>
+            <ul class="flex flex-col gap-4">
+              {reports.map(({ data }) => (
+                <li class="w-full p-5 bg-white text-black rounded-xl">
+                  <ul class="grid grid-cols-2 gap-y-8">
+                    <li>
+                      <b>Device Configuration</b>
+                      <p>{data.device_configuration}</p>
+                    </li>
+                    <li>
+                      <b>Date Tested</b>
+                      <p>{dayjs(data.date_tested).format("YYYY-MM-DD")}</p>
+                    </li>
+                    <li>
+                      <b>Compatibility Details</b>
+                      <p>{data.compatibility_details}</p>
+                    </li>
+                    <li>
+                      <b>Overall Status</b>
+                      <p>{data.overall_status}</p>
+                    </li>
+                  </ul>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )
+      }
     </main>
 
     <Footer />
