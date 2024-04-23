@@ -84,7 +84,7 @@ const Result = ({
                 </p>
                 <p class="break-all text-orange-200">
                   <b>Version:&nbsp;</b>
-                  <span class="min-w-0">{project()?.meta.versionFrom}</span>
+                  <span class="min-w-0">{project()?.meta.version_from}</span>
                 </p>
               </Show>
               <Show when={type === "games"}>
