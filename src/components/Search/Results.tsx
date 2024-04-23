@@ -6,10 +6,12 @@ import {
   Show,
   Switch,
   createEffect,
+  createMemo,
   createResource,
   createSignal,
   type Accessor,
   type Resource,
+  type Setter,
 } from "solid-js";
 import Pagination from "./Pagination";
 import type { JSX } from "solid-js/h/jsx-runtime";
@@ -121,24 +123,31 @@ const Result = ({
 };
 
 const Results = ({
+  page,
+  setPage,
   results,
   search,
   clearSearch,
   setFilter,
   type,
 }: {
+  page: Accessor<number>;
+  setPage: Setter<number>;
   results: Resource<any>;
   search: Accessor<SearchQuery>;
   clearSearch: () => void;
   setFilter: (filter: string, selection: string, value: boolean) => void;
   type: "applications" | "games";
 }) => {
-  const [page, setPage] = createSignal(1);
-  const [pageCount, setPageCount] = createSignal(0);
   const [paginatedResults, setPaginatedResults] = createSignal([]);
 
-  createEffect(() => {
-    setPageCount(Math.ceil(results()?.results?.length / 10));
+  const pageCount = createMemo(() => {
+    const totalResults = results()?.results.length;
+    if (totalResults % PAGE_SIZE === 0) {
+      return totalResults / PAGE_SIZE;
+    } else {
+      return Math.ceil(totalResults / PAGE_SIZE);
+    }
   });
 
   createEffect(() => {
@@ -148,9 +157,13 @@ const Results = ({
   });
 
   createEffect(() => {
-    if (search()) {
-      setPage(1);
+    const url = new URL(window.location.href);
+    if (page() === 1) {
+      url.searchParams.delete("page");
+    } else {
+      url.searchParams.set("page", page().toString());
     }
+    window.history.replaceState({}, "", url.toString());
   });
 
   const onClickFilterLink: JSX.CustomEventHandlersCamelCase<HTMLButtonElement>["onClick"] =

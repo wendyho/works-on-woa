@@ -8,6 +8,14 @@ const applications_categories = defineCollection({
   }),
 });
 
+const games_categories = defineCollection({
+  type: "content",
+  schema: z.object({
+    name: z.string(),
+    description: z.string().optional(),
+  }),
+});
+
 const projects = defineCollection({
   type: "content",
   schema: ({ image }) =>
@@ -30,28 +38,23 @@ const projects = defineCollection({
         frame_rate: z.string().optional(),
         device_configuration: z.string().optional(),
         status_description: z.string().optional(),
-        os_version: z.string().optional(),
-        date_tested: z
-          .date({
-            invalid_type_error: "Invalid date format. Must be YYYY-MM-DD",
+        os_build_number: z.string().optional(),
+        driver_id: z.string().optional(),
+        date_tested: z.date().optional(),
+        compatibility: z.enum(["perfect", "playable", "runs", "unplayable"]),
+        compatibility_details: z.string().optional(),
+        auto_super_resolution: z
+          .object({
+            compatibility: z.enum(["yes", "no", "N/A"]),
+            enablement: z.enum(["out of box", "opt-in", "N/A"]),
+            fps_boost: z.number(),
           })
           .optional(),
-        overall_status: z.string(),
-        compatibility: z.enum(["perfect", "playable", "runs", "unplayable"]),
-        link: z.literal(null).default(null),
+        link: z.string().url().optional(),
       }),
     ]),
 });
 
-const games_categories = defineCollection({
-  type: "content",
-  schema: z.object({
-    name: z.string(),
-    description: z.string().optional(),
-  }),
-});
-
-// Device configuration”, “Date tested”, “Overall status” and “Compatibility details”.
 const user_reports = defineCollection({
   type: "data",
   schema: z.object({
@@ -61,7 +64,6 @@ const user_reports = defineCollection({
     date_tested: z
       .date({ invalid_type_error: "Invalid date format. Must be YYYY-MM-DD" })
       .optional(),
-    overall_status: z.string(),
     compatibility_details: z.string(),
   }),
 });

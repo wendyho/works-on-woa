@@ -1,11 +1,4 @@
-import "solid-js";
-import {
-  Show,
-  createEffect,
-  createMemo,
-  createResource,
-  createSignal,
-} from "solid-js";
+import { Show, createMemo, createResource, createSignal } from "solid-js";
 import FilterDropdown from "./FilterDropdown";
 import Results from "./Results";
 import SearchIcon from "./SearchIcon";
@@ -25,7 +18,7 @@ const fetchResults = async ({
   query: string | null;
   filters: Filters;
 }) => {
-  return await pagefind.search(query, {
+  return await pagefind.debouncedSearch(query, {
     filters,
     sort: query
       ? undefined
@@ -65,17 +58,22 @@ const PageFind = ({
       query: url.searchParams.get("query"),
       category: url.searchParams.get("category")?.split(","),
       compatibility: url.searchParams.get("compatibility")?.split(","),
+      page: url.searchParams.get("page"),
     };
   });
+
+  const [page, setPage] = createSignal(
+    pathParams().page ? Number(pathParams().page) : 1
+  );
 
   const [search, setSearch] = createSignal<{
     query: string | null;
     filters: Filters;
   }>({
-    query: pathParams().query || null,
+    query: pathParams().query ?? null,
     filters: {
-      category: pathParams().category || [],
-      compatibility: pathParams().compatibility || [],
+      category: pathParams().category ?? [],
+      compatibility: pathParams().compatibility ?? [],
       type: [type],
     },
   });
@@ -87,7 +85,7 @@ const PageFind = ({
   ) => void = (filter, selection, value) => {
     const prev = search();
 
-    const prevFilter = prev.filters[filter] || [];
+    const prevFilter = prev.filters[filter] ?? [];
     const newSearch = {
       ...prev,
       filters: {
@@ -102,6 +100,7 @@ const PageFind = ({
     };
     setSearch(newSearch);
     setRequest(newSearch);
+    setPage(1);
     const url = getQueryParams(search());
     if (!shouldRedirect) window.history.replaceState({}, "", url.toString());
   };
@@ -119,16 +118,17 @@ const PageFind = ({
         type: [type],
       },
     });
+    setPage(1);
   };
 
   const [request, setRequest] = createSignal<{
     query: string | null;
     filters: Filters;
   }>({
-    query: pathParams().query || null,
+    query: pathParams().query ?? null,
     filters: {
-      category: pathParams().category || [],
-      compatibility: pathParams().compatibility || [],
+      category: pathParams().category ?? [],
+      compatibility: pathParams().compatibility ?? [],
       type: [type],
     },
   });
@@ -143,13 +143,14 @@ const PageFind = ({
       }
       window.history.replaceState({}, "", url.toString());
       setRequest(search());
+      setPage(1);
     };
 
   const [results] = createResource(request, fetchResults);
   const [filterOptions] = createResource(request, fetchFilterOptions);
 
   return (
-    <div class={`w-full flex flex-col h-[${results()?.length || 10 * 7}rem]`}>
+    <div class={`w-full flex flex-col h-[${results()?.length ?? 10 * 7}rem]`}>
       <div class="w-full flex flex-col md:flex-row justify-between items-stretch mb-3 gap-3 md:gap-0">
         <form
           onSubmit={onSearch}
@@ -162,7 +163,7 @@ const PageFind = ({
             <input
               placeholder="Search for applications"
               name="project-search"
-              value={search().query || ""}
+              value={search().query ?? ""}
               onInput={(e) =>
                 setSearch({
                   ...search(),
@@ -213,6 +214,8 @@ const PageFind = ({
       </div>
       <Show when={!shouldRedirect}>
         <Results
+          page={page}
+          setPage={setPage}
           results={results}
           search={search}
           clearSearch={clearSearch}

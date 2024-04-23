@@ -6,6 +6,12 @@ import {
   createMemo,
   Show,
 } from "solid-js";
+import {
+  FiChevronRight,
+  FiChevronsRight,
+  FiChevronLeft,
+  FiChevronsLeft,
+} from "solid-icons/fi";
 const visiblePages = 5;
 const PAGE_SIZE = 10;
 
@@ -21,7 +27,7 @@ export const getPageNumbers = (currentPage: number, total: number) => {
   if (currentPage + offset > total) {
     return Array.from(
       { length: Number(visiblePages) },
-      (_, i) => i + total - visiblePages
+      (_, i) => i + total + 1 - visiblePages
     );
   }
   return Array.from(
@@ -64,41 +70,57 @@ const Pagination = ({
     setPage(page() - 1);
   };
 
-  // const onLastPage: JSX.EventHandlerUnion<
-  //   HTMLButtonElement,
-  //   MouseEvent
-  // > = () => {
-  //   setPage(pageCount());
-  // };
-  // const onFirstPage: JSX.EventHandlerUnion<
-  //   HTMLButtonElement,
-  //   MouseEvent
-  // > = () => {
-  //   setPage(0);
-  // };
+  const onJumpForward: JSX.EventHandlerUnion<
+    HTMLButtonElement,
+    MouseEvent
+  > = () => {
+    setPage(page() + 10 > pageCount() ? pageCount() : page() + 10);
+  };
+
+  const onJumpBack: JSX.EventHandlerUnion<
+    HTMLButtonElement,
+    MouseEvent
+  > = () => {
+    setPage(page() - 10 < 1 ? 1 : page() - 10);
+  };
+
+  const onLastPage: JSX.EventHandlerUnion<
+    HTMLButtonElement,
+    MouseEvent
+  > = () => {
+    setPage(pageCount());
+  };
+
+  const onFirstPage: JSX.EventHandlerUnion<
+    HTMLButtonElement,
+    MouseEvent
+  > = () => {
+    setPage(1);
+  };
+
   const pageNumbers = createMemo(() => getPageNumbers(page(), pageCount()));
   return (
-    <nav class="flex flex-col w-full items-center gap-3 my-4 self-end">
-      <ul class="flex items-center -space-x-px h-10 text-base">
+    <nav class="flex flex-col w-full items-center gap-16 my-4 self-end">
+      <ul class="flex items-center flex-wrap h-10 text-base">
         <Show when={pageCount() > 1 && page() > 1}>
           <li>
-            <button onClick={onPrevPage} class="pagination-button rounded-l-lg">
+            <button
+              onClick={onFirstPage}
+              class="pagination-button rounded-l-lg"
+            >
+              <span>First</span>
+            </button>
+          </li>
+          <li>
+            <button onClick={onJumpBack} class="pagination-button">
+              <span class="sr-only">Jump forward 10 pages</span>
+              <FiChevronsLeft />
+            </button>
+          </li>
+          <li>
+            <button onClick={onPrevPage} class="pagination-button ">
               <span class="sr-only">Previous</span>
-              <svg
-                class="w-3 h-3"
-                aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 6 10"
-              >
-                <path
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M5 1 1 5l4 4"
-                />
-              </svg>
+              <FiChevronLeft />
             </button>
           </li>
         </Show>
@@ -121,28 +143,26 @@ const Pagination = ({
         </For>
         <Show when={pageCount() > 1 && page() < pageCount()}>
           <li>
-            <button onClick={onNextPage} class="pagination-button rounded-r-lg">
+            <button onClick={onNextPage} class="pagination-button">
               <span class="sr-only">Next</span>
-              <svg
-                class="w-3 h-3"
-                aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 6 10"
-              >
-                <path
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="m1 9 4-4-4-4"
-                />
-              </svg>
+
+              <FiChevronRight />
+            </button>
+          </li>
+          <li>
+            <button onClick={onJumpForward} class="pagination-button">
+              <span class="sr-only">Jump forward 10 pages</span>
+              <FiChevronsRight />
+            </button>
+          </li>
+          <li>
+            <button onClick={onLastPage} class="pagination-button rounded-r-lg">
+              <span>Last</span>
             </button>
           </li>
         </Show>
       </ul>
-      <span class="text-sm text-neutral-300">
+      <p class="text-sm text-neutral-300 block">
         <Show
           when={total > 10}
           fallback={
@@ -161,7 +181,7 @@ const Pagination = ({
           </span>{" "}
           of <span class="font-semibold text-white ">{total}</span> results
         </Show>
-      </span>
+      </p>
     </nav>
   );
 };

@@ -23,7 +23,7 @@ const { slug } = Astro.params;
 
 let date: Date | null = null;
 
-const reports = await getCollection("user_reports", ({ data }) => {
+const reports = await getCollection("user_reports", ({ data }: any) => {
   return data.project.slug === slug;
 });
 
