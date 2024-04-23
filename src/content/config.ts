@@ -50,10 +50,12 @@ const games_categories = defineCollection({
     description: z.string().optional(),
   }),
 });
+
 // Device configuration”, “Date tested”, “Overall status” and “Compatibility details”.
 const user_reports = defineCollection({
   type: "data",
   schema: z.object({
+    reporter: z.string().optional().default("Anonymous"),
     project: reference("projects"),
     device_configuration: z.string().optional(),
     date_tested: z
@@ -68,4 +70,5 @@ export const collections = {
   applications_categories,
   games_categories,
   projects,
+  user_reports,
 };

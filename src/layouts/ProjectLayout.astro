@@ -33,18 +33,21 @@ export type ProjectFields = (
 const { data, render, date, reports } = Astro.props;
 
 const { Content } = await render();
-
 // extract special fields
 const { link, icon, name, categories, type, ...otherFields } = data;
 
 // get category data from references
 const categoriesData = await getEntries(categories);
 
-// extract non-special text fields
+// extract generic fields
 const textFields = Object.entries(data).filter(
   ([key]) =>
-    !["icon", "name", "categories", "link", "type", "date_tested"].includes(key)
-);
+    key !== "icon" &&
+    key !== "name" &&
+    key !== "categories" &&
+    key !== "link" &&
+    key !== "date_tested"
+) as [string, string][];
 
 // construct field array from text and special fields
 const fields = [
@@ -95,6 +98,8 @@ fields.sort((a, b) => sortKeys[a.key] - sortKeys[b.key]);
 
 // list filtering fields
 const filters = ["category", "compatibility", "type"];
+
+console.log(reports);
 ---
 
 <html lang="en">
@@ -144,15 +149,16 @@ const filters = ["category", "compatibility", "type"];
             <ul class="flex flex-col gap-4">
               {reports.map(({ data }) => (
                 <li class="w-full p-5 bg-white text-black rounded-xl">
-                  <ul class="grid grid-cols-2 gap-y-8">
+                  <h4 class="mb-4 italic">
+                    {data.reporter} -{" "}
+                    {dayjs(data.date_tested).format("YYYY-MM-DD")}
+                  </h4>
+                  <ul class="md:grid-cols-2 grid grid-cols-1  lg:grid-cols-3 gap-y-8">
                     <li>
                       <b>Device Configuration</b>
                       <p>{data.device_configuration}</p>
                     </li>
-                    <li>
-                      <b>Date Tested</b>
-                      <p>{dayjs(data.date_tested).format("YYYY-MM-DD")}</p>
-                    </li>
+
                     <li>
                       <b>Compatibility Details</b>
                       <p>{data.compatibility_details}</p>
