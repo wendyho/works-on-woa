@@ -33,7 +33,6 @@ const Result = ({
   type: "applications" | "games";
 }) => {
   const [project] = createResource(result, getProject);
-
   return (
     <Show when={!!project()} fallback={<div class="min-h-24" />}>
       <li class="flex flex-col sm:flex-row bg-white bg-opacity-10 text-white rounded-md mb-2 no-underline min-h-28">
@@ -81,7 +80,7 @@ const Result = ({
               <Show when={type === "applications"}>
                 <p>
                   <b>Compatibility: </b>
-                  <span>{project().filters.compatibility.join(", ")}</span>
+                  <span>{project().filters.compatibility[0]}</span>
                 </p>
                 <p class="break-all text-orange-200">
                   <b>Version:&nbsp;</b>
@@ -92,7 +91,7 @@ const Result = ({
                 <p>
                   <b>Compatibility: </b>
                   <span class="min-w-0 text-orange-200">
-                    {project().filters.compatibility.join(", ")}
+                    {project().filters.compatibility}
                   </span>
                 </p>
                 <p>

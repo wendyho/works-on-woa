@@ -7,9 +7,7 @@ import { promisify } from "node:util";
 const execAsync = promisify(exec);
 
 export async function getStaticPaths() {
-  const projects = await getCollection("projects", ({ data }) => {
-    return data.type === "applications";
-  });
+  const projects = await getCollection("applications");
 
   return projects.map((project) => ({
     params: { slug: project.slug },
@@ -19,20 +17,20 @@ export async function getStaticPaths() {
 
 const { slug } = Astro.params;
 
-const reports = await getCollection("user_reports", ({ data }) => {
+const reports = await getCollection("user_reports", ({ data }: any) => {
   return data.project === slug;
 });
 
 let date: Date | null = null;
-type Props = CollectionEntry<"projects">;
+type Props = CollectionEntry<"applications">;
 let project;
 if (import.meta.env.SSR) {
-  project = await getEntry("projects", slug);
+  project = await getEntry("applications", slug);
 } else {
   project = Astro.props;
   try {
     const { stdout } = await execAsync(
-      `git log -1 --pretty="format:%ci" ${process.cwd()}/src/content/projects/${slug}.md`
+      `git log -1 --pretty="format:%ci" ${process.cwd()}/src/content/applications/${slug}.md`
     );
     date = new Date(stdout);
   } catch (e) {
@@ -41,4 +39,9 @@ if (import.meta.env.SSR) {
 }
 ---
 
-<ProjectLayout {...project} date={date} reports={reports} />
+<ProjectLayout
+  project={project}
+  type="applications"
+  date={date}
+  reports={reports}
+/>
