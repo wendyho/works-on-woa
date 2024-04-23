@@ -1,5 +1,10 @@
-import "solid-js";
-import { Show, createEffect, createMemo, createResource, createSignal } from "solid-js";
+import {
+  Show,
+  createEffect,
+  createMemo,
+  createResource,
+  createSignal,
+} from "solid-js";
 import FilterDropdown from "./FilterDropdown";
 import Results from "./Results";
 import SearchIcon from "./SearchIcon";
@@ -19,7 +24,7 @@ const fetchResults = async ({
   query: string | null;
   filters: Filters;
 }) => {
-  return await pagefind.search(query, {
+  return await pagefind.debouncedSearch(query, {
     filters,
     sort: query
       ? undefined
@@ -31,12 +36,10 @@ const fetchResults = async ({
 
 const fetchFilterOptions = async () => {
   return await pagefind.filters();
-  
 };
 
-
 const getQueryParams = ({ filters, query }: SearchQuery) => {
-  const url = new URL(window.location.origin);
+  const url = new URL(window.location.origin + "/" + filters.type[0]);
   if (query) url.searchParams.append("query", query);
   if (filters.category?.length > 0) {
     url.searchParams.append("category", filters.category.join(","));
@@ -47,7 +50,13 @@ const getQueryParams = ({ filters, query }: SearchQuery) => {
   return url;
 };
 
-const PageFind = ({ shouldRedirect, type }: { shouldRedirect: boolean, type: "games" | "applications" }) => {
+const PageFind = ({
+  shouldRedirect,
+  type,
+}: {
+  shouldRedirect: boolean;
+  type: "games" | "applications";
+}) => {
   const pathParams = createMemo(() => {
     const url_string = window.location.href;
     const url = new URL(url_string);
@@ -55,29 +64,34 @@ const PageFind = ({ shouldRedirect, type }: { shouldRedirect: boolean, type: "ga
       query: url.searchParams.get("query"),
       category: url.searchParams.get("category")?.split(","),
       compatibility: url.searchParams.get("compatibility")?.split(","),
+      page: url.searchParams.get("page"),
     };
   });
+
+  const [page, setPage] = createSignal(
+    pathParams().page ? Number(pathParams().page) : 1
+  );
 
   const [search, setSearch] = createSignal<{
     query: string | null;
     filters: Filters;
   }>({
-    query: pathParams().query || null,
+    query: pathParams().query ?? null,
     filters: {
-      category: pathParams().category || [],
-      compatibility: pathParams().compatibility || [],
-      type: [type]
+      category: pathParams().category ?? [],
+      compatibility: pathParams().compatibility ?? [],
+      type: [type],
     },
   });
 
   const setFilter: (
     filter: string,
     selection: string,
-    value: boolean,
+    value: boolean
   ) => void = (filter, selection, value) => {
     const prev = search();
 
-    const prevFilter = prev.filters[filter] || [];
+    const prevFilter = prev.filters[filter] ?? [];
     const newSearch = {
       ...prev,
       filters: {
@@ -92,6 +106,7 @@ const PageFind = ({ shouldRedirect, type }: { shouldRedirect: boolean, type: "ga
     };
     setSearch(newSearch);
     setRequest(newSearch);
+    setPage(1);
     const url = getQueryParams(search());
     if (!shouldRedirect) window.history.replaceState({}, "", url.toString());
   };
@@ -100,27 +115,27 @@ const PageFind = ({ shouldRedirect, type }: { shouldRedirect: boolean, type: "ga
     setSearch({
       query: null,
       filters: {
-        type: [type]
+        type: [type],
       },
-      
     });
     setRequest({
       query: null,
       filters: {
-        type: [type]
+        type: [type],
       },
     });
+    setPage(1);
   };
 
   const [request, setRequest] = createSignal<{
     query: string | null;
     filters: Filters;
   }>({
-    query: pathParams().query || null,
+    query: pathParams().query ?? null,
     filters: {
-      category: pathParams().category || [],
-      compatibility: pathParams().compatibility || [],
-      type: [type]
+      category: pathParams().category ?? [],
+      compatibility: pathParams().compatibility ?? [],
+      type: [type],
     },
   });
 
@@ -134,14 +149,14 @@ const PageFind = ({ shouldRedirect, type }: { shouldRedirect: boolean, type: "ga
       }
       window.history.replaceState({}, "", url.toString());
       setRequest(search());
+      setPage(1);
     };
 
   const [results] = createResource(request, fetchResults);
   const [filterOptions] = createResource(request, fetchFilterOptions);
 
-
   return (
-    <div class={`w-full flex flex-col h-[${results()?.length || 10 * 7}rem]`}>
+    <div class={`w-full flex flex-col h-[${results()?.length ?? 10 * 7}rem]`}>
       <div class="w-full flex flex-col md:flex-row justify-between items-stretch mb-3 gap-3 md:gap-0">
         <form
           onSubmit={onSearch}
@@ -150,32 +165,34 @@ const PageFind = ({ shouldRedirect, type }: { shouldRedirect: boolean, type: "ga
           <label class="hidden" for="project-search">
             Search for applications
           </label>
-          { type === "applications" ? 
-          <input
-            placeholder="Search for applications"
-            name="project-search"
-            value={search().query || ""}
-            onInput={(e) =>
-              setSearch({
-                ...search(),
-                query: e.currentTarget.value || null,
-              })
-            }
-            class="w-full h-full px-3"
-          /> : 
-          <input
-            placeholder="Search for games"
-            name="project-search"
-            value={search().query || ""}
-            onInput={(e) =>
-              setSearch({
-                ...search(),
-                query: e.currentTarget.value || null,
-              })
-            }
-            class="w-full h-full px-3"
-          />}
-          
+          {type === "applications" ? (
+            <input
+              placeholder="Search for applications"
+              name="project-search"
+              value={search().query ?? ""}
+              onInput={(e) =>
+                setSearch({
+                  ...search(),
+                  query: e.currentTarget.value || null,
+                })
+              }
+              class="w-full h-full px-3"
+            />
+          ) : (
+            <input
+              placeholder="Search for games"
+              name="project-search"
+              value={search().query ?? ""}
+              onInput={(e) =>
+                setSearch({
+                  ...search(),
+                  query: e.currentTarget.value || null,
+                })
+              }
+              class="w-full h-full px-3"
+            />
+          )}
+
           <button
             class="py-2 px-2 flex items-center"
             type="submit"
@@ -194,7 +211,6 @@ const PageFind = ({ shouldRedirect, type }: { shouldRedirect: boolean, type: "ga
 
         <div class="flex">
           <FilterDropdown
-            
             search={search}
             filterOptions={filterOptions}
             setFilter={setFilter}
@@ -204,6 +220,8 @@ const PageFind = ({ shouldRedirect, type }: { shouldRedirect: boolean, type: "ga
       </div>
       <Show when={!shouldRedirect}>
         <Results
+          page={page}
+          setPage={setPage}
           results={results}
           search={search}
           clearSearch={clearSearch}

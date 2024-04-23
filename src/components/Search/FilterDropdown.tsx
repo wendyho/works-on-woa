@@ -16,14 +16,13 @@ const filters = [
   { key: "compatibility", name: "Compatibility" },
 ];
 
-
 const FilterDropdown = ({
   filterOptions,
   search,
   setFilter,
   results,
-  // type,
-}: {
+}: // type,
+{
   filterOptions: Resource<any>;
   search: Accessor<{ query: string | null; filters: Filters }>;
   results: Resource<any>;
@@ -31,10 +30,9 @@ const FilterDropdown = ({
   // type: "games" | "applications"
 }) => {
   // const initialFilters = type === "games" ? gamesFilters : filters;
-  
-  
+
   const [showFilters, setShowFilters] = createSignal<Record<string, boolean>>(
-     filters.reduce(
+    filters.reduce(
       (p, f) => ({
         ...p,
         [f.key]: false,
@@ -42,8 +40,7 @@ const FilterDropdown = ({
       {}
     )
   );
-  
-  
+
   const toggleFilters = (option: string) => {
     setShowFilters({
       ...Object.keys(showFilters()).reduce(
@@ -85,7 +82,7 @@ const FilterDropdown = ({
     };
 
   return (
-    <div class=" flex" ref={ref!}>
+    <div class=" flex " ref={ref!}>
       <For each={filters}>
         {(filter) => (
           <div class="relative w-36 h-full flex-shrink-0 z-10 inline-flex text-sm font-medium text-center last:rounded-r-full first:rounded-l-full first:md:rounded-l-none  border-l  focus:ring-4 focus:outline-none  bg-neutral-700 hover:bg-neutral-600 focus:ring-neutral-700  text-white border-neutral-600">
@@ -107,9 +104,8 @@ const FilterDropdown = ({
                 class="absolute block top-full z-10 left-0 right-auto md:right-0 md:left-auto divide-y mt-2 rounded-lg shadow w-44 md:w-64 bg-neutral-100 "
               >
                 <ul
-                  class="py-2 text-sm text-neutral-200 w-full "
+                  class="py-2 text-sm text-neutral-200 w-full  max-h-96 overflow-auto"
                   aria-labelledby="filter-button"
-                  role="listbox"
                 >
                   <For each={Object.entries(filterOptions()[filter.key] || {})}>
                     {([optionKey, optionValue]) => {
@@ -117,7 +113,7 @@ const FilterDropdown = ({
                         ? results().filters[filter.key][optionKey]
                         : optionValue;
                       return (
-                        <Show when={itemCount > 0}> 
+                        <Show when={itemCount > 0}>
                           <li class="flex flex-row w-full">
                             <button
                               type="button"
@@ -128,7 +124,6 @@ const FilterDropdown = ({
                                 class="flex items-center ml-2 cursor-pointer h-full py-4 gap-3"
                               >
                                 <input
-                                  role="option"
                                   type="checkbox"
                                   name={optionKey}
                                   id={optionKey}
@@ -136,7 +131,9 @@ const FilterDropdown = ({
                                   onChange={onSelectFilterOption}
                                   checked={
                                     search().filters[filter.key] &&
-                                    search().filters[filter.key].includes(optionKey)
+                                    search().filters[filter.key].includes(
+                                      optionKey
+                                    )
                                   }
                                   class="ml-2"
                                 />

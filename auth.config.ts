@@ -1,6 +1,10 @@
 // auth.config.ts
 import { defineConfig } from "auth-astro";
-import { verifyBiscuitUser, parseBiscuitMetadata, type Bwks } from "./src/lib/auth";
+import {
+  verifyBiscuitUser,
+  parseBiscuitMetadata,
+  type Bwks,
+} from "./src/lib/auth";
 
 const {
   AUTH0_CLIENT_ID,
@@ -13,7 +17,6 @@ const {
 
 const isDev = import.meta.env.DEV;
 const WEBSITE_URL = import.meta.env.SITE;
-
 
 function getPublicKeys() {
   return fetch(`${PUBLIC_KEY_URL}`, {
@@ -95,9 +98,9 @@ export default defineConfig({
   callbacks: {
     async session({ session, token }: any) {
       session.profile = token.profile;
-      session.access_token = token.access_token
-      session.public_keys = token.public_keys
-      session.expires_at = token.expires_at
+      session.access_token = token.access_token;
+      session.public_keys = token.public_keys;
+      session.expires_at = token.expires_at;
       return session;
     },
     async jwt({ account, token }) {
@@ -105,7 +108,7 @@ export default defineConfig({
       if (account) {
         try {
           const { profile, public_keys } = await afterToken(
-            account.access_token!,
+            account.access_token!
           );
           return {
             access_token: account.access_token,
@@ -115,15 +118,10 @@ export default defineConfig({
             profile,
           };
         } catch (error) {
-          console.error(error)
+          console.error(error);
           throw new Error("AccessDenied");
         }
       }
-
-      // // Access token has expired, try to update it
-      // if (Date.now() > token.expires_at * 1000) {
-      //   return refreshAccessToken(token);
-      // }
 
       // if not sign in and token is valid, return as is
       return token;
