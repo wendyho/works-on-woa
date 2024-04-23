@@ -9,10 +9,7 @@ import { getEntries } from "astro:content";
 const execAsync = promisify(exec);
 
 export async function getStaticPaths() {
-  const projects = await getCollection("projects", ({ data }) => {
-    return data.type === "games";
-  });
-
+  const projects = await getCollection("games");
   return projects.map((project) => ({
     params: { slug: project.slug },
     props: project,
@@ -27,15 +24,15 @@ const reports = await getCollection("user_reports", ({ data }: any) => {
   return data.project.slug === slug;
 });
 
-type Props = CollectionEntry<"projects">;
+type Props = CollectionEntry<"games">;
 let project;
 if (import.meta.env.SSR) {
-  project = await getEntry("projects", slug);
+  project = await getEntry("games", slug);
 } else {
   project = Astro.props;
   try {
     const { stdout } = await execAsync(
-      `git log -1 --pretty="format:%ci" ${process.cwd()}/src/content/projects/${slug}.md`
+      `git log -1 --pretty="format:%ci" ${process.cwd()}/src/content/games/${slug}.md`
     );
     date = new Date(stdout);
   } catch (e) {
@@ -44,4 +41,4 @@ if (import.meta.env.SSR) {
 }
 ---
 
-<ProjectLayout {...project} date={date} reports={reports} />
+<ProjectLayout project={project} date={date} reports={reports} type="games" />

@@ -29,15 +29,11 @@ const links = [
   },
 ];
 
-const projects = await getCollection("projects");
-const applications = projects.filter((data) => data.data.type === "applications")
-const games = projects.filter((data) => data.data.type === "games")
+const applications = await getCollection("applications");
+const games = await getCollection("games");
 import LinaroLogo from "../../assets/Linaro-White.svg";
 import type { CollectionEntry } from "astro:content";
 const path = Astro.url.pathname;
-
-
-
 ---
 
 <footer
@@ -59,9 +55,13 @@ const path = Astro.url.pathname;
     </a>
     <div class="m-2.5 flex items-start">
       <span class="mx-1 h-8 hidden sm:block">|</span>
-      { games && path.includes("/games") ? <span class="ml-1 h-6">{games.length} games</span>  :
-      <span class="ml-1 h-6">{applications.length} applications</span> }
-      
+      {
+        games && path.includes("/games") ? (
+          <span class="ml-1 h-6">{games.length} games</span>
+        ) : (
+          <span class="ml-1 h-6">{applications.length} applications</span>
+        )
+      }
     </div>
   </div>
   <ul class="flex flex-row flex-wrap items-center justify-center w-full mb-5">
@@ -84,8 +84,8 @@ const path = Astro.url.pathname;
   <p class="text-xs text-center">
     Copyright &copy;
     {today.getFullYear()}
-     Linaro Limited. All product names, logos, brands, trademarks and registered
-    trademarks are property of their respective owners. Accuracy of the data is
-    not guaranteed by Linaro.
+    Linaro Limited. All product names, logos, brands, trademarks and registered trademarks
+    are property of their respective owners. Accuracy of the data is not guaranteed
+    by Linaro.
   </p>
 </footer>

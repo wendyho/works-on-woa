@@ -1,4 +1,10 @@
-import { Show, createMemo, createResource, createSignal } from "solid-js";
+import {
+  Show,
+  createEffect,
+  createMemo,
+  createResource,
+  createSignal,
+} from "solid-js";
 import FilterDropdown from "./FilterDropdown";
 import Results from "./Results";
 import SearchIcon from "./SearchIcon";
@@ -33,7 +39,7 @@ const fetchFilterOptions = async () => {
 };
 
 const getQueryParams = ({ filters, query }: SearchQuery) => {
-  const url = new URL(window.location.origin);
+  const url = new URL(window.location.origin + "/" + filters.type[0]);
   if (query) url.searchParams.append("query", query);
   if (filters.category?.length > 0) {
     url.searchParams.append("category", filters.category.join(","));
