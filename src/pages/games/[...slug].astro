@@ -27,8 +27,6 @@ const reports = await getCollection("user_reports", ({ data }) => {
   return data.project === slug;
 });
 
-console.log(reports);
-
 type Props = CollectionEntry<"projects">;
 let project;
 if (import.meta.env.SSR) {
@@ -46,4 +44,4 @@ if (import.meta.env.SSR) {
 }
 ---
 
-<ProjectLayout {...project} date={date} reports={reports}>
+<ProjectLayout {...project} date={date} reports={reports} />

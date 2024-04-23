@@ -8,10 +8,9 @@ const execAsync = promisify(exec);
 
 export async function getStaticPaths() {
   const projects = await getCollection("projects", ({ data }) => {
-    return data.type === "applications"
+    return data.type === "applications";
   });
- 
-  
+
   return projects.map((project) => ({
     params: { slug: project.slug },
     props: project,
@@ -19,7 +18,12 @@ export async function getStaticPaths() {
 }
 
 const { slug } = Astro.params;
-let date: Date | null = null
+
+const reports = await getCollection("user_reports", ({ data }) => {
+  return data.project === slug;
+});
+
+let date: Date | null = null;
 type Props = CollectionEntry<"projects">;
 let project;
 if (import.meta.env.SSR) {
@@ -37,4 +41,4 @@ if (import.meta.env.SSR) {
 }
 ---
 
-<ProjectLayout {...project} date={date}  />
+<ProjectLayout {...project} date={date} reports={reports} />
