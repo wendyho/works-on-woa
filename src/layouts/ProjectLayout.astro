@@ -4,73 +4,21 @@ import BaseHead from "../components/Common/BaseHead.astro";
 import Footer from "../components/Common/Footer.astro";
 import Search from "../components/Search/Search.astro";
 import ProjectDetails from "../components/Projects/ProjectDetails.astro";
+import { getEntries } from "astro:content";
+import dayjs from "dayjs";
 
-type Props = CollectionEntry<"projects"> & { date: Date | null };
+type Props<T extends "games" | "applications"> = {
+  project: CollectionEntry<T>;
+  date: Date | null;
+  reports: CollectionEntry<"user_reports">[];
+  type: T;
+};
 
-const { data, render, date  } = Astro.props;
+const { project, date, reports, type } = Astro.props;
 
-const { Content } = await render();
-
-// extract generic fields
-const textFields = Object.entries(data).filter(
-  ([key]) =>
-    key !== "icon" && key !== "name" && key !== "categories" && key !== "link"
-) as [string, string][];
-
-// extract special fields
-const {link, icon, name, categories, type } = data;
-
-
-
-
-// get category data from references
-const appCategoryPromises = categories.map(async (category) =>
-  getEntry("applications_categories", category.slug) 
-);
-const gamesCategoryPromises = categories.map(async (category) =>
-  getEntry("games_categories", category.slug) 
-);
-const categoriesData = type === "applications" ? await Promise.all(appCategoryPromises) : await Promise.all(gamesCategoryPromises)
-
-// construct field array
-const fields = [
-  ...textFields.map((field) => ({
-    key: field[0],
-    value: field[1],
-    type: "text",
-  })),
-  {
-    key: "link",
-    value: link,
-    type: "link",
-  },
-  {
-    key: "category",
-    value: categoriesData,
-    type: "array",
-  },
-] 
-
-export type ProjectFields = typeof fields;
-
-// sort fields
-const sortOrder = ["compatibility", "category", "versionFrom", "link", "notes"];
-
-const sortKeys = sortOrder.reduce((obj: any, item: string, index: number) => {
-  return {
-    ...obj,
-    [item]: index,
-  };
-}, {});
-
-fields.sort((a, b) => sortKeys[a.key] - sortKeys[b.key]);
-
-// list filtering fields
-
-const filters = ["category", "compatibility", "type"];
-// check path
-
-
+const {
+  data: { name },
+} = project;
 ---
 
 <html lang="en">
@@ -82,40 +30,65 @@ const filters = ["category", "compatibility", "type"];
   </head>
 
   <body class="min-h-screen flex flex-col">
-    <main class="max-w-5xl mx-auto px-2 sm:px-5 w-full"> 
-      <Search shouldRedirect={true} type={type}/>
-      <section
-        data-pagefind-body
-        class="flex flex-col items-center p-1 sm:pb-10 pt-0"
-      >
+    <main class="max-w-5xl mx-auto px-2 sm:px-5 w-full">
+      <Search shouldRedirect={true} type={type} />
+      <section data-pagefind-body class="flex flex-col items-center p-1 pt-0">
         <h1 class="font-bold text-3xl px-0 self-start">
           {name}
         </h1>
         <span class="hidden" data-pagefind-sort="name"
           >{name.toLowerCase()}</span
         >
-        <ProjectDetails
-          fields={fields}
-          icon={icon}
-          categoriesData={categoriesData}
-          filters={filters}
-          Content={Content}
-          name={name}
-          type={type}
-        />
+
+        <ProjectDetails project={project} type={type} />
         <p class="w-full py-6">
           Last updated {
-            import.meta.env.SSR ? 
-            <i>- not available on private staging site</i> :
-            date?.toLocaleDateString("en-gb", {
-              year: "numeric",
-              month: "long",
-              day: "numeric",
-            })
+            import.meta.env.SSR ? (
+              <i>- not available on private staging site</i>
+            ) : (
+              date?.toLocaleDateString("en-gb", {
+                year: "numeric",
+                month: "long",
+                day: "numeric",
+              })
+            )
           }
         </p>
       </section>
+      {
+        reports?.length > 0 && (
+          <section class="mb-8">
+            <h2 class="px-0 text-xl">User Reports</h2>
+            <ul class="flex flex-col gap-4">
+              {reports.map(({ data }: any) => (
+                <li class="w-full p-5 bg-white text-black rounded-xl">
+                  <h4 class="mb-4 italic">
+                    {data.reporter} -{" "}
+                    {dayjs(data.date_tested).format("YYYY-MM-DD")}
+                  </h4>
+                  <ul class="md:grid-cols-2 grid grid-cols-1  lg:grid-cols-3 gap-y-8">
+                    <li>
+                      <b>Device Configuration</b>
+                      <p>{data.device_configuration}</p>
+                    </li>
+
+                    <li>
+                      <b>Compatibility Details</b>
+                      <p>{data.compatibility_details}</p>
+                    </li>
+                    <li>
+                      <b>Overall Status</b>
+                      <p>{data.overall_status}</p>
+                    </li>
+                  </ul>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )
+      }
     </main>
+
     <Footer />
   </body>
 </html>

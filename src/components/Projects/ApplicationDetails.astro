@@ -1,0 +1,97 @@
+---
+import { getEntries } from "astro:content";
+import { type CollectionEntry } from "astro:content";
+
+type Props = { application: CollectionEntry<"applications"> };
+const {
+  application: { data, render },
+} = Astro.props;
+
+const categories = await getEntries(data.categories);
+const { icon, name, compatibility, link, version_from, versionFrom } = data;
+
+const { Content } = await render();
+---
+
+<span class="hidden" data-pagefind-filter="type:applications"></span>
+<div class="flex justify-between items-center">
+  <p
+    class:list={[
+      "font-bold text-2xl md:text-center px-4 rounded-xl text-white",
+      compatibility === "native" && "bg-green-700 ",
+      compatibility === "emulation" && "bg-orange-400",
+      compatibility === "no" && "bg-red-500",
+      compatibility === "unknown" && "bg-grey-500",
+    ]}
+    data-pagefind-filter={`compatibility:${compatibility}`}
+  >
+    {compatibility.toUpperCase()}
+  </p>
+  <img
+    src={icon !== "application-icon-white.svg"
+      ? `/icons/${icon}`
+      : "/icons/application-icon-black.svg"}
+    width="75px"
+    data-pagefind-meta={`image:/icons/${icon}`}
+    alt={`${name} logo`}
+  />
+</div>
+
+<ul class="flex flex-row flex-wrap gap-x-16 gap-y-6">
+  <li>
+    <b data-pagefind-ignore>Categories: </b>
+    {
+      categories.length > 0 ? (
+        categories.map((category, index) => (
+          <span>
+            <a
+              data-pagefind-ignore
+              data-pagefind-filter="category"
+              class="text-blue-700 underline"
+              href={`/?category=${encodeURIComponent(category.data.name)}`}
+            >
+              {category.data.name}
+            </a>
+            <span>{index >= categories.length - 1 ? "" : ", "}</span>
+          </span>
+        ))
+      ) : (
+        <span>None</span>
+      )
+    }
+  </li>
+  {
+    (version_from || versionFrom) && (
+      <li>
+        <b data-pagefind-ignore>Version From: </b>
+        <span data-pagefind-meta="version_from">
+          {version_from || versionFrom}
+        </span>
+      </li>
+    )
+  }
+  {
+    link && (
+      <li class="basis-full">
+        <b data-pagefind-ignore>Link: </b>
+        <a
+          href={link}
+          target="_blank"
+          class="text-blue-700 underline break-all"
+        >
+          {link}
+        </a>
+      </li>
+    )
+  }
+  {
+    (
+      <li class="project-notes basis-full">
+        <b data-pagefind-ignore>Notes</b>
+        <div class="note-container">
+          <Content />
+        </div>
+      </li>
+    )
+  }
+</ul>

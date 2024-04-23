@@ -6,10 +6,12 @@ import {
   Show,
   Switch,
   createEffect,
+  createMemo,
   createResource,
   createSignal,
   type Accessor,
   type Resource,
+  type Setter,
 } from "solid-js";
 import Pagination from "./Pagination";
 import type { JSX } from "solid-js/h/jsx-runtime";
@@ -18,8 +20,6 @@ import type { SearchQuery } from "./PageFind";
 const getProject = async (result: any) => {
   return await result.data();
 };
-
-
 
 const PAGE_SIZE = 10;
 
@@ -30,12 +30,9 @@ const Result = ({
 }: {
   result: any;
   onClickFilterLink: JSX.CustomEventHandlersCamelCase<HTMLButtonElement>["onClick"];
-  type: "applications" | "games"
+  type: "applications" | "games";
 }) => {
   const [project] = createResource(result, getProject);
-  
-  
-  
   return (
     <Show when={!!project()} fallback={<div class="min-h-24" />}>
       <li class="flex flex-col sm:flex-row bg-white bg-opacity-10 text-white rounded-md mb-2 no-underline min-h-28">
@@ -57,60 +54,59 @@ const Result = ({
                 {project()?.meta.title}
               </h2>
             </a>
-           
+
             <div class="px-3 flex flex-col sm:flex-row gap-3 mb-3 flex-wrap">
-            
               <p class="flex gap-2 flex-wrap">
-              <b>Categories: </b>
-              {/* <span>{project().filters.categories.join(", ")}</span>
-               */}
-              <span class="flex flex-wrap gap-1">
-                <For each={project().filters.category}>
-                  {(cat: string) => (
-                    <button
-                      class="text-blue-300 underline after:content-[','] last:after:content-[''] inline"
-                      // href={`/?category=${cat}`}
-                      data-filter-type="category"
-                      data-filter-selection={cat}
-                      onClick={onClickFilterLink}
-                    >
-                      {cat}
-                    </button>
-                  )}
-                </For>
-              </span>
-            </p>
-             
-              
+                <b>Categories: </b>
+                {/* <span>{project().filters.categories.join(", ")}</span>
+                 */}
+                <span class="flex flex-wrap gap-1">
+                  <For each={project().filters.category}>
+                    {(cat: string) => (
+                      <button
+                        class="text-blue-300 underline after:content-[','] last:after:content-[''] inline"
+                        // href={`/?category=${cat}`}
+                        data-filter-type="category"
+                        data-filter-selection={cat}
+                        onClick={onClickFilterLink}
+                      >
+                        {cat}
+                      </button>
+                    )}
+                  </For>
+                </span>
+              </p>
+
               <Show when={type === "applications"}>
-              <p>
-                <b>Compatibility: </b>
-                <span>{project().filters.compatibility.join(", ")}</span>
-              </p>
-              <p class="break-all text-orange-200">
-                <b>Version:&nbsp;</b>
-                <span class="min-w-0">{project()?.meta.versionFrom}</span>
-              </p>
+                <p>
+                  <b>Compatibility: </b>
+                  <span>{project().filters.compatibility[0]}</span>
+                </p>
+                <p class="break-all text-orange-200">
+                  <b>Version:&nbsp;</b>
+                  <span class="min-w-0">{project()?.meta.versionFrom}</span>
+                </p>
               </Show>
-              <Show when ={type === "games"}>
-              <p >
-                <b>Compatibility: </b>
-                <span class="min-w-0 text-orange-200">{project().filters.compatibility.join(", ")}</span>
-              </p>
-              <p>
-                <b>Publisher: </b>
-                <span>{project()?.meta.publisher}</span>
-              </p>
-              <Show when ={project()?.meta.date_tested != null}>
-              <p>
-                <b>Date Tested: </b>
-                <span>{dayjs(project()?.meta.date_tested).format("DD-MMM-YYYY")}</span>
-              </p>
+              <Show when={type === "games"}>
+                <p>
+                  <b>Compatibility: </b>
+                  <span class="min-w-0 text-orange-200">
+                    {project().filters.compatibility}
+                  </span>
+                </p>
+                <p>
+                  <b>Publisher: </b>
+                  <span>{project()?.meta.publisher}</span>
+                </p>
+                <Show when={project()?.meta.date_tested != null}>
+                  <p>
+                    <b>Date Tested: </b>
+                    <span>
+                      {dayjs(project()?.meta.date_tested).format("DD-MMM-YYYY")}
+                    </span>
+                  </p>
+                </Show>
               </Show>
-              
-              </Show>
-            
-             
             </div>
           </div>
         </article>
@@ -126,25 +122,31 @@ const Result = ({
 };
 
 const Results = ({
+  page,
+  setPage,
   results,
   search,
   clearSearch,
   setFilter,
   type,
 }: {
+  page: Accessor<number>;
+  setPage: Setter<number>;
   results: Resource<any>;
   search: Accessor<SearchQuery>;
   clearSearch: () => void;
-  setFilter: (filter: string, selection: string, value: boolean, ) => void;
-  type: "applications" | "games"
-
+  setFilter: (filter: string, selection: string, value: boolean) => void;
+  type: "applications" | "games";
 }) => {
-  const [page, setPage] = createSignal(1);
-  const [pageCount, setPageCount] = createSignal(0);
   const [paginatedResults, setPaginatedResults] = createSignal([]);
 
-  createEffect(() => {
-    setPageCount(Math.ceil(results()?.results?.length / 10));
+  const pageCount = createMemo(() => {
+    const totalResults = results()?.results.length;
+    if (totalResults % PAGE_SIZE === 0) {
+      return totalResults / PAGE_SIZE;
+    } else {
+      return Math.ceil(totalResults / PAGE_SIZE);
+    }
   });
 
   createEffect(() => {
@@ -154,9 +156,13 @@ const Results = ({
   });
 
   createEffect(() => {
-    if (search()) {
-      setPage(1);
+    const url = new URL(window.location.href);
+    if (page() === 1) {
+      url.searchParams.delete("page");
+    } else {
+      url.searchParams.set("page", page().toString());
     }
+    window.history.replaceState({}, "", url.toString());
   });
 
   const onClickFilterLink: JSX.CustomEventHandlersCamelCase<HTMLButtonElement>["onClick"] =
@@ -167,10 +173,9 @@ const Results = ({
         "data-filter-selection"
       )!.value;
       clearSearch();
-      setFilter(filter, selection, true,);
+      setFilter(filter, selection, true);
     };
-  
-   
+
   return (
     <div class={`w-full my-6`}>
       <Switch>

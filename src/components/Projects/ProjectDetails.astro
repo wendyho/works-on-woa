@@ -1,105 +1,32 @@
 ---
+import GameDetails from "./GameDetails.astro";
+import ApplicationDetails from "./ApplicationDetails.astro";
 import type { CollectionEntry } from "astro:content";
-import type { ProjectFields } from "../../layouts/ProjectLayout.astro";
-import { toTitleCase } from "../../util/formatting";
-import type { AstroComponentFactory } from "astro/runtime/server/index.js";
-import dayjs from "dayjs";
-type Categories = CollectionEntry<"applications_categories">;
-type Props = {
-  fields: ProjectFields;
-  icon: string;
-  filters: string[];
-  categoriesData: Categories[];
-  Content: AstroComponentFactory;
-  name: string;
-  type: "applications" | "games"
-};
-const fieldLabels : { [key: string]: string } = {
-  device_configuration: "Device Configuration",
-  date_tested: "Date Tested",
-  game_type: "Game Type",
-  overall_status: "Overall Status", 
-  publisher: "Publisher",
-  frame_rate: "Frame Rate",
-  status_description: "Overall Status Description",
-  os_version: "OS Version",
-  game_type: "Game Type",
-  compatibility: "Compatibility",
-  name: "Name", 
-  icon: "icon",
-  categories: "Categories",
-  link: "Link", 
-  versionFrom: "Version From",
-  type:"Type"
-  
-};
-const { fields, icon, categoriesData, filters, Content, name, type } = Astro.props; 
 
+type Props<T extends "games" | "applications"> = {
+  project: CollectionEntry<T>;
+  type: T;
+};
 
+const props = Astro.props;
 ---
 
-<div class="w-full p-5 bg-white text-black rounded-xl relative project-details">
-  <img src={`/icons/${icon}`} width="75px" class="absolute right-0 top-0 m-5" alt={`${name} logo`}/>   
-  <ul>
-    {
-      fields.map((field) => (
-        field.value ? (
-        <li class="mb-2">
-          <b data-pagefind-ignore>{fieldLabels[field.key] || toTitleCase(field.key)}</b>
-          {field.type === "array" ? (
-            <p>
-              {(field.value as typeof categoriesData).map((value, index) => (
-                <a data-pagefind-filter={field.key} 
-                class="text-blue-700 underline"
-                href={`/?category=${encodeURIComponent(value.data.name)}`}>
-                  {value.data.name}
-                </a>
-                <span>
-                  {index === categoriesData.length - 1 ? "" : ", "}
-                </span>
-              ))}
-            </p>
-          ) : (
-            <p
-              data-pagefind-filter={filters.includes(field.key) && field.key}
-              data-pagefind-ignore={filters.includes(field.key)}
-              data-pagefind-meta={!filters.includes(field.key) && field.key}
-
-            >
-              {field.type === "link"  ? (
-                <a href={field.value as string} class="text-blue-700 underline break-all">
-                  {field.value}
-                </a>
-              ) : (
-                field.key === "date_tested" ? (dayjs(field.value as string).format("DD-MMM-YYYY")): field.value
-              )}
-            </p>
-          )}
-        </li>
-        ) : (
-          ""
-        )
-      ))
+<div
+  class="w-full max-w-full p-5 bg-white text-black rounded-xl relative prose prose-a:text-blue-500 prose-a:underline prose-a:break-all prose-ul:list-none prose-ul:m-0 prose-ul:p-0 prose-img:m-0 prose-li:m-0"
+>
+  {
+    () => {
+      if (props.type === "games") {
+        return <GameDetails game={props.project} />;
+      } else if (props.type === "applications") {
+        return <ApplicationDetails application={props.project} />;
+      }
     }
-    <li class="project-notes">
-      <b data-pagefind-ignore>Notes</b>
-      <div>
-        <Content />
-      </div>
-    </li>
-  </ul>
+  }
 </div>
 <style is:global lang="scss">
   /* style markdown content here */
-  .project-notes {
-    a {
-      color: rgb(29 78 216);
-      text-decoration: underline;
-    }
-    div:empty:after {
-      content: "No additional notes"
-    }
+  .project-notes:has(> *) {
+    display: none;
   }
-  
 </style>
-
