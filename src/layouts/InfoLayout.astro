@@ -1,22 +1,13 @@
 ---
-import BaseHead from "../components/Common/BaseHead.astro";
-import Footer from "../components/Common/Footer.astro";
-import Header from "../components/Common/Header.astro";
 import "../styles/infopage.css";
+import BaseLayout from "./BaseLayout.astro";
 const { frontmatter } = Astro.props;
 ---
 
-<html lang="en">
-  <head>
-    <BaseHead title={frontmatter.title} description={frontmatter.description} />
-  </head>
-  <body>
-    <Header />
-    <main class="max-w-6xl mx-auto px-5 w-full">
-      <body>
-        <slot />
-      </body>
-    </main>
-    <Footer />
-  </body>
-</html>
+<BaseLayout
+  title={frontmatter.title + " | Windows on Arm Ready Software"}
+  description={frontmatter.description}
+  breadcrumbs={[{ href: `${Astro.url.pathname}`, title: frontmatter.title }]}
+>
+  <slot />
+</BaseLayout>

@@ -51,18 +51,41 @@ const games = defineCollection({
         .object({
           compatibility: z.enum(["yes", "no", "N/A"]),
           enablement: z.enum(["out of box", "opt-in", "N/A"]),
-          fps_boost: z.number(),
+          fps_boost: z.string().optional(),
         })
         .optional(),
       link: z.string().url().optional(),
     }),
 });
 
-const user_reports = defineCollection({
-  type: "data",
+const user_reports_games = defineCollection({
+  type: "content",
   schema: z.object({
     reporter: z.string().optional().default("Anonymous"),
-    project: reference("applications").or(reference("games")),
+    game: reference("games"),
+    device_configuration: z.string().optional(),
+    date_tested: z
+      .date({ invalid_type_error: "Invalid date format. Must be YYYY-MM-DD" })
+      .optional(),
+    compatibility_details: z.string(),
+    os_version: z.coerce.string().optional(),
+    driver_id: z.coerce.string().optional(),
+    compatibility: z.enum(["perfect", "playable", "runs", "unplayable"]),
+    auto_super_resolution: z
+      .object({
+        compatibility: z.enum(["yes", "no", "N/A"]),
+        enablement: z.enum(["opt-in", "N/A"]),
+        fps_boost: z.string().optional(),
+      })
+      .optional(),
+  }),
+});
+
+const user_reports_applications = defineCollection({
+  type: "content",
+  schema: z.object({
+    reporter: z.string().optional().default("Anonymous"),
+    application: reference("applications"),
     device_configuration: z.string().optional(),
     date_tested: z
       .date({ invalid_type_error: "Invalid date format. Must be YYYY-MM-DD" })
@@ -76,5 +99,6 @@ export const collections = {
   games_categories,
   games,
   applications,
-  user_reports,
+  user_reports_games,
+  user_reports_applications,
 };

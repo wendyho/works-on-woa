@@ -4,7 +4,6 @@ import ProjectLayout from "../../layouts/ProjectLayout.astro";
 import { exec } from "node:child_process";
 import { promisify } from "node:util";
 import { getEntry } from "astro:content";
-import { getEntries } from "astro:content";
 
 const execAsync = promisify(exec);
 
@@ -20,8 +19,8 @@ const { slug } = Astro.params;
 
 let date: Date | null = null;
 
-const reports = await getCollection("user_reports", ({ data }: any) => {
-  return data.project.slug === slug;
+const reports = await getCollection("user_reports_games", ({ data }: any) => {
+  return data.game.slug === slug;
 });
 
 type Props = CollectionEntry<"games">;
