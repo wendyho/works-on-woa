@@ -90,11 +90,9 @@ const FilterDropdown = ({
     category: categories.map((category) => category.data.name),
     compatibility:
       type === "games"
-        ? ["Perfect, Playable, Runs, Unplayable"]
+        ? ["Perfect", "Playable", "Runs", "Unplayable"]
         : ["Native", "Emulation", "No", "Unknown"],
   }));
-
-  createEffect(() => console.log(options()));
 
   return (
     <div class=" flex " ref={ref!}>
