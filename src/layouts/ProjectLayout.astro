@@ -5,11 +5,13 @@ import Footer from "../components/Common/Footer.astro";
 import Search from "../components/Search/Search.astro";
 import ProjectDetails from "../components/Projects/ProjectDetails.astro";
 import dayjs from "dayjs";
+import UserReports from "../components/Projects/UserReports.astro";
+import BaseLayout from "./BaseLayout.astro";
 
 type Props<T extends "games" | "applications"> = {
   project: CollectionEntry<T>;
   date: Date | null;
-  reports: CollectionEntry<"user_reports">[];
+  reports: CollectionEntry<`user_reports_${T}`>[];
   type: T;
 };
 
@@ -18,76 +20,34 @@ const { project, date, reports, type } = Astro.props;
 const {
   data: { name },
 } = project;
+
+const title = type === "applications" ? "Applications" : "Games";
 ---
 
-<html lang="en">
-  <head>
-    <BaseHead
-      title={name + " | Windows on Arm Ready Applications"}
-      description={`Windows on Arm compatibility details for ${name}`}
-    />
-  </head>
-
-  <body class="min-h-screen flex flex-col">
-    <main class="max-w-5xl mx-auto px-2 sm:px-5 w-full">
-      <Search shouldRedirect={true} type={type} />
-      <section data-pagefind-body class="flex flex-col items-center p-1 pt-0">
-        <h1 class="font-bold text-3xl px-0 self-start">
-          {name}
-        </h1>
-        <span class="hidden" data-pagefind-sort="name"
-          >{name.toLowerCase()}</span
-        >
-
-        <ProjectDetails project={project} type={type} />
-        <p class="w-full py-6">
-          Last updated {
-            import.meta.env.SSR ? (
-              <i>- not available on private staging site</i>
-            ) : (
-              date?.toLocaleDateString("en-gb", {
-                year: "numeric",
-                month: "long",
-                day: "numeric",
-              })
-            )
-          }
-        </p>
-      </section>
-      {
-        reports?.length > 0 && (
-          <section class="mb-8">
-            <h2 class="px-0 text-xl">User Reports</h2>
-            <ul class="flex flex-col gap-4">
-              {reports.map(({ data }: any) => (
-                <li class="w-full p-5 bg-white text-black rounded-xl">
-                  <h4 class="mb-4 italic">
-                    {data.reporter} -{" "}
-                    {dayjs(data.date_tested).format("YYYY-MM-DD")}
-                  </h4>
-                  <ul class="md:grid-cols-2 grid grid-cols-1  lg:grid-cols-3 gap-y-8">
-                    <li>
-                      <b>Device Configuration</b>
-                      <p>{data.device_configuration}</p>
-                    </li>
-
-                    <li>
-                      <b>Compatibility Details</b>
-                      <p>{data.compatibility_details}</p>
-                    </li>
-                    <li>
-                      <b>Overall Status</b>
-                      <p>{data.overall_status}</p>
-                    </li>
-                  </ul>
-                </li>
-              ))}
-            </ul>
-          </section>
+<BaseLayout
+  title={`${name} | Windows on Arm Ready ${title}`}
+  description={`Windows on Arm compatibility details for ${name}`}
+  breadcrumbs={[
+    { href: `/${type}/`, title: title },
+    { href: `/${type}/${project.slug}/`, title: name },
+  ]}
+>
+  <Search shouldRedirect={true} type={type} />
+  <section data-pagefind-body class="flex flex-col items-center p-1 pt-0">
+    <h1 class="font-bold text-3xl px-0 self-start" data-pagefind-meta="title">
+      {name}
+    </h1>
+    <span class="hidden" data-pagefind-sort="name">{name.toLowerCase()}</span>
+    <ProjectDetails project={project} type={type} />
+    <p class="w-full py-6">
+      Last updated {
+        import.meta.env.SSR ? (
+          <i>- not available on private staging site</i>
+        ) : (
+          dayjs(date.format("YYYY-MM-DD"))
         )
       }
-    </main>
-
-    <Footer />
-  </body>
-</html>
+    </p>
+  </section>
+  <UserReports reports={reports} type={type} />
+</BaseLayout>

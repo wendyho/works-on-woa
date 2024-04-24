@@ -1,6 +1,7 @@
 ---
 import { getEntries } from "astro:content";
 import { type CollectionEntry } from "astro:content";
+import { toTitleCase } from "../../util/formatting";
 
 type Props = { application: CollectionEntry<"applications"> };
 const {
@@ -23,7 +24,7 @@ const { Content } = await render();
       compatibility === "no" && "bg-red-500",
       compatibility === "unknown" && "bg-grey-500",
     ]}
-    data-pagefind-filter={`compatibility:${compatibility}`}
+    data-pagefind-filter={`compatibility:${toTitleCase(compatibility)}`}
   >
     {compatibility.toUpperCase()}
   </p>
@@ -48,7 +49,7 @@ const { Content } = await render();
               data-pagefind-ignore
               data-pagefind-filter="category"
               class="text-blue-700 underline"
-              href={`/?category=${encodeURIComponent(category.data.name)}`}
+              href={`/applications/?category=${encodeURIComponent(category.data.name)}`}
             >
               {category.data.name}
             </a>

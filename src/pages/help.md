@@ -1,6 +1,6 @@
 ---
 layout: ../layouts/InfoLayout.astro
-title: Help | Windows on Arm
+title: Help
 description: Help page for using the Windows on Arm ready application website.
 ---
 
@@ -12,12 +12,12 @@ Applications are grouped by category and an application can be classified by mor
 
 For each application, there is a **Compatibility** field that can be one of the following values:
 
-| Value               | Meaning                                           |
-| ------------------- | ------------------------------------------------- |
-| native              | Runs natively on Windows on Arm (WoA)             |
-| emulation           | Works with x86/x64 emulation                      |
-| no                  | not yet ported                                    |
-| unknown             | status not known                                  |
+| Value     | Meaning                               |
+| --------- | ------------------------------------- |
+| native    | Runs natively on Windows on Arm (WoA) |
+| emulation | Works with x86/x64 emulation          |
+| no        | not yet ported                        |
+| unknown   | status not known                      |
 
 The **Version From** field shows the publicly available version that provides the above stated level of support.
 
