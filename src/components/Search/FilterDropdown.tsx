@@ -5,28 +5,33 @@ import {
   type JSX,
   type Resource,
   Show,
+  createEffect,
+  createMemo,
   createSignal,
   onCleanup,
   onMount,
 } from "solid-js";
-import type { Filters } from "./PageFind";
+import type { Filters, Results } from "./PageFind";
+import type { CollectionEntry } from "astro:content";
 
-const filters = [
+type FilterKey = "category" | "compatibility";
+
+const filters: { key: FilterKey; name: string }[] = [
   { key: "category", name: "Category" },
   { key: "compatibility", name: "Compatibility" },
 ];
 
 const FilterDropdown = ({
-  filterOptions,
   search,
   setFilter,
-  results,
-}: // type,
-{
-  filterOptions: Resource<any>;
+  categories,
+  type,
+}: {
+  type: "games" | "applications";
   search: Accessor<{ query: string | null; filters: Filters }>;
-  results: Resource<any>;
   setFilter: (filter: string, selection: string, value: boolean) => void;
+  categories: CollectionEntry<"games_categories" | "applications_categories">[];
+
   // type: "games" | "applications"
 }) => {
   // const initialFilters = type === "games" ? gamesFilters : filters;
@@ -81,6 +86,16 @@ const FilterDropdown = ({
       setFilter(option, name, checked);
     };
 
+  const options = createMemo(() => ({
+    category: categories.map((category) => category.data.name),
+    compatibility:
+      type === "games"
+        ? ["Perfect, Playable, Runs, Unplayable"]
+        : ["Native", "Emulation", "No", "Unknown"],
+  }));
+
+  createEffect(() => console.log(options()));
+
   return (
     <div class=" flex " ref={ref!}>
       <For each={filters}>
@@ -107,43 +122,33 @@ const FilterDropdown = ({
                   class="py-2 text-sm text-neutral-200 w-full  max-h-96 overflow-auto"
                   aria-labelledby="filter-button"
                 >
-                  <For each={Object.entries(filterOptions()[filter.key] || {})}>
-                    {([optionKey, optionValue]) => {
-                      const itemCount = results().filters[filter.key]
-                        ? results().filters[filter.key][optionKey]
-                        : optionValue;
+                  <For each={options()[filter.key]}>
+                    {(optionKey) => {
                       return (
-                        <Show when={itemCount > 0}>
-                          <li class="flex flex-row w-full">
-                            <button
-                              type="button"
-                              class="text-md text-left text-black hover:bg-neutral-300 hover:text-black w-full max-w-full "
+                        <li class="flex flex-row w-full">
+                          <button
+                            type="button"
+                            class="text-md text-left text-black hover:bg-neutral-300 hover:text-black w-full max-w-full "
+                          >
+                            <label
+                              for={optionKey}
+                              class="flex items-center ml-2 cursor-pointer h-full py-4 gap-3"
                             >
-                              <label
-                                for={optionKey}
-                                class="flex items-center ml-2 cursor-pointer h-full py-4 gap-3"
-                              >
-                                <input
-                                  type="checkbox"
-                                  name={optionKey}
-                                  id={optionKey}
-                                  data-option={filter.key}
-                                  onChange={onSelectFilterOption}
-                                  checked={
-                                    search().filters[filter.key] &&
-                                    search().filters[filter.key].includes(
-                                      optionKey
-                                    )
-                                  }
-                                  class="ml-2"
-                                />
-                                <span class="break-words">
-                                  {`${optionKey} (${itemCount})`}
-                                </span>
-                              </label>
-                            </button>
-                          </li>
-                        </Show>
+                              <input
+                                type="checkbox"
+                                name={optionKey}
+                                id={optionKey}
+                                data-option={filter.key}
+                                onChange={onSelectFilterOption}
+                                checked={search().filters[filter.key]?.includes(
+                                  optionKey
+                                )}
+                                class="ml-2"
+                              />
+                              <span class="break-words">{`${optionKey}`}</span>
+                            </label>
+                          </button>
+                        </li>
                       );
                     }}
                   </For>
