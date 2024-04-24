@@ -38,7 +38,7 @@ const Result = ({
       <li class="flex flex-col sm:flex-row bg-white bg-opacity-10 text-white rounded-md mb-2 no-underline min-h-28">
         <article class="flex flex-row items-center ">
           <div class="m-5 w-[50px]">
-            <a href={project().url} class="cursor-pointer">
+            <a href={project().url.slice(0, -1)} class="cursor-pointer">
               <img
                 src={project().meta.image}
                 class="max-h-[50px] min-w-[50px] mx-auto"
@@ -58,14 +58,11 @@ const Result = ({
             <div class="px-3 flex flex-col sm:flex-row gap-3 mb-3 flex-wrap">
               <p class="flex gap-2 flex-wrap">
                 <b>Categories: </b>
-                {/* <span>{project().filters.categories.join(", ")}</span>
-                 */}
                 <span class="flex flex-wrap gap-1">
                   <For each={project().filters.category}>
                     {(cat: string) => (
                       <button
                         class="text-blue-300 underline after:content-[','] last:after:content-[''] inline"
-                        // href={`/?category=${cat}`}
                         data-filter-type="category"
                         data-filter-selection={cat}
                         onClick={onClickFilterLink}

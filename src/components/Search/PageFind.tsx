@@ -10,12 +10,43 @@ import Results from "./Results";
 import SearchIcon from "./SearchIcon";
 import ClearIcon from "./ClearIcon";
 import type { JSX } from "solid-js/h/jsx-runtime";
+import type { CollectionEntry, CollectionKey } from "astro:content";
 const bundlePath = `${import.meta.env.BASE_URL}pagefind/`;
 const pagefind = await import(/* @vite-ignore */ `${bundlePath}pagefind.js`);
 
 export type Filters = Record<string, string[]>;
 
 export type SearchQuery = { query: string | null; filters: Filters };
+
+export type Results = {
+  results: any[];
+  totalFilters: {
+    category: Record<
+      CollectionEntry<
+        "applications_categories" | "games_categories"
+      >["data"]["name"],
+      number
+    >;
+    type: Record<"games" | "applications", number>;
+    compatibility: Record<
+      CollectionEntry<"applications" | "games">["data"]["compatibility"],
+      number
+    >;
+  };
+  filters: {
+    category: Record<
+      CollectionEntry<
+        "applications_categories" | "games_categories"
+      >["data"]["name"],
+      number
+    >;
+    type: Record<"games" | "applications", number>;
+    compatibility: Record<
+      CollectionEntry<"applications" | "games">["data"]["compatibility"],
+      number
+    >;
+  };
+};
 
 const fetchResults = async ({
   query,
@@ -25,7 +56,11 @@ const fetchResults = async ({
   filters: Filters;
 }) => {
   return await pagefind.debouncedSearch(query, {
-    filters,
+    filters: {
+      ...filters,
+      category: { any: filters.category },
+      compatibility: { any: filters.compatibility },
+    },
     sort: query
       ? undefined
       : {
@@ -39,7 +74,7 @@ const fetchFilterOptions = async () => {
 };
 
 const getQueryParams = ({ filters, query }: SearchQuery) => {
-  const url = new URL(window.location.origin + "/" + filters.type[0]);
+  const url = new URL(window.location.origin + "/" + filters.type[0] + "/");
   if (query) url.searchParams.append("query", query);
   if (filters.category?.length > 0) {
     url.searchParams.append("category", filters.category.join(","));
@@ -52,10 +87,15 @@ const getQueryParams = ({ filters, query }: SearchQuery) => {
 
 const PageFind = ({
   shouldRedirect,
+  categories,
   type,
 }: {
   shouldRedirect: boolean;
   type: "games" | "applications";
+  categories: (
+    | CollectionEntry<"games_categories">
+    | CollectionEntry<"applications_categories">
+  )[];
 }) => {
   const pathParams = createMemo(() => {
     const url_string = window.location.href;
@@ -112,19 +152,17 @@ const PageFind = ({
   };
 
   const clearSearch = () => {
-    setSearch({
+    const newSearch = {
       query: null,
       filters: {
         type: [type],
       },
-    });
-    setRequest({
-      query: null,
-      filters: {
-        type: [type],
-      },
-    });
+    };
+    setSearch(newSearch);
+    setRequest(newSearch);
     setPage(1);
+    const url = getQueryParams(newSearch);
+    window.history.replaceState({}, "", url.toString());
   };
 
   const [request, setRequest] = createSignal<{
@@ -152,11 +190,16 @@ const PageFind = ({
       setPage(1);
     };
 
-  const [results] = createResource(request, fetchResults);
+  const [results] = createResource<Results, SearchQuery>(request, fetchResults);
   const [filterOptions] = createResource(request, fetchFilterOptions);
 
+  createEffect(() => console.log(results()));
   return (
-    <div class={`w-full flex flex-col h-[${results()?.length ?? 10 * 7}rem]`}>
+    <div
+      class={`w-full flex flex-col h-[${
+        results()?.results.length ?? 10 * 7
+      }rem]`}
+    >
       <div class="w-full flex flex-col md:flex-row justify-between items-stretch mb-3 gap-3 md:gap-0">
         <form
           onSubmit={onSearch}
@@ -211,10 +254,10 @@ const PageFind = ({
 
         <div class="flex">
           <FilterDropdown
-            search={search}
-            filterOptions={filterOptions}
+            search={request}
             setFilter={setFilter}
-            results={results}
+            categories={categories}
+            type={type}
           />
         </div>
       </div>

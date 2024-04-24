@@ -2,6 +2,7 @@
 import { getEntries } from "astro:content";
 import { type CollectionEntry } from "astro:content";
 import dayjs from "dayjs";
+import { toTitleCase } from "../../util/formatting";
 
 type Props = { game: CollectionEntry<"games"> };
 const {
@@ -39,7 +40,7 @@ const { Content } = await render();
         compatibility === "unplayable" && "bg-red-500",
       ]}
       data-pagefind-ignore
-      data-pagefind-filter={`compatibility:${compatibility}`}
+      data-pagefind-filter={`compatibility:${toTitleCase(compatibility)}`}
     >
       {compatibility.toUpperCase()}
     </p>
@@ -73,7 +74,7 @@ const { Content } = await render();
                 data-pagefind-ignore
                 data-pagefind-filter="category"
                 class="text-blue-700 underline"
-                href={`/?category=${encodeURIComponent(category.data.name)}`}
+                href={`/games/?category=${encodeURIComponent(category.data.name)}`}
               >
                 {category.data.name}
               </a>
@@ -127,9 +128,9 @@ const { Content } = await render();
     }
     {
       auto_super_resolution && (
-        <li data-pagefind-ignore>
-          <b>Auto Super Resolution: </b>
-          <ul>
+        <li data-pagefind-ignore class="basis-full">
+          <h5 class="mb-2 font-bold">Auto Super Resolution: </h5>
+          <ul class="flex gap-x-8">
             <li>
               <b>Compatible: </b>
               <span>{auto_super_resolution.compatibility}</span>
@@ -138,10 +139,12 @@ const { Content } = await render();
               <b>Enablement: </b>
               <span>{auto_super_resolution.enablement}</span>
             </li>
-            <li>
-              <b>FPS Boost: </b>
-              <span>{auto_super_resolution.fps_boost}%</span>
-            </li>
+            {auto_super_resolution.fps_boost && (
+              <li>
+                <b>FPS Boost: </b>
+                <span>{auto_super_resolution.fps_boost}</span>
+              </li>
+            )}
           </ul>
         </li>
       )

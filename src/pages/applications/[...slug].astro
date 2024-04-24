@@ -17,9 +17,14 @@ export async function getStaticPaths() {
 
 const { slug } = Astro.params;
 
-const reports = await getCollection("user_reports", ({ data }: any) => {
-  return data.project === slug;
-});
+const reports = await getCollection(
+  "user_reports_applications",
+  ({ data }: any) => {
+    return data.application.slug === slug;
+  }
+);
+
+console.log("reports", reports);
 
 let date: Date | null = null;
 type Props = CollectionEntry<"applications">;
