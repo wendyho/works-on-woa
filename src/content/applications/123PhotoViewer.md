@@ -5,5 +5,6 @@ link: https://apps.microsoft.com/store/detail/123-photos-view-edit-convert/9WZDN
 compatibility: emulation
 versionFrom: "2023.11.15.0"
 type: applications
+icon: 123PhotoViewer.svg
 ---
 
