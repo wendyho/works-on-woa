@@ -5,5 +5,6 @@ link: https://dotnet.microsoft.com/en-us/apps/maui
 compatibility: emulation
 versionFrom: "7.0.86"
 type: applications
+icon: NETRuntime.svg
 ---
 
