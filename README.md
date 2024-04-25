@@ -27,12 +27,4 @@ If you have any questions about updating or building this website, please contac
 
 Running the site locally will require `Node.js` and the `yarn` package manager.
 
-First, install dependencies with `yarn install`.
-
-The following commands can then be used to build and run the site locally:
-
-| Command        | Description                                                                                                                                                                                                                                                           |
-| -------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `yarn build`   | Builds the site in the `dist` folder of the root directory. The built pages are then indexed to provide static search results. This step can also be carried out separately with `yarn postbuild`.                                                                    |
-| `yarn dev`     | Runs the site in a development server, with hot module replacement to reflect updates to the code as soon as they are saved. Note that the search feature of the site will be based on the last time the site was formally built, and won't reflect any live updates. |
-| `yarn preview` | Runs the most recent build files in a development server. Unlike `yarn dev` this won't have live updates, but will be a closer representation of the site as it would be in deployment.                                                                               |
+Install dependencies with `yarn install` then, to run the site locally, run `yarn start:build`. Press CTRL+C to stop the local web server when you have finished.
