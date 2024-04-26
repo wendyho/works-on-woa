@@ -13,5 +13,5 @@ compatability_details:
 auto_super_resolution:
       compatibility: no
       enablement: N/A
-link: ""
+link: https://store.steampowered.com/app/508440/Totally_Accurate_Battle_Simulator/
 ---
