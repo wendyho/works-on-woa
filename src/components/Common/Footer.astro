@@ -1,6 +1,9 @@
 ---
 import { getCollection } from "astro:content";
 import { Image } from "astro:assets";
+import LinaroLogo from "../../assets/Linaro-White.svg";
+import type { CollectionEntry } from "astro:content";
+
 const today = new Date();
 const links = [
   {
@@ -31,8 +34,7 @@ const links = [
 
 const applications = await getCollection("applications");
 const games = await getCollection("games");
-import LinaroLogo from "../../assets/Linaro-White.svg";
-import type { CollectionEntry } from "astro:content";
+
 const path = Astro.url.pathname;
 ---
 
@@ -54,13 +56,24 @@ const path = Astro.url.pathname;
       />
     </a>
     <div class="m-2.5 flex items-start">
-      <span class="mx-1 h-8 hidden sm:block">|</span>
       {
-        games && path.includes("/games") ? (
-          <span class="ml-1 h-6">{games.length} games</span>
-        ) : (
-          <span class="ml-1 h-6">{applications.length} applications</span>
-        )
+        () => {
+          if (games && path.includes("/games"))
+            return (
+              <>
+                <span class="mx-1 h-8 hidden sm:block">|</span>
+                <span class="ml-1 h-6">{games.length} games</span>
+              </>
+            );
+          if (applications && path.includes("applications")) {
+            return (
+              <>
+                <span class="mx-1 h-8 hidden sm:block">|</span>
+                <span class="ml-1 h-6">{applications.length} applications</span>
+              </>
+            );
+          }
+        }
       }
     </div>
   </div>
