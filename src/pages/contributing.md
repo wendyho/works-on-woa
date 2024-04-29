@@ -6,6 +6,24 @@ description: How to contribute to this site
 
 # Contributing to this site
 
+## How to contribute
+
+You will need your own GitHub account. If you do not already have one, go to https://github.com, click on **Sign up** in the top right corner of the page and follow the instructions from there.
+
+Once you have your account, go to https://github.com/Linaro/works-on-woa/fork to *fork* (i.e. make your own copy) of the repository for this website.
+
+Once you have forked the repository, clone it to your computer with the `git clone` command. See https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository for more guidance if you need it.
+
+Once you have cloned the repository, make the necessary changes to the files. Guidance can be found below on the contents required and optional for each of the different files. If you need help, please create an issue via https://github.com/Linaro/works-on-woa/issues/new and we'll do our best to help.
+
+When you've made your changes, [commit them](https://github.com/git-guides/git-commit) to your own repository and then [push](https://github.com/git-guides/git-push) them back to GitHub.
+
+Finally, create a [Pull Request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork) to ask for your changes to be merged into the official repository. Your request will be reviewed and, if approved, merged into the site.
+
+**PLEASE NOTE!** It is **strongly** recommended that you try to build the website locally on your computer before pushing changes back to GitHub. This will ensure that the site builds correctly and you do not have any errors in your contribution. Please see the section *Developer Info* in the README file for instructions on how to do this.
+
+## File content details
+
 For applications and games, there is a defined *schema* to ensure consistency of data across the submissions.
 
 Each entry is stored in a file with a `.md` file extension. Application entries are stored under `src/content/applications` and game entries are stored under `src/content/games`.
@@ -19,7 +37,7 @@ Each file consists of:
 - 3 dashes `---`
 - Any additional notes in GitHub Markdown format
 
-## Applications schema
+### Applications schema
 
 Information stored in an application entry must follow this schema:
 
@@ -32,7 +50,7 @@ Information stored in an application entry must follow this schema:
 | `version_from` | string | The version that the software is available to use from.<br><br>For software that can be compiled from one version, but is only publicly available from the other (i.e., Python was able to be compiled way earlier than they started making WoA releases), the publicly available version is to be entered here, as that is typically what most end users would want.<br><br>The compilable from version (and any caveats associated with it) can be added freehand in the notes section. |
 | `link` | URL | A link to where the software can be downloaded, or the application's main website. |
 
-## Applications User Report schema
+### Applications User Report schema
 
 Users can add their own findings regarding an application that has been added to this site. The file can have any **unique** filename (with a `.md` extension) and the contents must follow this schema:
 
@@ -44,7 +62,7 @@ Users can add their own findings regarding an application that has been added to
 | `date_tested` | date | Optional. Format is `YYYY-MM-DD` |
 | `compatibility_details` | string | Your report of how the application ran for you. |
 
-## Games schema
+### Games schema
 
 | Field | Type | Notes |
 |-|-|-|
@@ -73,7 +91,7 @@ The `auto_super_resolution` block is optional but, if present, the attributes `c
       enablement: out of box
 ```
 
-## Games User Report schema
+### Games User Report schema
 
 Users can add their own findings regarding a game that has been added to this site. The file can have any **unique** filename (with a `.md` extension) and the contents must follow this schema:
 
@@ -94,7 +112,7 @@ Users can add their own findings regarding a game that has been added to this si
 
 Note that for user game reports, auto super resolution enablement can only be `opt-in` or `N/A`.
 
-## Categories
+### Categories
 
 For the application or game category list, this is constructed with an open square bracket `[`, one or more categories separated by commas, and a close square bracket `]`.
 
