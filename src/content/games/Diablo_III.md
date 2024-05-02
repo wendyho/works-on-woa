@@ -2,7 +2,6 @@
 name: Diablo III
 categories: [roleplaying]
 publisher: Blizzard Entertainment
-type: games
 compatibility: playable
 overall_status: Passing
 frame_rate: 60+ FPS
