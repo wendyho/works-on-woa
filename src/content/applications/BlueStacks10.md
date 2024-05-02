@@ -4,7 +4,6 @@ categories: ['app']
 link: https://www.bluestacks.com/download.html
 compatibility: emulation
 versionFrom: "10.5.0.1016"
-type: applications
 icon: BlueStacks.png
 ---
 
