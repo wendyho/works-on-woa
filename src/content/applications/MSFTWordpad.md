@@ -4,7 +4,6 @@ categories: ['app']
 link: https://www.microsoft.com
 compatibility: native
 versionFrom: "23H2"
-type: applications
 icon: MicrosoftWordpad.webp
 ---
 
