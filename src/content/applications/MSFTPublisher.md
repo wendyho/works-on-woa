@@ -4,7 +4,6 @@ categories: ['app']
 link: https://www.microsoft.com/en-us/microsoft-365/p/publisher/CFQ7TTC0HLKN
 compatibility: emulation
 versionFrom: "2308"
-type: applications
 icon: MicrosoftPublisher.avif
 ---
 
