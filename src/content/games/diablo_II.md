@@ -2,7 +2,6 @@
 name: "Diablo II: Resurrected"
 categories: [roleplaying]
 publisher: Blizzard Entertainment
-type: games
 compatibility: perfect
 overall_status: Passing
 frame_rate: 30-60 FPS
