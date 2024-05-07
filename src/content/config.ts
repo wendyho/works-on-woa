@@ -20,7 +20,6 @@ const applications = defineCollection({
   type: "content",
   schema: ({ image }) =>
     z.object({
-      type: z.literal("applications"),
       name: z.string(),
       icon: z.string().optional().default("application-icon-white.svg"),
       categories: z.array(reference("applications_categories")),
@@ -35,7 +34,6 @@ const games = defineCollection({
   type: "content",
   schema: ({ image }) =>
     z.object({
-      type: z.literal("games"),
       name: z.string(),
       icon: z.string().optional().default("gaming-icon-white.svg"),
       categories: z.array(reference("games_categories")),
