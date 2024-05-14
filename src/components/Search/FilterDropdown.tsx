@@ -14,11 +14,17 @@ import {
 import type { Filters, Results } from "./PageFind";
 import type { CollectionEntry } from "astro:content";
 
-type FilterKey = "category" | "compatibility";
+type FilterKey = "auto_super_resolution" | "category" | "compatibility";
 
-const filters: { key: FilterKey; name: string }[] = [
+const gameFilters: { key: FilterKey; name: string }[] = [
+  { key: "auto_super_resolution", name: "Auto SR" },
   { key: "category", name: "Category" },
-  { key: "compatibility", name: "Compatibility" },
+  { key: "compatibility", name: "Compatibility" }
+];
+
+const applicationFilters: { key: FilterKey; name: string }[] = [
+  { key: "category", name: "Category" },
+  { key: "compatibility", name: "Compatibility" }
 ];
 
 const FilterDropdown = ({
@@ -34,7 +40,7 @@ const FilterDropdown = ({
 
   // type: "games" | "applications"
 }) => {
-  // const initialFilters = type === "games" ? gamesFilters : filters;
+  const filters = type === "applications" ? applicationFilters : gameFilters;
 
   const [showFilters, setShowFilters] = createSignal<Record<string, boolean>>(
     filters.reduce(
@@ -83,10 +89,12 @@ const FilterDropdown = ({
     (e) => {
       const option = e.currentTarget.dataset.option as string;
       const { checked, name } = e.currentTarget;
+      // option = auto_super_resolution, name = value
       setFilter(option, name, checked);
     };
 
   const options = createMemo(() => ({
+    auto_super_resolution: ["Yes, out-of-box", "Yes, opt-in", "No", "Unknown"],
     category: categories.map((category) => category.data.name),
     compatibility:
       type === "games"

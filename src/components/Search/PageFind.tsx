@@ -32,6 +32,7 @@ export type Results = {
       CollectionEntry<"applications" | "games">["data"]["compatibility"],
       number
     >;
+    auto_super_resolution: Record<"yes, out-of-box"| "yes, opt-in" | "no" | "unknown", number>;
   };
   filters: {
     category: Record<
@@ -45,6 +46,7 @@ export type Results = {
       CollectionEntry<"applications" | "games">["data"]["compatibility"],
       number
     >;
+    auto_super_resolution: Record<"yes, out-of-box"| "yes, opt-in" | "no" | "unknown", number>;
   };
 };
 
@@ -60,6 +62,7 @@ const fetchResults = async ({
       ...filters,
       category: { any: filters.category },
       compatibility: { any: filters.compatibility },
+      auto_super_resolution: { any: filters.auto_super_resolution }
     },
     sort: query
       ? undefined
@@ -70,7 +73,9 @@ const fetchResults = async ({
 };
 
 const fetchFilterOptions = async () => {
-  return await pagefind.filters();
+  const x = await pagefind.filters();
+  console.log(x)
+  return x;
 };
 
 const getQueryParams = ({ filters, query }: SearchQuery) => {
@@ -81,6 +86,9 @@ const getQueryParams = ({ filters, query }: SearchQuery) => {
   }
   if (filters.compatibility?.length > 0) {
     url.searchParams.append("compatibility", filters.compatibility.join(","));
+  }
+  if (filters.auto_super_resolution?.length > 0) {
+    url.searchParams.append("auto_super_resolution", filters.auto_super_resolution.join(","));
   }
   return url;
 };
@@ -104,6 +112,7 @@ const PageFind = ({
       query: url.searchParams.get("query"),
       category: url.searchParams.get("category")?.split(","),
       compatibility: url.searchParams.get("compatibility")?.split(","),
+      auto_super_resolution: url.searchParams.get("auto_super_resolution")?.split(","),
       page: url.searchParams.get("page"),
     };
   });
@@ -120,10 +129,12 @@ const PageFind = ({
     filters: {
       category: pathParams().category ?? [],
       compatibility: pathParams().compatibility ?? [],
+      auto_super_resolution: pathParams().auto_super_resolution ?? [],
       type: [type],
     },
   });
 
+  // filter = auto_super_resolution, selection = value, value = (un)checked
   const setFilter: (
     filter: string,
     selection: string,
@@ -173,6 +184,7 @@ const PageFind = ({
     filters: {
       category: pathParams().category ?? [],
       compatibility: pathParams().compatibility ?? [],
+      auto_super_resolution: pathParams().auto_super_resolution ?? [],
       type: [type],
     },
   });
