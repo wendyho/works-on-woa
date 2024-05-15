@@ -47,9 +47,9 @@ const games = defineCollection({
       compatibility_details: z.string().optional(),
       auto_super_resolution: z
         .object({
-          compatibility: z.enum(["yes", "no", "N/A"]),
-          enablement: z.enum(["out of box", "opt-in", "N/A"]),
+          compatibility: z.enum(["yes, out-of-box", "yes, opt-in", "no", "unknown"]),
           fps_boost: z.string().optional(),
+          opt_in_steps: z.string().optional(),
         })
         .optional(),
       link: z.string().url().optional(),
