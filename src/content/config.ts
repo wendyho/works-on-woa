@@ -71,9 +71,9 @@ const user_reports_games = defineCollection({
     compatibility: z.enum(["perfect", "playable", "runs", "unplayable"]),
     auto_super_resolution: z
       .object({
-        compatibility: z.enum(["yes", "no", "N/A"]),
-        enablement: z.enum(["opt-in", "N/A"]),
+        compatibility: z.enum(["yes, opt-in", "no", "unknown"]),
         fps_boost: z.string().optional(),
+        opt_in_steps: z.string().optional()
       })
       .optional(),
   }),

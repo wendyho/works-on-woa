@@ -92,8 +92,8 @@ const Result = ({
                   </span>
                 </p>
                 <p>
-                  <b>Publisher: </b>
-                  <span>{project()?.meta.publisher}</span>
+                  <b>Auto SR: </b>
+                  <span>{project()?.meta.com}</span>
                 </p>
                 <Show when={project()?.meta.date_tested != null}>
                   <p>
