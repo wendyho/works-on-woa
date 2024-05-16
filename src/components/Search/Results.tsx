@@ -44,7 +44,6 @@ const Result = ({
   type: "applications" | "games";
 }) => {
   
-  
   const [project] = createResource(result, getProject);
   return (
     <Show when={!!project()} fallback={<div class="min-h-24" />}>

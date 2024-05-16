@@ -3,7 +3,6 @@ import { getEntries } from "astro:content";
 import { type CollectionEntry } from "astro:content";
 import dayjs from "dayjs";
 import { toTitleCase } from "../../util/formatting";
-import { createEffect, onMount } from "solid-js";
 
 type Props = { game: CollectionEntry<"games"> };
 const {

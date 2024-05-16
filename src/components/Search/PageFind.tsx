@@ -1,10 +1,8 @@
 import {
   Show,
-  createEffect,
   createMemo,
   createResource,
   createSignal,
-  onMount,
 } from "solid-js";
 import FilterDropdown from "./FilterDropdown";
 import Results from "./Results";
@@ -64,8 +62,7 @@ const fetchResults = async ({
   query: string | null;
   filters: Filters;
 }) => {
-  
-  const x = await pagefind.debouncedSearch(query, {
+  return await pagefind.debouncedSearch(query, {
     filters: {
       ...filters,
       category: { any: filters.category },
@@ -78,8 +75,6 @@ const fetchResults = async ({
           name: "asc",
         },
   });
-
-  return x;
 };
 
 const fetchFilterOptions = async () => {
