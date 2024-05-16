@@ -209,6 +209,7 @@ const PageFind = ({
 
   const [results] = createResource<Results, SearchQuery>(request, fetchResults);
   const [filterOptions] = createResource(request, fetchFilterOptions);
+
   createEffect(() => console.log(results()));
   return (
     <div
