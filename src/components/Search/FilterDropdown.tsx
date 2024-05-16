@@ -14,10 +14,10 @@ import {
 import type { Filters, Results } from "./PageFind";
 import type { CollectionEntry } from "astro:content";
 
-type FilterKey = "auto_super_resolution" | "category" | "compatibility";
+type FilterKey = "auto_super_resolution.compatibility" | "category" | "compatibility";
 
 const gameFilters: { key: FilterKey; name: string }[] = [
-  { key: "auto_super_resolution", name: "Auto SR" },
+  { key: "auto_super_resolution.compatibility", name: "Auto SR" },
   { key: "category", name: "Category" },
   { key: "compatibility", name: "Compatibility" }
 ];
@@ -38,7 +38,6 @@ const FilterDropdown = ({
   setFilter: (filter: string, selection: string, value: boolean) => void;
   categories: CollectionEntry<"games_categories" | "applications_categories">[];
 
-  // type: "games" | "applications"
 }) => {
   const filters = type === "applications" ? applicationFilters : gameFilters;
 
@@ -89,14 +88,13 @@ const FilterDropdown = ({
     (e) => {
       const option = e.currentTarget.dataset.option as string;
       const { checked, name } = e.currentTarget;
-      // option = auto_super_resolution, name = value
       setFilter(option, name, checked);
     };
 
   const options = createMemo(() => ({
-    auto_super_resolution: ["Yes, out-of-box", "Yes, opt-in", "No", "Unknown"],
-    category: categories.map((category) => category.data.name),
-    compatibility:
+    "auto_super_resolution.compatibility": ["yes, out-of-box", "yes, opt-in", "no", "unknown"],
+    "category": categories.map((category) => category.data.name),
+    "compatibility":
       type === "games"
         ? ["Perfect", "Playable", "Runs", "Unplayable"]
         : ["Native", "Emulation", "No", "Unknown"],

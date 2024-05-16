@@ -4,6 +4,7 @@ import {
   createMemo,
   createResource,
   createSignal,
+  onMount,
 } from "solid-js";
 import FilterDropdown from "./FilterDropdown";
 import Results from "./Results";
@@ -21,6 +22,10 @@ export type SearchQuery = { query: string | null; filters: Filters };
 export type Results = {
   results: any[];
   totalFilters: {
+    auto_super_resolution: {
+      compatibility: "yes, opt-in"| "yes, out-of-box"  |  "no" | "unknown";
+      opt_in_steps: "N/A"
+    };    
     category: Record<
       CollectionEntry<
         "applications_categories" | "games_categories"
@@ -32,9 +37,12 @@ export type Results = {
       CollectionEntry<"applications" | "games">["data"]["compatibility"],
       number
     >;
-    auto_super_resolution: Record<"yes, out-of-box"| "yes, opt-in" | "no" | "unknown", number>;
   };
   filters: {
+    auto_super_resolution: {
+      compatibility: "yes, opt-in"| "yes, out-of-box"  |  "no" | "unknown";
+      opt_in_steps: "N/A"
+    };
     category: Record<
       CollectionEntry<
         "applications_categories" | "games_categories"
@@ -46,7 +54,6 @@ export type Results = {
       CollectionEntry<"applications" | "games">["data"]["compatibility"],
       number
     >;
-    auto_super_resolution: Record<"yes, out-of-box"| "yes, opt-in" | "no" | "unknown", number>;
   };
 };
 
@@ -57,7 +64,8 @@ const fetchResults = async ({
   query: string | null;
   filters: Filters;
 }) => {
-  return await pagefind.debouncedSearch(query, {
+  
+  const x = await pagefind.debouncedSearch(query, {
     filters: {
       ...filters,
       category: { any: filters.category },
@@ -70,12 +78,12 @@ const fetchResults = async ({
           name: "asc",
         },
   });
+
+  return x;
 };
 
 const fetchFilterOptions = async () => {
-  const x = await pagefind.filters();
-  console.log(x)
-  return x;
+  return await pagefind.filters();
 };
 
 const getQueryParams = ({ filters, query }: SearchQuery) => {
@@ -97,9 +105,11 @@ const PageFind = ({
   shouldRedirect,
   categories,
   type,
+  auto_super_resolution
 }: {
   shouldRedirect: boolean;
   type: "games" | "applications";
+  auto_super_resolution: "yes, out-of-box"| "yes, opt-in" | "no" | "unknown";
   categories: (
     | CollectionEntry<"games_categories">
     | CollectionEntry<"applications_categories">
@@ -134,7 +144,6 @@ const PageFind = ({
     },
   });
 
-  // filter = auto_super_resolution, selection = value, value = (un)checked
   const setFilter: (
     filter: string,
     selection: string,
@@ -205,7 +214,6 @@ const PageFind = ({
   const [results] = createResource<Results, SearchQuery>(request, fetchResults);
   const [filterOptions] = createResource(request, fetchFilterOptions);
 
-  createEffect(() => console.log(results()));
   return (
     <div
       class={`w-full flex flex-col h-[${

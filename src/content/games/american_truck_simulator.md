@@ -11,5 +11,5 @@ date_tested: 2024-03-25
 compatibility: perfect
 auto_super_resolution:
     compatibility: unknown
-    enablement: N/A
+    opt_in_steps: N/A
 ---

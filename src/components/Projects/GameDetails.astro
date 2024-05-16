@@ -3,6 +3,7 @@ import { getEntries } from "astro:content";
 import { type CollectionEntry } from "astro:content";
 import dayjs from "dayjs";
 import { toTitleCase } from "../../util/formatting";
+import { createEffect, onMount } from "solid-js";
 
 type Props = { game: CollectionEntry<"games"> };
 const {
@@ -10,6 +11,7 @@ const {
 } = Astro.props;
 
 const categories = await getEntries(data.categories);
+
 const {
   icon,
   name,
@@ -133,7 +135,7 @@ const { Content } = await render();
           <ul class="flex gap-x-8">
             <li>
               <b>Compatible: </b>
-              <span>{auto_super_resolution.compatibility}</span>
+              <span data-pagefind-filter="auto_super_resolution.compatibility">{auto_super_resolution.compatibility}</span>
             </li>
             <li>
               <b>Opt In Steps: </b>
