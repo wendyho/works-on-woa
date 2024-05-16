@@ -7,7 +7,6 @@ import ProjectDetails from "../components/Projects/ProjectDetails.astro";
 import dayjs from "dayjs";
 import UserReports from "../components/Projects/UserReports.astro";
 import BaseLayout from "./BaseLayout.astro";
-import { createEffect } from "solid-js";
 
 type Props<T extends "games" | "applications"> = {
   project: CollectionEntry<T>;
@@ -23,7 +22,6 @@ const {
 } = project;
 
 const title = type === "applications" ? "Applications" : "Games";
-
 ---
 
 <BaseLayout
