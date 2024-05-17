@@ -7,4 +7,7 @@ overall_status: passing
 device_configuration: Surface Pro X or Surface Pro 9
 frame_rate: 60+ FPS
 date_tested: 2024-01-18
+auto_super_resolution:
+    compatibility: unknown
+    enablement: N/A
 ---

@@ -5,4 +5,7 @@ publisher: Yodo1 Ltd
 compatibility: runs
 overall_status: runs
 device_configuration: Surface Pro X or Surface Pro 9
+auto_super_resolution:
+    compatibility: no
+    enablement: N/A
 ---

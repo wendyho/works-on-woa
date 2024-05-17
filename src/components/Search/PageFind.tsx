@@ -11,6 +11,7 @@ import SearchIcon from "./SearchIcon";
 import ClearIcon from "./ClearIcon";
 import type { JSX } from "solid-js/h/jsx-runtime";
 import type { CollectionEntry, CollectionKey } from "astro:content";
+import { filters } from "../../../dist/pagefind/pagefind";
 const bundlePath = `${import.meta.env.BASE_URL}pagefind/`;
 const pagefind = await import(/* @vite-ignore */ `${bundlePath}pagefind.js`);
 
@@ -63,12 +64,14 @@ const fetchResults = async ({
   query: string | null;
   filters: Filters;
 }) => {
+
   return await pagefind.debouncedSearch(query, {
     filters: {
       ...filters,
-      category: { any: filters.category },
-      compatibility: { any: filters.compatibility },
-      auto_super_resolution: { any: filters.auto_super_resolution }
+      "category": { any: filters.category },
+      "compatibility": { any: filters.compatibility },
+      "auto_super_resolution.compatibility": { any: filters["auto_super_resolution.compatibility"]}
+      
     },
     sort: query
       ? undefined
@@ -160,6 +163,9 @@ const PageFind = ({
         ],
       },
     };
+
+    console.log(newSearch)
+
     setSearch(newSearch);
     setRequest(newSearch);
     setPage(1);
