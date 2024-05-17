@@ -11,7 +11,6 @@ import SearchIcon from "./SearchIcon";
 import ClearIcon from "./ClearIcon";
 import type { JSX } from "solid-js/h/jsx-runtime";
 import type { CollectionEntry, CollectionKey } from "astro:content";
-import { filters } from "../../../dist/pagefind/pagefind";
 const bundlePath = `${import.meta.env.BASE_URL}pagefind/`;
 const pagefind = await import(/* @vite-ignore */ `${bundlePath}pagefind.js`);
 
@@ -163,8 +162,6 @@ const PageFind = ({
         ],
       },
     };
-
-    console.log(newSearch)
 
     setSearch(newSearch);
     setRequest(newSearch);
