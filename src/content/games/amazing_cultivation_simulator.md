@@ -1,10 +1,10 @@
 ---
-name: "112 Operator"
+name: "Amazing Cultivation Simulator"
 categories: [unknown]
-publisher: Games Operators
+publisher: Gamera Games
 compatibility: perfect
 device_configuration: Snapdragon X Elite - 32 GB
-frame_rate: 101.2 FPS
+frame_rate: 176.3 FPS
 date_tested: 2024-04-01
 os_version: "26002.1"
 driver_id: 31.0.38.0

@@ -1,7 +1,7 @@
 ---
-name: "100 Doors Game - Escape from School"
+name: "Asphalt 8"
 categories: [unknown]
-publisher: Peaksel
+publisher: Gameloft
 compatibility: runs
 frame_rate: 0.0 FPS
 os_version: "0.0"
