@@ -63,12 +63,25 @@ const fetchResults = async ({
   query: string | null;
   filters: Filters;
 }) => {
+
+  let adjustedAutoSR: {[key: string]: string[]}= { 
+    "any": filters["auto_super_resolution.compatibility"]
+  }
+
+  if(filters["auto_super_resolution.compatibility"] && filters["auto_super_resolution.compatibility"].includes("unknown")){
+    adjustedAutoSR = {
+      "not": ["yes, out-of-box", "yes, opt-in", "no"]
+    }
+  }
+
   return await pagefind.debouncedSearch(query, {
     filters: {
       ...filters,
-      category: { any: filters.category },
-      compatibility: { any: filters.compatibility },
-      auto_super_resolution: { any: filters.auto_super_resolution }
+      "category": { any: filters.category },
+      "compatibility": { any: filters.compatibility },
+      "auto_super_resolution.compatibility": { 
+        "any": filters["auto_super_resolution.compatibility"]
+      }
     },
     sort: query
       ? undefined
@@ -160,6 +173,7 @@ const PageFind = ({
         ],
       },
     };
+
     setSearch(newSearch);
     setRequest(newSearch);
     setPage(1);

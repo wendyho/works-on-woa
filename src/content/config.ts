@@ -47,11 +47,13 @@ const games = defineCollection({
       compatibility_details: z.string().optional(),
       auto_super_resolution: z
         .object({
-          compatibility: z.enum(["yes, out-of-box", "yes, opt-in", "no", "unknown"]),
-          fps_boost: z.string().optional(),
-          opt_in_steps: z.string().optional(),
+          compatibility: z.enum(["yes, out-of-box", "yes, opt-in", "no", "unknown"]).default("unknown"),
+          fps_boost: z.string().optional().default("N/A"),
+          opt_in_steps: z.string().optional().default("N/A"),
         })
-        .optional(),
+        .optional().default({
+          compatibility: "unknown",
+        }),
       link: z.string().url().optional(),
     }),
 });
