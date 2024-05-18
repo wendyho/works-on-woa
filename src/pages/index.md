@@ -14,13 +14,13 @@ The information is intended to serve as a guide, but does not absolutely guarant
   <li>
     <a
       class="border-white border-2 px-4 py-2 rounded-xl hover:bg-white hover:text-black no-underline"
-      href="/games/">View Games</a
+      href="/applications/">View Applications</a
     >
   </li>
   <li>
     <a
       class="border-white border-2 px-4 py-2 rounded-xl hover:bg-white hover:text-black no-underline"
-      >View Applications</a
+      href="/games/">View Games</a
     >
   </li>
 </ul>
