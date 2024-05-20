@@ -14,6 +14,7 @@ import {
 import type { Filters, Results } from "./PageFind";
 import type { CollectionEntry } from "astro:content";
 
+
 type FilterKey = "auto_super_resolution.compatibility" | "category" | "compatibility";
 
 const gameFilters: { key: FilterKey; name: string }[] = [
